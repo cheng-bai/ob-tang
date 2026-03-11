@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Untitled",
+      "path": "00 想法/Untitled.md"
+    },
+    {
       "basename": "上海新高考基础知识梳理与总结-dollar",
       "path": "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "解答题",
       "path": "00-System/06-工具脚本/obsidian/by_type/解答题.md"
-    },
-    {
-      "basename": "q17_已知函数 f( xrigh",
-      "path": "00-System/06-工具脚本/obsidian/questions/q17_已知函数 f( xrigh.md"
     }
   ],
   "omittedPaths": [],

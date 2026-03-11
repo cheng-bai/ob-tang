@@ -1428,15 +1428,29 @@
     "expandedKeys": []
   },
   "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md": {
-    "scroll": 3475.287406348725,
+    "scroll": 3124.2193906884195,
     "cursor": {
       "from": {
         "line": 2668,
         "ch": 0
       },
       "to": {
-        "line": 3481,
-        "ch": 227
+        "line": 3139,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
+  },
+  "00 想法/Untitled.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 0
+      },
+      "to": {
+        "line": 2,
+        "ch": 0
       }
     },
     "expandedKeys": []
