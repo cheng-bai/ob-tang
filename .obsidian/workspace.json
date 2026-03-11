@@ -18,21 +18,8 @@
               "icon": "lucide-file",
               "title": "01零散资料"
             }
-          },
-          {
-            "id": "332e05a059865352",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "/"
-              },
-              "icon": "lucide-file",
-              "title": "同步ob系统"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +83,7 @@
             }
           },
           {
-            "id": "8936a70a98a250e0",
+            "id": "8abbe5c92f6481dc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -248,9 +235,19 @@
               "icon": "message-square",
               "title": "Copilot"
             }
+          },
+          {
+            "id": "892726efb8162882",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -258,6 +255,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -281,7 +279,7 @@
       "print:Print note": false
     }
   },
-  "active": "332e05a059865352",
+  "active": "a25cd46b1c280b55",
   "lastOpenFiles": [
     "Vault.md",
     "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar1-ai润色版本.md",

@@ -36,5 +36,6 @@
   "make-md",
   "copilot",
   "oz-clear-unused-images",
-  "print"
+  "print",
+  "obsidian-git"
 ]
