@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "01零散资料"
+                "path": "/"
               },
               "icon": "lucide-file",
-              "title": "01零散资料"
+              "title": "同步ob系统"
             }
           }
         ]
@@ -83,7 +83,7 @@
             }
           },
           {
-            "id": "8abbe5c92f6481dc",
+            "id": "ae8a89f928e1bb14",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
