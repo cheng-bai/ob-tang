@@ -11,12 +11,24 @@
             "id": "a25cd46b1c280b55",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "/"
+                "file": "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "同步ob系统"
+              "title": "上海新高考基础知识梳理与总结-dollar"
             }
           }
         ]
@@ -83,7 +95,7 @@
             }
           },
           {
-            "id": "031ebd918100f6ae",
+            "id": "6945732b502a9dda",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -251,7 +263,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 654.5
+    "width": 363.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -279,8 +291,12 @@
       "print:Print note": false
     }
   },
-  "active": "15156db9aeb1444e",
+  "active": "a25cd46b1c280b55",
   "lastOpenFiles": [
+    "10-题集-知识点拆分/05-知识汇总-数学知识按主题分类/05-解析几何/05-解析几何.md",
+    "Tags/公式.md",
+    "00 想法/02-个人笔记/汇总个人日记.md",
+    "🏠-首页.md",
     "Vault.md",
     "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar1-ai润色版本.md",
     "Skills/markdown-print-kit/SKILL.md",
@@ -307,10 +323,6 @@
     "Skills/markdown-print-kit1/templates/worksheet.html",
     "Skills/markdown-print-kit1/templates/print.css",
     "Skills/markdown-print-kit1/templates/print-teacher.css",
-    "Skills/markdown-print-kit1/templates/obsidian-templatper-选择题.md",
-    "Skills/markdown-print-kit1/templates/obsidian-template-解答题.md",
-    "Skills/markdown-print-kit1/templates/obsidian-template-填空题.md",
-    "Skills/markdown-print-kit1/templates/obsidian-style.md",
     "Skills/markdown-print-kit1/templates",
     "Skills/markdown-print-kit1/scripts/space-lines.lua",
     "Skills/markdown-print-kit1/scripts/render-teacher.sh",
