@@ -1,0 +1,29 @@
+/* 美化折叠答案 */
+details {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 12px 0;
+  background: #f9f9f9;
+}
+
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #2c5282;
+  padding: 4px 0;
+}
+
+details summary:hover {
+  color: #1a365d;
+}
+
+details[open] {
+  border-left: 4px solid #4299e1;
+  background: #ebf8ff;
+}
+
+details > p {
+  margin: 8px 0;
+  line-height: 1.8;
+}

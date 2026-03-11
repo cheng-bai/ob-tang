@@ -1,0 +1,2 @@
+"embedding_models:transformers#1769671055703": {"api_key":"","provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1769671055703,"key":"transformers#1769671055703"},
+"embedding_models:transformers#1771211724633": {"api_key":"","provider_key":"transformers","model_key":"TaylorAI/bge-micro-v2","dims":384,"max_tokens":512,"class_name":"EmbeddingModel","created_at":1771211724633,"key":"transformers#1771211724633","test_passed":true,"meta":{"name":"cb"}},

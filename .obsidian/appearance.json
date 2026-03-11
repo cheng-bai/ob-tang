@@ -1,0 +1,9 @@
+{
+  "translucency": false,
+  "theme": "system",
+  "cssTheme": "Blue Topaz",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "print-styles"
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "chengbai/白板/home.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "home"
+            }
+          },
+          {
+            "id": "555b62b98188d497",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "chengbai/日记/2026-01-23.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-23"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "11c640bf97253e09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad8e1f698102e41e",
+            "type": "leaf",
+            "state": {
+              "type": "reveal-preview-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Slide Preview"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "555822232ad607ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff684e2fa7c38f51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e67b271e4607e53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0fedc2311ef0be8c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "a610368983281324",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ".can",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ce6606e5f114613f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "38465f138fd436e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 282.5
+  },
+  "right": {
+    "id": "2cfef4b470df7a8d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fcbd8c0dd8aeb1fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47228e534c6f168e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "年终总结.canvas",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "年终总结 的反向链接列表"
+            }
+          },
+          {
+            "id": "5252364eb57668e9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "必要性探路.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 必要性探路"
+            }
+          },
+          {
+            "id": "5acc5d193c3a1567",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "53e10ebe8990d237",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "78d906e2668ebba9",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "自己的写作/打印学生/性质小题编汇.md"
+              },
+              "icon": "lucide-info",
+              "title": "性质小题编汇的笔记属性"
+            }
+          },
+          {
+            "id": "307dde1ba64cc183",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "3c5ff37241c608f8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "48d726eea65d912a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chengbai/日记/2026-01-23.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2026-01-23 的大纲"
+            }
+          },
+          {
+            "id": "d7ed7bedce0a4fea",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "书本 md 版本/框架与题集/题集-解析几何十大题型【教师版】.md"
+              },
+              "icon": "lucide-file",
+              "title": "插件不再活动"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 236.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:新建数据库": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "random-note:开始漫游笔记": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "omnisearch:Omnisearch": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "notion-like-tables:Create loom": false,
+      "homepage:Open homepage": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "ad8e1f698102e41e",
+  "lastOpenFiles": [
+    "chengbai/白板/home.canvas",
+    "chengbai/日记/2026-01-23.md",
+    "年终总结.canvas",
+    "chengbai/测试.canvas",
+    "未命名.canvas",
+    "chengbai/白板/数学大纲与白板.canvas",
+    "书本 md 版本/框架与题集/题型 框架.md",
+    "自己的写作/自己的框架.md",
+    "书本 md 版本/书本-- 高中数学积累本.md",
+    "自己的写作/编汇/编汇框架.md",
+    "chengbai/知识笔记/一种实用新型 Obsidian 实践之构建我的第二大脑 🧠.md",
+    "chengbai/Excalidraw/绘图.md",
+    "书本 md 版本/框架与题集/题集-圆锥曲线大题集大成之作（第一部）.md",
+    "书本 md 版本/思想方法杂.md",
+    "未命名 2.base",
+    "未命名 1.canvas",
+    "chengbai/日记/2026-01-22.md",
+    "chengbai/日记/2025-12-11.md",
+    "chengbai/日记/2025-12-01.md",
+    "自己的写作/绝对值、函数与集合综合题集.md",
+    "自己的写作/__主题__：四校八大高一期中好题精选及解析，包含高考难度定位与对应分数、分类讨论类题目、考虑临界类题目、双重量词类题目、等价转化类题目、数形结合类题目、赋值推理及必.md",
+    "绝对值、函数与集合综合题集.md",
+    "chengbai/日记/2025-11-22.md",
+    "chengbai/日记/2025-11-21.md",
+    "PixPin_2025-11-21_22-57-59.png",
+    "必要性探路.md",
+    "自己的写作/压轴与次压轴 题集.md",
+    "chengbai/承白高中框架与知识点/知识点/解析几何/数形结合.md",
+    "自己的写作/小专题/压轴三角函数.md",
+    "chengbai/日记/2025-11-14.md",
+    "自己的写作/压轴待整理好题.md",
+    "功底考/11.27高中数学功底考-教师版.md",
+    "功底考/FY25功底考-解析版1-10_121-160 1.md",
+    "PixPin_2025-03-23_09-53-24.png",
+    "未命名 4.base",
+    "xdf 讲义/【行远】高一数学寒假02函数综合（二）（教师版）1.pdf",
+    "未命名 3.base",
+    "学生反馈",
+    "未命名 1.base",
+    "未命名.base",
+    "image-131.png",
+    "image-130.png",
+    "image-129.png",
+    "image-128.png",
+    "image-127.png",
+    "image-126.png",
+    "image-125.png",
+    "image-124.png",
+    "书本 md 版本/胡源/归档 2",
+    "pdf/浙大特殊函数.pdf",
+    "pdf/胡源一轮.pdf",
+    "chengbai/未命名.canvas"
+  ]
+}

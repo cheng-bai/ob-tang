@@ -1,0 +1,123 @@
+@page {
+  size: A4;
+  margin: 16mm 15mm 16mm 18mm;
+}
+
+@page :right {
+  margin-left: 18mm;
+  margin-right: 14mm;
+}
+
+@page :left {
+  margin-left: 14mm;
+  margin-right: 18mm;
+}
+
+html, body {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif;
+  color: #111;
+  line-height: 1.5;
+  font-size: 12pt;
+}
+
+main.sheet {
+  width: 100%;
+}
+
+h1 {
+  font-size: 19pt;
+  margin: 0 0 8mm 0;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+h2 {
+  font-size: 14pt;
+  margin: 7mm 0 3mm;
+  border-bottom: 1px solid #c8c8c8;
+  padding-bottom: 1.5mm;
+}
+
+h3 {
+  font-size: 12.5pt;
+  margin: 5mm 0 2.5mm;
+  font-weight: 700;
+  background: #f6f6f6;
+  border-left: 2.2mm solid #b6b6b6;
+  padding: 1.2mm 2mm;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+p {
+  margin: 1.6mm 0;
+}
+
+ul {
+  margin: 1mm 0;
+  padding-left: 4mm;
+}
+
+li {
+  margin: 0.8mm 0;
+}
+
+/* Obsidian callout - blank 留白（教师版留白较小） */
+.callout.blank {
+  margin: 2mm 0 1.5mm;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  background: #fafafa;
+  border-left: 0.5mm solid #d0d0d0;
+  padding: 1.5mm 3mm;
+  min-height: auto !important;
+}
+
+.callout.blank::after {
+  display: none; /* 教师版不显示横线 */
+}
+
+.callout.blank .callout-title {
+  display: none;
+}
+
+.callout.blank .callout-content {
+  margin: 0;
+}
+
+.callout.blank ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.callout.blank li {
+  margin: 0.5mm 0;
+  font-size: 9pt;
+  color: #888;
+}
+
+/* 数学公式 */
+.katex-display {
+  margin: 2mm 0;
+}
+
+/* 答案区域（教师版醒目显示） */
+.answer-section {
+  margin-top: 3mm;
+  padding: 2.5mm 3.5mm;
+  background: #f0f7ff;
+  border-left: 0.6mm solid #4a90d9;
+  font-size: 10.5pt;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.answer-section strong {
+  color: #1a5fb4;
+  font-weight: 700;
+}
+
+.answer-section p {
+  margin: 1mm 0;
+}

@@ -1,0 +1,71 @@
+/* ========================================
+   打印专用样式 - 高中数学讲义
+   作者：承白老师
+   版本：1.0
+   ======================================== */
+
+/* ========== 打印媒体查询 ========== */
+@media print {
+  /* 1. 隐藏答案区域 */
+  .callout[data-callout="answer"] {
+    display: none !important;
+  }
+  
+  /* 2. 防止题目跨页 */
+  .question-block {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 15px;
+  }
+  
+  /* 3. 题目后不留分页 */
+  .question-block h3 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  
+  /* 4. 隐藏教学反思（学生版）*/
+  .print-hide-student,
+  #教学反思，
+  h2:has(> #教学反思) {
+    display: none !important;
+  }
+  
+  /* 5. 优化整体分页 */
+  body {
+    widows: 3;
+    orphans: 3;
+  }
+  
+  /* 6. 隐藏目录（可选，节省空间）*/
+  /* #目录，h2:has(> #目录) { display: none; } */
+  
+  /* 7. 优化表格分页 */
+  table {
+    page-break-inside: avoid;
+  }
+  
+  /* 8. 优化图片 */
+  img {
+    page-break-inside: avoid;
+  }
+}
+
+/* ========== 屏幕显示 ========== */
+@media screen {
+  /* 答案区域正常显示 */
+  .callout[data-callout="answer"] {
+    display: block !important;
+  }
+  
+  /* 题目区块优化 */
+  .question-block {
+    border-left: 3px solid #e2e8f0;
+    padding-left: 16px;
+    margin: 20px 0;
+  }
+  
+  .question-block:hover {
+    border-left-color: #4299e1;
+  }
+}

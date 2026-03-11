@@ -1,0 +1,70 @@
+# Obsidian Vault .gitignore
+
+# =======================
+# 系统文件
+# =======================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =======================
+# Obsidian 配置（可选）
+# =======================
+# 取消注释以下行来忽略 Obsidian 配置
+# .obsidian/workspace
+# .obsidian/graph.json
+
+# =======================
+# 临时文件
+# =======================
+*.tmp
+*.bak
+*.swp
+*~
+
+# =======================
+# 附件文件（大文件）
+# =======================
+# 忽略 PDF 文件（可按需注释）
+*.pdf
+
+# 忽略图片文件（可按需注释）
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+
+# 忽略视频/音频
+# *.mp4
+# *.mp3
+# *.wav
+
+# =======================
+# 第三方同步文件
+# =====================--
+.obsidian/plugins/obsidian-sync/config.json
+.obsidian/plugins/obsidian-dropboxhack/files
+.obsidian/plugins/obsidian-google-photos
+
+# =======================
+# 编译输出
+# =======================
+node_modules/
+dist/
+build/
+
+# =======================
+# 虚拟环境
+# =======================
+.venv/
+venv/
+env/
+.tmp-skill-venv/
+
+# =======================
+# 临时笔记
+# =======================
+**/TEMP/
+**/temp/
+**/草稿/

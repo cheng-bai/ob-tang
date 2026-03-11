@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Math Worksheet PDF"
+  short_description: "Print elegant math worksheets from Markdown"
+  default_prompt: "Generate polished printable math worksheet PDFs from Markdown."
