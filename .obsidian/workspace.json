@@ -35,24 +35,12 @@
             "id": "f194463a92338046",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "00 想法/02-个人笔记/汇总个人日记.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "path": "00 想法"
               },
               "icon": "lucide-file",
-              "title": "汇总个人日记"
+              "title": "00 想法"
             }
           }
         ],
@@ -120,7 +108,7 @@
             }
           },
           {
-            "id": "2ec477c73b65d616",
+            "id": "389d7caa2751408a",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -318,11 +306,11 @@
   },
   "active": "f194463a92338046",
   "lastOpenFiles": [
+    "00 想法/02-个人笔记/汇总个人日记.md",
     "00 想法/Untitled.md",
     "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md",
     "10-题集-知识点拆分/05-知识汇总-数学知识按主题分类/05-解析几何/05-解析几何.md",
     "Tags/公式.md",
-    "00 想法/02-个人笔记/汇总个人日记.md",
     "🏠-首页.md",
     "Vault.md",
     "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar1-ai润色版本.md",
