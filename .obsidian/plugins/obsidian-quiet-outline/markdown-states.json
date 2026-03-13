@@ -1386,14 +1386,14 @@
     "expandedKeys": []
   },
   "00 想法/02-个人笔记/汇总个人日记.md": {
-    "scroll": 29.21188195402529,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 9
+        "line": 2,
+        "ch": 1
       },
       "to": {
-        "line": 13,
+        "line": 2,
         "ch": 1
       }
     },
