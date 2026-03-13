@@ -35,24 +35,15 @@
             "id": "f194463a92338046",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "00 想法/02-个人笔记/汇总个人日记.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "aFile": ".smart-env/multi/RemNoteExport_xdf--math_md_2026-01-29_04-43_1题目_题目收集_斜率构造_已知_a__in_R_，函数_f(x)=_left_{_begin{array}{ll}a+_frac{2}{x}_&_(x_0)____x^2+1_&_(x__leq_0)_end___)}{x_1}=_frac{f_left(x_2_right)}{x_2}_=_frac{f_left(x_3_right)}{x_3.ajson",
+                "bFile": ".smart-env/multi/RemNoteExport_xdf--math_md_2026-01-29_04-43_1题目_题目收集_斜率构造_已知_a__in_R_，函数_f(x)=_left_{_begin{array}{ll}a+_frac{2}{x}_&_(x_0)____x^2+1_&_(x__leq_0)_end___)}{x_1}=_frac{f_left(x_2_right)}{x_2}_=_frac{f_left(x_3_right)}{x_3.ajson",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "汇总个人日记"
+              "icon": "diff",
+              "title": "Diff: RemNoteExport_xdf--math_md_2026-01-29_04-43_1题目_题目收集_斜率构造_已知_a__in_R_，函数_f(x)=_left_{_begin{array}{ll}a+_frac{2}{x}_&_(x_0)____x^2+1_&_(x__leq_0)_end___)}{x_1}=_frac{f_left(x_2_right)}{x_2}_=_frac{f_left(x_3_right)}{x_3.ajson  (Index)"
             }
           }
         ],
@@ -115,12 +106,12 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           },
           {
-            "id": "2ec477c73b65d616",
+            "id": "9a9d4215114e6914",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -301,7 +292,7 @@
       "bases:新建数据库": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
       "smart-connections:Smart Connections: Open random connection": false,
@@ -318,11 +309,11 @@
   },
   "active": "f194463a92338046",
   "lastOpenFiles": [
+    "00 想法/02-个人笔记/汇总个人日记.md",
     "00 想法/Untitled.md",
     "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md",
     "10-题集-知识点拆分/05-知识汇总-数学知识按主题分类/05-解析几何/05-解析几何.md",
     "Tags/公式.md",
-    "00 想法/02-个人笔记/汇总个人日记.md",
     "🏠-首页.md",
     "Vault.md",
     "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar1-ai润色版本.md",
