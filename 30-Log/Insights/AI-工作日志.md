@@ -10,6 +10,40 @@ tags: [系统/日志, AI助手]
 
 ---
 
+## 2026-03-13（第二轮）
+
+### 1. 库空间优化与 Git 同步
+- **PDF 文件清理**：删除 `10-Atlas/03-上海教材md/` 下的 25 个 PDF 文件，库大小从 1.4GB 优化到 1.2GB（节省 ~200MB）。
+- **文件推送**：成功推送 3 个待上传的本地提交到 GitHub 远程库，完全同步状态。
+- **缓存清理**：清理 `.makemd/` 和 Obsidian 临时缓存文件，优化库的整体空间占用。
+
+### 2. 跨平台 Git 工作流规范化
+- **优化 .gitignore**：完善跨平台支持，新增 macOS（`.DS_Store` 等）、Windows（`Thumbs.db` 等）、编辑器临时文件、Obsidian 缓存规则。
+- **创建工作流指南**：编写详细的 `GIT_WORKFLOW.md`，包含：
+  - macOS 和 Windows 初始化配置差异（`core.autocrlf` 设置）
+  - 日常提交规范（feat/fix/chore/docs）
+  - 跨平台常见问题解决方案（换行符、文件名大小写、编码等）
+  - 多设备同步工作流和冲突处理
+- **Git 配置验证**：确认 `core.ignorecase=true` 和 `core.precomposeunicode=true` 已启用，保证跨平台兼容性。
+
+### 3. 清理 Obsidian 自动生成文件
+- 执行 `git rm -r --cached .` 清除 Git 追踪的缓存文件。
+- 致使 `.gitignore` 重新生效，避免将 Obsidian 自动生成的索引文件和缓存提交到版本库。
+- 工作树最终恢复为完全干净状态。
+
+**主要变更文件：**
+- ✅ `.gitignore` —— 跨平台规则优化
+- ✅ `GIT_WORKFLOW.md` —— 新增工作流指南
+- ✅ 删除 PDF（无 git 追踪，仅本地空间释放）
+
+**当前库状态：**
+- 总大小：1.2GB（优化后）
+- Git 本地 = 远程：✓ 完全同步
+- 工作区：✓ 干净（无未提交改动）
+- 跨平台配置：✓ Windows + macOS 已就绪
+
+---
+
 ## 2026-03-13
 
 ### 1. 目录结构深度清理整合
