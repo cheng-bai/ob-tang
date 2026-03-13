@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f194463a92338046",
+            "id": "a25cd46b1c280b55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,139 @@
               "icon": "lucide-file",
               "title": "汇总个人日记"
             }
+          },
+          {
+            "id": "021b0edb12bac73f",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".trash/OpenClaw 从入门到精通指南 - 飞书云文档.md",
+                "bFile": ".trash/OpenClaw 从入门到精通指南 - 飞书云文档.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: OpenClaw 从入门到精通指南 - 飞书云文档  (Working Tree)"
+            }
+          },
+          {
+            "id": "cf9ee6b481867e6b",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".smart-env/multi/03-上海教材md_选修二第6章计数原理_选修二第6章计数原理-dollar_md.ajson",
+                "bFile": ".smart-env/multi/03-上海教材md_选修二第6章计数原理_选修二第6章计数原理-dollar_md.ajson",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 03-上海教材md_选修二第6章计数原理_选修二第6章计数原理-dollar_md.ajson  (Working Tree)"
+            }
+          },
+          {
+            "id": "2dfc691e4f116362",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".smart-env/multi/🗺️-题目地图_md.ajson",
+                "bFile": ".smart-env/multi/🗺️-题目地图_md.ajson",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 🗺️-题目地图_md.ajson  (Index)"
+            }
+          },
+          {
+            "id": "df24cbdc31b75b1f",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".smart-env/multi/🎯-重难点地图_md.ajson",
+                "bFile": ".smart-env/multi/🎯-重难点地图_md.ajson",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 🎯-重难点地图_md.ajson  (Index)"
+            }
+          },
+          {
+            "id": "6a07f87194c2244d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 想法/第十一章 平面直角坐标系中的直线.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "第十一章 平面直角坐标系中的直线"
+            }
+          },
+          {
+            "id": "e490396201c400c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Clippings/Thread by @Ericup2023.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Thread by @Ericup2023"
+            }
+          },
+          {
+            "id": "d2d55363a938e8f3",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              },
+              "icon": "lucide-file",
+              "title": "https://www.make.md/static/latest.md"
+            }
+          },
+          {
+            "id": "74ec3fcb62042c5d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "30-Log"
+              },
+              "icon": "lucide-file",
+              "title": "30-Log"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -63,7 +194,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:教材",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +226,7 @@
             }
           },
           {
-            "id": "11d731352d1fea5a",
+            "id": "d1652e73b956fbca",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -109,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 348.5024719238281
+    "width": 373.5024719238281
   },
   "right": {
     "id": "3d5622e30693f7f4",
@@ -187,13 +318,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " 想法/02-个人笔记/2024-12-11.md",
+                "file": "Clippings/Thread by @Ericup2023.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-12-11 的大纲"
+              "title": "Thread by @Ericup2023 的大纲"
             }
           },
           {
@@ -212,8 +343,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           },
           {
@@ -222,8 +353,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -232,10 +363,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "打印版本.md"
+                "file": "Clippings/Thread by @Ericup2023.md"
               },
               "icon": "lucide-info",
-              "title": "打印版本的笔记属性"
+              "title": "Thread by @Ericup2023的笔记属性"
             }
           },
           {
@@ -267,16 +398,15 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
       "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
       "smart-connections:Smart Connections: Open random connection": false,
@@ -285,50 +415,51 @@
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false,
       "callout-manager:Insert Callout": false,
+      "bases:新建数据库": false,
       "terminal:Open terminal": false,
       "copilot:Open Copilot Chat": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "print:Print note": false
     }
   },
-  "active": "892726efb8162882",
+  "active": "d1652e73b956fbca",
   "lastOpenFiles": [
-    "00 想法/02-个人笔记/汇总个人日记.md",
-    "00 想法/想法.md",
+    "00-System/30-Log/30-Log.md",
+    "00-System/30-Log/Insights/2026-03-11-01-索引与双链更新.md",
+    "00-System/🗺️-题目地图.md",
+    "00-System/Todo.md",
+    "00-System/🏷️-标签体系说明.md",
+    "打印版本.md",
+    "Tags/#excalidraw",
+    "00-System/Assets/Assets.md",
+    "00-System/06-工具脚本/📖-搜索使用指南.md",
+    "Clippings/Thread by @Ericup2023.md",
+    "conflict-files-obsidian-git.md",
+    "bfg-1.14.0.jar",
+    "00 想法/第十一章 平面直角坐标系中的直线.md",
     "00 想法/Untitled.md",
+    "00 想法/文件整理日志.md",
+    "00 想法/承白一轮复习用书.md",
+    "00 想法/想法.md",
+    "00 想法/remnote 迁移.md",
     "00 想法/ai收获.md",
-    "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md",
-    "10-题集-知识点拆分/05-知识汇总-数学知识按主题分类/05-解析几何/05-解析几何.md",
-    "Tags/公式.md",
-    "🏠-首页.md",
-    "Vault.md",
-    "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar1-ai润色版本.md",
-    "Skills/markdown-print-kit/SKILL.md",
-    "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar.md",
-    "Skills/markdown-print-kit/教师写作清单.md",
-    "Skills/markdown-print-kit/快速开始.md",
-    "Skills/markdown-print-kit/📋 markdown-print-kit 技能定义（更新版）.md",
-    "01零散资料/高三冲刺Q 老师/4 润色.md",
-    "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第4讲.md",
-    "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-测试版本.md",
-    "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-最好的版本.md",
-    "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第1讲.md",
-    "01零散资料/高三冲刺Q 老师/Untitled.md",
-    "01零散资料/高三冲刺Q 老师/优雅排版的版本.md",
-    "copilot/memory/Recent Conversations.md",
-    "copilot/copilot-conversations/使用_skills_对这个文档处理.打印@20260311_141213.md",
-    "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第2讲.md",
+    "00 想法/02-个人笔记/汇总个人日记.md",
+    "00 想法/.md",
+    "Clippings/Thread by @cryptonerdcn.md",
+    "Clippings/Thread by @californiapost.md",
+    "Clippings/The complete claude code tutorial 完整的 claude 代码教程.md",
+    "Clippings/Obsidian Web Clipper.md",
+    "Clippings/OpenClaw 从入门到精通指南 - 飞书云文档.md",
+    "Clippings/Thread by @indigox.md",
+    "Clippings/Thread by @dotey.md",
+    "02精品资料-md 版本-待整理/viewer.html",
     "copilot/memory",
-    "Skills/markdown-print-kit/examples/函数与集合综合题集（打印版）.md",
     "Skills/markdown-print-kit1/templates/worksheet.html",
     "Skills/markdown-print-kit1/templates/print.css",
     "Skills/markdown-print-kit1/templates/print-teacher.css",
     "Skills/markdown-print-kit1/templates",
     "Skills/markdown-print-kit1/scripts/space-lines.lua",
     "Skills/markdown-print-kit1/scripts/render-teacher.sh",
-    "Skills/markdown-print-kit1/scripts/render-student.sh",
-    "Skills/markdown-print-kit1/scripts/remove-answers.lua",
-    "Skills/markdown-print-kit1/scripts/polish.sh",
     "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_6_c21efba53104e47fe5f3c5612da7417f.jpg",
     "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_5_745175163a32760aa9510eac2fcd6c6d.jpg",
     "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_4_0d655de133d19b99b7863486cf8dab46.jpg",

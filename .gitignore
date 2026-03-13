@@ -47,6 +47,9 @@ Desktop.ini
 .obsidian/plugins/obsidian-dropboxhack/files
 .obsidian/plugins/obsidian-google-photos
 
+
+# 忽略所有插件的配置文件（包含密钥、隐私信息）
+.obsidian/plugins/**/data.json
 # =======================
 # 编译输出
 # =======================
