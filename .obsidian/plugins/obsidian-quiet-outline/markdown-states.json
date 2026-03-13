@@ -2198,7 +2198,7 @@
     "expandedKeys": []
   },
   "10-Atlas/01零散资料/13-题目集.md": {
-    "scroll": 46.04654940670569,
+    "scroll": 1.6452449986666404,
     "cursor": {
       "from": {
         "line": 9,
@@ -2226,15 +2226,15 @@
     "expandedKeys": []
   },
   "10-Atlas/01零散资料/绝对值、函数与集合综合题集.md": {
-    "scroll": 150.26268334126488,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 146,
-        "ch": 335
+        "line": 309,
+        "ch": 3
       },
       "to": {
-        "line": 146,
-        "ch": 335
+        "line": 309,
+        "ch": 3
       }
     },
     "expandedKeys": []
@@ -2248,6 +2248,20 @@
       },
       "to": {
         "line": 8,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "10-Atlas/01零散资料/承白一轮复习用书.md": {
+    "scroll": 9.001977454727824,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
         "ch": 0
       }
     },
