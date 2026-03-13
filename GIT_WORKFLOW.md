@@ -21,6 +21,10 @@ git config core.safecrlf warn            # 警告不安全的换行符转换
 
 # 3. 编码配置
 git config core.quotepath false          # 支持中文文件名显示
+
+# 4. 全局缓存忽略配置（防止各项目缓存污染）
+touch ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
 ```
 
 ### Windows 上首次配置
@@ -88,6 +92,122 @@ git push origin main
 # 或设置跟踪关系后直接推送
 git push
 ```
+
+---
+
+## 🛡️ 防止缓存文件提交
+
+### 问题：本地电脑产生的缓存（.cache、.DS_Store 等）被推送
+
+### 解决方案
+
+#### 方案 1️⃣：全局 .gitignore（推荐 - 一次配置，所有项目生效）
+
+```bash
+# 1. 创建全局忽略文件
+touch ~/.gitignore_global
+
+# 2. 添加常见缓存规则
+cat >> ~/.gitignore_global << 'EOF'
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Obsidian & 第三方工具
+.makemd/
+.smart-env/
+.obsidian/cache/
+.obsidian/workspace.json
+
+# 编辑器
+.vscode/settings.json
+.idea/
+EOF
+
+# 3. 配置 Git 使用全局文件
+git config --global core.excludesfile ~/.gitignore_global
+
+# 4. 验证配置
+git config --global core.excludesfile
+```
+
+#### 方案 2️⃣：项目级 .gitignore（已在本项目配置）
+
+本库的 `.gitignore` 已包含常见缓存规则，如需添加：
+
+```bash
+# 添加新规则
+echo "新规则" >> .gitignore
+
+# 提交更新
+git add .gitignore
+git commit -m "chore: 添加忽略规则"
+```
+
+#### 方案 3️⃣：Git 预提交钩子（自动检查）
+
+本库已在 `.git/hooks/pre-commit` 配置自动检查机制：
+
+```bash
+# 钩子会在提交时自动检查是否有缓存文件
+# 如果发现问题，会阻止提交并给出修复提示
+
+# 若需强制提交，可使用：
+git commit --no-verify
+```
+
+#### 方案 4️⃣：定期清理缓存
+
+```bash
+# 创建清理脚本
+cat > cleanup-cache.sh << 'EOF'
+#!/bin/bash
+echo "🧹 清理缓存文件..."
+rm -rf .obsidian/cache
+rm -f .obsidian/workspace.json
+rm -rf .makemd/
+find . -name ".DS_Store" -delete
+find . -name "Thumbs.db" -delete
+echo "✅ 清理完成"
+EOF
+
+chmod +x cleanup-cache.sh
+
+# 在 push 之前运行
+./cleanup-cache.sh
+git add .
+git commit -m "chore: 清理缓存"
+git push
+```
+
+### 了解 .gitignore 的工作原理
+
+```bash
+# 检查文件是否被忽略
+git check-ignore -v <文件名>
+
+# 查看目前忽略的所有规则
+git status -u
+
+# 强制追踪被忽略的文件（不推荐）
+git add -f <文件>
+```
+
+### ⚡ 快速参考
+
+| 场景 | 命令 |
+|:---|:---|
+| 检查状态前 | `git clean -fd`（删除未追踪文件） |
+| 提交前清理 | `./cleanup-cache.sh` 或手动清理 |
+| 如果已推送缓存 | `git rm --cached <文件>` 然后提交 |
+| 查看所有忽略规则 | `git config --global core.excludesfile` |
 
 ---
 
