@@ -153,12 +153,24 @@
             "id": "74ec3fcb62042c5d",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "30-Log"
+                "file": "Clippings/Thread by @wang_xiaolou.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "30-Log"
+              "title": "Thread by @wang_xiaolou"
             }
           }
         ],
@@ -226,7 +238,7 @@
             }
           },
           {
-            "id": "d1652e73b956fbca",
+            "id": "e5523742ebdc314e",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -406,7 +418,6 @@
       "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-connections:Smart Connections: Open connections view": false,
       "smart-connections:Smart Lookup: Open lookup view": false,
       "smart-connections:Smart Connections: Open random connection": false,
@@ -422,8 +433,9 @@
       "print:Print note": false
     }
   },
-  "active": "d1652e73b956fbca",
+  "active": "74ec3fcb62042c5d",
   "lastOpenFiles": [
+    "Clippings/Thread by @wang_xiaolou.md",
     "00-System/30-Log/30-Log.md",
     "00-System/30-Log/Insights/2026-03-11-01-索引与双链更新.md",
     "00-System/🗺️-题目地图.md",
@@ -451,7 +463,6 @@
     "Clippings/Obsidian Web Clipper.md",
     "Clippings/OpenClaw 从入门到精通指南 - 飞书云文档.md",
     "Clippings/Thread by @indigox.md",
-    "Clippings/Thread by @dotey.md",
     "02精品资料-md 版本-待整理/viewer.html",
     "copilot/memory",
     "Skills/markdown-print-kit1/templates/worksheet.html",
