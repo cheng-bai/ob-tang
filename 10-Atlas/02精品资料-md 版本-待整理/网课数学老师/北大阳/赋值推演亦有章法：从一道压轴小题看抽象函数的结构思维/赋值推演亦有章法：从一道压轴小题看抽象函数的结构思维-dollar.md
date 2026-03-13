@@ -1,0 +1,49 @@
+## 题目 (不定项选择):
+
+$f\left( x\right)$ 是定义在 $R$ 上的函数,对 $\forall x, y \in  R$ 有 $f\left( {x + y}\right)  - f\left( {x - y}\right)  = f\left( {x + 2}\right) f\left( {y + 2}\right)$ , 且 $\mathrm{f}\left( 0\right)  \neq  0$ ,则下列说法正确的有( )
+
+A. $\mathrm{f}\left( \mathrm{x}\right)  - \mathrm{f}\left( {-\mathrm{x}}\right)  = 0$
+
+B. $\mathrm{f}\left( {\mathrm{x} + 4}\right)  - \mathrm{f}\left( \mathrm{x}\right)  = 0$
+
+C. $f\left( 0\right)  + f\left( 2\right)  + f\left( 4\right)  + \cdots  + f\left( {2024}\right)  =  - 2$
+
+D. ${f}^{2}\left( 1\right)  + {f}^{2}\left( 2\right)  + {f}^{2}\left( 3\right)  + \cdots {f}^{2}\left( {2024}\right)  = {4048}$
+
+这道题目是典型的抽象函数问题。给出一个抽象函数的表达式, 让我们推算一些函数性质与函数值的属性。对于抽象函数问题, 基本的操作手段就是赋值。凡是涉及到考察抽象函数的性质与函数值的问题, 都必然离不开赋值法。但是, 如何赋值, 赋什么值, 赋完值之后如何利用这些结果去推算, 都是这类题目的难点。凡是操作就离不开行为理念, 换而言之, 就是思维方式。我们在数列经验分享中为大家分析过函数与数列问题的自由度。 它们的自由度是无限的, 但是利用控制的理念就能达到由少及多, 从一小部分出发控制全局的效果。
+
+在数列经验分享下篇中, 我们为大家着重讲解了抽象函数的解题理念。对于研究函数性质的选项 (奇偶性, 周期性等函数形态), 我们的赋值需要尝试实现相应的函数形态控制 (如奇偶性是一半的定义域控制另一半, 周期性是线段上的函数值递推到全体)。而对于具体函数值的问题, 要么就是单纯求一个函数值, 要么就是求很多个函数值的组合, 后者常常都以数列的形式给出。此时的赋值过程要遵循的原则就是看你赋值出来的式子具有什么控制效果, 能不能利用你的赋值式加上递推来求出所有想要的东西。以这道题为例, 我们再一次给大家强化一下这类题目的解题策略。
+
+首先看 A 选项, 显然这等价于偶函数, 因此我们赋值就希望让函数值里出现一正一负。 对照题干,函数 $\mathrm{f}$ 下的括号里有 $\mathrm{x} + \mathrm{y},\mathrm{x} - \mathrm{y},\mathrm{x} + 2,\mathrm{y} + 2$ 四部分。其实结合我们刚才的理念, 大家已经可以看出来了, 后两个就是拿来做我们上述的第二种递推的。而前两个混搭着 $\mathrm{x}$ 与 $\mathrm{y}$ ,还又加又减,可操作的余地很强。怎么赋值能搞出一正一负? 显然取个 $\mathrm{x} = 0$ 就造出来 $\mathrm{A}$ 选项需要的式子 $\mathrm{f}\left( \mathrm{y}\right)  - \mathrm{f}\left( {-\mathrm{y}}\right)  = \mathrm{f}\left( 2\right) \mathrm{f}\left( {\mathrm{y} + 2}\right)$ 了。这里要注意: 研究一个问题需要的赋值未必能一步到位，我们需要结合赋值不断进行充要替换与抛弃来简化问题。 这需要我们不断的切换思维焦点,寻找下一步能干的事情。A 选项显然等价于对任意 $\mathrm{y}$ , 都有 $\mathrm{f}\left( 2\right) \mathrm{f}\left( {\mathrm{y} + 2}\right)  = 0$ ,这个又等价于要么 $\mathrm{f}$ 恒为 0,要么 $\mathrm{f}\left( 2\right)  = 0$ 。但是已知 $\mathrm{f}\left( 0\right)  \neq  0$ 就直接给第一种情况判了死刑，因此原命题就等价于 $\mathrm{f}\left( 2\right)  = 0$ 。尝试证明或否定它显然就是下一步的目标 (思维焦点转移过来)。既然是求一个具体函数值, 那么就来试试直接把 2 搞出来吧。正好后两个都是有 +2 的,于是直接令 $x = y = 0$ ,得到 $f\left( 0\right)  - f\left( 0\right)  = {\left\lbrack  f\left( 2\right) \right\rbrack  }^{2}$ , 显然这就证明了 $\mathrm{f}\left( 2\right)  = 0$ ,于是 $\mathrm{A}$ 正确。
+
+对于 $\mathrm{B}$ 我们也是同理。现在需要看相差 4 的函数值之间的递推了。怎么赋值能让两个括号内的东西差出 4 来? 显然是 $\mathrm{y} = 2$ ,得到 $\mathrm{f}\left( {\mathrm{x} + 2}\right)  - \mathrm{f}\left( {\mathrm{x} - 2}\right)  = \mathrm{f}\left( {\mathrm{x} + 2}\right) \mathrm{f}\left( 4\right)$ 。同理, $\mathrm{B}$ 选项就等价于 $\mathrm{f}\left( 4\right)  = 0$ 。那么,怎么研究 $\mathrm{f}\left( 4\right)$ 呢? 还是跟刚才一样,想要造出 4 那就让 $x + 2 = y + 2 = 4$ 即可,代入得到 $f\left( 4\right)  - f\left( 0\right)  = {\left\lbrack  f\left( 4\right) \right\rbrack  }^{2}$ 。这么看的话,正好 $f\left( 4\right)$ 与已知中的 $\mathrm{f}\left( 0\right)$ 之间建立了严格的控制关系。既然 $\mathrm{f}\left( 0\right)  \neq  0$ ,因此自然可得到 $\mathrm{f}\left( 4\right)  \neq  0,1$ 。因此不仅 $\mathrm{f}\left( 4\right)  \neq  0$ ,而且 $\mathrm{f}$ 也不可能恒为 0 了,这就排除了 $\mathrm{B}$ 选项。
+
+提问这道题的同学说, 当时想着非要把周期给搞出来, 其实这是完全没必要的, 因为 $\mathrm{C}$ 和 $\mathrm{D}$ 研究的是数列求和问题。这类问题的常见思维就是找出所求各项之间的递推关系, 再配合一下赋值得到的初始值来用数列技术求解。我们目前得到 $f\left( 2\right)  = 0$ 以及 $f\left( 4\right)  \neq  0,1$ , 而 $C$ 选项里, $x$ 的值是公差为 2 的,因此我们最好能找到一个 $f\left( x\right)$ 控制 $f\left( {x + 2}\right)$ 的方式, 或者至少得是个类似的控制。而刚才我们得到过一个 $f\left( {x + 2}\right)  - f\left( {x - 2}\right)  = f\left( {x + 2}\right) f\left( 4\right)$ , 改写一下就是 $\left( {1 - f\left( 4\right) }\right) f\left( {x + 2}\right)  = f\left( {x - 2}\right)$ 。而 $1 - f\left( 4\right)$ 是个非零常数,于是这个式子本质上是一个用长度 4 的线段控制整个 $\mathrm{R}$ 上函数值的式子。这其实距离我们刚才的目标已经迈进一大步了。我们要研究 $2,4,6\cdots$ 的函数值,现在跳 4 步的控制实现了,2 处的函数值也知道, 如果我再知道一个 4 处的函数值, 这个控制不就成立了吗? 大家注意, 有的同学可能会问, 那我非要找出一个跳 2 步的控制行不行呢? 我们在逻辑上分析一下这两条路对应的策略。即便你真的找到一个跳 2 步的控制, 你也可以用它来由 2 算出 4 处的值。这说明这条路一样可以得到 $\mathrm{f}\left( 4\right)$ 的值,于是也就是说 $\mathrm{f}\left( 4\right)$ 的值肯定是可以推出来的。既然这样的话, 是强行再找一个递推简单呢? 还是再直接算一个具体函数值简单呢? 当然是后者直观上更加容易。因此, 这里选择计算 f(4) 的策略, 是最容易的。想出这种策略的思想依据, 正是我们前面说到的控制。那么, 现在我们有一个跳 4 步的递推, 这时候 2 没法跳到 4 来,于是还得另外考虑 $\mathrm{f}\left( 2\right)  = 0$ 以外的信息。大家注意: 凡是你再赋值过程中得到的结果, 最好都不要轻易忽视。刚才我们除了算出过 $\mathrm{f}\left( 2\right)  = 0$ 之外,还得到过什么结果呢? 是不是还有 A 选项的偶函数啊? 结合当前目标考量一下,这不就是说 $\mathrm{f}\left( 4\right)  = \mathrm{f}\left( {-4}\right)$ 吗? 正好,我们刚才得到了一个跳 4 步的递推关系式 $\left( {1 - f\left( 4\right) }\right) f\left( {x + 2}\right)  = f\left( {x - 2}\right)$ ,所谓的 “公比” 也是被 $\mathrm{f}\left( 4\right)$ 控制的。我从 $\mathrm{f}\left( 4\right)$ 出发,往 $\mathrm{x}$ 轴负方向反跳两步就得到了 $\mathrm{f}\left( {-4}\right)$ ,正好用上这二者的关系! 因此,由 $\left( {1 - f\left( 4\right) }\right) f\left( 4\right)  = f\left( 0\right) ,\left( {1 - f\left( 4\right) }\right) f\left( 0\right)  = f\left( {-4}\right)$ 以及 $f\left( 4\right)  = f\left( {-4}\right)$ 可得 $f\left( 4\right)  = {\left( 1 - f\left( 4\right) \right) }^{2}f\left( 4\right)$ 。解这个方程,并舍去 0 的根,得到 $f\left( 4\right)  = 2$ 。于是递推关系也就彻底地定下来了: $f\left( {x + 2}\right)  =  - f\left( {x - 2}\right)$ 。配合 $f\left( 2\right) , f\left( 4\right)$ 的值,我们很容易从 $f\left( 0\right)  =  - 2$ 一直递推到 $C$ 选项中的 $f\left( {2024}\right)  =  - 2$ 。自变量从 0 开始,不断跳 2,函数值将经历 253 组-2,0,2,0循环后,到了末项 2024 重新变成 -2,因此求和也是 -2, C 正确。
+
+最后来看 $\mathrm{D}$ ,它说的是一堆平方。自变量公差变为 1 了,更加难以处理,因此我们考虑从平方入手。原始式子能不能搞出个平方来? 当然可以,让 $\mathrm{x},\mathrm{y}$ 相等即可,于是我们赋值得到 $f\left( {2x}\right)  - f\left( 0\right)  = {\left\lbrack  f\left( x + 2\right) \right\rbrack  }^{2}$ ,重新整理得到 ${\left\lbrack  f\left( x\right) \right\rbrack  }^{2} = f\left( {{2x} - 4}\right)  + 2 = 2 - f\left( {2x}\right)$ 。 故所求即 $\left( {2 - f\left( 2\right) }\right)  + \left( {2 - f\left( 4\right) }\right)  + \cdots  + \left( {2 - f\left( {4048}\right) }\right)  = {4048} - f\left( 2\right)  - f\left( 4\right)  - \cdots f\left( {4048}\right)$ 。 它的求法就和 $\mathrm{C}$ 项一样了,不难得出 $\mathrm{f}\left( 2\right)  + \mathrm{f}\left( 4\right)  + \cdots \mathrm{f}\left( {4048}\right)  = {506}\left( {-2 + 0 + 2 + 0}\right)  = 0$ , 因此 D 正确。于是最后答案就是 ACD。
+
+做个总结。这道题在高考题中肯定属于多选题压轴的水平, 但是可以看到, 其解题理念完全没有脱离我们数列经验分享中的控制思想。抽象函数问题在研究单个函数值或者函数性质时经常是单纯依靠凑自变量的形式来解决。但是涉及到以周期性为代表的递推性质, 或者是与递推性质紧密相关的数列结论时, 根据我们经验分享里说到的, 递推的控制结构才是核心。比如我有了一个 $f\left( x\right)$ 与 $f\left( {x + 4}\right)$ 之间的等式,那么这时候重要的是认识到这
+
+个函数只需要长度 4 的区间就能控制整个 $\mathrm{R}$ 上的函数值。周期性啥的,数列啥的都是这个递推结构的自然衍生产物。递推结构这个事实是最重要最基本的。面对所求, 只要用好数列的基本功与递推关系, 就能稳稳拿下整道题目。不管做什么题目, up 主都在强调, 控制与结构才是核心。搞清楚了题目的结构，针对结构选取恰当的知识与方法(元问题)，问题自然就迎刃而解了。
+
+## 时间规划参考
+
+观察 A 选项,决定赋值 $\mathrm{x} = 0$ ,看出关键在于 $\mathrm{f}\left( 2\right)  : 1\mathrm{\;{min}}$
+
+摆正思维焦点,赋值计算 $\mathrm{f}\left( 2\right)$ ,判断 $\mathrm{A}$ 选项: $1\mathrm{\;{min}}$
+
+观察 B 选项,决定赋值 $\mathrm{x} = 2$ ,看出关键在于 $\mathrm{f}\left( 4\right)  : {0.5}\mathrm{\;{min}}$ (有 $\mathrm{A}$ 的经验,速度加快)
+
+摆正思维焦点,赋值判断 $\mathrm{f}\left( 4\right)$ ,排除 $\mathrm{B}$ 选项: $1\mathrm{{min}}$
+
+认识到 C 选项本质是公差 2 的递推,以及 B 的讨论蕴含公差 4 的递推: $1\mathrm{{min}}$
+
+利用 $\mathrm{B}$ 中的递推与 $\mathrm{A}$ 的提示,求解 $\mathrm{f}\left( 4\right)  : 1\mathrm{{min}}$
+
+计算判断 $\mathrm{C}$ 的正确性: ${1.5}\mathrm{{min}}$
+
+观察 D,并利用赋值把 D 转化为一次式: ${1.5}\mathrm{\;{min}}$
+
+计算判断 D 的正确性: $1\mathrm{\;{min}}$
+
+总时间: $9 - {10}\mathrm{\;{min}}$
