@@ -202,8 +202,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -244,8 +244,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -291,7 +291,7 @@
       "print:Print note": false
     }
   },
-  "active": "f194463a92338046",
+  "active": "892726efb8162882",
   "lastOpenFiles": [
     "00 想法/02-个人笔记/汇总个人日记.md",
     "00 想法/想法.md",

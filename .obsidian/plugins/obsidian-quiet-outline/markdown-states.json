@@ -1390,11 +1390,11 @@
     "cursor": {
       "from": {
         "line": 1,
-        "ch": 20
+        "ch": 0
       },
       "to": {
         "line": 1,
-        "ch": 20
+        "ch": 0
       }
     },
     "expandedKeys": []
