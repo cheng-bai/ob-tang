@@ -1,61 +1,94 @@
 # Obsidian Vault .gitignore
+# 针对跨平台使用优化（Windows + macOS）
 
 # =======================
-# 系统文件
+# 系统文件（必须跨平台兼容）
 # =======================
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# Windows
 Thumbs.db
+ehthumbs.db
 Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
 
 # =======================
-# Obsidian 配置（可选）
-# =======================
-# 取消注释以下行来忽略 Obsidian 配置
-# .obsidian/workspace
-# .obsidian/graph.json
-
-# =======================
-# 临时文件
+# 编辑器临时文件
 # =======================
 *.tmp
 *.bak
 *.swp
+*.swo
 *~
+.*.swp
+.~*
+
+# IDE 相关（VS Code、Sublime 等）
+.vscode/local
+.vscode/extensions
+*.code-workspace
 
 # =======================
-# 附件文件（大文件）
+# Obsidian 配置（跨平台重要）
 # =======================
-# 忽略 PDF 文件（可按需注释）
+# 缓存和临时文件
+.obsidian/cache/
+.obsidian/plugins/*/cache/
+.obsidian/workspace.json
+.obsidian/graph.json
+.obsidian/app.json
+
+# 隐私和敏感信息
+.obsidian/plugins/obsidian-sync/config.json
+.obsidian/plugins/obsidian-dropboxhack/files
+.obsidian/plugins/obsidian-google-photos
+.obsidian/plugins/*/data.json
+
+# =======================
+# 第三方工具缓存
+# =======================
+.makemd/
+.smart-env/
+.syncthing/
+
+# =======================
+# 大文件和媒体（按需启用）
+# =======================
+# PDF 文件
 *.pdf
 
-# 忽略图片文件（可按需注释）
+# 图片（可按需取消注释）
 # *.png
 # *.jpg
 # *.jpeg
 # *.gif
 # *.svg
 
-# 忽略视频/音频
+# 视频/音频（可按需取消注释）
 # *.mp4
+# *.mov
+# *.m4a
 # *.mp3
 # *.wav
+# *.flac
 
 # =======================
-# 第三方同步文件
-# =====================--
-.obsidian/plugins/obsidian-sync/config.json
-.obsidian/plugins/obsidian-dropboxhack/files
-.obsidian/plugins/obsidian-google-photos
-
-
-# 忽略所有插件的配置文件（包含密钥、隐私信息）
-.obsidian/plugins/**/data.json
-# =======================
-# 编译输出
+# 编译输出和依赖
 # =======================
 node_modules/
 dist/
 build/
+*.pyc
+__pycache__/
+.pytest_cache/
 
 # =======================
 # 虚拟环境
@@ -71,3 +104,12 @@ env/
 **/TEMP/
 **/temp/
 **/草稿/
+# 当前缺少：
+.obsidian/cache/
+.obsidian/plugins/*/cache/
+.makemd/
+*.swp
+*.swo
+*~
+.DS_Store
+✨ Obsidian 临时文件
