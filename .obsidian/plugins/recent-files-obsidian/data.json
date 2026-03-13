@@ -5,8 +5,16 @@
       "path": "00 想法/02-个人笔记/汇总个人日记.md"
     },
     {
+      "basename": "想法",
+      "path": "00 想法/想法.md"
+    },
+    {
       "basename": "Untitled",
       "path": "00 想法/Untitled.md"
+    },
+    {
+      "basename": "ai收获",
+      "path": "00 想法/ai收获.md"
     },
     {
       "basename": "上海新高考基础知识梳理与总结-dollar",
@@ -191,14 +199,6 @@
     {
       "basename": "【教参】选择性必修1",
       "path": " 想法/PDF文档/【教参】选择性必修1.pdf"
-    },
-    {
-      "basename": "home",
-      "path": "00-System/白板/home.canvas"
-    },
-    {
-      "basename": "解答题",
-      "path": "00-System/06-工具脚本/obsidian/by_type/解答题.md"
     }
   ],
   "omittedPaths": [],

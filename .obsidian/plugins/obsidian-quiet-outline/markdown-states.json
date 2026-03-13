@@ -1389,12 +1389,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 9,
-        "ch": 20
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 9,
-        "ch": 20
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1450,6 +1450,34 @@
       },
       "to": {
         "line": 2,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "00 想法/ai收获.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "00 想法/想法.md": {
+    "scroll": 16.76711979323567,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 0
+      },
+      "to": {
+        "line": 8,
         "ch": 0
       }
     },
