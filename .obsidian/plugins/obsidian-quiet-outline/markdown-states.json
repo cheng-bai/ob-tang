@@ -1456,7 +1456,7 @@
     "expandedKeys": []
   },
   "Clippings/你不知道的 Claude Code：架构、治理与工程实践.md": {
-    "scroll": 14.9818808685446,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 11,
@@ -1464,6 +1464,20 @@
       },
       "to": {
         "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Clippings/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
         "ch": 0
       }
     },

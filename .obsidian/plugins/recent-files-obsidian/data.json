@@ -5,6 +5,10 @@
       "path": "Clippings/你不知道的 Claude Code：架构、治理与工程实践.md"
     },
     {
+      "basename": "未命名",
+      "path": "Clippings/未命名.md"
+    },
+    {
       "basename": "汇总个人日记",
       "path": "00 想法/02-个人笔记/汇总个人日记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "【教参】选择性必修1",
       "path": " 想法/PDF文档/【教参】选择性必修1.pdf"
-    },
-    {
-      "basename": "home",
-      "path": "00-System/白板/home.canvas"
     }
   ],
   "omittedPaths": [],
