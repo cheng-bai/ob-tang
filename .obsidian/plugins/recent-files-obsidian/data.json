@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "你不知道的 Claude Code：架构、治理与工程实践",
+      "path": "Clippings/你不知道的 Claude Code：架构、治理与工程实践.md"
+    },
+    {
       "basename": "汇总个人日记",
       "path": "00 想法/02-个人笔记/汇总个人日记.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "home",
       "path": "00-System/白板/home.canvas"
-    },
-    {
-      "basename": "解答题",
-      "path": "00-System/06-工具脚本/obsidian/by_type/解答题.md"
     }
   ],
   "omittedPaths": [],
