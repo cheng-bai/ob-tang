@@ -1,0 +1,178 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：导数与函数的单调性}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：导数与函数的单调性}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+利用导数可以方便地判断函数的单调性，这是导数最重要的应用之一。
+
+\begin{property}[导数与单调性的关系]
+    设函数 $y = f(x)$ 在区间 $I$ 上可导：
+    \begin{itemize}
+        \item 若 $f'(x) > 0$ 在 $I$ 上恒成立，则 $f(x)$ 在 $I$ 上\textbf{严格单调递增}；
+        \item 若 $f'(x) < 0$ 在 $I$ 上恒成立，则 $f(x)$ 在 $I$ 上\textbf{严格单调递减}；
+        \item 若 $f'(x) = 0$ 在 $I$ 上恒成立，则 $f(x)$ 在 $I$ 上为\textbf{常数函数}。
+    \end{itemize}
+\end{property}
+
+\begin{property}[求函数单调区间的步骤]
+    \begin{enumerate}
+        \item 确定函数的定义域；
+        \item 求导数 $f'(x)$；
+        \item 解方程 $f'(x) = 0$，得到驻点（临界点）；
+        \item 用驻点和不可导点将定义域分成若干区间；
+        \item 判断各区间内 $f'(x)$ 的符号，确定单调性。
+    \end{enumerate}
+\end{property}
+
+\begin{property}[含参函数单调性的讨论]
+    对于含参数的函数，讨论单调性时需根据参数的不同取值分类：
+    \begin{itemize}
+        \item 导数的最高次项系数是否为零；
+        \item 导数方程的根是否存在、根的大小关系；
+        \item 根是否在定义域内。
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[利用导数求单调区间]
+    求函数 $f(x) = x^3 - 3x^2 - 9x + 5$ 的单调区间。
+\end{example}
+
+\textbf{解.} 函数的定义域为 $\mathbb{R}$。
+
+求导：$f'(x) = 3x^2 - 6x - 9 = 3(x^2 - 2x - 3) = 3(x - 3)(x + 1)$。
+
+令 $f'(x) = 0$，得 $x_1 = -1$，$x_2 = 3$。
+
+列表分析：
+\begin{center}
+\begin{tabular}{c|ccccc}
+\hline
+$x$ & $(-\infty, -1)$ & $-1$ & $(-1, 3)$ & $3$ & $(3, +\infty)$ \\
+\hline
+$f'(x)$ & $+$ & $0$ & $-$ & $0$ & $+$ \\
+\hline
+$f(x)$ & $\nearrow$ & 极大值 & $\searrow$ & 极小值 & $\nearrow$ \\
+\hline
+\end{tabular}
+\end{center}
+
+因此，$f(x)$ 的单调递增区间为 $(-\infty, -1)$ 和 $(3, +\infty)$，单调递减区间为 $(-1, 3)$。
+
+\begin{example}[含参函数的单调性讨论]
+    设函数 $f(x) = ax^2 - \ln x$（$a \in \mathbb{R}$），讨论 $f(x)$ 的单调性。
+\end{example}
+
+\textbf{解.} 函数的定义域为 $(0, +\infty)$。
+
+求导：$f'(x) = 2ax - \dfrac{1}{x} = \dfrac{2ax^2 - 1}{x}$。
+
+由于 $x > 0$，所以 $f'(x)$ 的符号由分子 $g(x) = 2ax^2 - 1$ 决定。
+
+\textbf{情况1}：当 $a \le 0$ 时，$2ax^2 - 1 < 0$ 恒成立，所以 $f'(x) < 0$，$f(x)$ 在 $(0, +\infty)$ 上单调递减。
+
+\textbf{情况2}：当 $a > 0$ 时，令 $g(x) = 0$，得 $x = \sqrt{\dfrac{1}{2a}} = \dfrac{1}{\sqrt{2a}}$。
+
+\begin{itemize}
+    \item 当 $0 < x < \dfrac{1}{\sqrt{2a}}$ 时，$g(x) < 0$，即 $f'(x) < 0$，$f(x)$ 单调递减；
+    \item 当 $x > \dfrac{1}{\sqrt{2a}}$ 时，$g(x) > 0$，即 $f'(x) > 0$，$f(x)$ 单调递增。
+\end{itemize}
+
+综上所述：
+\begin{itemize}
+    \item 当 $a \le 0$ 时，$f(x)$ 在 $(0, +\infty)$ 上单调递减；
+    \item 当 $a > 0$ 时，$f(x)$ 在 $\left(0, \dfrac{1}{\sqrt{2a}}\right)$ 上单调递减，在 $\left(\dfrac{1}{\sqrt{2a}}, +\infty\right)$ 上单调递增。
+\end{itemize}
+
+\begin{realexam}[2023 上海秋考]
+    已知函数 $f(x) = x^3 + ax^2 + bx + c$，若 $f(x)$ 在 $x = 1$ 和 $x = 3$ 处取得极值，求 $f(x)$ 的单调区间。
+\end{realexam}
+
+\textbf{解.} 求导：$f'(x) = 3x^2 + 2ax + b$。
+
+由题意，$x = 1$ 和 $x = 3$ 是 $f'(x) = 0$ 的两个根，由韦达定理：
+\[
+    \begin{cases}
+        1 + 3 = -\dfrac{2a}{3} \\[6pt]
+        1 \times 3 = \dfrac{b}{3}
+    \end{cases}
+\]
+
+解得 $a = -6$，$b = 9$。
+
+所以 $f'(x) = 3x^2 - 12x + 9 = 3(x - 1)(x - 3)$。
+
+分析符号：
+\begin{itemize}
+    \item 当 $x < 1$ 或 $x > 3$ 时，$f'(x) > 0$，$f(x)$ 单调递增；
+    \item 当 $1 < x < 3$ 时，$f'(x) < 0$，$f(x)$ 单调递减。
+\end{itemize}
+
+因此，$f(x)$ 的单调递增区间为 $(-\infty, 1)$ 和 $(3, +\infty)$，单调递减区间为 $(1, 3)$。
+
+\begin{realexam}[2025 上海二模]
+    设函数 $f(x) = e^x - ax$（$a > 0$），讨论 $f(x)$ 在区间 $[0, 1]$ 上的单调性。
+\end{realexam}
+
+\textbf{解.} 求导：$f'(x) = e^x - a$。
+
+令 $f'(x) = 0$，得 $x = \ln a$。
+
+需要讨论 $\ln a$ 与区间 $[0, 1]$ 的关系：
+
+\textbf{情况1}：当 $\ln a \le 0$，即 $0 < a \le 1$ 时，
+
+在 $[0, 1]$ 上，$e^x \ge 1 \ge a$，所以 $f'(x) \ge 0$，$f(x)$ 在 $[0, 1]$ 上单调递增。
+
+\textbf{情况2}：当 $0 < \ln a < 1$，即 $1 < a < e$ 时，
+
+\begin{itemize}
+    \item 当 $0 \le x < \ln a$ 时，$e^x < a$，$f'(x) < 0$，$f(x)$ 单调递减；
+    \item 当 $\ln a < x \le 1$ 时，$e^x > a$，$f'(x) > 0$，$f(x)$ 单调递增。
+\end{itemize}
+
+\textbf{情况3}：当 $\ln a \ge 1$，即 $a \ge e$ 时，
+
+在 $[0, 1]$ 上，$e^x \le e \le a$，所以 $f'(x) \le 0$，$f(x)$ 在 $[0, 1]$ 上单调递减。
+
+\begin{example}[利用单调性证明不等式]
+    证明：当 $x > 0$ 时，$e^x > 1 + x$。
+\end{example}
+
+\textbf{解.} 构造函数 $f(x) = e^x - 1 - x$，定义域为 $[0, +\infty)$。
+
+求导：$f'(x) = e^x - 1$。
+
+当 $x > 0$ 时，$e^x > 1$，所以 $f'(x) > 0$。
+
+因此 $f(x)$ 在 $[0, +\infty)$ 上单调递增。
+
+又 $f(0) = e^0 - 1 - 0 = 0$，所以当 $x > 0$ 时，$f(x) > f(0) = 0$。
+
+即 $e^x - 1 - x > 0$，所以 $e^x > 1 + x$。证毕。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{定义域优先}：研究函数单调性前，必须先确定函数的定义域，单调区间一定是定义域的子集。
+    \item \textbf{求导技巧}：求导前先化简函数表达式，可减少计算错误。对于分式、根式，先化为标准形式。
+    \item \textbf{临界点分析}：解 $f'(x) = 0$ 得到的驻点和导数不存在的点都是可能的单调区间分界点。
+    \item \textbf{含参讨论策略}：讨论含参函数单调性时，关键是分析导数方程的根与定义域、参数的关系，合理分类。
+    \item \textbf{数形结合}：通过导函数图像判断符号变化，有助于直观理解原函数的单调性。
+    \item \textbf{单调性应用}：利用单调性可以证明不等式、比较大小、确定函数零点个数等。
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,768 @@
+{
+  "output_root": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp",
+  "cases": [
+    {
+      "paper_slug": "2026-26届-嘉定-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 12,
+      "files_written": 99,
+      "images_copied": 6,
+      "missing_images": [],
+      "module_counts": {
+        "01-集合复数与逻辑": 4,
+        "04-数列与不等式": 3,
+        "03-三角与向量": 3,
+        "06-解析几何": 2,
+        "02-函数与导数": 5,
+        "07-概率统计": 2,
+        "05-立体几何与空间向量": 2
+      },
+      "needs_review_count": 5,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-嘉定-二模",
+          "district": "嘉定",
+          "question_no": 7,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "02-函数与导数:函数与导数:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-嘉定-二模/02-函数与导数/2026-26届-嘉定-二模-Q07-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "7. 函数 $y = {\\sin }^{4}x + {\\cos }^{4}x$ 的最小正周期是___."
+        },
+        {
+          "paper_slug": "2026-26届-嘉定-二模",
+          "district": "嘉定",
+          "question_no": 9,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-嘉定-二模/03-三角与向量/2026-26届-嘉定-二模-Q09-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "9. 已知向量 $\\overrightarrow{a} = \\left( {\\cos x,\\sin x}\\right) ,\\overrightarrow{b} = \\left( {3,\\sqrt{3}}\\right)$ ，且 $x \\in "
+        },
+        {
+          "paper_slug": "2026-26届-嘉定-二模",
+          "district": "嘉定",
+          "question_no": 14,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 2,
+          "review_reason": "small_margin",
+          "candidate_modules": [
+            "02-函数与导数:函数与导数:2",
+            "07-概率统计:概率统计:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-嘉定-二模/02-函数与导数/2026-26届-嘉定-二模-Q14-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "14. 生物学家在研究动物体重 $W$ (单位: $\\mathrm{g}$ ) 与脉搏率 $f$ (单位: 次 $\\cdot  {\\mathrm{{min}}}^{-1}$ ) 的关系时,获得了右表的数据, 令 $x = \\ln W,\\;y"
+        },
+        {
+          "paper_slug": "2026-26届-嘉定-二模",
+          "district": "嘉定",
+          "question_no": 16,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 2,
+          "review_reason": "small_margin",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:2",
+            "05-立体几何与空间向量:立体几何与空间向量:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-嘉定-二模/03-三角与向量/2026-26届-嘉定-二模-Q16-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "16. 对任意平面向量 $\\overrightarrow{a}\\text{ 、 }\\overrightarrow{b}\\text{ 、 }\\overrightarrow{c}$ 及任意实数 $\\lambda$ ,已知运算 $\\odot$ 满"
+        },
+        {
+          "paper_slug": "2026-26届-嘉定-二模",
+          "district": "嘉定",
+          "question_no": 18,
+          "module": "05-立体几何与空间向量",
+          "module_name": "立体几何与空间向量",
+          "module_confidence": 5,
+          "review_reason": "small_margin",
+          "candidate_modules": [
+            "05-立体几何与空间向量:立体几何与空间向量:5",
+            "03-三角与向量:三角与向量:4",
+            "01-集合复数与逻辑:集合复数与逻辑:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-嘉定-二模/05-立体几何与空间向量/2026-26届-嘉定-二模-Q18-立体几何与空间向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "18. 如图，在 $\\bigtriangleup  {ABC}$ 中， $\\angle {ACB} = {90}^{ \\circ  }$ ， ${DA}\\bot$ 平面 ${ABC}$ ， $M$ ， $N$ 分别是线段 ${AC}$ 、 "
+        }
+      ]
+    },
+    {
+      "paper_slug": "2026-26届-奉贤-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 12,
+      "files_written": 99,
+      "images_copied": 12,
+      "missing_images": [],
+      "module_counts": {
+        "01-集合复数与逻辑": 2,
+        "04-数列与不等式": 4,
+        "03-三角与向量": 3,
+        "02-函数与导数": 5,
+        "05-立体几何与空间向量": 2,
+        "07-概率统计": 2,
+        "06-解析几何": 3
+      },
+      "needs_review_count": 5,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-奉贤-二模",
+          "district": "奉贤",
+          "question_no": 3,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-奉贤-二模/03-三角与向量/2026-26届-奉贤-二模-Q03-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "3. 在 ${\\left( x + \\frac{1}{x}\\right) }^{5}$ 的展开式中， $x$ 的系数为___."
+        },
+        {
+          "paper_slug": "2026-26届-奉贤-二模",
+          "district": "奉贤",
+          "question_no": 4,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-奉贤-二模/02-函数与导数/2026-26届-奉贤-二模-Q04-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "4. 若直线 $\\left( {a - 1}\\right) x + y - 1 = 0$ 与直线 ${3x} - y = 0$ 平行,则实数 $a$ 的值为___."
+        },
+        {
+          "paper_slug": "2026-26届-奉贤-二模",
+          "district": "奉贤",
+          "question_no": 9,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-奉贤-二模/04-数列与不等式/2026-26届-奉贤-二模-Q09-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "9. 从 6 名男生和 4 名女生中选出 3 人参加人工智能技能培训. 设事件 $A$ :至少抽到一名女生，事件 $B$ :恰好抽到一名男生,则 $P\\left( {B \\mid  A}\\right)  =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-奉贤-二模",
+          "district": "奉贤",
+          "question_no": 12,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:1",
+            "05-立体几何与空间向量:立体几何与空间向量:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-奉贤-二模/03-三角与向量/2026-26届-奉贤-二模-Q12-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "12. 在平面直角坐标系 ${xOy}$ 中,点 $A\\left( {\\cos \\theta ,\\sin \\theta }\\right) , B\\left( {-\\sin \\theta ,\\cos \\theta }\\right) ,\\the"
+        },
+        {
+          "paper_slug": "2026-26届-奉贤-二模",
+          "district": "奉贤",
+          "question_no": 13,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "04-数列与不等式:数列与不等式:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-奉贤-二模/04-数列与不等式/2026-26届-奉贤-二模-Q13-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "13. 已知 $a > b > 0 > c$ ,则下列不等式成立的是( )"
+        }
+      ]
+    },
+    {
+      "paper_slug": "2026-26届-崇明-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 11,
+      "files_written": 96,
+      "images_copied": 3,
+      "missing_images": [],
+      "module_counts": {
+        "01-集合复数与逻辑": 2,
+        "04-数列与不等式": 5,
+        "03-三角与向量": 3,
+        "07-概率统计": 2,
+        "06-解析几何": 3,
+        "02-函数与导数": 5,
+        "05-立体几何与空间向量": 1
+      },
+      "needs_review_count": 6,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-崇明-二模",
+          "district": "崇明",
+          "question_no": 1,
+          "module": "01-集合复数与逻辑",
+          "module_name": "集合复数与逻辑",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:1",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-崇明-二模/01-集合复数与逻辑/2026-26届-崇明-二模-Q01-集合复数与逻辑-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "1. 集合 $A = \\{ 2,4,6,8,{10}\\} , B = \\left( {-1,6}\\right)$ ，则 $A \\cap  B =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-崇明-二模",
+          "district": "崇明",
+          "question_no": 4,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-崇明-二模/03-三角与向量/2026-26届-崇明-二模-Q04-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "4. 已知向量 $\\overrightarrow{a} = \\left( {k,2}\\right)$ ， $\\overrightarrow{b} = \\left( {2,1}\\right)$ ，若 $\\overrightarrow{a}\\b"
+        },
+        {
+          "paper_slug": "2026-26届-崇明-二模",
+          "district": "崇明",
+          "question_no": 5,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "04-数列与不等式:数列与不等式:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-崇明-二模/04-数列与不等式/2026-26届-崇明-二模-Q05-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "5. 若 $x > 0, y > 0$ ，且 ${xy} = 1$ ，则 $x + {2y}$ 的最小值为___."
+        },
+        {
+          "paper_slug": "2026-26届-崇明-二模",
+          "district": "崇明",
+          "question_no": 6,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-崇明-二模/04-数列与不等式/2026-26届-崇明-二模-Q06-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "6. 已知 $\\cos \\theta  =  - \\frac{3}{5}$ ，则 $\\cos {2\\theta }$ 的值为___."
+        },
+        {
+          "paper_slug": "2026-26届-崇明-二模",
+          "district": "崇明",
+          "question_no": 7,
+          "module": "07-概率统计",
+          "module_name": "概率统计",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "07-概率统计:概率统计:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-崇明-二模/07-概率统计/2026-26届-崇明-二模-Q07-概率统计-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "7. 从一副去掉大小王的 52 张扑克牌中随机抽取一张牌,事件 $A$ 表示 “取得的牌面是 $A$ ”,事件 $B$ 表示“取得的牌的花色是黑桃”，则 $P\\left( {B \\mid  A}\\right)$ 为___."
+        },
+        {
+          "paper_slug": "2026-26届-崇明-二模",
+          "district": "崇明",
+          "question_no": 9,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-崇明-二模/04-数列与不等式/2026-26届-崇明-二模-Q09-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "9. 已知 ${\\left( x - 1\\right) }^{3} + {\\left( x + 1\\right) }^{4} = {x}^{4} + {a}_{1}{x}^{3} + {a}_{2}{x}^{2} + {a}_{3}x + "
+        }
+      ]
+    },
+    {
+      "paper_slug": "2026-26届-浦东-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 13,
+      "files_written": 102,
+      "images_copied": 7,
+      "missing_images": [],
+      "module_counts": {
+        "01-集合复数与逻辑": 3,
+        "03-三角与向量": 3,
+        "07-概率统计": 5,
+        "02-函数与导数": 5,
+        "04-数列与不等式": 2,
+        "05-立体几何与空间向量": 2,
+        "06-解析几何": 1
+      },
+      "needs_review_count": 7,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 1,
+          "module": "01-集合复数与逻辑",
+          "module_name": "集合复数与逻辑",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:1",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/01-集合复数与逻辑/2026-26届-浦东-二模-Q01-集合复数与逻辑-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "1. 已知全集 $U = \\left( {0, + \\infty }\\right)$ ，集合 $A = \\lbrack 2, + \\infty )$ ，则 ${\\complement }_{U}A =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 3,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/03-三角与向量/2026-26届-浦东-二模-Q03-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "3. 已知 $f\\left( x\\right)  = \\left\\{  \\begin{array}{l} \\frac{1}{{x}^{3}}, x < 0 \\\\  x + 1, x \\geq  0 \\end{array}\\right.$ ,"
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 4,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/03-三角与向量/2026-26届-浦东-二模-Q04-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "4. 在 $\\bigtriangleup  {ABC}$ 中，若 $a = 7$ ， $b = 8$ ， $\\cos C = \\frac{13}{14}$ ，则 $c =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 7,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/02-函数与导数/2026-26届-浦东-二模-Q07-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "7. 从 4 名男生 3 名女生中选取 3 人，依次进行面试，其中恰好有 1 名女生，则有___种不同的面试方法."
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 10,
+          "module": "07-概率统计",
+          "module_name": "概率统计",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/07-概率统计/2026-26届-浦东-二模-Q10-概率统计-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "10. 已知,圆 $O$ 是圆心在原点的单位圆,弦 ${AB}$ 平行于 $x$ 轴,并将圆分为两段弧. 将其中一段劣弧 $\\overset{\\text{ ⏜ }}{AB}$ 沿弦 ${AB}$ 翻折后恰好经过圆心. 若直线 $y = x "
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 11,
+          "module": "05-立体几何与空间向量",
+          "module_name": "立体几何与空间向量",
+          "module_confidence": 3,
+          "review_reason": "small_margin,tie_break",
+          "candidate_modules": [
+            "05-立体几何与空间向量:立体几何与空间向量:3",
+            "06-解析几何:解析几何:3",
+            "03-三角与向量:三角与向量:1"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/05-立体几何与空间向量/2026-26届-浦东-二模-Q11-立体几何与空间向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "11. 某光影科技实验室为长方体空间, 底面是边长为 4 米的正方形, 高为 3 米. 为营造动态光影效果, 在底面一个顶点处安装射灯 $A$ ,在与该顶点相对的侧棱上、距底面 1 米处安装射灯 $I$ ,两盖射灯的光束方向由智能系统自动控"
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 14,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "04-数列与不等式:数列与不等式:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-浦东-二模/04-数列与不等式/2026-26届-浦东-二模-Q14-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "14. 已知实数 $a, b, c$ 满足 $a > b > 1 > c$ ,则下列结论一定正确的是( )"
+        }
+      ]
+    },
+    {
+      "paper_slug": "2026-26届-金山-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 12,
+      "files_written": 99,
+      "images_copied": 5,
+      "missing_images": [],
+      "module_counts": {
+        "04-数列与不等式": 4,
+        "01-集合复数与逻辑": 3,
+        "02-函数与导数": 4,
+        "03-三角与向量": 3,
+        "07-概率统计": 4,
+        "06-解析几何": 2,
+        "05-立体几何与空间向量": 1
+      },
+      "needs_review_count": 8,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 3,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "02-函数与导数:函数与导数:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/02-函数与导数/2026-26届-金山-二模-Q03-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "3. 将 $\\sqrt{a\\sqrt{a}}\\left( {a > 0}\\right)$ 化成有理数指数幂的形式为___."
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 8,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/03-三角与向量/2026-26届-金山-二模-Q08-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "8. 若甲乙丙丁四人组成接力队参加 $4 \\times  {100}$ 米接力赛，则甲不跑中间两棒的排法共有___种。"
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 9,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/04-数列与不等式/2026-26届-金山-二模-Q09-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "9. 已知关于 $x$ 的一元二次方程 ${x}^{2} - x + a = 0$ 有两个不相等的正根 $m\\text{ 、 }n$ ，则 $\\frac{1}{m} + \\frac{9}{n}$ 的最小值为___."
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 10,
+          "module": "07-概率统计",
+          "module_name": "概率统计",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/07-概率统计/2026-26届-金山-二模-Q10-概率统计-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "10. 已知在 $\\bigtriangleup  {ABC}$ 中， ${AB} = 2,{AC} = 3,{\\angle {BAC}} = {60}^{ \\circ  }$ . 若点 $O$ 为 $\\bigtriangleup  {ABC"
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 11,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "04-数列与不等式:数列与不等式:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/04-数列与不等式/2026-26届-金山-二模-Q11-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "11. 已知 ${S}_{n}$ 是数列 $\\left\\{  {a}_{n}\\right\\}$ 的前 $n$ 项和,且 ${S}_{n} = {2}^{n - 1} - 1, n \\geq  1$ 且 $n \\in  \\mathrm{N}$"
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 12,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 2,
+          "review_reason": "small_margin",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:2",
+            "05-立体几何与空间向量:立体几何与空间向量:1",
+            "08-综合与压轴:综合与压轴:1"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/03-三角与向量/2026-26届-金山-二模-Q12-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "12. 申辉中学某个数学建模小组发现: 人走路时, 启动或者停下的瞬间, 手中水平拿着的杯子里的水可能会被晃动得溢出杯口. 查询资料后发现: 液面和水平面的夹角 $\\theta \\left( {0 \\leq  \\theta  < \\frac"
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 13,
+          "module": "07-概率统计",
+          "module_name": "概率统计",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "07-概率统计:概率统计:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/07-概率统计/2026-26届-金山-二模-Q13-概率统计-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "13. 为了了解申辉中学所有学生的每天平均体育运动时间，随机调查了该校 100 名学生，发现他们每天平均体育运动时间为 ${1.5}\\mathrm{\\;h}$ . 这里的总体是( )"
+        },
+        {
+          "paper_slug": "2026-26届-金山-二模",
+          "district": "金山",
+          "question_no": 20,
+          "module": "06-解析几何",
+          "module_name": "解析几何",
+          "module_confidence": 5,
+          "review_reason": "small_margin,tie_break",
+          "candidate_modules": [
+            "02-函数与导数:函数与导数:5",
+            "06-解析几何:解析几何:5",
+            "01-集合复数与逻辑:集合复数与逻辑:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-金山-二模/06-解析几何/2026-26届-金山-二模-Q20-解析几何-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "20. 已知抛物线 $\\Gamma  : {y}^{2} = {4x}$ 的焦点为 $F$ ，准线为 $l$ ，点 $P\\left( {{x}_{0},{y}_{0}}\\right)$ 为抛物线上一动点，点 $O$ 为坐标原点. (1)若 "
+        }
+      ]
+    },
+    {
+      "paper_slug": "2026-26届-闵行-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 10,
+      "files_written": 93,
+      "images_copied": 8,
+      "missing_images": [],
+      "module_counts": {
+        "01-集合复数与逻辑": 2,
+        "04-数列与不等式": 3,
+        "05-立体几何与空间向量": 1,
+        "02-函数与导数": 5,
+        "07-概率统计": 4,
+        "06-解析几何": 2,
+        "03-三角与向量": 4
+      },
+      "needs_review_count": 6,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-闵行-二模",
+          "district": "闵行",
+          "question_no": 6,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-闵行-二模/04-数列与不等式/2026-26届-闵行-二模-Q06-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "6. 若 ${\\left( 2x - 1\\right) }^{10} = {a}_{0} + {a}_{1}x + {a}_{2}{x}^{2} + \\cdots  + {a}_{10}{x}^{10}$ ,则 ${a}_{1} + {a}"
+        },
+        {
+          "paper_slug": "2026-26届-闵行-二模",
+          "district": "闵行",
+          "question_no": 7,
+          "module": "01-集合复数与逻辑",
+          "module_name": "集合复数与逻辑",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:1",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-闵行-二模/01-集合复数与逻辑/2026-26届-闵行-二模-Q07-集合复数与逻辑-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "7. 已知 $z \\in  \\mathrm{C}$ ,若 $\\frac{{\\left| z\\right| }^{2}}{z} = 1 + \\mathrm{i}$ (其中 $\\mathrm{i}$ 为虚数单位),则 $z =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-闵行-二模",
+          "district": "闵行",
+          "question_no": 11,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 2,
+          "review_reason": "small_margin,tie_break",
+          "candidate_modules": [
+            "02-函数与导数:函数与导数:2",
+            "04-数列与不等式:数列与不等式:2",
+            "01-集合复数与逻辑:集合复数与逻辑:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-闵行-二模/02-函数与导数/2026-26届-闵行-二模-Q11-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "11. 已知 $a \\in  \\mathbf{R}$ ,若不等式 $\\left( {\\ln x - 1}\\right) \\left( {\\ln x - {ax}}\\right)  > 0$ 的解集中有且仅有两个整数,则 $a$ 的最小值为_"
+        },
+        {
+          "paper_slug": "2026-26届-闵行-二模",
+          "district": "闵行",
+          "question_no": 13,
+          "module": "07-概率统计",
+          "module_name": "概率统计",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "07-概率统计:概率统计:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-闵行-二模/07-概率统计/2026-26届-闵行-二模-Q13-概率统计-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "13. 以下是由变量 $x$ 与 $y$ 所绘制的散点图,则它们的线性相关程度较高且正相关的是( )"
+        },
+        {
+          "paper_slug": "2026-26届-闵行-二模",
+          "district": "闵行",
+          "question_no": 15,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:1",
+            "03-三角与向量:三角与向量:1",
+            "04-数列与不等式:数列与不等式:1"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-闵行-二模/03-三角与向量/2026-26届-闵行-二模-Q15-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "15. 若平面直角坐标系 ${xOy}$ 中的点 $P$ 到 $x$ 轴与 $y$ 轴的距离之和为 1,现有以下两个命题:"
+        },
+        {
+          "paper_slug": "2026-26届-闵行-二模",
+          "district": "闵行",
+          "question_no": 16,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 2,
+          "review_reason": "small_margin,tie_break",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:2",
+            "04-数列与不等式:数列与不等式:2",
+            "05-立体几何与空间向量:立体几何与空间向量:1"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/2026-26届-闵行-二模/03-三角与向量/2026-26届-闵行-二模-Q16-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "16. 已知平面上 13 个向量 $\\overrightarrow{{a}_{1}}\\text{ 、 }\\overrightarrow{{a}_{2}}\\text{ 、 }\\cdots .\\overrightarrow{{a}_{13}}$"
+        }
+      ]
+    }
+  ],
+  "total_questions": 126,
+  "total_subquestions": 70,
+  "total_files_written": 588,
+  "total_images_copied": 41,
+  "total_missing_images": 0,
+  "total_needs_review": 37,
+  "needs_review_csv": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/needs_review.csv",
+  "needs_review_md": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/2026-26届-六区二模-mvp/needs_review.md"
+}

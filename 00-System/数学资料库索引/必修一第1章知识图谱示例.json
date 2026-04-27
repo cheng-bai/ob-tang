@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created_at": "2024-01-15T10:00:00Z",
+    "updated_at": "2024-01-15T10:00:00Z",
+    "description": "必修第一册第1章 集合与逻辑 知识图谱示例",
+    "textbook": "必修第一册",
+    "chapter": "第1章 集合与逻辑"
+  },
+
+  "nodes": [
+    {
+      "id": "必修一-1.1-集合",
+      "name": "集合的概念",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["集合", "基础概念", "数学语言"],
+      "prerequisites": [],
+      "related": ["必修一-1.1-元素", "必修一-1.1-集合的表示法"],
+      "content_summary": "集合是数学中的基本概念，指具有某种特定性质的事物的总体。集合中的每个事物称为元素。",
+      "difficulty": 1,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.1-元素",
+      "name": "元素与集合的关系",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["集合", "元素", "属于关系"],
+      "prerequisites": ["必修一-1.1-集合"],
+      "related": ["必修一-1.1-集合的表示法"],
+      "content_summary": "元素是集合中的个体，用符号∈表示元素属于集合，用∉表示元素不属于集合。",
+      "difficulty": 1,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.1-集合的表示法",
+      "name": "集合的表示法",
+      "type": "方法",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["集合", "表示法", "列举法", "描述法"],
+      "prerequisites": ["必修一-1.1-集合", "必修一-1.1-元素"],
+      "related": ["必修一-1.2-常用数集"],
+      "content_summary": "集合的表示方法包括列举法（列出所有元素）和描述法（描述元素特征）。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.2-常用数集",
+      "name": "常用数集及其记法",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["数集", "自然数", "整数", "有理数", "实数"],
+      "prerequisites": ["必修一-1.1-集合的表示法"],
+      "related": ["必修一-1.2-区间"],
+      "content_summary": "常用数集包括自然数集N、整数集Z、有理数集Q、实数集R等，有特定的符号表示。",
+      "difficulty": 1,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.2-区间",
+      "name": "区间及其表示",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["区间", "开区间", "闭区间", "数集"],
+      "prerequisites": ["必修一-1.2-常用数集"],
+      "related": ["必修一-1.3-集合的基本关系"],
+      "content_summary": "区间是实数集的子集，包括开区间、闭区间、半开半闭区间等形式。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.3-集合的基本关系",
+      "name": "集合间的基本关系",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["子集", "真子集", "相等", "包含关系"],
+      "prerequisites": ["必修一-1.1-集合", "必修一-1.2-常用数集"],
+      "related": ["必修一-1.3-子集", "必修一-1.3-真子集", "必修一-1.3-集合相等"],
+      "content_summary": "集合间的基本关系包括包含关系（子集）、真包含关系（真子集）和相等关系。",
+      "difficulty": 2,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.3-子集",
+      "name": "子集",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["子集", "包含", "⊆"],
+      "prerequisites": ["必修一-1.3-集合的基本关系"],
+      "related": ["必修一-1.3-真子集"],
+      "content_summary": "如果集合A的每一个元素都是集合B的元素，则称A是B的子集，记作A⊆B。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.3-真子集",
+      "name": "真子集",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["真子集", "真包含", "⊂"],
+      "prerequisites": ["必修一-1.3-子集"],
+      "related": ["必修一-1.3-空集"],
+      "content_summary": "如果A⊆B且A≠B，则称A是B的真子集，记作A⊂B。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.3-空集",
+      "name": "空集",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["空集", "∅", "特殊集合"],
+      "prerequisites": ["必修一-1.3-子集"],
+      "related": ["必修一-1.4-交集", "必修一-1.4-并集"],
+      "content_summary": "不含任何元素的集合称为空集，记作∅。空集是任何集合的子集。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.3-集合相等",
+      "name": "集合相等",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["相等", "集合相等", "互为子集"],
+      "prerequisites": ["必修一-1.3-子集"],
+      "related": [],
+      "content_summary": "如果A⊆B且B⊆A，则称集合A与集合B相等，记作A=B。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.4-交集",
+      "name": "交集",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["交集", "∩", "集合运算"],
+      "prerequisites": ["必修一-1.3-集合的基本关系"],
+      "related": ["必修一-1.4-并集", "必修一-1.4-补集"],
+      "content_summary": "由属于集合A且属于集合B的所有元素组成的集合称为A与B的交集，记作A∩B。",
+      "difficulty": 2,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.4-并集",
+      "name": "并集",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["并集", "∪", "集合运算"],
+      "prerequisites": ["必修一-1.3-集合的基本关系"],
+      "related": ["必修一-1.4-交集", "必修一-1.4-补集"],
+      "content_summary": "由属于集合A或属于集合B的所有元素组成的集合称为A与B的并集，记作A∪B。",
+      "difficulty": 2,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.4-补集",
+      "name": "补集",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["补集", "∁", "全集", "集合运算"],
+      "prerequisites": ["必修一-1.3-集合的基本关系", "必修一-1.4-交集"],
+      "related": ["必修一-1.4-交集", "必修一-1.4-并集"],
+      "content_summary": "设U是全集，A是U的子集，由U中不属于A的所有元素组成的集合称为A在U中的补集。",
+      "difficulty": 3,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.4-德摩根定律",
+      "name": "德摩根定律",
+      "type": "定理",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["德摩根定律", "集合运算", "补集"],
+      "prerequisites": ["必修一-1.4-交集", "必修一-1.4-并集", "必修一-1.4-补集"],
+      "related": [],
+      "content_summary": "德摩根定律：(A∩B)' = A'∪B'，(A∪B)' = A'∩B'。",
+      "difficulty": 3,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.5-充分条件",
+      "name": "充分条件",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["充分条件", "逻辑", "条件关系"],
+      "prerequisites": ["必修一-1.3-集合的基本关系"],
+      "related": ["必修一-1.5-必要条件", "必修一-1.5-充要条件"],
+      "content_summary": "若p⇒q，则p是q的充分条件，即p成立足以保证q成立。",
+      "difficulty": 3,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.5-必要条件",
+      "name": "必要条件",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["必要条件", "逻辑", "条件关系"],
+      "prerequisites": ["必修一-1.3-集合的基本关系"],
+      "related": ["必修一-1.5-充分条件", "必修一-1.5-充要条件"],
+      "content_summary": "若q⇒p，则p是q的必要条件，即q成立必须要有p成立。",
+      "difficulty": 3,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.5-充要条件",
+      "name": "充要条件",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["充要条件", "充分必要", "等价"],
+      "prerequisites": ["必修一-1.5-充分条件", "必修一-1.5-必要条件"],
+      "related": [],
+      "content_summary": "若p⇒q且q⇒p，则p是q的充要条件，记作p⇔q，表示p与q等价。",
+      "difficulty": 3,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.6-全称量词",
+      "name": "全称量词与全称命题",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["全称量词", "∀", "命题"],
+      "prerequisites": ["必修一-1.5-充分条件"],
+      "related": ["必修一-1.6-存在量词"],
+      "content_summary": "全称量词∀表示'对所有'、'对任意'，含有全称量词的命题称为全称命题。",
+      "difficulty": 3,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.6-存在量词",
+      "name": "存在量词与特称命题",
+      "type": "概念",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["存在量词", "∃", "特称命题"],
+      "prerequisites": ["必修一-1.5-必要条件"],
+      "related": ["必修一-1.6-全称量词", "必修一-1.6-命题的否定"],
+      "content_summary": "存在量词∃表示'存在'、'至少有一个'，含有存在量词的命题称为特称命题。",
+      "difficulty": 3,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.6-命题的否定",
+      "name": "命题的否定",
+      "type": "方法",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["命题否定", "¬", "逻辑否定"],
+      "prerequisites": ["必修一-1.6-全称量词", "必修一-1.6-存在量词"],
+      "related": [],
+      "content_summary": "全称命题的否定是特称命题，特称命题的否定是全称命题。¬(∀x,P(x)) ≡ ∃x,¬P(x)。",
+      "difficulty": 4,
+      "importance": 5
+    },
+    {
+      "id": "必修一-1.1-例题1",
+      "name": "集合概念理解例题",
+      "type": "例题",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["例题", "集合", "概念辨析"],
+      "prerequisites": ["必修一-1.1-集合"],
+      "related": [],
+      "content_summary": "判断下列对象能否构成集合：1) 某班的高个子同学；2) 小于10的自然数。",
+      "difficulty": 1,
+      "importance": 3
+    },
+    {
+      "id": "必修一-1.4-例题2",
+      "name": "集合运算综合例题",
+      "type": "例题",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["例题", "交集", "并集", "补集"],
+      "prerequisites": ["必修一-1.4-交集", "必修一-1.4-并集", "必修一-1.4-补集"],
+      "related": [],
+      "content_summary": "已知全集U={1,2,3,4,5}，A={1,2,3}，B={2,3,4}，求A∩B、A∪B、∁UA。",
+      "difficulty": 2,
+      "importance": 4
+    },
+    {
+      "id": "必修一-1.5-例题3",
+      "name": "条件关系判断例题",
+      "type": "例题",
+      "chapter": "第1章 集合与逻辑",
+      "textbook": "必修第一册",
+      "tags": ["例题", "充分条件", "必要条件", "充要条件"],
+      "prerequisites": ["必修一-1.5-充分条件", "必修一-1.5-必要条件", "必修一-1.5-充要条件"],
+      "related": [],
+      "content_summary": "判断下列命题中p是q的什么条件：(1)p:x>1,q:x>0；(2)p:x=y,q:x²=y²。",
+      "difficulty": 3,
+      "importance": 4
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "必修一-1.1-集合",
+      "target": "必修一-1.1-元素",
+      "relation": "related",
+      "weight": 0.9,
+      "description": "集合与元素是密不可分的概念"
+    },
+    {
+      "source": "必修一-1.1-集合",
+      "target": "必修一-1.1-集合的表示法",
+      "relation": "extends",
+      "weight": 0.8,
+      "description": "集合表示法是集合概念的延伸"
+    },
+    {
+      "source": "必修一-1.1-元素",
+      "target": "必修一-1.1-集合的表示法",
+      "relation": "prerequisite",
+      "weight": 0.7,
+      "description": "理解元素关系是学习表示法的基础"
+    },
+    {
+      "source": "必修一-1.1-集合的表示法",
+      "target": "必修一-1.2-常用数集",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "掌握表示法后才能理解数集符号"
+    },
+    {
+      "source": "必修一-1.2-常用数集",
+      "target": "必修一-1.2-区间",
+      "relation": "extends",
+      "weight": 0.7,
+      "description": "区间是实数集的子集表示"
+    },
+    {
+      "source": "必修一-1.1-集合",
+      "target": "必修一-1.3-集合的基本关系",
+      "relation": "prerequisite",
+      "weight": 0.9,
+      "description": "理解集合概念是学习集合关系的基础"
+    },
+    {
+      "source": "必修一-1.2-常用数集",
+      "target": "必修一-1.3-集合的基本关系",
+      "relation": "prerequisite",
+      "weight": 0.6,
+      "description": "数集是理解集合关系的实例"
+    },
+    {
+      "source": "必修一-1.3-集合的基本关系",
+      "target": "必修一-1.3-子集",
+      "relation": "extends",
+      "weight": 0.8,
+      "description": "子集是基本关系的具体化"
+    },
+    {
+      "source": "必修一-1.3-子集",
+      "target": "必修一-1.3-真子集",
+      "relation": "extends",
+      "weight": 0.8,
+      "description": "真子集是子集的特例"
+    },
+    {
+      "source": "必修一-1.3-子集",
+      "target": "必修一-1.3-空集",
+      "relation": "related",
+      "weight": 0.7,
+      "description": "空集是所有集合的子集"
+    },
+    {
+      "source": "必修一-1.3-子集",
+      "target": "必修一-1.3-集合相等",
+      "relation": "extends",
+      "weight": 0.8,
+      "description": "集合相等通过子集关系定义"
+    },
+    {
+      "source": "必修一-1.3-集合的基本关系",
+      "target": "必修一-1.4-交集",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "理解集合关系是学习集合运算的基础"
+    },
+    {
+      "source": "必修一-1.3-集合的基本关系",
+      "target": "必修一-1.4-并集",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "理解集合关系是学习集合运算的基础"
+    },
+    {
+      "source": "必修一-1.4-交集",
+      "target": "必修一-1.4-并集",
+      "relation": "related",
+      "weight": 0.9,
+      "description": "交集与并集是互为对偶的运算"
+    },
+    {
+      "source": "必修一-1.4-交集",
+      "target": "必修一-1.4-补集",
+      "relation": "prerequisite",
+      "weight": 0.7,
+      "description": "理解交集有助于理解补集"
+    },
+    {
+      "source": "必修一-1.4-并集",
+      "target": "必修一-1.4-补集",
+      "relation": "prerequisite",
+      "weight": 0.7,
+      "description": "理解并集有助于理解补集"
+    },
+    {
+      "source": "必修一-1.4-交集",
+      "target": "必修一-1.4-德摩根定律",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "德摩根定律涉及交集运算"
+    },
+    {
+      "source": "必修一-1.4-并集",
+      "target": "必修一-1.4-德摩根定律",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "德摩根定律涉及并集运算"
+    },
+    {
+      "source": "必修一-1.4-补集",
+      "target": "必修一-1.4-德摩根定律",
+      "relation": "prerequisite",
+      "weight": 0.9,
+      "description": "德摩根定律是补集运算的重要性质"
+    },
+    {
+      "source": "必修一-1.3-集合的基本关系",
+      "target": "必修一-1.5-充分条件",
+      "relation": "prerequisite",
+      "weight": 0.6,
+      "description": "集合关系与条件关系有对应"
+    },
+    {
+      "source": "必修一-1.3-集合的基本关系",
+      "target": "必修一-1.5-必要条件",
+      "relation": "prerequisite",
+      "weight": 0.6,
+      "description": "集合关系与条件关系有对应"
+    },
+    {
+      "source": "必修一-1.5-充分条件",
+      "target": "必修一-1.5-必要条件",
+      "relation": "related",
+      "weight": 0.8,
+      "description": "充分条件与必要条件是条件关系的两个方面"
+    },
+    {
+      "source": "必修一-1.5-充分条件",
+      "target": "必修一-1.5-充要条件",
+      "relation": "prerequisite",
+      "weight": 0.9,
+      "description": "充要条件是充分条件的特殊情况"
+    },
+    {
+      "source": "必修一-1.5-必要条件",
+      "target": "必修一-1.5-充要条件",
+      "relation": "prerequisite",
+      "weight": 0.9,
+      "description": "充要条件是必要条件的特殊情况"
+    },
+    {
+      "source": "必修一-1.5-充分条件",
+      "target": "必修一-1.6-全称量词",
+      "relation": "prerequisite",
+      "weight": 0.5,
+      "description": "条件关系为量词学习做铺垫"
+    },
+    {
+      "source": "必修一-1.5-必要条件",
+      "target": "必修一-1.6-存在量词",
+      "relation": "prerequisite",
+      "weight": 0.5,
+      "description": "条件关系为量词学习做铺垫"
+    },
+    {
+      "source": "必修一-1.6-全称量词",
+      "target": "必修一-1.6-存在量词",
+      "relation": "related",
+      "weight": 0.9,
+      "description": "全称量词与存在量词互为对偶"
+    },
+    {
+      "source": "必修一-1.6-全称量词",
+      "target": "必修一-1.6-命题的否定",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "全称命题的否定是重要内容"
+    },
+    {
+      "source": "必修一-1.6-存在量词",
+      "target": "必修一-1.6-命题的否定",
+      "relation": "prerequisite",
+      "weight": 0.8,
+      "description": "特称命题的否定是重要内容"
+    },
+    {
+      "source": "必修一-1.1-集合",
+      "target": "必修一-1.1-例题1",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题1用于巩固集合概念"
+    },
+    {
+      "source": "必修一-1.4-交集",
+      "target": "必修一-1.4-例题2",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题2用于练习集合运算"
+    },
+    {
+      "source": "必修一-1.4-并集",
+      "target": "必修一-1.4-例题2",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题2用于练习集合运算"
+    },
+    {
+      "source": "必修一-1.4-补集",
+      "target": "必修一-1.4-例题2",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题2用于练习集合运算"
+    },
+    {
+      "source": "必修一-1.5-充分条件",
+      "target": "必修一-1.5-例题3",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题3用于练习条件判断"
+    },
+    {
+      "source": "必修一-1.5-必要条件",
+      "target": "必修一-1.5-例题3",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题3用于练习条件判断"
+    },
+    {
+      "source": "必修一-1.5-充要条件",
+      "target": "必修一-1.5-例题3",
+      "relation": "example",
+      "weight": 0.8,
+      "description": "例题3用于练习条件判断"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：复数的几何意义与实系数一元二次方程}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：复数的几何意义与实系数一元二次方程}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+复数与平面向量、平面几何之间有着密切的联系。通过复平面，可以把复数与几何图形建立一一对应，为解决几何问题提供代数工具；同时，复数理论的建立也使得实系数一元二次方程在判别式小于零时仍有解。
+
+\begin{definition}[复平面]
+    用平面直角坐标系中的点 $Z(a, b)$ 表示复数 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$），这样用来表示复数的平面叫做\textbf{复平面}（complex plane）。
+    
+    在复平面中，$x$ 轴称为\textbf{实轴}，$y$ 轴称为\textbf{虚轴}（原点除外）。
+\end{definition}
+
+\begin{property}[复数的几何表示]
+    复数 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$）与以下对象一一对应：
+    \begin{itemize}
+        \item 复平面上的点 $Z(a, b)$；
+        \item 平面向量 $\overrightarrow{OZ} = (a, b)$（$O$ 为坐标原点）。
+    \end{itemize}
+    因此，复数 $z = a + b\mathrm{i}$ 可看作是复平面上的点 $Z(a, b)$ 或向量 $\overrightarrow{OZ}$。
+\end{property}
+
+\begin{definition}[复数的模]
+    复数 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$）在复平面上所对应的点 $Z(a, b)$ 到原点的距离 $\sqrt{a^2 + b^2}$，叫做复数 $z$ 的\textbf{模}（modulus），记作 $|z|$：
+    \[
+        |z| = |a + b\mathrm{i}| = \sqrt{a^2 + b^2}.
+    \]
+\end{definition}
+
+\begin{property}[复数模的性质]
+    设 $z, z_1, z_2 \in \mathbb{C}$，则：
+    \begin{enumerate}
+        \item $|z| = |\bar{z}|$，$z \cdot \bar{z} = |z|^2$；
+        \item $|z_1 \cdot z_2| = |z_1| \cdot |z_2|$；
+        \item $\left|\dfrac{z_1}{z_2}\right| = \dfrac{|z_1|}{|z_2|}$（$z_2 \neq 0$）；
+        \item $||z_1| - |z_2|| \leq |z_1 \pm z_2| \leq |z_1| + |z_2|$（三角不等式）；
+        \item 复平面上两点 $Z_1, Z_2$ 对应的复数为 $z_1, z_2$，则 $|z_1 - z_2| = |Z_1Z_2|$ 表示两点间距离。
+    \end{enumerate}
+\end{property}
+
+\begin{property}[实系数一元二次方程的求根公式]
+    对于实系数一元二次方程 $ax^2 + bx + c = 0$（$a, b, c \in \mathbb{R}$，$a \neq 0$），设判别式 $\Delta = b^2 - 4ac$，则在复数范围内：
+    \begin{enumerate}
+        \item 当 $\Delta > 0$ 时，方程有两个不相等的实根：$x = \dfrac{-b \pm \sqrt{\Delta}}{2a}$；
+        \item 当 $\Delta = 0$ 时，方程有两个相等的实根（二重根）：$x = -\dfrac{b}{2a}$；
+        \item 当 $\Delta < 0$ 时，方程有一对共轭虚根：$x = \dfrac{-b \pm \sqrt{-\Delta}\mathrm{i}}{2a}$。
+    \end{enumerate}
+\end{property}
+
+\begin{property}[实系数一元二次方程根与系数的关系]
+    设实系数一元二次方程 $ax^2 + bx + c = 0$（$a \neq 0$）的两个根为 $x_1, x_2$（可以是实根或共轭虚根），则：
+    \[
+        x_1 + x_2 = -\frac{b}{a}, \quad x_1 \cdot x_2 = \frac{c}{a}.
+    \]
+    特别地，若方程有一个虚根 $x_1 = p + q\mathrm{i}$（$p, q \in \mathbb{R}$，$q \neq 0$），则另一个根必为其共轭复数 $x_2 = p - q\mathrm{i}$。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[复数模的计算]
+    求下列复数的模：
+    \begin{enumerate}
+        \item $z_1 = 3 + 4\mathrm{i}$；
+        \item $z_2 = \dfrac{(1 - \mathrm{i})(1 + 2\mathrm{i})}{4 + 3\mathrm{i}}$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) $|z_1| = \sqrt{3^2 + 4^2} = 5$。
+
+(2) 利用模的性质 $|z_1 \cdot z_2| = |z_1| \cdot |z_2|$ 和 $\left|\dfrac{z_1}{z_2}\right| = \dfrac{|z_1|}{|z_2|}$：
+\[
+    |z_2| = \frac{|1 - \mathrm{i}| \cdot |1 + 2\mathrm{i}|}{|4 + 3\mathrm{i}|} = \frac{\sqrt{2} \cdot \sqrt{5}}{5} = \frac{\sqrt{10}}{5}.
+\]
+
+\begin{realexam}[2025 长宁二模]
+    复数 $z_1 = 2 - 3\mathrm{i}$，$z_2 = 1 - 2\mathrm{i}$，则 $z_1 \cdot \overline{z_2} = $ \_\_\_\_\_\_。
+\end{realexam}
+
+\textbf{解.} 由 $z_2 = 1 - 2\mathrm{i}$，得 $\overline{z_2} = 1 + 2\mathrm{i}$。
+
+因此：
+\[
+    z_1 \cdot \overline{z_2} = (2 - 3\mathrm{i})(1 + 2\mathrm{i}) = 2 + 4\mathrm{i} - 3\mathrm{i} - 6\mathrm{i}^2 = 2 + \mathrm{i} + 6 = 8 + \mathrm{i}.
+\]
+
+\begin{example}[复数几何意义的应用]
+    设复数 $z$ 满足 $|z| = 1$，求证：$z + \dfrac{1}{z}$ 是实数。
+\end{example}
+
+\textbf{证明.} 由 $|z| = 1$，得 $z \cdot \bar{z} = |z|^2 = 1$，所以 $\bar{z} = \dfrac{1}{z}$。
+
+因此 $z + \dfrac{1}{z} = z + \bar{z} = 2\operatorname{Re}(z)$，这是实数。
+
+\begin{example}[实系数一元二次方程求解]
+    在复数范围内解方程：$2x^2 - 4x + 5 = 0$。
+\end{example}
+
+\textbf{解.} 判别式 $\Delta = (-4)^2 - 4 \times 2 \times 5 = 16 - 40 = -24 < 0$。
+
+因此方程有一对共轭虚根：
+\[
+    x = \frac{-(-4) \pm \sqrt{24}\mathrm{i}}{4} = \frac{4 \pm 2\sqrt{6}\mathrm{i}}{4} = 1 \pm \frac{\sqrt{6}}{2}\mathrm{i}.
+\]
+
+\begin{realexam}[练习]
+    已知关于 $x$ 的实系数一元二次方程 $x^2 + kx + 3 = 0$ 有两个虚根 $x_1$ 和 $x_2$，且 $|x_1 - x_2| = 2\sqrt{2}$，求 $k$ 的值。
+\end{realexam}
+
+\textbf{解.} 由方程有虚根，判别式 $\Delta = k^2 - 12 < 0$，即 $-2\sqrt{3} < k < 2\sqrt{3}$。
+
+设两根为 $x_1 = \dfrac{-k + \sqrt{12 - k^2}\mathrm{i}}{2}$，$x_2 = \dfrac{-k - \sqrt{12 - k^2}\mathrm{i}}{2}$。
+
+则 $x_1 - x_2 = \sqrt{12 - k^2}\mathrm{i}$，所以 $|x_1 - x_2| = \sqrt{12 - k^2}$。
+
+由 $\sqrt{12 - k^2} = 2\sqrt{2}$，得 $12 - k^2 = 8$，即 $k^2 = 4$，解得 $k = \pm 2$。
+
+经检验，$k = \pm 2$ 均满足 $\Delta < 0$。
+
+\begin{example}[实系数方程与根的关系]
+    如果 $p, q$ 都是实数，而关于 $x$ 的方程 $2x^2 + px + q = 0$ 有一个根 $-2 + 3\mathrm{i}$，求 $p, q$ 的值。
+\end{example}
+
+\textbf{解.} 方程 $2x^2 + px + q = 0$ 有一个虚根 $-2 + 3\mathrm{i}$，则它的另一个根必为其共轭复数 $-2 - 3\mathrm{i}$。
+
+由根与系数的关系：
+\[
+    (-2 + 3\mathrm{i}) + (-2 - 3\mathrm{i}) = -\frac{p}{2}, \quad (-2 + 3\mathrm{i})(-2 - 3\mathrm{i}) = \frac{q}{2}.
+\]
+
+计算得：$-4 = -\dfrac{p}{2}$，即 $p = 8$；
+
+$(-2)^2 - (3\mathrm{i})^2 = 4 + 9 = 13 = \dfrac{q}{2}$，即 $q = 26$。
+
+\begin{realexam}[2024 闵行一模]
+    已知复数 $z_1, z_2$ 在复平面内对应的点分别为 $P, Q$，$|OP| = 5$（$O$ 为坐标原点），且 $z_1^2 - z_1 z_2 \cdot \sin\theta + z_2^2 = 0$，则对任意 $\theta \in \mathbb{R}$，下列选项中为定值的是（ ）
+    
+    A. $|z_1 - z_2|$ \quad B. $|z_1 + z_2|$ \quad C. $|z_1| + |z_2|$ \quad D. $|z_1| \cdot |z_2|$
+\end{realexam}
+
+\textbf{解.} 由 $z_1^2 - z_1 z_2 \cdot \sin\theta + z_2^2 = 0$，设 $t = \dfrac{z_2}{z_1}$，则 $1 - t\sin\theta + t^2 = 0$。
+
+即 $t^2 - t\sin\theta + 1 = 0$，解得 $t = \dfrac{\sin\theta \pm \sqrt{\sin^2\theta - 4}}{2} = \dfrac{\sin\theta \pm \mathrm{i}\sqrt{4 - \sin^2\theta}}{2}$。
+
+所以 $|t| = \sqrt{\dfrac{\sin^2\theta}{4} + \dfrac{4 - \sin^2\theta}{4}} = \sqrt{\dfrac{4}{4}} = 1$。
+
+因此 $\left|\dfrac{z_2}{z_1}\right| = 1$，即 $|z_2| = |z_1|$。
+
+由 $|OP| = |z_1| = 5$，得 $|z_2| = 5$。
+
+所以 $|z_1| \cdot |z_2| = 25$ 为定值，选 D。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{复数的几何意义}：复数 $z = a + b\mathrm{i}$ 对应复平面上的点 $(a, b)$ 和向量 $\overrightarrow{OZ} = (a, b)$，利用这一对应关系可以将复数问题转化为几何问题。
+    
+    \item \textbf{复数模的计算技巧}：
+    \begin{itemize}
+        \item 直接计算：$|a + b\mathrm{i}| = \sqrt{a^2 + b^2}$；
+        \item 利用性质：$|z_1 \cdot z_2| = |z_1| \cdot |z_2|$，$\left|\dfrac{z_1}{z_2}\right| = \dfrac{|z_1|}{|z_2|}$；
+        \item 利用 $z \cdot \bar{z} = |z|^2$。
+    \end{itemize}
+    
+    \item \textbf{实系数一元二次方程的虚根}：
+    \begin{itemize}
+        \item 当 $\Delta < 0$ 时，方程有一对共轭虚根 $x = \dfrac{-b \pm \sqrt{-\Delta}\mathrm{i}}{2a}$；
+        \item 若方程有一个虚根 $p + q\mathrm{i}$（$q \neq 0$），则另一个根必为 $p - q\mathrm{i}$；
+        \item 韦达定理对虚根仍然成立。
+    \end{itemize}
+    
+    \item \textbf{复数与几何结合}：利用 $|z - z_0| = r$ 表示以 $z_0$ 对应点为圆心、$r$ 为半径的圆；$|z - z_1| = |z - z_2|$ 表示线段 $Z_1Z_2$ 的垂直平分线。
+    
+    \item \textbf{待定系数法}：已知方程的根求系数时，可利用根与系数的关系（韦达定理）建立方程组求解。
+\end{enumerate}
+
+\end{document}

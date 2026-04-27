@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>题目归类分析看板</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+    <style>
+        :root {
+            --bg-grad: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            --card-bg: rgba(255, 255, 255, 0.85);
+            --card-border: rgba(255, 255, 255, 0.4);
+            --primary: #6366f1;
+            --tag-bg: #e0e7ff;
+            --tag-text: #4338ca;
+            --text-main: #334155;
+            --text-muted: #64748b;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg-grad);
+            color: var(--text-main);
+            margin: 0;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: var(--primary);
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            animation: fadeIn 0.6s ease-out backwards;
+        }
+
+        .card:hover {
+            transform: translateY(-5px) scale(1.01);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.08);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px dashed #e2e8f0;
+            padding-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .page-badge {
+            background: var(--primary);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 999px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(99, 102, 241, 0.3);
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .tag {
+            background: var(--tag-bg);
+            color: var(--tag-text);
+            padding: 0.3rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .tag:hover {
+            background: var(--primary);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .content {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            overflow-y: auto;
+            max-height: 450px;
+            padding-right: 1rem;
+            color: #1e293b;
+        }
+
+        .content::-webkit-scrollbar {
+            width: 8px;
+        }
+        .content::-webkit-scrollbar-track {
+            background: #f1f5f9;
+            border-radius: 4px;
+        }
+        .content::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+        .content::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+            margin: 1.5rem 0;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+
+        .katex-display {
+            overflow-x: auto;
+            overflow-y: hidden;
+            padding: 10px 0;
+        }
+        
+        pre code {
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 8px;
+            display: block;
+            overflow-x: auto;
+            border: 1px solid #e2e8f0;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>题目归类分析看板 / 视觉渲染区</h1>
+        <div class="subtitle">根据您的数据实时高品质视图渲染 ✨</div>
+    </header>
+
+    <div class="container" id="app">
+        <!-- Cards injected dynamically -->
+    </div>
+
+    <script>
+        async function init() {
+            try {
+                const response = await fetch('result.json');
+                const data = await response.json();
+                const container = document.getElementById('app');
+
+                data.pages.forEach((page, index) => {
+                    const card = document.createElement('div');
+                    card.className = 'card';
+                    card.style.animationDelay = `${index * 0.05}s`;
+
+                    const header = document.createElement('div');
+                    header.className = 'card-header';
+                    
+                    const badge = document.createElement('span');
+                    badge.className = 'page-badge';
+                    badge.innerText = `📄 第 ${page.pageIdx + 1} 页`;
+                    header.appendChild(badge);
+
+                    const tagsDiv = document.createElement('div');
+                    tagsDiv.className = 'tags';
+                    if (page.knowledge_points && page.knowledge_points.length > 0) {
+                        page.knowledge_points.forEach(kp => {
+                            const tag = document.createElement('span');
+                            tag.className = 'tag';
+                            tag.innerText = kp;
+                            tagsDiv.appendChild(tag);
+                        });
+                    } else {
+                        const tag = document.createElement('span');
+                        tag.className = 'tag';
+                        tag.style.background = '#f1f5f9';
+                        tag.style.color = '#64748b';
+                        tag.innerText = '暂无标签';
+                        tagsDiv.appendChild(tag);
+                    }
+
+                    const contentDiv = document.createElement('div');
+                    contentDiv.className = 'content';
+                    
+                    // Use basic string manipulation to protect math sequences before parsed by Marked
+                    let rawMd = page.md || "";
+                    
+                    // Remove Meanless comments so they don't break layout
+                    rawMd = rawMd.replace(/<!-- Meanless:.*?-->/gs, '');
+
+                    // FIX: Marked.js deletes backslashes. KaTeX needs them. 
+                    // By doubling all backslashes in the raw content before Markdown parses it, 
+                    // the output HTML will have single backslashes for KaTeX to read successfully!
+                    rawMd = rawMd.replace(/\\/g, '\\\\');
+                    
+                    // Note: This approach safely handles \(, \), \[, \], \frac, \sin, etc.
+                    let htmlContent = marked.parse(rawMd);
+                    
+                    contentDiv.innerHTML = htmlContent;
+
+                    card.appendChild(header);
+                    card.appendChild(tagsDiv);
+                    card.appendChild(contentDiv);
+                    container.appendChild(card);
+                });
+
+                    // Render math using KaTeX
+                setTimeout(() => {
+                    renderMathInElement(container, {
+                        delimiters: [
+                            {left: '$$', right: '$$', display: true},
+                            {left: '\\[', right: '\\]', display: true},
+                            {left: '\\(', right: '\\)', display: false}
+                        ],
+                        throwOnError: false,
+                        trust: true,
+                        strict: false // Allow slightly malformed equations to render what they can
+                    });
+                }, 200);
+
+            } catch (err) {
+                console.error(err);
+                document.getElementById('app').innerHTML = `<p style="color: #ef4444; padding: 2rem; background: #fee2e2; border-radius: 12px; font-weight: 500;">加载数据失败！请确保您通过 Web Server 访问（例如 http://localhost:8000/viewer.html），以解决跨域及本地文件限制问题。</p>`;
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>

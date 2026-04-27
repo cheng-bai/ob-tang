@@ -1,0 +1,166 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：复数的概念与四则运算}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：复数的概念与四则运算}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+复数是人类理性思维的演绎成果，它的产生源于数学家解决数学自身问题的需要。实数与虚数合称为复数，复数已经成为数学工作者与科技人员广泛应用的基本数学工具。
+
+\begin{definition}[复数的定义]
+    形如 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$）的数称为一个\textbf{复数}（complex number），其中 $\mathrm{i}$ 称为虚数单位，满足 $\mathrm{i}^2 = -1$。
+    
+    全体复数构成的集合用字母 $\mathbb{C}$ 表示。
+\end{definition}
+
+\begin{property}[复数的相等条件]
+    两个复数 $z_1 = a + b\mathrm{i}$ 与 $z_2 = c + d\mathrm{i}$（$a, b, c, d \in \mathbb{R}$）相等，当且仅当它们的实部和虚部分别相等：
+    \[
+        z_1 = z_2 \Leftrightarrow a = c \text{ 且 } b = d.
+    \]
+    特别地，$a + b\mathrm{i} = 0 \Leftrightarrow a = 0$ 且 $b = 0$。
+\end{property}
+
+\begin{property}[复数的分类]
+    对于复数 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$）：
+    \begin{itemize}
+        \item 当 $b = 0$ 时，$z = a$ 是\textbf{实数}；
+        \item 当 $b \neq 0$ 时，$z$ 称为\textbf{虚数}；
+        \item 当 $a = 0$ 且 $b \neq 0$ 时，$z = b\mathrm{i}$ 称为\textbf{纯虚数}。
+    \end{itemize}
+    因此，实数集 $\mathbb{R}$ 是复数集 $\mathbb{C}$ 的真子集，即 $\mathbb{R} \subset \mathbb{C}$。
+\end{property}
+
+\begin{definition}[共轭复数]
+    对于复数 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$），称 $\bar{z} = a - b\mathrm{i}$ 为 $z$ 的\textbf{共轭复数}。
+\end{definition}
+
+\begin{property}[共轭复数的性质]
+    设 $z, z_1, z_2 \in \mathbb{C}$，则：
+    \begin{enumerate}
+        \item $\overline{\bar{z}} = z$；
+        \item $\overline{z_1 \pm z_2} = \bar{z}_1 \pm \bar{z}_2$；
+        \item $\overline{z_1 \cdot z_2} = \bar{z}_1 \cdot \bar{z}_2$；
+        \item $\overline{\left(\dfrac{z_1}{z_2}\right)} = \dfrac{\bar{z}_1}{\bar{z}_2}$（$z_2 \neq 0$）；
+        \item $z \cdot \bar{z} = |z|^2 = a^2 + b^2$。
+    \end{enumerate}
+\end{property}
+
+\begin{property}[复数的四则运算]
+    设 $z_1 = a + b\mathrm{i}$，$z_2 = c + d\mathrm{i}$（$a, b, c, d \in \mathbb{R}$）：
+    \begin{itemize}
+        \item \textbf{加法}：$(a + b\mathrm{i}) + (c + d\mathrm{i}) = (a + c) + (b + d)\mathrm{i}$
+        \item \textbf{减法}：$(a + b\mathrm{i}) - (c + d\mathrm{i}) = (a - c) + (b - d)\mathrm{i}$
+        \item \textbf{乘法}：$(a + b\mathrm{i})(c + d\mathrm{i}) = (ac - bd) + (ad + bc)\mathrm{i}$
+        \item \textbf{除法}：$\dfrac{a + b\mathrm{i}}{c + d\mathrm{i}} = \dfrac{(a + b\mathrm{i})(c - d\mathrm{i})}{c^2 + d^2} = \dfrac{ac + bd}{c^2 + d^2} + \dfrac{bc - ad}{c^2 + d^2}\mathrm{i}$（$c + d\mathrm{i} \neq 0$）
+    \end{itemize}
+    复数加法与乘法满足交换律、结合律与乘法对加法的分配律。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[复数的分类讨论]
+    求实数 $m$ 的值或取值范围，使得复数 $z = m^2 + m - 2 + (m^2 - 1)\mathrm{i}$ 分别是：
+    \begin{enumerate}
+        \item 实数；
+        \item 虚数；
+        \item 纯虚数；
+        \item 零。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) $z$ 为实数当且仅当 $m^2 - 1 = 0$，即 $m = \pm 1$。
+
+(2) $z$ 是虚数当且仅当 $m^2 - 1 \neq 0$，即 $m \neq \pm 1$。
+
+(3) $z$ 是纯虚数当且仅当 $\begin{cases} m^2 + m - 2 = 0 \\ m^2 - 1 \neq 0 \end{cases}$，即 $\begin{cases} (m + 2)(m - 1) = 0 \\ (m + 1)(m - 1) \neq 0 \end{cases}$，解得 $m = -2$。
+
+(4) $z = 0$ 当且仅当 $\begin{cases} m^2 + m - 2 = 0 \\ m^2 - 1 = 0 \end{cases}$，解得 $m = 1$。
+
+\begin{realexam}[2025 上海春考]
+    已知复数 $z = \dfrac{2 + \mathrm{i}}{\mathrm{i}}$，其中 $\mathrm{i}$ 为虚数单位，则 $|z| = $ \_\_\_\_\_\_。
+\end{realexam}
+
+\textbf{解.} 先化简 $z$：
+\[
+    z = \frac{2 + \mathrm{i}}{\mathrm{i}} = \frac{(2 + \mathrm{i})(-\mathrm{i})}{\mathrm{i} \cdot (-\mathrm{i})} = \frac{-2\mathrm{i} - \mathrm{i}^2}{-\mathrm{i}^2} = \frac{1 - 2\mathrm{i}}{1} = 1 - 2\mathrm{i}.
+\]
+因此 $|z| = \sqrt{1^2 + (-2)^2} = \sqrt{5}$。
+
+\begin{realexam}[2024 长宁一模]
+    复数 $z$ 满足 $z = \dfrac{1}{1 - \mathrm{i}}$（$\mathrm{i}$ 为虚数单位），则 $|\bar{z}| = $ \_\_\_\_\_\_。
+\end{realexam}
+
+\textbf{解.} 先化简 $z$：
+\[
+    z = \frac{1}{1 - \mathrm{i}} = \frac{1 + \mathrm{i}}{(1 - \mathrm{i})(1 + \mathrm{i})} = \frac{1 + \mathrm{i}}{1 + 1} = \frac{1}{2} + \frac{1}{2}\mathrm{i}.
+\]
+则 $\bar{z} = \dfrac{1}{2} - \dfrac{1}{2}\mathrm{i}$，故 $|\bar{z}| = \sqrt{\left(\dfrac{1}{2}\right)^2 + \left(-\dfrac{1}{2}\right)^2} = \sqrt{\dfrac{1}{4} + \dfrac{1}{4}} = \dfrac{\sqrt{2}}{2}$。
+
+\begin{example}[复数方程求解]
+    已知复数 $z$ 满足 $(1 + 2\mathrm{i})\bar{z} = 4 + 3\mathrm{i}$，求 $z$。
+\end{example}
+
+\textbf{解.} 由题意得 $\bar{z} = \dfrac{4 + 3\mathrm{i}}{1 + 2\mathrm{i}}$，对右边进行分母实数化：
+\[
+    \bar{z} = \frac{(4 + 3\mathrm{i})(1 - 2\mathrm{i})}{(1 + 2\mathrm{i})(1 - 2\mathrm{i})} = \frac{4 - 8\mathrm{i} + 3\mathrm{i} - 6\mathrm{i}^2}{1 + 4} = \frac{10 - 5\mathrm{i}}{5} = 2 - \mathrm{i}.
+\]
+因此 $z = \overline{\bar{z}} = 2 + \mathrm{i}$。
+
+\begin{realexam}[2025 青浦一模]
+    在复平面内，复数 $z = 1 + \dfrac{1}{2}\mathrm{i}$（其中 $\mathrm{i}$ 是虚数单位）的共轭复数对应的点位于第 \_\_\_\_\_\_ 象限。
+\end{realexam}
+
+\textbf{解.} 由 $z = 1 + \dfrac{1}{2}\mathrm{i}$，得 $\bar{z} = 1 - \dfrac{1}{2}\mathrm{i}$。
+
+$\bar{z}$ 对应的点为 $\left(1, -\dfrac{1}{2}\right)$，该点横坐标为正，纵坐标为负，故位于第四象限。
+
+\begin{example}[练习]
+    已知非零复数 $z$ 满足 $|z - 1| = 1$，$|\bar{z} - \mathrm{i}| = 1$，求 $z$ 的虚部。
+\end{example}
+
+\textbf{解.} 设 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$，且 $a, b$ 不全为零），则 $\bar{z} = a - b\mathrm{i}$。
+
+由 $|z - 1| = 1$，得 $|(a - 1) + b\mathrm{i}| = 1$，即 $(a - 1)^2 + b^2 = 1$ \quad ①
+
+由 $|\bar{z} - \mathrm{i}| = 1$，得 $|a - (b + 1)\mathrm{i}| = 1$，即 $a^2 + (b + 1)^2 = 1$ \quad ②
+
+由①$-$②得：$(a - 1)^2 - a^2 + b^2 - (b + 1)^2 = 0$
+
+展开得：$-2a + 1 - 2b - 1 = 0$，即 $a + b = 0$，所以 $a = -b$。
+
+代入①：$(-b - 1)^2 + b^2 = 1$，即 $(b + 1)^2 + b^2 = 1$
+
+展开：$b^2 + 2b + 1 + b^2 = 1$，即 $2b^2 + 2b = 0$，解得 $b = 0$ 或 $b = -1$。
+
+当 $b = 0$ 时，$a = 0$，此时 $z = 0$（舍去，因为 $z$ 非零）；
+
+当 $b = -1$ 时，$a = 1$，此时 $z = 1 - \mathrm{i}$，验证满足条件。
+
+故 $z$ 的虚部为 $-1$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{复数相等的应用}：利用复数相等的充要条件（实部相等且虚部相等）可将复数问题转化为实数问题求解。
+    
+    \item \textbf{复数除法运算}：进行复数除法时，关键是将分母实数化，即分子分母同乘分母的共轭复数。
+    
+    \item \textbf{共轭复数的性质}：$z \cdot \bar{z} = |z|^2$ 是常用的恒等式，在求模和化简时经常用到。
+    
+    \item \textbf{复数分类讨论}：判断复数类型时，要紧扣定义：实数（虚部为零）、虚数（虚部非零）、纯虚数（实部为零且虚部非零）。
+    
+    \item \textbf{方程思想}：设 $z = a + b\mathrm{i}$（$a, b \in \mathbb{R}$），利用复数相等建立方程组是求解复数问题的基本方法。
+\end{enumerate}
+
+\end{document}

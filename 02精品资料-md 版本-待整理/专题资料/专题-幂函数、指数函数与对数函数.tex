@@ -1,0 +1,178 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：幂函数、指数函数与对数函数}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：幂函数、指数函数与对数函数}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+幂函数、指数函数与对数函数是三类重要的基本初等函数，它们在实际问题中有广泛的应用，如人口增长、放射性衰变、复利计算等。
+
+\begin{definition}[幂函数]
+    形如 $y = x^\alpha$（$\alpha$ 为常数）的函数称为\textbf{幂函数}。
+    \begin{itemize}
+        \item 当 $\alpha > 0$ 时，幂函数在 $(0, +\infty)$ 上单调递增；
+        \item 当 $\alpha < 0$ 时，幂函数在 $(0, +\infty)$ 上单调递减；
+        \item 幂函数的定义域随 $\alpha$ 的取值不同而变化。
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[指数函数]
+    形如 $y = a^x$（$a > 0$ 且 $a \neq 1$）的函数称为\textbf{指数函数}。
+    \begin{itemize}
+        \item 定义域为 $\mathbb{R}$，值域为 $(0, +\infty)$；
+        \item 当 $a > 1$ 时，函数单调递增；当 $0 < a < 1$ 时，函数单调递减；
+        \item 函数图像恒过点 $(0, 1)$。
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[对数函数]
+    形如 $y = \log_a x$（$a > 0$ 且 $a \neq 1$）的函数称为\textbf{对数函数}。
+    \begin{itemize}
+        \item 定义域为 $(0, +\infty)$，值域为 $\mathbb{R}$；
+        \item 当 $a > 1$ 时，函数单调递增；当 $0 < a < 1$ 时，函数单调递减；
+        \item 函数图像恒过点 $(1, 0)$；
+        \item 对数函数与指数函数互为反函数。
+    \end{itemize}
+\end{definition}
+
+\begin{property}[运算性质]
+    \textbf{指数运算性质}（$a > 0$，$b > 0$，$m, n \in \mathbb{R}$）：
+    \begin{enumerate}
+        \item $a^m \cdot a^n = a^{m+n}$
+        \item $\dfrac{a^m}{a^n} = a^{m-n}$
+        \item $(a^m)^n = a^{mn}$
+        \item $(ab)^n = a^n \cdot b^n$
+    \end{enumerate}
+
+    \textbf{对数运算性质}（$a > 0$ 且 $a \neq 1$，$M > 0$，$N > 0$）：
+    \begin{enumerate}
+        \item $\log_a(MN) = \log_a M + \log_a N$
+        \item $\log_a\dfrac{M}{N} = \log_a M - \log_a N$
+        \item $\log_a M^n = n\log_a M$
+        \item $\log_a b = \dfrac{\log_c b}{\log_c a}$（换底公式）
+    \end{enumerate}
+\end{property}
+
+\begin{property}[指对互化]
+    指数式与对数式的互化关系：
+    \[
+        a^x = N \quad \Longleftrightarrow \quad x = \log_a N \quad (a > 0, a \neq 1, N > 0)
+    \]
+    特别地，当 $a = \mathrm{e}$ 时，$\mathrm{e}^x = N \Leftrightarrow x = \ln N$；
+    当 $a = 10$ 时，$10^x = N \Leftrightarrow x = \lg N$。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[幂函数的定义与性质]
+    已知 $f(x) = (m-1)x^\alpha$，若 $y = f(x)$ 是幂函数，且 $f(3) = 27$，则 $f(m) =$ \_\_\_\_\_。
+    
+    \textbf{【来源】2026 届闵行区高三下二模}
+\end{example}
+
+\textbf{解.} 根据幂函数的定义，幂函数的系数必须为 $1$，即 $m - 1 = 1$，解得 $m = 2$。
+
+所以 $f(x) = x^\alpha$。由 $f(3) = 27$，得 $3^\alpha = 27 = 3^3$，故 $\alpha = 3$。
+
+因此 $f(x) = x^3$，所以 $f(m) = f(2) = 2^3 = 8$。
+
+\begin{example}[指数式化简]
+    将 $\sqrt{a\sqrt{a}}$（$a > 0$）化成有理数指数幂的形式为\_\_\_\_\_。
+    
+    \textbf{【来源】2026 届金山区高三下二模}
+\end{example}
+
+\textbf{解.} 
+\[
+    \sqrt{a\sqrt{a}} = \sqrt{a \cdot a^{\frac{1}{2}}} = \sqrt{a^{\frac{3}{2}}} = \left(a^{\frac{3}{2}}\right)^{\frac{1}{2}} = a^{\frac{3}{4}}
+\]
+
+\begin{example}[对数函数求值]
+    若对数函数 $y = \log_a x$（$a > 0$，$a \neq 1$）的图像经过点 $(4, 2)$，则 $a$ 的值为\_\_\_\_\_。
+    
+    \textbf{【来源】2025 浦东一模}
+\end{example}
+
+\textbf{解.} 由题意得 $\log_a 4 = 2$，根据对数的定义，有 $a^2 = 4$。
+
+因为 $a > 0$ 且 $a \neq 1$，所以 $a = 2$。
+
+\begin{example}[指对数比较大小]
+    设 $a = \log_3 2$，$b = \log_5 2$，$c = \left(\dfrac{1}{2}\right)^{0.3}$，则（\quad）
+
+    \text{A. } $a < b < c$ \quad \text{B. } $b < a < c$ \quad \text{C. } $c < b < a$ \quad \text{D. } $c < a < b$
+    
+    \textbf{【来源】练习}
+\end{example}
+
+\textbf{解.} 首先分析各值的范围：
+
+$a = \log_3 2$：因为 $\log_3 1 = 0$，$\log_3 3 = 1$，所以 $0 < a < 1$。
+
+$b = \log_5 2$：因为 $\log_5 1 = 0$，$\log_5 5 = 1$，所以 $0 < b < 1$。
+
+比较 $a$ 和 $b$：$a = \log_3 2 = \dfrac{\ln 2}{\ln 3}$，$b = \log_5 2 = \dfrac{\ln 2}{\ln 5}$。
+
+因为 $\ln 3 < \ln 5$，所以 $\dfrac{\ln 2}{\ln 3} > \dfrac{\ln 2}{\ln 5}$，即 $a > b$。
+
+$c = \left(\dfrac{1}{2}\right)^{0.3}$：因为 $0 < \dfrac{1}{2} < 1$，且指数 $0.3 > 0$，所以 $0 < c < 1$。
+
+又因为 $\left(\dfrac{1}{2}\right)^{0.3} > \left(\dfrac{1}{2}\right)^1 = \dfrac{1}{2}$，而 $\log_3 2 < \log_3 \sqrt{3} = \dfrac{1}{2}$，所以 $c > a$。
+
+综上，$b < a < c$，选 B。
+
+\begin{realexam}[2019 上海秋考]
+    已知 $f(x) = ax + \dfrac{1}{x+1}$，$a \in \mathbb{R}$。
+    \begin{enumerate}
+        \item 当 $a = 1$ 时，求不等式 $f(x) + 1 < f(x+1)$ 的解集；
+        \item 若 $f(x)$ 在 $x \in [1, 2]$ 时有零点，求 $a$ 的取值范围。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 当 $a = 1$ 时，$f(x) = x + \dfrac{1}{x+1}$。
+
+不等式 $f(x) + 1 < f(x+1)$ 化为：
+\[
+    x + \dfrac{1}{x+1} + 1 < (x+1) + \dfrac{1}{x+2}
+\]
+
+化简得：
+\[
+    \dfrac{1}{x+1} < \dfrac{1}{x+2}
+\]
+
+即 $\dfrac{1}{x+1} - \dfrac{1}{x+2} < 0$，通分得 $\dfrac{1}{(x+1)(x+2)} < 0$。
+
+所以 $(x+1)(x+2) < 0$，解得 $-2 < x < -1$。
+
+(2) $f(x)$ 在 $[1, 2]$ 上有零点，即方程 $ax + \dfrac{1}{x+1} = 0$ 在 $[1, 2]$ 上有解。
+
+整理得 $a = -\dfrac{1}{x(x+1)}$。设 $g(x) = -\dfrac{1}{x(x+1)}$，$x \in [1, 2]$。
+
+$g(x)$ 在 $[1, 2]$ 上单调递增（因为 $x(x+1)$ 单调递增且为正）。
+
+$g(1) = -\dfrac{1}{2}$，$g(2) = -\dfrac{1}{6}$。
+
+所以 $a$ 的取值范围为 $\left[-\dfrac{1}{2}, -\dfrac{1}{6}\right]$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{定义域优先}：研究任何函数问题，首先确定定义域。对数函数的真数必须大于 $0$，幂函数的指数不同定义域也不同。
+    \item \textbf{指对互化}：指数问题与对数问题可以相互转化，选择更方便的形式进行计算。
+    \item \textbf{比较大小}：比较指对数大小时，常借助中间量（如 $0$、$1$、$\dfrac{1}{2}$ 等），或利用函数的单调性。
+    \item \textbf{换底公式}：当对数的底数不同时，使用换底公式 $\log_a b = \dfrac{\log_c b}{\log_c a}$ 进行统一。
+    \item \textbf{图像法}：利用指对数函数的图像特征（过定点、单调性、渐近线）辅助解题。
+\end{enumerate}
+
+\end{document}

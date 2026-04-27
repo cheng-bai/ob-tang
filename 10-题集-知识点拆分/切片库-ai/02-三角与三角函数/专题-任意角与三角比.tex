@@ -1,0 +1,161 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：任意角与三角比}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\Large\bfseries 专题：任意角与三角比}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+任意角的概念将角的范围从 $[0^{\circ}, 360^{\circ}]$ 推广到全体实数，为研究周期现象和建立三角函数奠定基础。
+
+\begin{definition}[任意角]
+    一条射线绕其端点旋转所形成的图形称为\textbf{角}。旋转开始时的射线称为\textbf{始边}，终止时的射线称为\textbf{终边}，端点称为\textbf{顶点}。
+    
+    按旋转方向分类：
+    \begin{itemize}
+        \item \textbf{正角}：逆时针旋转形成的角；
+        \item \textbf{负角}：顺时针旋转形成的角；
+        \item \textbf{零角}：没有旋转，始边与终边重合。
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[弧度制]
+    长度等于半径的圆弧所对的圆心角称为 $1$ \textbf{弧度}（$1\ \mathrm{rad}$）。弧度与角度的换算关系：
+    \[
+        \pi\ \mathrm{rad} = 180^{\circ}, \quad 1\ \mathrm{rad} = \frac{180^{\circ}}{\pi} \approx 57.3^{\circ}.
+    \]
+    弧长公式：$l = |\alpha| \cdot r$（$\alpha$ 为圆心角弧度数，$r$ 为半径）。
+\end{definition}
+
+\begin{definition}[三角比的定义]
+    设角 $\alpha$ 的终边上任意一点 $P(x, y)$（$P$ 不与原点重合），$r = |OP| = \sqrt{x^2 + y^2}$，则定义：
+    \[
+        \sin\alpha = \frac{y}{r}, \quad \cos\alpha = \frac{x}{r}, \quad \tan\alpha = \frac{y}{x}\ (x \neq 0).
+    \]
+\end{definition}
+
+\begin{property}[各象限三角比的符号]
+    \begin{center}
+        \begin{tabular}{c|cccc}
+            \hline
+            象限 & $\sin\alpha$ & $\cos\alpha$ & $\tan\alpha$ & 记忆口诀 \\
+            \hline
+            第一象限 & $+$ & $+$ & $+$ & 全正 \\
+            第二象限 & $+$ & $-$ & $-$ & 正弦 \\
+            第三象限 & $-$ & $-$ & $+$ & 正切 \\
+            第四象限 & $-$ & $+$ & $-$ & 余弦 \\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{property}
+
+\begin{property}[同角三角比的基本关系]
+    \begin{enumerate}
+        \item 平方关系：$\sin^2\alpha + \cos^2\alpha = 1$；
+        \item 商数关系：$\tan\alpha = \dfrac{\sin\alpha}{\cos\alpha}\ (\cos\alpha \neq 0)$；
+        \item 倒数关系：$\tan\alpha \cdot \cot\alpha = 1$。
+    \end{enumerate}
+\end{property}
+
+\begin{property}[诱导公式]
+    口诀："奇变偶不变，符号看象限"。
+    \begin{itemize}
+        \item $\sin(2k\pi + \alpha) = \sin\alpha$，$\cos(2k\pi + \alpha) = \cos\alpha$（$k \in \mathbb{Z}$）
+        \item $\sin(-\alpha) = -\sin\alpha$，$\cos(-\alpha) = \cos\alpha$
+        \item $\sin(\pi \pm \alpha) = \mp\sin\alpha$，$\cos(\pi \pm \alpha) = -\cos\alpha$
+        \item $\sin\left(\dfrac{\pi}{2} \pm \alpha\right) = \cos\alpha$，$\cos\left(\dfrac{\pi}{2} \pm \alpha\right) = \mp\sin\alpha$
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[三角比的符号判断]
+    若 $\sin\alpha \cdot \cos\alpha > 0$ 且 $\cos\alpha \cdot \tan\alpha < 0$，则角 $\alpha$ 的终边在第几象限？
+\end{example}
+
+\textbf{解.} 由 $\sin\alpha \cdot \cos\alpha > 0$ 知，$\sin\alpha$ 与 $\cos\alpha$ 同号，故 $\alpha$ 在第一或第三象限。
+
+由 $\cos\alpha \cdot \tan\alpha < 0$，而 $\tan\alpha = \dfrac{\sin\alpha}{\cos\alpha}$，代入得
+\[
+    \cos\alpha \cdot \frac{\sin\alpha}{\cos\alpha} = \sin\alpha < 0.
+\]
+
+结合 $\sin\alpha \cdot \cos\alpha > 0$，得 $\sin\alpha < 0$ 且 $\cos\alpha < 0$。
+
+因此，角 $\alpha$ 的终边在\textbf{第三象限}。
+
+\begin{example}[同角三角比求值]
+    已知 $\sin\alpha = \dfrac{3}{5}$，且 $\alpha$ 为第二象限角，求 $\cos\alpha$ 和 $\tan\alpha$ 的值。
+\end{example}
+
+\textbf{解.} 由平方关系 $\sin^2\alpha + \cos^2\alpha = 1$，得
+\[
+    \cos^2\alpha = 1 - \sin^2\alpha = 1 - \frac{9}{25} = \frac{16}{25}.
+\]
+
+因为 $\alpha$ 为第二象限角，$\cos\alpha < 0$，所以 $\cos\alpha = -\dfrac{4}{5}$。
+
+由商数关系，$\tan\alpha = \dfrac{\sin\alpha}{\cos\alpha} = \dfrac{3/5}{-4/5} = -\dfrac{3}{4}$。
+
+\begin{example}[诱导公式的应用]
+    化简：$\sin(-\alpha)\cos(\pi + \alpha)\tan(2\pi - \alpha)$。
+\end{example}
+
+\textbf{解.} 利用诱导公式逐步化简：
+\begin{align*}
+    \sin(-\alpha) &= -\sin\alpha, \\
+    \cos(\pi + \alpha) &= -\cos\alpha, \\
+    \tan(2\pi - \alpha) &= \tan(-\alpha) = -\tan\alpha = -\frac{\sin\alpha}{\cos\alpha}.
+\end{align*}
+
+原式 $= (-\sin\alpha) \cdot (-\cos\alpha) \cdot \left(-\dfrac{\sin\alpha}{\cos\alpha}\right) = -\sin^2\alpha$。
+
+\begin{realexam}[2026 崇明高三二模]
+    已知 $\cos\theta = -\dfrac{3}{5}$，则 $\cos 2\theta$ 的值为 \underline{\hspace{2cm}}。
+\end{realexam}
+
+\textbf{解.} 由二倍角公式 $\cos 2\theta = 2\cos^2\theta - 1$，得
+\[
+    \cos 2\theta = 2 \times \left(-\frac{3}{5}\right)^2 - 1 = 2 \times \frac{9}{25} - 1 = \frac{18}{25} - 1 = -\frac{7}{25}.
+\]
+
+故答案为 $-\dfrac{7}{25}$。
+
+\begin{realexam}[2025 浦东高三一模]
+    已知复数 $z = \cos\theta + \mathrm{i}\sin\theta$，$\theta \in [0, 2\pi)$，则 $|z + 6|^2 + |z - 8\mathrm{i}|^2$ 的取值范围是 \underline{\hspace{2cm}}。
+\end{realexam}
+
+\textbf{解.} 由 $z = \cos\theta + \mathrm{i}\sin\theta$，得
+\begin{align*}
+    |z + 6|^2 &= (\cos\theta + 6)^2 + \sin^2\theta = 37 + 12\cos\theta, \\
+    |z - 8\mathrm{i}|^2 &= \cos^2\theta + (\sin\theta - 8)^2 = 65 - 16\sin\theta.
+\end{align*}
+
+相加得：
+\[
+    |z + 6|^2 + |z - 8\mathrm{i}|^2 = 102 + 12\cos\theta - 16\sin\theta = 102 + 20\cos(\theta + \varphi),
+\]
+其中 $\cos\varphi = \dfrac{3}{5}$，$\sin\varphi = \dfrac{4}{5}$。
+
+因为 $\cos(\theta + \varphi) \in [-1, 1]$，所以取值范围为 $[82, 122]$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{确定角的象限}：根据三角比的符号规律判断角所在象限，注意零角和轴线角的特殊情况。
+    \item \textbf{同角求值策略}：已知一个三角比值求其他值时，优先利用平方关系，注意根据象限确定符号。
+    \item \textbf{诱导公式技巧}：牢记"奇变偶不变，符号看象限"，将任意角转化为锐角三角比。
+    \item \textbf{弦切互化}：处理齐次式时，可将弦化为切（除以 $\cos\alpha$）简化计算。
+    \item \textbf{单位圆与三角函数线}：利用单位圆直观理解三角比的几何意义，辅助记忆和解题。
+\end{enumerate}
+
+\end{document}

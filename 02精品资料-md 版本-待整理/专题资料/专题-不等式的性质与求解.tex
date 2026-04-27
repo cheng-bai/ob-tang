@@ -1,0 +1,122 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：不等式的性质与求解}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\Large\bfseries 专题：不等式的性质与求解}
+\end{center}
+
+\section*{知识概要}
+
+\begin{definition}[不等式]
+用不等号 ``$>$''、``$<$''、``$\geq$''、``$\leq$''、``$\neq$'' 连接两个代数式所得到的式子叫做\textbf{不等式}。使不等式成立的未知数的取值范围叫做不等式的\textbf{解集}。
+\end{definition}
+
+\begin{definition}[一元二次不等式]
+含有一个未知数，并且未知数的最高次数是 $2$ 的整式不等式叫做\textbf{一元二次不等式}，其标准形式为 $ax^2+bx+c>0$（或 $<0$，$\geq 0$，$\leq 0$），其中 $a\neq 0$。
+\end{definition}
+
+\begin{definition}[分式不等式]
+分母中含有未知数的不等式叫做\textbf{分式不等式}。求解时通常通过移项、通分化为 $\dfrac{f(x)}{g(x)}>0$（或 $<0$）的标准形式，再等价转化为整式不等式 $f(x)\cdot g(x)>0$（或 $<0$），但须注意分母不为零的限制条件。
+\end{definition}
+
+\begin{property}[不等式的基本性质]
+设 $a,b,c\in\mathbb{R}$，则
+\begin{enumerate}[label=(\arabic*)]
+    \item \textbf{传递性：}若 $a>b$ 且 $b>c$，则 $a>c$；
+    \item \textbf{加法单调性：}若 $a>b$，则 $a+c>b+c$；
+    \item \textbf{乘法单调性：}若 $a>b$ 且 $c>0$，则 $ac>bc$；若 $a>b$ 且 $c<0$，则 $ac<bc$。
+\end{enumerate}
+\end{property}
+
+\begin{property}[``三个二次''的关系]
+设一元二次方程 $ax^2+bx+c=0\;(a>0)$ 的判别式为 $\Delta=b^2-4ac$，两根为 $x_1,x_2\;(x_1<x_2)$，则一元二次不等式的解集可结合二次函数 $y=ax^2+bx+c$ 的图像直接写出：
+\begin{center}
+\begin{tabular}{c|c|c}
+\hline
+$\Delta$ & $ax^2+bx+c>0$ 的解集 & $ax^2+bx+c<0$ 的解集 \\
+\hline
+$\Delta>0$ & $(-\infty,x_1)\cup(x_2,+\infty)$ & $(x_1,x_2)$ \\
+$\Delta=0$ & $\left(-\infty,-\dfrac{b}{2a}\right)\cup\left(-\dfrac{b}{2a},+\infty\right)$ & $\varnothing$ \\
+$\Delta<0$ & $\mathbb{R}$ & $\varnothing$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{property}
+
+\begin{property}[一元二次不等式恒成立的条件]
+对于一元二次不等式 $ax^2+bx+c>0$（或 $\geq 0$）在 $\mathbb{R}$ 上恒成立，有
+\begin{enumerate}[label=(\arabic*)]
+    \item 当 $a>0$ 时，需且只需 $\Delta<0$（或 $\Delta\leq 0$）；
+    \item 当 $a=0$ 时，退化为一次不等式 $bx+c>0$，需 $b=0$ 且 $c>0$；
+    \item 当 $a<0$ 时，抛物线开口向下，不可能在全体实数上恒大于 $0$。
+\end{enumerate}
+\end{property}
+
+\section*{典型例题}
+
+\begin{example}[分式不等式的求解]
+解不等式 $\dfrac{2x-1}{x+2}<0$。
+\end{example}
+
+\begin{solution}
+原不等式等价于 $(2x-1)(x+2)<0$ 且 $x+2\neq 0$。
+
+方程 $(2x-1)(x+2)=0$ 的两根为 $x_1=-2$，$x_2=\dfrac{1}{2}$。
+
+结合二次函数图像（开口向上），得 $-2<x<\dfrac{1}{2}$。
+
+故原不等式的解集为 $\boxed{\left(-2,\dfrac{1}{2}\right)}$。
+\end{solution}
+
+\begin{example}[含参数的一元二次不等式恒成立问题]
+若一元二次不等式 $x^2+mx+1>0$ 的解集为 $\mathbb{R}$，求实数 $m$ 的取值范围。
+\end{example}
+
+\begin{solution}
+因为二次项系数 $1>0$，不等式 $x^2+mx+1>0$ 在 $\mathbb{R}$ 上恒成立的充要条件是判别式 $\Delta<0$。
+
+计算得 $\Delta=m^2-4<0$，解得 $-2<m<2$。
+
+故实数 $m$ 的取值范围为 $\boxed{(-2,\,2)}$。
+\end{solution}
+
+\begin{realexam}[2025 高三二模嘉定]
+已知实数 $a, b$ 满足 $a > b$，则下列不等式中，不恒成立的是 \hfill (\quad)
+\begin{enumerate}[label=\Alph*.,leftmargin=2em]
+    \item $a^3 > b^3$
+    \item $\dfrac{a}{b} > 1$
+    \item $a^2 + b^2 > 2ab$
+    \item $2^a > 2^b$
+\end{enumerate}
+\end{realexam}
+
+\begin{parse}
+\textbf{答案：B}
+
+逐项分析：
+\begin{itemize}[leftmargin=1.5em]
+    \item[A.] 函数 $y=x^3$ 在 $\mathbb{R}$ 上严格单调递增，故 $a>b$ 时必有 $a^3>b^3$，恒成立。
+    \item[B.] 当 $b<0$ 时，$\dfrac{a}{b}$ 为负数，显然 $\dfrac{a}{b}<0<1$，故不恒成立。反例：$a=1,\;b=-1$。
+    \item[C.] $a^2+b^2-2ab=(a-b)^2>0$（因为 $a\neq b$），恒成立。
+    \item[D.] 指数函数 $y=2^x$ 在 $\mathbb{R}$ 上严格单调递增，故 $2^a>2^b$，恒成立。
+\end{itemize}
+
+综上，选项 B 不恒成立。
+\end{parse}
+
+\section*{方法总结}
+
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item \textbf{等价转化：}解分式不等式时，务必通过移项、通分化为标准形式，再转化为整式不等式；特别注意分母不能为零，以及不等号方向在乘以负数时要改变。
+    \item \textbf{数形结合：}一元二次不等式的求解要紧密联系二次函数的图像与一元二次方程的根，利用``三个二次''的关系快速确定解集。
+    \item \textbf{恒成立问题的判别式法：}对于 $ax^2+bx+c>0$ 在 $\mathbb{R}$ 上恒成立，优先考虑二次项系数的符号与判别式 $\Delta$ 的取值，避免遗漏 $a=0$ 的一次情形。
+    \item \textbf{性质判断需举反例：}判断不等式性质是否恒成立时，要系统检验正数、负数、零等多种情况；寻找一个反例即可否定``恒成立''的论断。
+    \item \textbf{绝对值不等式的几何意义：}如 $|x-a|<b\;(b>0)$ 等价于 $-b<x-a<b$，可借助数轴上两点间距离直观理解，减少计算失误。
+\end{enumerate}
+
+\end{document}

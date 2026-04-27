@@ -1,0 +1,204 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：空间直线与平面的位置关系}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：空间直线与平面的位置关系}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+空间直线与平面的位置关系是立体几何的基础内容，包括线线关系、线面关系和面面关系三大类。掌握这些位置关系的判定与性质，是解决立体几何问题的关键。
+
+\begin{definition}[空间两直线的位置关系]
+    空间两条不重合的直线，其位置关系有以下三种：
+    \begin{itemize}
+        \item \textbf{相交直线}：在同一平面内，有且仅有一个公共点；
+        \item \textbf{平行直线}：在同一平面内，没有公共点；
+        \item \textbf{异面直线}：不同在任何一个平面内，没有公共点。
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[直线与平面的位置关系]
+    空间直线与平面的位置关系有以下三种：
+    \begin{itemize}
+        \item \textbf{直线在平面内}：直线上所有点都在平面内，有无数个公共点；
+        \item \textbf{直线与平面相交}：直线与平面有且仅有一个公共点；
+        \item \textbf{直线与平面平行}：直线与平面没有公共点。
+    \end{itemize}
+\end{definition}
+
+\begin{property}[线面平行的判定定理]
+    如果平面外一条直线与此平面内的一条直线平行，那么该直线与此平面平行。
+    
+    符号表示：设 $l \not\subset \alpha$，$m \subset \alpha$，若 $l \parallel m$，则 $l \parallel \alpha$。
+\end{property}
+
+\begin{property}[线面平行的性质定理]
+    一条直线与一个平面平行，如果过该直线的平面与此平面相交，那么该直线与交线平行。
+    
+    符号表示：若 $l \parallel \alpha$，$l \subset \beta$，$\alpha \cap \beta = m$，则 $l \parallel m$。
+\end{property}
+
+\begin{property}[线面垂直的判定定理]
+    如果一条直线与一个平面内的两条相交直线都垂直，那么该直线与此平面垂直。
+    
+    符号表示：设 $l$ 为直线，$\alpha$ 为平面，$a, b \subset \alpha$，$a \cap b = P$，若 $l \perp a$ 且 $l \perp b$，则 $l \perp \alpha$。
+\end{property}
+
+\begin{property}[三垂线定理]
+    在平面内的一条直线，如果与这个平面的一条斜线在这个平面内的射影垂直，那么它也与这条斜线垂直。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[线面平行证明]
+    如图，在四棱锥 $P-ABCD$ 中，底面 $ABCD$ 是平行四边形，$E$ 是 $PC$ 的中点。求证：$PA \parallel$ 平面 $BDE$。
+\end{example}
+
+\textbf{解.} 连接 $AC$ 交 $BD$ 于点 $O$，连接 $OE$。
+
+因为底面 $ABCD$ 是平行四边形，所以 $O$ 是 $AC$ 的中点。
+
+又因为 $E$ 是 $PC$ 的中点，所以在 $\triangle PAC$ 中，$OE$ 是中位线，
+
+故 $OE \parallel PA$。
+
+因为 $OE \subset$ 平面 $BDE$，$PA \not\subset$ 平面 $BDE$，
+
+由线面平行的判定定理，得 $PA \parallel$ 平面 $BDE$。
+
+\begin{example}[线面垂直证明]
+    如图，在三棱锥 $P-ABC$ 中，$PA \perp$ 平面 $ABC$，$\triangle ABC$ 是正三角形，$D$ 是 $BC$ 的中点。求证：$BC \perp$ 平面 $PAD$。
+\end{example}
+
+\textbf{解.} 因为 $PA \perp$ 平面 $ABC$，$BC \subset$ 平面 $ABC$，
+
+所以 $PA \perp BC$。
+
+因为 $\triangle ABC$ 是正三角形，$D$ 是 $BC$ 的中点，
+
+所以 $AD \perp BC$。
+
+又因为 $PA \cap AD = A$，$PA, AD \subset$ 平面 $PAD$，
+
+由线面垂直的判定定理，得 $BC \perp$ 平面 $PAD$。
+
+\begin{realexam}[2024 上海春考]
+    如图，在正四棱柱 $ABCD-A_1B_1C_1D_1$ 中，$AB = 2$，$AA_1 = 3$。
+    \begin{enumerate}
+        \item 求证：$A_1C \perp BD$；
+        \item 求直线 $A_1C$ 与平面 $ABCD$ 所成角的大小。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 连接 $AC$。
+
+因为 $ABCD-A_1B_1C_1D_1$ 是正四棱柱，
+
+所以 $AA_1 \perp$ 平面 $ABCD$，$BD \subset$ 平面 $ABCD$，故 $AA_1 \perp BD$。
+
+因为底面 $ABCD$ 是正方形，所以对角线 $AC \perp BD$。
+
+又因为 $AA_1 \cap AC = A$，$AA_1, AC \subset$ 平面 $A_1AC$，
+
+所以 $BD \perp$ 平面 $A_1AC$。
+
+因为 $A_1C \subset$ 平面 $A_1AC$，所以 $A_1C \perp BD$。
+
+(2) 因为 $AA_1 \perp$ 平面 $ABCD$，所以 $\angle A_1CA$ 就是直线 $A_1C$ 与平面 $ABCD$ 所成的角。
+
+在 $\text{Rt}\triangle A_1AC$ 中，$AA_1 = 3$，$AC = \sqrt{AB^2 + BC^2} = \sqrt{4 + 4} = 2\sqrt{2}$。
+
+所以 $\tan \angle A_1CA = \dfrac{AA_1}{AC} = \dfrac{3}{2\sqrt{2}} = \dfrac{3\sqrt{2}}{4}$。
+
+因此，直线 $A_1C$ 与平面 $ABCD$ 所成角的大小为 $\arctan \dfrac{3\sqrt{2}}{4}$。
+
+\begin{realexam}[2025 上海虹口二模]
+    在四棱锥 $P-ABCD$ 中，底面 $ABCD$ 是菱形，$AC \cap BD = O$，$PA = PC = 5$，$PB = PD = 2\sqrt{5}$。
+    \begin{enumerate}
+        \item 求证：$PO \perp$ 平面 $ABCD$；
+        \item 若 $AC = 6$，求点 $P$ 到直线 $CD$ 的距离。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 因为底面 $ABCD$ 是菱形，$O$ 是对角线交点，
+
+所以 $O$ 是 $AC$ 和 $BD$ 的中点。
+
+在 $\triangle PAC$ 中，$PA = PC = 5$，所以 $\triangle PAC$ 是等腰三角形，$PO \perp AC$。
+
+在 $\triangle PBD$ 中，$PB = PD = 2\sqrt{5}$，所以 $\triangle PBD$ 是等腰三角形，$PO \perp BD$。
+
+因为 $AC \cap BD = O$，$AC, BD \subset$ 平面 $ABCD$，
+
+由线面垂直的判定定理，得 $PO \perp$ 平面 $ABCD$。
+
+(2) 由 $AC = 6$，得 $AO = 3$。在 $\text{Rt}\triangle POA$ 中，$PO = \sqrt{PA^2 - AO^2} = \sqrt{25 - 9} = 4$。
+
+在 $\text{Rt}\triangle POB$ 中，$OB = \sqrt{PB^2 - PO^2} = \sqrt{20 - 16} = 2$，所以 $BD = 4$。
+
+因为 $ABCD$ 是菱形，设 $CD$ 的中点为 $M$，则 $OM = \dfrac{1}{2}BC$。
+
+在菱形中，$BC = \sqrt{OB^2 + OC^2} = \sqrt{4 + 9} = \sqrt{13}$，所以 $OM = \dfrac{\sqrt{13}}{2}$。
+
+在 $\text{Rt}\triangle POM$ 中，$PM = \sqrt{PO^2 + OM^2} = \sqrt{16 + \dfrac{13}{4}} = \sqrt{\dfrac{77}{4}} = \dfrac{\sqrt{77}}{2}$。
+
+因此，点 $P$ 到直线 $CD$ 的距离为 $\dfrac{\sqrt{77}}{2}$。
+
+\begin{example}[异面直线所成角]
+    在正方体 $ABCD-A_1B_1C_1D_1$ 中，棱长为 $a$，$E$、$F$ 分别是棱 $AD$、$A_1B_1$ 的中点。求异面直线 $EF$ 与 $C_1D$ 所成角的大小。
+\end{example}
+
+\textbf{解.} 建立空间直角坐标系，以 $D$ 为原点，$DA$ 为 $x$ 轴，$DC$ 为 $y$ 轴，$DD_1$ 为 $z$ 轴。
+
+则各点坐标为：$D(0,0,0)$，$A(a,0,0)$，$C_1(0,a,a)$，$A_1(a,0,a)$，$B_1(a,a,a)$。
+
+$E$ 是 $AD$ 中点，所以 $E\left(\dfrac{a}{2}, 0, 0\right)$；$F$ 是 $A_1B_1$ 中点，所以 $F\left(a, \dfrac{a}{2}, a\right)$。
+
+向量 $\overrightarrow{EF} = \left(\dfrac{a}{2}, \dfrac{a}{2}, a\right)$，向量 $\overrightarrow{C_1D} = (0, -a, -a)$。
+
+设异面直线所成角为 $\theta$，则
+\[
+\cos \theta = \dfrac{|\overrightarrow{EF} \cdot \overrightarrow{C_1D}|}{|\overrightarrow{EF}| \cdot |\overrightarrow{C_1D}|} = \dfrac{\left|-\dfrac{a^2}{2} - a^2\right|}{\sqrt{\dfrac{a^2}{4} + \dfrac{a^2}{4} + a^2} \cdot \sqrt{a^2 + a^2}} = \dfrac{\dfrac{3a^2}{2}}{\sqrt{\dfrac{3a^2}{2}} \cdot \sqrt{2a^2}} = \dfrac{\sqrt{3}}{2}.
+\]
+
+所以 $\theta = \dfrac{\pi}{6}$，即异面直线 $EF$ 与 $C_1D$ 所成角为 $30°$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{线面平行的证明方法}：
+    \begin{itemize}
+        \item 定义法：证明直线与平面没有公共点（常用于反证）；
+        \item 判定定理：在平面内找一条直线与已知直线平行；
+        \item 面面平行性质：若两平面平行，则一平面内的直线平行于另一平面。
+    \end{itemize}
+    
+    \item \textbf{线面垂直的证明方法}：
+    \begin{itemize}
+        \item 判定定理：证明直线垂直于平面内两条相交直线；
+        \item 面面垂直性质：若两平面垂直，则一平面内垂直于交线的直线垂直于另一平面。
+    \end{itemize}
+    
+    \item \textbf{异面直线所成角的求法}：
+    \begin{itemize}
+        \item 平移法：通过平移其中一条直线，使两直线相交，转化为相交直线所成角；
+        \item 向量法：建立空间直角坐标系，利用向量夹角公式求解。
+    \end{itemize}
+    
+    \item \textbf{线面角的求法}：
+    \begin{itemize}
+        \item 定义法：找直线在平面内的射影，确定线面角；
+        \item 向量法：利用直线的方向向量与平面的法向量求夹角。
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{ctex}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{enumitem}
+
+% 页面设置
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% 自定义命令
+\newcommand{\knowledgepoint}[1]{\noindent\textbf{\color{blue}知识点：#1}\par}
+\newcommand{\example}[1]{\noindent\textbf{例 #1}\par}
+\newcommand{\exercise}[1]{\noindent\textbf{练 #1}\par}
+\newcommand{\summary}{\noindent\textbf{\color{red}本节小结}\par}
+
+% 标题格式
+\titleformat{\section}{\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% 条件编译（学生版/教师版）
+\newif\ifteacher
+\teacherfalse % 默认学生版，改为\teachertrue则为教师版
+
+\begin{document}
+
+% 标题页
+\begin{center}
+\LARGE\textbf{必修第三册 第13章-统计} \\[0.5em]
+\large 统计
+\end{center}
+
+\tableofcontents
+\newpage
+
+% 内容区域
+\section{统计}
+
+\subsection{知识要点}
+本章主要学习统计的相关知识。
+
+\subsection{典型例题}
+% 例题内容待补充
+
+\subsection{课堂练习}
+% 练习题待补充
+
+\subsection{课后作业}
+% 作业题待补充
+
+\end{document}

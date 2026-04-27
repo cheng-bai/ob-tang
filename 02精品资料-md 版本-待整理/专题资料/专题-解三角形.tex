@@ -1,0 +1,201 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：解三角形}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\Large\bfseries 专题：解三角形}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+解三角形是指由三角形的某些已知元素（边、角）求其他未知元素的过程，核心工具是正弦定理和余弦定理。
+
+\begin{definition}[正弦定理]
+    在任意 $\triangle ABC$ 中，设角 $A, B, C$ 所对的边分别为 $a, b, c$，外接圆半径为 $R$，则
+    \[
+        \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R.
+    \]
+    
+    变形形式：
+    \begin{itemize}
+        \item $a : b : c = \sin A : \sin B : \sin C$
+        \item $a = 2R\sin A$，$b = 2R\sin B$，$c = 2R\sin C$
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[余弦定理]
+    在任意 $\triangle ABC$ 中，设角 $A, B, C$ 所对的边分别为 $a, b, c$，则
+    \begin{align*}
+        a^2 &= b^2 + c^2 - 2bc\cos A \\
+        b^2 &= a^2 + c^2 - 2ac\cos B \\
+        c^2 &= a^2 + b^2 - 2ab\cos C
+    \end{align*}
+    
+    推论（求角公式）：
+    \[
+        \cos A = \frac{b^2 + c^2 - a^2}{2bc},\ \cos B = \frac{a^2 + c^2 - b^2}{2ac},\ \cos C = \frac{a^2 + b^2 - c^2}{2ab}.
+    \]
+\end{definition}
+
+\begin{definition}[三角形面积公式]
+    设 $\triangle ABC$ 的面积为 $S$，则
+    \begin{align*}
+        S &= \frac{1}{2}ab\sin C = \frac{1}{2}bc\sin A = \frac{1}{2}ac\sin B \\
+        S &= \frac{abc}{4R} \quad (R\text{ 为外接圆半径}) \\
+        S &= \frac{1}{2}(a + b + c)r \quad (r\text{ 为内切圆半径}) \\
+        S &= \sqrt{p(p-a)(p-b)(p-c)} \quad (p = \frac{a+b+c}{2},\text{海伦公式})
+    \end{align*}
+\end{definition}
+
+\begin{property}[三角形中的边角关系]
+    \begin{enumerate}
+        \item 大边对大角：$a > b \Leftrightarrow A > B \Leftrightarrow \sin A > \sin B$
+        \item 三角形内角和：$A + B + C = \pi$
+        \item 诱导公式：$\sin(A + B) = \sin C$，$\cos(A + B) = -\cos C$
+        \item 两边之和大于第三边：$a + b > c$，$b + c > a$，$c + a > b$
+    \end{enumerate}
+\end{property}
+
+\begin{property}[解三角形的类型]
+    \begin{itemize}
+        \item \textbf{已知三边（SSS）}：用余弦定理求角
+        \item \textbf{已知两边及其夹角（SAS）}：先用余弦定理求第三边，再用正弦定理求角
+        \item \textbf{已知两角及一边（AAS/ASA）}：用正弦定理求其他边
+        \item \textbf{已知两边及其中一边的对角（SSA）}：可能有一解、两解或无解，需讨论
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[正弦定理的应用]
+    在 $\triangle ABC$ 中，$a = \sqrt{2}$，$b = 2$，$B = 45^{\circ}$，求角 $A$、边 $c$ 和面积 $S$。
+\end{example}
+
+\textbf{解.} 由正弦定理：
+\[
+    \frac{a}{\sin A} = \frac{b}{\sin B} \Rightarrow \frac{\sqrt{2}}{\sin A} = \frac{2}{\sin 45^{\circ}} = \frac{2}{\frac{\sqrt{2}}{2}} = 2\sqrt{2}.
+\]
+
+所以 $\sin A = \dfrac{\sqrt{2}}{2\sqrt{2}} = \dfrac{1}{2}$。
+
+因为 $a < b$，所以 $A < B = 45^{\circ}$，故 $A = 30^{\circ}$。
+
+于是 $C = 180^{\circ} - 45^{\circ} - 30^{\circ} = 105^{\circ}$。
+
+由正弦定理求 $c$：
+\[
+    c = \frac{b\sin C}{\sin B} = \frac{2\sin 105^{\circ}}{\sin 45^{\circ}} = \frac{2 \times \frac{\sqrt{6} + \sqrt{2}}{4}}{\frac{\sqrt{2}}{2}} = \sqrt{3} + 1.
+\]
+
+面积 $S = \dfrac{1}{2}ab\sin C = \dfrac{1}{2} \times \sqrt{2} \times 2 \times \sin 105^{\circ} = \dfrac{\sqrt{3} + 1}{2}$。
+
+\begin{example}[余弦定理的应用]
+    在 $\triangle ABC$ 中，$a = 7$，$b = 8$，$c = 5$，求最大角的余弦值和三角形面积。
+\end{example}
+
+\textbf{解.} 大边对大角，因为 $b > a > c$，所以角 $B$ 最大。
+
+由余弦定理：
+\[
+    \cos B = \frac{a^2 + c^2 - b^2}{2ac} = \frac{49 + 25 - 64}{2 \times 7 \times 5} = \frac{10}{70} = \frac{1}{7}.
+\]
+
+因为 $\cos B = \dfrac{1}{7} > 0$，所以 $B$ 为锐角。
+
+$\sin B = \sqrt{1 - \cos^2 B} = \sqrt{1 - \frac{1}{49}} = \dfrac{4\sqrt{3}}{7}$。
+
+面积 $S = \dfrac{1}{2}ac\sin B = \dfrac{1}{2} \times 7 \times 5 \times \dfrac{4\sqrt{3}}{7} = 10\sqrt{3}$。
+
+\begin{example}[SSA 型解的讨论]
+    在 $\triangle ABC$ 中，$a = 2\sqrt{3}$，$b = 6$，$A = 30^{\circ}$，判断三角形解的个数。
+\end{example}
+
+\textbf{解.} 由正弦定理：
+\[
+    \frac{a}{\sin A} = \frac{b}{\sin B} \Rightarrow \frac{2\sqrt{3}}{\sin 30^{\circ}} = \frac{6}{\sin B}.
+\]
+
+即 $\dfrac{2\sqrt{3}}{1/2} = \dfrac{6}{\sin B}$，得 $4\sqrt{3} = \dfrac{6}{\sin B}$。
+
+所以 $\sin B = \dfrac{6}{4\sqrt{3}} = \dfrac{\sqrt{3}}{2}$。
+
+因为 $\sin B = \dfrac{\sqrt{3}}{2}$，所以 $B = 60^{\circ}$ 或 $B = 120^{\circ}$。
+
+当 $B = 60^{\circ}$ 时，$C = 90^{\circ}$，满足三角形条件；
+当 $B = 120^{\circ}$ 时，$C = 30^{\circ}$，也满足三角形条件。
+
+故此三角形有\textbf{两解}。
+
+\begin{realexam}[2026 奉贤高三二模]
+    如图，为测量河对岸 $A$、$B$ 两点间的距离，在河岸一侧取 $C$、$D$ 两点，测得 $\angle ACD = 90^{\circ}$，$\angle ADC = 60^{\circ}$，$\angle ACB = 15^{\circ}$，$CD = 100$ 米，$BC = 200$ 米，求 $A$、$B$ 两点间的距离。
+\end{realexam}
+
+\textbf{解.} 在 $\triangle ACD$ 中，$\angle CAD = 180^{\circ} - 90^{\circ} - 60^{\circ} = 30^{\circ}$。
+
+由正弦定理：
+\[
+    \frac{AC}{\sin 60^{\circ}} = \frac{CD}{\sin 30^{\circ}} \Rightarrow AC = \frac{100 \times \frac{\sqrt{3}}{2}}{\frac{1}{2}} = 100\sqrt{3}.
+\]
+
+在 $\triangle ABC$ 中，$\angle ACB = 15^{\circ}$，$BC = 200$，$AC = 100\sqrt{3}$。
+
+由余弦定理：
+\begin{align*}
+    AB^2 &= AC^2 + BC^2 - 2 \cdot AC \cdot BC \cdot \cos 15^{\circ} \\
+    &= 30000 + 40000 - 2 \times 100\sqrt{3} \times 200 \times \frac{\sqrt{6} + \sqrt{2}}{4} \\
+    &= 70000 - 10000\sqrt{3}(\sqrt{6} + \sqrt{2}) \\
+    &= 70000 - 10000(3\sqrt{2} + \sqrt{6}) \\
+    &= 10000(7 - 3\sqrt{2} - \sqrt{6}).
+\end{align*}
+
+所以 $AB = 100\sqrt{7 - 3\sqrt{2} - \sqrt{6}}$ 米。
+
+\begin{realexam}[练习]
+    在 $\triangle ABC$ 中，角 $A$、$B$、$C$ 的对边分别为 $a$、$b$、$c$，且满足 $a\cos B + b\cos A = 2c\cos C$。
+    \begin{enumerate}
+        \item 求角 $C$ 的大小；
+        \item 若 $c = \sqrt{3}$，求 $\triangle ABC$ 面积的最大值。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 由射影定理（或正弦定理），$a\cos B + b\cos A = c$。
+
+所以 $c = 2c\cos C$，即 $\cos C = \dfrac{1}{2}$。
+
+因为 $C \in (0, \pi)$，所以 $C = \dfrac{\pi}{3}$。
+
+(2) 由余弦定理：$c^2 = a^2 + b^2 - 2ab\cos C$，即
+\[
+    3 = a^2 + b^2 - ab.
+\]
+
+由基本不等式 $a^2 + b^2 \geq 2ab$，得
+\[
+    3 = a^2 + b^2 - ab \geq 2ab - ab = ab.
+\]
+
+所以 $ab \leq 3$，当且仅当 $a = b = \sqrt{3}$ 时取等号。
+
+面积 $S = \dfrac{1}{2}ab\sin C = \dfrac{1}{2}ab \cdot \dfrac{\sqrt{3}}{2} = \dfrac{\sqrt{3}}{4}ab \leq \dfrac{3\sqrt{3}}{4}$。
+
+故面积最大值为 $\dfrac{3\sqrt{3}}{4}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{选择定理的原则}：已知两角一边或两边一对角，用正弦定理；已知三边或两边夹角，用余弦定理。
+    \item \textbf{SSA 型多解判断}：比较 $a$ 与 $b\sin A$ 的大小关系，注意大边对大角的约束。
+    \item \textbf{边角互化}：齐次式可用正弦定理化为纯角关系；$a^2$、$bc$ 等可用余弦定理转化为角。
+    \item \textbf{面积最值问题}：常结合余弦定理和基本不等式，注意等号成立条件。
+    \item \textbf{实际应用问题}：抽象出三角形模型，明确已知量和未知量，选择适当定理求解。
+    \item \textbf{三角恒等变换}：三角形内角和为 $\pi$，注意 $A + B = \pi - C$ 的代换。
+\end{enumerate}
+
+\end{document}

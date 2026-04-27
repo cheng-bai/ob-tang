@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-04-23 22:14",
+  "total_items": 600,
+  "content_type_summary": {
+    "other": 36,
+    "textbook_text": 23,
+    "lecture_output": 51,
+    "textbook_source": 112,
+    "topic_material": 56,
+    "structured_md": 2,
+    "exam_material": 171,
+    "slice_tex": 78,
+    "slice_card": 48,
+    "documentation": 19,
+    "tooling": 4
+  },
+  "exam_paper_count": 52,
+  "exam_question_count": 126,
+  "quality_issue_count": 102,
+  "cleanup_candidate_count": 0
+}

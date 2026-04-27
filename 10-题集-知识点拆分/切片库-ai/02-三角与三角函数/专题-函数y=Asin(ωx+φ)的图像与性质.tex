@@ -1,0 +1,168 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：函数 $y=A\sin(\omega x+\varphi)$ 的图像与性质}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：函数 $y=A\sin(\omega x+\varphi)$ 的图像与性质}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+函数 $y = A\sin(\omega x + \varphi)$（$A > 0$，$\omega > 0$）是正弦型函数的一般形式，其中 $A$、$\omega$、$\varphi$ 分别影响函数的振幅、周期和相位。
+
+\begin{definition}[正弦型函数的定义]
+    形如 $y = A\sin(\omega x + \varphi)$ 的函数称为\textbf{正弦型函数}，其中：
+    \begin{itemize}
+        \item $A$ 称为\textbf{振幅}，表示函数的最大偏离程度，$|A|$ 为最大值与最小值之差的一半；
+        \item $\omega$ 称为\textbf{角频率}，决定函数的周期；
+        \item $\varphi$ 称为\textbf{初相位}，决定函数图像的左右平移；
+        \item $\omega x + \varphi$ 称为\textbf{相位}。
+    \end{itemize}
+\end{definition}
+
+\begin{property}[正弦型函数的图像变换]
+    函数 $y = A\sin(\omega x + \varphi)$ 的图像可由 $y = \sin x$ 的图像经过以下变换得到：
+    \begin{enumerate}
+        \item \textbf{相位变换（左右平移）}：$y = \sin x \xrightarrow{\text{向左平移 } |\varphi| \text{ 个单位}} y = \sin(x + \varphi)$（当 $\varphi > 0$ 时向左，$\varphi < 0$ 时向右）；
+        \item \textbf{周期变换（横向伸缩）}：$y = \sin(x + \varphi) \xrightarrow{\text{横坐标变为原来的 } \frac{1}{\omega} \text{ 倍}} y = \sin(\omega x + \varphi)$；
+        \item \textbf{振幅变换（纵向伸缩）}：$y = \sin(\omega x + \varphi) \xrightarrow{\text{纵坐标变为原来的 } A \text{ 倍}} y = A\sin(\omega x + \varphi)$。
+    \end{enumerate}
+    
+    注：变换顺序不同，平移量可能不同。若先进行周期变换，则平移量为 $\dfrac{|\varphi|}{\omega}$。
+\end{property}
+
+\begin{property}[正弦型函数的基本性质]
+    对于函数 $y = A\sin(\omega x + \varphi)$（$A > 0$，$\omega > 0$）：
+    \begin{itemize}
+        \item \textbf{定义域}：$\mathbb{R}$；
+        \item \textbf{值域}：$[-A, A]$；
+        \item \textbf{周期}：$T = \dfrac{2\pi}{\omega}$；
+        \item \textbf{频率}：$f = \dfrac{1}{T} = \dfrac{\omega}{2\pi}$；
+        \item \textbf{最大值}：$A$，当 $\omega x + \varphi = 2k\pi + \dfrac{\pi}{2}$（$k \in \mathbb{Z}$）时取得；
+        \item \textbf{最小值}：$-A$，当 $\omega x + \varphi = 2k\pi - \dfrac{\pi}{2}$（$k \in \mathbb{Z}$）时取得；
+        \item \textbf{单调递增区间}：由 $2k\pi - \dfrac{\pi}{2} \leqslant \omega x + \varphi \leqslant 2k\pi + \dfrac{\pi}{2}$ 解得；
+        \item \textbf{单调递减区间}：由 $2k\pi + \dfrac{\pi}{2} \leqslant \omega x + \varphi \leqslant 2k\pi + \dfrac{3\pi}{2}$ 解得；
+        \item \textbf{对称轴}：$\omega x + \varphi = k\pi + \dfrac{\pi}{2}$（$k \in \mathbb{Z}$）；
+        \item \textbf{对称中心}：$\omega x + \varphi = k\pi$（$k \in \mathbb{Z}$），即点 $\left(\dfrac{k\pi - \varphi}{\omega}, 0\right)$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[由图像确定函数解析式]
+    已知函数 $y = A\sin(\omega x + \varphi)$ 的图像，确定参数的方法：
+    \begin{enumerate}
+        \item \textbf{求 $A$}：$A = \dfrac{y_{\max} - y_{\min}}{2}$（振幅）；
+        \item \textbf{求 $\omega$}：由周期 $T = \dfrac{2\pi}{\omega}$，得 $\omega = \dfrac{2\pi}{T}$；
+        \item \textbf{求 $\varphi$}：代入图像上的已知点（通常取最高点、最低点或零点），解方程求得。
+    \end{enumerate}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[图像变换]
+    要得到函数 $y = \sin\left(2x - \dfrac{\pi}{3}\right)$ 的图像，只需将 $y = \sin x$ 的图像如何变换？
+\end{example}
+
+\textbf{解.} 方法一（先平移后伸缩）：
+\begin{enumerate}
+    \item 将 $y = \sin x$ 向右平移 $\dfrac{\pi}{3}$ 个单位，得 $y = \sin\left(x - \dfrac{\pi}{3}\right)$；
+    \item 横坐标缩短为原来的 $\dfrac{1}{2}$（纵坐标不变），得 $y = \sin\left(2x - \dfrac{\pi}{3}\right)$。
+\end{enumerate}
+
+方法二（先伸缩后平移）：
+\begin{enumerate}
+    \item 将 $y = \sin x$ 横坐标缩短为原来的 $\dfrac{1}{2}$，得 $y = \sin 2x$；
+    \item 向右平移 $\dfrac{\pi}{6}$ 个单位，得 $y = \sin\left(2\left(x - \dfrac{\pi}{6}\right)\right) = \sin\left(2x - \dfrac{\pi}{3}\right)$。
+\end{enumerate}
+
+\begin{example}[由图像求解析式]
+    已知函数 $f(x) = A\sin(\omega x + \varphi)$（$A > 0$，$\omega > 0$，$|\varphi| < \pi$）的部分图像如图所示，其中最高点的纵坐标为 2，最低点为 $-2$，且图像经过点 $\left(\dfrac{\pi}{6}, 2\right)$ 和 $\left(\dfrac{2\pi}{3}, 0\right)$。求 $f(x)$ 的解析式。
+\end{example}
+
+\textbf{解.} 由题意，$A = 2$。
+
+由最高点 $\left(\dfrac{\pi}{6}, 2\right)$ 到相邻零点 $\left(\dfrac{2\pi}{3}, 0\right)$ 的距离为 $\dfrac{T}{4}$，
+所以 $\dfrac{T}{4} = \dfrac{2\pi}{3} - \dfrac{\pi}{6} = \dfrac{\pi}{2}$，即 $T = 2\pi$，$\omega = \dfrac{2\pi}{T} = 1$。
+
+将点 $\left(\dfrac{\pi}{6}, 2\right)$ 代入 $f(x) = 2\sin(x + \varphi)$：
+\[
+    2\sin\left(\frac{\pi}{6} + \varphi\right) = 2 \Rightarrow \sin\left(\frac{\pi}{6} + \varphi\right) = 1.
+\]
+
+所以 $\dfrac{\pi}{6} + \varphi = \dfrac{\pi}{2} + 2k\pi$，取 $\varphi = \dfrac{\pi}{3}$（满足 $|\varphi| < \pi$）。
+
+因此，$f(x) = 2\sin\left(x + \dfrac{\pi}{3}\right)$。
+
+\begin{example}[求单调区间与最值]
+    求函数 $f(x) = 2\sin\left(\dfrac{\pi}{3} - 2x\right)$ 的单调递减区间和最大值。
+\end{example}
+
+\textbf{解.} 先将函数变形：$f(x) = 2\sin\left(\dfrac{\pi}{3} - 2x\right) = -2\sin\left(2x - \dfrac{\pi}{3}\right)$。
+
+求 $f(x)$ 的单调递减区间，即求 $y = \sin\left(2x - \dfrac{\pi}{3}\right)$ 的单调递增区间。
+
+由 $2k\pi - \dfrac{\pi}{2} \leqslant 2x - \dfrac{\pi}{3} \leqslant 2k\pi + \dfrac{\pi}{2}$，解得：
+\[
+    k\pi - \frac{\pi}{12} \leqslant x \leqslant k\pi + \frac{5\pi}{12}, \quad k \in \mathbb{Z}.
+\]
+
+因此，$f(x)$ 的单调递减区间为 $\left[k\pi - \dfrac{\pi}{12}, k\pi + \dfrac{5\pi}{12}\right]$（$k \in \mathbb{Z}$）。
+
+因为 $\sin\left(\dfrac{\pi}{3} - 2x\right) \in [-1, 1]$，所以 $f(x)_{\max} = 2$。
+
+\begin{realexam}[2025 松江高三二模]
+    已知函数 $y = A\sin(2x + \varphi)$，$A > 0$，$0 < \varphi < \pi$，当 $x = \dfrac{\pi}{6}$ 时函数取得最大值 4，记 $y = f(x)$。
+    \begin{enumerate}
+        \item 求 $f(x)$ 的解析式；
+        \item 求 $f(x)$ 在 $\left[0, \dfrac{\pi}{2}\right]$ 上的值域。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 由题意，$A = 4$。
+
+当 $x = \dfrac{\pi}{6}$ 时，$2 \times \dfrac{\pi}{6} + \varphi = \dfrac{\pi}{2} + 2k\pi$，即 $\dfrac{\pi}{3} + \varphi = \dfrac{\pi}{2} + 2k\pi$。
+
+所以 $\varphi = \dfrac{\pi}{6} + 2k\pi$。由 $0 < \varphi < \pi$，得 $\varphi = \dfrac{\pi}{6}$。
+
+因此，$f(x) = 4\sin\left(2x + \dfrac{\pi}{6}\right)$。
+
+(2) 当 $x \in \left[0, \dfrac{\pi}{2}\right]$ 时，$2x + \dfrac{\pi}{6} \in \left[\dfrac{\pi}{6}, \dfrac{7\pi}{6}\right]$。
+
+当 $2x + \dfrac{\pi}{6} = \dfrac{\pi}{2}$，即 $x = \dfrac{\pi}{6}$ 时，$f(x)_{\max} = 4$。
+
+当 $2x + \dfrac{\pi}{6} = \dfrac{7\pi}{6}$，即 $x = \dfrac{\pi}{2}$ 时，$f(x)_{\min} = 4\sin\dfrac{7\pi}{6} = -2$。
+
+因此，$f(x)$ 在 $\left[0, \dfrac{\pi}{2}\right]$ 上的值域为 $[-2, 4]$。
+
+\begin{realexam}[2026 奉贤高三二模]
+    音乐是人类精神通过无意识计算而获得的愉悦享受。1807 年法国数学家傅里叶发现代表任何周期性声音的公式是形如 $y = A\sin(\omega x)$ 的简单正弦型函数之和，而且这些正弦型函数的频率都是其中一个最小频率的整数倍。若某音叉的声音图像由 $y_1 = 0.06\sin(1000\pi t)$、$y_2 = 0.02\sin(2000\pi t)$、$y_3 = 0.01\sin(3000\pi t)$ 三个函数图像叠加而成，则该音叉的声音函数为 $f(t) = $ \underline{\hspace{2cm}}。
+\end{realexam}
+
+\textbf{解.} 由题意，该音叉的声音函数为三个正弦型函数之和：
+\[
+    f(t) = 0.06\sin(1000\pi t) + 0.02\sin(2000\pi t) + 0.01\sin(3000\pi t).
+\]
+
+其中，$y_1$ 的周期 $T_1 = \dfrac{2\pi}{1000\pi} = \dfrac{1}{500}$，频率 $f_1 = 500$；
+$y_2$ 的频率 $f_2 = 1000 = 2f_1$；$y_3$ 的频率 $f_3 = 1500 = 3f_1$。
+
+满足频率为最小频率整数倍的条件。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{图像变换的顺序}：先平移后伸缩与先伸缩后平移，平移量不同（前者为 $|\varphi|$，后者为 $\dfrac{|\varphi|}{\omega}$）。
+    \item \textbf{确定解析式的步骤}：先定 $A$（看最值），再定 $\omega$（看周期），最后定 $\varphi$（代入特殊点）。
+    \item \textbf{求单调区间}：将 $\omega x + \varphi$ 整体代入正弦函数的单调区间，注意 $\omega$ 的符号（为负时单调性相反）。
+    \item \textbf{求最值}：确定相位的取值范围，结合正弦函数的图像求出最值。
+    \item \textbf{数形结合}：利用"五点法"作图，抓住一个周期内的五个关键点：起点、最高点、中点、最低点、终点。
+    \item \textbf{实际应用}：物理中的简谐振动、交流电、声波等都可以用正弦型函数描述，$A$ 表示振幅，$\omega$ 决定频率，$\varphi$ 表示初相位。
+\end{enumerate}
+
+\end{document}

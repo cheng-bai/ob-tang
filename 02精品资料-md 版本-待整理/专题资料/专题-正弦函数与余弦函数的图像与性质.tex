@@ -1,0 +1,144 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：正弦函数与余弦函数的图像与性质}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：正弦函数与余弦函数的图像与性质}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+正弦函数 $y = \sin x$ 和余弦函数 $y = \cos x$ 是基本的周期函数，它们的图像和性质是研究三角函数的基础。
+
+\begin{definition}[正弦函数与余弦函数的定义]
+    设 $x$ 为任意实数，在平面直角坐标系中，角 $x$ 的终边与单位圆交于点 $P(u, v)$，则定义：
+    \[
+        \sin x = v, \quad \cos x = u.
+    \]
+    
+    正弦函数的定义域为 $\mathbb{R}$，值域为 $[-1, 1]$；余弦函数的定义域为 $\mathbb{R}$，值域为 $[-1, 1]$。
+\end{definition}
+
+\begin{property}[正弦函数的图像与性质]
+    正弦函数 $y = \sin x$ 的图像称为\textbf{正弦曲线}，其主要性质如下：
+    \begin{itemize}
+        \item \textbf{周期性}：最小正周期 $T = 2\pi$，即 $\sin(x + 2\pi) = \sin x$；
+        \item \textbf{奇偶性}：奇函数，图像关于原点对称，即 $\sin(-x) = -\sin x$；
+        \item \textbf{单调性}：在 $\left[2k\pi - \dfrac{\pi}{2}, 2k\pi + \dfrac{\pi}{2}\right]$ 上单调递增，在 $\left[2k\pi + \dfrac{\pi}{2}, 2k\pi + \dfrac{3\pi}{2}\right]$ 上单调递减（$k \in \mathbb{Z}$）；
+        \item \textbf{最值}：当 $x = 2k\pi + \dfrac{\pi}{2}$ 时，$y_{\max} = 1$；当 $x = 2k\pi - \dfrac{\pi}{2}$ 时，$y_{\min} = -1$；
+        \item \textbf{零点}：$x = k\pi$（$k \in \mathbb{Z}$）；
+        \item \textbf{对称性}：对称轴为 $x = k\pi + \dfrac{\pi}{2}$，对称中心为 $(k\pi, 0)$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[余弦函数的图像与性质]
+    余弦函数 $y = \cos x$ 的图像称为\textbf{余弦曲线}，其主要性质如下：
+    \begin{itemize}
+        \item \textbf{周期性}：最小正周期 $T = 2\pi$，即 $\cos(x + 2\pi) = \cos x$；
+        \item \textbf{奇偶性}：偶函数，图像关于 $y$ 轴对称，即 $\cos(-x) = \cos x$；
+        \item \textbf{单调性}：在 $[2k\pi - \pi, 2k\pi]$ 上单调递增，在 $[2k\pi, 2k\pi + \pi]$ 上单调递减（$k \in \mathbb{Z}$）；
+        \item \textbf{最值}：当 $x = 2k\pi$ 时，$y_{\max} = 1$；当 $x = 2k\pi + \pi$ 时，$y_{\min} = -1$；
+        \item \textbf{零点}：$x = k\pi + \dfrac{\pi}{2}$（$k \in \mathbb{Z}$）；
+        \item \textbf{对称性}：对称轴为 $x = k\pi$，对称中心为 $\left(k\pi + \dfrac{\pi}{2}, 0\right)$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[正弦曲线与余弦曲线的关系]
+    余弦函数的图像可由正弦函数的图像向左平移 $\dfrac{\pi}{2}$ 个单位得到，即：
+    \[
+        \cos x = \sin\left(x + \frac{\pi}{2}\right).
+    \]
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[利用单调性比较大小]
+    比较下列各组数的大小：
+    \begin{enumerate}
+        \item $\sin\dfrac{2\pi}{7}$ 与 $\sin\dfrac{3\pi}{7}$；
+        \item $\cos\dfrac{4\pi}{7}$ 与 $\cos\dfrac{5\pi}{7}$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 因为 $0 < \dfrac{2\pi}{7} < \dfrac{3\pi}{7} < \dfrac{\pi}{2}$，且 $y = \sin x$ 在 $\left[0, \dfrac{\pi}{2}\right]$ 上单调递增，
+所以 $\sin\dfrac{2\pi}{7} < \sin\dfrac{3\pi}{7}$。
+
+(2) 因为 $\dfrac{\pi}{2} < \dfrac{4\pi}{7} < \dfrac{5\pi}{7} < \pi$，且 $y = \cos x$ 在 $[0, \pi]$ 上单调递减，
+所以 $\cos\dfrac{4\pi}{7} > \cos\dfrac{5\pi}{7}$。
+
+\begin{example}[求三角函数的单调区间]
+    求函数 $y = \sin\left(2x - \dfrac{\pi}{3}\right)$ 的单调递增区间。
+\end{example}
+
+\textbf{解.} 令 $u = 2x - \dfrac{\pi}{3}$，则 $y = \sin u$。
+
+正弦函数的单调递增区间为 $\left[2k\pi - \dfrac{\pi}{2}, 2k\pi + \dfrac{\pi}{2}\right]$（$k \in \mathbb{Z}$）。
+
+由 $2k\pi - \dfrac{\pi}{2} \leqslant 2x - \dfrac{\pi}{3} \leqslant 2k\pi + \dfrac{\pi}{2}$，解得：
+\[
+    k\pi - \frac{\pi}{12} \leqslant x \leqslant k\pi + \frac{5\pi}{12}, \quad k \in \mathbb{Z}.
+\]
+
+因此，函数的单调递增区间为 $\left[k\pi - \dfrac{\pi}{12}, k\pi + \dfrac{5\pi}{12}\right]$（$k \in \mathbb{Z}$）。
+
+\begin{example}[求三角函数的值域]
+    求函数 $y = 2\sin x + 1$ 在 $x \in \left[\dfrac{\pi}{6}, \dfrac{2\pi}{3}\right]$ 上的值域。
+\end{example}
+
+\textbf{解.} 当 $x \in \left[\dfrac{\pi}{6}, \dfrac{2\pi}{3}\right]$ 时，$\sin x$ 在 $\left[\dfrac{\pi}{6}, \dfrac{\pi}{2}\right]$ 上单调递增，在 $\left[\dfrac{\pi}{2}, \dfrac{2\pi}{3}\right]$ 上单调递减。
+
+当 $x = \dfrac{\pi}{2}$ 时，$\sin x$ 取最大值 $1$，此时 $y_{\max} = 2 \times 1 + 1 = 3$。
+
+当 $x = \dfrac{\pi}{6}$ 时，$\sin\dfrac{\pi}{6} = \dfrac{1}{2}$，此时 $y = 2 \times \dfrac{1}{2} + 1 = 2$。
+
+当 $x = \dfrac{2\pi}{3}$ 时，$\sin\dfrac{2\pi}{3} = \dfrac{\sqrt{3}}{2}$，此时 $y = 2 \times \dfrac{\sqrt{3}}{2} + 1 = \sqrt{3} + 1 \approx 2.73$。
+
+比较得 $y_{\min} = 2$（在 $x = \dfrac{\pi}{6}$ 处取得）。
+
+因此，函数的值域为 $[2, 3]$。
+
+\begin{realexam}[2025 黄浦高三二模]
+    函数 $y = \sqrt{3}\sin x + \sin\left(\dfrac{\pi}{2} + x\right)$ 的最大值为 \underline{\hspace{2cm}}。
+\end{realexam}
+
+\textbf{解.} 利用诱导公式 $\sin\left(\dfrac{\pi}{2} + x\right) = \cos x$，得：
+\[
+    y = \sqrt{3}\sin x + \cos x = 2\left(\frac{\sqrt{3}}{2}\sin x + \frac{1}{2}\cos x\right) = 2\sin\left(x + \frac{\pi}{6}\right).
+\]
+
+因为 $\sin\left(x + \dfrac{\pi}{6}\right) \in [-1, 1]$，所以 $y_{\max} = 2$。
+
+\begin{realexam}[2025 静安高三二模]
+    设某港口水的深度 $y$（米）关于时间 $t$（时）的函数近似满足 $y = h + A\sin(\omega t + \phi)$。根据某一天的测量，港口水的深度在早上 3 点达到最大值 18 米，之后持续减少，并在上午 9 点达到最小值 14 米。则该港口水的深度 $y$（米）关于时间 $t$（时）的函数的近似表达式为 \underline{\hspace{2cm}}。
+\end{realexam}
+
+\textbf{解.} 由题意，最大值 $y_{\max} = h + A = 18$，最小值 $y_{\min} = h - A = 14$。
+
+解得 $h = 16$，$A = 2$。
+
+从最大值到最小值经过半个周期，即 $\dfrac{T}{2} = 9 - 3 = 6$，所以 $T = 12$，$\omega = \dfrac{2\pi}{T} = \dfrac{\pi}{6}$。
+
+当 $t = 3$ 时，$y$ 取最大值，即 $\sin\left(\dfrac{\pi}{6} \times 3 + \phi\right) = 1$。
+
+所以 $\dfrac{\pi}{2} + \phi = \dfrac{\pi}{2} + 2k\pi$，取 $\phi = 0$。
+
+因此，$y = 16 + 2\sin\dfrac{\pi t}{6}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{五点作图法}：画正弦（余弦）函数图像时，取一个周期内的五个关键点：起点、最高点、中点、最低点、终点，描点连线即可。
+    \item \textbf{单调性应用}：比较三角函数值大小时，先将角转化到同一单调区间，再利用单调性判断。
+    \item \textbf{复合函数单调性}：对于 $y = \sin(\omega x + \varphi)$，令 $u = \omega x + \varphi$，利用"同增异减"原则确定单调区间。
+    \item \textbf{求值域策略}：先确定内层函数的取值范围，再结合外层三角函数的单调性和最值求解。
+    \item \textbf{数形结合}：利用三角函数图像的对称性、周期性简化问题，如求零点、对称轴等。
+\end{enumerate}
+
+\end{document}

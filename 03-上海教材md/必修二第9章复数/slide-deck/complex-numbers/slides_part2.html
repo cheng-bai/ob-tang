@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>复数 - 定义与四则运算</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #0d1117;
+            color: #f5f5f5;
+        }
+        
+        .slide {
+            width: 1920px;
+            height: 1080px;
+            margin: 20px auto;
+            background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 50%, #161b22 100%);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+            border: 2px solid #30363d;
+        }
+        
+        /* 黑板纹理效果 */
+        .slide::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255,255,255,0.015) 2px,
+                    rgba(255,255,255,0.015) 4px
+                );
+            pointer-events: none;
+        }
+        
+        /* 页码 */
+        .page-number {
+            position: absolute;
+            bottom: 30px;
+            right: 80px;
+            font-size: 24px;
+            color: rgba(255,255,255,0.4);
+            font-family: "Times New Roman", serif;
+        }
+        
+        /* 标题样式 - 粉笔效果 */
+        .slide-content h2 {
+            font-size: 56px;
+            color: #FFE566;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 4px solid #FFE566;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-weight: 600;
+        }
+        
+        .slide-content .content-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        /* 公式框 - 黑板风格 */
+        .formula-box {
+            background: rgba(0,0,0,0.3);
+            border-radius: 16px;
+            padding: 50px;
+            border: 3px solid rgba(255,255,255,0.15);
+            box-shadow: inset 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .formula {
+            font-size: 48px;
+            font-family: "Latin Modern Math", "Times New Roman", "Cambria Math", serif;
+            text-align: center;
+            color: #F5F5F5;
+            line-height: 1.6;
+        }
+        
+        /* 颜色系统 */
+        .formula .real { color: #90EE90; }      /* 绿色 - 实部/实数 */
+        .formula .imag { color: #FF6B6B; }      /* 红色 - 虚部 */
+        .formula .unit { color: #66B3FF; font-style: italic; }  /* 蓝色 - i/复数 */
+        .formula .highlight { color: #FFE566; } /* 黄色 - 强调/关键步骤 */
+        .formula .step { color: #DDA0DD; }      /* 紫色 - 推导步骤 */
+        
+        .explanation {
+            font-size: 32px;
+            line-height: 2;
+            color: #F5F5F5;
+        }
+        
+        .explanation .key-point {
+            color: #FFB366;
+            font-weight: 600;
+        }
+        
+        /* 推导步骤框 */
+        .derivation-box {
+            background: rgba(102, 179, 255, 0.08);
+            border-radius: 16px;
+            padding: 40px;
+            border-left: 6px solid #66B3FF;
+            margin: 20px 0;
+        }
+        
+        .derivation-box h3 {
+            font-size: 32px;
+            color: #66B3FF;
+            margin-bottom: 20px;
+        }
+        
+        .derivation-step {
+            font-size: 36px;
+            font-family: "Latin Modern Math", "Times New Roman", serif;
+            line-height: 2;
+            color: #F5F5F5;
+            margin: 15px 0;
+        }
+        
+        .derivation-step .arrow {
+            color: #FFE566;
+            margin: 0 15px;
+        }
+        
+        /* 两列布局 */
+        .two-column {
+            display: flex;
+            gap: 60px;
+            flex: 1;
+        }
+        
+        .column {
+            flex: 1;
+            background: rgba(255,255,255,0.03);
+            border-radius: 16px;
+            padding: 40px;
+            border: 2px solid rgba(255,255,255,0.08);
+        }
+        
+        .column h3 {
+            font-size: 36px;
+            color: #66B3FF;
+            margin-bottom: 24px;
+        }
+        
+        /* 例题框 */
+        .example-box {
+            background: rgba(144, 238, 144, 0.08);
+            border-left: 6px solid #90EE90;
+            padding: 30px 40px;
+            border-radius: 0 16px 16px 0;
+            margin-top: 20px;
+        }
+        
+        .example-box .label {
+            font-size: 28px;
+            color: #90EE90;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        /* 关键公式高亮 */
+        .key-formula {
+            background: rgba(255, 229, 102, 0.15);
+            border: 3px solid #FFE566;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        /* 打印样式 */
+        @media print {
+            .slide {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 第4页：虚数单位i的定义 -->
+<div class="slide slide-content">
+    <h2>虚数单位 i 的定义</h2>
+    <div class="content-body">
+        <div class="key-formula">
+            <div class="formula" style="font-size: 96px;">
+                <span class="unit">i</span><span class="highlight">²</span> = <span class="highlight">-1</span>
+            </div>
+        </div>
+        <div class="explanation" style="margin-top: 40px;">
+            <p>• <span class="key-point">i</span> 是 -1 的一个<span class="highlight">平方根</span></p>
+            <p>• 即 <span class="unit">i</span> = √<span class="highlight">-1</span>（在复数范围内）</p>
+            <p>• 任意实数 <span class="real">b</span>∈R 与 <span class="unit">i</span> 的乘积记为 <span class="imag">b</span><span class="unit">i</span></p>
+            <p>• (<span class="imag">b</span><span class="unit">i</span>)² = <span class="imag">b</span>² · <span class="unit">i</span>² = -<span class="imag">b</span>²，负数开平方得以解决</p>
+        </div>
+    </div>
+    <div class="page-number">4 / 8</div>
+</div>
+
+<!-- 第5页：复数的定义 -->
+<div class="slide slide-content">
+    <h2>复数的定义</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 64px;">
+                <span class="unit">z</span> = <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> &nbsp;&nbsp; (<span class="real">a</span>, <span class="imag">b</span> ∈ <span class="real">R</span>)
+            </div>
+        </div>
+        <div class="two-column" style="margin-top: 30px;">
+            <div class="column">
+                <h3>基本要素</h3>
+                <div class="explanation" style="font-size: 28px;">
+                    <p>• 形如 <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> 的数称为<span class="key-point">复数</span></p>
+                    <p>• <span class="real">a</span> 是<span class="real">实部</span>（Real part）</p>
+                    <p>• <span class="imag">b</span> 是<span class="imag">虚部系数</span>（Imaginary part）</p>
+                    <p>• 全体复数构成集合 <span class="key-point">C</span></p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>特殊情形</h3>
+                <div class="explanation" style="font-size: 28px;">
+                    <p>• <span class="imag">b</span> = 0 时，<span class="unit">z</span> 是<span class="real">实数</span></p>
+                    <p>• <span class="imag">b</span> ≠ 0 时，<span class="unit">z</span> 是<span class="imag">虚数</span></p>
+                    <p>• <span class="real">a</span> = 0 且 <span class="imag">b</span> ≠ 0 时，<span class="unit">z</span> 是<span class="highlight">纯虚数</span></p>
+                    <p>• <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> = 0 ⇔ <span class="real">a</span>=0 且 <span class="imag">b</span>=0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-number">5 / 8</div>
+</div>
+
+<!-- 第6页：复数的加减法 -->
+<div class="slide slide-content">
+    <h2>复数的加减法</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 52px;">
+                (<span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>) ± (<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>) = (<span class="real">a</span>±<span class="real">c</span>) + (<span class="imag">b</span>±<span class="imag">d</span>)<span class="unit">i</span>
+            </div>
+        </div>
+        <div class="explanation" style="margin-top: 30px;">
+            <p>• 按<span class="key-point">多项式</span>相加减的法则进行</p>
+            <p>• <span class="real">实部</span>与<span class="real">实部</span>相加减</p>
+            <p>• <span class="imag">虚部</span>与<span class="imag">虚部</span>相加减</p>
+            <p>• 结果仍为复数</p>
+        </div>
+        <div class="example-box">
+            <div class="label">示例</div>
+            <div class="formula" style="font-size: 40px; text-align: left;">
+                (3 + 2<span class="unit">i</span>) + (1 + 4<span class="unit">i</span>) = <span class="real">(3+1)</span> + <span class="imag">(2+4)</span><span class="unit">i</span> = <span class="real">4</span> + <span class="imag">6</span><span class="unit">i</span><br>
+                (5 + 3<span class="unit">i</span>) - (2 + <span class="unit">i</span>) = <span class="real">(5-2)</span> + <span class="imag">(3-1)</span><span class="unit">i</span> = <span class="real">3</span> + <span class="imag">2</span><span class="unit">i</span>
+            </div>
+        </div>
+    </div>
+    <div class="page-number">6 / 8</div>
+</div>
+
+<!-- 第7页：复数的乘法 -->
+<div class="slide slide-content">
+    <h2>复数的乘法</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 44px;">
+                (<span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>)(<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>) = (<span class="real">ac</span> - <span class="imag">bd</span>) + (<span class="real">ad</span> + <span class="imag">bc</span>)<span class="unit">i</span>
+            </div>
+        </div>
+        
+        <div class="derivation-box">
+            <h3>推导过程</h3>
+            <div class="derivation-step">
+                (<span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>)(<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>)
+            </div>
+            <div class="derivation-step">
+                = <span class="real">ac</span> + <span class="real">ad</span><span class="unit">i</span> + <span class="imag">bc</span><span class="unit">i</span> + <span class="imag">bd</span><span class="unit">i</span>² <span class="arrow">→</span> <span class="step">展开（分配律）</span>
+            </div>
+            <div class="derivation-step">
+                = <span class="real">ac</span> + <span class="real">ad</span><span class="unit">i</span> + <span class="imag">bc</span><span class="unit">i</span> + <span class="imag">bd</span>(<span class="highlight">-1</span>) <span class="arrow">→</span> <span class="step">关键：<span class="highlight">i² = -1</span></span>
+            </div>
+            <div class="derivation-step">
+                = (<span class="real">ac</span> - <span class="imag">bd</span>) + (<span class="real">ad</span> + <span class="imag">bc</span>)<span class="unit">i</span> <span class="arrow">→</span> <span class="step">合并实部与虚部</span>
+            </div>
+        </div>
+        
+        <div class="example-box">
+            <div class="label">示例</div>
+            <div class="formula" style="font-size: 36px; text-align: left;">
+                (2 + 3<span class="unit">i</span>)(1 + 2<span class="unit">i</span>) = 2 + 4<span class="unit">i</span> + 3<span class="unit">i</span> + 6<span class="unit">i</span>² = 2 + 7<span class="unit">i</span> - 6 = <span class="real">-4</span> + <span class="imag">7</span><span class="unit">i</span>
+            </div>
+        </div>
+    </div>
+    <div class="page-number">7 / 8</div>
+</div>
+
+<!-- 第8页：复数的除法 -->
+<div class="slide slide-content">
+    <h2>复数的除法 — 分母实数化</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 40px; line-height: 2.2;">
+                <div style="margin-bottom: 30px;">
+                    <span style="display: inline-block; text-align: center;">
+                        <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span><br>
+                        <span style="border-top: 3px solid #F5F5F5; display: block; margin: 10px 0;"></span>
+                        <span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>
+                    </span>
+                    <span style="margin: 0 30px;">=</span>
+                    <span style="display: inline-block; text-align: center;">
+                        (<span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>)(<span class="real">c</span> - <span class="imag">d</span><span class="unit">i</span>)<br>
+                        <span style="border-top: 3px solid #F5F5F5; display: block; margin: 10px 0;"></span>
+                        (<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>)(<span class="real">c</span> - <span class="imag">d</span><span class="unit">i</span>)
+                    </span>
+                </div>
+                <div>
+                    = <span style="display: inline-block; text-align: center;">
+                        <span class="real">ac + bd</span><br>
+                        <span style="border-top: 3px solid #F5F5F5; display: block; margin: 10px 0;"></span>
+                        <span class="real">c</span>² + <span class="imag">d</span>²
+                    </span>
+                    <span style="margin: 0 20px;">+</span>
+                    <span style="display: inline-block; text-align: center;">
+                        <span class="imag">bc - ad</span><br>
+                        <span style="border-top: 3px solid #F5F5F5; display: block; margin: 10px 0;"></span>
+                        <span class="real">c</span>² + <span class="imag">d</span>²
+                    </span>
+                    <span class="unit">i</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="derivation-box">
+            <h3>关键步骤</h3>
+            <div class="explanation" style="font-size: 28px;">
+                <p>• 分子分母同乘分母的<span class="highlight">共轭复数</span> (<span class="real">c</span> - <span class="imag">d</span><span class="unit">i</span>)</p>
+                <p>• 分母变为：<span class="real">c</span>² + <span class="imag">d</span>²（实数，因 <span class="unit">i</span>² = -1）</p>
+                <p>• 实现了<span class="key-point">分母实数化</span></p>
+            </div>
+        </div>
+        
+        <div class="example-box">
+            <div class="label">示例</div>
+            <div class="formula" style="font-size: 32px; text-align: left; line-height: 1.8;">
+                1/(1 + <span class="unit">i</span>) = 1·(1 - <span class="unit">i</span>)/[(1 + <span class="unit">i</span>)(1 - <span class="unit">i</span>)] = (1 - <span class="unit">i</span>)/(1 + 1) = <span class="real">1/2</span> - <span class="imag">1/2</span><span class="unit">i</span>
+            </div>
+        </div>
+    </div>
+    <div class="page-number">8 / 8</div>
+</div>
+
+<script>
+    window.onload = function() {
+        if (window.matchMedia) {
+            var mediaQueryList = window.matchMedia('print');
+            mediaQueryList.addListener(function(mql) {
+                if (mql.matches) {
+                    document.body.style.background = 'white';
+                }
+            });
+        }
+    };
+</script>
+
+</body>
+</html>

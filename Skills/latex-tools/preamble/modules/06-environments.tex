@@ -1,0 +1,310 @@
+% ======================================
+% 06-environments.tex - 定理/定义/例题环境定义
+% ======================================
+% 2024-04-14 更新：为每种环境类型定义独立计数器
+
+% ========== 独立计数器定义 ==========
+% 定理类环境共享 theorem 计数器
+\newcounter{theorem}[chapter]
+\renewcommand{\thetheorem}{\thechapter.\arabic{theorem}}
+
+% 定义类环境使用 definition 计数器
+\newcounter{definition}[chapter]
+\renewcommand{\thedefinition}{\thechapter.\arabic{definition}}
+
+% 例题类环境使用 example 计数器
+\newcounter{example}[chapter]
+\renewcommand{\theexample}{\thechapter.\arabic{example}}
+
+% 练习类环境使用 exercise 计数器
+\newcounter{exercise}[chapter]
+\renewcommand{\theexercise}{\thechapter.\arabic{exercise}}
+
+% 真题环境使用 realexam 计数器
+\newcounter{realexam}[chapter]
+\renewcommand{\therealexam}{\thechapter.\arabic{realexam}}
+
+% ========== 定理类环境 ==========
+\newtcolorbox{thmBox}[3][]{
+  commonbox,
+  colback=LogicBg,
+  colbacktitle=LogicColor,
+  before title={\refstepcounter{theorem}},
+  title={#2 \thetheorem\ifstrempty{#3}{}{（#3）}},
+  #1
+}
+
+\newenvironment{theorem}[1][]{\begin{thmBox}{定理}{#1}}{\end{thmBox}}
+\newenvironment{lemma}[1][]{\begin{thmBox}{引理}{#1}}{\end{thmBox}}
+\newenvironment{proposition}[1][]{\begin{thmBox}{命题}{#1}}{\end{thmBox}}
+\newenvironment{corollary}[1][]{\begin{thmBox}{推论}{#1}}{\end{thmBox}}
+\newenvironment{property}[1][]{\begin{thmBox}{性质}{#1}}{\end{thmBox}}
+
+% ========== 定义类环境 ==========
+\newtcolorbox{defBox}[3][]{
+    commonbox,
+    colback=DefBg,
+    colbacktitle=DefColor,
+    before title={\refstepcounter{definition}},
+    title={#2 \thedefinition\ifstrempty{#3}{}{（#3）}},
+    #1
+}
+
+\newenvironment{definition}[1][]{\begin{defBox}{定义}{#1}}{\end{defBox}}
+\newenvironment{axiom}[1][]{\begin{defBox}{公理}{#1}}{\end{defBox}}
+
+% ========== 例题类环境 ==========
+\newtcolorbox{exBox}[3][]{
+    commonbox,
+    colback=ExBg,
+    colbacktitle=ExColor,
+    before title={\refstepcounter{example}},
+    title={#2 \theexample\ifstrempty{#3}{}{（#3）}},
+    #1
+}
+
+\newtcolorbox{longexBox}[3][]{
+    breakable,
+    commonbox,
+    colback=ExBg,
+    colbacktitle=ExColor,
+    before title={\refstepcounter{example}},
+    title={#2 \theexample\ifstrempty{#3}{}{（#3）}},
+    #1
+}
+
+\newenvironment{example}[1][]{\begin{exBox}{例题}{#1}}{\end{exBox}}
+\newenvironment{longexample}[1][]{\begin{longexBox}{例题}{#1}}{\end{longexBox}}
+
+% ========== 练习环境（独立计数器）==========
+\newtcolorbox{exerciseBox}[3][]{
+    commonbox,
+    colback=ExBg,
+    colbacktitle=ExColor,
+    before title={\refstepcounter{exercise}},
+    title={#2 \theexercise\ifstrempty{#3}{}{（#3）}},
+    #1
+}
+
+\newtcolorbox{longexerciseBox}[3][]{
+    breakable,
+    commonbox,
+    colback=ExBg,
+    colbacktitle=ExColor,
+    before title={\refstepcounter{exercise}},
+    title={#2 \theexercise\ifstrempty{#3}{}{（#3）}},
+    #1
+}
+
+\newenvironment{exercise}[1][]{\begin{exerciseBox}{练习}{#1}}{\end{exerciseBox}}
+\newenvironment{longexercise}[1][]{\begin{longexerciseBox}{练习}{#1}}{\end{longexerciseBox}}
+
+% ========== 真题环境 ==========
+\newtcolorbox{realexamBox}[2][]{
+    commonbox,
+    colback=ExBg,
+    colbacktitle=ExColor,
+    before title={\refstepcounter{realexam}},
+    title={真题\ \therealexam\ifstrempty{#2}{}{（#2）}},
+    #1
+}
+
+\newtcolorbox{longrealexamBox}[2][]{
+    breakable,
+    commonbox,
+    colback=ExBg,
+    colbacktitle=ExColor,
+    before title={\refstepcounter{realexam}},
+    title={真题\ \therealexam\ifstrempty{#2}{}{（#2）}},
+    #1
+}
+
+\newenvironment{realexam}[1][]
+{\begin{realexamBox}{#1}}
+{\end{realexamBox}}
+
+\newenvironment{longrealexam}[1][]
+{\begin{longrealexamBox}{#1}}
+{\end{longrealexamBox}}
+
+% ========== 注与证明 ==========
+\newenvironment{note}{
+    \par\vspace{0.5em}\noindent
+    \textbf{\color{NoteColor} 注：}
+}{
+    \par\vspace{0.5em}
+}
+
+\renewenvironment{proof}{
+    \par\vspace{0.5em}\noindent
+    \textbf{\color{LogicColor} 证明：}
+}{
+    \hfill \textcolor{LogicColor}{\rule{0.6em}{0.6em}} \par
+}
+
+% ======================================
+% 交互元素环境 - 新增
+% ======================================
+
+% ========== 学生思路环境 ==========
+\newtcolorbox{thinkingBox}[1][]{
+    enhanced,
+    colback=ThinkingBg,
+    colframe=ThinkingColor,
+    coltitle=white,
+    colbacktitle=ThinkingColor,
+    fonttitle=\bfseries,
+    attach boxed title to top left={xshift=5mm, yshift*=-\tcboxedtitleheight/2},
+    boxed title style={
+        frame hidden,
+        rounded corners,
+        arc=3pt,
+        top=1mm, bottom=1mm, left=2mm, right=2mm
+    },
+    boxrule=1pt,
+    sharp corners=downhill, rounded corners, arc=8pt,
+    left=5mm, right=5mm, top=4mm, bottom=4mm,
+    before skip=1.2em, after skip=1em,
+    title={\faUser\ 学生思路\ifstrempty{#1}{}{：#1}},
+    fontupper=\kaishu\linespread{1.5}\selectfont
+}
+
+\newenvironment{studentthinking}[1][]
+{\begin{thinkingBox}{#1}}
+{\end{thinkingBox}}
+
+% ========== 教师点睛环境 ==========
+\newtcolorbox{insightBox}[1][]{
+    enhanced,
+    colback=InsightBg,
+    colframe=InsightColor,
+    coltitle=white,
+    colbacktitle=InsightColor,
+    fonttitle=\bfseries,
+    attach boxed title to top right={xshift=-5mm, yshift*=-\tcboxedtitleheight/2},
+    boxed title style={
+        frame hidden,
+        rounded corners,
+        arc=3pt,
+        top=1mm, bottom=1mm, left=2mm, right=2mm
+    },
+    boxrule=1.5pt,
+    sharp corners=downhill, rounded corners, arc=8pt,
+    left=5mm, right=5mm, top=4mm, bottom=4mm,
+    before skip=1.2em, after skip=1em,
+    title={\faLightbulbO\ 教师点睛\ifstrempty{#1}{}{：#1}},
+    fontupper=\bfseries\color{InsightColor}\linespread{1.5}\selectfont
+}
+
+\newenvironment{teacherinsight}[1][]
+{\begin{insightBox}{#1}}
+{\end{insightBox}}
+
+% ========== 变式训练环境 ==========
+\newcounter{variation}[chapter]
+\renewcommand{\thevariation}{\thechapter.\arabic{variation}}
+
+\newtcolorbox{variationBox}[2][]{
+    enhanced,
+    colback=VariationBg,
+    colframe=VariationColor,
+    coltitle=white,
+    colbacktitle=VariationColor,
+    fonttitle=\bfseries,
+    attach boxed title to top left={xshift=5mm, yshift*=-\tcboxedtitleheight/2},
+    boxed title style={
+        frame hidden,
+        rounded corners,
+        arc=3pt,
+        top=1mm, bottom=1mm, left=2mm, right=2mm
+    },
+    boxrule=1pt,
+    sharp corners=downhill, rounded corners, arc=8pt,
+    left=5mm, right=5mm, top=4mm, bottom=4mm,
+    before skip=1.2em, after skip=1em,
+    before title={\refstepcounter{variation}},
+    title={\faCodeFork\ 变式训练 \thevariation\ifstrempty{#2}{}{（#2）}},
+    fontupper=\linespread{1.5}\selectfont,
+    #1
+}
+
+\newenvironment{variation}[1][]
+{\begin{variationBox}{#1}}
+{\end{variationBox}}
+
+% ========== 提示环境（轻量级） ==========
+\newtcolorbox{hintBox}{
+    enhanced,
+    colback=HintBg,
+    colframe=HintColor,
+    boxrule=0.5pt,
+    arc=4pt,
+    left=3mm, right=3mm, top=2mm, bottom=2mm,
+    before skip=0.8em, after skip=0.8em,
+    fontupper=\small\kaishu\color{HintColor}
+}
+
+\newenvironment{hint}{
+\begin{hintBox}
+\textbf{\color{HintColor}\faHandORight\ 提示：}
+}
+{\end{hintBox}}
+
+% ========== 常见错误环境 ==========
+\newtcolorbox{errorBox}[1][]{
+    enhanced,
+    colback=CommonErrorBg,
+    colframe=CommonErrorColor,
+    coltitle=white,
+    colbacktitle=CommonErrorColor,
+    fonttitle=\bfseries,
+    attach boxed title to top left={xshift=5mm, yshift*=-\tcboxedtitleheight/2},
+    boxed title style={
+        frame hidden,
+        rounded corners,
+        arc=3pt,
+        top=1mm, bottom=1mm, left=2mm, right=2mm
+    },
+    boxrule=1pt,
+    sharp corners=downhill, rounded corners, arc=8pt,
+    left=5mm, right=5mm, top=4mm, bottom=4mm,
+    before skip=1.2em, after skip=1em,
+    title={\faExclamationTriangle\ 常见错误\ifstrempty{#1}{}{：#1}},
+    fontupper=\linespread{1.5}\selectfont
+}
+
+\newenvironment{commonerror}[1][]
+{\begin{errorBox}{#1}}
+{\end{errorBox}}
+
+% ========== 步骤拆解环境 ==========
+\newenvironment{steps}[1][步骤详解]
+{
+    \par\vspace{0.5em}
+    \noindent\textbf{\color{ExColor}#1：}
+    \begin{enumerate}[label=\textbf{\color{ExColor}\arabic*.}]
+}
+{
+    \end{enumerate}
+    \par\vspace{0.5em}
+}
+
+% ========== 知识卡片环境 ==========
+\newtcolorbox{knowledgecard}[1][]{
+    enhanced,
+    colback=white,
+    colframe=DefColor,
+    boxrule=1pt,
+    arc=6pt,
+    left=4mm, right=4mm, top=3mm, bottom=3mm,
+    before skip=1em, after skip=1em,
+    fontupper=\small,
+    title={\faBookmark\ 知识卡片\ifstrempty{#1}{}{：#1}},
+    coltitle=DefColor,
+    fonttitle=\bfseries\small,
+    attach title to upper={\par\vspace{1mm}}
+}
+
+\newenvironment{card}[1][]
+{\begin{knowledgecard}{#1}}
+{\end{knowledgecard}}

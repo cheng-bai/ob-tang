@@ -1,0 +1,218 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：函数的奇偶性与周期性}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：函数的奇偶性与周期性}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+函数的奇偶性和周期性是描述函数对称特征的重要性质。奇偶性反映函数关于原点或 $y$ 轴的对称性，周期性反映函数图像的重复规律。
+
+\begin{definition}[奇函数与偶函数]
+    设函数 $y = f(x)$ 的定义域为 $D$，且 $D$ 关于原点对称：
+    \begin{itemize}
+        \item 若对任意 $x \in D$，都有 $f(-x) = -f(x)$，则称 $f(x)$ 为\textbf{奇函数}；
+        \item 若对任意 $x \in D$，都有 $f(-x) = f(x)$，则称 $f(x)$ 为\textbf{偶函数}。
+    \end{itemize}
+\end{definition}
+
+\begin{property}[奇偶性的判定]
+    \begin{enumerate}
+        \item \textbf{定义法}：直接验证 $f(-x) = \pm f(x)$；
+        \item \textbf{图像法}：奇函数图像关于原点对称，偶函数图像关于 $y$ 轴对称；
+        \item \textbf{运算性质}：
+        \begin{itemize}
+            \item 奇 $+$ 奇 $=$ 奇，偶 $+$ 偶 $=$ 偶；
+            \item 奇 $\times$ 奇 $=$ 偶，偶 $\times$ 偶 $=$ 偶，奇 $\times$ 偶 $=$ 奇；
+            \item 若 $f(x)$ 是奇函数且 $0 \in D$，则 $f(0) = 0$。
+        \end{itemize}
+    \end{enumerate}
+\end{property}
+
+\begin{definition}[周期函数]
+    设函数 $y = f(x)$ 的定义域为 $D$，若存在非零常数 $T$，使得对任意 $x \in D$，都有 $x+T \in D$ 且
+    \[
+        f(x+T) = f(x),
+    \]
+    则称 $f(x)$ 为\textbf{周期函数}，$T$ 称为函数的一个\textbf{周期}。若在所有周期中存在一个最小的正数，则称它为函数的\textbf{最小正周期}。
+\end{definition}
+
+\begin{property}[常见函数的周期]
+    \begin{itemize}
+        \item $y = \sin(\omega x + \varphi)$ 和 $y = \cos(\omega x + \varphi)$ 的最小正周期为 $T = \dfrac{2\pi}{|\omega|}$；
+        \item $y = \tan(\omega x + \varphi)$ 的最小正周期为 $T = \dfrac{\pi}{|\omega|}$；
+        \item 若 $f(x+a) = f(x)$，则周期 $T = a$；
+        \item 若 $f(x+a) = -f(x)$，则周期 $T = 2a$；
+        \item 若 $f(x+a) = \dfrac{1}{f(x)}$，则周期 $T = 2a$。
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[奇偶性的判定]
+    判断下列函数的奇偶性：
+    \begin{enumerate}
+        \item $f(x) = \ln\left(x + \sqrt{x^2+1}\right)$；
+        \item $f(x) = \dfrac{\sqrt{1-x^2}}{|x+2|-2}$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 定义域为 $\mathbb{R}$（因为 $x + \sqrt{x^2+1} > 0$ 恒成立）。
+
+计算 $f(-x)$：
+\[
+    f(-x) = \ln\left(-x + \sqrt{x^2+1}\right) = \ln\frac{1}{x + \sqrt{x^2+1}} = -\ln\left(x + \sqrt{x^2+1}\right) = -f(x)
+\]
+
+因此 $f(x)$ 是奇函数。
+
+(2) 由 $1-x^2 \geq 0$ 且 $|x+2|-2 \neq 0$，得定义域为 $[-1, 0) \cup (0, 1]$，关于原点对称。
+
+当 $x \in [-1, 0) \cup (0, 1]$ 时，$x+2 > 0$，所以 $|x+2| = x+2$，则：
+\[
+    f(x) = \frac{\sqrt{1-x^2}}{x}
+\]
+
+计算 $f(-x)$：
+\[
+    f(-x) = \frac{\sqrt{1-x^2}}{-x} = -\frac{\sqrt{1-x^2}}{x} = -f(x)
+\]
+
+因此 $f(x)$ 是奇函数。
+
+\begin{example}[周期性的应用]
+    已知函数 $f(x)$ 满足 $f(x+2) = -f(x)$，且当 $x \in [0, 2)$ 时，$f(x) = x^2 - x$。
+    \begin{enumerate}
+        \item 求 $f(x)$ 的最小正周期；
+        \item 求 $f(2024)$ 的值。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 由 $f(x+2) = -f(x)$，得：
+\[
+    f(x+4) = -f(x+2) = -(-f(x)) = f(x)
+\]
+
+因此 $f(x)$ 的最小正周期为 $T = 4$。
+
+(2) $2024 = 4 \times 506 + 0$，所以：
+\[
+    f(2024) = f(0) = 0^2 - 0 = 0
+\]
+
+\begin{realexam}[2026 上海奉贤二模]
+    已知函数 $y = \begin{cases} x(x-b), & x \geq 0 \\ x(bx+1), & x < 0 \end{cases}$ 是奇函数，求 $b$ 的值。
+\end{realexam}
+
+\textbf{解.} 设 $f(x) = \begin{cases} x(x-b), & x \geq 0 \\ x(bx+1), & x < 0 \end{cases}$。
+
+由奇函数定义，对任意 $x \neq 0$，有 $f(-x) = -f(x)$。
+
+取 $x > 0$，则 $-x < 0$，于是：
+\[
+    f(-x) = (-x)(b(-x)+1) = -x(-bx+1) = x(bx-1)
+\]
+
+而 $-f(x) = -x(x-b) = x(b-x)$。
+
+由 $f(-x) = -f(x)$，得：
+\[
+    x(bx-1) = x(b-x)
+\]
+
+即 $bx - 1 = b - x$，整理得 $(b+1)x = b+1$。
+
+此式对任意 $x > 0$ 成立，故 $b+1 = 0$，即 $b = -1$。
+
+验证：当 $b = -1$ 时，$f(x) = \begin{cases} x(x+1), & x \geq 0 \\ x(-x+1), & x < 0 \end{cases}$，经验证确实是奇函数。
+
+\begin{realexam}[2025 上海高三二模]
+    函数 $y = 2\sin\left(\omega x - \dfrac{\pi}{16}\right)$（$\omega > 0$）的最小正周期是 $\pi$，求 $\omega$ 的值。
+\end{realexam}
+
+\textbf{解.} 对于正弦函数 $y = A\sin(\omega x + \varphi)$，最小正周期为 $T = \dfrac{2\pi}{|\omega|}$。
+
+由题意：
+\[
+    T = \frac{2\pi}{\omega} = \pi
+\]
+
+解得 $\omega = 2$。
+
+\begin{realexam}[2026 上海闵行二模]
+    已知定义在 $\mathbb{R}$ 上的偶函数 $y = f(x)$ 在 $[0, +\infty)$ 上是严格减函数，若 $f(x-1) > f(1)$，求 $x$ 的取值范围。
+\end{realexam}
+
+\textbf{解.} 由于 $f(x)$ 是偶函数，所以 $f(x-1) = f(|x-1|)$，$f(1) = f(|1|)$。
+
+不等式 $f(x-1) > f(1)$ 等价于 $f(|x-1|) > f(1)$。
+
+又因为 $f(x)$ 在 $[0, +\infty)$ 上是严格减函数，所以：
+\[
+    |x-1| < 1
+\]
+
+解得 $-1 < x-1 < 1$，即 $0 < x < 2$。
+
+因此 $x$ 的取值范围为 $(0, 2)$。
+
+\begin{example}[奇偶性与周期性的综合]
+    设 $f(x)$ 是定义在 $\mathbb{R}$ 上的奇函数，且满足 $f(x+2) = f(x)$。当 $x \in [0, 1]$ 时，$f(x) = x(1-x)$。
+    \begin{enumerate}
+        \item 求 $f(x)$ 在 $[-1, 0]$ 上的解析式；
+        \item 求 $f\left(\dfrac{11}{2}\right)$ 的值。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 当 $x \in [-1, 0]$ 时，$-x \in [0, 1]$。
+
+由奇函数性质：
+\[
+    f(x) = -f(-x) = -(-x)(1-(-x)) = x(1+x)
+\]
+
+因此，当 $x \in [-1, 0]$ 时，$f(x) = x(1+x)$。
+
+(2) 由周期性，$f(x+2) = f(x)$，所以周期 $T = 2$。
+\[
+    f\left(\frac{11}{2}\right) = f\left(5 + \frac{1}{2}\right) = f\left(2 \times 2 + 1 + \frac{1}{2}\right) = f\left(\frac{3}{2}\right) = f\left(-\frac{1}{2}\right)
+\]
+
+由 (1) 的结果：
+\[
+    f\left(-\frac{1}{2}\right) = \left(-\frac{1}{2}\right)\left(1-\frac{1}{2}\right) = -\frac{1}{4}
+\]
+
+因此 $f\left(\dfrac{11}{2}\right) = -\dfrac{1}{4}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{定义域对称是前提}：判断奇偶性前，必须先验证定义域是否关于原点对称。若不对称，则函数既非奇函数也非偶函数。
+    \item \textbf{奇偶性的判定技巧}：
+    \begin{itemize}
+        \item 若 $f(-x) + f(x) = 0$，则 $f(x)$ 是奇函数；
+        \item 若 $f(-x) - f(x) = 0$，则 $f(x)$ 是偶函数；
+        \item 特殊值法：若 $f(0)$ 存在且 $f(0) \neq 0$，则 $f(x)$ 不是奇函数。
+    \end{itemize}
+    \item \textbf{周期性的常见形式}：
+    \begin{itemize}
+        \item $f(x+a) = f(x)$：周期为 $a$；
+        \item $f(x+a) = -f(x)$：周期为 $2a$；
+        \item $f(x+a) = \dfrac{1}{f(x)}$：周期为 $2a$；
+        \item $f(x+a) = \dfrac{1+f(x)}{1-f(x)}$：周期为 $4a$。
+    \end{itemize}
+    \item \textbf{奇偶性与单调性的关系}：偶函数在关于原点对称的区间上单调性相反，奇函数在关于原点对称的区间上单调性相同。
+    \item \textbf{周期性求值}：利用周期性将大自变量转化到已知区间内求值，即 $f(x) = f(x + nT)$，其中 $n \in \mathbb{Z}$，$T$ 为周期。
+\end{enumerate}
+
+\end{document}

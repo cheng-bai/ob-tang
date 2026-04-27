@@ -1,0 +1,103 @@
+% ======================================
+% 07-solution-toggle.tex - 解答隐藏/显示控制
+% ======================================
+
+% ========== 解答隐藏/显示控制 ==========
+% 使用方式：在文档开头添加 \showsolutions 显示解答，\hidesolutions 隐藏解答
+% 学生版：显示为等高的空白区域；教师版：正常显示解答
+%
+% 已加载 environ 包用于此功能
+
+\newif\ifshowsolutions
+\showsolutionstrue  % 默认显示解答（教师版）
+
+% 教师版命令：显示解答
+\newcommand{\showsolutions}{\showsolutionstrue}
+
+% 学生版命令：隐藏解答
+\newcommand{\hidesolutions}{\showsolutionsfalse}
+
+% 存储解答内容的盒子
+\newsavebox{\solutionbox}
+\newlength{\solutionheight}
+\newlength{\solutiondepth}
+\newlength{\solutiontotal}
+
+% 内部命令：绘制空白框
+\newcommand{\@drawblankbox}[1]{%
+    \setlength{\solutionheight}{\ht\solutionbox}%
+    \setlength{\solutiondepth}{\dp\solutionbox}%
+    \setlength{\solutiontotal}{\dimexpr\solutionheight+\solutiondepth\relax}%
+    \par\noindent
+    \fcolorbox{gray!50}{white}{%
+        \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+            \rule{0pt}{\solutiontotal}%
+        }%
+    }\par\vspace{0.5em}%
+}
+
+% solution 环境 - 标准解答块
+\NewEnviron{solution}{%
+    \ifshowsolutions
+        % 教师版：正常显示
+        \par\vspace{0.5em}\noindent
+        \textbf{\color{LogicColor} 解：}
+        \BODY
+        \par\vspace{0.5em}
+    \else
+        % 学生版：收集内容，输出等高空框
+        \setbox\solutionbox=\vbox{%
+            \par\vspace{0.5em}\noindent
+            \textbf{\color{LogicColor} 解：}
+            \BODY
+            \par\vspace{0.5em}%
+        }%
+        \@drawblankbox{}
+    \fi
+}
+
+% parse 环境 - 解析/分析块（用于试卷好题收集等）
+\NewEnviron{parse}{%
+    \ifshowsolutions
+        % 教师版：正常显示
+        \par\vspace{0.5em}\noindent
+        \textbf{\color{LogicColor} 解析：}
+        \BODY
+        \par\vspace{0.5em}
+    \else
+        % 学生版：收集内容，输出等高空框
+        \setbox\solutionbox=\vbox{%
+            \par\vspace{0.5em}\noindent
+            \textbf{\color{LogicColor} 解析：}
+            \BODY
+            \par\vspace{0.5em}%
+        }%
+        \@drawblankbox{}
+    \fi
+}
+
+% sol 命令 - 行内简短解答
+\newcommand{\sol}[1]{%
+    \ifshowsolutions
+        #1
+    \else
+        \setbox\solutionbox=\hbox{#1}%
+        \phantom{\rule{\wd\solutionbox}{0pt}}%
+    \fi
+}
+
+% solutionpar 命令 - 段落级解答（带边框的空白区域）
+\newcommand{\solutionpar}[1]{%
+    \setbox\solutionbox=\vbox{#1}%
+    \ifshowsolutions
+        \box\solutionbox
+    \else
+        \par\noindent
+        \fcolorbox{gray!50}{white}{%
+            \parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+                \vspace*{\ht\solutionbox}%
+                \vspace*{\dp\solutionbox}%
+            }%
+        }\par
+    \fi
+}

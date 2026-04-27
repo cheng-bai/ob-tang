@@ -1,0 +1,175 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：等差数列}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：等差数列}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+等差数列是高中阶段研究的两种基本数列之一，其规律性强、应用广泛，是后续学习数列求和、数列极限的基础。
+
+\begin{definition}[等差数列]
+    设 $n$ 为正整数，若数列 $\{a_n\}$ 满足
+    \[
+        a_{n+1} - a_n = d \quad (n \geq 1),
+    \]
+    其中 $d$ 为常数，则称数列 $\{a_n\}$ 为\textbf{等差数列}，$d$ 称为该等差数列的\textbf{公差}。
+\end{definition}
+
+\begin{property}[通项公式]
+    设等差数列 $\{a_n\}$ 的首项为 $a_1$，公差为 $d$，则其通项公式为
+    \[
+        a_n = a_1 + (n-1)d = dn + (a_1 - d).
+    \]
+    即 $a_n$ 是关于 $n$ 的一次函数（当 $d \neq 0$ 时）。
+\end{property}
+
+\begin{property}[等差中项]
+    若三个数 $a, A, b$ 成等差数列，则 $A$ 称为 $a$ 与 $b$ 的\textbf{等差中项}，且
+    \[
+        A = \frac{a+b}{2} \quad \text{或} \quad 2A = a + b.
+    \]
+\end{property}
+
+\begin{property}[前 $n$ 项和公式]
+    设等差数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，则
+    \[
+        S_n = \frac{n(a_1 + a_n)}{2} = na_1 + \frac{n(n-1)}{2}d = \frac{d}{2}n^2 + \left(a_1 - \frac{d}{2}\right)n.
+    \]
+    即 $S_n$ 是关于 $n$ 的二次函数（当 $d \neq 0$ 时），且不含常数项。
+\end{property}
+
+\begin{property}[重要性质]
+    设 $\{a_n\}$ 是等差数列，公差为 $d$，前 $n$ 项和为 $S_n$：
+    \begin{enumerate}
+        \item 若 $m + n = p + q$，则 $a_m + a_n = a_p + a_q$；
+        \item 特别地，若 $m + n = 2p$，则 $a_m + a_n = 2a_p$；
+        \item 数列 $S_m, S_{2m} - S_m, S_{3m} - S_{2m}, \ldots$ 仍成等差数列，公差为 $m^2d$；
+        \item 数列 $\left\{\dfrac{S_n}{n}\right\}$ 是等差数列，公差为 $\dfrac{d}{2}$。
+    \end{enumerate}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[基本量计算]
+    已知等差数列 $\{a_n\}$ 中，$a_1 = -6$，$a_3 = 0$。
+    \begin{enumerate}
+        \item 求该数列的公差 $d$ 和通项公式；
+        \item 求该数列的前 $8$ 项和 $S_8$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 由等差数列通项公式 $a_n = a_1 + (n-1)d$，得
+\[
+    a_3 = a_1 + 2d = -6 + 2d = 0,
+\]
+解得 $d = 3$。
+
+因此，通项公式为 $a_n = -6 + 3(n-1) = 3n - 9$。
+
+(2) 由前 $n$ 项和公式：
+\[
+    S_8 = 8a_1 + \frac{8 \times 7}{2} \times d = 8 \times (-6) + 28 \times 3 = -48 + 84 = 36.
+\]
+
+或者利用 $a_8 = 3 \times 8 - 9 = 15$，得
+\[
+    S_8 = \frac{8(a_1 + a_8)}{2} = \frac{8 \times (-6 + 15)}{2} = \frac{8 \times 9}{2} = 36.
+\]
+
+\begin{realexam}[2025 静安一模]
+    设 $\{a_n\}$ 是等差数列，$a_1 = -6$，$a_3 = 0$，则该数列的前 $8$ 项的和 $S_8$ 的值为\_\_\_。
+\end{realexam}
+
+\textbf{解.} 由 $a_3 = a_1 + 2d$，得 $0 = -6 + 2d$，所以 $d = 3$。
+
+由前 $n$ 项和公式：
+\[
+    S_8 = 8a_1 + \frac{8 \times 7}{2} \cdot d = 8 \times (-6) + 28 \times 3 = -48 + 84 = 36.
+\]
+
+故答案为 $36$。
+
+\begin{realexam}[2024 普陀一模]
+    设 $S_n$ 是等差数列 $\{a_n\}$ 的前 $n$ 项和 $(n \geq 1, n \in \mathbb{N})$，若 $a_2 + a_4 = 9 - a_6$，则 $S_7 =$\_\_\_。
+\end{realexam}
+
+\textbf{解.} 由等差数列性质，$a_2 + a_4 + a_6 = 3a_4 = 9$，所以 $a_4 = 3$。
+
+由前 $n$ 项和公式及等差中项性质：
+\[
+    S_7 = \frac{7(a_1 + a_7)}{2} = \frac{7 \times 2a_4}{2} = 7a_4 = 7 \times 3 = 21.
+\]
+
+故答案为 $21$。
+
+\begin{example}[等差数列性质应用]
+    设等差数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，已知 $S_{10} = 20$，$S_{20} = 60$，求 $S_{30}$。
+\end{example}
+
+\textbf{解.} 由等差数列性质，$S_{10}$，$S_{20} - S_{10}$，$S_{30} - S_{20}$ 成等差数列。
+
+已知 $S_{10} = 20$，$S_{20} - S_{10} = 40$。
+
+设 $S_{30} - S_{20} = x$，则由等差数列性质：
+\[
+    2 \times 40 = 20 + x \Rightarrow x = 60.
+\]
+
+因此，$S_{30} = S_{20} + 60 = 60 + 60 = 120$。
+
+\begin{realexam}[2023 静安二模改编]
+    已知 $\{a_n\}$ 是公比为 $q$ 的等比数列，且 $a_2$、$a_4$、$a_6$ 成等差数列，求 $q^2$ 的值。
+\end{realexam}
+
+\textbf{解.} 由题意，$2a_4 = a_2 + a_6$。
+
+设首项为 $a_1$，则 $a_2 = a_1q$，$a_4 = a_1q^3$，$a_6 = a_1q^5$。
+
+代入得：
+\[
+    2a_1q^3 = a_1q + a_1q^5.
+\]
+
+若 $a_1 \neq 0$ 且 $q \neq 0$，两边除以 $a_1q$：
+\[
+    2q^2 = 1 + q^4 \Rightarrow q^4 - 2q^2 + 1 = 0 \Rightarrow (q^2 - 1)^2 = 0.
+\]
+
+所以 $q^2 = 1$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{基本量法}：等差数列有五个基本量 $a_1, d, n, a_n, S_n$，知道其中任意三个可求另外两个。解题时通常将条件转化为关于 $a_1$ 和 $d$ 的方程组求解。
+    
+    \item \textbf{性质法}：灵活运用等差数列的性质可以简化计算，特别是：
+    \begin{itemize}
+        \item $a_m + a_n = a_p + a_q$（当 $m+n=p+q$ 时）
+        \item $S_n = na_{\frac{n+1}{2}}$（当 $n$ 为奇数时）
+    \end{itemize}
+    
+    \item \textbf{函数视角}：
+    \begin{itemize}
+        \item $a_n = dn + (a_1 - d)$ 是关于 $n$ 的一次函数
+        \item $S_n = \dfrac{d}{2}n^2 + \left(a_1 - \dfrac{d}{2}\right)n$ 是关于 $n$ 的二次函数（不含常数项）
+    \end{itemize}
+    可利用函数性质（单调性、最值）研究数列问题。
+    
+    \item \textbf{最值问题}：求 $S_n$ 最值的常用方法：
+    \begin{itemize}
+        \item 找到最后一个非负（或非正）项，确定变号位置
+        \item 利用二次函数配方求最值
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

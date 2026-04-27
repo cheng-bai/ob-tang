@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第9章 复数 - 教学演示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #1a1a2e;
+            color: #f5f5f5;
+        }
+        
+        .slide {
+            width: 1920px;
+            height: 1080px;
+            margin: 20px auto;
+            background: linear-gradient(135deg, #1C2B1C 0%, #1A1A1A 100%);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+        }
+        
+        /* 封面样式 */
+        .slide-cover {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .slide-cover h1 {
+            font-size: 120px;
+            font-weight: 700;
+            color: #F5F5F5;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+            margin-bottom: 40px;
+            letter-spacing: 20px;
+        }
+        
+        .slide-cover .subtitle {
+            font-size: 48px;
+            color: #FFE566;
+            margin-bottom: 60px;
+        }
+        
+        .slide-cover .formula-preview {
+            font-size: 36px;
+            color: #66B3FF;
+            font-family: "Latin Modern Math", "Times New Roman", serif;
+            opacity: 0.8;
+        }
+        
+        /* 内容页样式 */
+        .slide-content h2 {
+            font-size: 56px;
+            color: #FFE566;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 4px solid #FFE566;
+        }
+        
+        .slide-content .content-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .formula-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 40px;
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+        
+        .formula {
+            font-size: 48px;
+            font-family: "Latin Modern Math", "Times New Roman", serif;
+            text-align: center;
+            color: #F5F5F5;
+        }
+        
+        .formula .real { color: #90EE90; }
+        .formula .imag { color: #FF9999; }
+        .formula .unit { color: #66B3FF; font-style: italic; }
+        .formula .highlight { color: #FFE566; }
+        
+        .explanation {
+            font-size: 32px;
+            line-height: 1.8;
+            color: #F5F5F5;
+        }
+        
+        .explanation .key-point {
+            color: #FFB366;
+            font-weight: 600;
+        }
+        
+        .two-column {
+            display: flex;
+            gap: 60px;
+            flex: 1;
+        }
+        
+        .column {
+            flex: 1;
+            background: rgba(255,255,255,0.03);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        
+        .column h3 {
+            font-size: 36px;
+            color: #66B3FF;
+            margin-bottom: 24px;
+        }
+        
+        .column ul {
+            list-style: none;
+            font-size: 28px;
+            line-height: 2;
+        }
+        
+        .column ul li {
+            padding-left: 40px;
+            position: relative;
+        }
+        
+        .column ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #90EE90;
+        }
+        
+        /* 复平面图示 */
+        .complex-plane {
+            width: 500px;
+            height: 500px;
+            margin: 0 auto;
+            position: relative;
+        }
+        
+        .complex-plane svg {
+            width: 100%;
+            height: 100%;
+        }
+        
+        /* 例题样式 */
+        .example-box {
+            background: rgba(102, 179, 255, 0.1);
+            border-left: 6px solid #66B3FF;
+            padding: 30px 40px;
+            border-radius: 0 16px 16px 0;
+        }
+        
+        .example-box .question {
+            font-size: 32px;
+            color: #F5F5F5;
+            margin-bottom: 20px;
+        }
+        
+        .example-box .answer {
+            font-size: 28px;
+            color: #90EE90;
+        }
+        
+        /* 总结卡片 */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            flex: 1;
+        }
+        
+        .summary-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 40px;
+            border: 2px solid rgba(255,255,255,0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .summary-card .icon {
+            font-size: 48px;
+            color: #FFE566;
+        }
+        
+        .summary-card h4 {
+            font-size: 32px;
+            color: #F5F5F5;
+        }
+        
+        .summary-card p {
+            font-size: 24px;
+            color: rgba(255,255,255,0.7);
+            line-height: 1.6;
+        }
+        
+        /* 结束页 */
+        .slide-end {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .slide-end h2 {
+            font-size: 72px;
+            color: #FFE566;
+            margin-bottom: 40px;
+        }
+        
+        .slide-end .topics {
+            display: flex;
+            gap: 40px;
+            margin-top: 60px;
+        }
+        
+        .slide-end .topic-tag {
+            background: rgba(255,255,255,0.1);
+            padding: 20px 40px;
+            border-radius: 40px;
+            font-size: 28px;
+            color: #66B3FF;
+        }
+        
+        /* 打印样式 */
+        @media print {
+            .slide {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 第1页：封面 -->
+<div class="slide slide-cover">
+    <h1>第9章 复数</h1>
+    <div class="subtitle">从代数到几何的桥梁</div>
+    <div class="formula-preview">z = a + bi &nbsp;&nbsp; i² = -1</div>
+</div>
+
+<!-- 第2页：章节导航 -->
+<div class="slide slide-content">
+    <h2>本章导航</h2>
+    <div class="two-column">
+        <div class="column">
+            <h3>9.1 复数及其四则运算</h3>
+            <ul>
+                <li>复数的引入</li>
+                <li>虚数单位 i</li>
+                <li>加减乘除运算</li>
+                <li>实部、虚部、共轭复数</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h3>9.2 复数的几何意义</h3>
+            <ul>
+                <li>复平面</li>
+                <li>向量表示</li>
+                <li>平行四边形法则</li>
+                <li>几何应用</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- 第3页：引入 -->
+<div class="slide slide-content">
+    <h2>一个困扰数学家的问题</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula">
+                x<span class="highlight">²</span> + 1 = 0
+            </div>
+        </div>
+        <div class="explanation">
+            <p>• 实系数一元二次方程 <span class="key-point">并不总有实数解</span></p>
+            <p>• 在实数范围内，<span class="key-point">负数不能开平方</span></p>
+            <p>• 16世纪，数学家引入 <span class="key-point">"虚数"</span> 解决此困境</p>
+            <p>• 实数与虚数合称为 <span class="key-point">复数</span></p>
+        </div>
+    </div>
+</div>
+
+<!-- 第4页：虚数单位 -->
+<div class="slide slide-content">
+    <h2>虚数单位 i</h2>
+    <div class="content-body">
+        <div class="formula-box" style="background: rgba(255,229,102,0.1); border-color: #FFE566;">
+            <div class="formula" style="font-size: 72px;">
+                <span class="highlight">i² = -1</span>
+            </div>
+        </div>
+        <div class="explanation">
+            <p>• <span class="key-point">i</span> 是 -1 的一个平方根</p>
+            <p>• 任意 b∈R 与 i 的乘积记为 <span class="unit">bi</span></p>
+            <p>• (<span class="imag">bi</span>)² = -<span class="imag">b</span>²，负数开平方得以解决</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第5页：复数的定义 -->
+<div class="slide slide-content">
+    <h2>复数的定义</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 56px;">
+                z = <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> &nbsp;&nbsp; (<span class="real">a</span>, <span class="imag">b</span> ∈ R)
+            </div>
+        </div>
+        <div class="explanation">
+            <p>• 形如 <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> 的数称为<span class="key-point">复数</span></p>
+            <p>• <span class="real">a</span> 是<span class="real">实部</span>，<span class="imag">b</span> 是<span class="imag">虚部系数</span></p>
+            <p>• 全体复数构成集合 <span class="key-point">C</span></p>
+            <p>• <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> = 0 ⇔ <span class="real">a</span>=0 且 <span class="imag">b</span>=0</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第6页：加减法 -->
+<div class="slide slide-content">
+    <h2>复数的加减法</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 44px;">
+                (<span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>) ± (<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>) = (<span class="real">a</span>±<span class="real">c</span>) + (<span class="imag">b</span>±<span class="imag">d</span>)<span class="unit">i</span>
+            </div>
+        </div>
+        <div class="explanation">
+            <p>• 按<span class="key-point">多项式</span>相加减</p>
+            <p>• <span class="real">实部</span>与<span class="real">实部</span>相加减</p>
+            <p>• <span class="imag">虚部</span>与<span class="imag">虚部</span>相加减</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第7页：乘法 -->
+<div class="slide slide-content">
+    <h2>复数的乘法</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 40px; line-height: 1.8;">
+                (<span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>)(<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>)<br>
+                = <span class="real">ac</span> + <span class="real">bc</span><span class="unit">i</span> + <span class="real">ad</span><span class="unit">i</span> + <span class="imag">bd</span><span class="highlight">i²</span><br>
+                = (<span class="real">ac</span> - <span class="imag">bd</span>) + (<span class="real">bc</span> + <span class="real">ad</span>)<span class="unit">i</span>
+            </div>
+        </div>
+        <div class="explanation" style="text-align: center;">
+            <p>关键步骤：<span class="highlight">i² = -1</span></p>
+        </div>
+    </div>
+</div>
+
+<!-- 第8页：除法 -->
+<div class="slide slide-content">
+    <h2>复数的除法</h2>
+    <div class="content-body">
+        <div class="formula-box">
+            <div class="formula" style="font-size: 36px; line-height: 2;">
+                <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span><br>
+                ───────────<br>
+                <span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span><br><br>
+                = <span class="highlight">(</span><span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span><span class="highlight">)(</span><span class="real">c</span> - <span class="imag">d</span><span class="unit">i</span><span class="highlight">)</span><br>
+                &nbsp;&nbsp;────────────────<br>
+                  &nbsp;&nbsp;(<span class="real">c</span> + <span class="imag">d</span><span class="unit">i</span>)(<span class="real">c</span> - <span class="imag">d</span><span class="unit">i</span>)<br><br>
+                = <span class="real">ac+bd</span> + <span class="real">bc-ad</span><span class="unit">i</span><br>
+                  &nbsp;&nbsp;───────&nbsp;&nbsp;───────<br>
+                  &nbsp;&nbsp;&nbsp;<span class="real">c</span>²+<span class="imag">d</span>²&nbsp;&nbsp;&nbsp;<span class="real">c</span>²+<span class="imag">d</span>²
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 第9页：实部虚部 -->
+<div class="slide slide-content">
+    <h2>实部、虚部与共轭复数</h2>
+    <div class="content-body">
+        <div class="two-column">
+            <div class="column">
+                <h3>复数的结构</h3>
+                <div class="formula" style="font-size: 36px; margin: 20px 0;">
+                    z = <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>
+                </div>
+                <ul>
+                    <li>Re z = <span class="real">a</span>（实部）</li>
+                    <li>Im z = <span class="imag">b</span>（虚部）</li>
+                    <li>b=0 时，z 是<span class="real">实数</span></li>
+                    <li>b≠0 时，z 是<span class="imag">虚数</span></li>
+                    <li>a=0,b≠0 时，z 是<span class="highlight">纯虚数</span></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>共轭复数</h3>
+                <div class="formula" style="font-size: 36px; margin: 20px 0;">
+                    z̄ = <span class="real">a</span> - <span class="imag">b</span><span class="unit">i</span>
+                </div>
+                <ul>
+                    <li>实部相同</li>
+                    <li>虚部互为相反数</li>
+                    <li>z · z̄ = <span class="real">a</span>² + <span class="imag">b</span>²（实数）</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 第10页：共轭复数性质 -->
+<div class="slide slide-content">
+    <h2>共轭复数的性质</h2>
+    <div class="content-body">
+        <div class="formula-box" style="background: rgba(144,238,144,0.1); border-color: #90EE90;">
+            <div class="formula" style="font-size: 48px;">
+                z̄̄ = z
+            </div>
+            <div class="explanation" style="text-align: center; margin-top: 20px;">
+                双重共轭等于自身
+            </div>
+        </div>
+        <div class="explanation" style="margin-top: 40px;">
+            <p>• <span class="key-point">取共轭</span>与<span class="key-point">四则运算</span>可交换：</p>
+            <p style="margin-left: 40px; font-size: 28px;">z₁ ± z₂ 的共轭 = z₁的共轭 ± z₂的共轭</p>
+            <p style="margin-left: 40px; font-size: 28px;">z₁ · z₂ 的共轭 = z₁的共轭 · z₂的共轭</p>
+            <p style="margin-left: 40px; font-size: 28px;">(z₁/z₂) 的共轭 = z₁的共轭 / z₂的共轭</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第11页：复平面 -->
+<div class="slide slide-content">
+    <h2>复平面</h2>
+    <div class="content-body">
+        <div class="complex-plane">
+            <svg viewBox="0 0 500 500">
+                <!-- 网格 -->
+                <defs>
+                    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+                        <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                    </pattern>
+                </defs>
+                <rect width="500" height="500" fill="url(#grid)"/>
+                
+                <!-- 坐标轴 -->
+                <line x1="50" y1="250" x2="450" y2="250" stroke="#90EE90" stroke-width="3"/>
+                <line x1="250" y1="50" x2="250" y2="450" stroke="#FF9999" stroke-width="3"/>
+                
+                <!-- 箭头 -->
+                <polygon points="450,250 440,245 440,255" fill="#90EE90"/>
+                <polygon points="250,50 245,60 255,60" fill="#FF9999"/>
+                
+                <!-- 标注 -->
+                <text x="430" y="280" fill="#90EE90" font-size="24">实轴 Re</text>
+                <text x="270" y="70" fill="#FF9999" font-size="24">虚轴 Im</text>
+                <text x="230" y="280" fill="#F5F5F5" font-size="20">O</text>
+                
+                <!-- 点 Z -->
+                <circle cx="350" cy="150" r="6" fill="#66B3FF"/>
+                <line x1="250" y1="250" x2="350" y2="150" stroke="#66B3FF" stroke-width="2" stroke-dasharray="5,5"/>
+                <text x="360" y="140" fill="#66B3FF" font-size="20">Z(a,b)</text>
+                
+                <!-- 虚线到坐标轴 -->
+                <line x1="350" y1="150" x2="350" y2="250" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="3,3"/>
+                <line x1="350" y1="150" x2="250" y2="150" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="3,3"/>
+                
+                <!-- 刻度 -->
+                <text x="340" y="270" fill="#90EE90" font-size="16">a</text>
+                <text x="220" y="160" fill="#FF9999" font-size="16">b</text>
+            </svg>
+        </div>
+        <div class="explanation" style="text-align: center;">
+            <p>复数 z = <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span> ↔ 点 Z(<span class="real">a</span>,<span class="imag">b</span>)</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第12页：向量表示 -->
+<div class="slide slide-content">
+    <h2>复数的向量表示</h2>
+    <div class="content-body">
+        <div class="complex-plane">
+            <svg viewBox="0 0 500 500">
+                <rect width="500" height="500" fill="url(#grid)"/>
+                
+                <!-- 坐标轴 -->
+                <line x1="50" y1="250" x2="450" y2="250" stroke="#90EE90" stroke-width="2"/>
+                <line x1="250" y1="50" x2="250" y2="450" stroke="#FF9999" stroke-width="2"/>
+                
+                <!-- 向量 OZ1 -->
+                <line x1="250" y1="250" x2="350" y2="150" stroke="#66B3FF" stroke-width="3"/>
+                <polygon points="350,150 340,155 342,145" fill="#66B3FF"/>
+                <text x="360" y="140" fill="#66B3FF" font-size="18">z₁</text>
+                
+                <!-- 向量 OZ2 -->
+                <line x1="250" y1="250" x2="400" y2="200" stroke="#66B3FF" stroke-width="3"/>
+                <polygon points="400,200 390,205 392,195" fill="#66B3FF"/>
+                <text x="410" y="190" fill="#66B3FF" font-size="18">z₂</text>
+                
+                <!-- 合成向量 -->
+                <line x1="250" y1="250" x2="500" y2="100" stroke="#FFB366" stroke-width="4"/>
+                <polygon points="500,100 490,105 492,95" fill="#FFB366"/>
+                <text x="460" y="90" fill="#FFB366" font-size="20">z₁+z₂</text>
+                
+                <!-- 平行四边形 -->
+                <line x1="350" y1="150" x2="500" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="5,5"/>
+                <line x1="400" y1="200" x2="500" y2="100" stroke="rgba(255,255,255,0.3)" stroke-width="1" stroke-dasharray="5,5"/>
+            </svg>
+        </div>
+        <div class="explanation" style="text-align: center;">
+            <p>复数加法 = <span class="key-point">向量加法</span>（平行四边形法则）</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第13页：总结 -->
+<div class="slide slide-content">
+    <h2>本章总结</h2>
+    <div class="summary-grid">
+        <div class="summary-card">
+            <div class="icon">📐</div>
+            <h4>代数形式</h4>
+            <p>z = a + bi<br>a 为实部，b 为虚部系数</p>
+        </div>
+        <div class="summary-card">
+            <div class="icon">➕</div>
+            <h4>四则运算</h4>
+            <p>加减：实部±实部，虚部±虚部<br>乘除：注意 i² = -1</p>
+        </div>
+        <div class="summary-card">
+            <div class="icon">🔁</div>
+            <h4>共轭复数</h4>
+            <p>z̄ = a - bi<br>用于分母实数化</p>
+        </div>
+        <div class="summary-card">
+            <div class="icon">📍</div>
+            <h4>几何意义</h4>
+            <p>复平面上的点或向量<br>平行四边形法则</p>
+        </div>
+    </div>
+</div>
+
+<!-- 第14页：结束页 -->
+<div class="slide slide-end">
+    <h2>思考与探索</h2>
+    <div class="formula" style="font-size: 48px; color: #66B3FF;">
+        i² = -1
+    </div>
+    <div style="font-size: 32px; color: #F5F5F5; margin-top: 40px;">
+        复数的世界还有更多奥秘等待发现
+    </div>
+    <div class="topics">
+        <div class="topic-tag">复数的三角形式</div>
+        <div class="topic-tag">棣莫弗定理</div>
+        <div class="topic-tag">复数在物理中的应用</div>
+    </div>
+</div>
+
+<script>
+    // 打印时自动分页
+    window.onload = function() {
+        if (window.matchMedia) {
+            var mediaQueryList = window.matchMedia('print');
+            mediaQueryList.addListener(function(mql) {
+                if (mql.matches) {
+                    document.body.style.background = 'white';
+                }
+            });
+        }
+    };
+</script>
+
+</body>
+</html>

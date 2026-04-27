@@ -1,0 +1,99 @@
+{
+  "ignore_dirs": [
+    ".agents",
+    ".claude",
+    "venv",
+    "__pycache__",
+    "99-归档备份"
+  ],
+  "generated_dirs": [
+    "build",
+    "outputs"
+  ],
+  "exam_roots": [
+    "0-一模-二模-模考试卷-md版本",
+    "上海高考真题汇编及变式详解版——下册",
+    "试卷 latex 化"
+  ],
+  "content_roots": [
+    "00-索引与配置",
+    "01-教材原文-只有文本 没有图片",
+    "02-讲义输出",
+    "03-上海教材md",
+    "04-专题资料",
+    "05-结构化MD",
+    "0-一模-二模-模考试卷-md版本",
+    "切片库-ai",
+    "沪教版必修第三册2026-切片卡片版",
+    "沪教版必修第三册2026-切片样稿-v1",
+    "上海高考真题汇编及变式详解版——下册",
+    "试卷 latex 化",
+    "docs",
+    "pipeline",
+    "scripts"
+  ],
+  "archive_candidates": [
+    {
+      "pattern": "(^|/)沪教版必修第三册2026-切片样稿-v1(/|$)",
+      "reason": "已被系统版切片卡片替代的早期样稿"
+    },
+    {
+      "pattern": "(^|/)docs/交互元素演示\\.pdf$",
+      "reason": "非教学核心演示材料"
+    },
+    {
+      "pattern": "(^|/)outputs/.*讲义预览-\\d+\\.png$",
+      "reason": "讲义预览图，属于中间展示产物"
+    },
+    {
+      "pattern": "(^|/)outputs/.*maki原版.*\\.(pdf|tex)$",
+      "reason": "模板实验或对照版本，不属于当前正式产物"
+    },
+    {
+      "pattern": "(^|/)试卷 latex 化/.*/test_[^/]+$",
+      "reason": "试卷 latex 化调试产物"
+    },
+    {
+      "pattern": "(^|/)试卷 latex 化/.*/q10_exact\\.txt$",
+      "reason": "局部调试中间文件"
+    },
+    {
+      "pattern": "(^|/)试卷 latex 化/题目ppt/preview(/|$)",
+      "reason": "PPT 预览中间产物"
+    },
+    {
+      "pattern": "(^|/)试卷 latex 化/题目ppt/preview-img(/|$)",
+      "reason": "PPT 预览图片中间产物"
+    },
+    {
+      "pattern": "(^|/)试卷 latex 化/题目ppt/模板库-v1(/|$)",
+      "reason": "模板样例目录，不属于正式教学内容"
+    }
+  ],
+  "content_quality_rules": [
+    {
+      "pattern": "<!-- Meanless",
+      "issue_type": "conversion_noise",
+      "severity": "medium",
+      "reason": "存在转换残留噪音"
+    },
+    {
+      "pattern": "待补充",
+      "issue_type": "placeholder",
+      "severity": "high",
+      "reason": "存在待补充占位内容"
+    },
+    {
+      "pattern": "示例定义|示例题目|解答过程\\.\\.\\.",
+      "issue_type": "placeholder",
+      "severity": "high",
+      "reason": "存在示例占位内容"
+    },
+    {
+      "pattern": "Generated:",
+      "issue_type": "generated_marker",
+      "severity": "low",
+      "reason": "存在自动生成标记"
+    }
+  ]
+}

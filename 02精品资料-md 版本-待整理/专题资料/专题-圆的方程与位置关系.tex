@@ -1,0 +1,198 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：圆的方程与位置关系}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：圆的方程与位置关系}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+圆是解析几何中最基本的二次曲线，掌握圆的方程形式及位置关系判定是解决相关问题的基础。
+
+\begin{definition}[圆的定义]
+    平面内到定点（圆心）的距离等于定长（半径）的点的轨迹叫做圆。
+    
+    设圆心为 $C(a, b)$，半径为 $r$，则圆的标准方程为
+    \[
+        (x - a)^2 + (y - b)^2 = r^2.
+    \]
+    
+    展开后得到圆的一般方程
+    \[
+        x^2 + y^2 + Dx + Ey + F = 0 \quad (D^2 + E^2 - 4F > 0).
+    \]
+    其中圆心为 $\left(-\dfrac{D}{2}, -\dfrac{E}{2}\right)$，半径 $r = \dfrac{\sqrt{D^2 + E^2 - 4F}}{2}$。
+\end{definition}
+
+\begin{property}[点与圆的位置关系]
+    设点 $P(x_0, y_0)$，圆 $C: (x - a)^2 + (y - b)^2 = r^2$，则：
+    \begin{itemize}
+        \item 点在圆外 $\Leftrightarrow (x_0 - a)^2 + (y_0 - b)^2 > r^2$；
+        \item 点在圆上 $\Leftrightarrow (x_0 - a)^2 + (y_0 - b)^2 = r^2$；
+        \item 点在圆内 $\Leftrightarrow (x_0 - a)^2 + (y_0 - b)^2 < r^2$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[直线与圆的位置关系]
+    设直线 $l: Ax + By + C = 0$，圆 $C: (x - a)^2 + (y - b)^2 = r^2$，圆心到直线的距离为 $d = \dfrac{|Aa + Bb + C|}{\sqrt{A^2 + B^2}}$，则：
+    \begin{itemize}
+        \item 相离 $\Leftrightarrow d > r$（无公共点）；
+        \item 相切 $\Leftrightarrow d = r$（一个公共点）；
+        \item 相交 $\Leftrightarrow d < r$（两个公共点），弦长 $= 2\sqrt{r^2 - d^2}$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[圆与圆的位置关系]
+    设两圆圆心距为 $d$，半径分别为 $r_1$、$r_2$（$r_1 \geq r_2$），则：
+    \begin{itemize}
+        \item 外离 $\Leftrightarrow d > r_1 + r_2$（4条公切线）；
+        \item 外切 $\Leftrightarrow d = r_1 + r_2$（3条公切线）；
+        \item 相交 $\Leftrightarrow r_1 - r_2 < d < r_1 + r_2$（2条公切线）；
+        \item 内切 $\Leftrightarrow d = r_1 - r_2$（1条公切线）；
+        \item 内含 $\Leftrightarrow d < r_1 - r_2$（无公切线）。
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[求圆的方程]
+    求满足下列条件的圆的方程：
+    \begin{enumerate}
+        \item 圆心为 $(2, -3)$，且过点 $(5, 1)$；
+        \item 过三点 $A(1, 0)$、$B(0, 1)$、$C(2, 1)$；
+        \item 圆心在直线 $y = 2x$ 上，且与直线 $x + y - 1 = 0$ 相切于点 $(2, -1)$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 半径 $r = \sqrt{(5 - 2)^2 + (1 + 3)^2} = \sqrt{9 + 16} = 5$。
+
+圆的方程为 $\boxed{(x - 2)^2 + (y + 3)^2 = 25}$。
+
+(2) 设圆的一般方程为 $x^2 + y^2 + Dx + Ey + F = 0$。
+
+将三点坐标代入：
+\begin{align*}
+    1 + D + F &= 0 \\
+    1 + E + F &= 0 \\
+    4 + 1 + 2D + E + F &= 0
+\end{align*}
+
+解得 $D = -2$，$E = -2$，$F = 1$。
+
+圆的方程为 $\boxed{x^2 + y^2 - 2x - 2y + 1 = 0}$，即 $(x - 1)^2 + (y - 1)^2 = 1$。
+
+(3) 圆心与切点 $(2, -1)$ 的连线垂直于切线 $x + y - 1 = 0$。
+
+切线斜率为 $-1$，则圆心与切点连线斜率为 $1$。
+
+设圆心为 $(a, b)$，则 $\dfrac{b + 1}{a - 2} = 1$，即 $b = a - 3$。
+
+又圆心在 $y = 2x$ 上，$\therefore b = 2a$。
+
+联立得 $a = -3$，$b = -6$。
+
+半径 $r = \sqrt{(-3 - 2)^2 + (-6 + 1)^2} = \sqrt{25 + 25} = 5\sqrt{2}$。
+
+圆的方程为 $\boxed{(x + 3)^2 + (y + 6)^2 = 50}$。
+
+\begin{example}[直线与圆的位置关系]
+    已知圆 $C: x^2 + y^2 - 2x - 4y + 1 = 0$。
+    \begin{enumerate}
+        \item 求过点 $P(3, 4)$ 的圆的切线方程；
+        \item 若直线 $l: y = kx + 1$ 与圆 $C$ 相交于 $A$、$B$ 两点，且 $|AB| = 2\sqrt{3}$，求 $k$ 的值。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} 圆 $C$ 化为标准方程：$(x - 1)^2 + (y - 2)^2 = 4$，圆心 $C(1, 2)$，半径 $r = 2$。
+
+(1) 点 $P(3, 4)$ 到圆心距离 $d = \sqrt{(3-1)^2 + (4-2)^2} = \sqrt{8} > 2$，点在圆外。
+
+当切线斜率存在时，设切线方程为 $y - 4 = k(x - 3)$，即 $kx - y + 4 - 3k = 0$。
+
+由相切条件：$\dfrac{|k - 2 + 4 - 3k|}{\sqrt{k^2 + 1}} = 2$，即 $\dfrac{|2 - 2k|}{\sqrt{k^2 + 1}} = 2$。
+
+解得 $|1 - k| = \sqrt{k^2 + 1}$，平方得 $1 - 2k + k^2 = k^2 + 1$，$\therefore k = 0$。
+
+当斜率不存在时，直线 $x = 3$，圆心到直线距离为 $2$，等于半径，也是切线。
+
+切线方程为 $\boxed{y = 4}$ 或 $\boxed{x = 3}$。
+
+(2) 圆心到直线 $kx - y + 1 = 0$ 的距离 $d = \dfrac{|k - 2 + 1|}{\sqrt{k^2 + 1}} = \dfrac{|k - 1|}{\sqrt{k^2 + 1}}$。
+
+由弦长公式：$|AB| = 2\sqrt{r^2 - d^2} = 2\sqrt{3}$，$\therefore \sqrt{4 - d^2} = \sqrt{3}$，$d^2 = 1$。
+
+$\dfrac{(k - 1)^2}{k^2 + 1} = 1$，$(k - 1)^2 = k^2 + 1$，$k^2 - 2k + 1 = k^2 + 1$，$\therefore k = 0$。
+
+故 $k = \boxed{0}$。
+
+\begin{realexam}[练习]
+    已知圆 $O: x^2 + y^2 = 4$ 和圆 $C: x^2 + y^2 - 6x + 8y + 9 = 0$，判断两圆的位置关系，若相交，求公共弦所在直线方程及公共弦长。
+\end{realexam}
+
+\textbf{解.} 圆 $O$：圆心 $O(0, 0)$，半径 $r_1 = 2$。
+
+圆 $C$ 化为标准方程：$(x - 3)^2 + (y + 4)^2 = 16$，圆心 $C(3, -4)$，半径 $r_2 = 4$。
+
+圆心距 $|OC| = \sqrt{3^2 + (-4)^2} = 5$。
+
+$\because r_2 - r_1 = 2 < 5 < r_1 + r_2 = 6$，$\therefore$ 两圆相交。
+
+公共弦所在直线：两圆方程相减得 $6x - 8y - 13 = 0$，即 $\boxed{6x - 8y - 13 = 0}$。
+
+圆心 $O$ 到公共弦的距离 $d = \dfrac{| -13|}{\sqrt{36 + 64}} = \dfrac{13}{10}$。
+
+公共弦长 $= 2\sqrt{r_1^2 - d^2} = 2\sqrt{4 - \dfrac{169}{100}} = 2\sqrt{\dfrac{231}{100}} = \boxed{\dfrac{\sqrt{231}}{5}}$。
+
+\begin{realexam}[2026 奉贤二模]
+    已知椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$（$a > b > 0$）经过点 $(0, 1)$，离心率为 $\dfrac{\sqrt{2}}{2}$。过点 $M(0, -m)$（$m > 0$）的动直线 $l$ 交椭圆 $\Gamma$ 于 $C$、$D$ 两点。
+    
+    （2）若直线 $l$ 与 $x^2 + y^2 = \dfrac{2}{3}$ 相切，求当 $m = 2$ 时，$|CD|$ 的长。
+\end{realexam}
+
+\textbf{解.} 由题意，椭圆 $\Gamma$ 的方程为 $\dfrac{x^2}{2} + y^2 = 1$。
+
+当 $m = 2$ 时，$M(0, -2)$，设直线 $l: y = kx - 2$。
+
+直线 $l$ 与圆 $x^2 + y^2 = \dfrac{2}{3}$ 相切，圆心 $(0, 0)$ 到直线距离等于半径 $\sqrt{\dfrac{2}{3}}$。
+
+$\dfrac{| -2|}{\sqrt{k^2 + 1}} = \sqrt{\dfrac{2}{3}}$，即 $\dfrac{2}{\sqrt{k^2 + 1}} = \sqrt{\dfrac{2}{3}}$。
+
+解得 $k^2 = 5$。
+
+将 $y = kx - 2$ 代入椭圆方程：$\dfrac{x^2}{2} + (kx - 2)^2 = 1$。
+
+整理得 $(1 + 2k^2)x^2 - 8kx + 6 = 0$，即 $11x^2 - 8kx + 6 = 0$。
+
+设 $C(x_1, y_1)$，$D(x_2, y_2)$，则 $x_1 + x_2 = \dfrac{8k}{11}$，$x_1x_2 = \dfrac{6}{11}$。
+
+$|CD| = \sqrt{1 + k^2} \cdot \sqrt{(x_1 + x_2)^2 - 4x_1x_2} = \sqrt{6} \cdot \sqrt{\dfrac{64k^2}{121} - \dfrac{24}{11}} = \sqrt{6} \cdot \sqrt{\dfrac{64 \times 5 - 264}{121}} = \sqrt{6} \cdot \sqrt{\dfrac{56}{121}} = \dfrac{4\sqrt{21}}{11}$。
+
+故 $|CD| = \boxed{\dfrac{4\sqrt{21}}{11}}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{圆的方程选择}：
+    \begin{itemize}
+        \item 已知圆心和半径时用标准方程；
+        \item 已知圆过定点时用一般方程，待定系数法求解。
+    \end{itemize}
+    \item \textbf{切线问题}：
+    \begin{itemize}
+        \item 点在圆上：利用切线垂直于半径；
+        \item 点在圆外：设点斜式，利用圆心到切线距离等于半径，注意斜率不存在的情况。
+    \end{itemize}
+    \item \textbf{弦长计算}：利用弦长公式 $|AB| = 2\sqrt{r^2 - d^2}$，其中 $d$ 为圆心到弦所在直线的距离。
+    \item \textbf{两圆位置关系}：通过圆心距与半径和差的关系判定；公共弦所在直线方程为两圆方程相减。
+    \item \textbf{最值问题}：圆上点到定点距离的最值、圆上动点与定点连线斜率的最值等，常利用几何性质求解。
+\end{enumerate}
+
+\end{document}

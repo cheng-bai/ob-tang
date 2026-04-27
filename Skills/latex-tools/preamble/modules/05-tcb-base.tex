@@ -1,0 +1,26 @@
+% ======================================
+% 05-tcb-base.tex - tcolorbox 基础样式
+% ======================================
+
+% ========== tcolorbox 基础样式 ==========
+\tcbset{
+    commonbox/.style={
+        enhanced,
+        fonttitle=\bfseries\large,
+        attach boxed title to top left={xshift=5mm, yshift*=-\tcboxedtitleheight/2},
+        boxed title style={
+            frame hidden,
+            opacityback=1,
+            rounded corners,
+            arc=4pt,
+            top=1mm, bottom=1mm, left=2mm, right=2mm
+        },
+        boxrule=0pt, frame hidden,
+        sharp corners=downhill, rounded corners, arc=10pt,
+        drop fuzzy shadow=black!15!white,
+        left=8mm, right=5mm, top=3mm, bottom=5mm,
+        middle=1em,
+        before skip=1.7em, after skip=1.2em,
+        fontupper=\linespread{1.7}\selectfont
+    }
+}

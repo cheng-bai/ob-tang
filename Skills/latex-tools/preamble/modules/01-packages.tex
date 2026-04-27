@@ -1,0 +1,50 @@
+% ======================================
+% 01-packages.tex - 宏包引入
+% ======================================
+% 注意：ctex 已在文档类中加载，这里不需要重复
+
+% ========== 页面设置 ==========
+\usepackage[a4paper, left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm]{geometry}
+\usepackage{fancyhdr}
+
+% ========== 数学宏包 ==========
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{newpxmath}
+\usepackage{esint}
+\usepackage{bm}
+
+% ========== 表格与排版 ==========
+\usepackage{multirow}
+\usepackage{diagbox}
+\usepackage{needspace}
+\usepackage{makecell}
+\usepackage{booktabs}
+\usepackage{etoolbox}
+\usepackage{environ}  % 用于解答隐藏功能
+\usepackage{enumitem} % 用于自定义列表
+
+% ========== 盒子与高亮 ==========
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{newunicodechar}
+
+% ========== 图标支持 ==========
+\usepackage{fontawesome5}  % 用于交互元素图标
+
+% ========== 图表与 TikZ ==========
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{patterns}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepgfplotslibrary{fillbetween}
+\usepackage{tikz-3dplot}
+\tdplotsetmaincoords{70}{110}
+\usepackage{capt-of}
+\usepackage{graphicx,caption,subcaption}
+\renewcommand{\thesubfigure}{\Alph{subfigure}}
+
+% ========== 超链接（可选） ==========
+\@ifundefined{hypersetup}{
+    \usepackage{hyperref}
+}{}

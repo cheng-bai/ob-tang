@@ -1,20 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "你不知道的 Claude Code：架构、治理与工程实践",
-      "path": "Clippings/你不知道的 Claude Code：架构、治理与工程实践.md"
+      "basename": "切片库-ai",
+      "path": "mini-数学资料库/切片库-ai/切片库-ai.md"
     },
     {
-      "basename": "未命名",
-      "path": "Clippings/未命名.md"
+      "basename": "专题-古典概率与几何概率",
+      "path": "mini-数学资料库/07-概率统计/专题-古典概率与几何概率.pdf"
     },
     {
-      "basename": "汇总个人日记",
-      "path": "00 想法/02-个人笔记/汇总个人日记.md"
+      "basename": "【编汇】24_二模分类汇编_答案-dollar",
+      "path": "mini-数学资料库/0-一模-二模-模考试卷-md版本/【编汇】24 二模分类汇编 答案/【编汇】24_二模分类汇编_答案-dollar.md"
+    },
+    {
+      "basename": "30-Log",
+      "path": "30-Log/30-Log.md"
+    },
+    {
+      "basename": "FY25功底考-解析版1-10_121-160",
+      "path": "10-Atlas/04-试卷汇总/功底考/FY25功底考-解析版1-10_121-160.md"
+    },
+    {
+      "basename": "2017上海高考数学试题 含解析",
+      "path": "10-Atlas/04-试卷汇总/高考真题/2017上海高考数学试题 含解析.md"
+    },
+    {
+      "basename": "04-试卷汇总",
+      "path": "10-Atlas/04-试卷汇总/04-试卷汇总.md"
+    },
+    {
+      "basename": "ai 教学",
+      "path": "00 想法/ai 教学.md"
     },
     {
       "basename": "Untitled",
       "path": "00 想法/Untitled.md"
+    },
+    {
+      "basename": "上海·2026_届奉贤区高三数学二模详解",
+      "path": "00 想法/上海·2026_届奉贤区高三数学二模详解.pdf_os_d7ci9kalb0pc73bthkt0/上海·2026_届奉贤区高三数学二模详解.pdf"
+    },
+    {
+      "basename": "未命名",
+      "path": "未命名.canvas"
+    },
+    {
+      "basename": "上海·2026_届松江区高三数学二模详解-dollar",
+      "path": "00 想法/上海·2026_届松江区高三数学二模详解.pdf_os_d7ci99alb0pc739j7m6g/上海·2026_届松江区高三数学二模详解-dollar.md"
+    },
+    {
+      "basename": "上海·2026_届浦东新区高三数学二模详解-dollar",
+      "path": "00 想法/上海·2026_届浦东新区高三数学二模详解.pdf_os_d7ci9eilb0pc739j7m8g/上海·2026_届浦东新区高三数学二模详解-dollar.md"
+    },
+    {
+      "basename": "上海·2026_届金山区高三数学二模详解.pdf_os_d7ci9pilb0pc739j7mc0",
+      "path": "00 想法/上海·2026_届金山区高三数学二模详解.pdf_os_d7ci9pilb0pc739j7mc0/上海·2026_届金山区高三数学二模详解.pdf_os_d7ci9pilb0pc739j7mc0.md"
+    },
+    {
+      "basename": "2022-23 高三数学冲刺 - 第 1 讲-最好的版本",
+      "path": "10-Atlas/01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-最好的版本.md"
+    },
+    {
+      "basename": "2022-23 高三数学冲刺 - 第 1 讲-测试版本",
+      "path": "10-Atlas/01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-测试版本.md"
+    },
+    {
+      "basename": "1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑",
+      "path": "Clippings/1200 万人围观的 Karpathy 知识库模式，用龙虾为你搭建第二大脑.md"
+    },
+    {
+      "basename": "Thread by @karpathy",
+      "path": "Clippings/Thread by @karpathy.md"
+    },
+    {
+      "basename": "ai收获",
+      "path": "30-Log/ai收获.md"
+    },
+    {
+      "basename": "slides",
+      "path": "20-Product/01-数学教学/20-ai 制作-ppt/slides.md"
+    },
+    {
+      "basename": "AGENTS",
+      "path": "AGENTS.md"
+    },
+    {
+      "basename": "GIT_WORKFLOW",
+      "path": "GIT_WORKFLOW.md"
+    },
+    {
+      "basename": "想法",
+      "path": "Inbox/想法.md"
+    },
+    {
+      "basename": "Thread by @zhongying14",
+      "path": "Clippings/Thread by @zhongying14.md"
+    },
+    {
+      "basename": "Lessons from Building Claude Code How We Use Skills",
+      "path": "Clippings/Lessons from Building Claude Code How We Use Skills.md"
+    },
+    {
+      "basename": "Vault",
+      "path": "00-System/Vault.md"
+    },
+    {
+      "basename": "你不知道的 Claude Code：架构、治理与工程实践",
+      "path": "Clippings/你不知道的 Claude Code：架构、治理与工程实践.md"
     },
     {
       "basename": "上海新高考基础知识梳理与总结-dollar",
@@ -53,48 +145,12 @@
       "path": "Skills/markdown-print-kit/快速开始.md"
     },
     {
-      "basename": "4 润色",
-      "path": "01零散资料/高三冲刺Q 老师/4 润色.md"
-    },
-    {
-      "basename": "2022-23高三数学冲刺-第4讲",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第4讲.md"
-    },
-    {
-      "basename": "2022-23 高三数学冲刺 - 第 1 讲-测试版本",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-测试版本.md"
-    },
-    {
-      "basename": "2022-23 高三数学冲刺 - 第 1 讲-最好的版本",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-最好的版本.md"
-    },
-    {
-      "basename": "2022-23高三数学冲刺-第1讲",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第1讲.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "01零散资料/高三冲刺Q 老师/Untitled.md"
-    },
-    {
-      "basename": "优雅排版的版本",
-      "path": "01零散资料/高三冲刺Q 老师/优雅排版的版本.md"
-    },
-    {
-      "basename": "2022-23高三数学冲刺-第2讲",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第2讲.md"
-    },
-    {
       "basename": "函数与集合综合题集（打印版）",
       "path": "Skills/markdown-print-kit/examples/函数与集合综合题集（打印版）.md"
     },
     {
       "basename": "README",
       "path": "Skills/math-paper-parser/README.md"
-    },
-    {
-      "basename": "AGENTS",
-      "path": "AGENTS.md"
     },
     {
       "basename": "skill",
@@ -105,32 +161,8 @@
       "path": "Skills/markdown-print-kit/examples/函数与集合综合题集.md"
     },
     {
-      "basename": "2022-23 高三数学冲刺 - 第 3 讲（打印版）",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 3 讲（打印版）.md"
-    },
-    {
-      "basename": "2022-23高三数学冲刺-第3讲",
-      "path": "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第3讲.md"
-    },
-    {
       "basename": "打印版本",
       "path": "打印版本.md"
-    },
-    {
-      "basename": "函数性质P-典型例题",
-      "path": "01零散资料/函数性质P-典型例题.md"
-    },
-    {
-      "basename": "Assets",
-      "path": "00-System/Assets/Assets.md"
-    },
-    {
-      "basename": "题库",
-      "path": "01零散资料/题库.md"
-    },
-    {
-      "basename": "xdf春季讲义",
-      "path": "01零散资料/xdf春季讲义.md"
     },
     {
       "basename": "xdf上海春季教材教师版",
@@ -167,38 +199,6 @@
     {
       "basename": "AGENTS1",
       "path": "//AGENTS1.md"
-    },
-    {
-      "basename": "AGENTS2",
-      "path": "//AGENTS2.md"
-    },
-    {
-      "basename": "AGENTS1",
-      "path": "AGENTS1.md"
-    },
-    {
-      "basename": "华二高三下开学考(已优化)",
-      "path": "01零散资料/00-pdf/华二高三下开学考(已优化).pdf"
-    },
-    {
-      "basename": "2025-2026年上海市建平中学高三下周练1",
-      "path": "Clippings/2025-2026年上海市建平中学高三下周练1.md"
-    },
-    {
-      "basename": "Todo",
-      "path": "Todo.md"
-    },
-    {
-      "basename": "阶跃星辰开放平台",
-      "path": "Clippings/阶跃星辰开放平台.md"
-    },
-    {
-      "basename": "从写代码到管 Agent：斯坦福首门 AI 软件开发课的讲师说，大多数工程师还没准备好",
-      "path": "Clippings/从写代码到管 Agent：斯坦福首门 AI 软件开发课的讲师说，大多数工程师还没准备好.md"
-    },
-    {
-      "basename": "【教参】选择性必修1",
-      "path": " 想法/PDF文档/【教参】选择性必修1.pdf"
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,196 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：函数的概念、定义域与值域}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：函数的概念、定义域与值域}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+函数是描述两个变量之间对应关系的数学模型，是高中数学的核心概念之一。理解函数的概念、掌握定义域与值域的求法是解决函数问题的基础。
+
+\begin{definition}[函数的定义]
+    设 $A, B$ 是两个非空的数集，如果按照某种确定的对应关系 $f$，使对于集合 $A$ 中的任意一个数 $x$，在集合 $B$ 中都有唯一确定的数 $f(x)$ 和它对应，那么就称 $f: A \to B$ 为从集合 $A$ 到集合 $B$ 的一个\textbf{函数}，记作
+    \[
+        y = f(x), \quad x \in A.
+    \]
+    其中 $x$ 叫做自变量，$x$ 的取值范围 $A$ 叫做函数的\textbf{定义域}；与 $x$ 的值相对应的 $y$ 值叫做函数值，函数值的集合 $\{ f(x) \mid x \in A \}$ 叫做函数的\textbf{值域}。
+\end{definition}
+
+\begin{property}[定义域的求法]
+    求函数定义域时，需考虑以下常见限制条件：
+    \begin{enumerate}
+        \item 分式的分母不为零；
+        \item 偶次根式的被开方数非负；
+        \item 对数函数的真数大于零，底数大于零且不等于 $1$；
+        \item 零次幂的底数不为零；
+        \item 正切函数 $\tan x$ 中 $x \neq k\pi + \dfrac{\pi}{2}, k \in \mathbb{Z}$。
+    \end{enumerate}
+\end{property}
+
+\begin{property}[值域的求法]
+    求函数值域的常用方法：
+    \begin{itemize}
+        \item \textbf{观察法}：通过函数解析式的结构特征直接判断；
+        \item \textbf{配方法}：适用于二次函数或可化为二次函数的函数；
+        \item \textbf{换元法}：通过换元将复杂函数转化为简单函数；
+        \item \textbf{分离常数法}：适用于分式函数；
+        \item \textbf{单调性法}：利用函数的单调性求最值，进而确定值域；
+        \item \textbf{数形结合法}：利用函数图像的几何特征求解。
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[求函数的定义域]
+    求下列函数的定义域：
+    \begin{enumerate}
+        \item $f(x) = \dfrac{\sqrt{x-1}}{x-2} + \ln(3-x)$；
+        \item $f(x) = \sqrt{\log_{\frac{1}{2}}(x-1)}$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 要使函数有意义，需满足：
+\[
+    \begin{cases}
+        x - 1 \geq 0 \\[4pt]
+        x - 2 \neq 0 \\[4pt]
+        3 - x > 0
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        x \geq 1 \\[4pt]
+        x \neq 2 \\[4pt]
+        x < 3
+    \end{cases}
+\]
+
+因此，定义域为 $[1, 2) \cup (2, 3)$。
+
+(2) 要使函数有意义，需满足：
+\[
+    \begin{cases}
+        \log_{\frac{1}{2}}(x-1) \geq 0 \\[4pt]
+        x - 1 > 0
+    \end{cases}
+    \Rightarrow
+    \begin{cases}
+        0 < x - 1 \leq 1 \\[4pt]
+        x > 1
+    \end{cases}
+    \Rightarrow 1 < x \leq 2
+\]
+
+因此，定义域为 $(1, 2]$。
+
+\begin{example}[求函数的值域]
+    求下列函数的值域：
+    \begin{enumerate}
+        \item $f(x) = \dfrac{2x+1}{x-1}$；
+        \item $f(x) = x + \sqrt{1-x}$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 分离常数：
+\[
+    f(x) = \frac{2x+1}{x-1} = \frac{2(x-1)+3}{x-1} = 2 + \frac{3}{x-1}
+\]
+
+由于 $\dfrac{3}{x-1} \neq 0$，所以 $f(x) \neq 2$。因此值域为 $(-\infty, 2) \cup (2, +\infty)$。
+
+(2) 令 $t = \sqrt{1-x} \geq 0$，则 $x = 1-t^2$，代入得：
+\[
+    y = 1-t^2 + t = -t^2 + t + 1 = -\left(t-\frac{1}{2}\right)^2 + \frac{5}{4}
+\]
+
+当 $t = \dfrac{1}{2}$ 时，$y_{\max} = \dfrac{5}{4}$；当 $t \to +\infty$ 时，$y \to -\infty$。
+
+因此值域为 $\left(-\infty, \dfrac{5}{4}\right]$。
+
+\begin{realexam}[2025 上海高三二模]
+    已知函数 $f(x) = \log_3(x+a) + \log_3(6-x)$。
+    \begin{enumerate}
+        \item 是否存在实数 $a$，使得函数 $y = f(x)$ 是偶函数？若存在，求实数 $a$ 的值；若不存在，请说明理由；
+        \item 若 $a > -3$ 且 $a \neq 0$，解关于 $x$ 的不等式 $f(x) \leq f(6-x)$。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 显然 $-a < 6$，即 $a > -6$，函数定义域 $D = (-a, 6)$。
+
+当 $a \neq 6$ 时，函数定义域不关于原点对称，此时必然存在 $x \in D$ 且 $-x \notin D$，函数不是偶函数。
+
+当 $a = 6$ 时，$f(x) = \log_3(x+6) + \log_3(6-x)$，定义域为 $(-6, 6)$，关于原点对称。
+
+对于任意 $x \in (-6, 6)$，都有：
+\[
+    f(-x) = \log_3(-x+6) + \log_3(6+x) = f(x)
+\]
+
+因此函数是偶函数。存在实数 $a = 6$，使得函数为偶函数。
+
+(2) 由题意，定义域为 $(-a, 6)$。$f(x) = \log_3[(x+a)(6-x)]$。
+
+不等式 $f(x) \leq f(6-x)$ 等价于：
+\[
+    \begin{cases}
+        -a < x < 6 \\[4pt]
+        -a < 6-x < 6 \\[4pt]
+        (x+a)(6-x) \leq (6-x+a)x
+    \end{cases}
+\]
+
+化简得：当 $a > 0$ 时，解集为 $[3, 6)$；当 $-3 < a < 0$ 时，解集为 $(-a, 3]$。
+
+\begin{realexam}[2025 上海高三一模]
+    已知函数 $y = f(x)$ 的定义域 $D = \{1, 2, 3, 4\}$，值域 $A = \{5, 6, 7\}$，则函数 $y = f(x)$ 为增函数的概率是 $\_\_\_\_\_$。
+\end{realexam}
+
+\textbf{解.} 首先考虑能构成多少个函数，即把定义域 $D$ 的 4 个元素映射到值域 $A$ 的 3 个元素，且每个值域元素至少被映射一次（满射）。
+
+由容斥原理，总函数数为 $3^4 - C_3^1 \cdot 2^4 + C_3^2 \cdot 1^4 = 81 - 48 + 3 = 36$。
+
+增函数要求：若 $x_1 < x_2$，则 $f(x_1) < f(x_2)$。由于定义域有 4 个元素，值域只有 3 个元素，增函数必须有两个元素映射到同一个值。
+
+用隔板法：把定义域四个数中间的三个空挡插入两块板，分成三部分对应值域中三个数（从小到大），有 $C_3^2 = 3$ 种方法。
+
+因此增函数的概率为 $P = \dfrac{3}{36} = \dfrac{1}{12}$。
+
+\begin{example}[分段函数的定义域与值域]
+    已知函数 $f(x) = \begin{cases} (1-2m)x + 3m, & x < 1 \\ x^2, & x \geq 1 \end{cases}$ 的值域为 $\mathbb{R}$，求 $m$ 的取值范围。
+\end{example}
+
+\textbf{解.} 当 $x \geq 1$ 时，$f(x) = x^2 \geq 1$。
+
+要使值域为 $\mathbb{R}$，需满足当 $x < 1$ 时，一次函数部分能取到 $(-\infty, 1)$ 中的所有值。
+
+因此需要：
+\[
+    \begin{cases}
+        1 - 2m > 0 \quad \text{（单调递增）} \\[4pt]
+        (1-2m) \cdot 1 + 3m \geq 1 \quad \text{（连续性条件）}
+    \end{cases}
+\]
+
+解得：$\begin{cases} m < \dfrac{1}{2} \\ m \geq 0 \end{cases}$
+
+因此 $m$ 的取值范围是 $\left[0, \dfrac{1}{2}\right)$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{定义域优先原则}：研究任何函数问题，首先要确定函数的定义域。定义域是函数的三要素之一，也是后续研究单调性、奇偶性、最值等问题的前提。
+    \item \textbf{复合函数定义域}：对于复合函数 $f(g(x))$，内层函数 $g(x)$ 的值域必须在外层函数 $f(x)$ 的定义域内。
+    \item \textbf{值域与定义域的关联}：分段函数的值域是各段值域的并集，需要综合考虑各段的单调性和端点值。
+    \item \textbf{抽象函数的定义域}：已知 $f(x)$ 的定义域求 $f(g(x))$ 的定义域，或反之，关键是抓住"括号内的范围相同"这一核心原则。
+    \item \textbf{实际问题的定义域}：应用题中函数的定义域还需考虑实际意义，如时间、长度、数量等必须为正数或整数。
+\end{enumerate}
+
+\end{document}

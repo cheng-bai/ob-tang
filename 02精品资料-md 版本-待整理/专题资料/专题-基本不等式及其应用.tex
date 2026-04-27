@@ -1,0 +1,136 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：基本不等式及其应用}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\Large\bfseries 专题：基本不等式及其应用}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+基本不等式（又称均值不等式）是求解代数最值问题的重要工具，在上海高考中常以填空题形式考查，核心在于“凑定值”与“验等号”。
+
+\begin{definition}[基本不等式]
+    设 $a, b$ 为正实数，则
+    \[
+        \frac{a+b}{2} \ge \sqrt{ab},
+    \]
+    当且仅当 $a = b$ 时，等号成立。其中 $\dfrac{a+b}{2}$ 称为 $a, b$ 的\textbf{算术平均数}，$\sqrt{ab}$ 称为 $a, b$ 的\textbf{几何平均数}。
+\end{definition}
+
+\begin{definition}[代数变形]
+    对任意实数 $a, b$，有 $a^{2} + b^{2} \ge 2ab$，当且仅当 $a = b$ 时取等号。
+    若 $a, b$ 同号，则还有 $\dfrac{a}{b} + \dfrac{b}{a} \ge 2$，当且仅当 $a = b$ 时取等号。
+\end{definition}
+
+\begin{definition}[和定积最大，积定和最小]
+    设 $a, b > 0$：
+    \begin{itemize}
+        \item 若 $a + b = S$（定值），则当 $a = b = \dfrac{S}{2}$ 时，积 $ab$ 取得最大值 $\dfrac{S^{2}}{4}$；
+        \item 若 $ab = P$（定值），则当 $a = b = \sqrt{P}$ 时，和 $a + b$ 取得最小值 $2\sqrt{P}$。
+    \end{itemize}
+\end{definition}
+
+\begin{property}[使用前提：一正、二定、三相等]
+    运用基本不等式求最值时，必须同时满足以下三个条件：
+    \begin{enumerate}
+        \item \textbf{一正}：参与运算的变量均为正数；
+        \item \textbf{二定}：和或积为定值（或通过配凑可化为定值）；
+        \item \textbf{三相等}：等号能够取到，即最值点落在定义域内。
+    \end{enumerate}
+    三者缺一不可，其中“验等号”是高考填空题中最易失分的环节。
+\end{property}
+
+\begin{property}[常用配凑模型]
+    当表达式不能直接凑出定值时，常通过拆项、添项、换元等手段转化为可用基本不等式的形式。典型模型有：
+    \begin{itemize}
+        \item $y = x + \dfrac{k}{x}\ (x > 0,\ k > 0)$，当 $x = \sqrt{k}$ 时取最小值 $2\sqrt{k}$；
+        \item $y = x + \dfrac{k}{x - m}\ (x > m)$，可拆分为 $(x - m) + \dfrac{k}{x - m} + m$；
+        \item 已知正数 $a, b$ 满足 $ma + nb = S$，求 $\dfrac{p}{a} + \dfrac{q}{b}$ 的最小值，常用“$1$”的代换：乘上 $\dfrac{ma + nb}{S}$ 后展开再使用基本不等式。
+    \end{itemize}
+\end{property}
+
+\begin{property}[多次使用基本不等式的等号一致性]
+    若解题过程中需要两次或多次使用基本不等式，则必须保证每次取等号的条件能够同时成立。若各次等号条件不一致，则该最小值（或最大值）不能通过连续放缩得到，需改用函数单调性、导数法或换元法求解。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[配凑定值求最小值]
+    若 $x > 1$，求 $y = x + \dfrac{4}{x - 1}$ 的最小值。
+\end{example}
+
+\textbf{解.} 因为 $x > 1$，所以 $x - 1 > 0$。将原式配凑为
+\[
+    y = x + \frac{4}{x - 1} = (x - 1) + \frac{4}{x - 1} + 1.
+\]
+
+由基本不等式得
+\[
+    (x - 1) + \frac{4}{x - 1} \ge 2\sqrt{(x - 1) \cdot \frac{4}{x - 1}} = 4,
+\]
+当且仅当 $x - 1 = \dfrac{4}{x - 1}$，即 $x = 3$ 时取等号。
+
+因此 $y \ge 4 + 1 = 5$，故 $y$ 的最小值为 $5$。
+
+\begin{example}["1"的代换]
+    已知第一象限的点 $(m, n)$ 与 $(6, 2)$ 在同一直线 $l$ 上，且直线 $l$ 的倾斜角为 $135^{\circ}$，求 $\dfrac{1}{m} + \dfrac{4}{n}$ 的最小值。
+\end{example}
+
+\textbf{解.} 由题意，直线的斜率 $k = \tan 135^{\circ} = -1$，于是
+\[
+    \frac{n - 2}{m - 6} = -1 \quad \Rightarrow \quad m + n = 8.
+\]
+因为点在第一象限，所以 $m > 0,\ n > 0$。
+
+将待求式乘以 $\dfrac{m + n}{8} = 1$，得
+\[
+    \frac{1}{m} + \frac{4}{n}
+    = \frac{1}{8}\left( \frac{1}{m} + \frac{4}{n} \right)(m + n)
+    = \frac{1}{8}\left( 5 + \frac{n}{m} + \frac{4m}{n} \right).
+\]
+
+再由基本不等式，
+\[
+    \frac{n}{m} + \frac{4m}{n} \ge 2\sqrt{\frac{n}{m} \cdot \frac{4m}{n}} = 4,
+\]
+当且仅当 $\dfrac{n}{m} = \dfrac{4m}{n}$，即 $n = 2m$ 时取等号。结合 $m + n = 8$，解得 $m = \dfrac{8}{3},\ n = \dfrac{16}{3}$，符合第一象限条件。
+
+故 $\dfrac{1}{m} + \dfrac{4}{n} \ge \dfrac{1}{8}(5 + 4) = \dfrac{9}{8}$，最小值为 $\dfrac{9}{8}$。
+
+\begin{realexam}[2025.12 浦东高三一模]
+    已知 $a$、$b$ 为实数，且 $a + 2b = 2$，则 $ab$ 的最大值为 \underline{\hspace{2cm}}。
+\end{realexam}
+
+\textbf{解.} 当 $ab$ 取最大值时，必有 $a > 0,\ b > 0$（否则一正一负时积为负，不可能最大）。
+
+由基本不等式得
+\[
+    2 = a + 2b \ge 2\sqrt{a \cdot 2b} = 2\sqrt{2ab},
+\]
+两边平方整理得 $ab \le \dfrac{1}{2}$。
+
+等号成立当且仅当 $a = 2b$。联立 $a + 2b = 2$，解得
+\[
+    a = 1,\quad b = \frac{1}{2},
+\]
+满足 $a, b > 0$。故 $ab$ 的最大值为 $\dfrac{1}{2}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{先判符号再配方}：使用基本不等式前，务必确认变量为正；若表达式含有负号或分母，需通过移项、添常数等手段凑出“和定”或“积定”。
+    \item \textbf{牢记“1”的代换}：遇到“已知 $ma + nb = S$（定值），求 $\dfrac{p}{a} + \dfrac{q}{b}$ 的最值”时，将目标式乘以 $\dfrac{ma + nb}{S}$，展开后即可构造基本不等式所需的定值结构。
+    \item \textbf{等号必须可验证}：得出最值后，一定要回代求出取等条件，并检验该条件是否在题设定义域内。若不在定义域内，说明基本不等式不适用，应改用函数单调性或导数法。
+    \item \textbf{多次放缩要谨慎}：若解题中连续使用两次及以上基本不等式，必须保证各次等号条件能同时成立；若条件冲突，则需换思路（如整体换元 $t = x + \dfrac{1}{x}$ 后研究新函数）。
+    \item \textbf{灵活结合其他工具}：对于含参数或结构复杂的最值问题，可将基本不等式与函数单调性、导数法、解析几何斜率/距离公式等知识相结合，选择最简捷的路径。
+\end{enumerate}
+
+\end{document}

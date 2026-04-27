@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>第5章 函数的概念、性质及应用</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 22mm 22mm 22mm;
+    background: #f5f4ed;
+    @bottom-center {
+      content: counter(page) " · 第5章 函数的概念、性质及应用";
+      font-size: 8.5pt;
+      color: #87867f;
+    }
+  }
+  @page:first { @bottom-center { content: ""; } }
+  
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.55;
+    color: #141413;
+    background: #f5f4ed;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm 22mm;
+  }
+  
+  h1 {
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 0 0 10pt 0;
+    border-left: 2.5pt solid #1B365D;
+    padding-left: 8pt;
+    break-after: avoid;
+  }
+  
+  h2 {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 24pt 0 6pt 0;
+    break-after: avoid;
+  }
+  
+  h3 {
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 18pt 0 4pt 0;
+    color: #3d3d3a;
+  }
+  
+  p { margin: 0 0 10pt 0; }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10pt 0;
+    font-size: 9.5pt;
+  }
+  
+  th, td {
+    padding: 6pt 8pt;
+    text-align: left;
+    border-bottom: 0.5pt solid #e8e6dc;
+  }
+  
+  th {
+    background: #faf9f5;
+    font-weight: 500;
+    color: #1B365D;
+  }
+  
+  pre {
+    background: #faf9f5;
+    border: 0.5pt solid #e8e6dc;
+    border-radius: 3pt;
+    padding: 8pt 10pt;
+    font-family: "JetBrains Mono", Consolas, monospace;
+    font-size: 9pt;
+    margin: 8pt 0;
+    overflow-x: auto;
+  }
+  
+  .cover {
+    min-height: 240mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40mm 0 0 0;
+    break-after: page;
+  }
+  
+  .cover-title {
+    font-size: 36pt;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 16pt;
+  }
+  
+  .cover-sub {
+    font-size: 14pt;
+    color: #5e5d59;
+    margin-bottom: 30pt;
+  }
+  
+  .chapter { break-before: page; }
+  
+  .chapter-num {
+    font-size: 10pt;
+    color: #1B365D;
+    letter-spacing: 1pt;
+    margin-bottom: 6pt;
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div style="font-size: 10pt; color: #1B365D; margin-bottom: 18pt;">高中数学 · 必修第一册</div>
+    <div class="cover-title">第5章 函数的概念、性质及应用</div>
+    <div class="cover-sub">沪教版 2026 · 系统讲义</div>
+  </div>
+  <div style="font-size: 10pt; color: #87867f;">
+    <strong>AI 讲义生成系统</strong><br>
+    沪教版 2026 · 2026.04
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="chapter-num">CONTENT</div>
+  <h1>第5章 函数的概念、性质及应用</h1></p>
+<h2>一、章节概述与学习目标</h2></p>
+<p><h3>1.1 章节地位</h3>
+函数是刻画世间万物之间联系的有力工具，是高中数学的核心内容。本章将用严格的数学语言概括函数的重要性质，包括函数的奇偶性、单调性和最值等。学好函数对进一步学习三角、微积分等高等数学内容至关重要。</p>
+<p><h3>1.2 学习目标</h3>
+- <strong>理解</strong>函数的概念，掌握函数的定义域、值域和对应关系
+- <strong>掌握</strong>函数的三种表示方法：解析法、列表法、图像法
+- <strong>理解</strong>并会判断函数的奇偶性、单调性
+- <strong>会求</strong>函数的最值
+- <strong>能建立</strong>简单的函数关系解决实际问题
+- <strong>理解</strong>函数零点与方程解的关系，会用二分法求近似解
+- <strong>了解</strong>反函数的概念（选学）</p>
+<p><h3>1.3 知识结构图</h3>
+<pre>函数的概念
+    ├── 定义：y = f(x), x ∈ D
+    ├── 定义域
+    ├── 值域
+    └── 表示方法：解析法、列表法、图像法</p>
+<p>函数的性质
+    ├── 奇偶性（对称性）
+    ├── 单调性（增减性）
+    └── 最值</p>
+<p>函数的应用
+    ├── 建立函数关系
+    ├── 用函数观点解方程与不等式
+    └── 用二分法求零点</p>
+<p>反函数（*选学）</pre></p>
+<p>---</p>
+<h2>二、知识点精讲</h2></p>
+<p><h3>2.1 函数的概念</h3></p>
+<p>#### 2.1.1 函数的定义
+设 D 是一个非空的实数集，如果按照某种确定的对应关系 f，使对集合 D 中的任意给定的 x，都有唯一的实数 y 与之对应，就称这个对应关系 f 为集合 D 上的一个<strong>函数</strong>，记作</p>
+<p>$$y = f(x), x \in D$$</p>
+<p>其中：
+- <strong>x</strong> 叫做<strong>自变量</strong>（independent variable）
+- <strong>D</strong> 称为该函数的<strong>定义域</strong>（domain）
+- <strong>y</strong> 是 x 的函数，称为<strong>函数值</strong>
+- 所有函数值组成的集合称为函数的<strong>值域</strong>（range）</p>
+<p>#### 2.1.2 函数的两个要素
+<strong>定义域</strong>和<strong>对应关系</strong>称为函数的两个要素。</p>
+<p>> 注意：如果两个函数的定义域和对应关系都完全一致，就称这两个函数是相同的。</p>
+<p><strong>例</strong>：y = x² 与 y = x², x ∈ [-1,1] 是两个不同的函数（定义域不同）。</p>
+<p>#### 2.1.3 求定义域的常见类型</p>
+<table>
+<tr><td>类型</td><td>限制条件</td><td>示例</td></tr>
+<tr><td>分式</td><td>分母 ≠ 0</td><td>y = 1/(x²-1)，定义域 {x</td><td>x ≠ ±1}</td></tr>
+<tr><td>偶次根式</td><td>被开方数 ≥ 0</td><td>y = √(x+3)，定义域 [-3,+∞)</td></tr>
+<tr><td>对数</td><td>真数 > 0</td><td>y = log₂(x+1)，定义域 (-1,+∞)</td></tr>
+<tr><td>复合情况</td><td>同时满足</td><td>y = √x/(x-1)，定义域 [0,1)∪(1,+∞)</td></tr>
+</table></p>
+<p>---</p>
+<p><h3>2.2 函数的表示方法</h3></p>
+<p>#### 2.2.1 解析法
+用一个数学表达式表示两个变量之间的对应关系。</p>
+<p><strong>例</strong>：y = 3x + 2, y = x² + 2x + 1, s = ½gt² (t ∈ [0,T])</p>
+<p>#### 2.2.2 列表法
+通过列出自变量的值与对应函数值的表格来表达函数关系。</p>
+<p><strong>适用</strong>：定义域为有限集的情况</p>
+<p>#### 2.2.3 图像法
+在平面直角坐标系中，把函数 y = f(x) 的所有点 (x, y) 组成的集合 G 叫做函数的<strong>图像</strong>。</p>
+<p>$$G = \{(x, y) | y = f(x), x \in D\}$$</p>
+<p><strong>判断图像是否为函数的方法</strong>：垂直于 x 轴的直线与图像最多有一个交点。</p>
+<p>#### 2.2.4 分段表示法
+同一个函数在不同的区间上可以有不同的表达式。</p>
+<p><strong>例</strong>：绝对值函数
+$$y = |x| = \begin{cases} x, & x \geq 0 \\ -x, & x < 0 \end{cases}$$</p>
+<p>---</p>
+<p><h3>2.3 函数的奇偶性</h3></p>
+<p>#### 2.3.1 偶函数
+对于函数 y = f(x)，如果对于其定义域 D 中任意给定的实数 x，都有 -x ∈ D，并且</p>
+<p>$$f(-x) = f(x)$$</p>
+<p>就称函数 y = f(x) 为<strong>偶函数</strong>（even function）。</p>
+<p><strong>图像特征</strong>：关于 y 轴成轴对称。</p>
+<p><strong>常见偶函数</strong>：y = x², y = x⁴, y = |x|, y = cos x</p>
+<p>#### 2.3.2 奇函数
+对于函数 y = f(x)，如果对于其定义域 D 中任意给定的实数 x，都有 -x ∈ D，并且</p>
+<p>$$f(-x) = -f(x)$$</p>
+<p>就称函数 y = f(x) 为<strong>奇函数</strong>（odd function）。</p>
+<p><strong>图像特征</strong>：关于原点成中心对称。</p>
+<p><strong>常见奇函数</strong>：y = x, y = x³, y = 1/x, y = sin x</p>
+<p>#### 2.3.3 判断奇偶性的步骤
+<li><strong>先看定义域</strong>：定义域是否关于原点对称（即 x ∈ D 时，-x 也 ∈ D）</li>
+<li><strong>再验证关系</strong>：计算 f(-x) 与 f(x) 的关系</li></p>
+<p>> <strong>注意</strong>：定义域关于原点对称是函数具有奇偶性的<strong>必要条件</strong>。</p>
+<p>#### 2.3.4 奇偶性的运算性质
+- 偶函数 ± 偶函数 = 偶函数
+- 奇函数 ± 奇函数 = 奇函数
+- 偶函数 × 偶函数 = 偶函数
+- 奇函数 × 奇函数 = 偶函数
+- 奇函数 × 偶函数 = 奇函数</p>
+<p>---</p>
+<p><h3>2.4 函数的单调性</h3></p>
+<p>#### 2.4.1 定义
+对于定义在 D 上的函数 y = f(x)，设区间 I 是 D 的一个子集。</p>
+<p><strong>严格增函数</strong>：对于区间 I 上的任意给定的两个自变量的值 x₁、x₂，当 x₁ < x₂ 时，如果总有
+$$f(x₁) < f(x₂)$$
+就称函数 y = f(x) 在区间 I 上是<strong>严格增函数</strong>。</p>
+<p><strong>严格减函数</strong>：对于区间 I 上的任意给定的两个自变量的值 x₁、x₂，当 x₁ < x₂ 时，如果总有
+$$f(x₁) > f(x₂)$$
+就称函数 y = f(x) 在区间 I 上是<strong>严格减函数</strong>。</p>
+<p><strong>增函数/减函数</strong>：将上述严格不等号改为非严格不等号（≤ 或 ≥）。</p>
+<p>#### 2.4.2 常见函数的单调性</p>
+<table>
+<tr><td>函数</td><td>单调性</td><td>单调区间</td></tr>
+<tr><td>y = kx + b (k > 0)</td><td>严格增</td><td>(-∞,+∞)</td></tr>
+<tr><td>y = kx + b (k < 0)</td><td>严格减</td><td>(-∞,+∞)</td></tr>
+<tr><td>y = x²</td><td>严格减/严格增</td><td>(-∞,0] / [0,+∞)</td></tr>
+<tr><td>y = aˣ (a > 1)</td><td>严格增</td><td>(-∞,+∞)</td></tr>
+<tr><td>y = aˣ (0 < a < 1)</td><td>严格减</td><td>(-∞,+∞)</td></tr>
+<tr><td>y = logₐx (a > 1)</td><td>严格增</td><td>(0,+∞)</td></tr>
+<tr><td>y = logₐx (0 < a < 1)</td><td>严格减</td><td>(0,+∞)</td></tr>
+</table></p>
+<p>#### 2.4.3 证明单调性的步骤
+<li><strong>取值</strong>：在区间内任取 x₁ < x₂</li>
+<li><strong>作差</strong>：计算 f(x₁) - f(x₂)</li>
+<li><strong>变形</strong>：因式分解或配方，便于判断符号</li>
+<li><strong>定号</strong>：判断 f(x₁) - f(x₂) 的正负</li>
+<li><strong>结论</strong>：得出单调性</li></p>
+<p>---</p>
+<p><h3>2.5 函数的最值</h3></p>
+<p>#### 2.5.1 定义
+<strong>最大值</strong>：设函数 y = f(x) 在定义域内的 x₀ 处的函数值是 f(x₀)，对于定义域内任意给定的 x，如果 f(x) ≤ f(x₀) 都成立，那么 f(x₀) 就叫做函数 y = f(x) 的<strong>最大值</strong>。</p>
+<p><strong>最小值</strong>：如果 f(x) ≥ f(x₀) 都成立，那么 f(x₀) 就叫做函数 y = f(x) 的<strong>最小值</strong>。</p>
+<p>#### 2.5.2 求最值的常用方法
+<li><strong>配方法</strong>（适用于二次函数）</li>
+<li><strong>利用单调性</strong>（单调函数在闭区间端点处取最值）</li>
+<li><strong>利用基本不等式</strong></li>
+<li><strong>判别式法</strong></li></p>
+<p>#### 2.5.3 二次函数的最值
+对于 y = ax² + bx + c (a ≠ 0)：
+- 当 a > 0 时，在 x = -b/(2a) 处取得最小值 (4ac-b²)/(4a)，无最大值
+- 当 a < 0 时，在 x = -b/(2a) 处取得最大值 (4ac-b²)/(4a)，无最小值</p>
+<p>在闭区间 [m,n] 上求最值时，需要考虑顶点是否在区间内。</p>
+<p>---</p>
+<p><h3>2.6 函数的应用</h3></p>
+<p>#### 2.6.1 建立函数关系
+解决实际问题的关键是建立变量之间的函数关系，注意：
+- 确定自变量和因变量
+- 找出等量关系
+- 确定定义域（受实际意义制约）</p>
+<p>#### 2.6.2 函数的零点
+对于函数 y = f(x), x ∈ D，如果存在实数 c ∈ D，使得 f(c) = 0，就把 c 叫做该函数的<strong>零点</strong>。</p>
+<p><strong>几何意义</strong>：函数图像与 x 轴交点的横坐标。</p>
+<p><strong>与方程的关系</strong>：函数的零点就是方程 f(x) = 0 的解。</p>
+<p>#### 2.6.3 二分法求零点
+<strong>定理</strong>：如果在区间 [a,b] 上，函数 y = f(x) 的图像是一段连续曲线，并且 f(a)·f(b) < 0，那么 y = f(x) 在区间 (a,b) 上一定有零点。</p>
+<p><strong>二分法步骤</strong>：
+<li>确定区间 [a,b]，验证 f(a)·f(b) < 0</li>
+<li>求区间中点 c = (a+b)/2</li>
+<li>计算 f(c)：</li>
+   - 若 f(c) = 0，则 c 就是零点
+   - 若 f(a)·f(c) < 0，则零点在 (a,c) 内，令 b = c
+   - 若 f(c)·f(b) < 0，则零点在 (c,b) 内，令 a = c
+<li>重复步骤2-3，直到区间长度小于要求的精度</li></p>
+<p>---</p>
+<p><h3>2.7 反函数（*选学）</h3></p>
+<p>#### 2.7.1 定义
+对于函数 y = f(x), x ∈ D，记其值域为 f(D)。如果对 f(D) 中的任意给定的一个值 y，在 D 中满足 f(x) = y 的 x 值只有一个，那么由此得到的 x 关于 y 的函数叫做 y = f(x) 的<strong>反函数</strong>，记作 x = f⁻¹(y), y ∈ f(D)。</p>
+<p>习惯上写成：y = f⁻¹(x), x ∈ f(D)</p>
+<p>#### 2.7.2 存在条件
+在定义域上的<strong>严格增函数</strong>或<strong>严格减函数</strong>均存在反函数。</p>
+<p>#### 2.7.3 性质
+<li>y = f(x) 与 y = f⁻¹(x) 互为反函数</li>
+<li>反函数的定义域是原函数的值域，反函数的值域是原函数的定义域</li>
+<li>互为反函数的两函数的图像关于直线 y = x 成轴对称</li></p>
+<p>#### 2.7.4 常见反函数
+- y = aˣ 与 y = logₐx 互为反函数 (a > 0, a ≠ 1)
+- y = x³ 与 y = ∛x 互为反函数</p>
+<p>---</p>
+<h2>三、典型例题分析</h2></p>
+<p><h3>题型一：求函数的定义域</h3></p>
+<p><strong>例1</strong> 求下列函数的定义域：</p>
+<p>(1) y = 1/(x² - 1)</p>
+<p><strong>解</strong>：由 x² - 1 ≠ 0，得 x ≠ ±1
+∴ 定义域 D = {x | x ≠ ±1}</p>
+<p>(2) y = log₂(x + 1)</p>
+<p><strong>解</strong>：由 x + 1 > 0，得 x > -1
+∴ 定义域 D = (-1, +∞)</p>
+<p>(3) y = √(x+3)/(x-1)</p>
+<p><strong>解</strong>：需满足 { x + 3 ≥ 0, x - 1 ≠ 0 }
+即 x ≥ -3 且 x ≠ 1
+∴ 定义域 D = [-3, 1) ∪ (1, +∞)</p>
+<p>---</p>
+<p><h3>题型二：判断函数的奇偶性</h3></p>
+<p><strong>例2</strong> 判断下列函数的奇偶性：</p>
+<p>(1) y = 2x⁴ - 3x²</p>
+<p><strong>解</strong>：定义域为 R，关于原点对称。
+记 f(x) = 2x⁴ - 3x²
+f(-x) = 2(-x)⁴ - 3(-x)² = 2x⁴ - 3x² = f(x)
+∴ 该函数是<strong>偶函数</strong></p>
+<p>(2) y = x³ - 1/x</p>
+<p><strong>解</strong>：定义域 D = {x | x ≠ 0}，关于原点对称。
+记 f(x) = x³ - 1/x
+f(-x) = (-x)³ - 1/(-x) = -x³ + 1/x = -(x³ - 1/x) = -f(x)
+∴ 该函数是<strong>奇函数</strong></p>
+<p>(3) y = (x-1)²</p>
+<p><strong>解</strong>：定义域为 R。
+f(1) = 0, f(-1) = 4 ≠ f(1)，不是偶函数
+f(-1) = 4 ≠ -f(1) = 0，不是奇函数
+∴ 该函数<strong>既不是奇函数也不是偶函数</strong></p>
+<p>---</p>
+<p><h3>题型三：证明函数的单调性</h3></p>
+<p><strong>例3</strong> 证明：函数 y = x² - 2x 在区间 (-∞, 1] 上是严格减函数。</p>
+<p><strong>证明</strong>：记 f(x) = x² - 2x
+设 x₁、x₂ 是区间 (-∞, 1] 上任意给定的两个实数，且 x₁ < x₂</p>
+<p>f(x₁) - f(x₂) = (x₁² - 2x₁) - (x₂² - 2x₂)
+= (x₁² - x₂²) - 2(x₁ - x₂)
+= (x₁ - x₂)(x₁ + x₂ - 2)</p>
+<p>∵ x₁ < x₂ ≤ 1
+∴ x₁ - x₂ < 0
+且 x₁ + x₂ - 2 < 1 + 1 - 2 = 0</p>
+<p>∴ f(x₁) - f(x₂) = (负数) × (负数) > 0
+即 f(x₁) > f(x₂)</p>
+<p>∴ 函数 y = x² - 2x 在区间 (-∞, 1] 上是<strong>严格减函数</strong>。</p>
+<p>---</p>
+<p><h3>题型四：求函数的最值</h3></p>
+<p><strong>例4</strong> 求函数 y = 2x² - 3x + 1, x ∈ R 的最大值与最小值。</p>
+<p><strong>解</strong>：y = 2x² - 3x + 1
+= 2(x - 3/4)² - 1/8 ≥ -1/8</p>
+<p>当 x = 3/4 时，等号成立。
+∴ 该函数的<strong>最小值为 -1/8</strong>，无最大值。</p>
+<p><strong>例5</strong> 求函数 y = 2/x, x ∈ [1, 2] 的最大值与最小值。</p>
+<p><strong>解</strong>：函数 y = 2/x 在区间 [1, 2] 上是严格减函数
+∴ 最大值在左端点 x = 1 处取得，y_max = 2/1 = 2
+最小值在右端点 x = 2 处取得，y_min = 2/2 = 1</p>
+<p>---</p>
+<p><h3>题型五：建立函数关系</h3></p>
+<p><strong>例6</strong> 要建造一面靠墙、且面积相同的两间相邻的长方形居室，围墙总长度为 30m。当宽 x 为多少时，才能使所建造的居室总面积最大？最大总面积是多少？</p>
+<p><strong>解</strong>：设宽为 x m，则两间居室的总长为 (30 - 3x) m</p>
+<p>总面积 y = x(30 - 3x) = -3x² + 30x = -3(x - 5)² + 75</p>
+<p>由实际意义，0 < x < 10</p>
+<p>当 x = 5 时，y 取得最大值 75</p>
+<p><strong>答</strong>：当居室的宽为 5m 时，其总面积最大，最大总面积为 75m²。</p>
+<p>---</p>
+<p><h3>题型六：用二分法求零点</h3></p>
+<p><strong>例7</strong> 已知函数 y = x³ + 2x - 99，判断方程 x³ + 2x = 99 是否有整数解。</p>
+<p><strong>解</strong>：记 f(x) = x³ + 2x - 99</p>
+<p>首先证明 f(x) 是严格增函数：
+对任意 x₁ < x₂，有 x₁³ < x₂³ 且 2x₁ < 2x₂
+∴ f(x₁) < f(x₂)</p>
+<p>计算：f(4) = 64 + 8 - 99 = -27 < 0
+f(5) = 125 + 10 - 99 = 36 > 0</p>
+<p>由单调性可知，当 n ≤ 4 时，f(n) < 0；当 n ≥ 5 时，f(n) > 0
+∴ 方程<strong>没有整数解</strong>。</p>
+<p>---</p>
+<h2>四、方法技巧总结</h2></p>
+<p><h3>4.1 求定义域的技巧</h3>
+<li><strong>分式函数</strong>：分母不为零</li>
+<li><strong>根式函数</strong>：偶次根号下非负</li>
+<li><strong>对数函数</strong>：真数大于零</li>
+<li><strong>复合函数</strong>：取各部分定义域的交集</li>
+<li><strong>实际问题</strong>：考虑实际意义的限制</li></p>
+<p><h3>4.2 判断奇偶性的技巧</h3>
+<li><strong>先判断定义域</strong>是否关于原点对称（必要条件）</li>
+<li><strong>计算 f(-x)</strong>，与 f(x) 和 -f(x) 比较</li>
+<li><strong>特殊值检验</strong>：取特殊值快速排除</li>
+<li><strong>"先猜后证"</strong>：对复杂函数，先通过特殊值猜测，再严格证明</li></p>
+<p><h3>4.3 证明单调性的技巧</h3>
+<li><strong>作差法</strong>：f(x₁) - f(x₂)，判断符号</li>
+<li><strong>作商法</strong>：f(x₁)/f(x₂)，与 1 比较（适用于恒正或恒负函数）</li>
+<li><strong>导数法</strong>（后续学习）：利用导数的符号判断</li></p>
+<p><h3>4.4 求最值的技巧</h3>
+<li><strong>二次函数</strong>：配方法，注意顶点是否在区间内</li>
+<li><strong>单调函数</strong>：在闭区间端点处取最值</li>
+<li><strong>利用奇偶性</strong>：偶函数在对称区间上最值相同</li>
+<li><strong>分类讨论</strong>：含参数时，根据参数取值分类讨论</li></p>
+<p><h3>4.5 建立函数模型的步骤</h3>
+<li><strong>审题</strong>：理解题意，找出变量</li>
+<li><strong>建模</strong>：建立等量关系，写出函数表达式</li>
+<li><strong>定域</strong>：根据实际意义确定定义域</li>
+<li><strong>求解</strong>：利用函数性质求解</li>
+<li><strong>检验</strong>：检验结果是否符合实际</li></p>
+<p>---</p>
+<h2>五、常见错误警示</h2></p>
+<p><h3>错误1：忽视定义域</h3>
+<strong>错例</strong>：判断 y = x², x ∈ (k, 2) (k < 2) 的奇偶性时，不先考虑定义域是否关于原点对称。</p>
+<p><strong>正解</strong>：只有当 k = -2 时，定义域 (-2, 2) 关于原点对称，才可能是奇函数或偶函数。</p>
+<p><h3>错误2：混淆"增函数"与"严格增函数"</h3>
+<strong>注意</strong>：增函数允许 f(x₁) = f(x₂)，严格增函数要求 f(x₁) < f(x₂)。</p>
+<p><h3>错误3：求最值时忽视定义域</h3>
+<strong>错例</strong>：求 y = x² - 2x 在 [-2, 2] 上的最值时，只考虑顶点 x = 1。</p>
+<p><strong>正解</strong>：需比较 f(1) = -1, f(-2) = 8, f(2) = 0，最大值为 8，最小值为 -1。</p>
+<p><h3>错误4：分段函数判断奇偶性时出错</h3>
+<strong>注意</strong>：分段函数要分别验证各段的奇偶性条件。</p>
+<p><h3>错误5：用二分法时忽略连续性条件</h3>
+<strong>注意</strong>：二分法要求函数在区间上的图像是连续曲线。</p>
+<p>---</p>
+<h2>六、课堂练习</h2></p>
+<p><h3>基础练习</h3></p>
+<p><strong>1.</strong> 求下列函数的定义域：
+(1) y = √[(x-2)(x+3)]
+(2) y = 1/(1-√(x-1))</p>
+<p><strong>2.</strong> 判断下列函数的奇偶性：
+(1) y = |x|
+(2) y = 2ˣ - 2⁻ˣ
+(3) y = x² - x</p>
+<p><strong>3.</strong> 证明：函数 y = 2/x³ 在区间 (-∞, 0) 上是严格减函数。</p>
+<p><strong>4.</strong> 求函数 y = x² - 4x - 2 的最小值及对应的 x 值。</p>
+<p><h3>提高练习</h3></p>
+<p><strong>5.</strong> 已知函数 y = f(x) 是定义在 R 上的偶函数，当 x ≥ 0 时，f(x) = x² - 2x，求 f(x) 的完整表达式。</p>
+<p><strong>6.</strong> 设 y = f(x) 是奇函数，且在区间 (-3, 0] 上是严格增函数，判断它在区间 [0, 3) 上的单调性。</p>
+<p><strong>7.</strong> 用二分法求函数 y = x³ + x - 1 在区间 (0, 1) 上的零点的近似值（精确到 0.1）。</p>
+<p>---</p>
+<h2>七、课后作业</h2></p>
+<p><h3>A组（基础巩固）</h3></p>
+<p><strong>1.</strong> 求下列函数的定义域：
+(1) y = 1/(x² + 2x - 3)
+(2) y = √(4 - 3x - x²)
+(3) y = √(x-2) + √(x+3)</p>
+<p><strong>2.</strong> 证明下列函数为偶函数：
+(1) f(x) = x² + x⁻²
+(2) f(x) = x(2ˣ - 1)/(2ˣ + 1)</p>
+<p><strong>3.</strong> 证明：函数 y = x - 1/x 在区间 (-∞, 0) 上是严格增函数。</p>
+<p><strong>4.</strong> 求下列函数的最大值与最小值：
+(1) y = x² - 4x - 2
+(2) y = 6x - 3x²
+(3) y = -x² - 4x - 3, x ∈ [-3, 1]</p>
+<p><strong>5.</strong> 已知 y = x² + px + q 和 y = x + 4/x 都是定义在 [1, 4] 上的函数，且在 x₀ 处同时取到相同的最小值，求 y = x² + px + q 的最大值。</p>
+<p><h3>B组（能力提升）</h3></p>
+<p><strong>6.</strong> 判断下列函数的奇偶性，并说明理由：
+(1) f(x) = 2x + ∛x
+(2) f(x) = (1-x)/(1+x)
+(3) f(x) = lg[(1-x)/(1+x)]</p>
+<p><strong>7.</strong> 作出函数 y = x² - 2|x| 的大致图像，并分别写出它的定义域、奇偶性、单调区间及最小值。</p>
+<p><strong>8.</strong> 研究函数 y = 1/(1+x²) 的定义域、奇偶性、单调性及最大值。</p>
+<p><strong>9.</strong> 已知函数 y = f(x) 为偶函数，y = g(x) 为奇函数，且 f(x) + g(x) = x² + 2|x-1| + 3，求 y = f(x) 及 y = g(x) 的表达式。</p>
+<p><strong>10.</strong> 试讨论函数 y = x/(1-x²) 的单调性。</p>
+<p>---</p>
+<h2>附录：本章公式速查</h2></p>
+<p><h3>函数概念</h3>
+- 定义：y = f(x), x ∈ D
+- 定义域 + 对应关系 = 函数的两个要素</p>
+<p><h3>奇偶性</h3>
+- 偶函数：f(-x) = f(x)，图像关于 y 轴对称
+- 奇函数：f(-x) = -f(x)，图像关于原点对称</p>
+<p><h3>单调性</h3>
+- 严格增：x₁ < x₂ ⇒ f(x₁) < f(x₂)
+- 严格减：x₁ < x₂ ⇒ f(x₁) > f(x₂)</p>
+<p><h3>二次函数 y = ax² + bx + c (a ≠ 0)</h3>
+- 顶点：(-b/2a, (4ac-b²)/4a)
+- a > 0 时，开口向上，有最小值
+- a < 0 时，开口向下，有最大值</p>
+<p><h3>反函数</h3>
+- y = aˣ ⇔ y = logₐx (互为反函数)
+- 图像关于直线 y = x 对称</p>
+<p>---</p>
+<p><strong>讲义版本</strong>：沪教版必修第一册第5章
+<strong>适用对象</strong>：高一学生
+<strong>建议课时</strong>：12-14课时
+</p>
+</section>
+
+</body>
+</html>

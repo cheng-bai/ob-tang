@@ -1,0 +1,130 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：集合的运算与常用逻辑用语}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\Large\bfseries 专题：集合的运算与常用逻辑用语}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+集合是高中数学的基本语言，常用逻辑用语则是推理与论证的工具。两者在上海高考中常以基础题或中档题的形式出现，重点考查集合的运算、集合与逻辑的对应关系，以及充分必要条件的判定。
+
+\begin{definition}[交集、并集与补集]
+    设 $A$、$B$ 是两个集合，全集为 $U$。
+    \begin{itemize}
+        \item \textbf{交集}：$A \cap B = \{ x \mid x \in A \text{ 且 } x \in B \}$；
+        \item \textbf{并集}：$A \cup B = \{ x \mid x \in A \text{ 或 } x \in B \}$；
+        \item \textbf{补集}：$\bar{A} = \{ x \mid x \in U \text{ 且 } x \notin A \}$。
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[充分条件与必要条件]
+    设 $\alpha$、$\beta$ 是两个陈述句：
+    \begin{itemize}
+        \item 若 $\alpha \Rightarrow \beta$，则称 $\alpha$ 是 $\beta$ 的\textbf{充分条件}，$\beta$ 是 $\alpha$ 的\textbf{必要条件}；
+        \item 若 $\alpha \Rightarrow \beta$ 且 $\beta \Rightarrow \alpha$（即 $\alpha \Leftrightarrow \beta$），则称 $\alpha$ 是 $\beta$ 的\textbf{充分必要条件}（简称\textbf{充要条件}）。
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[子集]
+    若集合 $A$ 中的每一个元素都属于集合 $B$，则称 $A$ 是 $B$ 的\textbf{子集}，记作 $A \subseteq B$。特别地，若 $A \subseteq B$ 且 $A \neq B$，则称 $A$ 是 $B$ 的\textbf{真子集}，记作 $A \subsetneq B$。
+\end{definition}
+
+\begin{property}[集合运算的基本律]
+    设 $A$、$B$、$C$ 是全集 $U$ 的子集，则
+    \begin{itemize}
+        \item \textbf{交换律}：$A \cap B = B \cap A$，$A \cup B = B \cup A$；
+        \item \textbf{结合律}：$(A \cap B) \cap C = A \cap (B \cap C)$，$(A \cup B) \cup C = A \cup (B \cup C)$；
+        \item \textbf{德摩根律}：$\overline{A \cap B} = \bar{A} \cup \bar{B}$，$\overline{A \cup B} = \bar{A} \cap \bar{B}$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[推出关系与集合包含的对应]
+    设 $M = \{ x \mid x \text{ 满足 } \alpha \}$，$N = \{ x \mid x \text{ 满足 } \beta \}$，则
+    \begin{itemize}
+        \item $\alpha \Rightarrow \beta$ 等价于 $M \subseteq N$；
+        \item $\alpha$ 是 $\beta$ 的充分不必要条件等价于 $M \subsetneq N$；
+        \item $\alpha$ 是 $\beta$ 的必要不充分条件等价于 $N \subsetneq M$；
+        \item $\alpha$ 是 $\beta$ 的充要条件等价于 $M = N$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[集合元素的互异性]
+    集合中的元素必须满足\textbf{互异性}，即同一个集合中任意两个元素都是不同的。在求解含参数的集合问题时，求出参数值后必须回代检验，确保集合元素满足互异性，否则应予舍去。这是上海高考填空题中的高频陷阱。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[集合的交、并、补综合运算]
+    已知全集 $U = \mathbf{R}$，集合 $A = \{ x \mid -1 < x \leq 3 \}$，$B = \{ x \mid 1 \leq x < 4 \}$。
+    \begin{enumerate}
+        \item 求 $A \cap B$、$A \cup B$ 和 $\bar{A}$；
+        \item 若集合 $C = \{ x \mid x \leq a \}$ 满足 $(A \cap B) \cup C = C$，求实数 $a$ 的取值范围。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 在数轴上表示各集合：
+\begin{itemize}
+    \item $A \cap B = \{ x \mid 1 \leq x \leq 3 \} = [1, 3]$；
+    \item $A \cup B = \{ x \mid -1 < x < 4 \} = (-1, 4)$；
+    \item $\bar{A} = \{ x \mid x \leq -1 \text{ 或 } x > 3 \} = (-\infty, -1] \cup (3, +\infty)$。
+\end{itemize}
+
+(2) 由 $(A \cap B) \cup C = C$ 可知 $A \cap B \subseteq C$。
+因为 $A \cap B = [1, 3]$，$C = (-\infty, a]$，要使 $[1, 3] \subseteq (-\infty, a]$，必须有 $a \geq 3$。
+故实数 $a$ 的取值范围是 $[3, +\infty)$。
+
+\begin{example}[充分必要条件的判定]
+    设 $a > 0$，$b > 0$，判断 "$a + b > 2$" 是 "$ab > 1$" 的什么条件，并说明理由。
+\end{example}
+
+\textbf{解.} 需要分别判断充分性和必要性。
+
+\textbf{充分性}：取 $a = 5$，$b = \dfrac{1}{10}$，则 $a + b = 5.1 > 2$，但 $ab = \dfrac{1}{2} < 1$。因此 "$a + b > 2$" 不能推出 "$ab > 1$"，充分性不成立。
+
+\textbf{必要性}：若 $ab > 1$ 且 $a > 0$，$b > 0$，由基本不等式得
+\[
+    a + b \geq 2\sqrt{ab} > 2\sqrt{1} = 2,
+\]
+即 "$ab > 1$" 能推出 "$a + b > 2$"，必要性成立。
+
+综上，"$a + b > 2$" 是 "$ab > 1$" 的\textbf{必要不充分条件}。
+
+\begin{realexam}[2025 届上海高三二模·静安]
+    "$m < 2$" 是 "一元二次不等式 $x^{2} + mx + 1 > 0$ 的解集为 $\mathbf{R}$" 的\hfill（\quad）
+
+    A. 充分非必要条件 \quad B. 必要非充分条件 \quad C. 充要条件 \quad D. 既非充分又非必要条件
+\end{realexam}
+
+\textbf{解.} 选 \textbf{B}。
+
+先分析 "$x^{2} + mx + 1 > 0$ 的解集为 $\mathbf{R}$" 这一条件。因为二次项系数为 $1 > 0$，要使不等式在 $\mathbf{R}$ 上恒成立，需判别式
+\[
+    \Delta = m^{2} - 4 < 0 \quad \Longrightarrow \quad -2 < m < 2.
+\]
+
+\textbf{充分性}：$m < 2$ 不能推出 $-2 < m < 2$（例如 $m = -3$ 满足 $m < 2$，但 $\Delta = 9 - 4 = 5 > 0$），充分性不成立。
+
+\textbf{必要性}：若 $-2 < m < 2$，则显然 $m < 2$ 成立，必要性成立。
+
+因此 "$m < 2$" 是 "一元二次不等式 $x^{2} + mx + 1 > 0$ 的解集为 $\mathbf{R}$" 的\textbf{必要非充分条件}。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{数轴与韦恩图双管齐下}：有限集运算可借助韦恩图直观分析；无限数集（尤其含不等式）必须画数轴，注意端点的开闭，避免遗漏或重复。
+    \item \textbf{集合语言与逻辑语言互化}：将 "$\alpha \Rightarrow \beta$" 转化为 "$M \subseteq N$"，将充分必要条件转化为集合的包含或相等关系，可大幅降低抽象逻辑题的思考难度。
+    \item \textbf{互异性检验不可省}：求参数使某元素属于集合或两集合相等时，求出的参数必须回代检验，确保集合中元素不重复，否则容易出现增根。
+    \item \textbf{判断充分必要条件的“三步法”}：(1)~先化简条件对应的集合或不等式范围；(2)~判断单向推出关系（充分性、必要性各验证一次）；(3)~取反例否定推出关系时，优先尝试边界值、零值或极端值。
+    \item \textbf{补集运算注意全集}：进行补集运算前务必明确全集 $U$ 是什么（如 $\mathbf{R}$、$\mathbf{Z}$ 或某个有限集），不同全集下补集结果截然不同。
+\end{enumerate}
+
+\end{document}

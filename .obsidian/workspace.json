@@ -54,9 +54,129 @@
               "icon": "lucide-file",
               "title": "你不知道的 Claude Code：架构、治理与工程实践"
             }
+          },
+          {
+            "id": "17f3e2611ac4c7a7",
+            "type": "leaf",
+            "state": {
+              "type": "terminal:documentation",
+              "state": {
+                "terminal:documentation": {
+                  "data": "# Terminal for Obsidian [![release](https://img.shields.io/github/v/release/polyipseity/obsidian-terminal)][latest release] [![Obsidian downloads](https://img.shields.io/badge/dynamic/json?logo=Obsidian&color=%238b6cef&label=downloads&query=$[\"terminal\"].downloads&url=https://raw.githubusercontent.com/obsidianmd/obsidian-releases/master/community-plugin-stats.json)][community plugin] [![Python](https://img.shields.io/badge/Python-≥3.9-gold?labelColor=blue&logo=Python&logoColor=white)][Python]\n\n[Buy Me a Coffee]: https://buymeacoffee.com/polyipseity\n[Buy Me a Coffee/embed]: https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=&slug=polyipseity&button_colour=40DCA5&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFDD00\n[Obsidian]: https://obsidian.md/\n[Python]: https://python.org/downloads/\n[changelog]: https://github.com/polyipseity/obsidian-terminal/blob/main/CHANGELOG.md\n[community plugin]: https://obsidian.md/plugins?id=terminal\n[latest release]: https://github.com/polyipseity/obsidian-terminal/releases/latest\n[repository]: https://github.com/polyipseity/obsidian-terminal\n[trailer]: https://raw.githubusercontent.com/polyipseity/obsidian-terminal/main/assets/trailer.png\n[related]: https://github.com/polyipseity/obsidian-monorepo\n\nIntegrate consoles, shells, and terminals inside [Obsidian].\n\n[![Buy Me a Coffee/embed]][Buy Me a Coffee]\n\n__[Repository] · [Changelog] · [Community plugin] · [Related] · [Features](#features) · [Installation](#installation) · [Usage](#usage) · [Contributing](#contributing) · [Security](#security)__\n\n![Trailer]\n\nFor first time users, read the [installation](#installation) section first!\n\nThis file is automatically opened on first install. You can reopen it in settings or command palette.\n\n## Features\n\n- Start external terminals from Obsidian.\n- Integrate terminals into Obsidian.\n- Has an emulated developer console usable on all platforms.\n- Supports multiple terminal profiles.\n- Has built-in keyboard shortcuts.\n- Automatically save and restore integrated terminal history.\n- Find in terminal.\n- Save terminal history as file.\n- Customize terminal appearance.\n\n## Installation\n\n1. Install plugin.\n    - Community plugins\n        1. Install the [plugin][community plugin] from community plugins directly.\n    - Manual\n        1. Create directory `terminal` under `.obsidian/plugins` of your vault.\n        2. Place `manifest.json`, `main.js`, and `styles.css` from the [latest release] into the directory.\n    - Building (rolling)\n        1. Clone this repository, including its submodules.\n        2. Install `pnpm` (preferred) or `npm`. See <https://pnpm.io/installation> for pnpm.\n        3. Run `pnpm install` in the root directory (`npm install` is an acceptable fallback).\n        4. Run `pnpm obsidian:install <vault directory>` in the root directory (`npm run obsidian:install <vault directory>` is an acceptable fallback).\n    - [Obsidian42 - BRAT](https://obsidian.md/plugins?id=obsidian42-brat) (rolling)\n        - See [their readme](https://github.com/TfTHacker/obsidian42-brat#readme).\n2. (optional for Windows, recommended) Install Python and dependencies.\n    1. Install [Python] 3.9 or above.\n    2. (Windows only) Run `pip3 install psutil==5.9.5 pywinctl==0.0.50 typing_extensions==4.7.1`. <!-- Update `README.md`, `dependabot.yml`, `magic.ts`, and `pyproject.toml` together. -->\n    3. Configure Python executable in profile settings. Press the \"Check\" button to validate the Python configuration. Each profile needs to be configured separately.\n3. Enable plugin.\n4. (optional) Configure plugin settings.\n\n## Usage\n\n- To start a new external or integrated terminal\n  - Ribbon\n      1. Click on the `Open terminal` ribbon.\n      2. Opens the default terminal if you have set up one. Otherwise, choose the desired profile.\n  - Context menu\n      1. Right-click on files, folders, or tab headers.\n      2. Choose the desired action \\(and profile\\).\n  - Command palette\n      1. Press `Ctrl`+`P` or click on the `Open command palette` ribbon next to the left window border.\n      2. Choose the desired action \\(and profile\\).\n  - Select profile modal\n      1. Choose the desired profile. Press `Ctrl` to edit the profile before use. The item `(Temporary profile)` starts a terminal with a temporary profile.\n- To save and restore integrated terminal history\n    1. Keep the terminal open when exiting Obsidian.\n    2. Terminal history will be restored next time Obsidian is opened.\n- Additional actions\n  - Includes\n    - Clear terminal: \\(1\\), \\(4\\)\n    - Copy terminal: \\(1\\)\n    - Edit terminal: \\(1\\)\n    - Export, import, or edit settings: \\(2\\), \\(3\\)\n    - Find in terminal: \\(1\\), \\(4\\)\n    - Open documentation: \\(2\\), \\(3\\)\n    - Restart terminal: \\(1\\)\n    - Save terminal history: \\(1\\)\n  - Available by\n    - \\(1\\) Right-click on tab header/`More options`\n    - \\(2\\) Open settings\n    - \\(3\\) Open command palette\n    - \\(4\\) Use keyboard shortcuts\n\n### Keyboard shortcuts\n\nThe keyboard shortcuts can be customized in hotkeys settings.\n\n<!-- markdownlint-disable-next-line MD036 -->\n__Global__\n\n- Toggle focus on last terminal: `Ctrl`+`Shift`+`` ` ``\n  - Focus on last terminal: \\(unbound; useful if you want separate keys for focus and unfocus\\)\n\n<!-- markdownlint-disable-next-line MD036 -->\n__Terminal is focused__\n\nWhen a terminal is focused, other keyboard shortcuts \\(including Obsidian and plugin hotkeys\\) are disabled. Only the following keyboard shortcuts work. Thus you can ignore Obsidian complaining about conflicting keys for the following keyboard shortcuts.\n\n- Clear terminal: `Ctrl`+`Shift`+`K`, `Command`+`Shift`+`K` \\(Apple\\)\n- Close terminal: `Ctrl`+`Shift`+`W`, `Command`+`Shift`+`W` \\(Apple\\)\n- Find in terminal: `Ctrl`+`Shift`+`F`, `Command`+`Shift`+`F` \\(Apple\\)\n- Toggle focus on last terminal: `Ctrl`+`Shift`+`` ` `` \\(same as above\\)\n  - Unfocus terminal: \\(unbound; useful if you want separate keys for focus and unfocus\\)\n\n### Theming\n\nTheming is possible. However, there is no user-friendly interface for now.\n\n1. Open the profile editing modal.\n2. Click on the `Edit` button labeled `Data`. It should open up a new modal in which there is a large textbox.\n3. Notice `terminalOptions` in the text area labeled `Data`. Refer to the [`xterm.js` documentation](https://github.com/xtermjs/xterm.js/blob/master/typings/xterm.d.ts#L26) (`ITerminalOptions`) to set the options. Nested objects may need to be used.\n   - You can also configure global defaults via the plugin settings page (see `Profile defaults`). Those options act as a fallback for every profile unless a profile explicitly overrides them.\n4. Save the profile. Changes should apply immediately.\n\n### Profiles\n\nThis plugin comes with several profile presets that you can reference.\n\nWhen setting up a terminal profile, you need to distinguish between shells and terminal emulators. (Search online if needed.) Generally, integrated profiles only work with shells while external ones only work with terminal emulators.\n\n#### Examples\n\n<!-- markdownlint-disable-next-line MD036 -->\n__Shells__\n\n- Bash: `bash --login`\n- Bourne shell: `sh`\n- Command Prompt: `cmd`\n- Dash: `dash`\n- Git Bash: `<Git installation>\\bin\\bash.exe --login` (e.g. `C:\\Program Files\\Git\\bin\\bash.exe`)\n- PowerShell Core: `pwsh`\n- Windows PowerShell: `powershell`\n- Windows Subsystem for Linux: `wsl` or `wsl -d <distribution name>`\n- Z shell: `zsh --login`\n\n<!-- markdownlint-disable-next-line MD036 -->\n__Terminal emulators__\n\n- Command Prompt: `cmd`\n- GNOME Terminal: `gnome-terminal`\n- Konsole: `konsole`\n- Terminal (macOS): `/System/Applications/Utilities/Terminal.app/Contents/macOS/Terminal \"$PWD\"`\n- Windows Terminal: `wt`\n- iTerm2: `/Applications/iTerm.app/Contents/MacOS/iTerm2 \"$PWD\"`\n- xterm: `xterm`\n\n### Miscellaneous\n\nThis plugin patches `require` so that `require(\"obsidian\")` and other Obsidian modules work in the developer console. It is toggleable as `Expose internal modules` in settings.\n\nIn the developer console, a context variable `$$` is passed into the code, which can be used to dynamically change terminal options.\n\nThe full API is available from [`src/@types/obsidian-terminal.ts`](src/%40types/obsidian-terminal.ts).\n\n### Troubleshooting\n\n- Is the plugin useful on mobile?\n  - Compared to on desktop, it is much less useful. The only use for it for now is opening a developer console on mobile.\n- Why do hotkeys not work?\n  - If the terminal is in focus, all Obsidian hotkeys are disabled so that you can type special characters into the terminal. You can unfocus the terminal by pressing `Ctrl`+`Shift`+`` ` ``, then you can use Obsidian hotkeys again.\n\n## Contributing\n\nContributions are welcome!\n\n### Changesets\n\nThis project uses [`changesets`](https://github.com/changesets/changesets) to manage the changelog. When creating a pull request, please [add a changeset](https://github.com/changesets/changesets/blob/main/docs/intro-to-using-changesets.md#adding-changesets) describing the changes. Add multiple changesets if your pull request changes several things. End each changeset with `([PR number](PR link) by [author username](author link))`. For example, the newly created file under the directory `.changeset` should look like:\n\n```Markdown\n---\n\"example\": patch\n---\n\nThis is an example change. ([GH#1](https://github.com/ghost/example/pull/1) by [@ghost](https://github.com/ghost))\n```\n\n### Linting, Commit, and Hooks\n\nThis project uses the following tools to ensure code and commit quality:\n\n- __ESLint__: Linting for TypeScript/JavaScript. Run with `pnpm run check` (lint only) or `pnpm run fix` (auto-fix lint issues).\n- __Prettier__: Code formatting. Run with `pnpm run format` (format all files) or `pnpm run format:check` (check formatting only).\n- __markdownlint__: Lints Markdown files. Run with `pnpm run markdownlint` or auto-fix with `pnpm run markdownlint:fix`.\n- __commitlint__: Enforces conventional commit messages. Used automatically on commit via Husky.\n- __husky__: Manages Git hooks. Pre-commit runs `lint-staged` and pre-push runs commitlint.\n- __lint-staged__: Runs linters on staged files. Markdown files are auto-fixed before commit.\n\n> __Lint-staged note:__ The lint-staged configuration (`.lintstagedrc.mjs`) invokes formatter/linter binaries directly (for example `prettier --write`, `eslint --cache --fix`, `markdownlint-cli2 --fix`) so that the list of staged files is passed through to the tool. Invoking these via `npm run` would prevent lint-staged from forwarding filenames and cause the tool to operate on its default glob (or the entire repo). Use `pnpm run format` to format the entire repository when needed.\n\nTo set up locally:\n\n1. Run `pnpm install` to install dependencies and set up hooks.\n2. On commit, staged Markdown files will be linted and auto-fixed.\n3. Commit messages are checked for conventional format.\n\nYou can manually run:\n\n- `pnpm run check` — lint all code (no formatting)\n- `pnpm run fix` — auto-fix lint issues (no formatting)\n- `pnpm run format` — format all code with Prettier\n- `pnpm run format:check` — check formatting with Prettier\n- `pnpm run markdownlint` — check all Markdown files\n- `pnpm run markdownlint:fix` — auto-fix Markdown files\n- `pnpm run commitlint` — check commit messages in range\n\nConfiguration files:\n\n- `.eslintrc.*` or `eslint.config.mjs` — ESLint rules\n- `.prettierrc` — Prettier rules\n- `.prettierignore` — Prettier ignore patterns\n- `.markdownlint.jsonc` — markdownlint rules\n- `.commitlintrc.js` — commitlint config\n- `.husky/` — Git hooks\n\n### Testing\n\nThis repository uses __Vitest__ for fast unit tests. Tests live under `tests/` and should be named `*.spec.ts` or `*.spec.js`.\n\n- Run locally (non-interactive, coverage): `pnpm test` or `npm run test` (runs `vitest run --coverage`).\n- Run locally (interactive / watch): `pnpm run test:watch` or `npm run test:watch`.\n- Git hooks: The pre-push hook runs `npm run test` (see `.husky/pre-push`) and will block pushes if tests fail; using `pnpm test` locally is equivalent.\n\nSee `vitest.config.mts` for minimal config and further instructions.\n\n### Todos\n\nThe todos here, ordered alphabetically, are things planned for the plugin. There are no guarantees that they will be completed. However, we are likely to accept contributions for them.\n\n- Connect to remote shells.\n- Detect sandboxed environment and notify users.\n- External link confirmation.\n- Filter console log by severity in the developer console.\n- Indicate that the terminal resizer has crashed or is disabled.\n- Shared terminal tabs.\n- Vim mode switch.\n\n### Translating\n\nSee [`assets/locales/README.md`](assets/locales/README.md).\n\n## Security\n\nWe hope that there will never be any security vulnerabilities, but unfortunately it does happen. Please [report](#reporting-a-vulnerability) them!\n\n### Supported versions\n\n| Version  | Supported |\n| -------- | --------- |\n| rolling  | ✅        |\n| latest   | ✅        |\n| outdated | ❌        |\n\n### Reporting a vulnerability\n\nPlease report a vulnerability by opening an new issue. We will get back to you as soon as possible.\n",
+                  "displayTextI18nKey": "translation:generic.documentations.readme",
+                  "iconI18nKey": "asset:generic.documentations.readme-icon"
+                }
+              },
+              "icon": "file-question",
+              "title": "Readme"
+            }
+          },
+          {
+            "id": "fdbf6d85093f6336",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
+          },
+          {
+            "id": "1c885fe3f0e03436",
+            "type": "leaf",
+            "state": {
+              "type": "mk-uri-view",
+              "state": {
+                "path": "https://www.make.md/static/latest.md"
+              },
+              "icon": "lucide-file",
+              "title": "https://www.make.md/static/latest.md"
+            }
+          },
+          {
+            "id": "4fa241bcea9bf90e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 想法/ai 教学.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "ai 教学"
+            }
+          },
+          {
+            "id": "ebd8ef8a41e61014",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "版本说明 1.12.7"
+            }
+          },
+          {
+            "id": "53e4b829a224761b",
+            "type": "leaf",
+            "state": {
+              "type": "smart-release-notes-view",
+              "state": {},
+              "icon": "file-text",
+              "title": "Release Notes"
+            }
+          },
+          {
+            "id": "fae35969b58cc711",
+            "type": "leaf",
+            "state": {
+              "type": "mk-space",
+              "state": {
+                "path": "Clippings"
+              },
+              "icon": "lucide-file",
+              "title": "Clippings"
+            }
+          },
+          {
+            "id": "33429bea602f5b0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "mini-数学资料库/切片库-ai/切片库-ai.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "切片库-ai"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -120,7 +240,7 @@
             }
           },
           {
-            "id": "bd26ffb106ba0b5f",
+            "id": "f57fef369967a4e0",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -150,7 +270,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chengbai/白板/数学大纲与白板.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +279,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "数学大纲与白板 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -169,12 +288,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": " 想法/02-个人笔记/2024-12-11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2024-12-11 的出链列表"
+              "title": "出链"
             }
           },
           {
@@ -212,13 +330,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": " 想法/02-个人笔记/2024-12-11.md",
+                "file": "未命名.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2024-12-11 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -227,8 +345,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -237,18 +355,8 @@
             "state": {
               "type": "smart-connections-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "smart-connections-view"
-            }
-          },
-          {
-            "id": "5f4f73220cc6ecca",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "smart-connections",
+              "title": "Connections"
             }
           },
           {
@@ -257,10 +365,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "打印版本.md"
+                "file": "未命名.canvas"
               },
               "icon": "lucide-info",
-              "title": "打印版本的笔记属性"
+              "title": "未命名的笔记属性"
             }
           },
           {
@@ -269,8 +377,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "copilot-chat-view"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -282,13 +390,24 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "eda98c6c09d7256e",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 363.5
+    "width": 617.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,73 +418,66 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
       "smart-connections:Smart Connections: Open random connection": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "omnisearch:Omnisearch": false,
       "callout-manager:Insert Callout": false,
       "terminal:Open terminal": false,
       "copilot:Open Copilot Chat": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "print:Print note": false
+      "print:Print note": false,
+      "smart-lookup:Smart Lookup: Open lookup view": false
     }
   },
-  "active": "f194463a92338046",
+  "active": "33429bea602f5b0c",
   "lastOpenFiles": [
-    "Clippings/未命名.md",
-    "Clippings/你不知道的 Claude Code：架构、治理与工程实践.md",
-    "00 想法/02-个人笔记/汇总个人日记.md",
-    "00 想法/Untitled.md",
-    "02精品资料-md 版本-待整理/上海新高考基础知识梳理与总结/上海新高考基础知识梳理与总结-dollar.md",
-    "10-题集-知识点拆分/05-知识汇总-数学知识按主题分类/05-解析几何/05-解析几何.md",
-    "Tags/公式.md",
-    "🏠-首页.md",
-    "Vault.md",
-    "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar1-ai润色版本.md",
-    "Skills/markdown-print-kit/SKILL.md",
-    "02精品资料-md 版本-待整理/网课数学老师/sun 高一拔高/sun_高一拔高-dollar.md",
-    "Skills/markdown-print-kit/教师写作清单.md",
-    "Skills/markdown-print-kit/快速开始.md",
-    "Skills/markdown-print-kit/📋 markdown-print-kit 技能定义（更新版）.md",
-    "01零散资料/高三冲刺Q 老师/4 润色.md",
-    "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第4讲.md",
-    "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-测试版本.md",
-    "01零散资料/高三冲刺Q 老师/2022-23 高三数学冲刺 - 第 1 讲-最好的版本.md",
-    "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第1讲.md",
-    "01零散资料/高三冲刺Q 老师/Untitled.md",
-    "01零散资料/高三冲刺Q 老师/优雅排版的版本.md",
-    "copilot/memory/Recent Conversations.md",
-    "copilot/copilot-conversations/使用_skills_对这个文档处理.打印@20260311_141213.md",
-    "01零散资料/高三冲刺Q 老师/2022-23高三数学冲刺-第2讲.md",
-    "copilot/memory",
-    "Skills/markdown-print-kit/examples/函数与集合综合题集（打印版）.md",
-    "Skills/markdown-print-kit1/templates/worksheet.html",
-    "Skills/markdown-print-kit1/templates/print.css",
-    "Skills/markdown-print-kit1/templates/print-teacher.css",
-    "Skills/markdown-print-kit1/templates",
-    "Skills/markdown-print-kit1/scripts/space-lines.lua",
-    "Skills/markdown-print-kit1/scripts/render-teacher.sh",
-    "Skills/markdown-print-kit1/scripts/render-student.sh",
-    "Skills/markdown-print-kit1/scripts/remove-answers.lua",
-    "Skills/markdown-print-kit1/scripts/polish.sh",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_6_c21efba53104e47fe5f3c5612da7417f.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_5_745175163a32760aa9510eac2fcd6c6d.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_4_0d655de133d19b99b7863486cf8dab46.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_3_7f934f1c9c43e4a27ad8a5b17cd590a7.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_2_c920b1ab03acc92173724414f2089bb7.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_1_82e4c32e69e194b3a3c40cf3c7437d36.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/image_0_128508e3da60fbf048cd07e65f67e452.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/bo_d6dbjts601uc73dvo8s0_7_242_1090_374_295_0.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/bo_d6dbjts601uc73dvo8s0_6_240_193_329_310_0.jpg",
-    "04-试卷汇总/2026届浦东区一模数学试卷-逐题解析_019c8466-854d-74f3-a2aa-f678119ce3ab/images/bo_d6dbjts601uc73dvo8s0_6_240_1606_391_304_0.jpg",
-    "00-System/白板/home.canvas",
+    "00-System/数学资料库索引/README.md",
+    "00-System/数学资料库索引/docs/工作记录/资料库结构现状报告.md",
+    "00-System/数学资料库索引/docs/工作记录/资料库整理方案.md",
+    "00-System/数学资料库索引/docs/工作记录/教学示例说明.md",
+    "00-System/数学资料库索引/docs/工作记录/工作记录-教材润色.md",
+    "00-System/数学资料库索引/docs/工作记录/切片依赖关系分析报告.md",
+    "00-System/数学资料库索引/docs/工作记录/交互元素使用说明.md",
+    "00-System/数学资料库索引/docs/工作记录/2026-04-24-批量润色2026二模并生成LaTeX.md",
+    "00-System/数学资料库索引/docs/工作记录/2026-04-24-Skill化试卷LaTeX讲义流程.md",
+    "00-System/数学资料库索引/docs/工作记录/2026-04-23-单题索引与组卷闭环.md",
+    "00-System/数学资料库索引/docs/工作记录/2026-04-22-仓库整理记录.md",
+    "00-System/数学资料库索引/docs/高中数学知识架构.svg",
+    "00-System/数学资料库索引/docs/高中数学知识架构.png",
+    "00-System/数学资料库索引/docs/试卷MD加工到讲义生成工作流.md",
+    "00-System/数学资料库索引/docs/系统蓝图-高中数学教学闭环.md",
+    "00-System/数学资料库索引/docs/未来规划-90天路线图.md",
+    "00-System/数学资料库索引/docs/使用指南.md",
+    "00-System/数学资料库索引/docs/教师日常操作指令.md",
+    "00-System/数学资料库索引/docs/工作记录",
+    "00-System/数学资料库索引/docs/内容治理规范.md",
+    "00-System/数学资料库索引/docs/全教材切片实施方案.md",
+    "00-System/数学资料库索引/docs/使用手册.md",
+    "00-System/数学资料库索引/docs/CHEATSHEET.md",
+    "00-System/数学资料库索引/docs",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_8_306_1010_243_226_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_8_287_1523_623_245_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_80_1182_764_272_231_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_80_1176_234_273_207_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_7_1069_1290_388_363_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_79_1228_331_214_222_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_79_1135_1028_317_281_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images/bo_d5jm9o77aajc7383vmi0_79_1097_640_355_248_0.jpg",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/images",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册/2025版上海高考真题汇编及变式详解版——下册_1_.tex",
+    "04-试卷汇总/上海高考真题汇编及变式详解版——下册",
+    "Skills/latex-tools/preamble/modules/09-helpers.tex",
+    "Skills/latex-tools/preamble/modules/08-layout.tex",
+    "Skills/latex-tools/preamble/modules/07-solution-toggle.tex",
+    "Skills/latex-tools/preamble/modules/06-environments.tex",
+    "Skills/latex-tools/preamble/modules/05-tcb-base.tex",
+    "Skills/latex-tools/README.md",
+    "10-题集-知识点拆分/切片卡片版/10-系统版骨架/README.md",
+    "10-题集-知识点拆分/切片卡片版/10-系统版骨架/06-最少训练题包.md",
+    "10-题集-知识点拆分/切片卡片版/10-系统版骨架/05-一周学习路径.md",
+    "10-题集-知识点拆分/切片卡片版/10-系统版骨架/03-方法层脚手架.md",
+    "10-题集-知识点拆分/切片卡片版/10-系统版骨架/04-训练层闭环.md",
     "未命名.canvas",
+    "00-System/白板/home.canvas",
     "未命名 1.canvas",
     "00-System/白板/年终总结.canvas",
     "00-System/白板/数学大纲与白板.canvas"

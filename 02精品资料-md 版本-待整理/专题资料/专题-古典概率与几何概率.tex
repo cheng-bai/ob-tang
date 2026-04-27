@@ -1,0 +1,206 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：古典概率与几何概率}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：古典概率与几何概率}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+概率论是研究随机现象数量规律的数学分支。古典概率与几何概率是概率计算的两种基本模型，为解决实际问题提供了重要的数学工具。
+
+\begin{definition}[随机事件]
+    在随机试验中，对一次试验可能出现也可能不出现，而在大量重复试验中具有某种规律性的事件称为\textbf{随机事件}（简称事件）。
+    
+    事件可以分为：
+    \begin{itemize}
+        \item \textbf{必然事件}：在一定条件下必然发生的事件，记作 $\Omega$
+        \item \textbf{不可能事件}：在一定条件下必然不发生的事件，记作 $\varnothing$
+        \item \textbf{随机事件}：在一定条件下可能发生也可能不发生的事件
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[古典概率]
+    设随机试验的样本空间 $\Omega$ 包含有限个基本事件，且每个基本事件发生的可能性相等（等可能性）。事件 $A$ 包含 $k$ 个基本事件，样本空间包含 $n$ 个基本事件，则事件 $A$ 发生的概率为
+    \[
+        P(A) = \frac{k}{n} = \frac{\text{事件 } A \text{ 包含的基本事件数}}{\text{样本空间包含的基本事件总数}}
+    \]
+    这种计算概率的方法称为\textbf{古典概型}。
+\end{definition}
+
+\begin{property}[古典概率的基本性质]
+    \begin{enumerate}
+        \item 非负性：对任意事件 $A$，有 $P(A) \geq 0$
+        \item 规范性：$P(\Omega) = 1$，$P(\varnothing) = 0$
+        \item 有限可加性：若事件 $A_1, A_2, \ldots, A_n$ 两两互斥，则
+        \[
+            P(A_1 \cup A_2 \cup \cdots \cup A_n) = P(A_1) + P(A_2) + \cdots + P(A_n)
+        \]
+        \item 对立事件概率：$P(\bar{A}) = 1 - P(A)$
+    \end{enumerate}
+\end{property}
+
+\begin{definition}[几何概率]
+    设随机试验的样本空间 $\Omega$ 是某个可度量的几何区域（如线段、平面区域、空间区域等），且每个样本点落入 $\Omega$ 的某个子区域 $A$ 的概率只与 $A$ 的度量（长度、面积、体积等）成正比，与 $A$ 的形状和位置无关，则事件 $A$ 发生的概率为
+    \[
+        P(A) = \frac{\mu(A)}{\mu(\Omega)} = \frac{\text{区域 } A \text{ 的度量}}{\text{区域 } \Omega \text{ 的度量}}
+    \]
+    这种计算概率的方法称为\textbf{几何概型}。
+\end{definition}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[古典概率基础计算]
+    从甲、乙、丙、丁 $4$ 名同学中随机抽取 $2$ 人参加志愿服务活动，求甲、乙两人中至少有一人被抽到的概率。
+\end{example}
+
+\textbf{解.} 从 $4$ 人中抽取 $2$ 人的所有基本事件数为 $C_4^2 = 6$。
+
+方法1（直接法）：甲、乙两人中至少有一人被抽到的情况包括：
+\begin{itemize}
+    \item 只有甲被抽到：$\{\text{甲}, \text{丙}\}$，$\{\text{甲}, \text{丁}\}$，共 $2$ 种
+    \item 只有乙被抽到：$\{\text{乙}, \text{丙}\}$，$\{\text{乙}, \text{丁}\}$，共 $2$ 种
+    \item 甲乙都被抽到：$\{\text{甲}, \text{乙}\}$，共 $1$ 种
+\end{itemize}
+
+共有 $2 + 2 + 1 = 5$ 种情况，因此所求概率为 $P = \dfrac{5}{6}$。
+
+方法2（间接法）：甲、乙两人都不被抽到的基本事件只有 $1$ 种：$\{\text{丙}, \text{丁}\}$。
+因此甲、乙两人中至少有一人被抽到的概率为 $P = 1 - \dfrac{1}{6} = \dfrac{5}{6}$。
+
+\begin{example}[古典概率与排列组合]
+    从 $1, 2, 3, 4, 5$ 这 $5$ 个数中任取 $3$ 个不同的数，求这 $3$ 个数能构成等差数列的概率。
+\end{example}
+
+\textbf{解.} 从 $5$ 个数中任取 $3$ 个不同的数，基本事件总数为 $C_5^3 = 10$。
+
+能构成等差数列的三元组有：
+\begin{itemize}
+    \item 公差为 $1$：$(1, 2, 3)$，$(2, 3, 4)$，$(3, 4, 5)$，共 $3$ 个
+    \item 公差为 $2$：$(1, 3, 5)$，共 $1$ 个
+\end{itemize}
+
+共有 $4$ 个基本事件能构成等差数列，因此所求概率为 $P = \dfrac{4}{10} = \dfrac{2}{5}$。
+
+\begin{example}[几何概率——面积型]
+    在边长为 $2$ 的正方形 $ABCD$ 中，以各顶点为圆心、半径为 $1$ 作圆弧，围成如图所示的阴影区域。若在正方形内随机取一点，求该点落在阴影区域内的概率。
+
+    \begin{center}
+    \begin{tikzpicture}[scale=1.2]
+        \draw[thick] (0,0) rectangle (2,2);
+        \draw[fill=gray!30] (0,0) arc (180:90:1) -- (0,0);
+        \draw[fill=gray!30] (2,0) arc (90:180:1) -- (2,0);
+        \draw[fill=gray!30] (2,2) arc (0:90:1) -- (2,2);
+        \draw[fill=gray!30] (0,2) arc (-90:0:1) -- (0,2);
+        \draw (0,0) arc (180:90:1);
+        \draw (2,0) arc (90:180:1);
+        \draw (2,2) arc (0:90:1);
+        \draw (0,2) arc (-90:0:1);
+        \node at (1,1) {阴影};
+        \node at (0,-0.2) {$A$};
+        \node at (2,-0.2) {$B$};
+        \node at (2,2.2) {$C$};
+        \node at (0,2.2) {$D$};
+    \end{tikzpicture}
+    \end{center}
+\end{example}
+
+\textbf{解.} 正方形面积为 $S_{\text{正方形}} = 2 \times 2 = 4$。
+
+四个角上的扇形（每个是半径为 $1$ 的 $90°$ 扇形）可以拼成一个完整的圆，其面积为 $S_{\text{圆}} = \pi \times 1^2 = \pi$。
+
+阴影区域面积 = 正方形面积 $-$ 四个扇形面积 $= 4 - \pi$。
+
+因此所求概率为 $P = \dfrac{4 - \pi}{4} = 1 - \dfrac{\pi}{4}$。
+
+\begin{realexam}[2025 上海高三二模]
+    抛掷一枚质地均匀的硬币 $n$ 次（其中 $n$ 为大于等于 $2$ 的整数），设事件 $A$ 表示"$n$ 次中既有正面朝上又有反面朝上"，事件 $B$ 表示"$n$ 次中至多有一次正面朝上"。若事件 $A$ 与事件 $B$ 是独立的，则 $n$ 的值为（ ）
+
+    A. $5$ \quad B. $4$ \quad C. $3$ \quad D. $2$
+\end{realexam}
+
+\textbf{解.} 抛掷一枚质地均匀的硬币 $n$ 次，所有可能的结果有 $2^n$ 种。
+
+事件 $A$（既有正面又有反面）的基本事件数为 $2^n - 2$（排除全正和全反），故 $P(A) = \dfrac{2^n - 2}{2^n} = 1 - \dfrac{1}{2^{n-1}}$。
+
+事件 $B$（至多有一次正面）的基本事件数为 $C_n^0 + C_n^1 = 1 + n$，故 $P(B) = \dfrac{n + 1}{2^n}$。
+
+事件 $A \cap B$（既有正又有反且至多一次正面）即恰好一次正面，基本事件数为 $C_n^1 = n$，故 $P(A \cap B) = \dfrac{n}{2^n}$。
+
+若 $A$ 与 $B$ 独立，则 $P(A \cap B) = P(A) \cdot P(B)$，即
+\[
+    \frac{n}{2^n} = \left(1 - \frac{1}{2^{n-1}}\right) \cdot \frac{n + 1}{2^n}
+\]
+
+化简得 $n = \left(1 - \dfrac{1}{2^{n-1}}\right)(n + 1) = \dfrac{2^{n-1} - 1}{2^{n-1}} \cdot (n + 1)$。
+
+即 $n \cdot 2^{n-1} = (2^{n-1} - 1)(n + 1) = (n + 1) \cdot 2^{n-1} - n - 1$。
+
+整理得 $n \cdot 2^{n-1} - (n + 1) \cdot 2^{n-1} = -n - 1$，即 $-2^{n-1} = -n - 1$。
+
+所以 $2^{n-1} = n + 1$。
+
+验证：$n = 2$ 时，$2^1 = 2 \neq 3$；$n = 3$ 时，$2^2 = 4 = 3 + 1$ ✓
+
+因此 $n = 3$，选 C。
+
+\begin{realexam}[练习]
+    在区间 $[0, 1]$ 上随机取两个数 $x$ 和 $y$，求满足 $x + y \leq 1$ 且 $xy \geq \dfrac{1}{4}$ 的概率。
+\end{realexam}
+
+\textbf{解.} 样本空间为 $\Omega = \{(x, y) \mid 0 \leq x \leq 1, 0 \leq y \leq 1\}$，其面积为 $S_\Omega = 1$。
+
+设事件 $A$ 为满足条件的区域，即
+\[
+    A = \left\{(x, y) \mid x + y \leq 1, xy \geq \frac{1}{4}, 0 \leq x \leq 1, 0 \leq y \leq 1\right\}
+\]
+
+由 $x + y \leq 1$ 和 $xy \geq \dfrac{1}{4}$，结合均值不等式 $x + y \geq 2\sqrt{xy} \geq 2 \cdot \dfrac{1}{2} = 1$。
+
+当且仅当 $x = y = \dfrac{1}{2}$ 时取等号。
+
+因此满足条件的点只有 $(\frac{1}{2}, \frac{1}{2})$ 这一个点，其面积为 $0$。
+
+故所求概率为 $P(A) = \dfrac{0}{1} = 0$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{古典概型的适用条件}：
+    \begin{itemize}
+        \item 样本空间包含有限个基本事件
+        \item 每个基本事件发生的可能性相等
+    \end{itemize}
+    计算关键是正确确定基本事件总数和事件 $A$ 包含的基本事件数，常需借助排列组合知识。
+    
+    \item \textbf{几何概型的适用条件}：
+    \begin{itemize}
+        \item 样本空间是无限的几何区域
+        \item 每个样本点落入某子区域的概率与该子区域的度量成正比
+    \end{itemize}
+    计算关键是正确确定样本空间和事件对应的几何区域的度量（长度、面积、体积）。
+    
+    \item \textbf{常用技巧}：
+    \begin{itemize}
+        \item 直接法：直接计算符合条件的基本事件数
+        \item 间接法（对立事件）：$P(A) = 1 - P(\bar{A})$，适用于"至少"、"至多"等问题
+        \item 分类讨论：将复杂事件分解为互斥的简单事件
+    \end{itemize}
+    
+    \item \textbf{易错点}：
+    \begin{itemize}
+        \item 区分有序与无序（排列与组合）
+        \item 注意是否放回抽样
+        \item 几何概型中注意边界点的处理
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

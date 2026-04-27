@@ -1,0 +1,249 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：柱体、锥体与球的表面积和体积}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：柱体、锥体与球的表面积和体积}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+空间几何体的表面积和体积计算是立体几何的重要内容，在高考中常以选择题、填空题的形式出现，也可能作为解答题的一部分。掌握各类几何体的计算公式及其应用是解决相关问题的关键。
+
+\begin{definition}[柱体的表面积与体积]
+    设柱体的底面积为 $S_{\text{底}}$，底面周长为 $C$，高为 $h$：
+    \begin{itemize}
+        \item \textbf{侧面积}：$S_{\text{侧}} = Ch$（直柱体）；
+        \item \textbf{表面积}：$S_{\text{表}} = S_{\text{侧}} + 2S_{\text{底}}$；
+        \item \textbf{体积}：$V = S_{\text{底}} \cdot h$。
+    \end{itemize}
+    
+    特别地，圆柱的侧面积 $S_{\text{侧}} = 2\pi rh$，体积 $V = \pi r^2 h$。
+\end{definition}
+
+\begin{definition}[锥体的表面积与体积]
+    设锥体的底面积为 $S_{\text{底}}$，底面周长为 $C$，斜高（或母线）为 $l$，高为 $h$：
+    \begin{itemize}
+        \item \textbf{侧面积}：$S_{\text{侧}} = \dfrac{1}{2}Cl$；
+        \item \textbf{表面积}：$S_{\text{表}} = S_{\text{侧}} + S_{\text{底}}$；
+        \item \textbf{体积}：$V = \dfrac{1}{3}S_{\text{底}} \cdot h$。
+    \end{itemize}
+    
+    特别地，圆锥的侧面积 $S_{\text{侧}} = \pi rl$，体积 $V = \dfrac{1}{3}\pi r^2 h$。
+\end{definition}
+
+\begin{definition}[球的表面积与体积]
+    设球的半径为 $R$：
+    \begin{itemize}
+        \item \textbf{表面积}：$S = 4\pi R^2$；
+        \item \textbf{体积}：$V = \dfrac{4}{3}\pi R^3$。
+    \end{itemize}
+\end{definition}
+
+\begin{property}[球的截面性质]
+    用一个平面去截球，所得的截面是一个圆：
+    \begin{itemize}
+        \item 当截面过球心时，所得截面为球的大圆，半径等于球的半径 $R$；
+        \item 当截面不过球心时，所得截面为球的小圆，设小圆半径为 $r$，球心到截面的距离为 $d$，则 $r^2 + d^2 = R^2$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[旋转体的形成]
+    \begin{itemize}
+        \item 圆柱：矩形绕其一边旋转一周形成；
+        \item 圆锥：直角三角形绕其一直角边旋转一周形成；
+        \item 圆台：直角梯形绕其垂直于底边的腰旋转一周形成；
+        \item 球：半圆绕其直径旋转一周形成。
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[圆柱的计算]
+    已知圆柱的高为 $4$，底面半径为 $3$，求：
+    \begin{enumerate}
+        \item 圆柱的表面积；
+        \item 圆柱的体积；
+        \item 圆柱侧面展开图的面积与对角线长。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 圆柱的侧面积 $S_{\text{侧}} = 2\pi rh = 2\pi \times 3 \times 4 = 24\pi$。
+
+底面积 $S_{\text{底}} = \pi r^2 = 9\pi$。
+
+表面积 $S_{\text{表}} = S_{\text{侧}} + 2S_{\text{底}} = 24\pi + 18\pi = 42\pi$。
+
+(2) 体积 $V = \pi r^2 h = \pi \times 9 \times 4 = 36\pi$。
+
+(3) 侧面展开图是矩形，长为底面周长 $2\pi r = 6\pi$，宽为圆柱的高 $h = 4$。
+
+展开图面积 $= 6\pi \times 4 = 24\pi$（即侧面积）。
+
+对角线长 $= \sqrt{(6\pi)^2 + 4^2} = \sqrt{36\pi^2 + 16} = 2\sqrt{9\pi^2 + 4}$。
+
+\begin{example}[圆锥的计算]
+    已知圆锥的底面半径为 $3$，高为 $4$，求：
+    \begin{enumerate}
+        \item 圆锥的侧面积；
+        \item 圆锥的体积；
+        \item 圆锥侧面展开图的圆心角。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} 圆锥的母线 $l = \sqrt{r^2 + h^2} = \sqrt{9 + 16} = 5$。
+
+(1) 侧面积 $S_{\text{侧}} = \pi rl = \pi \times 3 \times 5 = 15\pi$。
+
+(2) 体积 $V = \dfrac{1}{3}\pi r^2 h = \dfrac{1}{3}\pi \times 9 \times 4 = 12\pi$。
+
+(3) 侧面展开图是扇形，扇形弧长等于底面周长 $2\pi r = 6\pi$，扇形半径等于母线 $l = 5$。
+
+设圆心角为 $\alpha$（弧度），则 $\alpha \cdot l = 2\pi r$，即 $\alpha = \dfrac{2\pi r}{l} = \dfrac{6\pi}{5}$。
+
+所以圆心角为 $\dfrac{6\pi}{5}$（即 $216°$）。
+
+\begin{realexam}[2023 上海秋考]
+    某建筑公司欲设计一个正四棱锥形纪念碑，要求其顶点位于容积为 $36\pi$ 立方米的球形景观灯所在球面上。考虑到抗风、抗震等结构安全需求，侧棱长度 $l$ 需满足 $2\sqrt{3} \leq l \leq 3\sqrt{3}$。当纪念碑体积取得最大值时，正四棱锥的侧棱长约为多少米（精确到 $0.01$ 米）？
+\end{realexam}
+
+\textbf{解.} 设球的半径为 $R$，由 $\dfrac{4}{3}\pi R^3 = 36\pi$，得 $R = 3$。
+
+设正四棱锥底面边长为 $a$，高为 $h$，侧棱长为 $l$。
+
+由题意，顶点在球面上，设球心到底面的距离为 $d$，则 $|h - d| = R$（顶点在球面上）。
+
+若顶点在球心上方，则 $h = R + d = 3 + d$；若顶点在球心下方，则 $h = R - d = 3 - d$。
+
+底面中心到顶点的距离为 $h$，底面对角线的一半为 $\dfrac{\sqrt{2}}{2}a$，
+
+所以 $l^2 = h^2 + \left(\dfrac{\sqrt{2}}{2}a\right)^2 = h^2 + \dfrac{a^2}{2}$。
+
+又底面中心到球心的距离为 $d$，所以 $d^2 + \left(\dfrac{\sqrt{2}}{2}a\right)^2 = R^2 = 9$，
+
+即 $\dfrac{a^2}{2} = 9 - d^2$，所以 $a^2 = 18 - 2d^2$。
+
+正四棱锥体积 $V = \dfrac{1}{3}a^2 h = \dfrac{1}{3}(18 - 2d^2)h$。
+
+当顶点在球心上方时，$h = 3 + d$，则
+\[V = \dfrac{1}{3}(18 - 2d^2)(3 + d) = \dfrac{2}{3}(9 - d^2)(3 + d).\]
+
+由 $2\sqrt{3} \leq l \leq 3\sqrt{3}$，且 $l^2 = h^2 + \dfrac{a^2}{2} = (3+d)^2 + (9-d^2) = 18 + 6d$，
+
+得 $12 \leq 18 + 6d \leq 27$，即 $-1 \leq d \leq \dfrac{3}{2}$。结合 $d \geq 0$，得 $0 \leq d \leq \dfrac{3}{2}$。
+
+令 $f(d) = (9-d^2)(3+d) = 27 + 9d - 3d^2 - d^3$，求导得 $f'(d) = 9 - 6d - 3d^2 = -3(d^2 + 2d - 3) = -3(d+3)(d-1)$。
+
+当 $0 \leq d < 1$ 时，$f'(d) > 0$；当 $1 < d \leq \dfrac{3}{2}$ 时，$f'(d) < 0$。
+
+所以 $d = 1$ 时体积最大，此时 $l^2 = 18 + 6 = 24$，$l = 2\sqrt{6} \approx 4.90$。
+
+但 $2\sqrt{6} > 3\sqrt{3} \approx 5.20$？不对，$2\sqrt{6} = \sqrt{24} \approx 4.90 < 5.20$。
+
+检验边界：当 $d = \dfrac{3}{2}$ 时，$l^2 = 18 + 9 = 27$，$l = 3\sqrt{3}$，达到上限。
+
+当 $d = 0$ 时，$l^2 = 18$，$l = 3\sqrt{2} \approx 4.24 > 2\sqrt{3} \approx 3.46$，满足条件。
+
+比较 $d = 1$ 和边界值：$f(0) = 27$，$f(1) = 32$，$f\left(\dfrac{3}{2}\right) = \left(9 - \dfrac{9}{4}\right)\left(\dfrac{9}{2}\right) = \dfrac{27}{4} \times \dfrac{9}{2} = \dfrac{243}{8} = 30.375$。
+
+所以 $d = 1$ 时体积最大，此时 $l = \sqrt{24} = 2\sqrt{6} \approx 4.90$。
+
+因此，当纪念碑体积取得最大值时，正四棱锥的侧棱长约为 $4.90$ 米。
+
+\begin{realexam}[2024 上海一模]
+    已知球的半径为 $R$，一平面截球所得截面圆的半径为 $\dfrac{R}{2}$，求球心到这个截面的距离。
+\end{realexam}
+
+\textbf{解.} 设球心到截面的距离为 $d$，截面圆半径为 $r = \dfrac{R}{2}$。
+
+由球的截面性质：$r^2 + d^2 = R^2$，
+
+得 $\left(\dfrac{R}{2}\right)^2 + d^2 = R^2$，
+
+即 $\dfrac{R^2}{4} + d^2 = R^2$，
+
+所以 $d^2 = \dfrac{3R^2}{4}$，$d = \dfrac{\sqrt{3}R}{2}$。
+
+因此，球心到这个截面的距离为 $\dfrac{\sqrt{3}R}{2}$。
+
+\begin{example}[组合体的体积]
+    某几何体由圆柱和半球组合而成，圆柱的底面半径为 $r$，高为 $h$，半球的半径也为 $r$，且半球的底面与圆柱的上底面重合。若该组合体的表面积为 $S$，体积为 $V$，用 $r$ 和 $h$ 表示 $S$ 和 $V$。
+\end{example}
+
+\textbf{解.} 表面积组成：
+\begin{itemize}
+    \item 圆柱下底面：$\pi r^2$
+    \item 圆柱侧面：$2\pi rh$
+    \item 半球面：$2\pi r^2$（注意不是 $4\pi r^2$）
+\end{itemize}
+
+所以 $S = \pi r^2 + 2\pi rh + 2\pi r^2 = 3\pi r^2 + 2\pi rh$。
+
+体积组成：
+\begin{itemize}
+    \item 圆柱体积：$\pi r^2 h$
+    \item 半球体积：$\dfrac{2}{3}\pi r^3$
+\end{itemize}
+
+所以 $V = \pi r^2 h + \dfrac{2}{3}\pi r^3 = \pi r^2\left(h + \dfrac{2r}{3}\right)$。
+
+\begin{example}[练习]
+    一个正三棱锥的底面边长为 $6$，侧棱长为 $4$，求该三棱锥的体积和表面积。
+\end{example}
+
+\textbf{解.} 底面是边长为 $6$ 的正三角形，底面积 $S_{\text{底}} = \dfrac{\sqrt{3}}{4} \times 36 = 9\sqrt{3}$。
+
+底面中心到顶点的距离（斜高在底面的投影）：正三角形中心到顶点距离为 $\dfrac{\sqrt{3}}{3} \times 6 = 2\sqrt{3}$。
+
+三棱锥的高 $h = \sqrt{l^2 - (2\sqrt{3})^2} = \sqrt{16 - 12} = 2$。
+
+体积 $V = \dfrac{1}{3}S_{\text{底}} \cdot h = \dfrac{1}{3} \times 9\sqrt{3} \times 2 = 6\sqrt{3}$。
+
+侧面是三个全等的等腰三角形，底边为 $6$，腰为 $4$。
+
+斜高 $h_{\text{斜}} = \sqrt{4^2 - 3^2} = \sqrt{7}$。
+
+侧面积 $S_{\text{侧}} = 3 \times \dfrac{1}{2} \times 6 \times \sqrt{7} = 9\sqrt{7}$。
+
+表面积 $S_{\text{表}} = 9\sqrt{3} + 9\sqrt{7}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{柱体体积计算要点}：
+    \begin{itemize}
+        \item 关键是找准底面积和高；
+        \item 对于斜柱体，高是两底面之间的垂直距离，不是侧棱长；
+        \item 圆柱侧面展开为矩形，矩形的长等于底面周长，宽等于圆柱的高。
+    \end{itemize}
+    
+    \item \textbf{锥体体积计算要点}：
+    \begin{itemize}
+        \item 锥体体积是等底等高柱体体积的 $\dfrac{1}{3}$；
+        \item 圆锥侧面展开为扇形，扇形半径等于母线，弧长等于底面周长；
+        \item 圆台可看作大圆锥截去小圆锥得到。
+    \end{itemize}
+    
+    \item \textbf{球的计算要点}：
+    \begin{itemize}
+        \item 牢记球的表面积公式 $S = 4\pi R^2$ 和体积公式 $V = \dfrac{4}{3}\pi R^3$；
+        \item 球的截面问题中，核心关系是 $r^2 + d^2 = R^2$；
+        \item 球内接正方体：正方体对角线等于球的直径。
+    \end{itemize}
+    
+    \item \textbf{组合体处理策略}：
+    \begin{itemize}
+        \item 分割法：将组合体分割成若干基本几何体；
+        \item 补形法：将不规则几何体补成规则几何体；
+        \item 注意重叠部分的面积或体积需要扣除。
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第9章 复数 - 幻灯片9-12</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #1a1a2e;
+            color: #f5f5f5;
+        }
+        
+        .slide {
+            width: 1920px;
+            height: 1080px;
+            margin: 20px auto;
+            background: linear-gradient(135deg, #1C2B1C 0%, #1A1A1A 100%);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            padding: 60px 80px;
+        }
+        
+        /* 内容页样式 */
+        .slide-content h2 {
+            font-size: 56px;
+            color: #FFE566;
+            margin-bottom: 50px;
+            padding-bottom: 20px;
+            border-bottom: 4px solid #FFE566;
+        }
+        
+        .slide-content .content-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .formula-box {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 40px;
+            border: 2px solid rgba(255,255,255,0.1);
+        }
+        
+        .formula {
+            font-size: 48px;
+            font-family: "Latin Modern Math", "Times New Roman", serif;
+            text-align: center;
+            color: #F5F5F5;
+        }
+        
+        .formula .real { color: #90EE90; }
+        .formula .imag { color: #FF9999; }
+        .formula .unit { color: #66B3FF; font-style: italic; }
+        .formula .highlight { color: #FFE566; }
+        .formula .conj { color: #FFB6C1; }
+        
+        .explanation {
+            font-size: 32px;
+            line-height: 1.8;
+            color: #F5F5F5;
+        }
+        
+        .explanation .key-point {
+            color: #FFB366;
+            font-weight: 600;
+        }
+        
+        .two-column {
+            display: flex;
+            gap: 60px;
+            flex: 1;
+        }
+        
+        .column {
+            flex: 1;
+            background: rgba(255,255,255,0.03);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        
+        .column h3 {
+            font-size: 36px;
+            color: #66B3FF;
+            margin-bottom: 24px;
+        }
+        
+        .column ul {
+            list-style: none;
+            font-size: 28px;
+            line-height: 2;
+        }
+        
+        .column ul li {
+            padding-left: 40px;
+            position: relative;
+        }
+        
+        .column ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #90EE90;
+        }
+        
+        /* 例题样式 */
+        .example-box {
+            background: rgba(102, 179, 255, 0.1);
+            border-left: 6px solid #66B3FF;
+            padding: 30px 40px;
+            border-radius: 0 16px 16px 0;
+            margin-bottom: 30px;
+        }
+        
+        .example-box .question {
+            font-size: 32px;
+            color: #F5F5F5;
+            margin-bottom: 20px;
+        }
+        
+        .example-box .answer {
+            font-size: 28px;
+            color: #90EE90;
+            line-height: 1.8;
+        }
+        
+        .example-box .answer-step {
+            font-size: 26px;
+            color: #F5F5F5;
+            line-height: 2;
+            margin-top: 15px;
+        }
+        
+        /* 概念卡片 */
+        .concept-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 20px;
+            padding: 40px;
+            border: 2px solid rgba(255,255,255,0.1);
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .concept-card h4 {
+            font-size: 32px;
+            color: #FFE566;
+            margin-bottom: 10px;
+        }
+        
+        .concept-card p {
+            font-size: 26px;
+            color: rgba(255,255,255,0.9);
+            line-height: 1.8;
+        }
+        
+        /* 性质列表 */
+        .property-list {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        
+        .property-item {
+            background: rgba(255,182,193,0.1);
+            border-left: 4px solid #FFB6C1;
+            padding: 20px 30px;
+            border-radius: 0 12px 12px 0;
+        }
+        
+        .property-item .prop-formula {
+            font-size: 32px;
+            font-family: "Latin Modern Math", "Times New Roman", serif;
+            color: #FFB6C1;
+            margin-bottom: 10px;
+        }
+        
+        .property-item .prop-desc {
+            font-size: 24px;
+            color: rgba(255,255,255,0.8);
+        }
+        
+        /* 分类讨论框 */
+        .case-box {
+            background: rgba(255,229,102,0.08);
+            border: 2px solid #FFE566;
+            border-radius: 16px;
+            padding: 30px;
+            margin: 15px 0;
+        }
+        
+        .case-box .case-title {
+            font-size: 28px;
+            color: #FFE566;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .case-box .case-content {
+            font-size: 26px;
+            color: #F5F5F5;
+            line-height: 1.8;
+        }
+        
+        /* 打印样式 */
+        @media print {
+            .slide {
+                margin: 0;
+                box-shadow: none;
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- 第9页：例题1 - 计算示范 -->
+<div class="slide slide-content">
+    <h2>例题1：复数计算示范</h2>
+    <div class="content-body">
+        <div class="example-box">
+            <div class="question">
+                <strong>【题目】</strong> 已知 z₁ = <span class="real">3</span> + <span class="imag">2</span><span class="unit">i</span>，z₂ = <span class="real">1</span> - <span class="imag">4</span><span class="unit">i</span>，求：<br>
+                (1) z₁ + z₂ &nbsp;&nbsp; (2) z₁ - z₂ &nbsp;&nbsp; (3) z₁ · z₂ &nbsp;&nbsp; (4) z₁ ÷ z₂
+            </div>
+        </div>
+        
+        <div class="two-column">
+            <div class="column">
+                <h3>加减法运算</h3>
+                <div class="answer-step">
+                    <p><strong>(1) 加法：</strong></p>
+                    <p>z₁ + z₂ = (<span class="real">3</span>+<span class="real">1</span>) + (<span class="imag">2</span>-<span class="imag">4</span>)<span class="unit">i</span></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="real">4</span> - <span class="imag">2</span><span class="unit">i</span></p>
+                    <br>
+                    <p><strong>(2) 减法：</strong></p>
+                    <p>z₁ - z₂ = (<span class="real">3</span>-<span class="real">1</span>) + (<span class="imag">2</span>+<span class="imag">4</span>)<span class="unit">i</span></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="real">2</span> + <span class="imag">6</span><span class="unit">i</span></p>
+                </div>
+            </div>
+            <div class="column">
+                <h3>乘除法运算</h3>
+                <div class="answer-step">
+                    <p><strong>(3) 乘法：</strong></p>
+                    <p>z₁ · z₂ = <span class="real">3</span>·<span class="real">1</span> + <span class="real">3</span>·(-<span class="imag">4</span><span class="unit">i</span>) + <span class="imag">2</span><span class="unit">i</span>·<span class="real">1</span> + <span class="imag">2</span><span class="unit">i</span>·(-<span class="imag">4</span><span class="unit">i</span>)</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="real">3</span> - <span class="imag">12</span><span class="unit">i</span> + <span class="imag">2</span><span class="unit">i</span> + <span class="highlight">8</span></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= <span class="real">11</span> - <span class="imag">10</span><span class="unit">i</span></p>
+                    <br>
+                    <p><strong>(4) 除法：</strong> 分子分母同乘 z₂ 的共轭</p>
+                    <p style="font-size: 22px;">z₁/z₂ = (3+2i)(1+4i) / [(1-4i)(1+4i)] = (-5+14i) / 17</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 第10页：实部虚部与共轭复数 -->
+<div class="slide slide-content">
+    <h2>实部、虚部与共轭复数</h2>
+    <div class="content-body">
+        <div class="two-column">
+            <div class="column">
+                <h3>复数的结构</h3>
+                <div class="formula-box" style="margin-bottom: 20px;">
+                    <div class="formula" style="font-size: 42px;">
+                        z = <span class="real">a</span> + <span class="imag">b</span><span class="unit">i</span>
+                    </div>
+                </div>
+                <ul style="font-size: 26px;">
+                    <li>Re(z) = <span class="real">a</span> —— <span class="real">实部</span>（Real part）</li>
+                    <li>Im(z) = <span class="imag">b</span> —— <span class="imag">虚部系数</span>（Imaginary part）</li>
+                    <li>当 <span class="imag">b</span> = 0 时，z 是<span class="real">实数</span></li>
+                    <li>当 <span class="imag">b</span> ≠ 0 时，z 是<span class="imag">虚数</span></li>
+                    <li>当 <span class="real">a</span>=0 且 <span class="imag">b</span>≠0 时，z 是<span class="highlight">纯虚数</span></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>共轭复数</h3>
+                <div class="formula-box" style="background: rgba(255,182,193,0.1); border-color: #FFB6C1; margin-bottom: 20px;">
+                    <div class="formula" style="font-size: 42px;">
+                        <span class="conj">z̄</span> = <span class="real">a</span> - <span class="imag">b</span><span class="unit">i</span>
+                    </div>
+                </div>
+                <ul style="font-size: 26px;">
+                    <li>实部相同，虚部<span class="conj">互为相反数</span></li>
+                    <li>z + <span class="conj">z̄</span> = <span class="real">2a</span>（实数）</li>
+                    <li>z - <span class="conj">z̄</span> = <span class="imag">2b</span><span class="unit">i</span>（纯虚数）</li>
+                    <li>z · <span class="conj">z̄</span> = <span class="real">a</span>² + <span class="imag">b</span>²（实数，≥0）</li>
+                    <li>用于<span class="key-point">分母实数化</span></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="formula-box" style="margin-top: 20px; background: rgba(255,229,102,0.08); border-color: #FFE566;">
+            <div class="explanation" style="text-align: center; font-size: 28px;">
+                <strong>重要关系：</strong> z 是实数 ⟺ z = <span class="conj">z̄</span> &nbsp;&nbsp;|&nbsp;&nbsp; z 是纯虚数 ⟺ z + <span class="conj">z̄</span> = 0 且 z ≠ 0
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 第11页：共轭复数性质 -->
+<div class="slide slide-content">
+    <h2>共轭复数的性质</h2>
+    <div class="content-body">
+        <div class="property-list">
+            <div class="property-item">
+                <div class="prop-formula">
+                    <span class="conj">z̄̄</span> = z
+                </div>
+                <div class="prop-desc">双重共轭等于自身（对合性质）</div>
+            </div>
+            
+            <div class="property-item">
+                <div class="prop-formula">
+                    <span class="conj">z₁ + z₂ 的共轭</span> = <span class="conj">z₁̄</span> + <span class="conj">z₂̄</span>
+                </div>
+                <div class="prop-desc">加法与共轭可交换</div>
+            </div>
+            
+            <div class="property-item">
+                <div class="prop-formula">
+                    <span class="conj">z₁ - z₂ 的共轭</span> = <span class="conj">z₁̄</span> - <span class="conj">z₂̄</span>
+                </div>
+                <div class="prop-desc">减法与共轭可交换</div>
+            </div>
+            
+            <div class="property-item">
+                <div class="prop-formula">
+                    <span class="conj">z₁ · z₂ 的共轭</span> = <span class="conj">z₁̄</span> · <span class="conj">z₂̄</span>
+                </div>
+                <div class="prop-desc">乘法与共轭可交换</div>
+            </div>
+            
+            <div class="property-item">
+                <div class="prop-formula">
+                    <span class="conj">(z₁/z₂) 的共轭</span> = <span class="conj">z₁̄</span> / <span class="conj">z₂̄</span> &nbsp;&nbsp;(z₂ ≠ 0)
+                </div>
+                <div class="prop-desc">除法与共轭可交换</div>
+            </div>
+        </div>
+        
+        <div class="formula-box" style="margin-top: 30px; background: rgba(144,238,144,0.1); border-color: #90EE90;">
+            <div class="explanation" style="text-align: center; font-size: 30px;">
+                <span class="key-point">核心结论：</span>取共轭运算与四则运算<span class="highlight">可交换</span>，即运算后再取共轭 = 先取共轭再运算
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 第12页：例题2 - 分类讨论 -->
+<div class="slide slide-content">
+    <h2>例题2：复数分类讨论</h2>
+    <div class="content-body">
+        <div class="example-box">
+            <div class="question">
+                <strong>【题目】</strong> 设复数 z = (<span class="real">m</span>² - <span class="real">5</span><span class="real">m</span> + <span class="real">6</span>) + (<span class="imag">m</span>² - <span class="imag">3</span><span class="imag">m</span>)<span class="unit">i</span>，求实数 <span class="real">m</span> 的值，使得：<br>
+                (1) z 是实数 &nbsp;&nbsp; (2) z 是虚数 &nbsp;&nbsp; (3) z 是纯虚数
+            </div>
+        </div>
+        
+        <div class="two-column">
+            <div class="column" style="padding: 30px;">
+                <div class="case-box">
+                    <div class="case-title">情况 (1)：z 是实数</div>
+                    <div class="case-content">
+                        虚部 = 0：<span class="imag">m</span>² - <span class="imag">3</span><span class="imag">m</span> = 0<br>
+                        <span class="imag">m</span>(<span class="imag">m</span> - 3) = 0<br>
+                        ∴ <span class="highlight">m = 0 或 m = 3</span>
+                    </div>
+                </div>
+                
+                <div class="case-box">
+                    <div class="case-title">情况 (2)：z 是虚数</div>
+                    <div class="case-content">
+                        虚部 ≠ 0：<span class="imag">m</span>² - <span class="imag">3</span><span class="imag">m</span> ≠ 0<br>
+                        ∴ <span class="highlight">m ≠ 0 且 m ≠ 3</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column" style="padding: 30px;">
+                <div class="case-box" style="border-color: #FF9999;">
+                    <div class="case-title" style="color: #FF9999;">情况 (3)：z 是纯虚数</div>
+                    <div class="case-content">
+                        需同时满足：<br>
+                        ① 实部 = 0：<span class="real">m</span>² - <span class="real">5</span><span class="real">m</span> + <span class="real">6</span> = 0<br>
+                        &nbsp;&nbsp;&nbsp;(<span class="real">m</span>-2)(<span class="real">m</span>-3) = 0 → <span class="real">m</span> = 2 或 3<br><br>
+                        ② 虚部 ≠ 0：<span class="imag">m</span> ≠ 0 且 <span class="imag">m</span> ≠ 3<br><br>
+                        综合①②：∴ <span class="highlight">m = 2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="formula-box" style="background: rgba(255,182,193,0.1); border-color: #FFB6C1;">
+            <div class="explanation" style="text-align: center; font-size: 26px;">
+                <strong>解题关键：</strong>纯虚数需要<span class="key-point">同时满足</span>：① 实部为零 ② 虚部不为零
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 打印时自动分页
+    window.onload = function() {
+        if (window.matchMedia) {
+            var mediaQueryList = window.matchMedia('print');
+            mediaQueryList.addListener(function(mql) {
+                if (mql.matches) {
+                    document.body.style.background = 'white';
+                }
+            });
+        }
+    };
+</script>
+
+</body>
+</html>

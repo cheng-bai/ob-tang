@@ -1,0 +1,68 @@
+% ======================================
+% 04-math-commands.tex - 数学命令与优化
+% ======================================
+
+% ========== 常用数学命令 ==========
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\sep}{\text{ · \ }}
+
+% 不等式符号优化
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+
+% ========== 行距与间距优化 ==========
+\AddToHook{env/pmatrix/before}{\linespread{1.2}\selectfont}
+\AddToHook{env/bmatrix/before}{\linespread{1.2}\selectfont}
+\AddToHook{env/vmatrix/before}{\linespread{1.2}\selectfont}
+\AddToHook{env/dcases/before}{\linespread{1.25}\selectfont}
+\AddToHook{env/enumerate/before}{\linespread{1.4}\selectfont}
+\AddToHook{env/enumerate/before}
+{\vrule width 0em height 0cm depth 0.5cm}
+
+\AddToHook{env/pmatrix/after}
+{\vrule width 0em height 0cm depth 1.5cm}
+\AddToHook{env/bmatrix/after}
+{\vrule width 0em height 0em depth 1.5em}
+\AddToHook{env/vmatrix/after}
+{\vrule width 0em height 0em depth 1.5em}
+\AddToHook{env/dcases/after}
+{\vrule width 0em height 2em depth 2em}
+
+% ========== 公式样式优化 ==========
+\let\olddfrac\dfrac
+\renewcommand{\dfrac}[2]{
+    \olddfrac{#1\vrule width 0pt height 1.15em depth 0em}{#2\vrule width 0pt height 0em depth 0.6em}
+}
+
+\let\oldlim\lim
+\renewcommand{\lim}{\displaystyle\oldlim}
+\let\oldint\int
+\renewcommand{\int}{\displaystyle{\vrule width 0pt height 0em depth 0em}\oldint}
+\let\oldiint\iint
+\renewcommand{\iint}{\displaystyle{\vrule width 0pt height 0em depth 0em}\oldiint}
+\let\oldiiint\iiint
+\renewcommand{\iiint}{\displaystyle{\vrule width 0pt height 0em depth 0em}\oldiiint}
+\let\oldoint\oint
+\renewcommand{\oint}{\displaystyle{\vrule width 0pt height 1.5em depth 1.5em}\oldoint}
+\let\oldoiint\oiint
+\renewcommand{\oiint}{\displaystyle{\vrule width 0pt height 1.5em depth 1.5em}\oldoiint}
+\let\oldsum\sum
+\renewcommand{\sum}{\displaystyle\oldsum}
+
+% ========== pgfplots 设置 ==========
+\pgfplotsset{
+    every axis x label/.style={
+        at={(ticklabel* cs:1)},
+        anchor=west,
+    },
+    every axis y label/.style={
+        at={(ticklabel* cs:1)},
+        anchor=south,
+    }
+}

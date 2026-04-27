@@ -1,0 +1,308 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "高中数学教材知识图谱Schema",
+  "description": "定义知识节点和关系的结构规范",
+  "version": "1.0.0",
+
+  "definitions": {
+    "KnowledgeNode": {
+      "type": "object",
+      "required": ["id", "name", "type", "chapter", "textbook"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "节点唯一标识符，格式：教材册-章节-知识点名称",
+          "pattern": "^(必修一|必修二|必修三|选择性必修一|选择性必修二|选择性必修三|选修)-[0-9]+\\.[0-9]+-[\\u4e00-\\u9fa5]+$"
+        },
+        "name": {
+          "type": "string",
+          "description": "知识点名称"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["概念", "定理", "公式", "方法", "例题", "习题", "拓展"],
+          "description": "知识点类型"
+        },
+        "chapter": {
+          "type": "string",
+          "description": "所属章节"
+        },
+        "textbook": {
+          "type": "string",
+          "enum": ["必修第一册", "必修第二册", "必修第三册", "选择性必修第一册", "选择性必修第二册", "选择性必修第三册", "选修"],
+          "description": "所属教材册"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "标签列表，用于分类和检索"
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "前置知识节点ID列表"
+        },
+        "related": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "相关知识点节点ID列表"
+        },
+        "content_summary": {
+          "type": "string",
+          "description": "内容摘要"
+        },
+        "difficulty": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "难度等级：1-5"
+        },
+        "importance": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5,
+          "description": "重要程度：1-5"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "创建时间"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "更新时间"
+        }
+      }
+    },
+
+    "RelationType": {
+      "type": "string",
+      "enum": [
+        "prerequisite",
+        "related",
+        "extends",
+        "example",
+        "application",
+        "prerequisite_of",
+        "parent",
+        "child"
+      ],
+      "description": "关系类型定义"
+    },
+
+    "KnowledgeEdge": {
+      "type": "object",
+      "required": ["source", "target", "relation"],
+      "properties": {
+        "source": {
+          "type": "string",
+          "description": "源节点ID"
+        },
+        "target": {
+          "type": "string",
+          "description": "目标节点ID"
+        },
+        "relation": {
+          "$ref": "#/definitions/RelationType"
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "关系权重，表示关联强度"
+        },
+        "description": {
+          "type": "string",
+          "description": "关系描述"
+        }
+      }
+    },
+
+    "TextbookVolume": {
+      "type": "object",
+      "required": ["id", "name", "grade", "semester"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "教材册标识"
+        },
+        "name": {
+          "type": "string",
+          "description": "教材册名称"
+        },
+        "grade": {
+          "type": "string",
+          "enum": ["高一", "高二", "高三"],
+          "description": "适用年级"
+        },
+        "semester": {
+          "type": "string",
+          "enum": ["上学期", "下学期"],
+          "description": "适用学期"
+        },
+        "chapters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Chapter"
+          },
+          "description": "章节列表"
+        }
+      }
+    },
+
+    "Chapter": {
+      "type": "object",
+      "required": ["id", "name", "order"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "章节标识"
+        },
+        "name": {
+          "type": "string",
+          "description": "章节名称"
+        },
+        "order": {
+          "type": "integer",
+          "description": "章节序号"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Section"
+          },
+          "description": "小节列表"
+        }
+      }
+    },
+
+    "Section": {
+      "type": "object",
+      "required": ["id", "name", "order"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "小节标识"
+        },
+        "name": {
+          "type": "string",
+          "description": "小节名称"
+        },
+        "order": {
+          "type": "integer",
+          "description": "小节序号"
+        },
+        "knowledge_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "包含的知识点ID列表"
+        }
+      }
+    }
+  },
+
+  "type": "object",
+  "required": ["nodes", "edges", "volumes"],
+  "properties": {
+    "nodes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/KnowledgeNode"
+      },
+      "description": "知识节点列表"
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/KnowledgeEdge"
+      },
+      "description": "知识关系边列表"
+    },
+    "volumes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/TextbookVolume"
+      },
+      "description": "教材册列表"
+    },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "description": "图谱版本"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "创建时间"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time",
+          "description": "更新时间"
+        },
+        "total_nodes": {
+          "type": "integer",
+          "description": "节点总数"
+        },
+        "total_edges": {
+          "type": "integer",
+          "description": "边总数"
+        }
+      }
+    }
+  },
+
+  "relationDefinitions": {
+    "prerequisite": {
+      "description": "前置知识关系，表示学习当前知识点前需要掌握的知识",
+      "direction": "单向",
+      "example": "集合的表示法 -> prerequisite -> 集合的概念"
+    },
+    "related": {
+      "description": "相关知识点关系，表示知识点之间的横向关联",
+      "direction": "双向",
+      "example": "集合的概念 <-> related <-> 集合的运算"
+    },
+    "extends": {
+      "description": "延伸拓展关系，表示知识点的深化和扩展",
+      "direction": "单向",
+      "example": "集合的概念 -> extends -> 集合的幂集"
+    },
+    "example": {
+      "description": "例题关系，表示概念与例题之间的关联",
+      "direction": "单向",
+      "example": "集合的概念 -> example -> 集合例题1"
+    },
+    "application": {
+      "description": "应用关系，表示知识在实际问题中的应用",
+      "direction": "单向",
+      "example": "函数的概念 -> application -> 实际问题建模"
+    },
+    "prerequisite_of": {
+      "description": "被依赖关系，prerequisite的反向关系",
+      "direction": "单向",
+      "example": "集合的概念 -> prerequisite_of -> 集合的表示法"
+    },
+    "parent": {
+      "description": "父节点关系，表示知识点的层级包含",
+      "direction": "单向",
+      "example": "第1章 -> parent -> 1.1节"
+    },
+    "child": {
+      "description": "子节点关系，parent的反向关系",
+      "direction": "单向",
+      "example": "1.1节 -> child -> 第1章"
+    }
+  }
+}

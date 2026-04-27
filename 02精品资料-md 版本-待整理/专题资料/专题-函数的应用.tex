@@ -1,0 +1,196 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：函数的应用}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：函数的应用}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+函数是描述现实世界变化规律的重要数学模型。幂函数、指数函数、对数函数在实际问题中有广泛应用，如人口增长、放射性衰变、复利计算、声音强度等。
+
+\begin{definition}[指数增长模型]
+    若某量的增长率与当前量成正比，则该量满足\textbf{指数增长模型}：
+    \[
+        y = y_0 \cdot a^x \quad (a > 1)
+    \]
+    其中 $y_0$ 为初始量，$a$ 为增长因子，$x$ 为时间或次数。
+    
+    典型应用：人口增长（马尔萨斯模型）、细菌繁殖、复利计算。
+\end{definition}
+
+\begin{definition}[指数衰减模型]
+    若某量的衰减率与当前量成正比，则该量满足\textbf{指数衰减模型}：
+    \[
+        y = y_0 \cdot a^x \quad (0 < a < 1)
+    \]
+    典型应用：放射性衰变、药物代谢、冷却定律。
+    
+    特别地，半衰期 $T$ 满足：$y = y_0 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{T}}$。
+\end{definition}
+
+\begin{definition}[对数模型]
+    当某量的增长速率随其增大而减慢时，常用\textbf{对数模型}描述：
+    \[
+        y = a \cdot \ln x + b \quad \text{或} \quad y = a \cdot \lg x + b
+    \]
+    典型应用：地震震级（里氏震级）、声音强度（分贝）、酸碱度（pH值）。
+\end{definition}
+
+\begin{definition}[逻辑斯蒂模型]
+    考虑环境承载能力的限制，人口增长常用\textbf{逻辑斯蒂模型}：
+    \[
+        x'(t) = r_0 \cdot x(t) \cdot \left(1 - \dfrac{x(t)}{N}\right)
+    \]
+    其中 $r_0$ 为最大瞬时增长率，$N$ 为环境最大承载量。
+\end{definition}
+
+\begin{property}[常用数学模型]
+    \begin{enumerate}
+        \item \textbf{线性函数模型}：$y = kx + b$，适用于均匀变化的问题；
+        \item \textbf{二次函数模型}：$y = ax^2 + bx + c$，适用于最值问题；
+        \item \textbf{幂函数模型}：$y = kx^\alpha$，适用于比例关系问题；
+        \item \textbf{分段函数模型}：适用于不同区间有不同规律的问题。
+    \end{enumerate}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[复利计算]
+    某银行定期存款年利率为 $3.5\%$，按年复利计算。若存入本金 $10000$ 元，
+    \begin{enumerate}
+        \item 求 $5$ 年后的本利和；
+        \item 至少存多少年，本利和能超过 $15000$ 元？（$\lg 2 \approx 0.301$，$\lg 1.035 \approx 0.015$）
+    \end{enumerate}
+    
+    \textbf{【来源】练习}
+\end{example}
+
+\textbf{解.} (1) 复利公式：$A = P(1+r)^n = 10000 \times (1.035)^5$。
+
+计算：$(1.035)^5 \approx 1.1877$，所以 $A \approx 11877$ 元。
+
+(2) 设存 $n$ 年，本利和超过 $15000$ 元：
+
+$10000 \times (1.035)^n > 15000$
+
+$(1.035)^n > 1.5$
+
+两边取对数：$n \cdot \lg 1.035 > \lg 1.5 = \lg 3 - \lg 2 = 0.477 - 0.301 = 0.176$
+
+$n > \dfrac{0.176}{0.015} \approx 11.7$
+
+所以至少存 $12$ 年。
+
+\begin{example}[半衰期问题]
+    某放射性元素经过 $100$ 年后剩余原来质量的 $95.76\%$，求该元素的半衰期。（精确到年）
+    
+    \textbf{【来源】练习}
+\end{example}
+
+\textbf{解.} 设半衰期为 $T$ 年，初始质量为 $m_0$，则经过 $t$ 年后剩余质量为：
+
+$m = m_0 \cdot \left(\dfrac{1}{2}\right)^{\frac{t}{T}}$
+
+由题意：$0.9576 = \left(\dfrac{1}{2}\right)^{\frac{100}{T}}$
+
+两边取对数：$\ln 0.9576 = \dfrac{100}{T} \cdot \ln \dfrac{1}{2} = -\dfrac{100}{T} \cdot \ln 2$
+
+$\ln 0.9576 \approx -0.0433$，$\ln 2 \approx 0.693$
+
+所以 $-0.0433 = -\dfrac{100}{T} \times 0.693$
+
+$T = \dfrac{100 \times 0.693}{0.0433} \approx 1600$ 年。
+
+\begin{example}[声音强度]
+    声音的强度级 $L$（单位：分贝，dB）与声音强度 $I$（单位：$\mathrm{W/m^2}$）的关系为：
+    \[
+        L = 10 \lg \dfrac{I}{I_0}
+    \]
+    其中 $I_0 = 10^{-12} \mathrm{W/m^2}$ 为听觉阈值。若某安静办公室的声音强度级为 $50$ dB，某繁忙街道的声音强度级为 $80$ dB，求街道声音强度是办公室的多少倍？
+    
+    \textbf{【来源】练习}
+\end{example}
+
+\textbf{解.} 设办公室声音强度为 $I_1$，街道声音强度为 $I_2$。
+
+由 $L = 10 \lg \dfrac{I}{I_0}$，得 $\dfrac{L}{10} = \lg \dfrac{I}{I_0}$，即 $\dfrac{I}{I_0} = 10^{\frac{L}{10}}$。
+
+所以 $I = I_0 \cdot 10^{\frac{L}{10}}$。
+
+$\dfrac{I_2}{I_1} = \dfrac{I_0 \cdot 10^{\frac{80}{10}}}{I_0 \cdot 10^{\frac{50}{10}}} = \dfrac{10^8}{10^5} = 10^3 = 1000$。
+
+所以街道声音强度是办公室的 $1000$ 倍。
+
+\begin{realexam}[2025 松江一模]
+    交通信号灯由红灯、绿灯、黄灯组成。黄灯设置的时长与路口宽度、限定速度、停车距离有关。根据路况不同，道路的限定速度一般在 $30$ 千米/小时至 $70$ 千米/小时之间。由相关数据，驾驶员反应距离 $s_1$（单位：米）关于车速 $v$（单位：米/秒）的函数模型为：$s_1 = 0.7584v$；刹车距离 $s_2$（单位：米）关于车速 $v$（单位：米/秒）的函数模型为：$s_2 = 0.072v^2$，反应距离与刹车距离之和称为停车距离。已知某个十字路口宽度为 $30$ 米，为保证通行安全，黄灯亮的时间是允许限速车辆离停车线距离小于停车距离的汽车通过十字路口，则该路口黄灯亮的时间最多为\_\_\_\_\_秒（结果精确到 $0.01$ 秒）。
+\end{realexam}
+
+\textbf{解.} 首先将限速转换为米/秒：
+
+$30$ 千米/小时 $= \dfrac{30 \times 1000}{3600} = \dfrac{25}{3}$ 米/秒
+
+$70$ 千米/小时 $= \dfrac{70 \times 1000}{3600} = \dfrac{175}{9}$ 米/秒
+
+停车距离 $s = s_1 + s_2 = 0.7584v + 0.072v^2$。
+
+黄灯亮的时间 $t$ 需满足：车辆以速度 $v$ 通过路口宽度 $30$ 米，且起始位置在停车距离内。
+
+即 $v \cdot t = s + 30 = 0.7584v + 0.072v^2 + 30$。
+
+所以 $t = \dfrac{0.7584v + 0.072v^2 + 30}{v} = 0.7584 + 0.072v + \dfrac{30}{v}$。
+
+求 $t$ 的最大值（在 $v \in \left[\dfrac{25}{3}, \dfrac{175}{9}\right]$ 上）：
+
+令 $f(v) = 0.072v + \dfrac{30}{v}$，$f'(v) = 0.072 - \dfrac{30}{v^2}$。
+
+令 $f'(v) = 0$，得 $v^2 = \dfrac{30}{0.072} = \dfrac{30000}{72} = \dfrac{1250}{3} \approx 416.67$。
+
+$v \approx 20.41$ 米/秒 $= 20.41 \times 3.6 \approx 73.5$ 千米/小时，超出限速范围。
+
+所以在限速范围内，$f(v)$ 单调递增（因为 $v < 20.41$ 时 $f'(v) < 0$？重新计算：
+
+$v = \dfrac{25}{3} \approx 8.33$，$v = \dfrac{175}{9} \approx 19.44$，都在 $20.41$ 左侧。
+
+当 $v < 20.41$ 时，$f'(v) < 0$，所以 $f(v)$ 在限速范围内单调递减。
+
+因此 $t$ 在 $v = \dfrac{25}{3}$ 时取最大值：
+
+$t_{\max} = 0.7584 + 0.072 \times \dfrac{25}{3} + \dfrac{30}{\frac{25}{3}} = 0.7584 + 0.6 + 3.6 = 4.9584 \approx 4.96$ 秒。
+
+\begin{realexam}[2025 虹口二模]
+    1798 年，人口学家马尔萨斯假设：单位时间内的人口增长量 $x'(t)$ 与人口数 $x(t)$ 成正比，进而建立马尔萨斯人口增长模型。19 世纪中叶的生物学家们发现由于人类生存条件的限制，存在最大瞬时增长率 $r_0$，当达到 $r_0$ 时，人口增长率 $r$ 会随着 $x(t)$ 的增长而下降，因此需要改进马尔萨斯的假设。他们假设：(1) $x(t)$ 是随着时间 $t$ 连续变化的函数；(2) 存在最大人口数 $N$，人口数达到 $N$ 时，$r = 0$；(3) $x'(t)$ 仅与 $r$ 和 $x(t)$ 有关；(4) $r = r_0 - k \cdot x(t)$（$k > 0$），那么在这些条件下建立的人口增长模型 $x'(t) =$ \_\_\_\_\_。
+\end{realexam}
+
+\textbf{解.} 由假设(4)：$r = r_0 - k \cdot x(t)$。
+
+由假设(2)：当 $x(t) = N$ 时，$r = 0$，代入得：
+
+$0 = r_0 - k \cdot N$，所以 $k = \dfrac{r_0}{N}$。
+
+因此 $r = r_0 - \dfrac{r_0}{N} \cdot x(t) = r_0\left(1 - \dfrac{x(t)}{N}\right)$。
+
+由马尔萨斯假设的改进：$x'(t)$ 与 $r$ 和 $x(t)$ 有关，且单位时间内的人口增长量与人口数成正比，比例系数为增长率 $r$。
+
+所以 $x'(t) = r \cdot x(t) = r_0 \cdot x(t) \cdot \left(1 - \dfrac{x(t)}{N}\right)$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{审题建模}：仔细阅读题目，识别问题类型，选择合适的函数模型。
+    \item \textbf{指数模型}：增长率问题用 $y = y_0(1+r)^x$；衰减问题用 $y = y_0(1-r)^x$ 或半衰期公式。
+    \item \textbf{对数模型}：涉及比率、倍数、强度等级的问题常使用对数模型。
+    \item \textbf{单位统一}：解题时注意单位的统一和换算（如速度、时间、长度等）。
+    \item \textbf{验算结果}：求得结果后，检验是否符合实际意义和题目要求。
+    \item \textbf{取整问题}：实际问题中常涉及"至少"、"至多"等，注意取整方向（向上或向下取整）。
+\end{enumerate}
+
+\end{document}

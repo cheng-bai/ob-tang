@@ -3,14 +3,9 @@
   "dataview",
   "obsidian-enhancing-export",
   "break-page",
-  "obsidian-admonition",
-  "obsidian-advanced-slides",
-  "advanced-canvas",
-  "table-editor-obsidian",
   "calendar",
   "canvas-mindmap",
   "easy-typing-obsidian",
-  "obsidian-excalidraw-plugin",
   "editing-toolbar",
   "creases",
   "floating-toc",
@@ -20,7 +15,6 @@
   "obsidian-tasks-plugin",
   "smart-connections",
   "obsidian-title-serial-number-plugin",
-  "pdf-plus",
   "obsidian-quiet-outline",
   "obsidian-outliner",
   "omnisearch",
@@ -37,5 +31,6 @@
   "copilot",
   "oz-clear-unused-images",
   "print",
-  "obsidian-git"
+  "obsidian-git",
+  "smart-lookup"
 ]

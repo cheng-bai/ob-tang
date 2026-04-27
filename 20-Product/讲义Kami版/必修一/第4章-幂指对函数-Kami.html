@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>第4章 幂函数、指数函数与对数函数</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 22mm 22mm 22mm;
+    background: #f5f4ed;
+    @bottom-center {
+      content: counter(page) " · 第4章 幂函数、指数函数与对数函数";
+      font-size: 8.5pt;
+      color: #87867f;
+    }
+  }
+  @page:first { @bottom-center { content: ""; } }
+  
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.55;
+    color: #141413;
+    background: #f5f4ed;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm 22mm;
+  }
+  
+  h1 {
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 0 0 10pt 0;
+    border-left: 2.5pt solid #1B365D;
+    padding-left: 8pt;
+    break-after: avoid;
+  }
+  
+  h2 {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 24pt 0 6pt 0;
+    break-after: avoid;
+  }
+  
+  h3 {
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 18pt 0 4pt 0;
+    color: #3d3d3a;
+  }
+  
+  p { margin: 0 0 10pt 0; }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10pt 0;
+    font-size: 9.5pt;
+  }
+  
+  th, td {
+    padding: 6pt 8pt;
+    text-align: left;
+    border-bottom: 0.5pt solid #e8e6dc;
+  }
+  
+  th {
+    background: #faf9f5;
+    font-weight: 500;
+    color: #1B365D;
+  }
+  
+  pre {
+    background: #faf9f5;
+    border: 0.5pt solid #e8e6dc;
+    border-radius: 3pt;
+    padding: 8pt 10pt;
+    font-family: "JetBrains Mono", Consolas, monospace;
+    font-size: 9pt;
+    margin: 8pt 0;
+    overflow-x: auto;
+  }
+  
+  .cover {
+    min-height: 240mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40mm 0 0 0;
+    break-after: page;
+  }
+  
+  .cover-title {
+    font-size: 36pt;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 16pt;
+  }
+  
+  .cover-sub {
+    font-size: 14pt;
+    color: #5e5d59;
+    margin-bottom: 30pt;
+  }
+  
+  .chapter { break-before: page; }
+  
+  .chapter-num {
+    font-size: 10pt;
+    color: #1B365D;
+    letter-spacing: 1pt;
+    margin-bottom: 6pt;
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div style="font-size: 10pt; color: #1B365D; margin-bottom: 18pt;">高中数学 · 必修第一册</div>
+    <div class="cover-title">第4章 幂函数、指数函数与对数函数</div>
+    <div class="cover-sub">沪教版 2026 · 系统讲义</div>
+  </div>
+  <div style="font-size: 10pt; color: #87867f;">
+    <strong>AI 讲义生成系统</strong><br>
+    沪教版 2026 · 2026.04
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="chapter-num">CONTENT</div>
+  <h1>第4章 幂函数、指数函数与对数函数 - 讲义</h1></p>
+<h2>一、学习目标</h2></p>
+<p><li>理解幂函数、指数函数和对数函数的定义，掌握它们的定义域和基本性质。</li>
+<li>能够作出幂函数、指数函数和对数函数的大致图像，理解图像的特征。</li>
+<li>掌握利用函数单调性比较大小、解不等式的方法。</li>
+<li>理解指数函数与对数函数之间的关系（互为反函数）。</li>
+<li>能够运用幂函数、指数函数和对数函数解决简单的实际问题。</li></p>
+<p>---</p>
+<h2>二、知识脉络</h2></p>
+<p>本章知识结构如下：</p>
+<pre>第4章 幂函数、指数函数与对数函数
+│
+├── 4.1 幂函数
+│   ├── 幂函数的定义：y = x^a（a为常数）
+│   ├── 定义域：由指数a决定
+│   ├── 图像与性质
+│   │   ├── a > 0时：在(0, +∞)上严格递增
+│   │   └── a < 0时：在(0, +∞)上严格递减
+│   └── 图像变换
+│
+├── 4.2 指数函数
+│   ├── 指数函数的定义：y = a^x（a > 0且a ≠ 1）
+│   ├── 定义域：R（全体实数）
+│   ├── 图像与性质
+│   │   ├── a > 1时：严格增函数，过点(0,1)
+│   │   └── 0 < a < 1时：严格减函数，过点(0,1)
+│   └── 应用：指数增长模型
+│
+└── 4.3 对数函数
+    ├── 对数函数的定义：y = log_a x（a > 0且a ≠ 1）
+    ├── 定义域：(0, +∞)
+    ├── 图像与性质
+    │   ├── a > 1时：严格增函数，过点(1,0)
+    │   └── 0 < a < 1时：严格减函数，过点(1,0)
+    ├── 与指数函数的关系：互为反函数，图像关于y = x对称
+    └── 换底公式及应用</pre></p>
+<p>---</p>
+<h2>三、核心知识</h2></p>
+<p><h3>4.1 幂函数</h3></p>
+<p>#### 1. 定义
+当指数a固定时，等式 <strong>y = x^a</strong> 确定了变量y随变量x变化的规律，称为指数为a的幂函数。</p>
+<p>#### 2. 定义域
+幂函数的定义域与指数a有关：
+- 当a为正整数时，定义域为 <strong>R</strong>
+- 当a = 1/2时，y = x^(1/2) = √x，定义域为 <strong>[0, +∞)</strong>
+- 当a = -2/3时，y = x^(-2/3) = 1/∛(x²)，定义域为 <strong>(-∞, 0) ∪ (0, +∞)</strong></p>
+<p>#### 3. 单调性
+- 当 <strong>a > 0</strong> 时，幂函数在区间 <strong>(0, +∞)</strong> 上是<strong>严格增函数</strong>
+- 当 <strong>a < 0</strong> 时，幂函数在区间 <strong>(0, +∞)</strong> 上是<strong>严格减函数</strong></p>
+<p>#### 4. 定点
+无论a取何值（只要定义域包含1），幂函数的图像都经过点 <strong>(1, 1)</strong>。</p>
+<p>#### 5. 对称性
+- y = x³ 的图像关于<strong>原点</strong>成中心对称（奇函数）
+- y = x^(-2/3) 的图像关于<strong>y轴</strong>成轴对称（偶函数）</p>
+<p>---</p>
+<p><h3>4.2 指数函数</h3></p>
+<p>#### 1. 定义
+当底数a固定，且 <strong>a > 0, a ≠ 1</strong> 时，等式 <strong>y = a^x</strong> 称为底为a的指数函数。</p>
+<p>#### 2. 定义域
+指数函数的定义域为 <strong>R</strong>（全体实数）。</p>
+<p>#### 3. 图像与性质</p>
+<table>
+<tr><td>性质</td><td>a > 1</td><td>0 < a < 1</td></tr>
+<tr><td>图像趋势</td><td>由左至右上升</td><td>由左至右下降</td></tr>
+<tr><td>单调性</td><td>严格增函数</td><td>严格减函数</td></tr>
+<tr><td>函数值</td><td>当x > 0时，y > 1；当x < 0时，0 < y < 1</td><td>当x > 0时，0 < y < 1；当x < 0时，y > 1</td></tr>
+</table></p>
+<p>#### 4. 重要性质
+- 函数值恒大于0，图像在x轴上方
+- 图像都经过定点 <strong>(0, 1)</strong>
+- y = a^x 与 y = (a⁻¹)^x 的图像关于<strong>y轴</strong>对称</p>
+<p>#### 5. 指数增长
+当a > 1时，a^x随着x的增长而增长，且增长得越来越快，称为"<strong>指数增长</strong>"。</p>
+<p>---</p>
+<p><h3>4.3 对数函数</h3></p>
+<p>#### 1. 定义
+当底数a固定，且 <strong>a > 0, a ≠ 1</strong> 时，等式 <strong>y = log_a x</strong> 称为底为a的对数函数。</p>
+<p>#### 2. 定义域
+对数函数的定义域为 <strong>(0, +∞)</strong>（全体正实数）。</p>
+<p>#### 3. 图像与性质</p>
+<table>
+<tr><td>性质</td><td>a > 1</td><td>0 < a < 1</td></tr>
+<tr><td>图像趋势</td><td>由左至右上升</td><td>由左至右下降</td></tr>
+<tr><td>单调性</td><td>严格增函数</td><td>严格减函数</td></tr>
+<tr><td>函数值</td><td>当x > 1时，y > 0；当0 < x < 1时，y < 0</td><td>当x > 1时，y < 0；当0 < x < 1时，y > 0</td></tr>
+</table></p>
+<p>#### 4. 重要性质
+- 图像都在y轴右侧，无限趋近于y轴但永不相交
+- 图像都经过定点 <strong>(1, 0)</strong>
+- y = log_a x 与 y = log_(a⁻¹) x 的图像关于<strong>x轴</strong>对称</p>
+<p>#### 5. 与指数函数的关系
+- 对数函数 <strong>y = log_a x</strong> 是指数函数 <strong>y = a^x</strong> 的<strong>反函数</strong>
+- 它们的图像关于直线 <strong>y = x</strong> 对称</p>
+<p>#### 6. 换底公式
+<strong>log_b x = (log_a x)/(log_a b)</strong> = (1/log_a b) · log_a x</p>
+<p>---</p>
+<h2>四、例题精讲</h2></p>
+<p><h3>题型一：求函数定义域</h3></p>
+<p><strong>例1</strong> 求下列函数的定义域：
+(1) y = x^(1/3)  
+(2) y = x^(-1/2)  
+(3) y = log₂(x - 1)</p>
+<p><strong>解：</strong>
+(1) y = x^(1/3) = ∛x，对一切实数x都有意义，定义域为 <strong>R</strong>。</p>
+<p>(2) y = x^(-1/2) = 1/√x，当x > 0时才有意义，定义域为 <strong>(0, +∞)</strong>。</p>
+<p>(3) 对数函数要求真数大于0，即x - 1 > 0，所以x > 1，定义域为 <strong>(1, +∞)</strong>。</p>
+<p>---</p>
+<p><h3>题型二：比较大小</h3></p>
+<p><strong>例2</strong> 比较下列各题中两个数的大小：
+(1) 2.5^(-2) 与 1.8^(-2)  
+(2) 1.7^(2.5) 与 1.7³  
+(3) log₂5 与 log₂6</p>
+<p><strong>解：</strong>
+(1) 考虑幂函数y = x^(-2)，指数-2 < 0，在(0, +∞)上是严格减函数。  
+因为2.5 > 1.8，所以 <strong>2.5^(-2) < 1.8^(-2)</strong>。</p>
+<p>(2) 考虑指数函数y = 1.7^x，底数1.7 > 1，在R上是严格增函数。  
+因为2.5 < 3，所以 <strong>1.7^(2.5) < 1.7³</strong>。</p>
+<p>(3) 考虑对数函数y = log₂x，底数2 > 1，在(0, +∞)上是严格增函数。  
+因为5 < 6，所以 <strong>log₂5 < log₂6</strong>。</p>
+<p>---</p>
+<p><h3>题型三：解不等式</h3></p>
+<p><strong>例3</strong> 求下列不等式的解集：
+(1) 3^x > 1/27  
+(2) log_(1/2)(x - 1) > -2</p>
+<p><strong>解：</strong>
+(1) 将1/27写成3^(-3)，因为y = 3^x是严格增函数，  
+所以x > -3，解集为 <strong>(-3, +∞)</strong>。</p>
+<p>(2) 首先x - 1 > 0，即x > 1。  
+将-2写成log_(1/2) 4，因为底数1/2 ∈ (0,1)，对数函数是严格减函数，  
+所以x - 1 < 4，即x < 5。  
+结合x > 1，解集为 <strong>(1, 5)</strong>。</p>
+<p>---</p>
+<p><h3>题型四：函数图像与性质综合</h3></p>
+<p><strong>例4</strong> 已知指数函数y = a^x (a > 1)在区间[1, 2]上的最大值比最小值大a/3，求实数a的值。</p>
+<p><strong>解：</strong>
+当a > 1时，y = a^x在[1, 2]上是严格增函数。  
+最大值在x = 2处取得，为a²；  
+最小值在x = 1处取得，为a。  </p>
+<p>由题意：a² - a = a/3  
+a² - (4/3)a = 0  
+a(a - 4/3) = 0</p>
+<p>因为a > 1，所以 <strong>a = 4/3</strong>。</p>
+<p>---</p>
+<h2>五、方法总结</h2></p>
+<p><h3>1. 比较大小的一般方法</h3></p>
+<table>
+<tr><td>函数类型</td><td>比较方法</td></tr>
+<tr><td>幂函数y = x^a</td><td>看指数a：a > 0时，底数大则值大；a < 0时，底数大则值小</td></tr>
+<tr><td>指数函数y = a^x</td><td>看底数a：a > 1时，指数大则值大；0 < a < 1时，指数大则值小</td></tr>
+<tr><td>对数函数y = log_a x</td><td>看底数a：a > 1时，真数大则值大；0 < a < 1时，真数大则值小</td></tr>
+</table></p>
+<p><h3>2. 解指数、对数不等式的步骤</h3>
+<li><strong>统一底数</strong>：将不等式两边化为同底数的幂或对数</li>
+<li><strong>利用单调性</strong>：根据底数大小判断函数单调性</li>
+<li><strong>去底数</strong>：利用单调性去掉底数，转化为普通不等式</li>
+<li><strong>求解</strong>：解转化后的不等式</li>
+<li><strong>检验</strong>：对数不等式需检验真数大于0</li></p>
+<p><h3>3. 定点问题</h3>
+- 指数函数y = a^x恒过定点 <strong>(0, 1)</strong>
+- 对数函数y = log_a x恒过定点 <strong>(1, 0)</strong>
+- 函数y = a^(x-h) + k恒过定点 <strong>(h, 1 + k)</strong>
+- 函数y = log_a(x - h) + k恒过定点 <strong>(1 + h, k)</strong></p>
+<p>---</p>
+<h2>六、易错提醒</h2></p>
+<p><h3>1. 定义域问题</h3>
+- 幂函数y = x^a的定义域与a的取值有关，不一定是R
+- 指数函数y = a^x的定义域总是R
+- 对数函数y = log_a x的定义域总是(0, +∞)，真数必须大于0</p>
+<p><h3>2. 单调性判断</h3>
+- 指数函数和对数函数的单调性都与底数a有关：
+  - a > 1时，都是增函数
+  - 0 < a < 1时，都是减函数
+- 注意：当0 < a < 1时，解不等式要<strong>改变不等号方向</strong></p>
+<p><h3>3. 比较大小的常见错误</h3>
+- 不同底的指数或对数比较，可利用换底公式或中间量（如0、1）
+- 注意负数的情况：比较(-√2)^(4/5)和1.32^(4/5)时，先化为正数</p>
+<p><h3>4. 图像特征</h3>
+- 指数函数y = a^x的图像永远在x轴上方
+- 对数函数y = log_a x的图像永远在y轴右侧
+- y = a^x与y = (1/a)^x的图像关于y轴对称
+- y = log_a x与y = log_(1/a) x的图像关于x轴对称</p>
+<p>---</p>
+<h2>七、课后练习</h2></p>
+<p><h3>A组 基础练习</h3></p>
+<p><li>求下列函数的定义域：</li>
+   (1) y = x^(1/5)  
+   (2) y = 3^√(x-1)  
+   (3) y = log₃[(1+x)/(1-x)]</p>
+<p><li>比较大小：</li>
+   (1) 0.1^0.7 与 0.2^0.7  
+   (2) 0.7^0.1 与 0.7^0.2  
+   (3) log_0.7 0.1 与 log_0.7 0.2</p>
+<p><li>若幂函数y = x^a的图像经过点(3, √3)，求此幂函数的表达式。</li></p>
+<p><li>求不等式3^(x²-2x+3) < 3^(2x)的解集。</li></p>
+<p><h3>B组 提高练习</h3></p>
+<p><li>设a = (2/3)^x, b = x^(3/2), c = log_(2/3) x，当x > 1时，比较a、b、c的大小关系。</li></p>
+<p><li>已知函数y = log_a(x + 1)在区间[0, 1]上的最大值为1，最小值为0，求实数a的值。</li></p>
+<p><li>如果光线每通过一块玻璃其强度要减少10%，那么至少需要将多少块这样的玻璃重叠起来，才能使通过它们的光线强度低于原来的1/3？</li></p>
+<p><li>在同一平面直角坐标系中，作出函数y = (1/2)^x及y = x^(1/2)的大致图像，并求方程(1/2)^x = x^(1/2)的解的个数。</li></p>
+<p><h3>拓展思考</h3></p>
+<p><li>log₂3是有理数吗？请证明你的结论。</li></p>
+<p><li>探究：比较函数y = 1.1^x、y = x^0.1和y = lg x的增长速度。</li></p>
+<p>---</p>
+<h2>附录：本章公式汇总</h2></p>
+<p><h3>幂函数</h3>
+- 定义：y = x^a（a为常数）
+- 单调性：a > 0时在(0, +∞)上递增；a < 0时在(0, +∞)上递减</p>
+<p><h3>指数函数</h3>
+- 定义：y = a^x（a > 0且a ≠ 1）
+- 定义域：R
+- 值域：(0, +∞)
+- 定点：(0, 1)
+- 单调性：a > 1时递增；0 < a < 1时递减</p>
+<p><h3>对数函数</h3>
+- 定义：y = log_a x（a > 0且a ≠ 1）
+- 定义域：(0, +∞)
+- 值域：R
+- 定点：(1, 0)
+- 单调性：a > 1时递增；0 < a < 1时递减
+- 换底公式：log_b x = (log_a x)/(log_a b)</p>
+<p><h3>反函数关系</h3>
+- y = a^x 与 y = log_a x 互为反函数
+- 图像关于直线y = x对称</p>
+<p>---</p>
+<p><strong>讲义完成</strong></p>
+<p>*本讲义根据沪教版必修第一册2026版第4章内容整理*
+</p>
+</section>
+
+</body>
+</html>

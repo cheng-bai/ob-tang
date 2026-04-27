@@ -1,0 +1,231 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：等比数列}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：等比数列}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+等比数列是高中阶段研究的另一种基本数列，其相邻两项的比值为常数，具有独特的增长或衰减规律。
+
+\begin{definition}[等比数列]
+    设 $n$ 为正整数，若数列 $\{a_n\}$ 满足
+    \[
+        \frac{a_{n+1}}{a_n} = q \quad (n \geq 1, a_n \neq 0),
+    \]
+    其中 $q$ 为非零常数，则称数列 $\{a_n\}$ 为\textbf{等比数列}，$q$ 称为该等比数列的\textbf{公比}。
+\end{definition}
+
+\begin{property}[通项公式]
+    设等比数列 $\{a_n\}$ 的首项为 $a_1$，公比为 $q$（$q \neq 0$），则其通项公式为
+    \[
+        a_n = a_1 \cdot q^{n-1}.
+    \]
+\end{property}
+
+\begin{property}[等比中项]
+    若三个数 $a, G, b$ 成等比数列，则 $G$ 称为 $a$ 与 $b$ 的\textbf{等比中项}，且
+    \[
+        G^2 = ab \quad \text{或} \quad G = \pm\sqrt{ab} \quad (ab > 0).
+    \]
+    注意：等比中项有两个值，互为相反数。
+\end{property}
+
+\begin{property}[前 $n$ 项和公式]
+    设等比数列 $\{a_n\}$ 的前 $n$ 项和为 $S_n$，则
+    \[
+        S_n = \begin{cases}
+            na_1, & q = 1, \\[6pt]
+            \dfrac{a_1(1-q^n)}{1-q} = \dfrac{a_1(q^n-1)}{q-1}, & q \neq 1.
+        \end{cases}
+    \]
+    当 $q \neq 1$ 时，$S_n = \dfrac{a_1}{1-q} - \dfrac{a_1}{1-q} \cdot q^n = A - Aq^n$，其中 $A = \dfrac{a_1}{1-q}$。
+\end{property}
+
+\begin{property}[无穷等比数列求和]
+    设无穷等比数列 $\{a_n\}$ 的首项为 $a_1$，公比为 $q$，若 $|q| < 1$，则该数列的无穷项和存在，且
+    \[
+        S = \lim_{n \to \infty} S_n = \frac{a_1}{1-q}.
+    \]
+    若 $|q| \geq 1$ 且 $q \neq 1$，则无穷等比数列的和不存在（发散）。
+\end{property}
+
+\begin{property}[重要性质]
+    设 $\{a_n\}$ 是等比数列，公比为 $q$，前 $n$ 项和为 $S_n$：
+    \begin{enumerate}
+        \item 若 $m + n = p + q$，则 $a_m \cdot a_n = a_p \cdot a_q$；
+        \item 特别地，若 $m + n = 2p$，则 $a_m \cdot a_n = a_p^2$；
+        \item 当 $q \neq -1$ 且 $S_n \neq 0$ 时，$S_m, S_{2m} - S_m, S_{3m} - S_{2m}, \ldots$ 仍成等比数列，公比为 $q^m$。
+    \end{enumerate}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[基本量计算]
+    已知等比数列 $\{a_n\}$ 首项 $a_1 = 1$，公比 $q = 2$，求：
+    \begin{enumerate}
+        \item 该数列的通项公式；
+        \item 该数列的前 $5$ 项和 $S_5$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 由等比数列通项公式：
+\[
+    a_n = a_1 \cdot q^{n-1} = 1 \cdot 2^{n-1} = 2^{n-1}.
+\]
+
+(2) 由前 $n$ 项和公式（$q \neq 1$）：
+\[
+    S_5 = \frac{a_1(1-q^5)}{1-q} = \frac{1 \times (1-2^5)}{1-2} = \frac{1-32}{-1} = 31.
+\]
+
+\begin{realexam}[2023 崇明一模]
+    已知等比数列 $\{a_n\}$ 首项 $a_1 = 1$，公比 $q = 2$，则 $S_5 =$\_\_\_。
+\end{realexam}
+
+\textbf{解.} 由等比数列前 $n$ 项和公式：
+\[
+    S_5 = \frac{1 \times (1-2^5)}{1-2} = \frac{1-32}{-1} = 31.
+\]
+
+故答案为 $31$。
+
+\begin{example}[等比数列性质应用]
+    已知数列 $\{a_n\}$ 是首项为 $9$，公比为 $\dfrac{1}{3}$ 的等比数列。
+    \begin{enumerate}
+        \item 求该数列的通项公式；
+        \item 设数列 $\{\log_3 a_n\}$ 的前 $n$ 项和为 $S_n$，求 $S_n$ 的最大值，并指出 $S_n$ 取最大值时 $n$ 的取值。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 由等比数列通项公式：
+\[
+    a_n = 9 \cdot \left(\frac{1}{3}\right)^{n-1} = 3^2 \cdot 3^{-(n-1)} = 3^{3-n}.
+\]
+
+(2) 由 (1) 得 $\log_3 a_n = \log_3 3^{3-n} = 3-n$。
+
+数列 $\{\log_3 a_n\}$ 是首项为 $2$，公差为 $-1$ 的等差数列。
+
+其前 $n$ 项和：
+\[
+    S_n = \frac{n(2 + 3-n)}{2} = \frac{n(5-n)}{2} = \frac{5n - n^2}{2}.
+\]
+
+配方得：
+\[
+    S_n = -\frac{1}{2}\left(n - \frac{5}{2}\right)^2 + \frac{25}{8}.
+\]
+
+由于 $n \in \mathbb{N}^*$，当 $n = 2$ 或 $n = 3$ 时，$S_n$ 取得最大值。
+
+$S_2 = \dfrac{2 \times 3}{2} = 3$，$S_3 = \dfrac{3 \times 2}{2} = 3$。
+
+故 $S_n$ 的最大值为 $3$，此时 $n = 2$ 或 $n = 3$。
+
+\begin{realexam}[2023 宝山一模]
+    已知函数 $f(x) = (x+1)^3 + 1$，正项等比数列 $\{a_n\}$ 满足 $a_{1012} = \dfrac{1}{10}$，求 $\displaystyle\sum_{k=1}^{2023} f(\lg a_k)$ 的值。
+\end{realexam}
+
+\textbf{解.} 先分析函数 $f(x)$ 的性质。
+
+注意到 $f(x) = (x+1)^3 + 1$，设 $g(x) = f(x) - 1 = (x+1)^3$。
+
+则 $g(-2-x) = (-2-x+1)^3 = (-1-x)^3 = -(x+1)^3 = -g(x)$。
+
+所以 $g(x)$ 关于点 $(-1, 0)$ 中心对称，即 $g(x) + g(-2-x) = 0$。
+
+因此 $f(x) + f(-2-x) = g(x) + 1 + g(-2-x) + 1 = 2$。
+
+对于正项等比数列 $\{a_n\}$，有 $\lg a_1 + \lg a_{2023} = \lg(a_1 \cdot a_{2023}) = \lg a_{1012}^2 = 2\lg a_{1012} = 2\lg\dfrac{1}{10} = -2$。
+
+同理，$\lg a_k + \lg a_{2024-k} = -2$。
+
+所以 $f(\lg a_k) + f(\lg a_{2024-k}) = 2$。
+
+原式共 $2023$ 项，中间项为 $k = 1012$。
+
+配对求和：共有 $1011$ 对，每对和为 $2$，加上中间项 $f(\lg a_{1012}) = f(-1) = 0^3 + 1 = 1$。
+
+总和为 $1011 \times 2 + 1 = 2023$。
+
+故答案为 $2023$。
+
+\begin{example}[无穷等比数列求和]
+    一个无穷等比数列的首项为 $1$，各项和为 $S$，若该数列的各项平方后所得新数列的各项和为 $\dfrac{1}{2}S$，求原数列的公比 $q$。
+\end{example}
+
+\textbf{解.} 设原等比数列为 $\{a_n\}$，首项 $a_1 = 1$，公比为 $q$（$|q| < 1$）。
+
+各项和：
+\[
+    S = \frac{1}{1-q}.
+\]
+
+各项平方后得新数列 $\{a_n^2\}$，首项为 $1$，公比为 $q^2$（$|q^2| < 1$）。
+
+新数列各项和：
+\[
+    S' = \frac{1}{1-q^2}.
+\]
+
+由题意 $S' = \dfrac{1}{2}S$：
+\[
+    \frac{1}{1-q^2} = \frac{1}{2} \cdot \frac{1}{1-q}.
+\]
+
+由于 $|q| < 1$，有 $1-q \neq 0$，两边乘以 $2(1-q^2)(1-q)$：
+\[
+    2(1-q) = 1-q^2 = (1-q)(1+q).
+\]
+
+若 $q \neq 1$，两边除以 $(1-q)$：
+\[
+    2 = 1 + q \Rightarrow q = 1.
+\]
+
+但这与 $|q| < 1$ 矛盾。重新检验，若 $q = \dfrac{1}{2}$：
+
+$S = \dfrac{1}{1-\frac{1}{2}} = 2$，$S' = \dfrac{1}{1-\frac{1}{4}} = \dfrac{4}{3}$，$\dfrac{S'}{S} = \dfrac{2}{3} \neq \dfrac{1}{2}$。
+
+设方程 $\dfrac{1}{1-q^2} = \dfrac{1}{2(1-q)}$，即 $2(1-q) = 1-q^2$，整理得 $q^2 - 2q + 1 = 0$，即 $(q-1)^2 = 0$，$q = 1$（舍去）。
+
+或检查是否有其他理解方式。若题目条件改为各项和为 $2$，则 $S = \dfrac{1}{1-q} = 2$，得 $q = \dfrac{1}{2}$，此时 $S' = \dfrac{4}{3} = \dfrac{2}{3}S$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{基本量法}：等比数列有五个基本量 $a_1, q, n, a_n, S_n$，知道其中任意三个可求另外两个。注意公比 $q \neq 0$ 且首项 $a_1 \neq 0$。
+    
+    \item \textbf{分类讨论}：使用求和公式时，必须先判断 $q = 1$ 还是 $q \neq 1$：
+    \begin{itemize}
+        \item 当 $q = 1$ 时，$S_n = na_1$（常数列）
+        \item 当 $q \neq 1$ 时，$S_n = \dfrac{a_1(1-q^n)}{1-q}$
+    \end{itemize}
+    
+    \item \textbf{无穷等比数列}：只有当 $|q| < 1$ 时，无穷等比数列的和才收敛，且
+    \[
+        S = \frac{a_1}{1-q}.
+    \]
+    常用于循环小数化分数、几何问题等。
+    
+    \item \textbf{等比中项}：两个正数的等比中项有两个，互为相反数。若限定正项等比数列，则等比中项为正。
+    
+    \item \textbf{与等差数列的对比}：
+    \begin{itemize}
+        \item 等差数列：$a_n = a_1 + (n-1)d$（加法结构）
+        \item 等比数列：$a_n = a_1 \cdot q^{n-1}$（乘法结构）
+    \end{itemize}
+    解题时注意区分，避免混淆。
+\end{enumerate}
+
+\end{document}

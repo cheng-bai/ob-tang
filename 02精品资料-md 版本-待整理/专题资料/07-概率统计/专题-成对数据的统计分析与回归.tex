@@ -1,0 +1,384 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：成对数据的统计分析与回归}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：成对数据的统计分析与回归}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+在实际问题中，我们经常需要研究两个变量之间的关系。当这两个变量都是数值型变量时，我们可以通过散点图直观判断它们之间的关系，并利用相关系数和回归直线进行定量分析。
+
+\begin{definition}[相关关系]
+    两个变量之间存在一定的联系，但这种联系又不像函数关系那样具有确定性，这样的关系称为\textbf{相关关系}。相关关系分为：
+    \begin{itemize}
+        \item \textbf{正相关}：一个变量的值增加时，另一个变量的值也倾向于增加
+        \item \textbf{负相关}：一个变量的值增加时，另一个变量的值倾向于减少
+        \item \textbf{不相关}：两个变量之间没有明显的线性关系
+    \end{itemize}
+\end{definition}
+
+\begin{definition}[样本相关系数]
+    设成对样本数据为 $(x_1, y_1), (x_2, y_2), \cdots, (x_n, y_n)$，则样本相关系数 $r$ 定义为：
+    \[
+        r = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2 \sum_{i=1}^{n}(y_i - \bar{y})^2}}
+    \]
+    其中 $\bar{x} = \dfrac{1}{n}\sum_{i=1}^{n}x_i$，$\bar{y} = \dfrac{1}{n}\sum_{i=1}^{n}y_i$。
+\end{definition}
+
+\begin{property}[相关系数的性质]
+    样本相关系数 $r$ 具有以下性质：
+    \begin{enumerate}
+        \item $|r| \le 1$，即 $-1 \le r \le 1$
+        \item 当 $r > 0$ 时，两变量正相关；当 $r < 0$ 时，两变量负相关
+        \item $|r|$ 越接近1，两变量的线性相关程度越强；$|r|$ 越接近0，线性相关程度越弱
+        \item 当 $|r| = 1$ 时，所有样本点都在一条直线上，两变量完全线性相关
+    \end{enumerate}
+\end{property}
+
+\begin{definition}[一元线性回归模型]
+    设两个具有相关关系的变量 $x$ 和 $y$，若它们的关系可以用方程
+    \[
+        y = bx + a + e
+    \]
+    来表示，其中 $a, b$ 为模型的未知参数，$e$ 是 $y$ 与 $bx + a$ 之间的随机误差，则称此方程为\textbf{一元线性回归模型}。
+\end{definition}
+
+\begin{definition}[经验回归方程]
+    利用样本数据，通过最小二乘法估计得到的回归方程
+    \[
+        \hat{y} = \hat{b}x + \hat{a}
+    \]
+    称为\textbf{经验回归方程}（或回归直线），其中：
+    \[
+        \hat{b} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^2} = \frac{\sum_{i=1}^{n}x_i y_i - n\bar{x}\bar{y}}{\sum_{i=1}^{n}x_i^2 - n\bar{x}^2}
+    \]
+    \[
+        \hat{a} = \bar{y} - \hat{b}\bar{x}
+    \]
+\end{definition}
+
+\begin{property}[回归直线的性质]
+    \begin{enumerate}
+        \item 回归直线必过样本中心点 $(\bar{x}, \bar{y})$
+        \item 回归系数 $\hat{b}$ 的符号与相关系数 $r$ 的符号相同
+        \item 回归直线方程可用于预测：给定 $x$ 的值，可预测 $y$ 的估计值 $\hat{y}$
+    \end{enumerate}
+\end{property}
+
+\begin{definition}[残差]
+    对于样本点 $(x_i, y_i)$，其观测值 $y_i$ 与通过回归方程得到的预测值 $\hat{y}_i$ 之差
+    \[
+        e_i = y_i - \hat{y}_i = y_i - (\hat{b}x_i + \hat{a})
+    \]
+    称为\textbf{残差}。残差反映了实际观测值与预测值之间的偏差。
+\end{definition}
+
+\begin{property}[残差分析]
+    通过残差分析可以判断回归模型的拟合效果：
+    \begin{itemize}
+        \item 残差平方和越小，模型拟合效果越好
+        \item 残差图中，残差点应随机分布在水平带状区域内，说明模型合适
+        \item 若残差呈现某种规律（如曲线趋势），则可能需要更换模型
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[相关系数的计算与判断]
+    某工厂为了研究产品产量与单位成本之间的关系，统计了6个月的产量与单位成本数据如下表：
+
+    \begin{center}
+    \begin{tabular}{c|cccccc}
+    \hline
+    产量 $x$（千件） & 2 & 3 & 4 & 5 & 6 & 7 \\
+    \hline
+    单位成本 $y$（元/件） & 72 & 70 & 68 & 65 & 62 & 60 \\
+    \hline
+    \end{tabular}
+    \end{center}
+
+    已知：$\sum_{i=1}^{6}x_i y_i = 1481$，$\sum_{i=1}^{6}x_i^2 = 139$，$\sum_{i=1}^{6}y_i^2 = 28157$
+
+    \begin{enumerate}
+        \item 计算产量与单位成本的相关系数（精确到0.001）；
+        \item 求 $y$ 关于 $x$ 的线性回归方程；
+        \item 当产量为7千件时，预测单位成本。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 计算样本均值：
+\[
+\bar{x} = \frac{2+3+4+5+6+7}{6} = \frac{27}{6} = 4.5, \quad \bar{y} = \frac{72+70+68+65+62+60}{6} = \frac{397}{6} \approx 66.17
+\]
+
+计算相关系数：
+\begin{align*}
+r &= \frac{\sum_{i=1}^{6}x_i y_i - 6\bar{x}\bar{y}}{\sqrt{\left(\sum_{i=1}^{6}x_i^2 - 6\bar{x}^2\right)\left(\sum_{i=1}^{6}y_i^2 - 6\bar{y}^2\right)}} \\
+&= \frac{1481 - 6 \times 4.5 \times \dfrac{397}{6}}{\sqrt{\left(139 - 6 \times 4.5^2\right)\left(28157 - 6 \times \left(\dfrac{397}{6}\right)^2\right)}} \\
+&= \frac{1481 - 1786.5}{\sqrt{(139 - 121.5)(28157 - 26268.17)}} \\
+&= \frac{-305.5}{\sqrt{17.5 \times 1888.83}} \\
+&= \frac{-305.5}{\sqrt{33054.5}} \approx \frac{-305.5}{181.81} \approx -0.980
+\end{align*}
+
+(2) 求回归系数：
+\[
+\hat{b} = \frac{\sum_{i=1}^{6}x_i y_i - 6\bar{x}\bar{y}}{\sum_{i=1}^{6}x_i^2 - 6\bar{x}^2} = \frac{1481 - 1786.5}{139 - 121.5} = \frac{-305.5}{17.5} \approx -1.82
+\]
+
+\[
+\hat{a} = \bar{y} - \hat{b}\bar{x} = \frac{397}{6} - (-1.82) \times 4.5 \approx 66.17 + 8.19 = 74.36
+\]
+
+回归方程为：$\hat{y} = -1.82x + 74.36$（或写作 $\hat{y} = 74.36 - 1.82x$）
+
+(3) 当 $x = 7$ 时：
+\[
+\hat{y} = -1.82 \times 7 + 74.36 = -12.74 + 74.36 = 61.62
+\]
+
+预测单位成本约为 $61.62$ 元/件。
+
+\begin{realexam}[2025 上海二模]
+    研究变量 $x, y$ 得到一组成对数据 $(x_i, y_i), i = 1, 2, \cdots, n$，先进行一次线性回归分析，接着增加一个数据 $(x_{n+1}, y_{n+1})$，其中 $x_{n+1} = \dfrac{1}{n}\sum_{i=1}^{n}x_i$，$y_{n+1} = \dfrac{1}{n}\sum_{i=1}^{n}y_i$，再重新进行一次线性回归分析，则下列说法正确的是（  ）
+
+    A. 变量 $x$ 与变量 $y$ 的相关性变强
+
+    B. 相关系数 $r$ 的绝对值变小
+
+    C. 回归直线斜率 $\hat{b}$ 不变
+
+    D. 回归直线必过点 $(x_{n+1}, y_{n+1})$
+\end{realexam}
+
+\textbf{解.} 分析新增数据点的性质：
+
+新增点 $(x_{n+1}, y_{n+1}) = (\bar{x}, \bar{y})$，即样本中心点。
+
+设原来的样本中心为 $(\bar{x}, \bar{y})$，加入 $(\bar{x}, \bar{y})$ 后：
+\begin{align*}
+\bar{x}' &= \frac{n\bar{x} + \bar{x}}{n+1} = \bar{x} \\
+\bar{y}' &= \frac{n\bar{y} + \bar{y}}{n+1} = \bar{y}
+\end{align*}
+
+新的样本中心仍为 $(\bar{x}, \bar{y})$。
+
+计算新的相关系数：
+\[
+r' = \frac{\sum_{i=1}^{n+1}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n+1}(x_i - \bar{x})^2 \sum_{i=1}^{n+1}(y_i - \bar{y})^2}}
+\]
+
+由于 $x_{n+1} = \bar{x}$，$y_{n+1} = \bar{y}$，所以：
+\[
+(x_{n+1} - \bar{x})(y_{n+1} - \bar{y}) = 0, \quad (x_{n+1} - \bar{x})^2 = 0, \quad (y_{n+1} - \bar{y})^2 = 0
+\]
+
+因此：
+\[
+r' = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2 \sum_{i=1}^{n}(y_i - \bar{y})^2}} = r
+\]
+
+相关系数 $r$ 不变，故 A、B 均错误。
+
+对于回归斜率：
+\[
+\hat{b}' = \frac{\sum_{i=1}^{n+1}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n+1}(x_i - \bar{x})^2} = \frac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sum_{i=1}^{n}(x_i - \bar{x})^2} = \hat{b}
+\]
+
+回归斜率 $\hat{b}$ 不变，C 正确。
+
+由于新的样本中心仍为 $(\bar{x}, \bar{y})$，而回归直线必过样本中心，所以回归直线必过点 $(\bar{x}, \bar{y}) = (x_{n+1}, y_{n+1})$，D 正确。
+
+正确答案为 C、D。
+
+\begin{realexam}[2026 奉贤二模]
+    某企业为了研究产量与单位成本之间的关系，统计了6个月的产量与单位成本数据如下表：
+
+    \begin{center}
+    \begin{tabular}{c|cccccc}
+    \hline
+    产量 $x$（千件） & 2 & 3 & 4 & 5 & 6 & 7 \\
+    \hline
+    单位成本 $y$（元/件） & 73 & 71 & 68 & 65 & 62 & 61 \\
+    \hline
+    \end{tabular}
+    \end{center}
+
+    已知：$\sum_{i=1}^{6}x_i y_i = 1481$，$\sum_{i=1}^{6}x_i^2 = 139$，$\sum_{i=1}^{6}y_i^2 = 28157$
+
+    \begin{enumerate}
+        \item 计算产量与单位成本的相关系数（无需过程）；
+        \item 求 $y$ 关于 $x$ 的线性回归方程；
+        \item 当产量为7千件时，预测单位成本。
+    \end{enumerate}
+
+    附：相关系数 $r$ 的计算公式：$r = \dfrac{\sum_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n}(x_i - \bar{x})^2 \sum_{i=1}^{n}(y_i - \bar{y})^2}}$；
+
+    回归方程 $\hat{y} = \hat{b}x + \hat{a}$，其中 $\hat{b} = \dfrac{\sum_{i=1}^{n}x_i y_i - n\bar{x}\bar{y}}{\sum_{i=1}^{n}x_i^2 - n\bar{x}^2}$，$\hat{a} = \bar{y} - \hat{b}\bar{x}$。
+\end{realexam}
+
+\textbf{解.} (1) 计算得：$r \approx -0.98$（负相关，且相关性很强）
+
+(2) 计算样本均值：
+\[
+\bar{x} = 4.5, \quad \bar{y} = \frac{73+71+68+65+62+61}{6} = \frac{400}{6} = \frac{200}{3}
+\]
+
+计算回归系数：
+\[
+\hat{b} = \frac{1481 - 6 \times 4.5 \times \dfrac{200}{3}}{139 - 6 \times 4.5^2} = \frac{1481 - 1800}{139 - 121.5} = \frac{-319}{17.5} = -\frac{638}{35} \approx -1.82
+\]
+
+\[
+\hat{a} = \frac{200}{3} - \left(-\frac{638}{35}\right) \times 4.5 = \frac{200}{3} + \frac{2871}{35} = \frac{7000 + 8613}{105} = \frac{15613}{105} \approx 74.36
+\]
+
+回归方程为：$\hat{y} = -1.82x + 74.36$
+
+(3) 当 $x = 7$ 时：
+\[
+\hat{y} = -1.82 \times 7 + 74.36 = 61.62
+\]
+
+预测单位成本约为 $61.62$ 元/件。
+
+\begin{example}[回归分析的实际应用]
+    某社区为了解居民的家庭年收入与年支出的关系，随机调查了5户家庭，得到如下统计数据：
+
+    \begin{center}
+    \begin{tabular}{c|ccccc}
+    \hline
+    收入 $x$（万元） & 8.2 & 8.6 & 10.0 & 11.3 & 11.9 \\
+    \hline
+    支出 $y$（万元） & 6.2 & 7.5 & 8.0 & 8.5 & 9.8 \\
+    \hline
+    \end{tabular}
+    \end{center}
+
+    根据上表可得回归直线方程 $\hat{y} = \hat{b}x + \hat{a}$，其中 $\hat{b} = 0.76$，$\hat{a} = \bar{y} - \hat{b}\bar{x}$。
+
+    据此估计，该社区一户收入为15万元家庭的年支出为（  ）
+
+    A. 11.4万元 \quad B. 11.8万元 \quad C. 12.0万元 \quad D. 12.2万元
+\end{example}
+
+\textbf{解.} 计算样本均值：
+\[
+\bar{x} = \frac{8.2 + 8.6 + 10.0 + 11.3 + 11.9}{5} = \frac{50}{5} = 10
+\]
+
+\[
+\bar{y} = \frac{6.2 + 7.5 + 8.0 + 8.5 + 9.8}{5} = \frac{40}{5} = 8
+\]
+
+计算截距：
+\[
+\hat{a} = \bar{y} - \hat{b}\bar{x} = 8 - 0.76 \times 10 = 8 - 7.6 = 0.4
+\]
+
+回归方程为：$\hat{y} = 0.76x + 0.4$
+
+当 $x = 15$ 时：
+\[
+\hat{y} = 0.76 \times 15 + 0.4 = 11.4 + 0.4 = 11.8
+\]
+
+答案为 B. 11.8万元。
+
+\begin{example}[残差分析]
+    某同学用某款手机做学习软件测试，收集了使用时长 $x$（小时）与手机电量消耗 $y$（\%）的5组数据，并建立了回归方程 $\hat{y} = -8x + 95$。已知样本数据如下：
+
+    \begin{center}
+    \begin{tabular}{c|ccccc}
+    \hline
+    $x$ & 2 & 4 & 6 & 8 & 10 \\
+    \hline
+    $y$ & 78 & 62 & 45 & 28 & 15 \\
+    \hline
+    \end{tabular}
+    \end{center}
+
+    \begin{enumerate}
+        \item 计算各样本点的残差；
+        \item 计算残差平方和，评价模型的拟合效果。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 根据回归方程 $\hat{y} = -8x + 95$，计算各点的预测值和残差：
+
+\begin{center}
+\begin{tabular}{c|ccccc}
+\hline
+$x_i$ & 2 & 4 & 6 & 8 & 10 \\
+\hline
+$y_i$ & 78 & 62 & 45 & 28 & 15 \\
+$\hat{y}_i$ & 79 & 63 & 47 & 31 & 15 \\
+残差 $e_i = y_i - \hat{y}_i$ & $-1$ & $-1$ & $-2$ & $-3$ & 0 \\
+\hline
+\end{tabular}
+\end{center}
+
+(2) 残差平方和：
+\[
+\sum_{i=1}^{5}e_i^2 = (-1)^2 + (-1)^2 + (-2)^2 + (-3)^2 + 0^2 = 1 + 1 + 4 + 9 + 0 = 15
+\]
+
+总平方和：
+\[
+\bar{y} = \frac{78+62+45+28+15}{5} = 45.6
+\]
+
+\[
+\sum_{i=1}^{5}(y_i - \bar{y})^2 = (78-45.6)^2 + (62-45.6)^2 + (45-45.6)^2 + (28-45.6)^2 + (15-45.6)^2
+\]
+
+\[
+= 1049.76 + 268.96 + 0.36 + 309.76 + 936.36 = 2565.2
+\]
+
+拟合效果较好，残差平方和相对较小。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{相关系数的计算与应用}：
+    \begin{itemize}
+        \item 熟记公式：$r = \dfrac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i - \bar{x})^2 \sum(y_i - \bar{y})^2}}$
+        \item 注意符号：$r > 0$ 正相关，$r < 0$ 负相关
+        \item $|r|$ 越接近1，线性相关性越强
+        \item 计算时可利用变形公式：$r = \dfrac{\sum x_i y_i - n\bar{x}\bar{y}}{\sqrt{(\sum x_i^2 - n\bar{x}^2)(\sum y_i^2 - n\bar{y}^2)}}$
+    \end{itemize}
+    
+    \item \textbf{回归方程的求解步骤}：
+    \begin{itemize}
+        \item 计算样本均值 $\bar{x}, \bar{y}$
+        \item 计算回归系数 $\hat{b} = \dfrac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}$
+        \item 计算截距 $\hat{a} = \bar{y} - \hat{b}\bar{x}$
+        \item 写出回归方程 $\hat{y} = \hat{b}x + \hat{a}$
+    \end{itemize}
+    
+    \item \textbf{回归直线的重要性质}：
+    \begin{itemize}
+        \item 必过样本中心点 $(\bar{x}, \bar{y})$
+        \item 斜率 $\hat{b}$ 与相关系数 $r$ 同号
+        \item 可用于预测，但要注意预测范围（内插可靠，外推谨慎）
+    \end{itemize}
+    
+    \item \textbf{常见易错点}：
+    \begin{itemize}
+        \item 混淆相关系数与回归斜率：两者计算公式分子相同，分母不同
+        \item 忘记回归直线过样本中心点，可用于检验计算结果
+        \item 预测时注意 $x$ 的取值范围，超出样本范围的预测需谨慎
+        \item 相关系数只反映线性相关程度，非线性关系需用其他方法
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

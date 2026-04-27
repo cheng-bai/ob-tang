@@ -1,0 +1,157 @@
+{
+  "total": 16,
+  "with_solution": 12,
+  "without_solution": 4,
+  "success": 16,
+  "failed": 0,
+  "skipped": 0,
+  "timeout": 0,
+  "details": [
+    {
+      "file": "2026届崇明区高三下二模数学试卷（教师版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026崇明区高三下二模数学试卷 /2026届崇明区高三下二模数学试卷（教师版）.md",
+        "chars": 31294
+      }
+    },
+    {
+      "file": "25高三二模分类汇编 - 解析版.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/25二模分类汇编-解析版/25高三二模分类汇编 - 解析版.md",
+        "chars": 451208
+      }
+    },
+    {
+      "file": "2026届闵行区高三下二模数学试卷（解析版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届闵行区高三下二模数学试卷（解析版）/2026届闵行区高三下二模数学试卷（解析版）.md",
+        "chars": 26524
+      }
+    },
+    {
+      "file": "2026届金山区高三下二模数学试卷（解析版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届金山区高三下二模数学试卷（解析版）/2026届金山区高三下二模数学试卷（解析版）.md",
+        "chars": 26065
+      }
+    },
+    {
+      "file": "2026届嘉定区高三下二模数学试卷（解析版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷（解析版）.md",
+        "chars": 28495
+      }
+    },
+    {
+      "file": "2026届嘉定区高三下二模数学试卷-dollar_教师版.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷-dollar_教师版.md",
+        "chars": 36044
+      }
+    },
+    {
+      "file": "2025届高三一模客观题难题解析.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2025届高三一模客观题难题解析/2025届高三一模客观题难题解析.md",
+        "chars": 75077
+      }
+    },
+    {
+      "file": "2025届上海高考数学二模试卷汇编（解析）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2025届上海高考数学二模试卷汇编（解析版）/2025届上海高考数学二模试卷汇编（解析）.md",
+        "chars": 397684
+      }
+    },
+    {
+      "file": "2026届崇明区高三下二模数学试卷（解析版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届崇明区高三下二模数学试卷（解析版）/2026届崇明区高三下二模数学试卷（解析版）.md",
+        "chars": 25006
+      }
+    },
+    {
+      "file": "2026届奉贤区高三下二模数学试卷（解析版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届奉贤区高三下二模数学试卷（解析版）/2026届奉贤区高三下二模数学试卷（解析版）.md",
+        "chars": 33454
+      }
+    },
+    {
+      "file": "2026届浦东新区高三下二模数学试卷_教师版.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷_教师版.md",
+        "chars": 34331
+      }
+    },
+    {
+      "file": "2026届浦东新区高三下二模数学试卷（解析版）.pdf",
+      "type": "with_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）.md",
+        "chars": 27536
+      }
+    },
+    {
+      "file": "2026届崇明区高三下二模数学试卷（学生版）.pdf",
+      "type": "without_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026崇明区高三下二模数学试卷 /2026届崇明区高三下二模数学试卷（学生版）.md",
+        "chars": 5982
+      }
+    },
+    {
+      "file": "2026届嘉定区高三下二模数学试卷-dollar_学生版.pdf",
+      "type": "without_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届嘉定区高三下二模数学试卷（解析版）/2026届嘉定区高三下二模数学试卷-dollar_学生版.md",
+        "chars": 6500
+      }
+    },
+    {
+      "file": "25一模编汇合集.pdf",
+      "type": "without_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/25一模编汇合集/25一模编汇合集.md",
+        "chars": 395233
+      }
+    },
+    {
+      "file": "2026届浦东新区高三下二模数学试卷_学生版.pdf",
+      "type": "without_solution",
+      "result": {
+        "status": "success",
+        "output": "0-一模-二模-模考试卷-md版本/md输出/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷_学生版.md",
+        "chars": 6086
+      }
+    }
+  ],
+  "md_files_generated": 16,
+  "total_chars": 1071122
+}

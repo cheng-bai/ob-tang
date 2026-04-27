@@ -1,0 +1,205 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：导数的概念与运算}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：导数的概念与运算}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+导数是微积分的核心概念，描述了函数在某一点处的瞬时变化率，是研究函数性质的重要工具。
+
+\begin{definition}[平均变化率]
+    设函数 $y = f(x)$ 在区间 $[x_0, x_0 + \Delta x]$ 上有定义，则函数在该区间上的\textbf{平均变化率}为
+    \[
+        \frac{\Delta y}{\Delta x} = \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}.
+    \]
+\end{definition}
+
+\begin{definition}[导数的定义]
+    设函数 $y = f(x)$ 在点 $x_0$ 的某个邻域内有定义，若极限
+    \[
+        \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x}
+    \]
+    存在，则称函数 $f(x)$ 在点 $x_0$ 处\textbf{可导}，该极限值称为 $f(x)$ 在 $x_0$ 处的\textbf{导数}，记作 $f'(x_0)$ 或 $\left.\dfrac{dy}{dx}\right|_{x=x_0}$。
+\end{definition}
+
+\begin{property}[导数的几何意义]
+    函数 $y = f(x)$ 在点 $x_0$ 处的导数 $f'(x_0)$ 表示曲线 $y = f(x)$ 在点 $(x_0, f(x_0))$ 处的切线斜率。
+    
+    切线方程为：$y - f(x_0) = f'(x_0)(x - x_0)$。
+    
+    法线方程为：$y - f(x_0) = -\dfrac{1}{f'(x_0)}(x - x_0)$（当 $f'(x_0) \neq 0$ 时）。
+\end{property}
+
+\begin{property}[基本求导公式]
+    \begin{enumerate}
+        \item $(C)' = 0$（$C$ 为常数）
+        \item $(x^n)' = nx^{n-1}$（$n \in \mathbb{Q}$）
+        \item $(\sin x)' = \cos x$
+        \item $(\cos x)' = -\sin x$
+        \item $(e^x)' = e^x$
+        \item $(a^x)' = a^x \ln a$（$a > 0, a \neq 1$）
+        \item $(\ln x)' = \dfrac{1}{x}$（$x > 0$）
+        \item $(\log_a x)' = \dfrac{1}{x \ln a}$（$a > 0, a \neq 1, x > 0$）
+    \end{enumerate}
+\end{property}
+
+\begin{property}[导数的运算法则]
+    设 $u(x)$ 和 $v(x)$ 可导，则：
+    \begin{enumerate}
+        \item $(u \pm v)' = u' \pm v'$（和差法则）
+        \item $(uv)' = u'v + uv'$（乘法法则）
+        \item $\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}$（$v \neq 0$，除法法则）
+        \item $[Cf(x)]' = Cf'(x)$（$C$ 为常数）
+    \end{enumerate}
+\end{property}
+
+\begin{property}[复合函数求导法则（链式法则）]
+    设 $y = f(u)$，$u = g(x)$，则复合函数 $y = f(g(x))$ 的导数为
+    \[
+        \frac{dy}{dx} = \frac{dy}{du} \cdot \frac{du}{dx} = f'(u) \cdot g'(x).
+    \]
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[利用定义求导数]
+    用导数定义求函数 $f(x) = x^2 + 3x$ 在 $x = 2$ 处的导数。
+\end{example}
+
+\textbf{解.} 根据导数定义：
+\[
+    f'(2) = \lim_{\Delta x \to 0} \frac{f(2 + \Delta x) - f(2)}{\Delta x}
+\]
+
+计算得：
+\begin{align*}
+    f(2 + \Delta x) &= (2 + \Delta x)^2 + 3(2 + \Delta x) = 4 + 4\Delta x + (\Delta x)^2 + 6 + 3\Delta x \\ 
+    &= 10 + 7\Delta x + (\Delta x)^2
+\end{align*}
+
+又 $f(2) = 4 + 6 = 10$，所以
+\[
+    f'(2) = \lim_{\Delta x \to 0} \frac{7\Delta x + (\Delta x)^2}{\Delta x} = \lim_{\Delta x \to 0} (7 + \Delta x) = 7.
+\]
+
+\begin{example}[基本函数的导数]
+    求下列函数的导数：
+    \begin{enumerate}
+        \item $y = x^5 - 3x^3 + 2x - 7$
+        \item $y = \dfrac{1}{x^2} + \sqrt{x}$
+        \item $y = x^3 \cdot e^x$
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 利用幂函数求导法则：
+\[
+    y' = 5x^4 - 9x^2 + 2.
+\]
+
+(2) 将函数改写为 $y = x^{-2} + x^{1/2}$，则
+\[
+    y' = -2x^{-3} + \frac{1}{2}x^{-1/2} = -\frac{2}{x^3} + \frac{1}{2\sqrt{x}}.
+\]
+
+(3) 利用乘法法则：
+\[
+    y' = (x^3)' \cdot e^x + x^3 \cdot (e^x)' = 3x^2 e^x + x^3 e^x = x^2 e^x (3 + x).
+\]
+
+\begin{example}[复合函数求导]
+    求下列函数的导数：
+    \begin{enumerate}
+        \item $y = \sin(2x + 1)$
+        \item $y = \ln(x^2 + 1)$
+        \item $y = e^{3x^2}$
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 令 $u = 2x + 1$，则 $y = \sin u$，由链式法则：
+\[
+    y' = \cos u \cdot u' = \cos(2x + 1) \cdot 2 = 2\cos(2x + 1).
+\]
+
+(2) 令 $u = x^2 + 1$，则 $y = \ln u$，由链式法则：
+\[
+    y' = \frac{1}{u} \cdot u' = \frac{1}{x^2 + 1} \cdot 2x = \frac{2x}{x^2 + 1}.
+\]
+
+(3) 令 $u = 3x^2$，则 $y = e^u$，由链式法则：
+\[
+    y' = e^u \cdot u' = e^{3x^2} \cdot 6x = 6x e^{3x^2}.
+\]
+
+\begin{realexam}[2024 上海春考]
+    设函数 $f(x) = x^3 + ax^2 + bx + c$，若曲线 $y = f(x)$ 在点 $(1, f(1))$ 处的切线方程为 $y = 4x - 2$，求 $a, b, c$ 的值。
+\end{realexam}
+
+\textbf{解.} 由题意，切线过点 $(1, f(1))$，且斜率为 $4$，所以
+\[
+    f(1) = 4 \cdot 1 - 2 = 2, \quad f'(1) = 4.
+\]
+
+计算导数：$f'(x) = 3x^2 + 2ax + b$。
+
+由条件得方程组：
+\[
+    \begin{cases}
+        1 + a + b + c = 2 \\[4pt]
+        3 + 2a + b = 4
+    \end{cases}
+\]
+
+即
+\[
+    \begin{cases}
+        a + b + c = 1 \\[4pt]
+        2a + b = 1
+    \end{cases}
+\]
+
+解得 $b = 1 - 2a$，$c = 1 - a - b = 1 - a - (1 - 2a) = a$。
+
+若题目有额外条件（如过原点等），可进一步确定参数。一般解为 $a$ 为任意实数，$b = 1 - 2a$，$c = a$。
+
+\begin{realexam}[2025 上海一模]
+    已知函数 $f(x) = \dfrac{\ln x}{x}$，求曲线 $y = f(x)$ 在点 $(1, 0)$ 处的切线方程。
+\end{realexam}
+
+\textbf{解.} 先求导数。利用除法法则：
+\[
+    f'(x) = \frac{\frac{1}{x} \cdot x - \ln x \cdot 1}{x^2} = \frac{1 - \ln x}{x^2}.
+\]
+
+在 $x = 1$ 处：
+\[
+    f'(1) = \frac{1 - \ln 1}{1} = \frac{1 - 0}{1} = 1.
+\]
+
+切线方程为：
+\[
+    y - 0 = 1 \cdot (x - 1) \quad \Rightarrow \quad y = x - 1.
+\]
+
+即切线方程为 $x - y - 1 = 0$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{导数定义的应用}：导数定义是求导的根本方法，适用于证明函数在某点可导或不可导，以及推导基本求导公式。
+    \item \textbf{基本求导公式}：熟练掌握幂函数、指数函数、对数函数、三角函数的求导公式是快速求导的基础。
+    \item \textbf{链式法则}：复合函数求导时，要分清内外层函数，逐层求导后相乘。关键是正确识别复合结构。
+    \item \textbf{切线问题}：求切线方程需要两个要素：切点坐标和切线斜率（即该点导数值）。若已知切线斜率求切点，需解方程 $f'(x) = k$。
+    \item \textbf{运算技巧}：求导前先化简函数表达式（如分式化简、根式化为幂式），可减少计算量。
+\end{enumerate}
+
+\end{document}

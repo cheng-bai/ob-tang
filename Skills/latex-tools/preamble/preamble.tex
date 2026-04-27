@@ -1,0 +1,31 @@
+% ======================================
+% 高中数学讲义 - 统一导言区（模块化版本）
+% ======================================
+% 使用方式: \input{preamble/preamble.tex}
+% 此文件通过模块化方式组织所有宏包、格式设置和环境定义
+%
+% 模块结构：
+%   01-packages.tex      - 宏包引入
+%   02-colors.tex        - 配色方案
+%   03-fonts.tex         - 字体设置
+%   04-math-commands.tex - 数学命令与优化
+%   05-tcb-base.tex      - tcolorbox 基础样式
+%   06-environments.tex  - 定理/定义/例题环境
+%   07-solution-toggle.tex - 解答隐藏/显示控制
+%   08-layout.tex        - 页面布局与章节样式
+%   09-helpers.tex       - 辅助命令
+% ======================================
+
+\input{preamble/modules/01-packages}
+\input{preamble/modules/02-colors}
+\input{preamble/modules/03-fonts}
+\input{preamble/modules/04-math-commands}
+\input{preamble/modules/05-tcb-base}
+\input{preamble/modules/06-environments}
+\input{preamble/modules/07-solution-toggle}
+\input{preamble/modules/08-layout}
+\input{preamble/modules/09-helpers}
+
+% ========== 文档信息定义 ==========
+\newcommand{\LectureNotesTitle}{高中数学知识笔记}
+\newcommand{\AuthorInfo}{教材·教参·真题整合版}

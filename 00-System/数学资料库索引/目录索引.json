@@ -1,0 +1,162 @@
+{
+  ".agents": {
+    "kind": "directory",
+    "files": 3
+  },
+  ".claude": {
+    "kind": "directory",
+    "files": 1
+  },
+  ".gitignore": {
+    "kind": "file",
+    "size_bytes": 144
+  },
+  "0-一模-二模-模考试卷-md版本": {
+    "kind": "directory",
+    "files": 2003
+  },
+  "00-索引与配置": {
+    "kind": "directory",
+    "files": 42
+  },
+  "01-教材原文-只有文本 没有图片": {
+    "kind": "directory",
+    "files": 24
+  },
+  "02-讲义输出": {
+    "kind": "directory",
+    "files": 90
+  },
+  "03-上海教材md": {
+    "kind": "directory",
+    "files": 4637
+  },
+  "04-专题资料": {
+    "kind": "directory",
+    "files": 56
+  },
+  "05-结构化MD": {
+    "kind": "directory",
+    "files": 2
+  },
+  "06-教材切片库": {
+    "kind": "directory",
+    "files": 1785
+  },
+  "10-工具脚本": {
+    "kind": "directory",
+    "files": 16
+  },
+  "99-归档备份": {
+    "kind": "directory",
+    "files": 308
+  },
+  "Makefile": {
+    "kind": "file",
+    "size_bytes": 524
+  },
+  "README.md": {
+    "kind": "file",
+    "size_bytes": 3911
+  },
+  "__pycache__": {
+    "kind": "directory",
+    "files": 1
+  },
+  "build": {
+    "kind": "directory",
+    "files": 31
+  },
+  "convert.py": {
+    "kind": "file",
+    "size_bytes": 23011
+  },
+  "convert_v2.py": {
+    "kind": "file",
+    "size_bytes": 23688
+  },
+  "convert_v3.py": {
+    "kind": "file",
+    "size_bytes": 12928
+  },
+  "convert_v4.py": {
+    "kind": "file",
+    "size_bytes": 14504
+  },
+  "convert_v5.py": {
+    "kind": "file",
+    "size_bytes": 11966
+  },
+  "docs": {
+    "kind": "directory",
+    "files": 19
+  },
+  "outputs": {
+    "kind": "directory",
+    "files": 153
+  },
+  "pipeline": {
+    "kind": "directory",
+    "files": 24
+  },
+  "preamble": {
+    "kind": "directory",
+    "files": 10
+  },
+  "scripts": {
+    "kind": "directory",
+    "files": 3
+  },
+  "skills": {
+    "kind": "directory",
+    "files": 11
+  },
+  "template.html": {
+    "kind": "file",
+    "size_bytes": 14562
+  },
+  "venv": {
+    "kind": "directory",
+    "files": 25430
+  },
+  "上海高考真题汇编及变式详解版——下册": {
+    "kind": "directory",
+    "files": 138
+  },
+  "切片库-ai": {
+    "kind": "directory",
+    "files": 79
+  },
+  "沪教版必修第三册2026-切片卡片版": {
+    "kind": "directory",
+    "files": 49
+  },
+  "试卷 latex 化": {
+    "kind": "directory",
+    "files": 349
+  },
+  "输出": {
+    "kind": "directory",
+    "files": 23
+  },
+  "输出-v3": {
+    "kind": "directory",
+    "files": 1
+  },
+  "输出-v4": {
+    "kind": "directory",
+    "files": 22
+  },
+  "输出-v4-图片版": {
+    "kind": "directory",
+    "files": 1369
+  },
+  "输出-v5": {
+    "kind": "directory",
+    "files": 0
+  },
+  "顾老师-案例": {
+    "kind": "directory",
+    "files": 1434
+  }
+}

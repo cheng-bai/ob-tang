@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>第2章 等式与不等式</title>
+<style>
+  @page {
+    size: A4;
+    margin: 20mm 22mm 22mm 22mm;
+    background: #f5f4ed;
+    @bottom-center {
+      content: counter(page) " · 第2章 等式与不等式";
+      font-size: 8.5pt;
+      color: #87867f;
+    }
+  }
+  @page:first { @bottom-center { content: ""; } }
+  
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", Georgia, serif;
+    font-size: 10.5pt;
+    line-height: 1.55;
+    color: #141413;
+    background: #f5f4ed;
+    max-width: 210mm;
+    margin: 0 auto;
+    padding: 20mm 22mm;
+  }
+  
+  h1 {
+    font-size: 22pt;
+    font-weight: 500;
+    margin: 0 0 10pt 0;
+    border-left: 2.5pt solid #1B365D;
+    padding-left: 8pt;
+    break-after: avoid;
+  }
+  
+  h2 {
+    font-size: 15pt;
+    font-weight: 500;
+    margin: 24pt 0 6pt 0;
+    break-after: avoid;
+  }
+  
+  h3 {
+    font-size: 12pt;
+    font-weight: 500;
+    margin: 18pt 0 4pt 0;
+    color: #3d3d3a;
+  }
+  
+  p { margin: 0 0 10pt 0; }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10pt 0;
+    font-size: 9.5pt;
+  }
+  
+  th, td {
+    padding: 6pt 8pt;
+    text-align: left;
+    border-bottom: 0.5pt solid #e8e6dc;
+  }
+  
+  th {
+    background: #faf9f5;
+    font-weight: 500;
+    color: #1B365D;
+  }
+  
+  pre {
+    background: #faf9f5;
+    border: 0.5pt solid #e8e6dc;
+    border-radius: 3pt;
+    padding: 8pt 10pt;
+    font-family: "JetBrains Mono", Consolas, monospace;
+    font-size: 9pt;
+    margin: 8pt 0;
+    overflow-x: auto;
+  }
+  
+  .cover {
+    min-height: 240mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40mm 0 0 0;
+    break-after: page;
+  }
+  
+  .cover-title {
+    font-size: 36pt;
+    font-weight: 500;
+    line-height: 1.15;
+    margin-bottom: 16pt;
+  }
+  
+  .cover-sub {
+    font-size: 14pt;
+    color: #5e5d59;
+    margin-bottom: 30pt;
+  }
+  
+  .chapter { break-before: page; }
+  
+  .chapter-num {
+    font-size: 10pt;
+    color: #1B365D;
+    letter-spacing: 1pt;
+    margin-bottom: 6pt;
+  }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <div>
+    <div style="font-size: 10pt; color: #1B365D; margin-bottom: 18pt;">高中数学 · 必修第一册</div>
+    <div class="cover-title">第2章 等式与不等式</div>
+    <div class="cover-sub">沪教版 2026 · 系统讲义</div>
+  </div>
+  <div style="font-size: 10pt; color: #87867f;">
+    <strong>AI 讲义生成系统</strong><br>
+    沪教版 2026 · 2026.04
+  </div>
+</section>
+
+<section class="chapter">
+  <div class="chapter-num">CONTENT</div>
+  <h1>第2章 等式与不等式 · 讲义</h1></p>
+<h2>1. 本章解决什么问题</h2></p>
+<p>本章建立高中数学中数量关系的基础理论：
+- <strong>等式</strong>：相等关系的表示与方程求解
+- <strong>不等式</strong>：不等关系的表示、求解与证明
+- <strong>基本不等式</strong>：最值问题与不等式证明的重要工具</p>
+<p>> 先修知识：初中方程与不等式基础
+> 后续关联：函数定义域、值域、最值问题</p>
+<p>---</p>
+<h2>2. 知识主线图</h2></p>
+<pre>等式与不等式的性质
+├── 等式的性质
+│   ├── 传递性: a = b, b = c ⇒ a = c
+│   ├── 加法性质: a = b ⇒ a + c = b + c
+│   └── 乘法性质: a = b ⇒ ac = bc
+├── 不等式的性质
+│   ├── 传递性: a > b, b > c ⇒ a > c
+│   ├── 加法性质: a > b ⇒ a + c > b + c
+│   ├── 乘法性质: a > b, c > 0 ⇒ ac > bc
+│   │              a > b, c < 0 ⇒ ac < bc
+│   ├── 同向可加性: a > b, c > d ⇒ a + c > b + d
+│   └── 倒数性质: a > b > 0 ⇒ 1/b > 1/a > 0
+│
+方程的解集
+├── 一元一次方程 ax = b 的解集分类
+├── 一元二次方程 ax² + bx + c = 0 (a ≠ 0)
+│   ├── Δ > 0: 两不同实根 {x₁, x₂}
+│   ├── Δ = 0: 重根 {-b/2a}
+│   └── Δ < 0: 无实根 ∅
+└── 韦达定理: x₁ + x₂ = -b/a, x₁x₂ = c/a</p>
+<p>不等式的求解
+├── 一元一次不等式(组)
+├── 一元二次不等式 (a > 0)
+│   ├── Δ > 0: ax²+bx+c>0 解集 (-∞,x₁)∪(x₂,+∞)
+│   │            ax²+bx+c<0 解集 (x₁,x₂)
+│   ├── Δ = 0: ax²+bx+c>0 解集 (-∞,x₁)∪(x₁,+∞)
+│   │            ax²+bx+c<0 解集 ∅
+│   └── Δ < 0: ax²+bx+c>0 解集 R
+│               ax²+bx+c<0 解集 ∅
+├── 分式不等式: 转化为整式不等式组
+└── 含绝对值不等式
+    ├── |x| < a (a>0) ⇔ -a < x < a
+    └── |x| > a (a>0) ⇔ x > a 或 x < -a</p>
+<p>基本不等式及其应用
+├── 平均值不等式: (a+b)/2 ≥ √ab (a>0,b>0)
+│   └── 等号成立条件: a = b
+├── 常用不等式: a² + b² ≥ 2ab
+│   └── 等号成立条件: a = b
+└── 三角不等式: |a+b| ≤ |a| + |b|
+    └── 等号成立条件: ab ≥ 0</pre></p>
+<p>---</p>
+<h2>3. 核心概念与判定条件</h2></p>
+<p><h3>3.1 实数大小比较的基础</h3></p>
+<table>
+<tr><td>关系</td><td>判定条件</td></tr>
+<tr><td>a > b</td><td>a - b > 0</td></tr>
+<tr><td>a = b</td><td>a - b = 0</td></tr>
+<tr><td>a < b</td><td>a - b < 0</td></tr>
+</table></p>
+<p><h3>3.2 一元二次方程解集判定</h3></p>
+<table>
+<tr><td>判别式 Δ</td><td>方程 ax²+bx+c=0</td><td>解集</td></tr>
+<tr><td>Δ > 0</td><td>两不同实根 x₁ < x₂</td><td>{(-b±√Δ)/2a}</td></tr>
+<tr><td>Δ = 0</td><td>重根 x₁ = x₂</td><td>{-b/2a}</td></tr>
+<tr><td>Δ < 0</td><td>无实根</td><td>∅</td></tr>
+</table></p>
+<p><h3>3.3 一元二次不等式解集 (a > 0)</h3></p>
+<table>
+<tr><td>Δ</td><td>ax²+bx+c > 0</td><td>ax²+bx+c < 0</td></tr>
+<tr><td>Δ > 0</td><td>(-∞,x₁)∪(x₂,+∞)</td><td>(x₁,x₂)</td></tr>
+<tr><td>Δ = 0</td><td>(-∞,x₁)∪(x₁,+∞)</td><td>∅</td></tr>
+<tr><td>Δ < 0</td><td>R</td><td>∅</td></tr>
+</table></p>
+<p>口诀：<strong>大于取两边，小于取中间</strong> (Δ > 0 时)</p>
+<p><h3>3.4 基本不等式链 (a > 0, b > 0)</h3></p>
+<pre>调和平均 ≤ 几何平均 ≤ 算术平均 ≤ 平方平均</p>
+<p>2/(1/a+1/b) ≤ √ab ≤ (a+b)/2 ≤ √((a²+b²)/2)</pre></p>
+<p>等号当且仅当 a = b 时成立</p>
+<p>---</p>
+<h2>4. 方法模板</h2></p>
+<p><h3>模板1：比较两数(式)大小</h3></p>
+<p><strong>识别特征</strong>：需要比较 A 与 B 的大小</p>
+<p><strong>操作步骤</strong>：
+<li>作差：计算 A - B</li>
+<li>变形：因式分解或配方</li>
+<li>定号：判断差的正负</li>
+<li>结论：A > B ⇔ A-B > 0</li></p>
+<p><strong>示例</strong>：比较 a²+b² 与 2ab
+- 作差：a²+b² - 2ab = (a-b)²
+- 定号：(a-b)² ≥ 0
+- 结论：a²+b² ≥ 2ab，等号当且仅当 a = b</p>
+<p>---</p>
+<p><h3>模板2：解一元二次不等式</h3></p>
+<p><strong>识别特征</strong>：形如 ax²+bx+c > 0 (或 < 0, ≥ 0, ≤ 0)</p>
+<p><strong>操作步骤</strong>：
+<li>标准化：确保 a > 0 (若 a < 0，两边乘 -1，不等号反向)</li>
+<li>求判别式：Δ = b² - 4ac</li>
+<li>求根（若 Δ ≥ 0）：x₁, x₂ = (-b±√Δ)/2a</li>
+<li>定解集：</li>
+   - > 0 取两边，< 0 取中间 (Δ > 0)
+   - Δ = 0 或 Δ < 0 查表</p>
+<p><strong>示例</strong>：解 -2x² + 3x - 1/2 ≥ 0
+<li>标准化：2x² - 3x + 1/2 ≤ 0</li>
+<li>Δ = 9 - 4 = 5 > 0</li>
+<li>根：x = (3±√5)/4</li>
+<li>解集：[(3-√5)/4, (3+√5)/4]</li></p>
+<p>---</p>
+<p><h3>模板3：解分式不等式</h3></p>
+<p><strong>识别特征</strong>：形如 P(x)/Q(x) > 0 (或 < 0, ≥ 0, ≤ 0)</p>
+<p><strong>操作步骤</strong>：
+<li>移项：化为一边为 0 的形式</li>
+<li>通分：合并为一个分式</li>
+<li>转化：</li>
+   - P/Q > 0 ⇔ P·Q > 0 且 Q ≠ 0
+   - P/Q < 0 ⇔ P·Q < 0 且 Q ≠ 0
+   - P/Q ≥ 0 ⇔ P·Q ≥ 0 且 Q ≠ 0
+<li>解整式不等式</li></p>
+<p><strong>注意</strong>：分母不能为零！</p>
+<p>---</p>
+<p><h3>模板4：解含绝对值不等式</h3></p>
+<p><strong>识别特征</strong>：含 |f(x)| 的不等式</p>
+<p><strong>核心公式</strong> (a > 0)：
+- |x| < a ⇔ -a < x < a
+- |x| > a ⇔ x > a 或 x < -a
+- |x-a| + |x-b| 型：找零点，分段讨论</p>
+<p><strong>操作步骤</strong>：
+<li>找零点：令绝对值内表达式 = 0</li>
+<li>分区间：用零点划分数轴</li>
+<li>去绝对值：在各区间确定符号</li>
+<li>求解：在各区间解不等式</li>
+<li>合并：取各区间解的并集</li></p>
+<p>---</p>
+<p><h3>模板5：利用基本不等式求最值</h3></p>
+<p><strong>识别特征</strong>：求最值问题，出现和或积为定值</p>
+<p><strong>核心公式</strong>：
+- 若 a > 0, b > 0，则 (a+b)/2 ≥ √ab
+- <strong>和定积最大</strong>：a+b = S（定值），则 ab ≤ S²/4
+- <strong>积定和最小</strong>：ab = P（定值），则 a+b ≥ 2√P</p>
+<p><strong>操作步骤</strong>：
+<li>识别：确定是"和定"还是"积定"</li>
+<li>验证：检查是否为正数、能否取等</li>
+<li>应用：套用基本不等式</li>
+<li>结论：写出最值及取等条件</li></p>
+<p><strong>注意三要素</strong>：
+- 一正：各项为正
+- 二定：和或积为定值
+- 三相等：等号能取到</p>
+<p>---</p>
+<h2>5. 典型例题</h2></p>
+<p><h3>例题1：韦达定理的应用</h3></p>
+<p><strong>题目</strong>：已知方程 x² + x - 3 = 0 的两根为 x₁, x₂，求：
+(1) x₁²x₂ + x₂²x₁
+(2) |x₁ - x₂|</p>
+<p><strong>解析</strong>：
+由韦达定理：x₁ + x₂ = -1，x₁x₂ = -3</p>
+<p>(1) x₁²x₂ + x₂²x₁ = x₁x₂(x₁+x₂) = (-3)×(-1) = 3</p>
+<p>(2) |x₁-x₂| = √[(x₁-x₂)²] = √[(x₁+x₂)² - 4x₁x₂]
+   = √[1 - 4×(-3)] = √13</p>
+<p>---</p>
+<p><h3>例题2：一元二次不等式求解</h3></p>
+<p><strong>题目</strong>：解不等式 -x² + 3x - 4 > 0</p>
+<p><strong>解析</strong>：
+<li>标准化：x² - 3x + 4 < 0</li>
+<li>Δ = 9 - 16 = -7 < 0</li>
+<li>由表2-2，解集为 ∅</li></p>
+<p>---</p>
+<p><h3>例题3：分式不等式</h3></p>
+<p><strong>题目</strong>：解不等式 (2x+1)/(x-1) ≤ 3</p>
+<p><strong>解析</strong>：
+<li>移项：(2x+1)/(x-1) - 3 ≤ 0</li>
+<li>通分：(2x+1-3x+3)/(x-1) ≤ 0，即 (-x+4)/(x-1) ≤ 0</li>
+<li>转化为：(x-4)/(x-1) ≥ 0 且 x ≠ 1</li>
+<li>解集：(-∞, 1) ∪ [4, +∞)</li></p>
+<p>---</p>
+<p><h3>例题4：含绝对值不等式</h3></p>
+<p><strong>题目</strong>：解不等式 |x-3| + |x-5| < 4</p>
+<p><strong>解析</strong>：
+零点：x = 3, x = 5</p>
+<p><strong>区间1</strong>：x < 3
+原式化为：3-x + 5-x < 4，即 8-2x < 4，x > 2
+∴ 2 < x < 3</p>
+<p><strong>区间2</strong>：3 ≤ x < 5
+原式化为：x-3 + 5-x < 4，即 2 < 4（恒成立）
+∴ 3 ≤ x < 5</p>
+<p><strong>区间3</strong>：x ≥ 5
+原式化为：x-3 + x-5 < 4，即 2x-8 < 4，x < 6
+∴ 5 ≤ x < 6</p>
+<p>综上，解集为 (2, 6)</p>
+<p>---</p>
+<p><h3>例题5：基本不等式求最值</h3></p>
+<p><strong>题目</strong>：设 x > 0，求 x + 1/x 的最小值</p>
+<p><strong>解析</strong>：
+∵ x > 0，∴ 1/x > 0
+由平均值不等式：
+x + 1/x ≥ 2√(x·1/x) = 2</p>
+<p>等号当且仅当 x = 1/x，即 x = 1 时成立</p>
+<p>∴ 最小值为 2</p>
+<p>---</p>
+<p><h3>例题6：三角不等式应用</h3></p>
+<p><strong>题目</strong>：证明 |x-3| + |x-5| ≥ 2 对所有实数 x 恒成立</p>
+<p><strong>解析</strong>：
+<table>
+<tr><td>x-3</td><td>+</td><td>x-5</td><td>=</td><td>x-3</td><td>+</td><td>5-x</td></tr>
+</table>
+≥ |(x-3)+(5-x)| = |2| = 2</p>
+<p>等号当且仅当 (x-3)(5-x) ≥ 0，即 x ∈ [3,5] 时成立</p>
+<p>---</p>
+<h2>6. 易错点</h2></p>
+<table>
+<tr><td>陷阱</td><td>错误示例</td><td>正确理解</td></tr>
+<tr><td><strong>乘负数忘变号</strong></td><td>a > b, c < 0 时 ac > bc ❌</td><td>ac < bc（不等号反向）</td></tr>
+<tr><td><strong>分式不等式直接去分母</strong></td><td>(x+1)/(x-2) > 0 两边乘 (x-2) ❌</td><td>转化为 (x+1)(x-2) > 0 且 x ≠ 2</td></tr>
+<tr><td><strong>忽略分母为零</strong></td><td>(2x+1)/(x-1) ≤ 1 解集含 x=1 ❌</td><td>x=1 使分母为零，必须排除</td></tr>
+<tr><td><strong>基本不等式一正</strong></td><td>x + 1/x ≥ 2 对 x < 0 也成立 ❌</td><td>必须 x > 0 才能用</td></tr>
+<tr><td><strong>基本不等式三相等</strong></td><td>求最值时不验证等号条件 ❌</td><td>必须验证等号能否取到</td></tr>
+<tr><td><strong>绝对值零点遗漏</strong></td><td></td><td>x-1</td><td>+</td><td>x-2</td><td>分段只分两段 ❌</td><td>n 个绝对值分 n+1 段</td></tr>
+<tr><td><strong>韦达定理条件</strong></td><td>对无实根方程用韦达定理 ❌</td><td>前提是 Δ ≥ 0</td></tr>
+<tr><td><strong>解集端点开闭</strong></td><td>ax²+bx+c ≤ 0 解集写成 (x₁,x₂) ❌</td><td>应写成 [x₁,x₂]</td></tr>
+</table></p>
+<p>---</p>
+<h2>7. 课后最小训练闭环</h2></p>
+<p><h3>基础识别（5分钟）</h3></p>
+<p><li>判断：若 a > b，则 ac² > bc² 是否正确？</li>
+<li>方程 x² - 4x + 4 = 0 的解集是____</li>
+<li>不等式 x² + 1 > 0 的解集是____</li></p>
+<p><h3>定理应用（10分钟）</h3></p>
+<p><li>已知方程 x² - 5x + 6 = 0 的两根为 x₁, x₂，求 x₁² + x₂²</li>
+<li>解不等式：(x-1)(x+2) < 0</li>
+<li>解不等式：|2x-1| < 3</li>
+<li>设 x > 0，求 2x + 8/x 的最小值</li></p>
+<p><h3>证明表达（10分钟）</h3></p>
+<p><li>证明：对于任意实数 a, b，有 a² + b² ≥ 2ab</li>
+<li>证明：|a| - |b| ≤ |a-b|</li></p>
+<p><h3>混合复习（5分钟）</h3></p>
+<p><li>解关于 x 的不等式：ax > 1（需讨论 a 的取值）</li>
+<li>已知 x² + bx + c < 0 的解集为 (1,2)，求 b, c 的值</li></p>
+<p>---</p>
+<p>*讲义生成时间：2026-04-23 | 来源：沪教版必修第一册 2026*
+</p>
+</section>
+
+</body>
+</html>

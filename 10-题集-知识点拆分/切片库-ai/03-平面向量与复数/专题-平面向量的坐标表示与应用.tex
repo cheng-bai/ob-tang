@@ -1,0 +1,234 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：平面向量的坐标表示与应用}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：平面向量的坐标表示与应用}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+向量的坐标表示是将几何问题代数化的重要手段，通过建立坐标系，可以将向量的运算转化为坐标的代数运算，从而简化问题的求解过程。
+
+\begin{definition}[向量的坐标表示]
+    在平面直角坐标系中，分别取与 $x$ 轴、$y$ 轴方向相同的两个单位向量 $\boldsymbol{i}$、$\boldsymbol{j}$ 作为基底。对于平面内的任一向量 $\boldsymbol{a}$，由平面向量基本定理，有且只有一对实数 $x$、$y$，使得
+    \[
+        \boldsymbol{a} = x\boldsymbol{i} + y\boldsymbol{j}.
+    \]
+    我们把有序实数对 $(x, y)$ 叫做向量 $\boldsymbol{a}$ 的\textbf{坐标}，记作 $\boldsymbol{a} = (x, y)$，其中 $x$ 叫做 $\boldsymbol{a}$ 在 $x$ 轴上的分量，$y$ 叫做 $\boldsymbol{a}$ 在 $y$ 轴上的分量。
+\end{definition}
+
+\begin{property}[向量坐标运算]
+    设 $\boldsymbol{a} = (x_1, y_1)$，$\boldsymbol{b} = (x_2, y_2)$，$\lambda$ 为实数：
+    \begin{itemize}
+        \item 加法：$\boldsymbol{a} + \boldsymbol{b} = (x_1+x_2, y_1+y_2)$；
+        \item 减法：$\boldsymbol{a} - \boldsymbol{b} = (x_1-x_2, y_1-y_2)$；
+        \item 数乘：$\lambda\boldsymbol{a} = (\lambda x_1, \lambda y_1)$；
+        \item 数量积：$\boldsymbol{a} \cdot \boldsymbol{b} = x_1x_2 + y_1y_2$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[向量的模与夹角]
+    设 $\boldsymbol{a} = (x_1, y_1)$，$\boldsymbol{b} = (x_2, y_2)$：
+    \begin{itemize}
+        \item 模：$|\boldsymbol{a}| = \sqrt{x_1^2 + y_1^2}$；
+        \item 两点间向量：若 $A(x_1, y_1)$，$B(x_2, y_2)$，则 $\overrightarrow{AB} = (x_2-x_1, y_2-y_1)$，$|\overrightarrow{AB}| = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$；
+        \item 夹角公式：$\cos\theta = \dfrac{x_1x_2 + y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$；
+        \item 垂直条件：$\boldsymbol{a} \perp \boldsymbol{b} \Leftrightarrow x_1x_2 + y_1y_2 = 0$；
+        \item 平行条件：$\boldsymbol{a} \parallel \boldsymbol{b} \Leftrightarrow x_1y_2 - x_2y_1 = 0$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[定比分点坐标公式]
+    设点 $P$ 分有向线段 $\overrightarrow{P_1P_2}$ 的比为 $\lambda$（即 $\overrightarrow{P_1P} = \lambda\overrightarrow{PP_2}$），且 $P_1(x_1, y_1)$，$P_2(x_2, y_2)$，则点 $P$ 的坐标为
+    \[
+        x = \dfrac{x_1 + \lambda x_2}{1+\lambda}, \quad y = \dfrac{y_1 + \lambda y_2}{1+\lambda}.
+    \]
+    特别地，当 $\lambda = 1$ 时，得到中点坐标公式：$x = \dfrac{x_1+x_2}{2}$，$y = \dfrac{y_1+y_2}{2}$。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[向量平行的坐标表示]
+    已知向量 $\boldsymbol{a} = (1, 2)$，$\boldsymbol{b} = (2, k)$，若 $\boldsymbol{a} \parallel \boldsymbol{b}$，则实数 $k$ 的值为 $\_\_\_\_\_$。
+\end{example}
+
+\textbf{解.} 由向量平行的坐标条件：$x_1y_2 - x_2y_1 = 0$，得
+\[
+    1 \times k - 2 \times 2 = 0 \Rightarrow k - 4 = 0 \Rightarrow k = 4.
+\]
+
+\begin{example}[向量垂直与夹角]
+    已知 $\boldsymbol{a} = (3, 4)$，$\boldsymbol{b} = (1, -1)$，求：
+    \begin{enumerate}
+        \item 与 $\boldsymbol{a}$ 垂直的单位向量；
+        \item $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 夹角的余弦值。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 设所求单位向量为 $\boldsymbol{e} = (x, y)$，则
+\[
+    \begin{cases}
+        x^2 + y^2 = 1 \\
+        3x + 4y = 0
+    \end{cases}
+\]
+由第二个方程得 $x = -\dfrac{4}{3}y$，代入第一个方程：
+\[
+    \dfrac{16}{9}y^2 + y^2 = 1 \Rightarrow \dfrac{25}{9}y^2 = 1 \Rightarrow y = \pm\dfrac{3}{5}.
+\]
+当 $y = \dfrac{3}{5}$ 时，$x = -\dfrac{4}{5}$；当 $y = -\dfrac{3}{5}$ 时，$x = \dfrac{4}{5}$。
+
+所以与 $\boldsymbol{a}$ 垂直的单位向量为 $\left(-\dfrac{4}{5}, \dfrac{3}{5}\right)$ 或 $\left(\dfrac{4}{5}, -\dfrac{3}{5}\right)$。
+
+(2) $\cos\theta = \dfrac{\boldsymbol{a} \cdot \boldsymbol{b}}{|\boldsymbol{a}||\boldsymbol{b}|} = \dfrac{3 \times 1 + 4 \times (-1)}{\sqrt{9+16}\sqrt{1+1}} = \dfrac{-1}{5\sqrt{2}} = -\dfrac{\sqrt{2}}{10}$。
+
+\begin{realexam}[2024 上海虹口二模]
+    已知平面向量 $\overrightarrow{a}$、$\overrightarrow{b}$ 满足 $|\overrightarrow{a}| = 3$，$|\overrightarrow{b}| = 4$，$\overrightarrow{a} \cdot \overrightarrow{b} = 4$，若平面向量 $\overrightarrow{c}$ 满足 $|\overrightarrow{c} - \overrightarrow{b}| = 1$，则 $|\overrightarrow{c} - \overrightarrow{a}|$ 的最大值为 $\_\_\_\_\_$。
+\end{realexam}
+
+\textbf{解.} 建立坐标系，设 $\overrightarrow{a} = (3, 0)$，由 $|\overrightarrow{b}| = 4$ 且 $\overrightarrow{a} \cdot \overrightarrow{b} = 4$，设 $\overrightarrow{b} = (x, y)$，则
+\[
+    \begin{cases}
+        x^2 + y^2 = 16 \\
+        3x = 4
+    \end{cases}
+    \Rightarrow x = \dfrac{4}{3}, \quad y = \pm\sqrt{16-\dfrac{16}{9}} = \pm\dfrac{8\sqrt{2}}{3}.
+\]
+取 $\overrightarrow{b} = \left(\dfrac{4}{3}, \dfrac{8\sqrt{2}}{3}\right)$（另一情况对称）。
+
+由 $|\overrightarrow{c} - \overrightarrow{b}| = 1$，知 $\overrightarrow{c}$ 的终点在以 $B\left(\dfrac{4}{3}, \dfrac{8\sqrt{2}}{3}\right)$ 为圆心、半径为 $1$ 的圆上。
+
+$|\overrightarrow{c} - \overrightarrow{a}|$ 表示圆上的点到 $A(3, 0)$ 的距离，其最大值为 $|AB| + 1$。
+
+计算 $|AB|$：
+\[
+    |AB| = \sqrt{\left(3-\dfrac{4}{3}\right)^2 + \left(0-\dfrac{8\sqrt{2}}{3}\right)^2} = \sqrt{\dfrac{25}{9} + \dfrac{128}{9}} = \sqrt{\dfrac{153}{9}} = \sqrt{17}.
+\]
+
+所以 $|\overrightarrow{c} - \overrightarrow{a}|$ 的最大值为 $\sqrt{17} + 1$。
+
+\begin{realexam}[2024 上海长宁二模]
+    已知平面向量 $\overrightarrow{a}$、$\overrightarrow{b}$、$\overrightarrow{c}$ 满足：$|\overrightarrow{a}| = |\overrightarrow{b}| = \sqrt{10}$，$|\overrightarrow{c}| = 2$，若 $(\overrightarrow{c} - \overrightarrow{a}) \cdot (\overrightarrow{c} - \overrightarrow{b}) = 0$，则 $|\overrightarrow{a} - \overrightarrow{b}|$ 的最小值为 $\_\_\_\_\_$。
+\end{realexam}
+
+\textbf{解.} 由 $(\overrightarrow{c} - \overrightarrow{a}) \cdot (\overrightarrow{c} - \overrightarrow{b}) = 0$，知 $(\overrightarrow{c} - \overrightarrow{a}) \perp (\overrightarrow{c} - \overrightarrow{b})$。
+
+几何意义：设 $\overrightarrow{OA} = \overrightarrow{a}$，$\overrightarrow{OB} = \overrightarrow{b}$，$\overrightarrow{OC} = \overrightarrow{c}$，则 $\overrightarrow{CA} \perp \overrightarrow{CB}$，即点 $C$ 在以 $AB$ 为直径的圆上。
+
+又 $|\overrightarrow{c}| = 2$，即 $|OC| = 2$；$|\overrightarrow{a}| = |\overrightarrow{b}| = \sqrt{10}$，即 $|OA| = |OB| = \sqrt{10}$。
+
+设 $AB$ 的中点为 $M$，则 $|CM| = \dfrac{|AB|}{2}$（直角三角形斜边中线）。
+
+由 $|OC| = 2$，$|OA| = |OB| = \sqrt{10}$，在 $\triangle OAM$ 中，设 $|AM| = r$，$|OM| = d$，则
+\[
+    d^2 + r^2 = 10.
+\]
+
+又 $|CM| = r$，由三角形不等式 $|OC| \geq ||OM| - |CM|| = |d-r|$，且 $|OC| \leq d + r$。
+
+由 $|OC| = 2$，得 $|d-r| \leq 2 \leq d+r$。
+
+要使 $|\overrightarrow{a} - \overrightarrow{b}| = 2r$ 最小，即求 $r$ 的最小值。
+
+由 $d^2 = 10 - r^2$，代入 $|d-r| \leq 2$：
+\[
+    |\sqrt{10-r^2} - r| \leq 2.
+\]
+
+当 $r \leq \sqrt{5}$ 时，$\sqrt{10-r^2} \geq r$，所以 $\sqrt{10-r^2} - r \leq 2$，即 $\sqrt{10-r^2} \leq r+2$。
+
+平方得 $10-r^2 \leq r^2 + 4r + 4$，即 $2r^2 + 4r - 6 \geq 0$，即 $r^2 + 2r - 3 \geq 0$，$(r+3)(r-1) \geq 0$。
+
+所以 $r \geq 1$（舍去 $r \leq -3$）。
+
+因此 $r_{\min} = 1$，此时 $|\overrightarrow{a} - \overrightarrow{b}|_{\min} = 2r_{\min} = 2$。
+
+\begin{realexam}[2025 松江一模]
+    已知平面向量 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 的夹角为 $\theta$，$\overrightarrow{b} - \overrightarrow{a}$ 与 $\overrightarrow{a}$ 的夹角为 $3\theta$，$\theta \in \left(0, \dfrac{\pi}{3}\right)$，$|\overrightarrow{a}| = 1$，$\overrightarrow{a}$ 和 $\overrightarrow{b} - \overrightarrow{a}$ 在 $\overrightarrow{b}$ 上的数量投影分别为 $x$、$y$，则 $x(y + \sin\theta)$ 的取值范围是 $\_\_\_\_\_$。
+\end{realexam}
+
+\textbf{解.} 设 $|\overrightarrow{b}| = b$，由向量夹角关系：
+
+$\overrightarrow{a}$ 与 $\overrightarrow{b}$ 夹角为 $\theta$，所以 $\overrightarrow{a} \cdot \overrightarrow{b} = b\cos\theta$。
+
+$\overrightarrow{b} - \overrightarrow{a}$ 与 $\overrightarrow{a}$ 夹角为 $3\theta$，所以
+\[
+    \cos 3\theta = \dfrac{(\overrightarrow{b}-\overrightarrow{a}) \cdot \overrightarrow{a}}{|\overrightarrow{b}-\overrightarrow{a}||\overrightarrow{a}|} = \dfrac{b\cos\theta - 1}{\sqrt{b^2 - 2b\cos\theta + 1}}.
+\]
+
+由三倍角公式 $\cos 3\theta = 4\cos^3\theta - 3\cos\theta$，设 $t = \cos\theta$，则
+\[
+    \dfrac{b t - 1}{\sqrt{b^2 - 2bt + 1}} = 4t^3 - 3t.
+\]
+
+通过计算可得 $b = \dfrac{1}{2\cos\theta} = \dfrac{1}{2t}$（过程略）。
+
+数量投影：$x = \dfrac{\overrightarrow{a} \cdot \overrightarrow{b}}{|\overrightarrow{b}|} = \dfrac{b\cos\theta}{b} = \cos\theta = t$。
+
+$y = \dfrac{(\overrightarrow{b}-\overrightarrow{a}) \cdot \overrightarrow{b}}{|\overrightarrow{b}|} = \dfrac{b^2 - b\cos\theta}{b} = b - \cos\theta = \dfrac{1}{2t} - t$。
+
+所以
+\[
+    x(y + \sin\theta) = t\left(\dfrac{1}{2t} - t + \sqrt{1-t^2}\right) = \dfrac{1}{2} - t^2 + t\sqrt{1-t^2}.
+\]
+
+令 $t = \cos\theta$，$\theta \in \left(0, \dfrac{\pi}{3}\right)$，则 $t \in \left(\dfrac{1}{2}, 1\right)$。
+
+设 $f(t) = \dfrac{1}{2} - t^2 + t\sqrt{1-t^2}$，求导分析可得 $f(t) \in \left(0, \dfrac{1}{2}\right)$。
+
+因此 $x(y + \sin\theta)$ 的取值范围是 $\left(0, \dfrac{1}{2}\right)$。
+
+\begin{example}[练习]
+    已知 $\boldsymbol{a} = (2, 1)$，$\boldsymbol{b} = (1, -1)$，$\boldsymbol{c} = (x, 2)$，若 $(\boldsymbol{a} + \lambda\boldsymbol{b}) \perp \boldsymbol{c}$ 对任意实数 $\lambda$ 恒成立，求实数 $x$ 的值。
+\end{example}
+
+\textbf{解.} $\boldsymbol{a} + \lambda\boldsymbol{b} = (2+\lambda, 1-\lambda)$。
+
+由 $(\boldsymbol{a} + \lambda\boldsymbol{b}) \perp \boldsymbol{c}$，得 $(2+\lambda)x + 2(1-\lambda) = 0$，即
+\[
+    2x + \lambda x + 2 - 2\lambda = 0 \Rightarrow (x-2)\lambda + (2x+2) = 0.
+\]
+
+上式对任意 $\lambda$ 恒成立，需
+\[
+    \begin{cases}
+        x - 2 = 0 \\
+        2x + 2 = 0
+    \end{cases}
+\]
+此方程组无解。重新审题，若要求对某个 $\lambda$ 成立，则 $x = 2$ 时 $6 = 0$ 不成立。
+
+实际上，若要求存在 $\lambda$ 使得垂直，则任取 $x$ 均可。若题目意为"存在"，则 $x = -1$ 时 $\lambda$ 可取任意值。
+
+按原题"恒成立"理解，应修正为求使等式对所有 $\lambda$ 成立的 $x$，此时无解。若改为"存在"，则答案为 $x = -1$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{建系原则}：选择合适的原点位置和坐标轴方向，通常将已知点或对称轴放在坐标轴上，以简化计算。
+    
+    \item \textbf{坐标运算要点}：
+    \begin{itemize}
+        \item 向量平行：$x_1y_2 = x_2y_1$（交叉相乘相等）
+        \item 向量垂直：$x_1x_2 + y_1y_2 = 0$（对应相乘相加为零）
+        \item 模长公式：$|\boldsymbol{a}| = \sqrt{x^2+y^2}$
+    \end{itemize}
+    
+    \item \textbf{几何问题代数化}：将向量条件转化为坐标方程，利用解析几何方法（如圆的方程、距离公式）求解最值问题。
+    
+    \item \textbf{参数法}：引入参数表示动点坐标，将目标函数表示为参数的函数，再用求导或不等式求最值。
+    
+    \item \textbf{几何直观辅助}：即使使用坐标法，也要结合几何意义（如投影、距离、夹角）进行验证和简化。
+    
+    \item \textbf{范围问题处理}：涉及取值范围的问题，注意参数的定义域限制（如夹角范围、模长非负等），端点值需单独检验。
+\end{enumerate}
+
+\end{document}

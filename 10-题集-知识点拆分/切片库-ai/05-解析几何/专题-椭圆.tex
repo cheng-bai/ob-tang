@@ -1,0 +1,222 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：椭圆}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：椭圆}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+椭圆是圆锥曲线的重要类型，是高考解析几何的核心内容之一。
+
+\begin{definition}[椭圆的定义]
+    平面内与两个定点 $F_1$、$F_2$（焦点）的距离之和等于常数（$2a$，且 $2a > |F_1F_2|$）的点的轨迹叫做椭圆。
+    
+    设焦距 $|F_1F_2| = 2c$（$c > 0$），则椭圆的标准方程为：
+    \begin{itemize}
+        \item 焦点在 $x$ 轴上：$\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$（$a > b > 0$）；
+        \item 焦点在 $y$ 轴上：$\dfrac{y^2}{a^2} + \dfrac{x^2}{b^2} = 1$（$a > b > 0$）。
+    \end{itemize}
+    其中 $b^2 = a^2 - c^2$，$a$ 为长半轴长，$b$ 为短半轴长，$c$ 为半焦距。
+\end{definition}
+
+\begin{property}[椭圆的几何性质]
+    对于椭圆 $\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$（$a > b > 0$）：
+    \begin{itemize}
+        \item \textbf{范围}：$-a \leq x \leq a$，$-b \leq y \leq b$；
+        \item \textbf{顶点}：$A_1(-a, 0)$、$A_2(a, 0)$、$B_1(0, -b)$、$B_2(0, b)$；
+        \item \textbf{焦点}：$F_1(-c, 0)$、$F_2(c, 0)$，其中 $c = \sqrt{a^2 - b^2}$；
+        \item \textbf{离心率}：$e = \dfrac{c}{a}$（$0 < e < 1$），$e$ 越接近 $1$ 椭圆越扁，$e$ 越接近 $0$ 椭圆越圆；
+        \item \textbf{准线}：$x = \pm \dfrac{a^2}{c}$（焦点在 $x$ 轴时）；
+        \item \textbf{通径}：过焦点垂直于长轴的弦，长为 $\dfrac{2b^2}{a}$。
+    \end{itemize}
+\end{property}
+
+\begin{property}[椭圆的第二定义]
+    椭圆上任意一点 $P$ 到焦点 $F$ 的距离与到相应准线 $l$ 的距离之比等于离心率 $e$，即
+    \[
+        \frac{|PF|}{d(P, l)} = e \quad (0 < e < 1).
+    \]
+    其中 $|PF|$ 称为焦半径。
+\end{property}
+
+\begin{property}[焦点三角形]
+    设 $P$ 为椭圆上一点，$F_1$、$F_2$ 为两焦点，$\angle F_1PF_2 = \theta$，则：
+    \begin{itemize}
+        \item $|PF_1| + |PF_2| = 2a$；
+        \item $\triangle F_1PF_2$ 的面积 $S = b^2 \tan\dfrac{\theta}{2}$；
+        \item 当 $P$ 为短轴端点时，$\angle F_1PF_2$ 最大。
+    \end{itemize}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[求椭圆的标准方程]
+    求满足下列条件的椭圆的标准方程：
+    \begin{enumerate}
+        \item 长轴长为 $10$，离心率为 $\dfrac{3}{5}$，焦点在 $x$ 轴上；
+        \item 经过点 $P(3, 0)$、$Q(0, 2)$；
+        \item 焦点为 $F_1(-2, 0)$、$F_2(2, 0)$，且过点 $M\left(\dfrac{5}{2}, -\dfrac{3\sqrt{3}}{2}\right)$。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) $2a = 10$，$\therefore a = 5$。$e = \dfrac{c}{a} = \dfrac{3}{5}$，$\therefore c = 3$。
+
+$b^2 = a^2 - c^2 = 25 - 9 = 16$，$\therefore b = 4$。
+
+椭圆方程为 $\boxed{\dfrac{x^2}{25} + \dfrac{y^2}{16} = 1}$。
+
+(2) 点 $P(3, 0)$ 在 $x$ 轴上，点 $Q(0, 2)$ 在 $y$ 轴上，$\therefore a = 3$，$b = 2$。
+
+椭圆方程为 $\boxed{\dfrac{x^2}{9} + \dfrac{y^2}{4} = 1}$。
+
+(3) $c = 2$，设椭圆方程为 $\dfrac{x^2}{a^2} + \dfrac{y^2}{a^2 - 4} = 1$。
+
+将点 $M$ 代入：$\dfrac{25}{4a^2} + \dfrac{27}{4(a^2 - 4)} = 1$。
+
+令 $t = a^2$，则 $\dfrac{25}{4t} + \dfrac{27}{4(t - 4)} = 1$。
+
+$25(t - 4) + 27t = 4t(t - 4)$，$52t - 100 = 4t^2 - 16t$。
+
+$4t^2 - 68t + 100 = 0$，$t^2 - 17t + 25 = 0$。
+
+$(t - 25)(t - 1) = 0$，$\because t > 4$，$\therefore t = 25$，$a^2 = 25$，$b^2 = 21$。
+
+椭圆方程为 $\boxed{\dfrac{x^2}{25} + \dfrac{y^2}{21} = 1}$。
+
+\begin{realexam}[2026 奉贤二模]
+    已知椭圆 $\Gamma: \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$（$a > b > 0$）经过点 $(0, 1)$，离心率为 $\dfrac{\sqrt{2}}{2}$。过点 $M(0, -m)$（$m > 0$）的动直线 $l$ 交椭圆 $\Gamma$ 于 $C$、$D$ 两点。
+    
+    （1）求椭圆 $\Gamma$ 的方程。
+\end{realexam}
+
+\textbf{解.} 由题意可得
+\[
+    \begin{cases}
+        \dfrac{c}{a} = \dfrac{\sqrt{2}}{2} \\[6pt]
+        \dfrac{1}{b^2} = 1 \\[6pt]
+        a^2 = b^2 + c^2
+    \end{cases}
+\]
+
+解得 $b = 1$，$c = 1$，$a = \sqrt{2}$。
+
+故椭圆 $\Gamma$ 的方程为 $\boxed{\dfrac{x^2}{2} + y^2 = 1}$。
+
+\begin{example}[椭圆的几何性质]
+    已知椭圆 $\dfrac{x^2}{4} + \dfrac{y^2}{3} = 1$ 的左、右焦点分别为 $F_1$、$F_2$，点 $P$ 为椭圆上一点。
+    \begin{enumerate}
+        \item 求 $|PF_1| \cdot |PF_2|$ 的最大值；
+        \item 若 $\angle F_1PF_2 = 60°$，求 $\triangle F_1PF_2$ 的面积。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} 由题意，$a = 2$，$b = \sqrt{3}$，$c = 1$，$F_1(-1, 0)$，$F_2(1, 0)$。
+
+(1) 设 $|PF_1| = m$，$|PF_2| = n$，则 $m + n = 2a = 4$。
+
+由基本不等式：$mn \leq \left(\dfrac{m + n}{2}\right)^2 = 4$。
+
+当且仅当 $m = n = 2$，即 $P$ 为短轴端点时取等号。
+
+$|PF_1| \cdot |PF_2|$ 的最大值为 $\boxed{4}$。
+
+(2) 由焦点三角形面积公式：$S = b^2 \tan\dfrac{\theta}{2} = 3 \cdot \tan 30° = 3 \cdot \dfrac{\sqrt{3}}{3} = \sqrt{3}$。
+
+或用余弦定理：$|F_1F_2|^2 = m^2 + n^2 - 2mn\cos 60° = (m + n)^2 - 2mn - mn = 16 - 3mn = 4$。
+
+$\therefore mn = 4$，$S = \dfrac{1}{2}mn\sin 60° = \dfrac{1}{2} \cdot 4 \cdot \dfrac{\sqrt{3}}{2} = \boxed{\sqrt{3}}$。
+
+\begin{realexam}[2026 崇明二模]
+    如图，已知圆柱的一个截面边界是椭圆 $\Gamma$，其中 $\Gamma$ 的长轴 $AC$ 为该圆柱轴截面的对角线，短轴长等于圆柱底面直径的长。将圆柱侧面沿母线 $AB$ 展开，则椭圆 $\Gamma$ 在展开图中恰好为一个周期的三角函数图像。若该段曲线是函数 $y = 1 - \sqrt{3}\sin\dfrac{x}{2}$ 的图像的一部分，则椭圆 $\Gamma$ 的离心率为\_\_\_\_\_。
+\end{realexam}
+
+\textbf{解.} 由 $y = 1 - \sqrt{3}\sin\dfrac{x}{2}$，振幅为 $\sqrt{3}$，周期 $T = \dfrac{2\pi}{\frac{1}{2}} = 4\pi$。
+
+依题意，圆柱的高 $h = |AB| = 2\sqrt{3}$（振幅的两倍）。
+
+设圆柱底面半径为 $r$，则 $2\pi r = 4\pi$，解得 $r = 2$。
+
+椭圆短轴长 $2b = 2r = 4$，$\therefore b = 2$。
+
+长轴长 $2a = \sqrt{h^2 + (2r)^2} = \sqrt{12 + 16} = \sqrt{28} = 2\sqrt{7}$，$\therefore a = \sqrt{7}$。
+
+椭圆离心率 $e = \dfrac{\sqrt{a^2 - b^2}}{a} = \sqrt{1 - \dfrac{b^2}{a^2}} = \sqrt{1 - \dfrac{4}{7}} = \sqrt{\dfrac{3}{7}} = \boxed{\dfrac{\sqrt{21}}{7}}$。
+
+\begin{realexam}[练习]
+    已知椭圆 $\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$（$a > b > 0$）的右焦点为 $F$，上顶点为 $B$，离心率为 $\dfrac{2\sqrt{5}}{5}$，且 $|BF| = \sqrt{5}$。
+    \begin{enumerate}
+        \item 求椭圆的方程；
+        \item 直线 $l$ 与椭圆有唯一的公共点 $M$，与 $y$ 轴的正半轴交于点 $N$，过 $N$ 与 $BF$ 垂直的直线交 $x$ 轴于点 $P$。若 $MP \parallel BF$，求直线 $l$ 的方程。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 由题意，$B(0, b)$，$F(c, 0)$，$|BF| = \sqrt{b^2 + c^2} = a = \sqrt{5}$。
+
+$e = \dfrac{c}{a} = \dfrac{2\sqrt{5}}{5}$，$\therefore c = 2$，$b = \sqrt{a^2 - c^2} = 1$。
+
+椭圆方程为 $\boxed{\dfrac{x^2}{5} + y^2 = 1}$。
+
+(2) $B(0, 1)$，$F(2, 0)$，$k_{BF} = -\dfrac{1}{2}$。
+
+设直线 $l: y = kx + m$（$m > 0$），与椭圆联立：
+
+$\dfrac{x^2}{5} + (kx + m)^2 = 1$，$(1 + 5k^2)x^2 + 10kmx + 5(m^2 - 1) = 0$。
+
+$\Delta = 100k^2m^2 - 20(1 + 5k^2)(m^2 - 1) = 0$，$5k^2m^2 - (1 + 5k^2)(m^2 - 1) = 0$。
+
+$5k^2 - m^2 + 1 = 0$，$m^2 = 5k^2 + 1$。
+
+$M\left(-\dfrac{5km}{1 + 5k^2}, \dfrac{m}{1 + 5k^2}\right) = \left(-\dfrac{5k}{m}, \dfrac{1}{m}\right)$。
+
+$N(0, m)$，与 $BF$ 垂直的直线斜率为 $2$，方程为 $y - m = 2x$。
+
+令 $y = 0$，得 $P\left(-\dfrac{m}{2}, 0\right)$。
+
+$k_{MP} = \dfrac{\frac{1}{m}}{-\frac{5k}{m} + \frac{m}{2}} = \dfrac{2}{m^2 - 10k} = -\dfrac{1}{2}$。
+
+$\therefore m^2 - 10k = -4$，$5k^2 + 1 - 10k = -4$，$5k^2 - 10k + 5 = 0$，$k = 1$。
+
+$m^2 = 6$，$m = \sqrt{6}$。
+
+直线 $l$ 的方程为 $\boxed{y = x + \sqrt{6}}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{求椭圆方程的方法}：
+    \begin{itemize}
+        \item 定义法：利用椭圆定义 $|PF_1| + |PF_2| = 2a$；
+        \item 待定系数法：设标准方程，根据条件列方程组求解 $a$、$b$；
+        \item 注意判断焦点位置，必要时分类讨论。
+    \end{itemize}
+    \item \textbf{离心率的求法}：
+    \begin{itemize}
+        \item 直接法：$e = \dfrac{c}{a} = \sqrt{1 - \dfrac{b^2}{a^2}}$；
+        \item 方程法：建立关于 $a$、$b$、$c$ 的齐次方程；
+        \item 几何法：利用椭圆的几何性质和图形特征。
+    \end{itemize}
+    \item \textbf{焦点三角形问题}：
+    \begin{itemize}
+        \item 周长：$2a + 2c$；
+        \item 面积：$S = b^2\tan\dfrac{\theta}{2}$（$\theta = \angle F_1PF_2$）；
+        \item 当 $P$ 为短轴端点时，$\triangle F_1PF_2$ 的面积最大，$\angle F_1PF_2$ 最大。
+    \end{itemize}
+    \item \textbf{直线与椭圆的位置关系}：
+    \begin{itemize}
+        \item 联立方程，用判别式判断；
+        \item 弦长公式：$|AB| = \sqrt{1 + k^2}|x_1 - x_2| = \sqrt{1 + k^2}\cdot\dfrac{\sqrt{\Delta}}{|a|}$；
+        \item 点差法：涉及中点弦问题时使用。
+    \end{itemize}
+    \item \textbf{最值与范围问题}：常利用函数思想、基本不等式或几何性质求解。
+\end{enumerate}
+
+\end{document}

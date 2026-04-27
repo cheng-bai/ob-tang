@@ -1,0 +1,493 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2024-01-01",
+    "description": "数学题库题目关系图谱 - 记录题目间的相似度、变式关系及知识点关联",
+    "total_questions": 0,
+    "total_relations": 0
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "title": "一元二次方程标准形式求解",
+      "type": "计算题",
+      "difficulty": 1,
+      "knowledge_points": ["一元二次方程", "求根公式", "标准形式"],
+      "score": 5,
+      "source_paper": "2024北京中考",
+      "similar_questions": ["Q002", "Q005"],
+      "variation_level": 0,
+      "parent_question": null,
+      "similarity_scores": {
+        "Q002": 0.85,
+        "Q005": 0.72
+      },
+      "tags": ["基础", "必考"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q002",
+      "title": "一元二次方程应用题（面积问题）",
+      "type": "应用题",
+      "difficulty": 2,
+      "knowledge_points": ["一元二次方程", "应用题", "面积计算"],
+      "score": 8,
+      "source_paper": "2024上海中考",
+      "similar_questions": ["Q001", "Q003"],
+      "variation_level": 1,
+      "parent_question": "Q001",
+      "similarity_scores": {
+        "Q001": 0.85,
+        "Q003": 0.68
+      },
+      "tags": ["应用", "变式"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q003",
+      "title": "一元二次方程与函数综合",
+      "type": "计算题",
+      "difficulty": 3,
+      "knowledge_points": ["一元二次方程", "二次函数", "交点问题"],
+      "score": 12,
+      "source_paper": "2024广东中考",
+      "similar_questions": ["Q002", "Q004"],
+      "variation_level": 2,
+      "parent_question": "Q002",
+      "similarity_scores": {
+        "Q002": 0.68,
+        "Q004": 0.75
+      },
+      "tags": ["综合", "压轴"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q004",
+      "title": "二次函数图像性质分析",
+      "type": "单选题",
+      "difficulty": 2,
+      "knowledge_points": ["二次函数", "图像", "对称轴", "顶点"],
+      "score": 3,
+      "source_paper": "2024江苏中考",
+      "similar_questions": ["Q003", "Q006"],
+      "variation_level": 0,
+      "parent_question": null,
+      "similarity_scores": {
+        "Q003": 0.75,
+        "Q006": 0.80
+      },
+      "tags": ["基础", "图像"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q005",
+      "title": "配方法解一元二次方程",
+      "type": "计算题",
+      "difficulty": 1,
+      "knowledge_points": ["一元二次方程", "配方法", "完全平方"],
+      "score": 5,
+      "source_paper": "2024浙江中考",
+      "similar_questions": ["Q001", "Q007"],
+      "variation_level": 0,
+      "parent_question": null,
+      "similarity_scores": {
+        "Q001": 0.72,
+        "Q007": 0.90
+      },
+      "tags": ["方法", "基础"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q006",
+      "title": "二次函数最值问题",
+      "type": "填空题",
+      "difficulty": 3,
+      "knowledge_points": ["二次函数", "最值", "顶点坐标"],
+      "score": 4,
+      "source_paper": "2024山东中考",
+      "similar_questions": ["Q004", "Q008"],
+      "variation_level": 1,
+      "parent_question": "Q004",
+      "similarity_scores": {
+        "Q004": 0.80,
+        "Q008": 0.65
+      },
+      "tags": ["最值", "变式"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q007",
+      "title": "因式分解法解一元二次方程",
+      "type": "计算题",
+      "difficulty": 1,
+      "knowledge_points": ["一元二次方程", "因式分解", "十字相乘法"],
+      "score": 5,
+      "source_paper": "2024河南中考",
+      "similar_questions": ["Q005", "Q009"],
+      "variation_level": 1,
+      "parent_question": "Q005",
+      "similarity_scores": {
+        "Q005": 0.90,
+        "Q009": 0.78
+      },
+      "tags": ["方法", "变式"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q008",
+      "title": "二次函数实际应用（利润问题）",
+      "type": "应用题",
+      "difficulty": 3,
+      "knowledge_points": ["二次函数", "应用题", "利润计算", "最值"],
+      "score": 10,
+      "source_paper": "2024四川中考",
+      "similar_questions": ["Q006", "Q010"],
+      "variation_level": 2,
+      "parent_question": "Q006",
+      "similarity_scores": {
+        "Q006": 0.65,
+        "Q010": 0.70
+      },
+      "tags": ["应用", "综合"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q009",
+      "title": "一元二次方程根的判别式",
+      "type": "单选题",
+      "difficulty": 2,
+      "knowledge_points": ["一元二次方程", "判别式", "根的情况"],
+      "score": 3,
+      "source_paper": "2024湖北中考",
+      "similar_questions": ["Q007", "Q011"],
+      "variation_level": 2,
+      "parent_question": "Q007",
+      "similarity_scores": {
+        "Q007": 0.78,
+        "Q011": 0.82
+      },
+      "tags": ["判别式", "变式"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q010",
+      "title": "二次函数与几何综合",
+      "type": "证明题",
+      "difficulty": 4,
+      "knowledge_points": ["二次函数", "几何", "相似三角形", "坐标系"],
+      "score": 14,
+      "source_paper": "2024湖南中考",
+      "similar_questions": ["Q008", "Q012"],
+      "variation_level": 3,
+      "parent_question": "Q008",
+      "similarity_scores": {
+        "Q008": 0.70,
+        "Q012": 0.60
+      },
+      "tags": ["压轴", "综合", "几何"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q011",
+      "title": "韦达定理应用",
+      "type": "填空题",
+      "difficulty": 2,
+      "knowledge_points": ["一元二次方程", "韦达定理", "根与系数关系"],
+      "score": 4,
+      "source_paper": "2024福建中考",
+      "similar_questions": ["Q009", "Q013"],
+      "variation_level": 3,
+      "parent_question": "Q009",
+      "similarity_scores": {
+        "Q009": 0.82,
+        "Q013": 0.75
+      },
+      "tags": ["定理", "变式"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q012",
+      "title": "二次函数动点问题",
+      "type": "计算题",
+      "difficulty": 4,
+      "knowledge_points": ["二次函数", "动点", "分类讨论", "最值"],
+      "score": 15,
+      "source_paper": "2024安徽中考",
+      "similar_questions": ["Q010", "Q014"],
+      "variation_level": 4,
+      "parent_question": "Q010",
+      "similarity_scores": {
+        "Q010": 0.60,
+        "Q014": 0.55
+      },
+      "tags": ["压轴", "动点", "分类讨论"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q013",
+      "title": "一元二次方程参数求解",
+      "type": "计算题",
+      "difficulty": 3,
+      "knowledge_points": ["一元二次方程", "参数", "分类讨论"],
+      "score": 8,
+      "source_paper": "2024江西中考",
+      "similar_questions": ["Q011", "Q015"],
+      "variation_level": 4,
+      "parent_question": "Q011",
+      "similarity_scores": {
+        "Q011": 0.75,
+        "Q015": 0.68
+      },
+      "tags": ["参数", "分类讨论"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q014",
+      "title": "二次函数存在性问题",
+      "type": "证明题",
+      "difficulty": 4,
+      "knowledge_points": ["二次函数", "存在性", "特殊四边形", "坐标系"],
+      "score": 16,
+      "source_paper": "2024河北中考",
+      "similar_questions": ["Q012"],
+      "variation_level": 5,
+      "parent_question": "Q012",
+      "similarity_scores": {
+        "Q012": 0.55
+      },
+      "tags": ["压轴", "存在性", "几何"],
+      "create_time": "2024-01-01"
+    },
+    {
+      "id": "Q015",
+      "title": "一元二次方程与不等式综合",
+      "type": "计算题",
+      "difficulty": 3,
+      "knowledge_points": ["一元二次方程", "不等式", "综合"],
+      "score": 10,
+      "source_paper": "2024山西中考",
+      "similar_questions": ["Q013"],
+      "variation_level": 5,
+      "parent_question": "Q013",
+      "similarity_scores": {
+        "Q013": 0.68
+      },
+      "tags": ["综合", "不等式"],
+      "create_time": "2024-01-01"
+    }
+  ],
+  "similarity_matrix": {
+    "Q001": {
+      "Q002": 0.85,
+      "Q005": 0.72,
+      "Q007": 0.65
+    },
+    "Q002": {
+      "Q001": 0.85,
+      "Q003": 0.68,
+      "Q008": 0.45
+    },
+    "Q003": {
+      "Q002": 0.68,
+      "Q004": 0.75,
+      "Q006": 0.60
+    },
+    "Q004": {
+      "Q003": 0.75,
+      "Q006": 0.80,
+      "Q010": 0.50
+    },
+    "Q005": {
+      "Q001": 0.72,
+      "Q007": 0.90,
+      "Q009": 0.70
+    },
+    "Q006": {
+      "Q004": 0.80,
+      "Q008": 0.65,
+      "Q010": 0.55
+    },
+    "Q007": {
+      "Q005": 0.90,
+      "Q009": 0.78,
+      "Q001": 0.65
+    },
+    "Q008": {
+      "Q006": 0.65,
+      "Q010": 0.70,
+      "Q003": 0.45
+    },
+    "Q009": {
+      "Q007": 0.78,
+      "Q011": 0.82,
+      "Q005": 0.70
+    },
+    "Q010": {
+      "Q008": 0.70,
+      "Q012": 0.60,
+      "Q006": 0.55
+    },
+    "Q011": {
+      "Q009": 0.82,
+      "Q013": 0.75,
+      "Q007": 0.68
+    },
+    "Q012": {
+      "Q010": 0.60,
+      "Q014": 0.55,
+      "Q008": 0.50
+    },
+    "Q013": {
+      "Q011": 0.75,
+      "Q015": 0.68,
+      "Q009": 0.62
+    },
+    "Q014": {
+      "Q012": 0.55,
+      "Q010": 0.52
+    },
+    "Q015": {
+      "Q013": 0.68,
+      "Q011": 0.60
+    }
+  },
+  "variation_chains": {
+    "chain_001": {
+      "root": "Q001",
+      "description": "一元二次方程求解方法变式链",
+      "questions": ["Q001", "Q002", "Q003"],
+      "difficulty_progression": [1, 2, 3]
+    },
+    "chain_002": {
+      "root": "Q005",
+      "description": "一元二次方程因式分解与判别式变式链",
+      "questions": ["Q005", "Q007", "Q009", "Q011", "Q013", "Q015"],
+      "difficulty_progression": [1, 1, 2, 2, 3, 3]
+    },
+    "chain_003": {
+      "root": "Q004",
+      "description": "二次函数图像与综合应用变式链",
+      "questions": ["Q004", "Q006", "Q008", "Q010", "Q012", "Q014"],
+      "difficulty_progression": [2, 3, 3, 4, 4, 4]
+    }
+  },
+  "knowledge_clusters": {
+    "一元二次方程": {
+      "questions": ["Q001", "Q002", "Q003", "Q005", "Q007", "Q009", "Q011", "Q013", "Q015"],
+      "related_knowledge": ["二次函数", "不等式", "韦达定理"],
+      "difficulty_distribution": {
+        "1": 3,
+        "2": 3,
+        "3": 3
+      }
+    },
+    "二次函数": {
+      "questions": ["Q003", "Q004", "Q006", "Q008", "Q010", "Q012", "Q014"],
+      "related_knowledge": ["一元二次方程", "几何", "最值问题"],
+      "difficulty_distribution": {
+        "2": 2,
+        "3": 3,
+        "4": 3
+      }
+    },
+    "几何综合": {
+      "questions": ["Q010", "Q012", "Q014"],
+      "related_knowledge": ["二次函数", "相似三角形", "动点问题"],
+      "difficulty_distribution": {
+        "4": 3
+      }
+    }
+  },
+  "paper_sources": {
+    "2024北京中考": {
+      "region": "北京",
+      "year": 2024,
+      "questions": ["Q001"],
+      "difficulty_avg": 1.0
+    },
+    "2024上海中考": {
+      "region": "上海",
+      "year": 2024,
+      "questions": ["Q002"],
+      "difficulty_avg": 2.0
+    },
+    "2024广东中考": {
+      "region": "广东",
+      "year": 2024,
+      "questions": ["Q003"],
+      "difficulty_avg": 3.0
+    },
+    "2024江苏中考": {
+      "region": "江苏",
+      "year": 2024,
+      "questions": ["Q004"],
+      "difficulty_avg": 2.0
+    },
+    "2024浙江中考": {
+      "region": "浙江",
+      "year": 2024,
+      "questions": ["Q005"],
+      "difficulty_avg": 1.0
+    },
+    "2024山东中考": {
+      "region": "山东",
+      "year": 2024,
+      "questions": ["Q006"],
+      "difficulty_avg": 3.0
+    },
+    "2024河南中考": {
+      "region": "河南",
+      "year": 2024,
+      "questions": ["Q007"],
+      "difficulty_avg": 1.0
+    },
+    "2024四川中考": {
+      "region": "四川",
+      "year": 2024,
+      "questions": ["Q008"],
+      "difficulty_avg": 3.0
+    },
+    "2024湖北中考": {
+      "region": "湖北",
+      "year": 2024,
+      "questions": ["Q009"],
+      "difficulty_avg": 2.0
+    },
+    "2024湖南中考": {
+      "region": "湖南",
+      "year": 2024,
+      "questions": ["Q010"],
+      "difficulty_avg": 4.0
+    },
+    "2024福建中考": {
+      "region": "福建",
+      "year": 2024,
+      "questions": ["Q011"],
+      "difficulty_avg": 2.0
+    },
+    "2024安徽中考": {
+      "region": "安徽",
+      "year": 2024,
+      "questions": ["Q012"],
+      "difficulty_avg": 4.0
+    },
+    "2024江西中考": {
+      "region": "江西",
+      "year": 2024,
+      "questions": ["Q013"],
+      "difficulty_avg": 3.0
+    },
+    "2024河北中考": {
+      "region": "河北",
+      "year": 2024,
+      "questions": ["Q014"],
+      "difficulty_avg": 4.0
+    },
+    "2024山西中考": {
+      "region": "山西",
+      "year": 2024,
+      "questions": ["Q015"],
+      "difficulty_avg": 3.0
+    }
+  }
+}

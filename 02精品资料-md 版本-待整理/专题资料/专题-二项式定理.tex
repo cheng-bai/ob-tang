@@ -1,0 +1,240 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：二项式定理}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：二项式定理}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+二项式定理是代数中的重要定理，它揭示了二项式幂展开的规律，是连接代数、组合数学和分析学的桥梁，在近似计算、概率统计等领域有广泛应用。
+
+\begin{definition}[二项式定理]
+    对于任意正整数 $n$，有
+    \[
+        (a+b)^n = C_n^0 a^n + C_n^1 a^{n-1}b + C_n^2 a^{n-2}b^2 + \cdots + C_n^r a^{n-r}b^r + \cdots + C_n^n b^n
+    \]
+    其中 $C_n^r$ ($r = 0, 1, 2, \ldots, n$) 叫做二项式系数。
+    
+    上式右边的多项式叫做 $(a+b)^n$ 的\textbf{二项展开式}，其中第 $r+1$ 项（通项）为：
+    \[
+        T_{r+1} = C_n^r a^{n-r}b^r \quad (r = 0, 1, 2, \ldots, n)
+    \]
+\end{definition}
+
+\begin{property}[二项式系数的性质]
+    \begin{enumerate}
+        \item \textbf{对称性}：$C_n^r = C_n^{n-r}$，即与首末两端"等距离"的两项的二项式系数相等。
+        
+        \item \textbf{单调性}：当 $n$ 为定值时，
+        \begin{itemize}
+            \item 若 $r < \dfrac{n+1}{2}$，则 $C_n^r$ 随 $r$ 的增大而增大
+            \item 若 $r > \dfrac{n+1}{2}$，则 $C_n^r$ 随 $r$ 的增大而减小
+        \end{itemize}
+        
+        \item \textbf{最大值}：
+        \begin{itemize}
+            \item 当 $n$ 为偶数时，中间一项 $C_n^{\frac{n}{2}}$ 最大
+            \item 当 $n$ 为奇数时，中间两项 $C_n^{\frac{n-1}{2}}$ 和 $C_n^{\frac{n+1}{2}}$ 相等且最大
+        \end{itemize}
+        
+        \item \textbf{各二项式系数之和}：
+        \[
+            C_n^0 + C_n^1 + C_n^2 + \cdots + C_n^n = 2^n
+        \]
+        
+        \item \textbf{奇数项与偶数项系数之和相等}：
+        \[
+            C_n^0 + C_n^2 + C_n^4 + \cdots = C_n^1 + C_n^3 + C_n^5 + \cdots = 2^{n-1}
+        \]
+    \end{enumerate}
+\end{property}
+
+\begin{property}[赋值法求系数和]
+    对于 $(ax + b)^n = a_0 + a_1x + a_2x^2 + \cdots + a_nx^n$，有：
+    \begin{itemize}
+        \item 令 $x = 1$，得各项系数之和：$a_0 + a_1 + a_2 + \cdots + a_n = (a + b)^n$
+        \item 令 $x = -1$，得交错系数之和：$a_0 - a_1 + a_2 - \cdots + (-1)^n a_n = (-a + b)^n$
+        \item 令 $x = 0$，得常数项：$a_0 = b^n$
+    \end{itemize}
+    由此可求出奇数项系数之和与偶数项系数之和。
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[通项公式的应用]
+    求 $\left( x + \dfrac{2}{x} \right)^8$ 展开式中 $x^4$ 项的系数。
+\end{example}
+
+\textbf{解.} 展开式的通项为：
+\[
+    T_{r+1} = C_8^r \cdot x^{8-r} \cdot \left( \frac{2}{x} \right)^r = C_8^r \cdot 2^r \cdot x^{8-2r}
+\]
+
+令 $8 - 2r = 4$，解得 $r = 2$。
+
+所以 $x^4$ 项的系数为 $C_8^2 \cdot 2^2 = 28 \times 4 = 112$。
+
+\begin{example}[二项式系数与项的系数的区别]
+    已知 $(1 - 2x)^5 = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5$，求：
+    \begin{enumerate}
+        \item $a_0 + a_1 + a_2 + a_3 + a_4 + a_5$ 的值
+        \item $a_0 - a_1 + a_2 - a_3 + a_4 - a_5$ 的值
+        \item $|a_0| + |a_1| + |a_2| + |a_3| + |a_4| + |a_5|$ 的值
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 令 $x = 1$，得：
+\[
+    a_0 + a_1 + a_2 + a_3 + a_4 + a_5 = (1 - 2)^5 = (-1)^5 = -1
+\]
+
+(2) 令 $x = -1$，得：
+\[
+    a_0 - a_1 + a_2 - a_3 + a_4 - a_5 = (1 + 2)^5 = 3^5 = 243
+\]
+
+(3) 观察展开式 $(1 - 2x)^5$，各项系数符号交替出现：
+\[
+    a_r = C_5^r \cdot (-2)^r
+\]
+
+所以 $|a_r| = C_5^r \cdot 2^r$，即 $|a_0| + |a_1| + \cdots + |a_5|$ 等于 $(1 + 2x)^5$ 展开式各项系数之和。
+
+令 $x = 1$，得 $|a_0| + |a_1| + |a_2| + |a_3| + |a_4| + |a_5| = (1 + 2)^5 = 3^5 = 243$。
+
+\begin{example}[最大系数问题]
+    在 $\left( \sqrt{x} + \dfrac{1}{2\sqrt[4]{x}} \right)^n$ 的展开式中，前三项系数成等差数列，求展开式中系数最大的项。
+\end{example}
+
+\textbf{解.} 展开式的前三项分别为：
+\[
+    T_1 = C_n^0 (\sqrt{x})^n = x^{\frac{n}{2}}
+\]
+\[
+    T_2 = C_n^1 (\sqrt{x})^{n-1} \cdot \frac{1}{2\sqrt[4]{x}} = \frac{n}{2} x^{\frac{n}{2} - \frac{3}{4}}
+\]
+\[
+    T_3 = C_n^2 (\sqrt{x})^{n-2} \cdot \left( \frac{1}{2\sqrt[4]{x}} \right)^2 = \frac{n(n-1)}{8} x^{\frac{n}{2} - \frac{3}{2}}
+\]
+
+前三项的系数分别为 $1$，$\dfrac{n}{2}$，$\dfrac{n(n-1)}{8}$。
+
+由题意，前三项系数成等差数列，故：
+\[
+    2 \cdot \frac{n}{2} = 1 + \frac{n(n-1)}{8}
+\]
+
+即 $n = 1 + \dfrac{n(n-1)}{8}$，整理得 $n^2 - 9n + 8 = 0$。
+
+解得 $n = 8$ 或 $n = 1$（舍去，因为需要前三项）。
+
+设第 $r+1$ 项系数最大，该项系数为 $C_8^r \cdot \left( \dfrac{1}{2} \right)^r$。
+
+由不等式组：
+\[
+    \begin{cases}
+        C_8^r \cdot \left( \dfrac{1}{2} \right)^r \geq C_8^{r-1} \cdot \left( \dfrac{1}{2} \right)^{r-1} \\[6pt]
+        C_8^r \cdot \left( \dfrac{1}{2} \right)^r \geq C_8^{r+1} \cdot \left( \dfrac{1}{2} \right)^{r+1}
+    \end{cases}
+\]
+
+化简得：
+\[
+    \begin{cases}
+        \dfrac{9-r}{r} \geq 2 \\[4pt]
+        2 \geq \dfrac{8-r}{r+1}
+    \end{cases}
+\]
+
+解得 $2 \leq r \leq 3$。
+
+当 $r = 2$ 时，$T_3 = C_8^2 \cdot \left( \dfrac{1}{2} \right)^2 \cdot x^{\frac{8-3}{2}} = 7x^{\frac{5}{2}}$。
+
+当 $r = 3$ 时，$T_4 = C_8^3 \cdot \left( \dfrac{1}{2} \right)^3 \cdot x^{\frac{8-6}{2}} = 7x$。
+
+所以系数最大的项为 $T_3 = 7x^{\frac{5}{2}}$ 和 $T_4 = 7x$。
+
+\begin{realexam}[2025 上海高三二模]
+    若 $(x + a)^6$ 的展开式中 $x^3$ 项的系数为 $160$，则实数 $a$ 的值为多少？
+\end{realexam}
+
+\textbf{解.} $(x + a)^6$ 展开式的通项为：
+\[
+    T_{r+1} = C_6^r \cdot x^{6-r} \cdot a^r
+\]
+
+令 $6 - r = 3$，得 $r = 3$。
+
+所以 $x^3$ 项的系数为 $C_6^3 \cdot a^3 = 20a^3$。
+
+由题意 $20a^3 = 160$，解得 $a^3 = 8$，所以 $a = 2$。
+
+\begin{realexam}[练习]
+    求 $(1 + x)^5 + (1 + x)^6 + (1 + x)^7$ 展开式中 $x^4$ 项的系数。
+\end{realexam}
+
+\textbf{解.} $(1 + x)^5$ 中 $x^4$ 项的系数为 $C_5^4 = 5$。
+
+$(1 + x)^6$ 中 $x^4$ 项的系数为 $C_6^4 = 15$。
+
+$(1 + x)^7$ 中 $x^4$ 项的系数为 $C_7^4 = 35$。
+
+所以 $x^4$ 项的总系数为 $5 + 15 + 35 = 55$。
+
+另解：利用组合数性质
+\[
+    C_5^4 + C_6^4 + C_7^4 = C_5^1 + C_6^2 + C_7^3 = 5 + 15 + 35 = 55
+\]
+
+或用公式 $C_n^r + C_n^{r+1} = C_{n+1}^{r+1}$ 递推计算。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{通项公式的应用}：
+    \begin{itemize}
+        \item 求特定项：利用通项公式 $T_{r+1} = C_n^r a^{n-r}b^r$，根据所求项的特征确定 $r$ 的值
+        \item 求特定项的系数：注意区分"二项式系数"$C_n^r$ 与"项的系数"（包含常数因子）
+        \item 求有理项：根据指数条件确定 $r$ 的取值范围
+    \end{itemize}
+    
+    \item \textbf{赋值法}：
+    \begin{itemize}
+        \item 求各项系数之和：令 $x = 1$
+        \item 求交错系数之和：令 $x = -1$
+        \item 求常数项：令 $x = 0$
+        \item 求奇数项或偶数项系数之和：联立 $x = 1$ 和 $x = -1$ 的结果
+    \end{itemize}
+    
+    \item \textbf{最大系数问题}：
+    \begin{itemize}
+        \item 最大二项式系数：由 $n$ 的奇偶性确定中间项
+        \item 最大项的系数：解不等式组 $\begin{cases} T_{r+1} \geq T_r \\ T_{r+1} \geq T_{r+2} \end{cases}$
+    \end{itemize}
+    
+    \item \textbf{常用技巧}：
+    \begin{itemize}
+        \item 逆用二项式定理：将多项式化为二项式形式
+        \item 利用组合数性质简化计算
+        \item 注意区分展开式中的项数（$n+1$ 项）与项的位置（第 $r+1$ 项）
+    \end{itemize}
+    
+    \item \textbf{易错点提醒}：
+    \begin{itemize}
+        \item 通项公式中是第 $r+1$ 项，不是第 $r$ 项
+        \item 二项式系数与项的系数是两个不同的概念
+        \item 注意符号问题，特别是展开式中有负号时
+        \item 求展开式中系数最大项时，需要列不等式组求解
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,234 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：条件概率与全概率公式}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：条件概率与全概率公式}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+条件概率和全概率公式是概率论中处理复杂事件概率计算的重要工具。条件概率研究在已知某事件发生的条件下，另一事件发生的概率；全概率公式则提供了计算复杂事件概率的"分而治之"方法。
+
+\begin{definition}[条件概率]
+    设 $A$、$B$ 是两个随机事件，且 $P(A) > 0$，则在事件 $A$ 发生的条件下，事件 $B$ 发生的概率称为\textbf{条件概率}，记作 $P(B|A)$，定义为
+    \[
+        P(B|A) = \frac{P(A \cap B)}{P(A)}
+    \]
+\end{definition}
+
+\begin{property}[条件概率的性质]
+    条件概率 $P(\cdot | A)$ 满足概率的所有基本性质：
+    \begin{enumerate}
+        \item 非负性：$P(B|A) \geq 0$
+        \item 规范性：$P(\Omega | A) = 1$，$P(\varnothing | A) = 0$
+        \item 可加性：若 $B_1$ 与 $B_2$ 互斥，则 $P(B_1 \cup B_2 | A) = P(B_1 | A) + P(B_2 | A)$
+        \item $P(\bar{B} | A) = 1 - P(B | A)$
+    \end{enumerate}
+\end{property}
+
+\begin{property}[乘法公式]
+    由条件概率的定义，可得乘法公式：
+    \[
+        P(A \cap B) = P(A) \cdot P(B | A) = P(B) \cdot P(A | B)
+    \]
+    其中要求 $P(A) > 0$，$P(B) > 0$。
+    
+    推广到多个事件：若 $P(A_1 \cap A_2 \cap \cdots \cap A_{n-1}) > 0$，则
+    \[
+        P(A_1 \cap A_2 \cap \cdots \cap A_n) = P(A_1) \cdot P(A_2 | A_1) \cdot P(A_3 | A_1 \cap A_2) \cdots P(A_n | A_1 \cap \cdots \cap A_{n-1})
+    \]
+\end{property}
+
+\begin{definition}[全概率公式]
+    设 $A_1, A_2, \ldots, A_n$ 是一组互斥事件，且 $A_1 \cup A_2 \cup \cdots \cup A_n = \Omega$（即构成样本空间的一个划分），$P(A_i) > 0$（$i = 1, 2, \ldots, n$）。则对任意事件 $B$，有
+    \[
+        P(B) = \sum_{i=1}^{n} P(A_i) \cdot P(B | A_i)
+    \]
+    此公式称为\textbf{全概率公式}。
+\end{definition}
+
+\begin{definition}[贝叶斯公式]
+    在全概率公式的条件下，若 $P(B) > 0$，则
+    \[
+        P(A_j | B) = \frac{P(A_j) \cdot P(B | A_j)}{\sum_{i=1}^{n} P(A_i) \cdot P(B | A_i)} = \frac{P(A_j) \cdot P(B | A_j)}{P(B)}
+    \]
+    此公式称为\textbf{贝叶斯公式}（或逆概率公式），用于由结果反推原因的概率。
+\end{definition}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[条件概率基础计算]
+    某班级有 $30$ 名学生，其中男生 $18$ 人，女生 $12$ 人。男生中有 $10$ 人会游泳，女生中有 $6$ 人会游泳。现从该班随机抽取一名学生。
+    \begin{enumerate}
+        \item 求该学生会游泳的概率
+        \item 已知抽到的是男生，求该学生会游泳的概率
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} 设事件 $A$ 为"抽到男生"，事件 $B$ 为"会游泳"。
+
+已知：$P(A) = \dfrac{18}{30} = \dfrac{3}{5}$，$P(\bar{A}) = \dfrac{12}{30} = \dfrac{2}{5}$
+
+$P(B | A) = \dfrac{10}{18} = \dfrac{5}{9}$（男生中会游泳的比例）
+
+$P(B | \bar{A}) = \dfrac{6}{12} = \dfrac{1}{2}$（女生中会游泳的比例）
+
+(1) 由全概率公式：
+\[
+    P(B) = P(A) \cdot P(B | A) + P(\bar{A}) \cdot P(B | \bar{A}) = \frac{3}{5} \times \frac{5}{9} + \frac{2}{5} \times \frac{1}{2} = \frac{1}{3} + \frac{1}{5} = \frac{8}{15}
+\]
+
+(2) 已知抽到男生，会游泳的概率即为条件概率 $P(B | A) = \dfrac{5}{9}$。
+
+\begin{example}[乘法公式的应用]
+    袋中有 $3$ 个白球和 $2$ 个黑球，现从中不放回地依次取出 $3$ 个球。求前两次都取到白球且第三次取到黑球的概率。
+\end{example}
+
+\textbf{解.} 设 $A_i$ 为"第 $i$ 次取到白球"（$i = 1, 2$），$A_3$ 为"第三次取到黑球"。
+
+由乘法公式：
+\[
+    P(A_1 \cap A_2 \cap \bar{A_3}) = P(A_1) \cdot P(A_2 | A_1) \cdot P(\bar{A_3} | A_1 \cap A_2)
+\]
+
+$P(A_1) = \dfrac{3}{5}$（第一次取白球）
+
+$P(A_2 | A_1) = \dfrac{2}{4} = \dfrac{1}{2}$（第一次取走一个白球后，还剩 $2$ 白 $2$ 黑）
+
+$P(\bar{A_3} | A_1 \cap A_2) = \dfrac{2}{3}$（前两次取走两个白球后，还剩 $1$ 白 $2$ 黑）
+
+因此所求概率为：
+\[
+    P = \frac{3}{5} \times \frac{1}{2} \times \frac{2}{3} = \frac{1}{5}
+\]
+
+\begin{realexam}[2025 上海高三二模]
+    袋中有 $4$ 个白球和 $2$ 个黑球，从中不放回地依次取出 $2$ 个球。设事件 $A$ 为"第一次取到白球"，事件 $B$ 为"第二次取到白球"。求 $P(B | A)$。
+\end{realexam}
+
+\textbf{解.} 若第一次取到白球（事件 $A$ 发生），则袋中剩余 $3$ 个白球和 $2$ 个黑球，共 $5$ 个球。
+
+此时第二次取到白球的概率为：
+\[
+    P(B | A) = \frac{3}{5}
+\]
+
+\begin{realexam}[练习]
+    某工厂有三条生产线生产同一种产品，三条生产线的产量分别占总产量的 $50\%$、$30\%$、$20\%$，且三条生产线的产品不合格率分别为 $1\%$、$2\%$、$3\%$。现从该厂产品中随机抽取一件。
+    \begin{enumerate}
+        \item 求该产品是不合格品的概率
+        \item 若已知该产品是不合格品，求它来自第一条生产线的概率
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} 设 $A_i$ 为"产品来自第 $i$ 条生产线"（$i = 1, 2, 3$），$B$ 为"产品是不合格品"。
+
+已知：
+\begin{itemize}
+    \item $P(A_1) = 0.5$，$P(A_2) = 0.3$，$P(A_3) = 0.2$
+    \item $P(B | A_1) = 0.01$，$P(B | A_2) = 0.02$，$P(B | A_3) = 0.03$
+\end{itemize}
+
+(1) 由全概率公式：
+\[
+    P(B) = P(A_1)P(B|A_1) + P(A_2)P(B|A_2) + P(A_3)P(B|A_3)
+\]
+\[
+    = 0.5 \times 0.01 + 0.3 \times 0.02 + 0.2 \times 0.03 = 0.005 + 0.006 + 0.006 = 0.017
+\]
+
+(2) 由贝叶斯公式：
+\[
+    P(A_1 | B) = \frac{P(A_1) \cdot P(B | A_1)}{P(B)} = \frac{0.5 \times 0.01}{0.017} = \frac{0.005}{0.017} = \frac{5}{17}
+\]
+
+\begin{realexam}[练习]
+    某考生参加数学考试，试卷中有 $4$ 道选择题，每题有 $4$ 个选项，其中只有一个是正确的。该考生对每道题：
+    \begin{itemize}
+        \item 有 $0.6$ 的概率确实会做（此时必定选对）
+        \item 有 $0.4$ 的概率不会做，此时随机猜测（选对概率为 $0.25$）
+    \end{itemize}
+    各题之间相互独立。求该考生某一道选择题选对的概率。
+\end{realexam}
+
+\textbf{解.} 设 $A$ 为"考生会做该题"，$B$ 为"考生选对该题"。
+
+已知：$P(A) = 0.6$，$P(\bar{A}) = 0.4$
+
+$P(B | A) = 1$（会做必定选对）
+
+$P(B | \bar{A}) = 0.25$（不会做随机猜测）
+
+由全概率公式：
+\[
+    P(B) = P(A) \cdot P(B | A) + P(\bar{A}) \cdot P(B | \bar{A}) = 0.6 \times 1 + 0.4 \times 0.25 = 0.6 + 0.1 = 0.7
+\]
+
+\begin{example}[条件概率与古典概型综合]
+    从 $1, 2, 3, 4, 5$ 这 $5$ 个数中不放回地依次取出 $2$ 个数。设事件 $A$ 为"第一次取出的数是偶数"，事件 $B$ 为"两次取出的数之和大于 $6$"。求 $P(B | A)$。
+\end{example}
+
+\textbf{解.} 样本空间 $\Omega$ 包含 $A_5^2 = 20$ 个基本事件。
+
+事件 $A$：第一次取出的数是偶数（即 $2$ 或 $4$）。
+
+$|A| = 2 \times 4 = 8$（第一次有 $2$ 种选择，第二次有 $4$ 种选择）
+
+$A \cap B$：第一次取偶数且两次之和大于 $6$。
+\begin{itemize}
+    \item 第一次取 $2$：第二次需取 $> 4$ 的数，即只能取 $5$，得 $(2, 5)$
+    \item 第一次取 $4$：第二次需取 $> 2$ 的数，可取 $3, 5$（$4$ 已取），得 $(4, 3), (4, 5)$
+\end{itemize}
+
+$|A \cap B| = 3$
+
+因此 $P(B | A) = \dfrac{|A \cap B|}{|A|} = \dfrac{3}{8}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{条件概率的计算方法}：
+    \begin{itemize}
+        \item 定义法：$P(B|A) = \dfrac{P(A \cap B)}{P(A)}$，适用于已知概率的情况
+        \item 缩小样本空间法：在 $A$ 发生的条件下，将样本空间缩小为 $A$，计算 $B$ 在缩小后样本空间中的概率
+        \item 计数法（古典概型）：$P(B|A) = \dfrac{n(A \cap B)}{n(A)}$
+    \end{itemize}
+    
+    \item \textbf{全概率公式的应用步骤}：
+    \begin{enumerate}
+        \item 确定完备事件组（划分）：$A_1, A_2, \ldots, A_n$
+        \item 确定各 $P(A_i)$ 和 $P(B | A_i)$
+        \item 代入公式计算：$P(B) = \sum_{i=1}^{n} P(A_i) \cdot P(B | A_i)$
+    \end{enumerate}
+    
+    \item \textbf{贝叶斯公式的应用场景}：
+    \begin{itemize}
+        \item 已知结果，反推原因的概率
+        \item 公式记忆：$P(A_j | B) = \dfrac{P(A_j) \cdot P(B | A_j)}{P(B)}$
+        \item 分母 $P(B)$ 通常用全概率公式计算
+    \end{itemize}
+    
+    \item \textbf{解题技巧}：
+    \begin{itemize}
+        \item 画树状图：帮助理清事件关系和条件概率
+        \item 列表格：对于复杂的条件概率问题，用表格整理信息
+        \item 注意"不放回"与"放回"的区别
+    \end{itemize}
+    
+    \item \textbf{易错点}：
+    \begin{itemize}
+        \item 条件概率 $P(B|A)$ 与 $P(A|B)$ 不同，注意区分
+        \item 使用公式时注意前提条件（如 $P(A) > 0$）
+        \item 完备事件组必须满足互斥且并为全集
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

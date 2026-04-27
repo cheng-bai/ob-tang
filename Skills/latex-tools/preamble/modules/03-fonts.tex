@@ -1,0 +1,32 @@
+% ======================================
+% 03-fonts.tex - 字体设置
+% ======================================
+
+% ========== 字体设置（ctex已处理基础字体，这里做微调） ==========
+% 只需要定义楷书变体用于章节标题（如果尚未定义）
+\ifdefined\kaishu\else
+\IfFontExistsTF{Kaiti SC}{%
+    \newCJKfontfamily\kaishu{Kaiti SC}
+}{%
+    \newCJKfontfamily\kaishu{Noto Serif CJK SC}
+}
+\fi
+
+% 定义heavykaishu（如果没有定义）
+\ifdefined\heavykaishu\else
+\IfFontExistsTF{Kaiti SC}{%
+    \newCJKfontfamily\heavykaishu{Kaiti SC}[AutoFakeBold = 4]
+}{%
+    \newCJKfontfamily\heavykaishu{Noto Serif CJK SC}[AutoFakeBold = 4]
+}
+\fi
+
+% ========== 中文标点处理 ==========
+\newunicodechar{。}{.\ \ignorespaces}
+\newunicodechar{，}{,\ \ignorespaces}
+\newunicodechar{：}{:\ \ignorespaces}
+\newunicodechar{；}{;\ \ignorespaces}
+\newunicodechar{？}{?\ \ignorespaces}
+\newunicodechar{！}{!\ \ignorespaces}
+\newunicodechar{（}{\ (\ignorespaces}
+\newunicodechar{）}{)\ \ignorespaces}

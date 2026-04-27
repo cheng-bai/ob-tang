@@ -1,0 +1,303 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：随机变量的分布与特征}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：随机变量的分布与特征}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+随机变量是概率论中的核心概念，它将随机试验的结果数量化，使得我们可以用数学工具研究随机现象。本节重点学习离散型随机变量的分布列、期望与方差，以及两种重要的概率分布模型：二项分布与正态分布。
+
+\begin{definition}[随机变量]
+    在随机试验中，若一个变量随着试验结果的不同而取不同的数值，且每个数值都对应确定的概率，则称这样的变量为\textbf{随机变量}。通常用大写字母 $X, Y, \xi, \eta$ 等表示。
+\end{definition}
+
+随机变量分为离散型随机变量和连续型随机变量两类：
+\begin{itemize}
+    \item \textbf{离散型随机变量}：所有可能取值可以一一列举出来（如掷骰子的点数）
+    \item \textbf{连续型随机变量}：取值充满某个区间（如测量误差、身高体重等）
+\end{itemize}
+
+\begin{definition}[离散型随机变量的分布列]
+    设离散型随机变量 $X$ 的所有可能取值为 $x_1, x_2, \cdots, x_n$，且 $X$ 取各个值的概率分别为
+    \[
+        P(X = x_i) = p_i, \quad i = 1, 2, \cdots, n
+    \]
+    则称下表为随机变量 $X$ 的\textbf{概率分布列}（简称分布列）：
+    \[
+    \begin{array}{c|ccccc}
+    X & x_1 & x_2 & \cdots & x_n \\ \hline
+    P & p_1 & p_2 & \cdots & p_n
+    \end{array}
+    \]
+\end{definition}
+
+\begin{property}[分布列的性质]
+    离散型随机变量的分布列满足以下两个性质：
+    \begin{enumerate}
+        \item 非负性：$p_i \ge 0$，$i = 1, 2, \cdots, n$
+        \item 规范性：$\displaystyle\sum_{i=1}^{n} p_i = 1$
+    \end{enumerate}
+\end{property}
+
+\begin{definition}[数学期望]
+    设离散型随机变量 $X$ 的分布列为
+    \[
+        P(X = x_i) = p_i, \quad i = 1, 2, \cdots, n
+    \]
+    则称
+    \[
+        E(X) = \sum_{i=1}^{n} x_i p_i = x_1 p_1 + x_2 p_2 + \cdots + x_n p_n
+    \]
+    为随机变量 $X$ 的\textbf{数学期望}（简称期望），它反映了随机变量取值的平均水平。
+\end{definition}
+
+\begin{definition}[方差]
+    设离散型随机变量 $X$ 的分布列为 $P(X = x_i) = p_i$（$i = 1, 2, \cdots, n$），期望为 $E(X)$，则称
+    \[
+        D(X) = \sum_{i=1}^{n} (x_i - E(X))^2 p_i
+    \]
+    为随机变量 $X$ 的\textbf{方差}。方差的算术平方根 $\sqrt{D(X)}$ 称为\textbf{标准差}。方差反映了随机变量取值的离散程度（波动大小）。
+\end{definition}
+
+\begin{property}[期望与方差的性质]
+    设 $X$ 为随机变量，$a, b$ 为常数，则：
+    \begin{itemize}
+        \item $E(aX + b) = aE(X) + b$
+        \item $D(aX + b) = a^2 D(X)$
+        \item $D(X) = E(X^2) - [E(X)]^2$（方差的计算公式）
+    \end{itemize}
+\end{property}
+
+\begin{definition}[二项分布]
+    若随机变量 $X$ 表示 $n$ 次独立重复试验中某事件发生的次数，每次试验中该事件发生的概率为 $p$，则称 $X$ 服从参数为 $n, p$ 的\textbf{二项分布}，记作 $X \sim B(n, p)$。其分布列为：
+    \[
+        P(X = k) = C_n^k p^k (1-p)^{n-k}, \quad k = 0, 1, 2, \cdots, n
+    \]
+\end{definition}
+
+\begin{property}[二项分布的期望与方差]
+    若 $X \sim B(n, p)$，则：
+    \begin{itemize}
+        \item 期望：$E(X) = np$
+        \item 方差：$D(X) = np(1-p)$
+    \end{itemize}
+\end{property}
+
+\begin{definition}[正态分布]
+    若随机变量 $X$ 的概率密度函数为
+    \[
+        f(x) = \frac{1}{\sqrt{2\pi}\sigma} e^{-\frac{(x-\mu)^2}{2\sigma^2}}, \quad x \in \mathbb{R}
+    \]
+    其中 $\mu \in \mathbb{R}$，$\sigma > 0$ 为参数，则称 $X$ 服从参数为 $\mu, \sigma$ 的\textbf{正态分布}，记作 $X \sim N(\mu, \sigma^2)$。
+\end{definition}
+
+\begin{property}[正态分布的性质]
+    设 $X \sim N(\mu, \sigma^2)$，则：
+    \begin{enumerate}
+        \item 曲线关于直线 $x = \mu$ 对称，在 $x = \mu$ 处取得最大值
+        \item 期望 $E(X) = \mu$，方差 $D(X) = \sigma^2$
+        \item $P(\mu - \sigma < X \le \mu + \sigma) \approx 0.6827$
+        \item $P(\mu - 2\sigma < X \le \mu + 2\sigma) \approx 0.9545$
+        \item $P(\mu - 3\sigma < X \le \mu + 3\sigma) \approx 0.9973$
+    \end{enumerate}
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[分布列与期望计算]
+    某同学参加知识竞赛，共需回答3道题。竞赛规则规定：每道题回答正确得100分，回答错误得$-100$分。假设该同学每道题回答正确的概率均为 $0.8$，且各题回答正确与否相互之间没有影响。
+    \begin{enumerate}
+        \item 求该同学回答这3道题总得分的分布列和数学期望；
+        \item 求该同学总得分不为负分的概率。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 设 $X$ 为该同学回答3道题中答对的题数，则 $X \sim B(3, 0.8)$。
+
+设总得分为 $Y$，则 $Y = 100X - 100(3-X) = 200X - 300$。
+
+$X$ 的可能取值为 $0, 1, 2, 3$，对应的 $Y$ 值为 $-300, -100, 100, 300$。
+
+计算各概率：
+\begin{align*}
+P(X = 0) &= C_3^0 \cdot 0.8^0 \cdot 0.2^3 = 0.008 \\
+P(X = 1) &= C_3^1 \cdot 0.8^1 \cdot 0.2^2 = 0.096 \\
+P(X = 2) &= C_3^2 \cdot 0.8^2 \cdot 0.2^1 = 0.384 \\
+P(X = 3) &= C_3^3 \cdot 0.8^3 \cdot 0.2^0 = 0.512
+\end{align*}
+
+$Y$ 的分布列为：
+\[
+\begin{array}{c|cccc}
+Y & -300 & -100 & 100 & 300 \\ \hline
+P & 0.008 & 0.096 & 0.384 & 0.512
+\end{array}
+\]
+
+数学期望：
+\[
+E(Y) = (-300) \times 0.008 + (-100) \times 0.096 + 100 \times 0.384 + 300 \times 0.512 = 180
+\]
+
+或利用期望性质：$E(Y) = 200E(X) - 300 = 200 \times 3 \times 0.8 - 300 = 180$。
+
+(2) 总得分不为负分，即 $Y \ge 0$，对应 $X \ge 2$。
+\[
+P(Y \ge 0) = P(X = 2) + P(X = 3) = 0.384 + 0.512 = 0.896
+\]
+
+\begin{realexam}[2024 上海春考]
+    已知随机变量 $X$ 的分布是 $\begin{pmatrix} -1 & 0 & 1 \\ \dfrac{1}{4} & \dfrac{1}{4} & \dfrac{1}{2} \end{pmatrix}$，则其方差 $D(X) =$ \_\_\_\_\_。
+\end{realexam}
+
+\textbf{解.} 先求期望：
+\[
+E(X) = (-1) \times \frac{1}{4} + 0 \times \frac{1}{4} + 1 \times \frac{1}{2} = -\frac{1}{4} + 0 + \frac{1}{2} = \frac{1}{4}
+\]
+
+再求方差：
+\begin{align*}
+D(X) &= \left(-1 - \frac{1}{4}\right)^2 \times \frac{1}{4} + \left(0 - \frac{1}{4}\right)^2 \times \frac{1}{4} + \left(1 - \frac{1}{4}\right)^2 \times \frac{1}{2} \\
+&= \frac{25}{16} \times \frac{1}{4} + \frac{1}{16} \times \frac{1}{4} + \frac{9}{16} \times \frac{1}{2} \\
+&= \frac{25}{64} + \frac{1}{64} + \frac{9}{32} \\
+&= \frac{25 + 1 + 18}{64} = \frac{44}{64} = \frac{11}{16}
+\end{align*}
+
+故答案为 $\dfrac{11}{16}$。
+
+\begin{realexam}[2026 崇明二模]
+    从活动时长在 $[0, 7)$ 和 $[28, 35]$ 的学生中，按比例分层随机抽样抽取5人进行座谈。若从这5人中随机抽取2人，设 $X$ 为抽取的2人中活动时长在 $[28, 35]$ 的人数，求 $X$ 的分布列和数学期望 $E(X)$。
+\end{realexam}
+
+\textbf{解.} 设活动时长在 $[0, 7)$ 的人数与 $[28, 35]$ 的人数之比为 $2:3$（根据题意），则抽取的5人中，活动时长在 $[0, 7)$ 的有2人，在 $[28, 35]$ 的有3人。
+
+$X$ 的可能取值为 $0, 1, 2$。
+
+计算各概率：
+\begin{align*}
+P(X = 0) &= \frac{C_2^2}{C_5^2} = \frac{1}{10} \\
+P(X = 1) &= \frac{C_2^1 \cdot C_3^1}{C_5^2} = \frac{6}{10} = \frac{3}{5} \\
+P(X = 2) &= \frac{C_3^2}{C_5^2} = \frac{3}{10}
+\end{align*}
+
+$X$ 的分布列为：
+\[
+\begin{array}{c|ccc}
+X & 0 & 1 & 2 \\ \hline
+P & \dfrac{1}{10} & \dfrac{3}{5} & \dfrac{3}{10}
+\end{array}
+\]
+
+数学期望：
+\[
+E(X) = 0 \times \frac{1}{10} + 1 \times \frac{3}{5} + 2 \times \frac{3}{10} = \frac{3}{5} + \frac{3}{5} = \frac{6}{5}
+\]
+
+\begin{realexam}[2026 奉贤二模]
+    某食品厂生产一种零食，该种零食每袋的质量 $X$（单位：g）服从正态分布 $N(65, 2.2^2)$。规定：这种零食的质量在 $62.8 \sim 69.4$ g 之间的为合格品，则这种零食的合格率为\_\_\_\_\_。（结果精确到0.001）
+\end{realexam}
+
+\textbf{解.} 由题意，$X \sim N(65, 2.2^2)$，即 $\mu = 65$，$\sigma = 2.2$。
+
+合格范围为 $[62.8, 69.4]$，即 $[\mu - \sigma, \mu + 2\sigma]$。
+
+利用正态分布的性质：
+\begin{align*}
+P(\mu - \sigma < X \le \mu + \sigma) &\approx 0.6827 \\
+P(\mu - 2\sigma < X \le \mu + 2\sigma) &\approx 0.9545
+\end{align*}
+
+由对称性：
+\begin{align*}
+P(62.8 < X \le 65) &= P(\mu - \sigma < X \le \mu) \approx \frac{0.6827}{2} = 0.34135 \\
+P(65 < X \le 69.4) &= P(\mu < X \le \mu + 2\sigma) \approx \frac{0.9545}{2} = 0.47725
+\end{align*}
+
+所以合格率：
+\[
+P(62.8 \le X \le 69.4) \approx 0.34135 + 0.47725 = 0.8186 \approx 0.819
+\]
+
+\begin{example}[正态分布综合应用]
+    随着"一带一路"国际合作的深入，某茶叶种植区多措并举推动茶叶出口。为了解推动出口后的亩收入（单位：万元）情况，从该种植区抽取样本，得到推动出口后亩收入的样本均值 $\bar{x} = 2.1$，样本方差 $s^2 = 0.01$。已知该种植区以往的亩收入 $X$ 服从正态分布 $N(1.8, 0.1^2)$。假设推动出口后的亩收入 $Y$ 服从正态分布 $N(\bar{x}, s^2)$，则下列结论正确的是（  ）
+
+    （若随机变量 $Z$ 服从正态分布 $N(\mu, \sigma^2)$，则 $P(Z < \mu + \sigma) \approx 0.8413$）
+
+    A. $P(X > 2) > P(Y > 2)$
+
+    B. $P(X \le 2) < P(Y \le 2)$
+
+    C. $P(Y > 2.1) = 0.5$
+
+    D. $P(Y > 2.2) > 0.1$
+\end{example}
+
+\textbf{解.} 由题意，$X \sim N(1.8, 0.1^2)$，$Y \sim N(2.1, 0.01) = N(2.1, 0.1^2)$。
+
+对于 $X$：$\mu_X = 1.8$，$\sigma_X = 0.1$
+\[
+P(X \le 2) = P\left(Z \le \frac{2-1.8}{0.1}\right) = P(Z \le 2) \approx 0.9772
+\]
+
+对于 $Y$：$\mu_Y = 2.1$，$\sigma_Y = 0.1$
+\begin{align*}
+P(Y > 2.1) &= 0.5 \quad \text{（由正态分布对称性）} \\
+P(Y \le 2) &= P\left(Z \le \frac{2-2.1}{0.1}\right) = P(Z \le -1) \approx 1 - 0.8413 = 0.1587 \\
+P(Y > 2.2) &= P\left(Z > \frac{2.2-2.1}{0.1}\right) = P(Z > 1) \approx 1 - 0.8413 = 0.1587 > 0.1
+\end{align*}
+
+验证各选项：
+\begin{itemize}
+    \item A. $P(X > 2) = 1 - 0.9772 = 0.0228$，$P(Y > 2) = 1 - 0.1587 = 0.8413$，故 $P(X > 2) < P(Y > 2)$，A错误
+    \item B. $P(X \le 2) \approx 0.9772 > P(Y \le 2) \approx 0.1587$，B错误
+    \item C. $P(Y > 2.1) = 0.5$（正确，因为$2.1$是均值）
+    \item D. $P(Y > 2.2) \approx 0.1587 > 0.1$（正确）
+\end{itemize}
+
+正确答案为 C、D。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{分布列的求法}：
+    \begin{itemize}
+        \item 确定随机变量的所有可能取值
+        \item 计算每个取值对应的概率（注意验证概率和为1）
+        \item 列表呈现分布列
+    \end{itemize}
+    
+    \item \textbf{期望与方差的计算}：
+    \begin{itemize}
+        \item 定义法：$E(X) = \sum x_i p_i$，$D(X) = \sum (x_i - E(X))^2 p_i$
+        \item 公式法：$D(X) = E(X^2) - [E(X)]^2$
+        \item 性质法：利用 $E(aX+b) = aE(X)+b$，$D(aX+b) = a^2D(X)$
+    \end{itemize}
+    
+    \item \textbf{二项分布识别要点}：
+    \begin{itemize}
+        \item $n$ 次独立重复试验
+        \item 每次试验只有两种结果（成功/失败）
+        \item 每次成功概率相同为 $p$
+        \item 利用公式 $E(X) = np$，$D(X) = np(1-p)$ 快速计算
+    \end{itemize}
+    
+    \item \textbf{正态分布解题技巧}：
+    \begin{itemize}
+        \item 标准化：$Z = \dfrac{X - \mu}{\sigma} \sim N(0, 1)$
+        \item 利用对称性：$P(X > \mu) = P(X < \mu) = 0.5$
+        \item 记住"$3\sigma$原则"的近似值：$68.27\%$、$95.45\%$、$99.73\%$
+        \item 注意题目给出的参考数据（如$\Phi(1) \approx 0.8413$）
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

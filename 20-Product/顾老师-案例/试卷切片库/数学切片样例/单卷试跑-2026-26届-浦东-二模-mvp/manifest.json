@@ -1,0 +1,153 @@
+{
+  "output_root": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp",
+  "cases": [
+    {
+      "paper_slug": "2026-26届-浦东-二模",
+      "source": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+      "questions": 21,
+      "subquestions": 13,
+      "files_written": 102,
+      "images_copied": 7,
+      "missing_images": [],
+      "module_counts": {
+        "01-集合复数与逻辑": 3,
+        "03-三角与向量": 3,
+        "07-概率统计": 5,
+        "02-函数与导数": 5,
+        "04-数列与不等式": 2,
+        "05-立体几何与空间向量": 2,
+        "06-解析几何": 1
+      },
+      "needs_review_count": 7,
+      "review_items": [
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 1,
+          "module": "01-集合复数与逻辑",
+          "module_name": "集合复数与逻辑",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:1",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/01-集合复数与逻辑/2026-26届-浦东-二模-Q01-集合复数与逻辑-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "1. 已知全集 $U = \\left( {0, + \\infty }\\right)$ ，集合 $A = \\lbrack 2, + \\infty )$ ，则 ${\\complement }_{U}A =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 3,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/03-三角与向量/2026-26届-浦东-二模-Q03-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "3. 已知 $f\\left( x\\right)  = \\left\\{  \\begin{array}{l} \\frac{1}{{x}^{3}}, x < 0 \\\\  x + 1, x \\geq  0 \\end{array}\\right.$ ,"
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 4,
+          "module": "03-三角与向量",
+          "module_name": "三角与向量",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "03-三角与向量:三角与向量:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/03-三角与向量/2026-26届-浦东-二模-Q04-三角与向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "4. 在 $\\bigtriangleup  {ABC}$ 中，若 $a = 7$ ， $b = 8$ ， $\\cos C = \\frac{13}{14}$ ，则 $c =$ ___."
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 7,
+          "module": "02-函数与导数",
+          "module_name": "函数与导数",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/02-函数与导数/2026-26届-浦东-二模-Q07-函数与导数-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "7. 从 4 名男生 3 名女生中选取 3 人，依次进行面试，其中恰好有 1 名女生，则有___种不同的面试方法."
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 10,
+          "module": "07-概率统计",
+          "module_name": "概率统计",
+          "module_confidence": 0,
+          "review_reason": "zero_score_fallback,low_confidence,small_margin,tie_break",
+          "candidate_modules": [
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0",
+            "03-三角与向量:三角与向量:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/07-概率统计/2026-26届-浦东-二模-Q10-概率统计-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "10. 已知,圆 $O$ 是圆心在原点的单位圆,弦 ${AB}$ 平行于 $x$ 轴,并将圆分为两段弧. 将其中一段劣弧 $\\overset{\\text{ ⏜ }}{AB}$ 沿弦 ${AB}$ 翻折后恰好经过圆心. 若直线 $y = x "
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 11,
+          "module": "05-立体几何与空间向量",
+          "module_name": "立体几何与空间向量",
+          "module_confidence": 3,
+          "review_reason": "small_margin,tie_break",
+          "candidate_modules": [
+            "05-立体几何与空间向量:立体几何与空间向量:3",
+            "06-解析几何:解析几何:3",
+            "03-三角与向量:三角与向量:1"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/05-立体几何与空间向量/2026-26届-浦东-二模-Q11-立体几何与空间向量-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "11. 某光影科技实验室为长方体空间, 底面是边长为 4 米的正方形, 高为 3 米. 为营造动态光影效果, 在底面一个顶点处安装射灯 $A$ ,在与该顶点相对的侧棱上、距底面 1 米处安装射灯 $I$ ,两盖射灯的光束方向由智能系统自动控"
+        },
+        {
+          "paper_slug": "2026-26届-浦东-二模",
+          "district": "浦东",
+          "question_no": 14,
+          "module": "04-数列与不等式",
+          "module_name": "数列与不等式",
+          "module_confidence": 1,
+          "review_reason": "low_confidence,small_margin",
+          "candidate_modules": [
+            "04-数列与不等式:数列与不等式:1",
+            "01-集合复数与逻辑:集合复数与逻辑:0",
+            "02-函数与导数:函数与导数:0"
+          ],
+          "question_file": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/2026-26届-浦东-二模/04-数列与不等式/2026-26届-浦东-二模-Q14-数列与不等式-题目.md",
+          "source_md": "/Users/tangchengbaiair/Downloads/mini-数学资料库/0-一模-二模-模考试卷-md版本/2026届浦东新区高三下二模数学试卷（解析版）/2026届浦东新区高三下二模数学试卷（解析版）-dollar.md",
+          "prompt_preview": "14. 已知实数 $a, b, c$ 满足 $a > b > 1 > c$ ,则下列结论一定正确的是( )"
+        }
+      ]
+    }
+  ],
+  "total_questions": 21,
+  "total_subquestions": 13,
+  "total_files_written": 102,
+  "total_images_copied": 7,
+  "total_missing_images": 0,
+  "total_needs_review": 7,
+  "needs_review_csv": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/needs_review.csv",
+  "needs_review_md": "/Users/tangchengbaiair/Downloads/试卷切片库/数学切片样例/单卷试跑-2026-26届-浦东-二模-mvp/needs_review.md"
+}

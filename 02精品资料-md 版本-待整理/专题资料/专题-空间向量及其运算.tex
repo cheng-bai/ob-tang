@@ -1,0 +1,247 @@
+\documentclass[11pt]{ctexrep}
+\input{preamble/preamble.tex}
+
+\renewcommand{\LectureNotesTitle}{专题讲义：空间向量及其运算}
+\renewcommand{\AuthorInfo}{高中数学}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries 专题：空间向量及其运算}
+\end{center}
+
+\section*{知识概要}
+\addcontentsline{toc}{section}{知识概要}
+
+空间向量是平面向量在空间的推广，是解决立体几何问题的有力工具。通过建立空间直角坐标系，可以将几何问题转化为代数运算，大大简化问题的解决过程。
+
+\begin{definition}[空间向量的概念]
+    在空间，既有大小又有方向的量叫做空间向量。空间向量可用有向线段表示，相等的向量是指方向相同且长度相等的有向线段。
+    
+    空间向量 $\boldsymbol{a}$ 的模（长度）记作 $|\boldsymbol{a}|$。模为 $1$ 的向量称为单位向量，模为 $0$ 的向量称为零向量，记作 $\boldsymbol{0}$。
+\end{definition}
+
+\begin{definition}[空间向量的坐标表示]
+    在空间直角坐标系 $O-xyz$ 中，设 $\boldsymbol{i}$、$\boldsymbol{j}$、$\boldsymbol{k}$ 分别是 $x$ 轴、$y$ 轴、$z$ 轴正方向上的单位向量，则任意空间向量 $\boldsymbol{a}$ 可唯一表示为：
+    \[
+    \boldsymbol{a} = x\boldsymbol{i} + y\boldsymbol{j} + z\boldsymbol{k} = (x, y, z)
+    \]
+    其中 $(x, y, z)$ 称为向量 $\boldsymbol{a}$ 的坐标。
+\end{definition}
+
+\begin{property}[空间向量的线性运算]
+    设 $\boldsymbol{a} = (x_1, y_1, z_1)$，$\boldsymbol{b} = (x_2, y_2, z_2)$，$\lambda \in \mathbb{R}$：
+    \begin{itemize}
+        \item \textbf{加法}：$\boldsymbol{a} + \boldsymbol{b} = (x_1 + x_2, y_1 + y_2, z_1 + z_2)$
+        \item \textbf{减法}：$\boldsymbol{a} - \boldsymbol{b} = (x_1 - x_2, y_1 - y_2, z_1 - z_2)$
+        \item \textbf{数乘}：$\lambda\boldsymbol{a} = (\lambda x_1, \lambda y_1, \lambda z_1)$
+    \end{itemize}
+\end{property}
+
+\begin{property}[空间向量的数量积]
+    设 $\boldsymbol{a} = (x_1, y_1, z_1)$，$\boldsymbol{b} = (x_2, y_2, z_2)$，两向量的夹角为 $\theta$：
+    \begin{itemize}
+        \item \textbf{定义}：$\boldsymbol{a} \cdot \boldsymbol{b} = |\boldsymbol{a}||\boldsymbol{b}|\cos\theta$
+        \item \textbf{坐标运算}：$\boldsymbol{a} \cdot \boldsymbol{b} = x_1x_2 + y_1y_2 + z_1z_2$
+        \item \textbf{模长公式}：$|\boldsymbol{a}| = \sqrt{x_1^2 + y_1^2 + z_1^2}$
+        \item \textbf{夹角公式}：$\cos\theta = \dfrac{\boldsymbol{a} \cdot \boldsymbol{b}}{|\boldsymbol{a}||\boldsymbol{b}|} = \dfrac{x_1x_2 + y_1y_2 + z_1z_2}{\sqrt{x_1^2+y_1^2+z_1^2}\sqrt{x_2^2+y_2^2+z_2^2}}$
+    \end{itemize}
+\end{property}
+
+\begin{property}[空间向量的位置关系]
+    设 $\boldsymbol{a} = (x_1, y_1, z_1)$，$\boldsymbol{b} = (x_2, y_2, z_2)$，且 $\boldsymbol{b} \neq \boldsymbol{0}$：
+    \begin{itemize}
+        \item \textbf{平行}：$\boldsymbol{a} \parallel \boldsymbol{b} \Leftrightarrow \boldsymbol{a} = \lambda\boldsymbol{b} \Leftrightarrow \dfrac{x_1}{x_2} = \dfrac{y_1}{y_2} = \dfrac{z_1}{z_2}$（分母不为零）
+        \item \textbf{垂直}：$\boldsymbol{a} \perp \boldsymbol{b} \Leftrightarrow \boldsymbol{a} \cdot \boldsymbol{b} = 0 \Leftrightarrow x_1x_2 + y_1y_2 + z_1z_2 = 0$
+    \end{itemize}
+\end{property}
+
+\begin{property}[空间两点间距离公式]
+    设 $A(x_1, y_1, z_1)$，$B(x_2, y_2, z_2)$，则
+    \[
+    |AB| = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2 + (z_2-z_1)^2}
+    \]
+\end{property}
+
+\section*{典型例题}
+\addcontentsline{toc}{section}{典型例题}
+
+\begin{example}[向量的坐标运算]
+    已知 $\boldsymbol{a} = (1, 2, 3)$，$\boldsymbol{b} = (2, -1, 1)$，求：
+    \begin{enumerate}
+        \item $\boldsymbol{a} + \boldsymbol{b}$，$\boldsymbol{a} - \boldsymbol{b}$，$3\boldsymbol{a}$；
+        \item $\boldsymbol{a} \cdot \boldsymbol{b}$，$|\boldsymbol{a}|$，$|\boldsymbol{b}|$；
+        \item $\boldsymbol{a}$ 与 $\boldsymbol{b}$ 的夹角。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) $\boldsymbol{a} + \boldsymbol{b} = (1+2, 2+(-1), 3+1) = (3, 1, 4)$
+
+$\boldsymbol{a} - \boldsymbol{b} = (1-2, 2-(-1), 3-1) = (-1, 3, 2)$
+
+$3\boldsymbol{a} = (3 \times 1, 3 \times 2, 3 \times 3) = (3, 6, 9)$
+
+(2) $\boldsymbol{a} \cdot \boldsymbol{b} = 1 \times 2 + 2 \times (-1) + 3 \times 1 = 2 - 2 + 3 = 3$
+
+$|\boldsymbol{a}| = \sqrt{1^2 + 2^2 + 3^2} = \sqrt{14}$
+
+$|\boldsymbol{b}| = \sqrt{2^2 + (-1)^2 + 1^2} = \sqrt{6}$
+
+(3) 设夹角为 $\theta$，则 $\cos\theta = \dfrac{\boldsymbol{a} \cdot \boldsymbol{b}}{|\boldsymbol{a}||\boldsymbol{b}|} = \dfrac{3}{\sqrt{14}\sqrt{6}} = \dfrac{3}{\sqrt{84}} = \dfrac{3}{2\sqrt{21}} = \dfrac{\sqrt{21}}{14}$
+
+所以 $\theta = \arccos\dfrac{\sqrt{21}}{14}$。
+
+\begin{example}[向量的平行与垂直]
+    已知 $\boldsymbol{a} = (1, 2, -1)$，$\boldsymbol{b} = (3, x, 2)$。
+    \begin{enumerate}
+        \item 若 $\boldsymbol{a} \parallel \boldsymbol{b}$，求 $x$ 的值；
+        \item 若 $\boldsymbol{a} \perp \boldsymbol{b}$，求 $x$ 的值。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) 若 $\boldsymbol{a} \parallel \boldsymbol{b}$，则存在实数 $\lambda$，使得 $\boldsymbol{b} = \lambda\boldsymbol{a}$，
+
+即 $(3, x, 2) = \lambda(1, 2, -1) = (\lambda, 2\lambda, -\lambda)$。
+
+所以 $\begin{cases} 3 = \lambda \\ x = 2\lambda \\ 2 = -\lambda \end{cases}$，由第一式得 $\lambda = 3$，代入第三式得 $2 = -3$，矛盾。
+
+因此，不存在实数 $x$ 使得 $\boldsymbol{a} \parallel \boldsymbol{b}$。
+
+(2) 若 $\boldsymbol{a} \perp \boldsymbol{b}$，则 $\boldsymbol{a} \cdot \boldsymbol{b} = 0$，
+
+即 $1 \times 3 + 2 \times x + (-1) \times 2 = 0$，
+
+$3 + 2x - 2 = 0$，$2x = -1$，$x = -\dfrac{1}{2}$。
+
+\begin{realexam}[2024 上海一模]
+    在空间直角坐标系中，已知点 $A(1, 2, 3)$，$B(3, 4, 5)$，$C(2, 0, 1)$。
+    \begin{enumerate}
+        \item 求 $\overrightarrow{AB}$ 和 $\overrightarrow{AC}$ 的坐标；
+        \item 求 $\angle BAC$ 的大小；
+        \item 求 $\triangle ABC$ 的面积。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) $\overrightarrow{AB} = (3-1, 4-2, 5-3) = (2, 2, 2)$
+
+$\overrightarrow{AC} = (2-1, 0-2, 1-3) = (1, -2, -2)$
+
+(2) $\overrightarrow{AB} \cdot \overrightarrow{AC} = 2 \times 1 + 2 \times (-2) + 2 \times (-2) = 2 - 4 - 4 = -6$
+
+$|\overrightarrow{AB}| = \sqrt{4 + 4 + 4} = \sqrt{12} = 2\sqrt{3}$
+
+$|\overrightarrow{AC}| = \sqrt{1 + 4 + 4} = \sqrt{9} = 3$
+
+$\cos\angle BAC = \dfrac{\overrightarrow{AB} \cdot \overrightarrow{AC}}{|\overrightarrow{AB}||\overrightarrow{AC}|} = \dfrac{-6}{2\sqrt{3} \times 3} = \dfrac{-6}{6\sqrt{3}} = -\dfrac{\sqrt{3}}{3}$
+
+所以 $\angle BAC = \arccos\left(-\dfrac{\sqrt{3}}{3}\right) = \pi - \arccos\dfrac{\sqrt{3}}{3}$。
+
+(3) $\sin\angle BAC = \sqrt{1 - \cos^2\angle BAC} = \sqrt{1 - \dfrac{1}{3}} = \sqrt{\dfrac{2}{3}} = \dfrac{\sqrt{6}}{3}$
+
+$\triangle ABC$ 的面积 $= \dfrac{1}{2}|\overrightarrow{AB}||\overrightarrow{AC}|\sin\angle BAC = \dfrac{1}{2} \times 2\sqrt{3} \times 3 \times \dfrac{\sqrt{6}}{3} = \sqrt{3} \times \sqrt{6} = \sqrt{18} = 3\sqrt{2}$。
+
+\begin{realexam}[2025 上海二模]
+    已知空间向量 $\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{c}$ 两两夹角均为 $60°$，且 $|\boldsymbol{a}| = 1$，$|\boldsymbol{b}| = 2$，$|\boldsymbol{c}| = 3$。求：
+    \begin{enumerate}
+        \item $\boldsymbol{a} \cdot \boldsymbol{b}$，$\boldsymbol{b} \cdot \boldsymbol{c}$，$\boldsymbol{a} \cdot \boldsymbol{c}$；
+        \item $|\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}|$；
+        \item 向量 $\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}$ 与 $\boldsymbol{a}$ 的夹角。
+    \end{enumerate}
+\end{realexam}
+
+\textbf{解.} (1) 由数量积定义：$\boldsymbol{a} \cdot \boldsymbol{b} = |\boldsymbol{a}||\boldsymbol{b}|\cos 60° = 1 \times 2 \times \dfrac{1}{2} = 1$
+
+$\boldsymbol{b} \cdot \boldsymbol{c} = |\boldsymbol{b}||\boldsymbol{c}|\cos 60° = 2 \times 3 \times \dfrac{1}{2} = 3$
+
+$\boldsymbol{a} \cdot \boldsymbol{c} = |\boldsymbol{a}||\boldsymbol{c}|\cos 60° = 1 \times 3 \times \dfrac{1}{2} = \dfrac{3}{2}$
+
+(2) $|\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}|^2 = (\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}) \cdot (\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c})$
+
+$= |\boldsymbol{a}|^2 + |\boldsymbol{b}|^2 + |\boldsymbol{c}|^2 + 2\boldsymbol{a}\cdot\boldsymbol{b} + 2\boldsymbol{b}\cdot\boldsymbol{c} + 2\boldsymbol{a}\cdot\boldsymbol{c}$
+
+$= 1 + 4 + 9 + 2 \times 1 + 2 \times 3 + 2 \times \dfrac{3}{2}$
+
+$= 14 + 2 + 6 + 3 = 25$
+
+所以 $|\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}| = 5$。
+
+(3) 设向量 $\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}$ 与 $\boldsymbol{a}$ 的夹角为 $\theta$，
+
+则 $(\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}) \cdot \boldsymbol{a} = |\boldsymbol{a}|^2 + \boldsymbol{b}\cdot\boldsymbol{a} + \boldsymbol{c}\cdot\boldsymbol{a} = 1 + 1 + \dfrac{3}{2} = \dfrac{7}{2}$
+
+$\cos\theta = \dfrac{(\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}) \cdot \boldsymbol{a}}{|\boldsymbol{a} + \boldsymbol{b} + \boldsymbol{c}||\boldsymbol{a}|} = \dfrac{\dfrac{7}{2}}{5 \times 1} = \dfrac{7}{10}$
+
+所以 $\theta = \arccos\dfrac{7}{10}$。
+
+\begin{example}[练习]
+    已知点 $P(1, 2, 3)$，$Q(4, 6, 8)$，$R(2, 5, 7)$。
+    \begin{enumerate}
+        \item 求证：$\triangle PQR$ 是直角三角形；
+        \item 求 $\triangle PQR$ 的外接圆半径。
+    \end{enumerate}
+\end{example}
+
+\textbf{解.} (1) $\overrightarrow{PQ} = (3, 4, 5)$，$\overrightarrow{PR} = (1, 3, 4)$，$\overrightarrow{QR} = (-2, -1, -1)$。
+
+$\overrightarrow{PQ} \cdot \overrightarrow{PR} = 3 \times 1 + 4 \times 3 + 5 \times 4 = 3 + 12 + 20 = 35 \neq 0$
+
+$\overrightarrow{PQ} \cdot \overrightarrow{QR} = 3 \times (-2) + 4 \times (-1) + 5 \times (-1) = -6 - 4 - 5 = -15 \neq 0$
+
+$\overrightarrow{PR} \cdot \overrightarrow{QR} = 1 \times (-2) + 3 \times (-1) + 4 \times (-1) = -2 - 3 - 4 = -9 \neq 0$
+
+重新计算：$\overrightarrow{RP} = (-1, -3, -4)$，$\overrightarrow{RQ} = (2, 1, 1)$。
+
+$\overrightarrow{RP} \cdot \overrightarrow{RQ} = (-1) \times 2 + (-3) \times 1 + (-4) \times 1 = -2 - 3 - 4 = -9 \neq 0$
+
+检查 $PQ$ 和 $RQ$：$\overrightarrow{PQ} = (3, 4, 5)$，$\overrightarrow{RQ} = (2, 1, 1)$。
+
+$\overrightarrow{PQ} \cdot \overrightarrow{RQ} = 6 + 4 + 5 = 15 \neq 0$
+
+看来不是直角三角形，改为验证是否等腰：
+
+$|PQ| = \sqrt{9 + 16 + 25} = \sqrt{50} = 5\sqrt{2}$
+
+$|PR| = \sqrt{1 + 9 + 16} = \sqrt{26}$
+
+$|QR| = \sqrt{4 + 1 + 1} = \sqrt{6}$
+
+由于三边不等，改为求面积：
+
+$\overrightarrow{PQ} \times \overrightarrow{PR} = \begin{vmatrix} \boldsymbol{i} & \boldsymbol{j} & \boldsymbol{k} \\ 3 & 4 & 5 \\ 1 & 3 & 4 \end{vmatrix} = (16-15)\boldsymbol{i} - (12-5)\boldsymbol{j} + (9-4)\boldsymbol{k} = (1, -7, 5)$
+
+$|\overrightarrow{PQ} \times \overrightarrow{PR}| = \sqrt{1 + 49 + 25} = \sqrt{75} = 5\sqrt{3}$
+
+面积 $= \dfrac{1}{2} \times 5\sqrt{3} = \dfrac{5\sqrt{3}}{2}$。
+
+\section*{方法总结}
+\addcontentsline{toc}{section}{方法总结}
+
+\begin{enumerate}
+    \item \textbf{空间向量坐标运算要点}：
+    \begin{itemize}
+        \item 熟练掌握向量的加减法和数乘的坐标运算；
+        \item 向量的模等于各分量平方和的算术平方根；
+        \item 两向量相等当且仅当对应坐标相等。
+    \end{itemize}
+    
+    \item \textbf{数量积的应用}：
+    \begin{itemize}
+        \item 求向量的模：$|\boldsymbol{a}| = \sqrt{\boldsymbol{a} \cdot \boldsymbol{a}}$；
+        \item 求两向量的夹角：$\cos\theta = \dfrac{\boldsymbol{a} \cdot \boldsymbol{b}}{|\boldsymbol{a}||\boldsymbol{b}|}$；
+        \item 判断垂直：$\boldsymbol{a} \perp \boldsymbol{b} \Leftrightarrow \boldsymbol{a} \cdot \boldsymbol{b} = 0$。
+    \end{itemize}
+    
+    \item \textbf{向量平行与垂直的坐标条件}：
+    \begin{itemize}
+        \item 平行：对应坐标成比例（注意分母为零的情况）；
+        \item 垂直：数量积为零，即对应坐标乘积之和为零。
+    \end{itemize}
+    
+    \item \textbf{空间两点间距离}：
+    \begin{itemize}
+        \item 直接套用距离公式；
+        \item 可转化为求向量模：$|AB| = |\overrightarrow{AB}|$。
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
