@@ -1,3 +1,7 @@
+---
+title: 必修一第1章集合与逻辑-dollar
+来源: 沪教版教材
+---
 # 第1章 集合与逻辑
 
 ![bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg](images/bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg)

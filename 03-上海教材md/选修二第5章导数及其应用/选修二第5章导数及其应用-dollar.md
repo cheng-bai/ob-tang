@@ -1,3 +1,7 @@
+---
+title: 选修二第5章导数及其应用-dollar
+来源: 沪教版教材
+---
 # 导数及其应用
 
 ![bo_d4slovref24c73be0r3g_0_0_4_1654_1172_0.jpg](images/bo_d4slovref24c73be0r3g_0_0_4_1654_1172_0.jpg)

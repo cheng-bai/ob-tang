@@ -1,3 +1,7 @@
+---
+title: 必修一第3章幂、指数与对数-dollar
+来源: 沪教版教材
+---
 # 幂、指数与对数
 
 ![bo_d4slo93ef24c73be0qag_0_2_18_1652_1165_0.jpg](images/bo_d4slo93ef24c73be0qag_0_2_18_1652_1165_0.jpg)

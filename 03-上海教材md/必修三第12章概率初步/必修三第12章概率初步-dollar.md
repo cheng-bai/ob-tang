@@ -1,3 +1,7 @@
+---
+title: 必修三第12章概率初步-dollar
+来源: 沪教版教材
+---
 # 概率初步
 
 ![bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg](images/bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg)

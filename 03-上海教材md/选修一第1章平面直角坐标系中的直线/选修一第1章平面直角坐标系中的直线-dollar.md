@@ -1,3 +1,7 @@
+---
+title: 选修一第1章平面直角坐标系中的直线-dollar
+来源: 沪教版教材
+---
 # 平面直角坐标系中的直线
 
 ![bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg](images/bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg)

@@ -1,3 +1,7 @@
+---
+title: 必修三第10章空间直线与平面-dollar
+来源: 沪教版教材
+---
 # 空间直线与平面
 
 ![bo_d4slm1v7aajc73fspjsg_0_0_1_1654_1190_0.jpg](images/bo_d4slm1v7aajc73fspjsg_0_0_1_1654_1190_0.jpg)

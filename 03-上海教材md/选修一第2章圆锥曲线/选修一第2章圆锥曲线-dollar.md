@@ -1,3 +1,7 @@
+---
+title: 选修一第2章圆锥曲线-dollar
+来源: 沪教版教材
+---
 # 圆锥曲线
 
 ![bo_d4sln7jef24c73be0pd0_0_2_7_1652_1166_0.jpg](images/bo_d4sln7jef24c73be0pd0_0_2_7_1652_1166_0.jpg)

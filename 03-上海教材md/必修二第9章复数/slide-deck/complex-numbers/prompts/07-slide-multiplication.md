@@ -1,3 +1,7 @@
+---
+title: 07-slide-multiplication
+来源: 沪教版教材
+---
 Create a presentation slide image following these guidelines:
 
 ## Image Specifications

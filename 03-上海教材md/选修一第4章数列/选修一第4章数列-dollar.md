@@ -1,3 +1,7 @@
+---
+title: 选修一第4章数列-dollar
+来源: 沪教版教材
+---
 # 数列
 
 ![bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg](images/bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg)

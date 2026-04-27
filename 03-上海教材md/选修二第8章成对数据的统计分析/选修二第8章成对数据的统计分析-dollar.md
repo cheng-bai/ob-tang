@@ -1,3 +1,7 @@
+---
+title: 选修二第8章成对数据的统计分析-dollar
+来源: 沪教版教材
+---
 # 成对数据的统计分析
 
 ![bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg](images/bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg)

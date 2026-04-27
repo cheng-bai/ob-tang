@@ -1,3 +1,7 @@
+---
+title: 必修三第11章简单几何体-dollar
+来源: 沪教版教材
+---
 # 简单几何体
 
 ![bo_d4slmdf7aajc73fspjug_0_0_0_1654_1151_0.jpg](images/bo_d4slmdf7aajc73fspjug_0_0_0_1654_1151_0.jpg)

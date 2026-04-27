@@ -1,3 +1,7 @@
+---
+title: 必修一第2章等式与不等式-dollar
+来源: 沪教版教材
+---
 ## 等式 与不等式
 
 ![bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg](images/bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg)

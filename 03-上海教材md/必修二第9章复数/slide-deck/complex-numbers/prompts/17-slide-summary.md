@@ -1,3 +1,7 @@
+---
+title: 17-slide-summary
+来源: 沪教版教材
+---
 Create a presentation slide image following these guidelines:
 
 ## Image Specifications
