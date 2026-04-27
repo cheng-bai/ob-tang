@@ -12,7 +12,7 @@ title: 必修二第8章平面向量-dollar
 
 1 向量的概念
 
-![bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg](images/bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg)
+![bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg](attachments/bo_d4sllcbef24c73be0n80_1_550_716_951_229_0.jpg)
 
 图 8-1-1
 
@@ -40,7 +40,7 @@ Q
 
 ---
 
-![bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg](images/bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg)
+![bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg](attachments/bo_d4sllcbef24c73be0n80_2_430_227_390_257_0.jpg)
 
 图 8-1-2
 
@@ -58,13 +58,13 @@ Q
 
 如果两个向量同方向且具有相同的模, 根据向量的定义, 它们就是同一个向量, 不过我们常常只说它们是相等的向量. 特别地, 一个向量平移后得到的向量与原来的向量相等. 例如, 图 8-1-3 中,向量 $\overrightarrow{MN}$ 是向量 $\overrightarrow{AB}$ 经过平移后得到的,所以 $\overrightarrow{MN} = \overrightarrow{AB}$ .
 
-![bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg](images/bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg)
+![bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg](attachments/bo_d4sllcbef24c73be0n80_2_1128_819_347_166_0.jpg)
 
 图 8-1-3
 
 由于约定了零向量具有任意方向, 因此它平行于任意向量. 这样, 根据向量相等的定义, 零向量都是相等的.
 
-![bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg](images/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg)
+![bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg](attachments/bo_d4sllcbef24c73be0n80_2_1144_1107_317_287_0.jpg)
 
 图 8-1-4
 
@@ -100,11 +100,11 @@ Q
 
 2. 中国象棋中的“马”走“日”。如图是一个棋盘，当“马”自点 $A$ 走“一步”后的落点可以为点 ${A}_{1}\text{ 、 }{A}_{2}$ 或 ${A}_{3}$ ,表示该“马”走“一步”的向量为 $\overrightarrow{A{A}_{1}}\text{ 、 }\overrightarrow{A{A}_{2}}$ 或 $\overrightarrow{A{A}_{3}}$ ,它们是相等的向量吗? 在图中分别用向量表示当“马”在点 $B$ 处各走“一步”的情形.
 
-![bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg](images/bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg)
+![bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg](attachments/bo_d4sllcbef24c73be0n80_3_454_380_277_312_0.jpg)
 
 (第 2 题)
 
-![bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg](images/bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg)
+![bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg](attachments/bo_d4sllcbef24c73be0n80_3_948_435_277_257_0.jpg)
 
 (第 3 题)
 
@@ -118,17 +118,17 @@ Q
 
 在物理学习中, 我们已经知道了当不在同一方向上的两个力 $\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}$ 同时作用于一个物体时,它们的合力是以 $\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}$ 为相邻两边的平行四边形 ${OACB}$ 对角线 $\overrightarrow{OC}$ 所表示的力 (图 8-1-5).
 
-![bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg](images/bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg)
+![bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg](attachments/bo_d4sllcbef24c73be0n80_3_718_1296_614_179_0.jpg)
 
 图 8-1-5
 
 一般向量的加法也采用上述求合力的方法. 设给定两个不平行的向量 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ ，如图 8-1-6，如果以点 $O$ 为起点，分别作 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}$ ,那么以 $\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}$ 为邻边的平行四边形 ${OACB}$ 的对角线所表示的向量 $\overrightarrow{OC} = \overrightarrow{c}$ 就定义为向量 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 的和,记作 $\overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}$ . 求向量和的运算,叫做向量的加法 (addition of vectors). 我们把这种作向量和的方法叫做向量加法的平行四边形法则 (parallelogram law).
 
-![bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg](images/bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg)
+![bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg](attachments/bo_d4sllcbef24c73be0n80_3_614_1897_302_191_0.jpg)
 
 图 8-1-6
 
-![bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg](images/bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg)
+![bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg](attachments/bo_d4sllcbef24c73be0n80_3_1132_1951_301_137_0.jpg)
 
 图 8-1-7
 
@@ -136,7 +136,7 @@ Q
 
 向量 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 满足 $\overrightarrow{a}//\overrightarrow{b}$ 时 (包括 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 中出现零向量的情况), 无法使用平行四边形法则, 但上述三角形法则的步骤 (即若从一点 $O$ 出发作向量 $\overrightarrow{OA} = \overrightarrow{a}$ ，再以 $A$ 为起点作向量 $\overrightarrow{AC} = \overrightarrow{b}$ ，则向量 $\overrightarrow{OC} = \overrightarrow{a} + \overrightarrow{b}$ )仍然可以用于作出点 $C$ ,使得 $\overrightarrow{OC} = \overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}$ ,只不过此时 $\bigtriangleup {OAC}$ 不存在,只剩下一条直线上三条首尾相接、互相重叠的线段了. 图 8-1-8 的三幅图分别给出了 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 方向相同、 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 方向相反且 $\left| \overrightarrow{a}\right|  \geq  \left| \overrightarrow{b}\right|$ 和 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 方向相反且 $\left| \overrightarrow{a}\right|  \leq  \left| \overrightarrow{b}\right|$ 三种情况的图示(后两种情况当 $\left| \overrightarrow{a}\right|  = \left| \overrightarrow{b}\right|$ 时是一致的，此时 $O\text{ 、 }C$ 两点重合,从而 $\overrightarrow{c} = \overrightarrow{0}$ ).
 
-![bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg](images/bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg)
+![bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg](attachments/bo_d4sllcbef24c73be0n80_4_213_1016_827_185_0.jpg)
 
 图 8-1-8
 
@@ -180,7 +180,7 @@ $$
 
 例 4 一物体受水平方向 6 N 和铅垂方向 8 N 的两个力的作用，求合力的大小以及合力与铅垂方向偏离的角度. (结果精确到 $\left. {0.01}^{ \circ  }\right)$
 
-![bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg](images/bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg)
+![bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg](attachments/bo_d4sllcbef24c73be0n80_5_219_836_256_281_0.jpg)
 
 图 8-1-9
 
@@ -208,7 +208,7 @@ $$
 
 ---
 
-![bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg](images/bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg)
+![bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg](attachments/bo_d4sllcbef24c73be0n80_5_210_1773_278_256_0.jpg)
 
 图 8-1-10
 
@@ -232,7 +232,7 @@ $$
 
 解 如图 8-1-11,作以 ${CB}\text{ 、 }{CA}$ 为邻边的平行四边形 ${CADB}$ ,连接 ${CD}\text{ 、 }{OB}$ . 根据向量减法的定义,可得 $\overrightarrow{OA} - \overrightarrow{OC} = \; \overrightarrow{CA},\overrightarrow{OB} - \overrightarrow{OC} = \overrightarrow{CB}$ ，故 $\left( {\overrightarrow{OA} - \overrightarrow{OC}}\right)  + \left( {\overrightarrow{OB} - \overrightarrow{OC}}\right)  = \overrightarrow{CA} + \overrightarrow{CB} = \overrightarrow{CD}$ .
 
-![bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg](images/bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg)
+![bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg](attachments/bo_d4sllcbef24c73be0n80_6_1116_444_373_201_0.jpg)
 
 图 8-1-11
 
@@ -252,7 +252,7 @@ $$
 
 如图 8-1-12, 某科考船以 12 海里/时的速度匀速沿东北方向航行，中午 12 时船的位置在点 $A$ 处. 请描述下午 3 时和下午 4 时 30 分该船与点 $A$ 的相对位置.
 
-![bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg](images/bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg)
+![bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg](attachments/bo_d4sllcbef24c73be0n80_6_444_1577_360_264_0.jpg)
 
 图 8-1-12
 
@@ -320,7 +320,7 @@ $$
 
 例 7 已知向量 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ 、 $\overrightarrow{c}$ 满足 $\frac{1}{2}\left( {\overrightarrow{a} - 3\overrightarrow{c}}\right)  + 2\left( {2\overrightarrow{a} - 3\overrightarrow{b}}\right) \; = \overrightarrow{0}$ ,试用 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 表示 $\overrightarrow{c}$ .
 
-![bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg](images/bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg)
+![bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg](attachments/bo_d4sllcbef24c73be0n80_8_1149_1852_301_214_0.jpg)
 
 图 8-1-13
 
@@ -348,7 +348,7 @@ $$
 
 (1) $2\overrightarrow{x} + 3\left( {\overrightarrow{b} + \overrightarrow{x}}\right)  = \overrightarrow{0}$ ； (2) $2\overrightarrow{a} + 5\left( {\overrightarrow{b} - \overrightarrow{x}}\right)  = \overrightarrow{0}$ ；
 
-![bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg](images/bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg)
+![bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg](attachments/bo_d4sllcbef24c73be0n80_9_1190_1082_312_270_0.jpg)
 
 (第 3 题)
 
@@ -388,11 +388,11 @@ $$
 
 (3)与向量 $\overrightarrow{EF}$ 平行的向量.
 
-![bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg](images/bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg)
+![bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg](attachments/bo_d4sllcbef24c73be0n80_10_275_588_372_246_0.jpg)
 
 (第 4 题)
 
-![bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg](images/bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg)
+![bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg](attachments/bo_d4sllcbef24c73be0n80_10_861_729_487_115_0.jpg)
 
 (第 5 题)
 
@@ -440,7 +440,7 @@ B 组
 
 (3)(2)中向量 $\overrightarrow{BF}$ 的负向量.
 
-![bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg](images/bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg)
+![bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg](attachments/bo_d4sllcbef24c73be0n80_11_642_444_396_293_0.jpg)
 
 (第 1 题)
 
@@ -456,7 +456,7 @@ B 组
 
 (1) $\overrightarrow{a} + \overrightarrow{c} - \overrightarrow{b}$ 和 $\overrightarrow{a} + \left( {\overrightarrow{c} - \overrightarrow{b}}\right)$ ； (2) $\overrightarrow{a} - \left( {\overrightarrow{b} + \overrightarrow{c}}\right)$ 和 $\overrightarrow{a} - \overrightarrow{c} - \overrightarrow{b}$ .
 
-![bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg](images/bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg)
+![bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg](attachments/bo_d4sllcbef24c73be0n80_11_604_1158_472_147_0.jpg)
 
 (第 3 题)
 
@@ -484,7 +484,7 @@ B 组
 
 在物理课中，我们学过“功”的概念. 一个物体在外力作用下产生位移, 外力所做的功是这个力在位移方向上的分力大小与位移量的乘积. 如果力 $\overrightarrow{f}$ 和位移 $\overrightarrow{s}$ 如图 8-2-1 所示，那么力 $\overrightarrow{f}$ 所做的功是 $W = \left| \overrightarrow{f}\right| \left| \overrightarrow{s}\right| \cos \theta$ ,其中 $\theta$ 表示力 $\overrightarrow{f}$ 的方向与物体位移 $\overrightarrow{s}$ 的方向之间的夹角, $\left| \overrightarrow{f}\right| \cos \theta$ 是 $\overrightarrow{f}$ 在位移方向上的分力的大小.
 
-![bo_d4sllcbef24c73be0n80_12_233_830_780_146_0.jpg](images/bo_d4sllcbef24c73be0n80_12_233_830_780_146_0.jpg)
+![bo_d4sllcbef24c73be0n80_12_233_830_780_146_0.jpg](attachments/bo_d4sllcbef24c73be0n80_12_233_830_780_146_0.jpg)
 
 图 8-2-1
 
@@ -496,7 +496,7 @@ B 组
 
 功并不是把力的大小和位移向量的大小直接相乘而得到, 而是把作用力在位移方向上的分力大小乘物体位移量. “在位移方向上的分力”是作用力 $\overrightarrow{f}$ 在位移向量 $\overrightarrow{s}$ 方向上的投影 ${\overrightarrow{f}}_{1}$ (图 8-2-2). 这就引出了向量在一条直线或另一个向量方向上的投影的概念.
 
-![bo_d4sllcbef24c73be0n80_12_233_1813_779_146_0.jpg](images/bo_d4sllcbef24c73be0n80_12_233_1813_779_146_0.jpg)
+![bo_d4sllcbef24c73be0n80_12_233_1813_779_146_0.jpg](attachments/bo_d4sllcbef24c73be0n80_12_233_1813_779_146_0.jpg)
 
 图 8-2-2
 
@@ -510,7 +510,7 @@ B 组
 
 如果向量 $\overrightarrow{AB}$ 的起点 $A$ 和终点 $B$ 在直线 $l$ 上的投影分别为点 ${A}^{\prime }$ 和 ${B}^{\prime }$ ,那么向量 $\overrightarrow{{A}^{\prime }{B}^{\prime }}$ 叫做向量 $\overrightarrow{AB}$ 在直线 $l$ 上的投影向量(图 8-2-3),简称为投影. 从而,一个向量 $\overrightarrow{b}$ 在一个非零向量 $\overrightarrow{a}$ 的方向上的投影，就是 $\overrightarrow{b}$ 在 $\overrightarrow{a}$ 的任意一条所在直线上的投影. 因为所有这些直线都互相平行,所以 $\overrightarrow{b}$ 在 $\overrightarrow{a}$ 的方向上的投影 (在相等意义下)是唯一确定的.
 
-![bo_d4sllcbef24c73be0n80_13_210_219_271_258_0.jpg](images/bo_d4sllcbef24c73be0n80_13_210_219_271_258_0.jpg)
+![bo_d4sllcbef24c73be0n80_13_210_219_271_258_0.jpg](attachments/bo_d4sllcbef24c73be0n80_13_210_219_271_258_0.jpg)
 
 图 8-2-3
 
@@ -524,7 +524,7 @@ B 组
 
 以一点 $O$ 为起点,作 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}$ (图 8-2-4),我们把射线 ${OA}\text{ 、 }{OB}$ 的夹角称为向量 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 的夹角,记作 $\langle \overrightarrow{a},\overrightarrow{b}\rangle$ ,它的取值范围为 $\left\lbrack  {0,\pi }\right\rbrack$ . 特别地,当 $\langle \overrightarrow{a},\overrightarrow{b}\rangle  = \frac{\pi }{2}$ 时,称 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 垂直,记作 $\overrightarrow{a} \bot  \overrightarrow{b}$ . 设向量 $\overrightarrow{OB}$ 的终点 $B$ 在 $\overrightarrow{OA}$ 所在直线上的投影为 ${B}^{\prime },\overrightarrow{O{B}^{\prime }}$ 即为向量 $\overrightarrow{b}$ 在 $\overrightarrow{a}$ 方向上的投影.
 
-![bo_d4sllcbef24c73be0n80_13_604_983_841_223_0.jpg](images/bo_d4sllcbef24c73be0n80_13_604_983_841_223_0.jpg)
+![bo_d4sllcbef24c73be0n80_13_604_983_841_223_0.jpg](attachments/bo_d4sllcbef24c73be0n80_13_604_983_841_223_0.jpg)
 
 图 8-2-4
 
@@ -554,7 +554,7 @@ $$
 
 ---
 
-![bo_d4sllcbef24c73be0n80_14_1120_866_365_329_0.jpg](images/bo_d4sllcbef24c73be0n80_14_1120_866_365_329_0.jpg)
+![bo_d4sllcbef24c73be0n80_14_1120_866_365_329_0.jpg](attachments/bo_d4sllcbef24c73be0n80_14_1120_866_365_329_0.jpg)
 
 图 8-2-5
 
@@ -596,7 +596,7 @@ $$
 
 有了这个定义,物理中的功 $W$ 就是力向量 $\overrightarrow{f}$ 与位移向量 $\overrightarrow{s}$ 的数量积 $\overrightarrow{f} \cdot  \overrightarrow{s}$ .
 
-![bo_d4sllcbef24c73be0n80_15_206_539_284_281_0.jpg](images/bo_d4sllcbef24c73be0n80_15_206_539_284_281_0.jpg)
+![bo_d4sllcbef24c73be0n80_15_206_539_284_281_0.jpg](attachments/bo_d4sllcbef24c73be0n80_15_206_539_284_281_0.jpg)
 
 图 8-2-6
 
@@ -816,7 +816,7 @@ B 组
 
 上面我们谈到了通过平面直角坐标系, 可以把平面上的向量和有序实数对一一对应起来. 下面我们要用向量的语言建立和表述这个一一对应.
 
-![bo_d4sllcbef24c73be0n80_19_200_1437_292_245_0.jpg](images/bo_d4sllcbef24c73be0n80_19_200_1437_292_245_0.jpg)
+![bo_d4sllcbef24c73be0n80_19_200_1437_292_245_0.jpg](attachments/bo_d4sllcbef24c73be0n80_19_200_1437_292_245_0.jpg)
 
 图 8-3-1
 
@@ -842,7 +842,7 @@ $$
 
 证明 本证明是前面关于把 $\overrightarrow{a}$ 写成 $\overrightarrow{a} = x\overrightarrow{i} + y\overrightarrow{j}$ 的证明的推广. 不过,由于所给的 $\overrightarrow{{e}_{1}}$ 与 $\overrightarrow{{e}_{2}}$ 不一定互相垂直,因此必须用构建平行四边形的方法来代替做投影.
 
-![bo_d4sllcbef24c73be0n80_20_179_1169_890_332_0.jpg](images/bo_d4sllcbef24c73be0n80_20_179_1169_890_332_0.jpg)
+![bo_d4sllcbef24c73be0n80_20_179_1169_890_332_0.jpg](attachments/bo_d4sllcbef24c73be0n80_20_179_1169_890_332_0.jpg)
 
 图 8-3-2
 
@@ -858,7 +858,7 @@ $$
 
 给定平面上的一组向量, 如果平面上的任意向量都可以唯一地表示成这组向量的线性组合, 那么就称这组向量是平面向量的一个基. 用这个术语, 向量基本定理可以表述成: 平面上任意两个不平行的向量都组成平面向量的一个基.
 
-![bo_d4sllcbef24c73be0n80_21_188_562_318_180_0.jpg](images/bo_d4sllcbef24c73be0n80_21_188_562_318_180_0.jpg)
+![bo_d4sllcbef24c73be0n80_21_188_562_318_180_0.jpg](attachments/bo_d4sllcbef24c73be0n80_21_188_562_318_180_0.jpg)
 
 图 8-3-3
 
@@ -892,7 +892,7 @@ $$
 
 按提示的步骤探索用向量形式表达三点共线的充要条件, 并导出直线的向量参数方程:
 
-![bo_d4sllcbef24c73be0n80_21_1208_1634_293_234_0.jpg](images/bo_d4sllcbef24c73be0n80_21_1208_1634_293_234_0.jpg)
+![bo_d4sllcbef24c73be0n80_21_1208_1634_293_234_0.jpg](attachments/bo_d4sllcbef24c73be0n80_21_1208_1634_293_234_0.jpg)
 
 图 8-3-4
 
@@ -910,7 +910,7 @@ $$
 
 ## 练习 8.3(1)
 
-![bo_d4sllcbef24c73be0n80_22_1179_335_292_298_0.jpg](images/bo_d4sllcbef24c73be0n80_22_1179_335_292_298_0.jpg)
+![bo_d4sllcbef24c73be0n80_22_1179_335_292_298_0.jpg](attachments/bo_d4sllcbef24c73be0n80_22_1179_335_292_298_0.jpg)
 
 (第 1 题)
 
@@ -926,7 +926,7 @@ $$
 
 物理中常常将力进行正交分解, 就是向量正交分解的一个常见的应用. 如图 8-3-5, 将斜面上物体的重力分解为沿斜面的下滑力和垂直于斜面的正压力.
 
-![bo_d4sllcbef24c73be0n80_22_1135_1213_335_160_0.jpg](images/bo_d4sllcbef24c73be0n80_22_1135_1213_335_160_0.jpg)
+![bo_d4sllcbef24c73be0n80_22_1135_1213_335_160_0.jpg](attachments/bo_d4sllcbef24c73be0n80_22_1135_1213_335_160_0.jpg)
 
 图 8-3-5
 
@@ -938,7 +938,7 @@ $$
 
 向量的这种表示法称为它的坐标表示 (coordinate representation), 并可以直接用向量的坐标 $\left( {x, y}\right)$ 代表一个向量.
 
-![bo_d4sllcbef24c73be0n80_22_1154_1799_295_301_0.jpg](images/bo_d4sllcbef24c73be0n80_22_1154_1799_295_301_0.jpg)
+![bo_d4sllcbef24c73be0n80_22_1154_1799_295_301_0.jpg](attachments/bo_d4sllcbef24c73be0n80_22_1154_1799_295_301_0.jpg)
 
 图 8-3-6
 
@@ -1196,7 +1196,7 @@ $$
 
 1. 如图, ${OADB}$ 是以向量 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}$ 为邻边的平行四边形, $C$ 是对角线的交点,且 ${BM} = \frac{1}{3}{BC},{CN} = \frac{1}{3}{CD}$ . 试用 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 表示 $\overrightarrow{OM}\text{ 、 }\overrightarrow{ON}\text{ 、 }\overrightarrow{MN}$ .
 
-![bo_d4sllcbef24c73be0n80_27_1176_525_323_158_0.jpg](images/bo_d4sllcbef24c73be0n80_27_1176_525_323_158_0.jpg)
+![bo_d4sllcbef24c73be0n80_27_1176_525_323_158_0.jpg](attachments/bo_d4sllcbef24c73be0n80_27_1176_525_323_158_0.jpg)
 
 (第 1 题)
 
@@ -1268,7 +1268,7 @@ $$
 
 解 如图 8-4-1,由于点 $G$ 是 $\bigtriangleup {ABC}$ 的重心,因此 ${CG}$ 与 ${AB}$ 的交点 $D$ 是 ${AB}$ 的中点,于是点 $D$ 的坐标为 $\left( \frac{{x}_{1} + {x}_{2}}{2}\right.$ , $\left. \frac{{y}_{1} + {y}_{2}}{2}\right)$
 
-![bo_d4sllcbef24c73be0n80_28_1124_1554_357_236_0.jpg](images/bo_d4sllcbef24c73be0n80_28_1124_1554_357_236_0.jpg)
+![bo_d4sllcbef24c73be0n80_28_1124_1554_357_236_0.jpg](attachments/bo_d4sllcbef24c73be0n80_28_1124_1554_357_236_0.jpg)
 
 图 8-4-1
 
@@ -1286,7 +1286,7 @@ $$
 
 这就是 $\bigtriangleup {ABC}$ 重心 $G$ 的坐标.
 
-![bo_d4sllcbef24c73be0n80_29_188_535_318_164_0.jpg](images/bo_d4sllcbef24c73be0n80_29_188_535_318_164_0.jpg)
+![bo_d4sllcbef24c73be0n80_29_188_535_318_164_0.jpg](attachments/bo_d4sllcbef24c73be0n80_29_188_535_318_164_0.jpg)
 
 图 8-4-2
 
@@ -1312,7 +1312,7 @@ $$
 
 (2)设 $\overrightarrow{a} = \left( {{x}_{1},{y}_{1}}\right) ,\overrightarrow{b} = \left( {{x}_{2},{y}_{2}}\right)$ . 求证: $S = \; \frac{1}{2}\left| {{x}_{1}{y}_{2} - {x}_{2}{y}_{1}}\right| .$
 
-![bo_d4sllcbef24c73be0n80_29_160_1461_376_214_0.jpg](images/bo_d4sllcbef24c73be0n80_29_160_1461_376_214_0.jpg)
+![bo_d4sllcbef24c73be0n80_29_160_1461_376_214_0.jpg](attachments/bo_d4sllcbef24c73be0n80_29_160_1461_376_214_0.jpg)
 
 图 8-4-3
 
@@ -1354,7 +1354,7 @@ $$
 
 ## 练习 8.4(1)
 
-![bo_d4sllcbef24c73be0n80_30_1194_586_279_271_0.jpg](images/bo_d4sllcbef24c73be0n80_30_1194_586_279_271_0.jpg)
+![bo_d4sllcbef24c73be0n80_30_1194_586_279_271_0.jpg](attachments/bo_d4sllcbef24c73be0n80_30_1194_586_279_271_0.jpg)
 
 (第 2 题)
 
@@ -1364,7 +1364,7 @@ $$
 
 3. 已知平面上 $A\text{ 、 }B$ 两点的坐标分别是 $\left( {2,5}\right) \text{ 、 }\left( {3,0}\right) , P$ 是直线 ${AB}$ 上的一点,且 $\overrightarrow{AP} =  - \frac{2}{3}\overrightarrow{PB}$ . 求点 $P$ 的坐标.
 
-![bo_d4sllcbef24c73be0n80_30_1161_1000_276_273_0.jpg](images/bo_d4sllcbef24c73be0n80_30_1161_1000_276_273_0.jpg)
+![bo_d4sllcbef24c73be0n80_30_1161_1000_276_273_0.jpg](attachments/bo_d4sllcbef24c73be0n80_30_1161_1000_276_273_0.jpg)
 
 图 8-4-4
 
@@ -1410,7 +1410,7 @@ $$
 
 我们要求出 $\langle \overrightarrow{a},\overrightarrow{b}\rangle$ 的余弦). 注意到交换 $\alpha$ 与 $\beta$ 不影响要证明的公式,可以假设从 $\overrightarrow{OB}$ 旋转到 $\overrightarrow{OA}$ 的最小正角就是 $\langle \overrightarrow{a},\overrightarrow{b}\rangle$ . 这个角与角 $\alpha  - \beta$ 有相同的始边与终边,于是
 
-![bo_d4sllcbef24c73be0n80_31_156_356_377_280_0.jpg](images/bo_d4sllcbef24c73be0n80_31_156_356_377_280_0.jpg)
+![bo_d4sllcbef24c73be0n80_31_156_356_377_280_0.jpg](attachments/bo_d4sllcbef24c73be0n80_31_156_356_377_280_0.jpg)
 
 图 8-4-5
 
@@ -1446,7 +1446,7 @@ $$
 
 解 设两根绳子的拉力分别是 ${\overrightarrow{f}}_{1}$ 与 ${\overrightarrow{f}}_{2}$ ,则它们的合力 ${\overrightarrow{f}}_{1} + {\overrightarrow{f}}_{2}$ 与物体的重力大小相等、方向相反,即 ${\overrightarrow{f}}_{1} + {\overrightarrow{f}}_{2}$ 是垂直向上、模为 ${20g}\left( \mathrm{\;N}\right)$ 的向量,这里 $g \approx  {9.8}\left( {\mathrm{\;m}/{\mathrm{s}}^{2}}\right)$ 是重力加速度.
 
-![bo_d4sllcbef24c73be0n80_31_667_1459_711_388_0.jpg](images/bo_d4sllcbef24c73be0n80_31_667_1459_711_388_0.jpg)
+![bo_d4sllcbef24c73be0n80_31_667_1459_711_388_0.jpg](attachments/bo_d4sllcbef24c73be0n80_31_667_1459_711_388_0.jpg)
 
 图 8-4-6
 
@@ -1492,7 +1492,7 @@ $$
 
 3. 用向量方法证明三角形的余弦定理.
 
-![bo_d4sllcbef24c73be0n80_32_1110_1897_360_177_0.jpg](images/bo_d4sllcbef24c73be0n80_32_1110_1897_360_177_0.jpg)
+![bo_d4sllcbef24c73be0n80_32_1110_1897_360_177_0.jpg](attachments/bo_d4sllcbef24c73be0n80_32_1110_1897_360_177_0.jpg)
 
 (第 5 题)
 
@@ -1516,7 +1516,7 @@ $$
 
 ## 宇航员的训练
 
-![bo_d4sllcbef24c73be0n80_33_1177_1168_312_508_0.jpg](images/bo_d4sllcbef24c73be0n80_33_1177_1168_312_508_0.jpg)
+![bo_d4sllcbef24c73be0n80_33_1177_1168_312_508_0.jpg](attachments/bo_d4sllcbef24c73be0n80_33_1177_1168_312_508_0.jpg)
 
 图 8-4-7
 
@@ -1622,7 +1622,7 @@ $$
 
 ## A 组
 
-![bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg](images/bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg)
+![bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg](attachments/bo_d4sllcbef24c73be0n80_36_1156_1390_315_236_0.jpg)
 
 (第 1 题)
 
@@ -1658,7 +1658,7 @@ $$
 
 10. 在等腰三角形 ${ABC}$ 中,已知 $D$ 为底边 ${BC}$ 的中点. 求证: ${AD} \bot  {BC}$ .
 
-![bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg](images/bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg)
+![bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg](attachments/bo_d4sllcbef24c73be0n80_37_1165_637_337_265_0.jpg)
 
 (第 11 题)
 
@@ -1672,11 +1672,11 @@ $$
 
 2. 如图,点 $A\text{ 、 }M\text{ 、 }B$ 在同一条直线上,点 $O$ 不在该直线上,且 $\overrightarrow{AM} = \frac{1}{3}\overrightarrow{AB}$ . 设 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b},\overrightarrow{OM} = \overrightarrow{c}$ ,试用向量 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 表示 $\overrightarrow{c}$ .
 
-![bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg](images/bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg)
+![bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg](attachments/bo_d4sllcbef24c73be0n80_37_435_1443_323_191_0.jpg)
 
 (第 2 题)
 
-![bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg](images/bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg)
+![bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg](attachments/bo_d4sllcbef24c73be0n80_37_971_1291_278_347_0.jpg)
 
 (第 4 题)
 
@@ -1696,11 +1696,11 @@ $$
 
 8. 如图,在正方形 ${ABCD}$ 中, $P$ 是对角线 ${AC}$ 上一点, ${PE}$ 垂直 ${AB}$ 于点 $E,{PF}$ 垂直 ${BC}$ 于点 $F$ . 求证: ${PD} \bot  {EF}$ .
 
-![bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg](images/bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg)
+![bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg](attachments/bo_d4sllcbef24c73be0n80_38_410_543_315_294_0.jpg)
 
 (第 8 题)
 
-![bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg](images/bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg)
+![bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg](attachments/bo_d4sllcbef24c73be0n80_38_872_571_335_266_0.jpg)
 
 (第 10 题)
 

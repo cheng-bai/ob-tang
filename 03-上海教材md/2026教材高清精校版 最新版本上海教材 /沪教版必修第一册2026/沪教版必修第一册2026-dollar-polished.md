@@ -78,7 +78,7 @@ title: 沪教版必修第一册2026-dollar-polished
 
 # 第 1 章 集合与逻辑
 
-![bo_d7fr3gc91nqc7381iccg_7_1_0_1653_1026_0.jpg](images/bo_d7fr3gc91nqc7381iccg_7_1_0_1653_1026_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_7_1_0_1653_1026_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_7_1_0_1653_1026_0.jpg)
 
 数学语言十分精确, 不容易产生歧义. 集合是现代数学语言的重要组成部分. 使用集合的语言, 可以准确、简洁地表示所要研究的对象, 更好地描述所研究的对象之间的关系.
 
@@ -90,7 +90,7 @@ title: 沪教版必修第一册2026-dollar-polished
 
 1 集合
 
-![bo_d7fr3gc91nqc7381iccg_8_263_738_174_269_0.jpg](images/bo_d7fr3gc91nqc7381iccg_8_263_738_174_269_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_8_263_738_174_269_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_8_263_738_174_269_0.jpg)
 
 康托 (G. Cantor, 1845- 1918), 德国数学家, 集合论创始人.
 
@@ -232,7 +232,7 @@ $$
 
 闭区间与开区间在数轴上的表示，如图 1-1-1 所示.
 
-![bo_d7fr3gc91nqc7381iccg_11_272_1832_703_152_0.jpg](images/bo_d7fr3gc91nqc7381iccg_11_272_1832_703_152_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_11_272_1832_703_152_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_11_272_1832_703_152_0.jpg)
 
 图 1-1-1
 
@@ -250,7 +250,7 @@ $$
 
 半开半闭区间在数轴上的表示, 如图 1-1-2 所示.
 
-![bo_d7fr3gc91nqc7381iccg_12_669_293_705_151_0.jpg](images/bo_d7fr3gc91nqc7381iccg_12_669_293_705_151_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_12_669_293_705_151_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_12_669_293_705_151_0.jpg)
 
 图 1-1-2
 
@@ -326,7 +326,7 @@ $$
 \varnothing  \subseteq  A\text{ . }
 $$
 
-![bo_d7fr3gc91nqc7381iccg_13_1174_960_253_259_0.jpg](images/bo_d7fr3gc91nqc7381iccg_13_1174_960_253_259_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_13_1174_960_253_259_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_13_1174_960_253_259_0.jpg)
 
 图 1-1-3
 
@@ -442,7 +442,7 @@ $$
 
 可以用维恩图直观地反映 $A \cap  B$ 的几种不同情况,如图 1-1-4 所示.
 
-![bo_d7fr3gc91nqc7381iccg_15_203_1592_847_281_0.jpg](images/bo_d7fr3gc91nqc7381iccg_15_203_1592_847_281_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_15_203_1592_847_281_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_15_203_1592_847_281_0.jpg)
 
 图 1-1-4
 
@@ -486,7 +486,7 @@ $$
 
 ?
 
-![bo_d7fr3gc91nqc7381iccg_16_603_1332_844_281_0.jpg](images/bo_d7fr3gc91nqc7381iccg_16_603_1332_844_281_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_16_603_1332_844_281_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_16_603_1332_844_281_0.jpg)
 
 图 1-1-5
 
@@ -510,7 +510,7 @@ $$
 
 ---
 
-![bo_d7fr3gc91nqc7381iccg_17_326_264_598_152_0.jpg](images/bo_d7fr3gc91nqc7381iccg_17_326_264_598_152_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_17_326_264_598_152_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_17_326_264_598_152_0.jpg)
 
 图 1-1-6
 
@@ -538,7 +538,7 @@ $$
 
 可以用维恩图直观地反映 $\bar{A}$ ,如图 1-1-7,其中阴影部分表示集合 $A$ 在全集 $U$ 中的补集 $\bar{A}$ .
 
-![bo_d7fr3gc91nqc7381iccg_17_1174_1818_252_169_0.jpg](images/bo_d7fr3gc91nqc7381iccg_17_1174_1818_252_169_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_17_1174_1818_252_169_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_17_1174_1818_252_169_0.jpg)
 
 图 1-1-7
 
@@ -1191,7 +1191,7 @@ $$
 
 ---
 
-![bo_d7fr3gc91nqc7381iccg_35_1183_1005_233_340_0.jpg](images/bo_d7fr3gc91nqc7381iccg_35_1183_1005_233_340_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_35_1183_1005_233_340_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_35_1183_1005_233_340_0.jpg)
 
 韦达 (F. Viete, 1540- 1603), 法国数学家.
 
@@ -1636,7 +1636,7 @@ $$
 
 我们可以在数轴上表示例 2 中的不等式组的解集, 如图 2-2-1 所示.
 
-![bo_d7fr3gc91nqc7381iccg_44_196_436_302_297_0.jpg](images/bo_d7fr3gc91nqc7381iccg_44_196_436_302_297_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_44_196_436_302_297_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_44_196_436_302_297_0.jpg)
 
 图 2-2-1
 
@@ -1896,7 +1896,7 @@ $$
 
 我们知道, $\left| x\right|$ 表示实数 $x$ 在数轴上所对应的点到坐标原点的距离. 根据绝对值的定义和几何意义, 可以求解一些基本的含绝对值的不等式.
 
-![bo_d7fr3gc91nqc7381iccg_52_195_826_305_273_0.jpg](images/bo_d7fr3gc91nqc7381iccg_52_195_826_305_273_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_52_195_826_305_273_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_52_195_826_305_273_0.jpg)
 
 图 2-2-2
 
@@ -2224,7 +2224,7 @@ $$
 
 例 6 某新建居民小区欲建一面积为 ${700}{\mathrm{\;m}}^{2}$ 的矩形绿地, 并在绿地四周铺设人行道. 设计要求绿地外南北两侧人行道宽 $3\mathrm{\;m}$ ,东西两侧人行道宽 $4\mathrm{\;m}$ ,如图 2-3-1 所示 (图中单位: $\mathrm{m}$ ). 问如何设计绿地的边长, 才能使人行道的占地面积最小. (结果精确到 ${0.1}\mathrm{\;m}$ )
 
-![bo_d7fr3gc91nqc7381iccg_59_1120_797_365_290_0.jpg](images/bo_d7fr3gc91nqc7381iccg_59_1120_797_365_290_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_59_1120_797_365_290_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_59_1120_797_365_290_0.jpg)
 
 图 2-3-1
 
@@ -2407,11 +2407,11 @@ $$
 
 下图(图 2-3-2)称为弦图，是我国古代三国时期的数学家赵爽为《周髀算经》作注时为证明勾股定理所绘制. 此图曾作为 2002 年在北京召开的第 24 届国际数学家大会的会标. (图 2-3-3)
 
-![bo_d7fr3gc91nqc7381iccg_62_444_1796_291_264_0.jpg](images/bo_d7fr3gc91nqc7381iccg_62_444_1796_291_264_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_62_444_1796_291_264_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_62_444_1796_291_264_0.jpg)
 
 图 2-3-2
 
-![bo_d7fr3gc91nqc7381iccg_62_948_1672_287_385_0.jpg](images/bo_d7fr3gc91nqc7381iccg_62_948_1672_287_385_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_62_948_1672_287_385_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_62_948_1672_287_385_0.jpg)
 
 图 2-3-3
 
@@ -2572,11 +2572,11 @@ $$
 
 (2)用不等式表示斜边上的高 ${AD}$ 与中线 ${AE}$ 长度的大小关系.
 
-![bo_d7fr3gc91nqc7381iccg_67_316_996_341_203_0.jpg](images/bo_d7fr3gc91nqc7381iccg_67_316_996_341_203_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_67_316_996_341_203_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_67_316_996_341_203_0.jpg)
 
 (第 12 题)
 
-![bo_d7fr3gc91nqc7381iccg_67_836_906_464_300_0.jpg](images/bo_d7fr3gc91nqc7381iccg_67_836_906_464_300_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_67_836_906_464_300_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_67_836_906_464_300_0.jpg)
 
 (第 13 题)
 
@@ -2632,7 +2632,7 @@ $$
 
 # 第 3 章 幂、指数与 对数
 
-![bo_d7fr3gc91nqc7381iccg_69_1_35_1653_1023_0.jpg](images/bo_d7fr3gc91nqc7381iccg_69_1_35_1653_1023_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_69_1_35_1653_1023_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_69_1_35_1653_1023_0.jpg)
 
 关于幂我们并不陌生, 在初中时已经学过正整数指数幂及其基本的运算性质, 并经历了将正整数指数幂推广到整数指数幂的过程. 本章通过定义分数指数幂, 将指数从整数拓展到有理数, 再引入无理数指数幂, 最终将指数从有理数拓展到实数. 这为下一章用幂函数描述变量之间的相应关系作好准备.
 
@@ -2968,7 +2968,7 @@ B 组
 
 ### 1 对数的定义
 
-![bo_d7fr3gc91nqc7381iccg_76_252_742_197_222_0.jpg](images/bo_d7fr3gc91nqc7381iccg_76_252_742_197_222_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_76_252_742_197_222_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_76_252_742_197_222_0.jpg)
 
 纳皮尔(J. Napier, 1550 - 1617)，苏格兰数学家，对数的发明者.
 
@@ -3212,7 +3212,7 @@ $$
 
 ---
 
-![bo_d7fr3gc91nqc7381iccg_80_208_1241_271_208_0.jpg](images/bo_d7fr3gc91nqc7381iccg_80_208_1241_271_208_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_80_208_1241_271_208_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_80_208_1241_271_208_0.jpg)
 
 一般地，正常交谈的声音是 ${60}\mathrm{{dB}}$ ，闹市区的声音是 ${80}\mathrm{\;{dB}}$ , 飞机起飞时的声音大约是 ${120}\mathrm{\;{dB}}$ .
 
@@ -3490,7 +3490,7 @@ $$
 
 在科学发展的历史中，极少有哪个抽象的数学概念，能像对数一样，一开始就很快受到了整个科学界的热烈欢迎. 对数的发明, 无疑是人类认识史上一个极大的飞跃与革命, 在人类文明的进程中起了划时代的作用. 自纳皮尔 1614 年发明对数以来, 一直到袖珍计算器的出现, 对数以及根据对数的原理所设计的一些计算仪器, 一直是进行复杂计算的有效方法和工具. 根据对数原理设计的计算仪器, 最著名的就是后来为科学家和工程师广泛使用的计算尺, 它在长达 350 年的时间中, 一直是科学家与工程师的忠实伴侣和有力工具. 自 20 世纪 70 年代初期袖珍计算器上市以后, 计算尺才失去市场, 并随着计算机的飞速发展而彻底退出了历史舞台，对数在计算中无可替代的地位也一去而不复返了. 但是, 对数的概念及对数函数的种种性质在众多数学分支及科学领域中至今一直发挥着重要的作用, 并且有增无减. 对数从计算的有力工具向科学的重要方法的转化, 在数学的发展史上留下了浓墨重彩的篇章, 记录着人类不断走向文明进步的光辉历程.
 
-![bo_d7fr3gc91nqc7381iccg_86_1072_739_426_291_0.jpg](images/bo_d7fr3gc91nqc7381iccg_86_1072_739_426_291_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_86_1072_739_426_291_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_86_1072_739_426_291_0.jpg)
 
 ## 内容提要
 
@@ -3690,11 +3690,11 @@ $$
 
 再使用计算器多采集一些点, 可以粗略地作出其图像, 如图 4-1-1(2)所示.
 
-![bo_d7fr3gc91nqc7381iccg_91_227_1706_794_349_0.jpg](images/bo_d7fr3gc91nqc7381iccg_91_227_1706_794_349_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_91_227_1706_794_349_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_91_227_1706_794_349_0.jpg)
 
 图 4-1-1
 
-![bo_d7fr3gc91nqc7381iccg_92_186_228_326_303_0.jpg](images/bo_d7fr3gc91nqc7381iccg_92_186_228_326_303_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_92_186_228_326_303_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_92_186_228_326_303_0.jpg)
 
 图 4-1-2
 
@@ -3710,13 +3710,13 @@ $$
 
 再使用计算器多采集一些点, 可以粗略作出此幂函数的图像, 如图 4-1-3 所示.
 
-![bo_d7fr3gc91nqc7381iccg_92_801_1120_441_264_0.jpg](images/bo_d7fr3gc91nqc7381iccg_92_801_1120_441_264_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_92_801_1120_441_264_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_92_801_1120_441_264_0.jpg)
 
 图 4-1-3
 
 由例 1,可知幂函数 $y = {x}^{-\frac{2}{3}}$ 的定义域为不等于 0 的一切实数. 若点 $\left( {{x}_{0},{y}_{0}}\right)$ 在幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像上,则有 ${y}_{0} = {x}_{0}^{-\frac{2}{3}}$ . 而点 $\left( {{x}_{0},{y}_{0}}\right)$ 关于 $y$ 轴的对称点易知是 $\left( {-{x}_{0},{y}_{0}}\right)$ ,如图 4-1-4 所示. 由 ${y}_{0} = {x}_{0}^{-\frac{2}{3}}$ ,且 ${\left( -{x}_{0}\right) }^{-\frac{2}{3}} = \frac{1}{\sqrt[3]{{\left( -{x}_{0}\right) }^{2}}} = \frac{1}{\sqrt[3]{{x}_{0}^{2}}} = {x}_{0}^{-\frac{2}{3}}$ ,易知同时有 ${y}_{0} = {\left( -{x}_{0}\right) }^{-\frac{2}{3}}$ ,从而点 $\left( {-{x}_{0},{y}_{0}}\right)$ 也落在幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像上. 这说明幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像关于 $y$ 轴成轴对称.
 
-![bo_d7fr3gc91nqc7381iccg_92_191_1594_321_171_0.jpg](images/bo_d7fr3gc91nqc7381iccg_92_191_1594_321_171_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_92_191_1594_321_171_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_92_191_1594_321_171_0.jpg)
 
 图 4-1-4
 
@@ -3747,7 +3747,7 @@ $$
 
 ---
 
-![bo_d7fr3gc91nqc7381iccg_93_1131_1260_339_329_0.jpg](images/bo_d7fr3gc91nqc7381iccg_93_1131_1260_339_329_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_93_1131_1260_339_329_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_93_1131_1260_339_329_0.jpg)
 
 图 4-1-5
 
@@ -3795,7 +3795,7 @@ $$
 
 解 在幂函数 $y = \frac{1}{x}$ 的图像上任取一点 $P\left( {a,\frac{1}{a}}\right)$ ,易得点 ${P}^{\prime }\left( {a + 2,\frac{1}{a}}\right)$ 一定在函数 $y = \frac{1}{x - 2}$ 的图像上,而将点 $P$ 向右平移 2 个单位就与点 ${P}^{\prime }$ 重合. 反之亦然. 因此,将函数 $y = \frac{1}{x}$ 的图像向右平移 2 个单位就得到函数 $y = \frac{1}{x - 2}$ 的图像. 反之,将函数 $y = \frac{1}{x - 2}$ 的图像向左平移 2 个单位就得到函数 $y = \frac{1}{x}$ 的图像,如图 4-1-6 所示.
 
-![bo_d7fr3gc91nqc7381iccg_94_169_1303_352_348_0.jpg](images/bo_d7fr3gc91nqc7381iccg_94_169_1303_352_348_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_94_169_1303_352_348_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_94_169_1303_352_348_0.jpg)
 
 图 4-1-6
 
@@ -3805,7 +3805,7 @@ $$
 
 4.1 $y = 1 + \frac{1}{x - 2}$ 的图像上,即将点 $Q$ 向上平移 1 个单位就与点 ${Q}^{\prime }$ 重合. 反之亦然. 因此,将函数 $y = \frac{1}{x - 2}$ 的图像向上平移 1 个单位就得到函数 $y = \frac{x - 1}{x - 2}$ 的图像. 反之,将函数 $y = \frac{x - 1}{x - 2}$ 的图像向下平移 1 个单位就得到函数 $y = \frac{1}{x - 2}$ 的图像,如图 4-1-7 所示.
 
-![bo_d7fr3gc91nqc7381iccg_95_1120_232_371_323_0.jpg](images/bo_d7fr3gc91nqc7381iccg_95_1120_232_371_323_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_95_1120_232_371_323_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_95_1120_232_371_323_0.jpg)
 
 图 4-1-7
 
@@ -3914,7 +3914,7 @@ $$
 
 再使用计算器多采集一些点, 可以粗略地作出其图像.
 
-![bo_d7fr3gc91nqc7381iccg_98_200_696_297_304_0.jpg](images/bo_d7fr3gc91nqc7381iccg_98_200_696_297_304_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_98_200_696_297_304_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_98_200_696_297_304_0.jpg)
 
 图 4-2-1
 
@@ -3930,7 +3930,7 @@ $$
 
 例 3 作出指数函数 $y = {\left( \frac{1}{2}\right) }^{x}$ 的大致图像.
 
-![bo_d7fr3gc91nqc7381iccg_98_164_1201_363_307_0.jpg](images/bo_d7fr3gc91nqc7381iccg_98_164_1201_363_307_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_98_164_1201_363_307_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_98_164_1201_363_307_0.jpg)
 
 图 4-2-2
 
@@ -3974,7 +3974,7 @@ $$
 
 (2) $0 < a < 1$ 的情况. 此时指数函数 $y = {a}^{x}$ 的图像类似图 4-2-2中 $y = {\left( \frac{1}{2}\right) }^{x}$ 的图像,当 $x > 0$ 时,函数值小于 1 且大于 0, 其图像在直线 $y = 1$ 的下方,且位于 $x$ 轴的上方; 而当 $x < 0$ 时, 函数值大于 1,其图像在直线 $y = 1$ 的上方.
 
-![bo_d7fr3gc91nqc7381iccg_99_1125_1403_360_297_0.jpg](images/bo_d7fr3gc91nqc7381iccg_99_1125_1403_360_297_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_99_1125_1403_360_297_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_99_1125_1403_360_297_0.jpg)
 
 图 4-2-3
 
@@ -4145,11 +4145,11 @@ $$
 
 1. 在同一平面直角坐标系中,指数函数 $y = {a}^{x}\left( {a > 0\text{ 且 }a \neq  1}\right)$ 和一次函数 $y = a\left( {x + 1}\right)$ 的图像关系可能是 ( )
 
-![bo_d7fr3gc91nqc7381iccg_104_311_245_1057_274_0.jpg](images/bo_d7fr3gc91nqc7381iccg_104_311_245_1057_274_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_104_311_245_1057_274_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_104_311_245_1057_274_0.jpg)
 
 (第 1 题)
 
-![bo_d7fr3gc91nqc7381iccg_104_1232_595_267_386_0.jpg](images/bo_d7fr3gc91nqc7381iccg_104_1232_595_267_386_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_104_1232_595_267_386_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_104_1232_595_267_386_0.jpg)
 
 (第 2 题)
 
@@ -4236,7 +4236,7 @@ $$
 
 再使用计算器多采集一些点, 就可以粗略地作出其图像.
 
-![bo_d7fr3gc91nqc7381iccg_106_172_1138_350_267_0.jpg](images/bo_d7fr3gc91nqc7381iccg_106_172_1138_350_267_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_106_172_1138_350_267_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_106_172_1138_350_267_0.jpg)
 
 图 4-3-1
 
@@ -4250,7 +4250,7 @@ $$
 
 我们把这两个图像放在同一个图上以便观察比较, 如图 4-3-1 所示.
 
-![bo_d7fr3gc91nqc7381iccg_106_177_1595_340_275_0.jpg](images/bo_d7fr3gc91nqc7381iccg_106_177_1595_340_275_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_106_177_1595_340_275_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_106_177_1595_340_275_0.jpg)
 
 图 4-3-2
 
@@ -4297,7 +4297,7 @@ $$
 
 ---
 
-![bo_d7fr3gc91nqc7381iccg_107_438_1599_373_270_0.jpg](images/bo_d7fr3gc91nqc7381iccg_107_438_1599_373_270_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_107_438_1599_373_270_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_107_438_1599_373_270_0.jpg)
 
 图 4-3-3
 
@@ -4313,7 +4313,7 @@ Q
 
 Q
 
-![bo_d7fr3gc91nqc7381iccg_108_632_956_779_343_0.jpg](images/bo_d7fr3gc91nqc7381iccg_108_632_956_779_343_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_108_632_956_779_343_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_108_632_956_779_343_0.jpg)
 
 图 4-3-4
 
@@ -4436,7 +4436,7 @@ $$
 v = 2\ln \left( {1 + \frac{M}{{m}_{0}}}\right) ,
 $$
 
-![bo_d7fr3gc91nqc7381iccg_111_1144_418_317_475_0.jpg](images/bo_d7fr3gc91nqc7381iccg_111_1144_418_317_475_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_111_1144_418_317_475_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_111_1144_418_317_475_0.jpg)
 
 这里 $\ln$ 表示以 $\mathrm{e}$ 为底的自然对数. 问当燃料质量至少是火箭质量的多少倍时,火箭的最大速度才能超过 $8\mathrm{\;{km}}/\mathrm{s}$ . (结果精确到 0.1 倍)
 
@@ -4482,7 +4482,7 @@ $$
 {\log }_{b}x = \frac{1}{{\log }_{a}b}{\log }_{a}x, x > 0,
 $$
 
-![bo_d7fr3gc91nqc7381iccg_112_175_233_342_246_0.jpg](images/bo_d7fr3gc91nqc7381iccg_112_175_233_342_246_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_112_175_233_342_246_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_112_175_233_342_246_0.jpg)
 
 图 4-3-5
 
@@ -4607,13 +4607,13 @@ C. $a\left( {a - 1}\right)  < 0$ ; D. $a\left( {a - 1}\right)  > 0$ .
 
 (2)在同一平面直角坐标系中，一次函数 $y = x + a$ 与对数函数 $y = {\log }_{a}x$ ( $a > 0$ 且 $a \neq  1$ )的图像关系可能是 ( )
 
-![bo_d7fr3gc91nqc7381iccg_116_399_360_245_229_0.jpg](images/bo_d7fr3gc91nqc7381iccg_116_399_360_245_229_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_116_399_360_245_229_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_116_399_360_245_229_0.jpg)
 
-![bo_d7fr3gc91nqc7381iccg_116_1026_361_247_228_0.jpg](images/bo_d7fr3gc91nqc7381iccg_116_1026_361_247_228_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_116_1026_361_247_228_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_116_1026_361_247_228_0.jpg)
 
 A. B.
 
-![bo_d7fr3gc91nqc7381iccg_116_398_694_875_299_0.jpg](images/bo_d7fr3gc91nqc7381iccg_116_398_694_875_299_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_116_398_694_875_299_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_116_398_694_875_299_0.jpg)
 
 (第 2(2)题)
 
@@ -4656,13 +4656,13 @@ C. ${\log }_{x}m > {\log }_{x}n$ ; D. ${\log }_{m}x < {\log }_{n}x$ .
 
 ( 2 )在同一平面直角坐标系中，二次函数 $y = a{x}^{2} + {bx}$ 与指数函数 $y = {\left( \frac{b}{a}\right) }^{x}$ 的图像关系可能为 ( )
 
-![bo_d7fr3gc91nqc7381iccg_117_364_1020_257_261_0.jpg](images/bo_d7fr3gc91nqc7381iccg_117_364_1020_257_261_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_117_364_1020_257_261_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_117_364_1020_257_261_0.jpg)
 
-![bo_d7fr3gc91nqc7381iccg_117_992_1020_259_261_0.jpg](images/bo_d7fr3gc91nqc7381iccg_117_992_1020_259_261_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_117_992_1020_259_261_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_117_992_1020_259_261_0.jpg)
 
 A. B.
 
-![bo_d7fr3gc91nqc7381iccg_117_369_1384_869_321_0.jpg](images/bo_d7fr3gc91nqc7381iccg_117_369_1384_869_321_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_117_369_1384_869_321_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_117_369_1384_869_321_0.jpg)
 
 (第 2(2)题)
 
@@ -4837,7 +4837,7 @@ $$
 
 解 取自变量 $x$ 的值分别为 $- 3\text{ 、 } - \frac{5}{2}\text{ 、 } - 2\text{ 、 } - \frac{3}{2}\text{ 、 } - 1$ 、 $- \frac{1}{2}\text{ 、 }0\text{ 、 }\frac{1}{2}\text{ 、 }1\text{ 、 }\frac{3}{2}\text{ 、 }2\text{ 、 }\frac{5}{2}\text{ 、 }3$ ,计算出相应的函数值. 在平面直角坐标系中标出相应的点, 并用光滑的曲线连接这些点, 得大致图像如图 5-1-1 所示.
 
-![bo_d7fr3gc91nqc7381iccg_124_744_1653_556_303_0.jpg](images/bo_d7fr3gc91nqc7381iccg_124_744_1653_556_303_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_124_744_1653_556_303_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_124_744_1653_556_303_0.jpg)
 
 图 5-1-1
 
@@ -4853,7 +4853,7 @@ $$
 
 例 5 以下图形中, 哪些是函数的图像, 哪些不是?
 
-![bo_d7fr3gc91nqc7381iccg_125_290_314_671_693_0.jpg](images/bo_d7fr3gc91nqc7381iccg_125_290_314_671_693_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_125_290_314_671_693_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_125_290_314_671_693_0.jpg)
 
 图 5-1-2
 
@@ -4863,7 +4863,7 @@ $$
 
 (3)这不是函数的图像. 如图 5-1-3， ${x}_{0}$ 对应了 ${y}_{1}$ 和 ${y}_{2}$ .
 
-![bo_d7fr3gc91nqc7381iccg_125_485_1495_276_253_0.jpg](images/bo_d7fr3gc91nqc7381iccg_125_485_1495_276_253_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_125_485_1495_276_253_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_125_485_1495_276_253_0.jpg)
 
 图 5-1-3
 
@@ -4877,7 +4877,7 @@ $$
 
 ---
 
-![bo_d7fr3gc91nqc7381iccg_126_706_257_628_407_0.jpg](images/bo_d7fr3gc91nqc7381iccg_126_706_257_628_407_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_126_706_257_628_407_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_126_706_257_628_407_0.jpg)
 
 图 5-1-4
 
@@ -4905,7 +4905,7 @@ $$
 y = \left\{  \begin{array}{ll} 0, & 0 \leq  x < 2, \\  1, & 2 \leq  x < 4, \\  2, & 4 \leq  x < 6, \\  3, & 6 \leq  x < 8, \\  4, & x = 8. \end{array}\right.
 $$
 
-![bo_d7fr3gc91nqc7381iccg_126_176_1543_351_349_0.jpg](images/bo_d7fr3gc91nqc7381iccg_126_176_1543_351_349_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_126_176_1543_351_349_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_126_176_1543_351_349_0.jpg)
 
 图 5-1-5
 
@@ -4935,7 +4935,7 @@ Q
 
 2. 根据下图的函数图像,用解析法表示 $y$ 关于 $x$ 的函数.
 
-![bo_d7fr3gc91nqc7381iccg_127_617_742_382_345_0.jpg](images/bo_d7fr3gc91nqc7381iccg_127_617_742_382_345_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_127_617_742_382_345_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_127_617_742_382_345_0.jpg)
 
 (第 2 题)
 
@@ -4956,7 +4956,7 @@ Q
 2. 设 $p\text{ 、 }q$ 是常数,函数 $y = f\left( x\right)$ 的表达式为 $f\left( x\right)  = {x}^{2} + {px} + q$ . 若 $f\left( 1\right)  = f\left( 2\right)  = 0$ , 求 $f\left( {-1}\right)$ .
 3. 观察下列函数的图像, 并写出它们的值域:
 
-![bo_d7fr3gc91nqc7381iccg_128_299_231_1079_338_0.jpg](images/bo_d7fr3gc91nqc7381iccg_128_299_231_1079_338_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_128_299_231_1079_338_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_128_299_231_1079_338_0.jpg)
 
 (第 3 题)
 
@@ -4998,13 +4998,13 @@ Q
 
 在生活中，我们经常遇到对称的图形. 拱桥的桥面形成的弧, 就可以视为是轴对称的. 如果把桥面抽象成一条曲线, 以曲线的最高点为原点,过原点作一水平直线为 $x$ 轴,再过原点作一竖直直线为 $y$ 轴,那么这条由拱桥桥面抽象出的曲线就成为一个函数的图像, 并且该图像的一个特点是关于 $y$ 轴成轴对称,如图 5-2-1 所示.
 
-![bo_d7fr3gc91nqc7381iccg_130_176_1208_344_152_0.jpg](images/bo_d7fr3gc91nqc7381iccg_130_176_1208_344_152_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_130_176_1208_344_152_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_130_176_1208_344_152_0.jpg)
 
 图 5-2-1
 
 在学习二次函数和幂函数时,我们知道,形如 $y = a{x}^{2} + c \; \left( {a \neq  0}\right)$ 的二次函数和幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像都是关于 $y$ 轴成轴对称的, 如图 5-2-2 所示.
 
-![bo_d7fr3gc91nqc7381iccg_130_615_1675_813_360_0.jpg](images/bo_d7fr3gc91nqc7381iccg_130_615_1675_813_360_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_130_615_1675_813_360_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_130_615_1675_813_360_0.jpg)
 
 图 5-2-2
 
@@ -5028,7 +5028,7 @@ $$
 {x}_{1} \in  D\text{ ,并且 }{y}_{1} = f\left( {x}_{1}\right) \text{ . }
 $$
 
-![bo_d7fr3gc91nqc7381iccg_131_1138_530_321_306_0.jpg](images/bo_d7fr3gc91nqc7381iccg_131_1138_530_321_306_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_131_1138_530_321_306_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_131_1138_530_321_306_0.jpg)
 
 图 5-2-3
 
@@ -5117,7 +5117,7 @@ $$
 1. 奇函数的图像是不是一定通过原点? 偶函数的图像是不是一定与 $y$ 轴相交? 请说明理由.
 2. 如图,已知偶函数 $y = f\left( x\right)$ 在 $y$ 轴及 $y$ 轴一侧的部分图像,作出 $y = f\left( x\right)$ 的大致图像.
 
-![bo_d7fr3gc91nqc7381iccg_133_417_510_779_278_0.jpg](images/bo_d7fr3gc91nqc7381iccg_133_417_510_779_278_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_133_417_510_779_278_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_133_417_510_779_278_0.jpg)
 
 (第 2 题)
 
@@ -5247,7 +5247,7 @@ $$
 
 在现实生活中, 有不少在一定范围内随着时间的增加而增加 (或减少) 的量,如自由落体运动的位移 $s = \frac{1}{2}g{t}^{2}, t \in  \left\lbrack  {0, T}\right\rbrack$ 就是如此. 作出位移 $s$ 关于时间 $t$ 的函数图像,如图 5-2-4 所示. 从图像上看, 随着时间的增大, 位移的确随之增大. 这就是一种单调现象. 此外, 通过一个电阻的电流随其两端电压的增大而增大；许多物质在水中的溶解度随温度的升高而增加；山区的气温随海拔高度的升高而降低等, 都是单调现象.
 
-![bo_d7fr3gc91nqc7381iccg_135_1159_693_278_264_0.jpg](images/bo_d7fr3gc91nqc7381iccg_135_1159_693_278_264_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_135_1159_693_278_264_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_135_1159_693_278_264_0.jpg)
 
 图 5-2-4
 
@@ -5417,7 +5417,7 @@ $$
 
 1. 根据下列函数 $y = f\left( x\right)$ 的图像 (包括端点),分别指出这两个函数的单调区间,以及在每一个单调区间上函数的单调性.
 
-![bo_d7fr3gc91nqc7381iccg_139_414_492_787_335_0.jpg](images/bo_d7fr3gc91nqc7381iccg_139_414_492_787_335_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_139_414_492_787_335_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_139_414_492_787_335_0.jpg)
 
 (第 1 题)
 
@@ -5474,7 +5474,7 @@ $$
 
 情形二: 当 $a < 1$ 时, $y = \left| {x - 1}\right|$ 在区间 $\left\lbrack  {a,1}\right\rbrack$ 上是严格减函数,而在区间 $\left\lbrack  {1,2}\right\rbrack$ 上是严格增函数,如图 5-2-5(2)所示. 从而此时函数的最大值为 $\left| {2 - 1}\right|$ 与 $\left| {a - 1}\right|$ 中的较大者. 因此,当 $a < 0$ 时,该函数的最大值为 $\left| {a - 1}\right|  = 1 - a$ ; 而当 $0 \leq  a < 1$ 时,该函数的最大值为 1 .
 
-![bo_d7fr3gc91nqc7381iccg_141_300_230_648_282_0.jpg](images/bo_d7fr3gc91nqc7381iccg_141_300_230_648_282_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_141_300_230_648_282_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_141_300_230_648_282_0.jpg)
 
 图 5-2-5
 
@@ -5564,7 +5564,7 @@ D. 对任意给定的 $x \in  \mathbf{R}, f\left( x\right)  + f\left( {-x}\right
 
 ### 1 函数关系的建立
 
-![bo_d7fr3gc91nqc7381iccg_143_1134_732_341_287_0.jpg](images/bo_d7fr3gc91nqc7381iccg_143_1134_732_341_287_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_143_1134_732_341_287_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_143_1134_732_341_287_0.jpg)
 
 图 5-3-1
 
@@ -5578,7 +5578,7 @@ $$
 S = {S}_{1} + {S}_{2} = {x}^{2} + \left( {a - x}\right) \left( {b - x}\right) .
 $$
 
-![bo_d7fr3gc91nqc7381iccg_143_1154_1142_292_281_0.jpg](images/bo_d7fr3gc91nqc7381iccg_143_1154_1142_292_281_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_143_1154_1142_292_281_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_143_1154_1142_292_281_0.jpg)
 
 图 5-3-2
 
@@ -5586,7 +5586,7 @@ $$
 
 例 2 如图 5-3-2,四边形 ${OABC}$ 是平面直角坐标系中边长为 1 的正方形. 一直线 $y =  - x + t\left( {t \in  \left( {0,2}\right) }\right)$ 与正方形 ${OABC}$ 相交,将正方形分为两个部分,其中包含原点 $O$ 的部分的面积记为 $S$ . 试将 $S$ 表示为 $t$ 的函数.
 
-![bo_d7fr3gc91nqc7381iccg_143_1155_1478_291_281_0.jpg](images/bo_d7fr3gc91nqc7381iccg_143_1155_1478_291_281_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_143_1155_1478_291_281_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_143_1155_1478_291_281_0.jpg)
 
 图 5-3-3
 
@@ -5600,7 +5600,7 @@ $$
 S = \frac{1}{2}{OD} \cdot  {OE} = \frac{1}{2}{t}^{2}.
 $$
 
-![bo_d7fr3gc91nqc7381iccg_143_1154_1813_292_281_0.jpg](images/bo_d7fr3gc91nqc7381iccg_143_1154_1813_292_281_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_143_1154_1813_292_281_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_143_1154_1813_292_281_0.jpg)
 
 图 5-3-4
 
@@ -5622,7 +5622,7 @@ $$
 
 例 3 要建造一面靠墙、且面积相同的两间相邻的长方形居室，如图 5-3-5 所示. 如果已有材料可建成的围墙总长度为 ${30}\mathrm{\;m}$ ,那么当宽 $x$ (单位: $\mathrm{m}$ ) 为多少时,才能使所建造的居室总面积最大？居室的最大总面积是多少？
 
-![bo_d7fr3gc91nqc7381iccg_144_195_652_305_118_0.jpg](images/bo_d7fr3gc91nqc7381iccg_144_195_652_305_118_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_144_195_652_305_118_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_144_195_652_305_118_0.jpg)
 
 图 5-3-5
 
@@ -5638,13 +5638,13 @@ $$
 
 所以,当居室的宽为 $5\mathrm{\;m}$ 时,其总面积最大,且最大总面积为 ${75}{\mathrm{\;m}}^{2}$ .
 
-![bo_d7fr3gc91nqc7381iccg_144_179_1259_334_252_0.jpg](images/bo_d7fr3gc91nqc7381iccg_144_179_1259_334_252_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_144_179_1259_334_252_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_144_179_1259_334_252_0.jpg)
 
 例 4 某小区要建造一个直径为 ${16}\mathrm{\;m}$ 的圆形喷水池,并在池的周边靠近水面的位置安装一圈喷水头，使喷出的水柱在离池中心 $3\mathrm{\;m}$ 的地方达到最高高度 $4\mathrm{\;m}$ . 各方向喷来的水柱在池中心上方某一点汇合, 求该点离水面的高度.
 
 解 过水池的中心任取一个竖直截面，如图 5-3-6 所示. 根据力学的原理, 喷出的水珠轨迹应为一条抛物线, 此抛物线上任何一个点距池中心的水平距离与其所处的高度之间是对应的. 为了建立水平距离 $x$ (单位: $\mathrm{m}$ ) 与离水面的高度 $y$ (单位: $\mathrm{m}$ ) 之间的函数关系 $y = f\left( x\right)$ ,建立如图 5-3-6 所示的直角坐标系.
 
-![bo_d7fr3gc91nqc7381iccg_144_736_1779_572_270_0.jpg](images/bo_d7fr3gc91nqc7381iccg_144_736_1779_572_270_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_144_736_1779_572_270_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_144_736_1779_572_270_0.jpg)
 
 图 5-3-6
 
@@ -5669,7 +5669,7 @@ $$
 1. 已知一等腰三角形的周长为 ${12}\mathrm{\;{cm}}$ ，试将该三角形的腰长 $y$ (单位: $\mathrm{{cm}}$ )表示为底边长 $x$ (单位: $\mathrm{{cm}}$ ) 的函数.
 2. 如图，在平面直角坐标系的第一象限内， $\bigtriangleup  {OAB}$ 是边长为 2 的等边三角形. 用直线 $l : x = t\left( {0 < t < 2}\right)$ 截这个三角形,记截得的靠近 $y$ 轴的部分的面积为 $S$ . 试将 $S$ 表示为 $t$ 的函数.
 
-![bo_d7fr3gc91nqc7381iccg_145_652_934_312_267_0.jpg](images/bo_d7fr3gc91nqc7381iccg_145_652_934_312_267_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_145_652_934_312_267_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_145_652_934_312_267_0.jpg)
 
 (第 2 题)
 
@@ -5721,7 +5721,7 @@ $$
 
 这个图像可以帮助我们回忆二次函数的单调性. 根据本章 5.2 节中关于二次函数单调性的结论,函数 $y = a{x}^{2} + {bx} + c$ 在区间 $( - \infty , - \frac{b}{2a}\rbrack$ 上是严格减函数,而在区间 $\left\lbrack  {-\frac{b}{2a}, + \infty }\right)$ 上
 
-![bo_d7fr3gc91nqc7381iccg_146_191_1790_311_270_0.jpg](images/bo_d7fr3gc91nqc7381iccg_146_191_1790_311_270_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_146_191_1790_311_270_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_146_191_1790_311_270_0.jpg)
 
 图 5-3-7
 
@@ -5766,7 +5766,7 @@ $$
 
 我们来看一个例子:在一块边长为 ${13}\mathrm{\;{cm}}$ 的正方形金属薄片的四个角上都剪去一个边长为 $x\mathrm{\;{cm}}$ 的小正方形,做成一个容积是 ${140}{\mathrm{\;{cm}}}^{3}$ 的无盖长方体盒子,如图 5-3-8 所示 (图中单位: $\mathrm{{cm}})$ . 问: $x$ 是多少? (结果精确到 ${0.1}\mathrm{\;{cm}}$ )
 
-![bo_d7fr3gc91nqc7381iccg_148_629_1437_786_387_0.jpg](images/bo_d7fr3gc91nqc7381iccg_148_629_1437_786_387_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_148_629_1437_786_387_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_148_629_1437_786_387_0.jpg)
 
 图 5-3-8
 
@@ -5776,7 +5776,7 @@ $$
 
 是函数 $y = f\left( x\right)$ 的零点,先用描点法作出该函数的大致图像如下:
 
-![bo_d7fr3gc91nqc7381iccg_149_404_306_441_248_0.jpg](images/bo_d7fr3gc91nqc7381iccg_149_404_306_441_248_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_149_404_306_441_248_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_149_404_306_441_248_0.jpg)
 
 图 5-3-9
 
@@ -5876,7 +5876,7 @@ Q
 
 从函数表达式来看,在函数 $y = {1.8x} + {32}$ 中, $x$ 是自变量, $y$ 是 $x$ 的函数. 但从 $y = {1.8x} + {32}$ 这个关系式中解出 $x$ ,就得到了 $x = \frac{y - {32}}{1.8}$ . 这样,根据这一转换关系,对于在某一个范围内的每一个 $y$ 值,同样有唯一的 $x$ 与之对应. 也就是说,也可以把 $y$ 看成自变量, $x$ 作为 $y$ 的函数. 这时,我们就说函数 $x = \frac{y - {32}}{1.8}$ 是函数 $y = {1.8x} + {32}$ 的反函数.
 
-![bo_d7fr3gc91nqc7381iccg_152_183_833_319_762_0.jpg](images/bo_d7fr3gc91nqc7381iccg_152_183_833_319_762_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_152_183_833_319_762_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_152_183_833_319_762_0.jpg)
 
 图 5-4-1
 
@@ -5989,7 +5989,7 @@ $$
 
 在求一个函数 $y = f\left( x\right)$ 的反函数时,一般要经历下述三个步骤:求出反函数的定义域(即原来函数的值域)；解方程 $y = f\left( x\right)$ ,求出 $x$ 关于 $y$ 的函数表达式; 再交换 $x$ 与 $y$ .
 
-![bo_d7fr3gc91nqc7381iccg_155_1127_1714_350_346_0.jpg](images/bo_d7fr3gc91nqc7381iccg_155_1127_1714_350_346_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_155_1127_1714_350_346_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_155_1127_1714_350_346_0.jpg)
 
 图 5-4-2
 
@@ -6014,7 +6014,7 @@ $$
 1. 定义在 $\mathbf{R}$ 上的偶函数存在反函数吗? 说明理由.
 2. 下列各图中,存在反函数的函数 $y = f\left( x\right)$ 的图像只可能是 ( )
 
-![bo_d7fr3gc91nqc7381iccg_156_364_874_1059_278_0.jpg](images/bo_d7fr3gc91nqc7381iccg_156_364_874_1059_278_0.jpg)
+![bo_d7fr3gc91nqc7381iccg_156_364_874_1059_278_0.jpg](attachments/bo_d7fr3gc91nqc7381iccg_156_364_874_1059_278_0.jpg)
 
 (第 2 题)
 

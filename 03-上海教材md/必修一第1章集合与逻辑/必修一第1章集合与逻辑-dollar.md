@@ -4,7 +4,7 @@ title: 必修一第1章集合与逻辑-dollar
 ---
 # 第1章 集合与逻辑
 
-![bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg](images/bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg)
+![bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg](attachments/bo_d4slo077aajc73fspke0_0_1_0_1653_1113_0.jpg)
 
 数学语言十分精确, 不容易产生歧义. 集合是现代数学语言的重要组成部分. 使用集合的语言, 可以准确、简洁地表示所要研究的对象, 更好地描述所研究的对象之间的关系.
 
@@ -16,7 +16,7 @@ title: 必修一第1章集合与逻辑-dollar
 
 ### 1 集合的概念
 
-![bo_d4slo077aajc73fspke0_1_263_700_173_267_0.jpg](images/bo_d4slo077aajc73fspke0_1_263_700_173_267_0.jpg)
+![bo_d4slo077aajc73fspke0_1_263_700_173_267_0.jpg](attachments/bo_d4slo077aajc73fspke0_1_263_700_173_267_0.jpg)
 
 康托(G. Cantor, 1845- 1918), 德国数学家, 集合论创始人.
 
@@ -168,7 +168,7 @@ $$
 
 闭区间与开区间在数轴上的表示,如图 1-1-1 所示.
 
-![bo_d4slo077aajc73fspke0_4_272_1321_702_149_0.jpg](images/bo_d4slo077aajc73fspke0_4_272_1321_702_149_0.jpg)
+![bo_d4slo077aajc73fspke0_4_272_1321_702_149_0.jpg](attachments/bo_d4slo077aajc73fspke0_4_272_1321_702_149_0.jpg)
 
 图 1-1-1
 
@@ -176,7 +176,7 @@ $$
 
 半开半闭区间在数轴上的表示, 如图 1-1-2 所示.
 
-![bo_d4slo077aajc73fspke0_4_271_1696_703_149_0.jpg](images/bo_d4slo077aajc73fspke0_4_271_1696_703_149_0.jpg)
+![bo_d4slo077aajc73fspke0_4_271_1696_703_149_0.jpg](attachments/bo_d4slo077aajc73fspke0_4_271_1696_703_149_0.jpg)
 
 图 1-1-2
 
@@ -250,7 +250,7 @@ $$
 \varnothing  \subseteq  A\text{ . }
 $$
 
-![bo_d4slo077aajc73fspke0_6_1173_285_255_259_0.jpg](images/bo_d4slo077aajc73fspke0_6_1173_285_255_259_0.jpg)
+![bo_d4slo077aajc73fspke0_6_1173_285_255_259_0.jpg](attachments/bo_d4slo077aajc73fspke0_6_1173_285_255_259_0.jpg)
 
 图 1-1-3
 
@@ -370,7 +370,7 @@ $$
 
 可以用文氏图直观地反映 $A \cap  B$ 的几种不同情况,如图 1-1-4 所示.
 
-![bo_d4slo077aajc73fspke0_8_203_338_849_279_0.jpg](images/bo_d4slo077aajc73fspke0_8_203_338_849_279_0.jpg)
+![bo_d4slo077aajc73fspke0_8_203_338_849_279_0.jpg](attachments/bo_d4slo077aajc73fspke0_8_203_338_849_279_0.jpg)
 
 图 1-1-4
 
@@ -402,7 +402,7 @@ $$
 
 可以用文氏图直观地反映 $A \cup  B$ 的几种不同情况,如图 1-1-5所示,其中阴影部分表示 $A \cup  B$ .
 
-![bo_d4slo077aajc73fspke0_8_205_1838_845_281_0.jpg](images/bo_d4slo077aajc73fspke0_8_205_1838_845_281_0.jpg)
+![bo_d4slo077aajc73fspke0_8_205_1838_845_281_0.jpg](attachments/bo_d4slo077aajc73fspke0_8_205_1838_845_281_0.jpg)
 
 图 1-1-5
 
@@ -428,7 +428,7 @@ $$
 
 解 在数轴上标出集合 $A$ 与 $B$ ,如图 1-1-6 所示.
 
-![bo_d4slo077aajc73fspke0_9_722_701_602_155_0.jpg](images/bo_d4slo077aajc73fspke0_9_722_701_602_155_0.jpg)
+![bo_d4slo077aajc73fspke0_9_722_701_602_155_0.jpg](attachments/bo_d4slo077aajc73fspke0_9_722_701_602_155_0.jpg)
 
 图 1-1-6
 
@@ -454,7 +454,7 @@ $$
 
 当全集为实数集 $\mathbf{R}$ 时,有理数集 $\mathbf{Q}$ 的补集 $\overline{\mathbf{Q}}$ 就是全体无理数组成的集合.
 
-![bo_d4slo077aajc73fspke0_10_1173_234_253_170_0.jpg](images/bo_d4slo077aajc73fspke0_10_1173_234_253_170_0.jpg)
+![bo_d4slo077aajc73fspke0_10_1173_234_253_170_0.jpg](attachments/bo_d4slo077aajc73fspke0_10_1173_234_253_170_0.jpg)
 
 图 1-1-7
 

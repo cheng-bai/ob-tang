@@ -4,7 +4,7 @@ title: 必修一第2章等式与不等式-dollar
 ---
 ## 等式 与不等式
 
-![bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg](images/bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_0_0_0_1654_1167_0.jpg)
 
 数量关系是数学重要的研究对象, 相等关系与不等关系是最基本的数量关系, 而等式与不等式则是表示相应数量关系的基本工具. 等式与不等式的知识, 在日常生活中也有着广泛的应用。
 
@@ -164,7 +164,7 @@ $$
 
 ---
 
-![bo_d4sloh3ef24c73be0qgg_4_1184_665_234_339_0.jpg](images/bo_d4sloh3ef24c73be0qgg_4_1184_665_234_339_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_4_1184_665_234_339_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_4_1184_665_234_339_0.jpg)
 
 韦达 (F. Viète, 1540- 1603),法国数学家.
 
@@ -572,7 +572,7 @@ $$
 
 我们可以在数轴上表示例 2 中的不等式组的解集, 如图 2-2-1 所示.
 
-![bo_d4sloh3ef24c73be0qgg_11_199_1776_301_298_0.jpg](images/bo_d4sloh3ef24c73be0qgg_11_199_1776_301_298_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_11_199_1776_301_298_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_11_199_1776_301_298_0.jpg)
 
 图 2-2-1
 
@@ -872,7 +872,7 @@ $$
 
 我们知道, $\left| x\right|$ 表示实数 $x$ 在数轴上所对应的点到坐标原点的距离. 根据绝对值的定义和几何意义, 可以求解一些基本的含绝对值的不等式.
 
-![bo_d4sloh3ef24c73be0qgg_19_194_1062_307_270_0.jpg](images/bo_d4sloh3ef24c73be0qgg_19_194_1062_307_270_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_19_194_1062_307_270_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_19_194_1062_307_270_0.jpg)
 
 图 2-2-2
 
@@ -1202,7 +1202,7 @@ $$
 
 例 6 某新建居民小区欲建一面积为 ${700}{\mathrm{\;m}}^{2}$ 的矩形绿地, 并在绿地四周铺设人行道. 设计要求绿地外南北两侧人行道宽 3 m，东西两侧人行道宽 4 m，如图 2-3-1 所示(图中单位:m). 问如何设计绿地的边长, 才能使人行道的占地面积最小. (结果精确到 ${0.1}\mathrm{\;m}$ )
 
-![bo_d4sloh3ef24c73be0qgg_26_1130_631_345_297_0.jpg](images/bo_d4sloh3ef24c73be0qgg_26_1130_631_345_297_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_26_1130_631_345_297_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_26_1130_631_345_297_0.jpg)
 
 图 2-3-1
 
@@ -1388,11 +1388,11 @@ $$
 
 下图 (图 2-3-2) 称为弦图, 是我国古代三国时期的数学家赵爽为《周髀算经》作注时为证明勾股定理所绘制. 此图曾作为 2002 年在北京召开的第 24 届国际数学家大会的会标. (图 2-3-3)
 
-![bo_d4sloh3ef24c73be0qgg_29_444_1304_293_267_0.jpg](images/bo_d4sloh3ef24c73be0qgg_29_444_1304_293_267_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_29_444_1304_293_267_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_29_444_1304_293_267_0.jpg)
 
 图 2-3-2
 
-![bo_d4sloh3ef24c73be0qgg_29_948_1183_287_388_0.jpg](images/bo_d4sloh3ef24c73be0qgg_29_948_1183_287_388_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_29_948_1183_287_388_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_29_948_1183_287_388_0.jpg)
 
 图 2-3-3
 
@@ -1556,11 +1556,11 @@ $$
 
 (2)用不等式表示斜边上的高 ${AD}$ 与中线 ${AE}$ 长度的大小关系.
 
-![bo_d4sloh3ef24c73be0qgg_34_315_563_343_205_0.jpg](images/bo_d4sloh3ef24c73be0qgg_34_315_563_343_205_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_34_315_563_343_205_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_34_315_563_343_205_0.jpg)
 
 (第 12 题)
 
-![bo_d4sloh3ef24c73be0qgg_34_834_475_467_300_0.jpg](images/bo_d4sloh3ef24c73be0qgg_34_834_475_467_300_0.jpg)
+![bo_d4sloh3ef24c73be0qgg_34_834_475_467_300_0.jpg](attachments/bo_d4sloh3ef24c73be0qgg_34_834_475_467_300_0.jpg)
 
 (第 13 题)
 

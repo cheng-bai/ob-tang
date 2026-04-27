@@ -4,7 +4,7 @@ title: 必修三第12章概率初步-dollar
 ---
 # 概率初步
 
-![bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg](images/bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg)
+![bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg](attachments/bo_d4slmlref24c73be0org_0_0_1_1654_1183_0.jpg)
 
 随机现象无处不在, 且与我们的生活息息相关. 它看似没有规律, 但实际上隐含着深刻的规律. 概率论就是研究随机现象背后所蕴藏的规律的数学理论. 它在现代社会中变得越来越重要, 在数学中的地位也越来越高. 在这一章中，我们将理解概率的意义，学习求解简单的概率问题. 尽管所涉及的数学实际上是相当初等的, 但第一次接触随机现象, 真正理解起来可能并不容易, 和学习以往的内容不同, 不仅要换一种思路, 而且要换一套语言.
 
@@ -32,11 +32,11 @@ title: 必修三第12章概率初步-dollar
 
 概率描述随机现象中某些结果出现的可能性大小.
 
-![bo_d4slmlref24c73be0org_2_1204_484_188_236_0.jpg](images/bo_d4slmlref24c73be0org_2_1204_484_188_236_0.jpg)
+![bo_d4slmlref24c73be0org_2_1204_484_188_236_0.jpg](attachments/bo_d4slmlref24c73be0org_2_1204_484_188_236_0.jpg)
 
 费马 (P. de Fermat, 1601-1665), 法国数学家，正式职业是律师. 费马与帕斯卡在 1654 年 7-10 月有 7 封关于分奖金问题的书信来往, 开启了概率论的研究.
 
-![bo_d4slmlref24c73be0org_2_1214_1062_171_222_0.jpg](images/bo_d4slmlref24c73be0org_2_1214_1062_171_222_0.jpg)
+![bo_d4slmlref24c73be0org_2_1214_1062_171_222_0.jpg](attachments/bo_d4slmlref24c73be0org_2_1214_1062_171_222_0.jpg)
 
 帕斯卡 (B. Pascal, 1623 —1662), 法国数学家、 物理学家.
 
@@ -312,7 +312,7 @@ $$
 
 ---
 
-![bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg](images/bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg)
+![bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg](attachments/bo_d4slmlref24c73be0org_8_1206_229_194_230_0.jpg)
 
 例 1 抛掷一枚硬币正面朝上和掷一颗骰子得点数 6 的概率分别是多少?
 
@@ -754,7 +754,7 @@ A. $\frac{1}{100}$ ; B. $\frac{99}{100}$ ; C. $\frac{1}{99}$ ; D. $\frac{1}{2}$ 
 
 A. $A$ 与 $B$ ； B. $B$ 与 $C$ ； C. $A$ 与 $D$ ; D. $C$ 与 $D$ .
 
-![bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg](images/bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg)
+![bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg](attachments/bo_d4slmlref24c73be0org_17_1238_548_261_262_0.jpg)
 
 (第 5 题)
 
@@ -810,7 +810,7 @@ $$
 
 ---
 
-![bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg](images/bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg)
+![bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg](attachments/bo_d4slmlref24c73be0org_19_251_227_190_228_0.jpg)
 
 雅各布・伯努利(Jakob Bernoulli, 1654—1705), 瑞士数学家，伯努利家族 (其中有许多著名科学家、 数学家)中的一员，对概率论的主要贡献发表在其著作《猜度术》中，其中包括大数定律.
 
@@ -886,7 +886,7 @@ $$
 
 怎么应用蒙特卡洛算法呢? 看一个简单的例子. 首先, 取一块正方形纸板, 将其表面正方形记作 $\Omega$ ,把所求的区域 $D$ 放在此正方形纸板中,如图 12-3-1 所示.
 
-![bo_d4slmlref24c73be0org_21_711_1206_261_262_0.jpg](images/bo_d4slmlref24c73be0org_21_711_1206_261_262_0.jpg)
+![bo_d4slmlref24c73be0org_21_711_1206_261_262_0.jpg](attachments/bo_d4slmlref24c73be0org_21_711_1206_261_262_0.jpg)
 
 图 12-3-1
 

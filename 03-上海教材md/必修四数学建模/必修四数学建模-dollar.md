@@ -6,11 +6,11 @@ title: 必修四数学建模-dollar
 
 SHUXUE
 
-![bo_d4slllbef24c73be0npg_0_1_361_1653_1978_0.jpg](images/bo_d4slllbef24c73be0npg_0_1_361_1653_1978_0.jpg)
+![bo_d4slllbef24c73be0npg_0_1_361_1653_1978_0.jpg](attachments/bo_d4slllbef24c73be0npg_0_1_361_1653_1978_0.jpg)
 
 SHUXUE
 
-![bo_d4slllbef24c73be0npg_1_0_406_1654_1933_0.jpg](images/bo_d4slllbef24c73be0npg_1_0_406_1654_1933_0.jpg)
+![bo_d4slllbef24c73be0npg_1_0_406_1654_1933_0.jpg](attachments/bo_d4slllbef24c73be0npg_1_0_406_1654_1933_0.jpg)
 
 主 编 李大潜 王建磐
 
@@ -144,7 +144,7 @@ SHUXUE
 
 因此, 数学建模是一个建立数学模型的过程, 而数学模型是数学建模的一个结果. 数学建模的全过程一般包括在实际情境中从数学的视角发现问题、提出问题、分析问题、建立模型、求解模型得到答案、回到实际情境验证答案、如果答案不合理则加以改进等步骤, 如此循环直到实际情境中的问题得到合理的回答(图 0-1). 在本册教材中, 这个过程统称为数学建模活动.
 
-![bo_d4slllbef24c73be0npg_8_649_1488_379_458_0.jpg](images/bo_d4slllbef24c73be0npg_8_649_1488_379_458_0.jpg)
+![bo_d4slllbef24c73be0npg_8_649_1488_379_458_0.jpg](attachments/bo_d4slllbef24c73be0npg_8_649_1488_379_458_0.jpg)
 
 图 0-1 数学建模活动过程图示
 
@@ -186,7 +186,7 @@ SHUXUE
 
 ## 第 1 部分 数学建模活动案例
 
-![bo_d4slllbef24c73be0npg_11_0_0_1654_1164_0.jpg](images/bo_d4slllbef24c73be0npg_11_0_0_1654_1164_0.jpg)
+![bo_d4slllbef24c73be0npg_11_0_0_1654_1164_0.jpg](attachments/bo_d4slllbef24c73be0npg_11_0_0_1654_1164_0.jpg)
 
 本部分共有 4 个案例, 与日常生活、科学技术或生态环境息息相关. 由于每个案例的实际情境丰富多样, 教材上无法列举所有相关的问题. 因此, 在每个案例的展开过程中, 留出了空间 (以空白框形式呈现), 请同学们结合经验、发挥想象、共同思考，提出你们认为合理的问题、设想和建议，并在数学建模活动中找到答案.
 
@@ -196,7 +196,7 @@ SHUXUE
 
 随着经济的快速发展、人口的大量增加和交通工具的广泛使用，世界各国都面临交通问题, 如何科学地进行交通管理为人们所广泛关注. 红绿灯管理是对交叉路口实施交通管理的最常见方法. 作为城市交通指挥棒的红绿灯如果设置不合理, 就可能会造成不必要的城市交通堵塞. 如何合理地设置交通路口的红绿灯呢?
 
-![bo_d4slllbef24c73be0npg_12_399_711_880_323_0.jpg](images/bo_d4slllbef24c73be0npg_12_399_711_880_323_0.jpg)
+![bo_d4slllbef24c73be0npg_12_399_711_880_323_0.jpg](attachments/bo_d4slllbef24c73be0npg_12_399_711_880_323_0.jpg)
 
 ### 提出问题
 
@@ -208,7 +208,7 @@ SHUXUE
 
 考虑一个十字路口, 其东西方向和南北方向分别只有一对相向的直行车道 (假设 1 ，如图 1-1). 由于主要考虑红绿灯时间的设置对车辆通行的影响，可忽略其他一些次要因素(假设 2 和假设 3). 又为了方便起见, 假设车流量是均匀、稳定的 (假设 4). 这里的车流量是指单位时间内通过某路段的车辆数. 不同路口红绿灯的最小周期通常是不相同的, 为了便于分析比较, 将路口红绿灯变化的最小周期取作单位时间(假设 5 ).
 
-![bo_d4slllbef24c73be0npg_12_1173_1785_329_331_0.jpg](images/bo_d4slllbef24c73be0npg_12_1173_1785_329_331_0.jpg)
+![bo_d4slllbef24c73be0npg_12_1173_1785_329_331_0.jpg](attachments/bo_d4slllbef24c73be0npg_12_1173_1785_329_331_0.jpg)
 
 图 1-1
 
@@ -328,7 +328,7 @@ $$
 
 近年来，“双十一”演变成为一年一度的购物狂欢节. 从 2009 年开始，“双十一”购物规则的复杂度不断增大, 而面对商家复杂的优惠规则, 消费者都尝试用足优惠. 最近, 某商家推出三种优惠券, 分别是满 199 元减 20 元、满 299 元减 50 元、满 499 元减 110 元. 这些优惠券之间不可叠加使用, 但它们可以与满 400 元减 50 元的购物津贴同时使用 (图 2-1). 此外, 这两类优惠券有使用顺序, 必须先使用商家优惠券, 再使用购物津贴.
 
-![bo_d4slllbef24c73be0npg_15_263_787_1089_351_0.jpg](images/bo_d4slllbef24c73be0npg_15_263_787_1089_351_0.jpg)
+![bo_d4slllbef24c73be0npg_15_263_787_1089_351_0.jpg](attachments/bo_d4slllbef24c73be0npg_15_263_787_1089_351_0.jpg)
 
 图 2-1
 
@@ -374,7 +374,7 @@ $$
 
 根据上述函数关系①，作出该分段函数的图像，如图 2-2 所示.
 
-![bo_d4slllbef24c73be0npg_17_330_245_964_557_0.jpg](images/bo_d4slllbef24c73be0npg_17_330_245_964_557_0.jpg)
+![bo_d4slllbef24c73be0npg_17_330_245_964_557_0.jpg](attachments/bo_d4slllbef24c73be0npg_17_330_245_964_557_0.jpg)
 
 图 2-2 购买金额与优惠率之间的函数关系
 
@@ -416,7 +416,7 @@ $$
 
 同学们如果时常阅读报纸或浏览新闻网站, 可能看到过关于大型车辆右转时引发交通事故的报道. 有时事故较大，危及了人的生命. 为什么大型车辆转弯时容易引发事故？细读一些报道和查阅相关资料后发现, 这些事故中很大一部分与“内轮差”有关.
 
-![bo_d4slllbef24c73be0npg_19_388_686_843_477_0.jpg](images/bo_d4slllbef24c73be0npg_19_388_686_843_477_0.jpg)
+![bo_d4slllbef24c73be0npg_19_388_686_843_477_0.jpg](attachments/bo_d4slllbef24c73be0npg_19_388_686_843_477_0.jpg)
 
 车辆在转弯时, 后轮并不是沿着前轮的轨迹行驶的, 会产生偏差, 转弯形成的偏差叫 “轮差”. 内轮差是车辆转弯时前内轮转弯半径与后内轮转弯半径之差. 由于内轮差的存在, 车辆转弯时, 前、后车轮的运动轨迹不重合.
 
@@ -428,7 +428,7 @@ $$
 
 查阅资料，我们发现车辆转弯大都遵循阿克曼(Ackermann)转向几何原理. 依据阿克曼转向几何原理设计的车辆,沿着弯道转弯时,内侧轮的转向角比外侧轮要大 ${2}^{ \circ  } \sim  {4}^{ \circ  }$ , 四个轮子转弯路径的圆心大致交会于后轴延长线上的瞬时转向中心，让车辆可以顺畅地转弯 (图 3-1).
 
-![bo_d4slllbef24c73be0npg_20_547_228_580_273_0.jpg](images/bo_d4slllbef24c73be0npg_20_547_228_580_273_0.jpg)
+![bo_d4slllbef24c73be0npg_20_547_228_580_273_0.jpg](attachments/bo_d4slllbef24c73be0npg_20_547_228_580_273_0.jpg)
 
 图 3-1 阿克曼转向几何原理
 
@@ -448,11 +448,11 @@ $$
 
 让我们先来看车辆分析图,如图 3-2 所示. 记车辆的转向中心为 $O$ . 设 $O$ 到两后轮中点的距离为 $R$ ,此即车辆的转弯半径. 又设两前轮之间距离 (称为轮距) 为 $w$ ,同侧前后两轮距离 (称为轴距) 为 $l$ ,车辆转弯时前内轮转角为 $\delta$ . 把 $O$ 到后内轮和前内轮的距离分别记为 ${R}_{1}$ 和 ${R}_{2}$ ,它们分别是后内轮和前内轮的转弯半径. 于是,我们要求的车辆转弯时的内轮差为 ${R}_{2} - {R}_{1}$ .
 
-![bo_d4slllbef24c73be0npg_20_473_1173_736_475_0.jpg](images/bo_d4slllbef24c73be0npg_20_473_1173_736_475_0.jpg)
+![bo_d4slllbef24c73be0npg_20_473_1173_736_475_0.jpg](attachments/bo_d4slllbef24c73be0npg_20_473_1173_736_475_0.jpg)
 
 图 3-2 车辆分析图
 
-![bo_d4slllbef24c73be0npg_20_471_1709_740_461_0.jpg](images/bo_d4slllbef24c73be0npg_20_471_1709_740_461_0.jpg)
+![bo_d4slllbef24c73be0npg_20_471_1709_740_461_0.jpg](attachments/bo_d4slllbef24c73be0npg_20_471_1709_740_461_0.jpg)
 
 图 3-3 车辆内部图
 
@@ -512,35 +512,35 @@ $$
 
 为了研究的方便, 我们忽略了前轮轮胎到车头、后轮轮胎到车尾的部分. 将车辆近似看成一个矩形, 车轮安装在车头和车尾两侧部分 (图 3-4 至图 3-7).
 
-![bo_d4slllbef24c73be0npg_22_276_716_490_373_0.jpg](images/bo_d4slllbef24c73be0npg_22_276_716_490_373_0.jpg)
+![bo_d4slllbef24c73be0npg_22_276_716_490_373_0.jpg](attachments/bo_d4slllbef24c73be0npg_22_276_716_490_373_0.jpg)
 
-![bo_d4slllbef24c73be0npg_22_915_716_489_371_0.jpg](images/bo_d4slllbef24c73be0npg_22_915_716_489_371_0.jpg)
+![bo_d4slllbef24c73be0npg_22_915_716_489_371_0.jpg](attachments/bo_d4slllbef24c73be0npg_22_915_716_489_371_0.jpg)
 
 图 3-4 图 3-5
 
-![bo_d4slllbef24c73be0npg_22_275_1177_492_376_0.jpg](images/bo_d4slllbef24c73be0npg_22_275_1177_492_376_0.jpg)
+![bo_d4slllbef24c73be0npg_22_275_1177_492_376_0.jpg](attachments/bo_d4slllbef24c73be0npg_22_275_1177_492_376_0.jpg)
 
-![bo_d4slllbef24c73be0npg_22_913_1179_491_372_0.jpg](images/bo_d4slllbef24c73be0npg_22_913_1179_491_372_0.jpg)
+![bo_d4slllbef24c73be0npg_22_913_1179_491_372_0.jpg](attachments/bo_d4slllbef24c73be0npg_22_913_1179_491_372_0.jpg)
 
 图 3-6 图 3-7
 
 设置动态演示, 我们得到了四个车轮的行驶轨迹 (图 3-8 至图 3-12).
 
-![bo_d4slllbef24c73be0npg_22_275_1714_491_371_0.jpg](images/bo_d4slllbef24c73be0npg_22_275_1714_491_371_0.jpg)
+![bo_d4slllbef24c73be0npg_22_275_1714_491_371_0.jpg](attachments/bo_d4slllbef24c73be0npg_22_275_1714_491_371_0.jpg)
 
 图 3-8
 
-![bo_d4slllbef24c73be0npg_22_915_1716_489_371_0.jpg](images/bo_d4slllbef24c73be0npg_22_915_1716_489_371_0.jpg)
+![bo_d4slllbef24c73be0npg_22_915_1716_489_371_0.jpg](attachments/bo_d4slllbef24c73be0npg_22_915_1716_489_371_0.jpg)
 
 图 3-9
 
-![bo_d4slllbef24c73be0npg_23_240_224_1141_375_0.jpg](images/bo_d4slllbef24c73be0npg_23_240_224_1141_375_0.jpg)
+![bo_d4slllbef24c73be0npg_23_240_224_1141_375_0.jpg](attachments/bo_d4slllbef24c73be0npg_23_240_224_1141_375_0.jpg)
 
 图 3-10
 
 图 3-11
 
-![bo_d4slllbef24c73be0npg_23_564_663_490_370_0.jpg](images/bo_d4slllbef24c73be0npg_23_564_663_490_370_0.jpg)
+![bo_d4slllbef24c73be0npg_23_564_663_490_370_0.jpg](attachments/bo_d4slllbef24c73be0npg_23_564_663_490_370_0.jpg)
 
 图 3-12
 
@@ -548,19 +548,19 @@ $$
 
 (1)转弯半径越小, 内轮差越大 (比较图 3-13、图 3-14);
 
-![bo_d4slllbef24c73be0npg_23_245_1286_491_374_0.jpg](images/bo_d4slllbef24c73be0npg_23_245_1286_491_374_0.jpg)
+![bo_d4slllbef24c73be0npg_23_245_1286_491_374_0.jpg](attachments/bo_d4slllbef24c73be0npg_23_245_1286_491_374_0.jpg)
 
 图 3-13
 
-![bo_d4slllbef24c73be0npg_23_884_1286_490_372_0.jpg](images/bo_d4slllbef24c73be0npg_23_884_1286_490_372_0.jpg)
+![bo_d4slllbef24c73be0npg_23_884_1286_490_372_0.jpg](attachments/bo_d4slllbef24c73be0npg_23_884_1286_490_372_0.jpg)
 
 图 3-14
 
-![bo_d4slllbef24c73be0npg_23_246_1757_489_371_0.jpg](images/bo_d4slllbef24c73be0npg_23_246_1757_489_371_0.jpg)
+![bo_d4slllbef24c73be0npg_23_246_1757_489_371_0.jpg](attachments/bo_d4slllbef24c73be0npg_23_246_1757_489_371_0.jpg)
 
 图 3-15
 
-![bo_d4slllbef24c73be0npg_23_883_1757_492_371_0.jpg](images/bo_d4slllbef24c73be0npg_23_883_1757_492_371_0.jpg)
+![bo_d4slllbef24c73be0npg_23_883_1757_492_371_0.jpg](attachments/bo_d4slllbef24c73be0npg_23_883_1757_492_371_0.jpg)
 
 图 3-16
 
@@ -612,7 +612,7 @@ $$
 
 一个简单的策略是:尽可能快地跑到目的地，以减少被雨淋的时间。这真的是一个最好的策略吗? 除了减少被雨淋的时间，还有没有其他选择呢?
 
-![bo_d4slllbef24c73be0npg_26_524_870_630_404_0.jpg](images/bo_d4slllbef24c73be0npg_26_524_870_630_404_0.jpg)
+![bo_d4slllbef24c73be0npg_26_524_870_630_404_0.jpg](attachments/bo_d4slllbef24c73be0npg_26_524_870_630_404_0.jpg)
 
 请将你认为可以选择的最优目标填入下框.
 
@@ -650,11 +650,11 @@ $$
 
 ①
 
-![bo_d4slllbef24c73be0npg_27_527_1773_153_372_0.jpg](images/bo_d4slllbef24c73be0npg_27_527_1773_153_372_0.jpg)
+![bo_d4slllbef24c73be0npg_27_527_1773_153_372_0.jpg](attachments/bo_d4slllbef24c73be0npg_27_527_1773_153_372_0.jpg)
 
 图 4-1
 
-![bo_d4slllbef24c73be0npg_27_961_1795_126_357_0.jpg](images/bo_d4slllbef24c73be0npg_27_961_1795_126_357_0.jpg)
+![bo_d4slllbef24c73be0npg_27_961_1795_126_357_0.jpg](attachments/bo_d4slllbef24c73be0npg_27_961_1795_126_357_0.jpg)
 
 图 4-2
 
@@ -676,11 +676,11 @@ $$
 
 这与无风情形下得到的单位时间淋雨量②式完全相同.
 
-![bo_d4slllbef24c73be0npg_28_451_804_215_355_0.jpg](images/bo_d4slllbef24c73be0npg_28_451_804_215_355_0.jpg)
+![bo_d4slllbef24c73be0npg_28_451_804_215_355_0.jpg](attachments/bo_d4slllbef24c73be0npg_28_451_804_215_355_0.jpg)
 
 图 4-3
 
-![bo_d4slllbef24c73be0npg_28_947_802_281_357_0.jpg](images/bo_d4slllbef24c73be0npg_28_947_802_281_357_0.jpg)
+![bo_d4slllbef24c73be0npg_28_947_802_281_357_0.jpg](attachments/bo_d4slllbef24c73be0npg_28_947_802_281_357_0.jpg)
 
 图 4-4
 
@@ -706,7 +706,7 @@ $$
 
 基于上述判断, 你能对初步模型作出适当的改进吗? 请将你的改进模型填入下框.
 
-![bo_d4slllbef24c73be0npg_29_1249_537_221_373_0.jpg](images/bo_d4slllbef24c73be0npg_29_1249_537_221_373_0.jpg)
+![bo_d4slllbef24c73be0npg_29_1249_537_221_373_0.jpg](attachments/bo_d4slllbef24c73be0npg_29_1249_537_221_373_0.jpg)
 
 要计算前后衣服的淋雨量, 就要考虑风相对于行走的方向. 如果风是迎面吹来的, 那么被雨淋湿的部位就只有头顶和身体前部. 这样, 雨滴相对于人体的水平速度大小为 $V = {v}_{w} + v$ ,单位时间内身体前部淋到的雨包含在一个倾斜的平行六面体中,其底面为身体前部,面积为 ${wh}$ ,高等于 $V$ (图 4-5). 因此,单位时间内身体前部的淋雨量为
 
@@ -820,11 +820,11 @@ $$
 
 [2] 别莱利曼. 趣味力学[M]. 符其珣, 译. 北京: 中国青年出版社, 2010.
 
-![bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg](images/bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg)
+![bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg](attachments/bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg)
 
 ## 第 2 部分 数学建模活动 A
 
-![bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg](images/bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg)
+![bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg](attachments/bo_d4slllbef24c73be0npg_33_0_0_1654_1177_0.jpg)
 
 相信同学们在教师指导下, 通过第 1 部分案例的学习, 已经体验了数学建模活动的基本流程, 积累了一定的数学建模活动经验. 这里提供另外 3 个建模活动, 供大家选择. 尽管没有提供详细的建模过程, 但仍给出了相应的活动提示, 可供大家参考. 请同学们有选择地分组开展活动, 相信你们能够应对这些活动的挑战.
 
@@ -838,7 +838,7 @@ $$
 
 根据市域出租汽车运价调整实施方案，起租价由13元/3千米调整为14元/3千米， 超起租里程运价由2.40元/千米调整为2.50元/千米.
 
-![bo_d4slllbef24c73be0npg_34_264_1224_1158_228_0.jpg](images/bo_d4slllbef24c73be0npg_34_264_1224_1158_228_0.jpg)
+![bo_d4slllbef24c73be0npg_34_264_1224_1158_228_0.jpg](attachments/bo_d4slllbef24c73be0npg_34_264_1224_1158_228_0.jpg)
 
 你会仿效那位市民的做法吗？为什么？
 
@@ -874,7 +874,7 @@ $$
 
 ### 6 家具搬运
 
-![bo_d4slllbef24c73be0npg_36_182_513_577_392_0.jpg](images/bo_d4slllbef24c73be0npg_36_182_513_577_392_0.jpg)
+![bo_d4slllbef24c73be0npg_36_182_513_577_392_0.jpg](attachments/bo_d4slllbef24c73be0npg_36_182_513_577_392_0.jpg)
 
 随着生活水平的逐步提高, 越来越多的人开始改善居住条件，搬家成了生活中经常谈及的话题. 在搬运大型家具的过程中，经常需要考虑家具能否通过狭长的转角过道.
 
@@ -912,7 +912,7 @@ $$
 
 ### 7 登山行程设计
 
-![bo_d4slllbef24c73be0npg_38_182_508_620_422_0.jpg](images/bo_d4slllbef24c73be0npg_38_182_508_620_422_0.jpg)
+![bo_d4slllbef24c73be0npg_38_182_508_620_422_0.jpg](attachments/bo_d4slllbef24c73be0npg_38_182_508_620_422_0.jpg)
 
 在本册教材的引论部分, 我们以登山线路规划为例, 阐述了应用题和数学建模问题的区别. 下面, 请同学们合作完成这样的数学建模活动.
 
@@ -960,7 +960,7 @@ $$
 
 ## 第 3 部分 数学建模活动 B
 
-![bo_d4slllbef24c73be0npg_41_0_0_1654_1173_0.jpg](images/bo_d4slllbef24c73be0npg_41_0_0_1654_1173_0.jpg)
+![bo_d4slllbef24c73be0npg_41_0_0_1654_1173_0.jpg](attachments/bo_d4slllbef24c73be0npg_41_0_0_1654_1173_0.jpg)
 
 经历了一些数学建模活动, 大家是欣喜还是苦恼？这都没有关系。通过继续合作开展数学建模活动, 同学们一定能更深入地感受到数学建模的特点和价值. 这里再提供 4 个数学建模活动, 供大家选择. 相信大家已经拥有一定的数学建模能力，这次没有再作任何提示，请大胆尝试吧！
 
@@ -968,11 +968,11 @@ $$
 
 按照中国的传统习俗, 走亲访友会带上一些朋友喜欢的礼物, 可能是一盒点心、一本书或一个玩具等. 一般来说, 我们不仅会用包装纸把礼物包好, 还会用彩带捆扎包装好的礼物，有时还会扎出一个花结. 其实，这些精美的包装彩带也不便宜，我们在捆扎时不仅要考虑美观、结实, 也要考虑尽量地节省包装彩带. 生活中, 你见到过哪些用彩带捆扎包装礼物的方法? 请推荐一种比较节省彩带的方法, 并说明你的理由.
 
-![bo_d4slllbef24c73be0npg_42_399_788_881_596_0.jpg](images/bo_d4slllbef24c73be0npg_42_399_788_881_596_0.jpg)
+![bo_d4slllbef24c73be0npg_42_399_788_881_596_0.jpg](attachments/bo_d4slllbef24c73be0npg_42_399_788_881_596_0.jpg)
 
 ## 9 削菠萝
 
-![bo_d4slllbef24c73be0npg_43_1061_507_409_415_0.jpg](images/bo_d4slllbef24c73be0npg_43_1061_507_409_415_0.jpg)
+![bo_d4slllbef24c73be0npg_43_1061_507_409_415_0.jpg](attachments/bo_d4slllbef24c73be0npg_43_1061_507_409_415_0.jpg)
 
 在菠萝上市的季节, 为方便消费者品尝到新鲜的菠萝, 水果店通常有专人帮助大家削皮去籽, 方法多样. 其中一种刨削方法很有艺术味, 削完后, 菠萝上留下的是一条条螺线形的凹槽.
 
@@ -982,7 +982,7 @@ $$
 
 上海浦东陆家嘴地区高楼林立，尤其是东方明珠周边的建筑物似乎一幢比一幢高. 当你从不同角度观察, 建筑物的相对高度似乎有变化, 这说明, 仅靠目测可能会对建筑物高度产生误判. 同学们也许在思考, 如何去测量这样“高不可攀”的建筑物的高度? 让我们回到自己的校园，面对高度各异的教学楼，你一定希望了解:哪幢楼最高？如何知道它的高度?
 
-![bo_d4slllbef24c73be0npg_44_269_802_1141_617_0.jpg](images/bo_d4slllbef24c73be0npg_44_269_802_1141_617_0.jpg)
+![bo_d4slllbef24c73be0npg_44_269_802_1141_617_0.jpg](attachments/bo_d4slllbef24c73be0npg_44_269_802_1141_617_0.jpg)
 
 请同学们行动起来，完成如下测量任务:
 
@@ -1092,7 +1092,7 @@ $$
 
 根据上述函数关系①，作出该分段函数的图像，如图 1 所示.
 
-![bo_d4slllbef24c73be0npg_49_324_1089_973_548_0.jpg](images/bo_d4slllbef24c73be0npg_49_324_1089_973_548_0.jpg)
+![bo_d4slllbef24c73be0npg_49_324_1089_973_548_0.jpg](attachments/bo_d4slllbef24c73be0npg_49_324_1089_973_548_0.jpg)
 
 图 1 购买金额与优惠率之间的函数关系
 
@@ -1138,4 +1138,4 @@ $$
 
 第 四 册
 
-![bo_d4slllbef24c73be0npg_53_490_1002_664_450_0.jpg](images/bo_d4slllbef24c73be0npg_53_490_1002_664_450_0.jpg)
+![bo_d4slllbef24c73be0npg_53_490_1002_664_450_0.jpg](attachments/bo_d4slllbef24c73be0npg_53_490_1002_664_450_0.jpg)

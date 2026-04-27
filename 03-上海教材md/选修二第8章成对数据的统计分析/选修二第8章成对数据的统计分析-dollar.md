@@ -4,7 +4,7 @@ title: 选修二第8章成对数据的统计分析-dollar
 ---
 # 成对数据的统计分析
 
-![bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg](images/bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_0_2_5_1652_1177_0.jpg)
 
 在必修课程第 13 章“统计”中，我们主要研究了来自单一变量数据的一些统计特征, 如集中趋势、离散程度、分布等. 但现实世界中许多事物和现象之间都是有联系的. 在本章中， 我们将主要学习来自两个变量的成对数据的相关分析和回归分析, 掌握它们之间的统计规律.
 
@@ -32,7 +32,7 @@ title: 选修二第8章成对数据的统计分析-dollar
 
 解 由于这两组数据分别来自同一商品的两个变量: “每千克价格”与“年需求量”，因此来自这两个变量的两组数据可以看作成对数据. 把“每千克价格”作为横坐标(自变量)，“年需求量” 作为纵坐标 (因变量), 在平面直角坐标系中绘制相应的点, 就得到年需求量和每千克价格的散点图 (图 8-1-1).
 
-![bo_d4slp7f7aajc73fspkr0_2_198_252_864_449_0.jpg](images/bo_d4slp7f7aajc73fspkr0_2_198_252_864_449_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_2_198_252_864_449_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_2_198_252_864_449_0.jpg)
 
 图 8-1-1 消费者年需求量与商品每千克价格的散点图
 
@@ -114,7 +114,7 @@ $$
 
 解 将表 8-3 中的数据输入计算机电子表格办公软件的工作簿， 先选中身高与体重两行(或两列)数据，再选择插入统计图中的散点图, 选择图形样式, 就完成了散点图的绘制, 如图 8-1-2 所示.
 
-![bo_d4slp7f7aajc73fspkr0_4_168_1630_925_444_0.jpg](images/bo_d4slp7f7aajc73fspkr0_4_168_1630_925_444_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_4_168_1630_925_444_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_4_168_1630_925_444_0.jpg)
 
 图 8-1-2 10 名高中男生身高与体重的散点图
 
@@ -228,7 +228,7 @@ $$
 
 我们在散点图上把这两个线性方程所定义的直线绘制出来, 如图 8-2-1 所示, 其中红色直线是甲的方程所定义的, 蓝色直线是乙的方程所定义的.
 
-![bo_d4slp7f7aajc73fspkr0_9_577_1340_876_450_0.jpg](images/bo_d4slp7f7aajc73fspkr0_9_577_1340_876_450_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_9_577_1340_876_450_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_9_577_1340_876_450_0.jpg)
 
 图 8-2-1
 
@@ -338,13 +338,13 @@ C. $\mathop{\sum }\limits_{{i = 1}}^{n}\left( {{y}_{i} - {\widehat{y}}_{i}}\righ
 
 解 将表 8-3 中的数据输入工作簿，然后选择“插入图表”， 再选择“散点图”，则自动生成如下的散点图 (图 8-2-2).
 
-![bo_d4slp7f7aajc73fspkr0_12_174_1654_915_453_0.jpg](images/bo_d4slp7f7aajc73fspkr0_12_174_1654_915_453_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_12_174_1654_915_453_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_12_174_1654_915_453_0.jpg)
 
 图 8-2-2
 
 在数据点上单击右键, 选择 “添加趋势线” 一“线型”, 并在 “趋势线选项”标签中要求给出公式，可以得到回归直线(图 8-2-3).
 
-![bo_d4slp7f7aajc73fspkr0_13_562_387_912_449_0.jpg](images/bo_d4slp7f7aajc73fspkr0_13_562_387_912_449_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_13_562_387_912_449_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_13_562_387_912_449_0.jpg)
 
 图 8-2-3
 
@@ -382,7 +382,7 @@ C. $\mathop{\sum }\limits_{{i = 1}}^{n}\left( {{y}_{i} - {\widehat{y}}_{i}}\righ
 
 <table><tr><td>年份</td><td>1999</td><td>2000</td><td>2001</td><td>2002</td><td>2003</td><td>2004</td><td>2005</td></tr><tr><td>国内游客数量/ 万人次</td><td>71 900</td><td>74400</td><td>78400</td><td>87800</td><td>87000</td><td>110 200</td><td>121 200</td></tr><tr><td>年份</td><td>2006</td><td>2007</td><td>2008</td><td>2009</td><td>2010</td><td>2011</td><td>2012</td></tr><tr><td>国内游客数量/ 万人次</td><td>139 400</td><td>161 000</td><td>171 200</td><td>190 200</td><td>210 300</td><td>264 100</td><td>295700</td></tr><tr><td>年份</td><td>2013</td><td>2014</td><td>2015</td><td>2016</td><td>2017</td><td>2018</td><td>/</td></tr><tr><td>国内游客数量/ 万人次</td><td>326 200</td><td>361 100</td><td>400 000</td><td>444 000</td><td>500 000</td><td>553 900</td><td>/</td></tr></table>
 
-![bo_d4slp7f7aajc73fspkr0_14_215_1599_860_366_0.jpg](images/bo_d4slp7f7aajc73fspkr0_14_215_1599_860_366_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_14_215_1599_860_366_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_14_215_1599_860_366_0.jpg)
 
 图 8-2-4
 
@@ -394,7 +394,7 @@ C. $\mathop{\sum }\limits_{{i = 1}}^{n}\left( {{y}_{i} - {\widehat{y}}_{i}}\righ
 
 对表 8-6 中的变量 $Y$ (年份) 和 $\ln N$ 绘制散点图 (图 8-2-5).
 
-![bo_d4slp7f7aajc73fspkr0_15_682_1137_667_350_0.jpg](images/bo_d4slp7f7aajc73fspkr0_15_682_1137_667_350_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_15_682_1137_667_350_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_15_682_1137_667_350_0.jpg)
 
 图 8-2-5
 
@@ -438,7 +438,7 @@ $$
 
 3. 某生物学家对白鲸游泳速度与其摆尾频率之间的关系进行了研究. 研究的样本为 19 头白鲸, 测量其游泳速度和摆尾频率. 白鲸游泳速度的测量单位为每秒向前移动的身长数 (1.0 代表每秒向前移动一个身长), 而摆尾频率的测量单位是赫兹(1.0 代表每秒摆尾 1 个来回). 测量数据如下表所示.
 
-![bo_d4slp7f7aajc73fspkr0_17_1050_1186_430_292_0.jpg](images/bo_d4slp7f7aajc73fspkr0_17_1050_1186_430_292_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_17_1050_1186_430_292_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_17_1050_1186_430_292_0.jpg)
 
 (第 3 题)
 
@@ -896,7 +896,7 @@ B 组
 
 2. 下图是某地区 2000 年至 2016 年环境基础设施投资额 $y$ (单位:亿元)的折线图.
 
-![bo_d4slp7f7aajc73fspkr0_34_195_1585_1241_495_0.jpg](images/bo_d4slp7f7aajc73fspkr0_34_195_1585_1241_495_0.jpg)
+![bo_d4slp7f7aajc73fspkr0_34_195_1585_1241_495_0.jpg](attachments/bo_d4slp7f7aajc73fspkr0_34_195_1585_1241_495_0.jpg)
 
 (第 2 题)
 

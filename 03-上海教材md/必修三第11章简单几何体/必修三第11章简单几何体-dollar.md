@@ -4,7 +4,7 @@ title: 必修三第11章简单几何体-dollar
 ---
 # 简单几何体
 
-![bo_d4slmdf7aajc73fspjug_0_0_0_1654_1151_0.jpg](images/bo_d4slmdf7aajc73fspjug_0_0_0_1654_1151_0.jpg)
+![bo_d4slmdf7aajc73fspjug_0_0_0_1654_1151_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_0_0_0_1654_1151_0.jpg)
 
 必修课程第 10 章讨论了空间中点、线及面的位置关系和一些性质. 在此基础上, 本章将讨论柱体、锥体及球体等常见的空间几何体的形状、性质和度量.
 
@@ -20,7 +20,7 @@ title: 必修三第11章简单几何体-dollar
 
 观察图 11-1-1 中的多面体, 可以发现它们有如下的共同特征:有一对互相平行的面，且这两个面是两个全等的三角形或平面多边形; 同时, 不在这两个面上的棱都相互平行. 我们把这样的多面体叫做棱柱 (prism). 那一对互相平行的面称为棱柱的底面, 其余的面则称为棱柱的侧面, 不在底面上的棱称为棱柱的侧棱, 而棱柱的两个底面之间的距离称为棱柱的高. 侧棱垂直于底面的棱柱称为直棱柱 (right prism), 否则称为斜棱柱 (oblique prism). 底面是正多边形的直棱柱称为正棱柱 (regular prism).
 
-![bo_d4slmdf7aajc73fspjug_1_542_1495_967_337_0.jpg](images/bo_d4slmdf7aajc73fspjug_1_542_1495_967_337_0.jpg)
+![bo_d4slmdf7aajc73fspjug_1_542_1495_967_337_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_1_542_1495_967_337_0.jpg)
 
 图 11-1-1
 
@@ -44,7 +44,7 @@ title: 必修三第11章简单几何体-dollar
 
 由 $\angle {A}^{\prime }{AO} = {60}^{ \circ  }, A{A}^{\prime } = l$ ,可得三棱柱的高 ${A}^{\prime }O = l\sin {60}^{ \circ  } \; = \frac{\sqrt{3}}{2}l$ .
 
-![bo_d4slmdf7aajc73fspjug_2_1142_595_314_252_0.jpg](images/bo_d4slmdf7aajc73fspjug_2_1142_595_314_252_0.jpg)
+![bo_d4slmdf7aajc73fspjug_2_1142_595_314_252_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_2_1142_595_314_252_0.jpg)
 
 图 11-1-2
 
@@ -54,7 +54,7 @@ title: 必修三第11章简单几何体-dollar
 
 如图 11-1-3, 将矩形 ABCD 绕其一条边 AB 所在直线旋转一周,所形成的几何体叫做圆柱 (cylinder), ${AB}$ 所在直线叫做该圆柱的轴,线段 ${AD}$ 和 ${BC}$ 分别旋转而成的圆面叫做该圆柱的底面, 线段 ${CD}$ 旋转而成的曲面叫做该圆柱的侧面， ${CD}$ 叫做该圆柱的母线,圆柱的两个底面间的距离(即 ${AB}$ 的长度)叫做该圆柱的高.
 
-![bo_d4slmdf7aajc73fspjug_2_1159_1166_287_284_0.jpg](images/bo_d4slmdf7aajc73fspjug_2_1159_1166_287_284_0.jpg)
+![bo_d4slmdf7aajc73fspjug_2_1159_1166_287_284_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_2_1159_1166_287_284_0.jpg)
 
 图 11-1-3
 
@@ -66,7 +66,7 @@ title: 必修三第11章简单几何体-dollar
 
 (2)任一平行于圆柱底面的平面与圆柱形成的截面都是与底面全等的圆.
 
-![bo_d4slmdf7aajc73fspjug_2_394_1782_459_357_0.jpg](images/bo_d4slmdf7aajc73fspjug_2_394_1782_459_357_0.jpg)
+![bo_d4slmdf7aajc73fspjug_2_394_1782_459_357_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_2_394_1782_459_357_0.jpg)
 
 图 11-1-4
 
@@ -96,19 +96,19 @@ title: 必修三第11章简单几何体-dollar
 
 祖暅原理 夹在两个平行平面间的两个几何体, 如果被平行于这两个平面的任意平面截得的两个截面都有相等的面积, 那么这两个几何体的体积必相等.
 
-![bo_d4slmdf7aajc73fspjug_4_321_240_608_252_0.jpg](images/bo_d4slmdf7aajc73fspjug_4_321_240_608_252_0.jpg)
+![bo_d4slmdf7aajc73fspjug_4_321_240_608_252_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_4_321_240_608_252_0.jpg)
 
 图 11-1-5
 
 我们可以把图 11-1-5 看成装满水的两个不同容器. 若在任意给定的等高处液面面积相等, 则容器中的水一样多. 我们还可以用下面的方法直观地解释祖暅原理:如图 11-1-6，取一堆书放在桌面上, 将这堆书如图那样改变一下形状, 这时书堆的高度没有改变, 每页的面积也没有改变, 这堆书的体积与变形前相等.
 
-![bo_d4slmdf7aajc73fspjug_4_250_843_752_313_0.jpg](images/bo_d4slmdf7aajc73fspjug_4_250_843_752_313_0.jpg)
+![bo_d4slmdf7aajc73fspjug_4_250_843_752_313_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_4_250_843_752_313_0.jpg)
 
 图 11-1-6
 
 有了祖暅原理，下面就可以方便地推导一般柱体的体积. 设某个棱柱的底面积是 ${S}_{\text{ 底 }}$ ,高是 $h$ . 为了计算它的体积,我们先构造一个底面积为 ${S}_{\text{ 底 }}$ ,高为 $h$ 的长方体,然后把棱柱和长方体同时置于两个平行平面之间, 如图11-1-7所示.
 
-![bo_d4slmdf7aajc73fspjug_4_312_1463_626_289_0.jpg](images/bo_d4slmdf7aajc73fspjug_4_312_1463_626_289_0.jpg)
+![bo_d4slmdf7aajc73fspjug_4_312_1463_626_289_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_4_312_1463_626_289_0.jpg)
 
 图 11-1-7
 
@@ -130,7 +130,7 @@ $$
 
 例 3 已知三棱柱的底面三角形 ${ABC}$ 的三边长分别是 ${AB} = {13}\mathrm{\;{cm}},{BC} = 5\mathrm{\;{cm}},{CA} = {12}\mathrm{\;{cm}}$ ,侧棱 $A{A}^{\prime } = {20}\mathrm{\;{cm}}$ ,且侧棱 $A{A}^{\prime }$ 与底面所成的角为 ${60}^{ \circ  }$ . 求这个三棱柱的体积.
 
-![bo_d4slmdf7aajc73fspjug_5_189_696_313_300_0.jpg](images/bo_d4slmdf7aajc73fspjug_5_189_696_313_300_0.jpg)
+![bo_d4slmdf7aajc73fspjug_5_189_696_313_300_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_5_189_696_313_300_0.jpg)
 
 图 11-1-8
 
@@ -150,11 +150,11 @@ $$
 
 1. 在修建铁路时, 路基需要用碎石铺垫. 已知路基的形状及尺寸如图所示 (单位: m),每修建 $1\mathrm{\;{km}}$ 铁路需要碎石多少 ${\mathrm{m}}^{3}$ ?
 
-![bo_d4slmdf7aajc73fspjug_5_399_1445_473_208_0.jpg](images/bo_d4slmdf7aajc73fspjug_5_399_1445_473_208_0.jpg)
+![bo_d4slmdf7aajc73fspjug_5_399_1445_473_208_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_5_399_1445_473_208_0.jpg)
 
 (第 1 题)
 
-![bo_d4slmdf7aajc73fspjug_5_1033_1425_239_222_0.jpg](images/bo_d4slmdf7aajc73fspjug_5_1033_1425_239_222_0.jpg)
+![bo_d4slmdf7aajc73fspjug_5_1033_1425_239_222_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_5_1033_1425_239_222_0.jpg)
 
 (第 3 题)
 
@@ -172,7 +172,7 @@ $$
 
 我们也可以用平面展开图的方法来求直棱柱的表面积. 如图 11-1-9, 将左边的直六棱柱沿其某条棱剪开, 并展开在一个平面上，可以得到右边的平面图形.
 
-![bo_d4slmdf7aajc73fspjug_6_222_729_802_423_0.jpg](images/bo_d4slmdf7aajc73fspjug_6_222_729_802_423_0.jpg)
+![bo_d4slmdf7aajc73fspjug_6_222_729_802_423_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_6_222_729_802_423_0.jpg)
 
 图 11-1-9
 
@@ -192,7 +192,7 @@ $$
 
 其中, ${S}_{\text{ 底 }}$ 为圆柱的底面积, $r$ 是圆柱底面的半径.
 
-![bo_d4slmdf7aajc73fspjug_7_704_222_636_400_0.jpg](images/bo_d4slmdf7aajc73fspjug_7_704_222_636_400_0.jpg)
+![bo_d4slmdf7aajc73fspjug_7_704_222_636_400_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_7_704_222_636_400_0.jpg)
 
 图 11-1-10
 
@@ -212,7 +212,7 @@ $$
 
 ### 练习 11.1(3)
 
-![bo_d4slmdf7aajc73fspjug_7_1272_1442_227_281_0.jpg](images/bo_d4slmdf7aajc73fspjug_7_1272_1442_227_281_0.jpg)
+![bo_d4slmdf7aajc73fspjug_7_1272_1442_227_281_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_7_1272_1442_227_281_0.jpg)
 
 (第 1 题)
 
@@ -248,11 +248,11 @@ $$
 
 2. 如图, 设圆柱有一个内接棱柱(即棱柱的侧棱都是圆柱的母线, 棱柱的两个底面分别在圆柱的两个底面内). 已知圆柱的体积是 $4\sqrt{3}\pi$ ,棱柱的底面是边长为 2 的正三角形. 求棱柱的体积.
 
-![bo_d4slmdf7aajc73fspjug_8_432_1199_223_324_0.jpg](images/bo_d4slmdf7aajc73fspjug_8_432_1199_223_324_0.jpg)
+![bo_d4slmdf7aajc73fspjug_8_432_1199_223_324_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_8_432_1199_223_324_0.jpg)
 
 (第 2 题)
 
-![bo_d4slmdf7aajc73fspjug_8_806_1317_377_208_0.jpg](images/bo_d4slmdf7aajc73fspjug_8_806_1317_377_208_0.jpg)
+![bo_d4slmdf7aajc73fspjug_8_806_1317_377_208_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_8_806_1317_377_208_0.jpg)
 
 (第 3 题)
 
@@ -262,7 +262,7 @@ $$
 
 和柱体一样, 锥体也是日常生活中常见的空间图形, 如铅锤、金字塔等(图 11-2-1). 本节我们将讨论一些简单锥体的形状特征和度量方法.
 
-![bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg](images/bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg)
+![bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_9_583_649_890_204_0.jpg)
 
 图 11-2-1
 
@@ -270,7 +270,7 @@ $$
 
 观察图 11-2-2 中的图形, 可以发现它们有如下的共同特征: 有一个面是三角形或平面多边形, 且不在这个面上的棱都有一个公共点, 这样的多面体叫做棱锥 (pyramid). 其中, 这个三角形或平面多边形称为棱锥的底面, 其余的面称为棱锥的侧面, 不在底面上的棱称为棱锥的侧棱, 所有侧棱的公共点称为棱锥的顶点, 顶点到底面的距离叫做棱锥的高. 如果棱锥的底面是正多边形, 且底面中心与顶点的连线垂直于底面, 那么这个棱锥叫做正棱锥 (regular pyramid).
 
-![bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg](images/bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg)
+![bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_9_586_1568_877_281_0.jpg)
 
 图 11-2-2
 
@@ -284,7 +284,7 @@ $$
 
 ---
 
-![bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg](images/bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg)
+![bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_10_1166_281_273_318_0.jpg)
 
 图 11-2-3
 
@@ -296,7 +296,7 @@ $$
 
 除了棱锥, 还有一类常见的锥体就是圆锥. 如图 11-2-4, 将直角三角形 ${AOB}$ 绕其一条直角边 ${AO}$ 所在直线旋转一周,所形成的几何体叫做圆锥 (cone). 其中, ${AO}$ 所在直线叫做圆锥的轴, 点 $A$ 叫做圆锥的顶点,直角边 ${OB}$ 旋转而成的圆面叫做圆锥的底面,斜边 ${AB}$ 旋转而成的曲面叫做圆锥的侧面,斜边 ${AB}$ 叫做圆锥的母线,圆锥的顶点到底面间的距离(即 ${AO}$ 的长度) 叫做圆锥的高.
 
-![bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg](images/bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg)
+![bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_10_481_1252_291_278_0.jpg)
 
 图 11-2-4
 
@@ -310,7 +310,7 @@ $$
 
 方便起见,我们把棱锥与圆锥统称为锥体.
 
-![bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg](images/bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg)
+![bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_10_1173_1765_255_304_0.jpg)
 
 图 11-2-5
 
@@ -330,7 +330,7 @@ $$
 
 2.(1)过圆锥的任意两条母线作一个平面与圆锥相截，得到的截面是什么图形？在什么条件下, 所得到的截面面积最大?
 
-![bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg](images/bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg)
+![bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_11_1182_1073_317_197_0.jpg)
 
 (第 3 题)
 
@@ -360,7 +360,7 @@ $$
 
 证明 设正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ . 因为 ${AB}//{CD}$ ,所以当点 $F$ 在 ${CD}$ 上移动时,它与 ${AB}$ 的距离 (即 $\bigtriangleup {FAB}$ 的高)都等于 ${BC}$ ,三角形 ${FAB}$ 的面积 ${S}_{\bigtriangleup {FAB}} = \frac{1}{2}{AB} \times \; {BC} = \frac{1}{2}{a}^{2}$ 为定值.
 
-![bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg](images/bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg)
+![bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_12_1165_439_272_261_0.jpg)
 
 图 11-2-6
 
@@ -368,7 +368,7 @@ $$
 
 由上述证明过程还可以得出,当点 $E$ 在正方体 ${ABCD} - \; {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的上底面上任意移动时,三棱锥 $E - {ABF}$ 的体积均为定值.
 
-![bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg](images/bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg)
+![bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_12_1165_1066_272_259_0.jpg)
 
 图 11-2-7
 
@@ -382,7 +382,7 @@ $$
 
 所以 $\frac{\sqrt{3}}{6}h{a}^{2} = \frac{1}{6}{a}^{3}, h = \frac{\sqrt{3}}{3}a$ .
 
-![bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg](images/bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg)
+![bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_12_1152_1512_295_208_0.jpg)
 
 图 11-2-8
 
@@ -418,7 +418,7 @@ $$
 
 平面几何中, 在推导三角形的面积公式时, 可以先把两个全等的三角形拼成一个平行四边形, 如图 11-2-9, 然后利用已知的平行四边形的面积公式导出三角形的面积公式.
 
-![bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg](images/bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg)
+![bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_13_512_1035_655_152_0.jpg)
 
 图 11-2-9
 
@@ -430,7 +430,7 @@ $$
 
 求证: 三棱锥 $O - {ABC}$ 和 $P - {DEF}$ 的体积相等.
 
-![bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg](images/bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg)
+![bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_13_478_1606_723_461_0.jpg)
 
 图 11-2-10
 
@@ -452,7 +452,7 @@ $$
 
 如图 11-2-11,设 $P - {ABC}$ 是任一给定的三棱锥,其底面面积为 $S,{PO}$ 为高,且 ${PO} = h$ . 过顶点 $P$ 分别作 $P{C}_{1}\overset{//}{ = }{BC}, P{A}_{1}\overset{//}{ = }{BA}$ ,连接 ${A}_{1}{C}_{1}\text{ 、 }{C}_{1}C\text{ 、 }{A}_{1}A$ ,显然 $\bigtriangleup {ABC}\overset{//}{ = } \; \bigtriangleup {A}_{1}P{C}_{1}$ . 由棱柱的定义,可知 ${A}_{1}P{C}_{1} - {ABC}$ 为三棱柱,其底面面积为 $S$ ,高为 $h$ . 下面需要研究的是三棱柱 ${A}_{1}P{C}_{1} - {ABC}$ 与三棱锥 $P - {ABC}$ 的体积之间的关系.
 
-![bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg](images/bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg)
+![bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_14_305_1270_1006_380_0.jpg)
 
 图 11-2-11
 
@@ -466,7 +466,7 @@ $$
 = 3{V}_{\text{ 棱锥 }}{P}_{\text{ -ABC }}\text{ . }
 $$
 
-![bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg](images/bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg)
+![bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_15_1258_227_244_326_0.jpg)
 
 图 11-2-12
 
@@ -494,7 +494,7 @@ $$
 {S}_{\text{ 止棱锥长 }} = \frac{1}{2}c{h}^{\prime } + {S}_{\text{ 底 }}\text{ . }
 $$
 
-![bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg](images/bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg)
+![bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_15_194_1709_309_337_0.jpg)
 
 图 11-2-13
 
@@ -512,7 +512,7 @@ $$
 
 例 6 已知正三棱锥 $O - {ABC}$ 的底面边长为 $2\mathrm{\;{cm}}$ ，高为 $1\mathrm{\;{cm}}$ . 求该三棱锥的表面积.
 
-![bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg](images/bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg)
+![bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_16_1137_543_329_287_0.jpg)
 
 图 11-2-14
 
@@ -524,7 +524,7 @@ $$
 
 解 如图 11-2-15,将圆锥侧面沿母线 ${OP}$ 展开,其平面展开图是一个以 $O$ 为圆心,半径为 ${20}\mathrm{\;{cm}}$ 的扇形. 此扇形的中心角 $\theta  = \frac{2\pi r}{l} = \frac{\pi }{2}$ (弧度),是一个直角扇形.
 
-![bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg](images/bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg)
+![bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_16_1116_1277_396_284_0.jpg)
 
 图 11-2-15
 
@@ -550,11 +550,11 @@ $$
 
 (2)求三棱锥 $P - {ABC}$ 的表面积.
 
-![bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg](images/bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg)
+![bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_17_433_927_297_212_0.jpg)
 
 (第 2 题)
 
-![bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg](images/bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg)
+![bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_17_910_870_335_269_0.jpg)
 
 (第 3 题)
 
@@ -602,7 +602,7 @@ $$
 
 ---
 
-![bo_d4slmdf7aajc73fspjug_20_234_238_783_637_0.jpg](images/bo_d4slmdf7aajc73fspjug_20_234_238_783_637_0.jpg)
+![bo_d4slmdf7aajc73fspjug_20_234_238_783_637_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_20_234_238_783_637_0.jpg)
 
 图 11-3-1
 
@@ -610,19 +610,19 @@ $$
 
 虽然圆柱和圆锥也是常见的几何体, 但它们具有与多面体完全不同的特征:组成这两类几何体的表面不全是平面多边形. 我们在前两节中把圆柱(圆锥)定义成由一个矩形(直角三角形)绕它的一条边 (一条直角边) 旋转一周所形成的几何体. 这里的关键词是“旋转”，由此我们抽象出一般旋转体的概念:由一个平面封闭图形绕其所在平面上的一条定直线旋转一周所形成的空间封闭几何体称为旋转体 (revolving solid) (图 11-3-2), 这条直线叫做该旋转体的轴.
 
-![bo_d4slmdf7aajc73fspjug_20_369_1585_505_506_0.jpg](images/bo_d4slmdf7aajc73fspjug_20_369_1585_505_506_0.jpg)
+![bo_d4slmdf7aajc73fspjug_20_369_1585_505_506_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_20_369_1585_505_506_0.jpg)
 
 图 11-3-2
 
 在车床加工零件或陶瓷工坊制作陶器时, 我们都可以直观地体验旋转体和它的轴.
 
-![bo_d4slmdf7aajc73fspjug_21_549_371_948_329_0.jpg](images/bo_d4slmdf7aajc73fspjug_21_549_371_948_329_0.jpg)
+![bo_d4slmdf7aajc73fspjug_21_549_371_948_329_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_21_549_371_948_329_0.jpg)
 
 与旋转体类似地可以定义空间中的旋转面: 一条平面曲线 (包括直线、折线等)绕其所在平面上的一条直线旋转一周所形成的空间图形称为旋转面. 图 11-3-2 右边的空间几何体的表面就是旋转面, 它可由左边对应平面图形的外框线绕旋转轴旋转而得到.
 
 旋转面是大学空间解析几何课程中的内容之一. 我们这里只关注最简单的情况: 一条直线 $a$ 绕同一平面内的另一条直线 $l$ 旋转一周所形成的曲面: 圆柱面或圆锥面. 当直线 $a$ 与直线 $l$ 平行时,得到的是圆柱面; 当直线 $a$ 与直线 $l$ 相交 (但不垂直) 时,得到的是圆锥面 (图 11-3-3). 直线 $a$ 称为圆柱面或圆锥面的母线. 在圆锥面的情况中,母线与转轴的交点 $O$ 旋转以后仍然是一个点 (仍记为 $O$ ),这个点称为圆锥面的顶点.
 
-![bo_d4slmdf7aajc73fspjug_21_797_1445_454_598_0.jpg](images/bo_d4slmdf7aajc73fspjug_21_797_1445_454_598_0.jpg)
+![bo_d4slmdf7aajc73fspjug_21_797_1445_454_598_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_21_797_1445_454_598_0.jpg)
 
 图 11-3-3
 
@@ -642,13 +642,13 @@ $$
 
 我们迄今所见的多面体(如棱柱、棱锥、正多面体等)都是简单多面体. 但要构造一个非简单多面体也不难. 如图 11-3-4, 这是一个中间有一个长方体空洞的十六面体, 往这样的橡胶多面体充气，得到的是一个游泳圈，而不是球. 算一算，对于图 11-3-4 的多面体, $V + F - E$ 等于多少.
 
-![bo_d4slmdf7aajc73fspjug_22_555_1148_507_236_0.jpg](images/bo_d4slmdf7aajc73fspjug_22_555_1148_507_236_0.jpg)
+![bo_d4slmdf7aajc73fspjug_22_555_1148_507_236_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_22_555_1148_507_236_0.jpg)
 
 图 11-3-4
 
 多面体的欧拉定理的证明与中学数学教材中常见的几何证明有着本质的不同, 它设想所讨论的多面体是用一种可随意变形但不会撕破或粘连的材料(如橡胶)做成的，于是可以把它拉伸或压缩，转换为一个能更好把握的几何体进行研究. 这里我们不做深入讨论, 但要指出, 这个定理及其证明实际上归入一个新的几何学一一拓扑学的领域. 拓扑学关注的是 “相邻” 状态与 “连续” 变形, 而不是度量 (长度、角度以及派生的面积、体积等), 因此拓扑学常被人戏称为 “橡皮筋上的几何学”.
 
-![bo_d4slmdf7aajc73fspjug_22_1221_1491_169_205_0.jpg](images/bo_d4slmdf7aajc73fspjug_22_1221_1491_169_205_0.jpg)
+![bo_d4slmdf7aajc73fspjug_22_1221_1491_169_205_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_22_1221_1491_169_205_0.jpg)
 
 欧拉 (L. Euler, 1707 — 1783), 瑞士数学家，是科学史上最多产的一位杰出数学家， 在许多领域都作出了奠基性的贡献.
 
@@ -666,7 +666,7 @@ $$
 
 2. 有两个面平行, 其余各面都是平行四边形的多面体一定是柱体吗? 请给出你的理由或反例.
 
-![bo_d4slmdf7aajc73fspjug_23_1000_1073_498_253_0.jpg](images/bo_d4slmdf7aajc73fspjug_23_1000_1073_498_253_0.jpg)
+![bo_d4slmdf7aajc73fspjug_23_1000_1073_498_253_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_23_1000_1073_498_253_0.jpg)
 
 (第 3 题)
 
@@ -682,11 +682,11 @@ $$
 
 1. 如图,以正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 六个面的中心为顶点所构成的多面体有多少条棱和多少个面? 设正方体的棱长为 1,设个多面体的表面积和体积是多少?
 
-![bo_d4slmdf7aajc73fspjug_23_410_1810_320_287_0.jpg](images/bo_d4slmdf7aajc73fspjug_23_410_1810_320_287_0.jpg)
+![bo_d4slmdf7aajc73fspjug_23_410_1810_320_287_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_23_410_1810_320_287_0.jpg)
 
 (第 1 题)
 
-![bo_d4slmdf7aajc73fspjug_23_946_1810_322_287_0.jpg](images/bo_d4slmdf7aajc73fspjug_23_946_1810_322_287_0.jpg)
+![bo_d4slmdf7aajc73fspjug_23_946_1810_322_287_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_23_946_1810_322_287_0.jpg)
 
 (第 2 题)
 
@@ -700,7 +700,7 @@ $$
 
 3. 在如图所示的多面体中, 已知 ABCD 为矩形, ${ABFE}$ 和 ${DCFE}$ 为全等的等腰梯形, ${AB} = 4,{BC} = {AE} = \; {EF} = 2$ . 求此多面体的表面积与体积.
 
-![bo_d4slmdf7aajc73fspjug_24_1044_594_424_198_0.jpg](images/bo_d4slmdf7aajc73fspjug_24_1044_594_424_198_0.jpg)
+![bo_d4slmdf7aajc73fspjug_24_1044_594_424_198_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_24_1044_594_424_198_0.jpg)
 
 (第 3 题)
 
@@ -708,7 +708,7 @@ $$
 
 #### B 组
 
-![bo_d4slmdf7aajc73fspjug_24_1234_1054_236_250_0.jpg](images/bo_d4slmdf7aajc73fspjug_24_1234_1054_236_250_0.jpg)
+![bo_d4slmdf7aajc73fspjug_24_1234_1054_236_250_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_24_1234_1054_236_250_0.jpg)
 
 (第 1 题)
 
@@ -724,7 +724,7 @@ ___(找出可能的结果，并将序号填在横线上)
 
 2. 如图, 有两张全等的正三角形纸片, 按照下面两种方法分别将它们剪拼成一个三棱锥和一个三棱柱. 试比较这两个多面体的体积的大小.
 
-![bo_d4slmdf7aajc73fspjug_24_425_1491_770_211_0.jpg](images/bo_d4slmdf7aajc73fspjug_24_425_1491_770_211_0.jpg)
+![bo_d4slmdf7aajc73fspjug_24_425_1491_770_211_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_24_425_1491_770_211_0.jpg)
 
 (第 2 题)
 
@@ -732,7 +732,7 @@ ___(找出可能的结果，并将序号填在横线上)
 
 球是日常生活中最常见的几何体之一, 如足球、篮球、乒乓球等，其形状都是球体，如图 11-4-1 所示.
 
-![bo_d4slmdf7aajc73fspjug_25_584_614_882_237_0.jpg](images/bo_d4slmdf7aajc73fspjug_25_584_614_882_237_0.jpg)
+![bo_d4slmdf7aajc73fspjug_25_584_614_882_237_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_25_584_614_882_237_0.jpg)
 
 图 11-4-1
 
@@ -740,13 +740,13 @@ ___(找出可能的结果，并将序号填在横线上)
 
 和圆柱、圆锥一样, 球也是一个旋转体. 如图 11-4-2, 将圆心为 $O$ 的半圆面绕其直径所在的直线旋转一周,所形成的几何体叫做球 (ball),记作球 $O$ . 半圆的圆弧绕直径旋转所形成的旋转面叫做球面 (sphere),点 $O$ 到球面上任意一点的距离都相等, 点 $O$ 叫做球心,把原半圆的半径和直径分别叫做球的半径和直径. 与圆柱和圆锥只有一条轴不同, 球具有丰富的对称性, 所有经过球心的直线都可以作为球的旋转轴, 每条旋转轴与球面交点之间的线段都是球的直径.
 
-![bo_d4slmdf7aajc73fspjug_25_228_1138_239_239_0.jpg](images/bo_d4slmdf7aajc73fspjug_25_228_1138_239_239_0.jpg)
+![bo_d4slmdf7aajc73fspjug_25_228_1138_239_239_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_25_228_1138_239_239_0.jpg)
 
 图 11-4-2
 
 假设我们用一个平面 $\alpha$ 去截球,得到的截面是什么图形呢? 如图 11-4-3,由直线与平面垂直的性质可知,过球心 $O$ 有且只有一条直线与平面 $\alpha$ 垂直. 设这条直线与球面的交点分别是 $A$ 和 $B$ ,则 ${AB}$ 是球 $O$ 的一条直径. 设平面 $\alpha$ 与 ${AB}$ 的交点是 ${O}_{1}, C$ 是平面 $\alpha$ 与球面的任意公共点. 连接 ${O}_{1}C$ . 在直角三角形 $O{O}_{1}C$ 中,由勾股定理,易知 ${O}_{1}C$ 为定值,与点 $C$ 的选取无关. 这就是说,在平面 $\alpha$ 上, $C$ 到定点 ${O}_{1}$ 的距离为定值,所以平面 $\alpha$ 与球面的交线是一个以 ${O}_{1}$ 为圆心,以 ${O}_{1}C$ 为半径的圆. 特别地, 若平面 $\alpha$ 经过球心,则 ${O}_{1}$ 与 $O$ 重合,此时的截面称为球的大圆 (great circle). 有时, 为了区分, 也把球的非大圆截面称为小圆.
 
-![bo_d4slmdf7aajc73fspjug_26_1106_229_391_288_0.jpg](images/bo_d4slmdf7aajc73fspjug_26_1106_229_391_288_0.jpg)
+![bo_d4slmdf7aajc73fspjug_26_1106_229_391_288_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_26_1106_229_391_288_0.jpg)
 
 图 11-4-3
 
@@ -766,7 +766,7 @@ $$
 
 例 2 如图 11-4-4,设 ${AB}$ 是球 $O$ 的一条直径,过球心 $O$ 作一个大圆 ${ODC}$ 与 ${AB}$ 垂直,过直径 ${AB}$ 上不同于点 $O$ 的任一点 ${O}_{1}$ 作与 ${AB}$ 垂直的平面,与球 $O$ 交于小圆 ${O}_{1}$ ,过直径 ${AB}$ 作两个平面与球分别交于两个大圆 ${OEC}$ 和 ${OFD}, E$ 和 $F$ 分别是这两个大圆的圆周与圆 ${O}_{1}$ 的交点. 求证:
 
-![bo_d4slmdf7aajc73fspjug_26_1170_700_262_287_0.jpg](images/bo_d4slmdf7aajc73fspjug_26_1170_700_262_287_0.jpg)
+![bo_d4slmdf7aajc73fspjug_26_1170_700_262_287_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_26_1170_700_262_287_0.jpg)
 
 图 11-4-4
 
@@ -786,7 +786,7 @@ $$
 
 由例 2, 我们可以对地球的经纬度进行数学解释. 首先我们把地球看作是一个球体. 如图 11-4-4,设直径 ${AB}$ 的端点分别是地球的北极点和南极点,大圆 ${ODC}$ 是赤道所在的平面. 用平行于赤道平面的平面截地球得到的小圆 (如圆 ${O}_{1}$ ) 的圆周称为纬线, 按照南北方向分为南纬和北纬. 过 ${AB}$ 的大圆的半圆周 (如半圆 AFDB)称为经线. 按照约定, 通过英国伦敦格林尼治天文台原址的那条经线称为 0 度经线，从它开始，分别按照东西方向分为东经和西经. 地球上某点的纬度是该点和地心连线与赤道平面所成的角. 由例 2 , 知同一条纬线上的点的纬度都相同; 该点的经度是它所在的经线半圆与 0 度经线半圆所成二面角的度数. 例如,图 11-4-5 中,红点的方位就是 (东经 ${50}^{ \circ  }$ ,北纬 ${40}^{ \circ  }$ ).
 
-![bo_d4slmdf7aajc73fspjug_26_1123_1692_359_368_0.jpg](images/bo_d4slmdf7aajc73fspjug_26_1123_1692_359_368_0.jpg)
+![bo_d4slmdf7aajc73fspjug_26_1123_1692_359_368_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_26_1123_1692_359_368_0.jpg)
 
 图 11-4-5
 
@@ -806,7 +806,7 @@ $$
 
 设有一个半径为 $R$ 的球. 和柱体、锥体一样,我们也可以应用祖暅原理推导球的体积公式. 我们先只考虑半球, 即由球的一个大圆把球切成两部分中的一部分(图 11-4-6(1)). 作为对比的几何体,我们取底面半径为 $R$ 、高为 $R$ 的圆柱,并从中切去一个倒置的底面半径为 $R$ 、高为 $R$ 的圆锥 (圆锥的底面置于圆柱的上底面，圆锥的顶点置于圆柱下底面的圆心) (图 11-4-6(2)).
 
-![bo_d4slmdf7aajc73fspjug_27_587_1391_867_292_0.jpg](images/bo_d4slmdf7aajc73fspjug_27_587_1391_867_292_0.jpg)
+![bo_d4slmdf7aajc73fspjug_27_587_1391_867_292_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_27_587_1391_867_292_0.jpg)
 
 图 11-4-6
 
@@ -838,7 +838,7 @@ $$
 {S}_{\text{ 球 }} = {4\pi }{R}^{2}.
 $$
 
-![bo_d4slmdf7aajc73fspjug_28_417_1700_417_310_0.jpg](images/bo_d4slmdf7aajc73fspjug_28_417_1700_417_310_0.jpg)
+![bo_d4slmdf7aajc73fspjug_28_417_1700_417_310_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_28_417_1700_417_310_0.jpg)
 
 图 11-4-7
 
@@ -856,7 +856,7 @@ $$
 
 整理即得球面面积公式.
 
-![bo_d4slmdf7aajc73fspjug_29_247_958_201_298_0.jpg](images/bo_d4slmdf7aajc73fspjug_29_247_958_201_298_0.jpg)
+![bo_d4slmdf7aajc73fspjug_29_247_958_201_298_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_29_247_958_201_298_0.jpg)
 
 图 11-4-8
 
@@ -878,7 +878,7 @@ $$
 
 ### 练习 11.4(2)
 
-![bo_d4slmdf7aajc73fspjug_29_1311_1764_191_292_0.jpg](images/bo_d4slmdf7aajc73fspjug_29_1311_1764_191_292_0.jpg)
+![bo_d4slmdf7aajc73fspjug_29_1311_1764_191_292_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_29_1311_1764_191_292_0.jpg)
 
 (第 3 题)
 
@@ -910,11 +910,11 @@ $$
 
 3. 如图为一个用鲜花做成的花柱,它的下面是一个直径为 $1\mathrm{\;m}$ 、高为 $3\mathrm{\;m}$ 的圆柱形物体, 上面是一个半球形体. 如果每平方米大约需要鲜花 120 朵, 那么装饰这个花柱大约需要多少朵鲜花?
 
-![bo_d4slmdf7aajc73fspjug_30_508_1501_153_323_0.jpg](images/bo_d4slmdf7aajc73fspjug_30_508_1501_153_323_0.jpg)
+![bo_d4slmdf7aajc73fspjug_30_508_1501_153_323_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_30_508_1501_153_323_0.jpg)
 
 (第 3 题)
 
-![bo_d4slmdf7aajc73fspjug_30_882_1526_298_298_0.jpg](images/bo_d4slmdf7aajc73fspjug_30_882_1526_298_298_0.jpg)
+![bo_d4slmdf7aajc73fspjug_30_882_1526_298_298_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_30_882_1526_298_298_0.jpg)
 
 (第 4 题)
 
@@ -972,23 +972,23 @@ $$
 
 1. 如图, 该几何体是由哪个平面图形旋转得到的？画出其余平面图形旋转得到的几何体.
 
-![bo_d4slmdf7aajc73fspjug_32_231_253_157_237_0.jpg](images/bo_d4slmdf7aajc73fspjug_32_231_253_157_237_0.jpg)
+![bo_d4slmdf7aajc73fspjug_32_231_253_157_237_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_32_231_253_157_237_0.jpg)
 
 (第 1 题)
 
-![bo_d4slmdf7aajc73fspjug_32_533_242_132_247_0.jpg](images/bo_d4slmdf7aajc73fspjug_32_533_242_132_247_0.jpg)
+![bo_d4slmdf7aajc73fspjug_32_533_242_132_247_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_32_533_242_132_247_0.jpg)
 
 (A)
 
-![bo_d4slmdf7aajc73fspjug_32_781_241_107_248_0.jpg](images/bo_d4slmdf7aajc73fspjug_32_781_241_107_248_0.jpg)
+![bo_d4slmdf7aajc73fspjug_32_781_241_107_248_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_32_781_241_107_248_0.jpg)
 
 (B)
 
-![bo_d4slmdf7aajc73fspjug_32_1033_242_106_247_0.jpg](images/bo_d4slmdf7aajc73fspjug_32_1033_242_106_247_0.jpg)
+![bo_d4slmdf7aajc73fspjug_32_1033_242_106_247_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_32_1033_242_106_247_0.jpg)
 
 (C)
 
-![bo_d4slmdf7aajc73fspjug_32_1279_242_111_247_0.jpg](images/bo_d4slmdf7aajc73fspjug_32_1279_242_111_247_0.jpg)
+![bo_d4slmdf7aajc73fspjug_32_1279_242_111_247_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_32_1279_242_111_247_0.jpg)
 
 (D)
 
@@ -1008,7 +1008,7 @@ $$
 
 5. 在棱长为 1 的正方体上，用过同一顶点的三条棱中点的平面分别截该正方体，截去 8 个三棱锥. 求剩下的几何体的体积.
 
-![bo_d4slmdf7aajc73fspjug_32_1148_1148_320_316_0.jpg](images/bo_d4slmdf7aajc73fspjug_32_1148_1148_320_316_0.jpg)
+![bo_d4slmdf7aajc73fspjug_32_1148_1148_320_316_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_32_1148_1148_320_316_0.jpg)
 
 (第 8 题)
 
@@ -1042,15 +1042,15 @@ $$
 
 (2)求异面直线 ${A}_{1}B$ 与 ${AP}$ 所成角的大小.
 
-![bo_d4slmdf7aajc73fspjug_33_281_702_310_296_0.jpg](images/bo_d4slmdf7aajc73fspjug_33_281_702_310_296_0.jpg)
+![bo_d4slmdf7aajc73fspjug_33_281_702_310_296_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_33_281_702_310_296_0.jpg)
 
 (第 8 题)
 
-![bo_d4slmdf7aajc73fspjug_33_707_702_269_296_0.jpg](images/bo_d4slmdf7aajc73fspjug_33_707_702_269_296_0.jpg)
+![bo_d4slmdf7aajc73fspjug_33_707_702_269_296_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_33_707_702_269_296_0.jpg)
 
 (第 9 题)
 
-![bo_d4slmdf7aajc73fspjug_33_1090_791_304_214_0.jpg](images/bo_d4slmdf7aajc73fspjug_33_1090_791_304_214_0.jpg)
+![bo_d4slmdf7aajc73fspjug_33_1090_791_304_214_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_33_1090_791_304_214_0.jpg)
 
 (第 10 题)
 
@@ -1068,11 +1068,11 @@ $$
 
 2. 如图, 一个圆锥形的空杯子上放着一个半球形的冰激凌, 如果冰激凌融化了, 会溢出来吗?
 
-![bo_d4slmdf7aajc73fspjug_33_494_1779_206_292_0.jpg](images/bo_d4slmdf7aajc73fspjug_33_494_1779_206_292_0.jpg)
+![bo_d4slmdf7aajc73fspjug_33_494_1779_206_292_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_33_494_1779_206_292_0.jpg)
 
 (第 2 题)
 
-![bo_d4slmdf7aajc73fspjug_33_848_1804_333_259_0.jpg](images/bo_d4slmdf7aajc73fspjug_33_848_1804_333_259_0.jpg)
+![bo_d4slmdf7aajc73fspjug_33_848_1804_333_259_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_33_848_1804_333_259_0.jpg)
 
 (第 3 题)
 
@@ -1088,6 +1088,6 @@ $$
 
 (2)试把容器罩的体积 $V$ 表示为 $x$ 的函数.
 
-![bo_d4slmdf7aajc73fspjug_34_385_659_846_340_0.jpg](images/bo_d4slmdf7aajc73fspjug_34_385_659_846_340_0.jpg)
+![bo_d4slmdf7aajc73fspjug_34_385_659_846_340_0.jpg](attachments/bo_d4slmdf7aajc73fspjug_34_385_659_846_340_0.jpg)
 
 (第 4 题)

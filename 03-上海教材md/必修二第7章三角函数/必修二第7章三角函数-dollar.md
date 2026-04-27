@@ -4,7 +4,7 @@ title: 必修二第7章三角函数-dollar
 ---
 # 三角函数
 
-![bo_d5205277aajc73fu465g_0_0_1_1654_1163_0.jpg](images/bo_d5205277aajc73fu465g_0_0_1_1654_1163_0.jpg)
+![bo_d5205277aajc73fu465g_0_0_1_1654_1163_0.jpg](attachments/bo_d5205277aajc73fu465g_0_0_1_1654_1163_0.jpg)
 
 前一章学习了三角，无论是在锐角三角形中, 还是在平面直角坐标系中, 我们都是从几何的角度, 把正弦、余弦和正切看成一个比值. 本章我们将从函数的角度看待正弦、余弦和正切, 研究这些三角函数的图像与性质.
 
@@ -22,7 +22,7 @@ title: 必修二第7章三角函数-dollar
 
 为了描出 $y = \sin x$ 图像上的某个点 $M\left( {\alpha ,\sin \alpha }\right)$ ,先在平面直角坐标系的 $x$ 轴上任取一点 ${O}_{1}$ ,以点 ${O}_{1}$ 为圆心的单位圆与 $x$ 轴有两个交点,其中右边的一个交点记作 $A$ (图 7-1-1). 设 $P$ 是此单位圆上一点, $\angle A{O}_{1}P = \alpha$ ,作 ${PQ}$ 垂直于 $x$ 轴,其垂足为 Q. 对比以坐标原点 $O$ 为圆心的单位圆中角 $\alpha$ 的终边与单位圆的交点,可知点 $P$ 的纵坐标为 $\sin \alpha$ ,而 ${QP}$ 的长是 $\left| {\sin \alpha }\right|$ . 在 $x$ 轴上取点 $N\left( {\alpha ,0}\right)$ ,将线段 ${QP}$ 平移至 ${NM}$ 的位置使点 $Q$ 与点 $N$ 重合,从而点 $M$ 的坐标为 $\left( {\alpha ,\sin \alpha }\right)$ ,这样就得到了函数 $y = \sin x$ 图像上的一点 $M$ .
 
-![bo_d5205277aajc73fu465g_1_774_1644_500_256_0.jpg](images/bo_d5205277aajc73fu465g_1_774_1644_500_256_0.jpg)
+![bo_d5205277aajc73fu465g_1_774_1644_500_256_0.jpg](attachments/bo_d5205277aajc73fu465g_1_774_1644_500_256_0.jpg)
 
 图 7-1-1
 
@@ -38,19 +38,19 @@ title: 必修二第7章三角函数-dollar
 
 ---
 
-![bo_d5205277aajc73fu465g_2_227_517_794_312_0.jpg](images/bo_d5205277aajc73fu465g_2_227_517_794_312_0.jpg)
+![bo_d5205277aajc73fu465g_2_227_517_794_312_0.jpg](attachments/bo_d5205277aajc73fu465g_2_227_517_794_312_0.jpg)
 
 图 7-1-2
 
 因为 $\sin \left( {x + {2k\pi }}\right)  = \sin x, k \in  \mathbf{Z}$ ,所以函数 $y = \sin x$ 当 $x \in  \left\lbrack  {{2\pi },{4\pi }}\right\rbrack  , x \in  \left\lbrack  {{4\pi },{6\pi }}\right\rbrack  ,\cdots$ 时的图像与 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的图像形状完全一样,只需将后者向右平移 ${2\pi }\text{ 、 }{4\pi }\text{ 、 }\cdots$ 就可得到. 同样,函数 $y = \sin x$ 当 $x \in  \left\lbrack  {-{2\pi },0}\right\rbrack  , x \in  \left\lbrack  {-{4\pi }, - {2\pi }}\right\rbrack  ,\cdots$ 时的图像与 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的图像形状也完全一样,只需将后者向左平移 ${2\pi }\text{ 、 }{4\pi }\text{ 、 }\cdots$ 就可得到. 这样,就可以得到函数 $y = \sin x$ 的图像 (图 7-1-3). 正弦函数 $y = \sin x$ 的图像通常称为正弦曲线.
 
-![bo_d5205277aajc73fu465g_2_172_1312_904_220_0.jpg](images/bo_d5205277aajc73fu465g_2_172_1312_904_220_0.jpg)
+![bo_d5205277aajc73fu465g_2_172_1312_904_220_0.jpg](attachments/bo_d5205277aajc73fu465g_2_172_1312_904_220_0.jpg)
 
 图 7-1-3
 
 从图 7-1-2 可知， $\left( {0,0}\right) \text{ 、 }\left( {\frac{\pi }{2},1}\right) \text{ 、 }\left( {\pi ,0}\right) \text{ 、 }\left( {\frac{3\pi }{2}, - 1}\right)$ 和 $\left( {{2\pi },0}\right)$ 是函数 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 图像的五个关键点. 我们描出这五个点,并用光滑的曲线将它们连接起来,就得到函数 $y = \; \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的大致图像 (图 7-1-4).
 
-![bo_d5205277aajc73fu465g_2_352_1855_544_250_0.jpg](images/bo_d5205277aajc73fu465g_2_352_1855_544_250_0.jpg)
+![bo_d5205277aajc73fu465g_2_352_1855_544_250_0.jpg](attachments/bo_d5205277aajc73fu465g_2_352_1855_544_250_0.jpg)
 
 图 7-1-4
 
@@ -66,7 +66,7 @@ title: 必修二第7章三角函数-dollar
 
 描点并用光滑曲线把它们连接起来,就得到 $y = 1 - \sin x$ , $x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的大致图像 (图 7-1-5).
 
-![bo_d5205277aajc73fu465g_3_788_934_472_279_0.jpg](images/bo_d5205277aajc73fu465g_3_788_934_472_279_0.jpg)
+![bo_d5205277aajc73fu465g_3_788_934_472_279_0.jpg](attachments/bo_d5205277aajc73fu465g_3_788_934_472_279_0.jpg)
 
 图 7-1-5
 
@@ -198,7 +198,7 @@ $\sin \frac{7\pi }{6} =  - \sin \frac{\pi }{6} =  - \frac{1}{2}.$
 
 3. 现实生活中常碰到类似于周期的现象. 根据图中标出的尺度估算下列心电图的周期. (其中横轴的单位是 $2\mathrm{{ms}},1\mathrm{s} = {1000}\mathrm{{ms}}$ ; 纵轴的单位是 $\mathrm{{mV}}$ )
 
-![bo_d5205277aajc73fu465g_7_446_301_783_169_0.jpg](images/bo_d5205277aajc73fu465g_7_446_301_783_169_0.jpg)
+![bo_d5205277aajc73fu465g_7_446_301_783_169_0.jpg](attachments/bo_d5205277aajc73fu465g_7_446_301_783_169_0.jpg)
 
 (第 3 题)
 
@@ -208,7 +208,7 @@ $\sin \frac{7\pi }{6} =  - \sin \frac{\pi }{6} =  - \frac{1}{2}.$
 
 设角 $x$ 的终边与以原点为圆心的单位圆交于点 $P$ (图7-1-6), 点 $P$ 的坐标为 $\left( {u, v}\right)$ . 由正弦的定义, $\sin x = v$ ,于是有 $\left| {\sin x}\right| \; = \left| v\right|  \leq  1$ .
 
-![bo_d5205277aajc73fu465g_7_863_981_320_281_0.jpg](images/bo_d5205277aajc73fu465g_7_863_981_320_281_0.jpg)
+![bo_d5205277aajc73fu465g_7_863_981_320_281_0.jpg](attachments/bo_d5205277aajc73fu465g_7_863_981_320_281_0.jpg)
 
 图 7-1-6
 
@@ -312,7 +312,7 @@ $$
 
 例 6 如图 7-1-7,在一个半径为 $r$ 的半圆形铁板中,截取一块矩形 ${ABCD}$ ,使得矩形的顶点 $A\text{ 、 }B$ 在半圆的直径上, $C\text{ 、 }D$ 在半圆弧上. 问: 如何截取矩形 ${ABCD}$ ,使其面积达到最大值? 并求出这个最大值.
 
-![bo_d5205277aajc73fu465g_9_210_1362_273_174_0.jpg](images/bo_d5205277aajc73fu465g_9_210_1362_273_174_0.jpg)
+![bo_d5205277aajc73fu465g_9_210_1362_273_174_0.jpg](attachments/bo_d5205277aajc73fu465g_9_210_1362_273_174_0.jpg)
 
 图 7-1-7
 
@@ -340,7 +340,7 @@ $$
 
 2. 求下列函数的最大值与最小值:
 
-![bo_d5205277aajc73fu465g_10_1110_532_361_311_0.jpg](images/bo_d5205277aajc73fu465g_10_1110_532_361_311_0.jpg)
+![bo_d5205277aajc73fu465g_10_1110_532_361_311_0.jpg](attachments/bo_d5205277aajc73fu465g_10_1110_532_361_311_0.jpg)
 
 (第 3 题)
 
@@ -400,7 +400,7 @@ $$
 
 由于正弦函数是以 ${2\pi }$ 为最小正周期的周期函数,因此在研究它的单调区间时,只需选择一个长度为 ${2\pi }$ 的合适的区间进行考察. 方便起见,我们可以在 $\left\lbrack  {-\frac{\pi }{2},\frac{3\pi }{2}}\right\rbrack$ 上研究正弦函数 $y = \sin x$ 的单调性.
 
-![bo_d5205277aajc73fu465g_11_728_1065_588_259_0.jpg](images/bo_d5205277aajc73fu465g_11_728_1065_588_259_0.jpg)
+![bo_d5205277aajc73fu465g_11_728_1065_588_259_0.jpg](attachments/bo_d5205277aajc73fu465g_11_728_1065_588_259_0.jpg)
 
 图 7-1-8
 
@@ -486,7 +486,7 @@ $$
 
 一个质量为 $m$ 的质点绕点 $O$ 按逆时针方向做匀速圆周运动. 设圆的半径为 $r$ ,而质点运动的角速度为 $\omega$ . 以圆心 $O$ 为坐标原点,圆心 $O$ 与质点的初始位置 $B$ 的连线为 $x$ 轴,建立如图 7-1-9 所示的平面直角坐标系. 经过一段时间 $t$ ,该质点沿圆周从点 $B$ 运动到点 $P\left( {x, y}\right)$ . 由于 ${OP}$ 为角 ${\omega t}$ 的终边,由正弦和余弦的定义,有 $\left\{  \begin{array}{l} x = r\cos {\omega t}, \\  y = r\sin {\omega t}. \end{array}\right.$ 这说明匀速圆周运动在水平方向和竖直方向的投影分别按余弦规律和正弦规律随时间 $t$ 而变化.
 
-![bo_d5205277aajc73fu465g_13_1213_1655_288_265_0.jpg](images/bo_d5205277aajc73fu465g_13_1213_1655_288_265_0.jpg)
+![bo_d5205277aajc73fu465g_13_1213_1655_288_265_0.jpg](attachments/bo_d5205277aajc73fu465g_13_1213_1655_288_265_0.jpg)
 
 图 7-1-9
 
@@ -494,7 +494,7 @@ $$
 
 圆心. 向心力的竖直分力为 ${F}_{y} =  - {mr}{\omega }^{2}\sin {\omega t} =  - m{\omega }^{2}y$ . 记常数 $k = m{\omega }^{2}$ ,就有 ${F}_{y} =  - {ky}$ ,从而质点所受合力的竖直分力与竖直位移成正比且方向相反, 这正和简谐运动中质点 (如图 7-1-10 中连接在弹簧上的小球) 的受力情况相仿. 由此类比, 我们知道匀速圆周运动在竖直方向上的投影就是一个简谐运动,它的位移随时间的变化关系为 $y = A\sin {\omega t}$ . 更一般地,如果不要求 $t = 0$ 时 $y = 0$ ,就有 $y = A\sin \left( {{\omega t} + \varphi }\right)$ .
 
-![bo_d5205277aajc73fu465g_14_1128_227_345_92_0.jpg](images/bo_d5205277aajc73fu465g_14_1128_227_345_92_0.jpg)
+![bo_d5205277aajc73fu465g_14_1128_227_345_92_0.jpg](attachments/bo_d5205277aajc73fu465g_14_1128_227_345_92_0.jpg)
 
 图 7-1-10
 
@@ -550,11 +550,11 @@ $$
 
 6. 设半圆 $O$ 的直径为 2,而 $A$ 为直径延长线上的一点,且 ${OA} = 2$ . 对半圆上任意给定的一点 $B$ ,以 ${AB}$ 为一边作等边三角形 ${ABC}$ ,使 $\bigtriangleup {ABC}$ 和 $\bigtriangleup {ABO}$ 在 ${AB}$ 的两侧 (如图所示). 求四边形 ${OACB}$ 面积的最大值,并求使四边形 ${OACB}$ 面积取得最大值时的 $\angle {AOB}$ 的大小.
 
-![bo_d5205277aajc73fu465g_15_254_964_320_208_0.jpg](images/bo_d5205277aajc73fu465g_15_254_964_320_208_0.jpg)
+![bo_d5205277aajc73fu465g_15_254_964_320_208_0.jpg](attachments/bo_d5205277aajc73fu465g_15_254_964_320_208_0.jpg)
 
 (第 6 题)
 
-![bo_d5205277aajc73fu465g_15_787_900_638_278_0.jpg](images/bo_d5205277aajc73fu465g_15_787_900_638_278_0.jpg)
+![bo_d5205277aajc73fu465g_15_787_900_638_278_0.jpg](attachments/bo_d5205277aajc73fu465g_15_787_900_638_278_0.jpg)
 
 (第 7 题)
 
@@ -576,7 +576,7 @@ $$
 
 但是,由于已经知道了正弦函数 $y = \sin x$ 的图像,我们可以简便地利用余弦函数与正弦函数的关系来作出余弦函数的图像. 事实上,由于 $\cos x = \sin \left( {x + \frac{\pi }{2}}\right)$ 对任意的 $x \in  \mathbf{R}$ 都成立,因此余弦函数 $y = \cos x$ 与函数 $y = \sin \left( {x + \frac{\pi }{2}}\right)$ 是同一个函数,从而它们的图像相同. 由于将正弦函数 $y = \sin x$ 的图像向左平移 $\frac{\pi }{2}$ 就得到函数 $y = \sin \left( {x + \frac{\pi }{2}}\right)$ 的图像,即 $y = \cos x$ 的图像 (图 7-2-1). 余弦函数的图像通常称为余弦曲线.
 
-![bo_d5205277aajc73fu465g_16_152_1703_945_222_0.jpg](images/bo_d5205277aajc73fu465g_16_152_1703_945_222_0.jpg)
+![bo_d5205277aajc73fu465g_16_152_1703_945_222_0.jpg](attachments/bo_d5205277aajc73fu465g_16_152_1703_945_222_0.jpg)
 
 图 7-2-1
 
@@ -584,7 +584,7 @@ $$
 
 ---
 
-![bo_d5205277aajc73fu465g_16_1175_1778_252_188_0.jpg](images/bo_d5205277aajc73fu465g_16_1175_1778_252_188_0.jpg)
+![bo_d5205277aajc73fu465g_16_1175_1778_252_188_0.jpg](attachments/bo_d5205277aajc73fu465g_16_1175_1778_252_188_0.jpg)
 
 如图, 拨动弹簧片后，弹簧片端点离开平衡位置的位移 $s$ 随时间 $t$ 呈余弦曲线的变化规律.
 
@@ -720,7 +720,7 @@ C. 最小正周期为 $\frac{\pi }{2}$ 的奇函数; D. 最小正周期为 $\fra
 
 在现实生活中, 我们知道钟表分针的转动具有周期现象. 怎样用函数来描述这种周期现象呢?
 
-![bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg](images/bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg)
+![bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg](attachments/bo_d5205277aajc73fu465g_20_1152_611_298_302_0.jpg)
 
 图 7-3-1
 
@@ -744,7 +744,7 @@ $$
 
 单摆或弹簧往复振动一次所需的时间 $T = \frac{2\pi }{\omega }$ 称为该振动的周期 (即前面所说的最小正周期). $\omega$ 越大,振动的周期越小.
 
-![bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg](images/bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg)
+![bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg](attachments/bo_d5205277aajc73fu465g_20_1132_1532_336_95_0.jpg)
 
 图 7-3-2
 
@@ -772,7 +772,7 @@ ${\omega x} + \varphi$ 称为该振动的相位 (phase). 当 $x = 0$ 时的相�
 
 解 用计算器(机)可作出相应的图像,如图 7-3-3 所示:
 
-![bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg](images/bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg)
+![bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg](attachments/bo_d5205277aajc73fu465g_21_584_669_880_346_0.jpg)
 
 图 7-3-3
 
@@ -798,13 +798,13 @@ ${\omega x} + \varphi$ 称为该振动的相位 (phase). 当 $x = 0$ 时的相�
 
 这个函数的振幅为 3,频率为 $f = \frac{\omega }{2\pi } = \frac{1}{\pi }$ ,初始相位为 $\frac{\pi }{4}$ .
 
-![bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg](images/bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg)
+![bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg](attachments/bo_d5205277aajc73fu465g_22_397_1061_456_327_0.jpg)
 
 图 7-3-4
 
 例 3 已知交流电的电流强度 $I$ 关于时间 $t$ 的函数为 $I = \; {I}_{0}\sin \left( {{\omega t} + \varphi }\right)$ ,其中 ${I}_{0} > 0,\omega  > 0,0 \leq  \varphi  < {2\pi }$ . 根据图像求出它的周期、频率和电流的最大值,并写出 ${I}_{0}\text{ 、 }\omega$ 和 $\varphi$ 的值.
 
-![bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg](images/bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg)
+![bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg](attachments/bo_d5205277aajc73fu465g_22_315_1681_616_236_0.jpg)
 
 图 7-3-5
 
@@ -838,7 +838,7 @@ C. $y = 5\sin 2\left( {x + \frac{\pi }{4}}\right)$ ; D. $y = 5\sin 3\left( {x + 
 
 3. 下图是函数 $y = A\sin \left( {{\omega x} + \varphi }\right)$ 的图像,请根据图中的信息,写出该图像的一个函数表达式.
 
-![bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg](images/bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg)
+![bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg](attachments/bo_d5205277aajc73fu465g_23_615_1158_447_292_0.jpg)
 
 (第 3 题)
 
@@ -852,7 +852,7 @@ C. $y = 5\sin 2\left( {x + \frac{\pi }{4}}\right)$ ; D. $y = 5\sin 3\left( {x + 
 
 <table><tr><td>时间/h</td><td>1</td><td>$8\frac{19}{30}$</td><td>13 $\frac{53}{60}$</td><td>20 $\frac{7}{10}$</td></tr><tr><td>潮汐高度/cm</td><td>478</td><td>112</td><td>461</td><td>116</td></tr></table>
 
-![bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg](images/bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg)
+![bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg](attachments/bo_d5205277aajc73fu465g_24_431_269_773_421_0.jpg)
 
 图 7-3-6
 
@@ -886,7 +886,7 @@ $$
 
 当两者的频率很接近,即 ${\omega }_{1}$ 和 ${\omega }_{2}$ 很接近时, $\cos \left( {\frac{{\omega }_{1} - {\omega }_{2}}{2}t + \frac{{\varphi }_{1} - {\varphi }_{2}}{2}}\right)$ 的频率很低, 会产生如下合成后的振动图像(图 7-3-7):
 
-![bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg](images/bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg)
+![bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg](attachments/bo_d5205277aajc73fu465g_25_435_539_807_154_0.jpg)
 
 图 7-3-7
 
@@ -910,7 +910,7 @@ $$
 
 5. 如图, 弹簧挂着的小球上下振动. 设小球相对于平衡位置(即静止时的位置) 的距离 $h\left( \mathrm{\;{cm}}\right)$ 与时间 $t\left( \mathrm{\;s}\right)$ 之间的函数表达式是 $h = 2\sin \left( {{\pi t} + \frac{\pi }{4}}\right) , t \geq  0$ ,作出这个函数的大致图像,并回答下列问题:
 
-![bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg](images/bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg)
+![bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg](attachments/bo_d5205277aajc73fu465g_25_1207_1816_295_275_0.jpg)
 
 (第 5 题)
 
@@ -924,7 +924,7 @@ $$
 
 ##### B 组
 
-![bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg](images/bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg)
+![bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg](attachments/bo_d5205277aajc73fu465g_26_1031_440_440_243_0.jpg)
 
 (第 2 题)
 
@@ -948,7 +948,7 @@ $$
 
 ### 1 正切函数的图像
 
-![bo_d5205277aajc73fu465g_27_228_1033_241_343_0.jpg](images/bo_d5205277aajc73fu465g_27_228_1033_241_343_0.jpg)
+![bo_d5205277aajc73fu465g_27_228_1033_241_343_0.jpg](attachments/bo_d5205277aajc73fu465g_27_228_1033_241_343_0.jpg)
 
 图 7-4-1
 
@@ -956,13 +956,13 @@ $$
 
 类似于作正弦函数图像的方法, 利用单位圆并结合描点法我们可以作出 $y = \tan x, x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ 的大致图像 (图 7-4-2).
 
-![bo_d5205277aajc73fu465g_27_802_1277_444_498_0.jpg](images/bo_d5205277aajc73fu465g_27_802_1277_444_498_0.jpg)
+![bo_d5205277aajc73fu465g_27_802_1277_444_498_0.jpg](attachments/bo_d5205277aajc73fu465g_27_802_1277_444_498_0.jpg)
 
 图 7-4-2
 
 因为 $\tan \left( {x + {k\pi }}\right)  = \tan x, k \in  \mathbf{Z}$ ,所以函数 $y = \tan x$ 当 $x \in  \left( {\frac{\pi }{2},\frac{3\pi }{2}}\right) , x \in  \left( {\frac{3\pi }{2},\frac{5\pi }{2}}\right) ,\cdots$ 时的图像与 $y = \tan x$ , $x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ 的图像形状一样,只需将后者图像的位置向右平移 $\pi \text{ 、 }{2\pi }\text{ 、 }\cdots$ 就可得到; 同理,函数 $y = \tan x$ 当 $x \in  \left( {-\frac{3\pi }{2}, - \frac{\pi }{2}}\right)$ , $x \in  \left( {-\frac{5\pi }{2}, - \frac{3\pi }{2}}\right) ,\cdots$ 时的图像与 $y = \tan x, x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ 的图像形状也一样,只需将后者图像的位置向左平移 $\pi \text{ 、 }{2\pi }\text{ 、 }\cdots$ 就可得到. 这样,就可以得到函数 $y = \tan x$ 的整个图像 (图 7-4-3).
 
-![bo_d5205277aajc73fu465g_28_361_439_530_323_0.jpg](images/bo_d5205277aajc73fu465g_28_361_439_530_323_0.jpg)
+![bo_d5205277aajc73fu465g_28_361_439_530_323_0.jpg](attachments/bo_d5205277aajc73fu465g_28_361_439_530_323_0.jpg)
 
 图 7-4-3
 
@@ -1052,9 +1052,9 @@ $$
 
 某国际标准足球场长 ${105}\mathrm{\;m}$ 、宽 ${68}\mathrm{\;m}$ ,球门宽 ${7.32}\mathrm{\;m}$ . 当足球运动员沿边路带球突破时, 距底线多远处射门, 对球门所张的角最大?
 
-![bo_d5205277aajc73fu465g_30_410_1839_336_234_0.jpg](images/bo_d5205277aajc73fu465g_30_410_1839_336_234_0.jpg)
+![bo_d5205277aajc73fu465g_30_410_1839_336_234_0.jpg](attachments/bo_d5205277aajc73fu465g_30_410_1839_336_234_0.jpg)
 
-![bo_d5205277aajc73fu465g_30_894_1858_316_213_0.jpg](images/bo_d5205277aajc73fu465g_30_894_1858_316_213_0.jpg)
+![bo_d5205277aajc73fu465g_30_894_1858_316_213_0.jpg](attachments/bo_d5205277aajc73fu465g_30_894_1858_316_213_0.jpg)
 
 #### 习题 7.4
 
@@ -1150,7 +1150,7 @@ $$
 
 5. 如图，摩天轮上一点 $P$ 距离地面的高度 $y$ 关于时间 $t$ 的函数表达式为 $y = A\sin \left( {{\omega t} + \varphi }\right)  + b,\varphi  \in  \left\lbrack  {-\pi ,\pi }\right\rbrack$ . 已知摩天轮的半径为 ${50}\mathrm{\;m}$ ,其中心点 $O$ 距地面 ${60}\mathrm{\;m}$ ,摩天轮以每 30 分钟转一圈的方式做匀速转动,而点 $P$ 的起始位置在摩天轮的最低点处.
 
-![bo_d5205277aajc73fu465g_33_1148_1693_353_253_0.jpg](images/bo_d5205277aajc73fu465g_33_1148_1693_353_253_0.jpg)
+![bo_d5205277aajc73fu465g_33_1148_1693_353_253_0.jpg](attachments/bo_d5205277aajc73fu465g_33_1148_1693_353_253_0.jpg)
 
 (第 5 题)
 
@@ -1196,7 +1196,7 @@ $$
 
 (2)若函数 $y = {kx}, x \in  \mathbf{R}$ 与函数 $y = f\left( x\right)$ 的图像恰有 7 个不同的交点，求 $k$ 的值.
 
-![bo_d5205277aajc73fu465g_34_1130_1594_344_337_0.jpg](images/bo_d5205277aajc73fu465g_34_1130_1594_344_337_0.jpg)
+![bo_d5205277aajc73fu465g_34_1130_1594_344_337_0.jpg](attachments/bo_d5205277aajc73fu465g_34_1130_1594_344_337_0.jpg)
 
 (第 3 题)
 

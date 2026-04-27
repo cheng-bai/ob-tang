@@ -162,7 +162,7 @@ ${8.32} \times  2$ 列联表 138
 
 复习题 146
 
-![bo_d7fr7rs91nqc7381ido0_7_0_0_1654_1061_0.jpg](images/bo_d7fr7rs91nqc7381ido0_7_0_0_1654_1061_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_7_0_0_1654_1061_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_7_0_0_1654_1061_0.jpg)
 
 ## 第 5 章 导数及其应用
 
@@ -182,7 +182,7 @@ ${8.32} \times  2$ 列联表 138
 
 当物体作匀速运动时,运动的速度 $v$ 等于距离 $s$ 除以运动时间 $t$ ,即 $v = \frac{s}{t}$ . 但是,如果一个作变速运动的物体在时间段 $t$ 内的运动距离是 $s$ ,上面的公式所给出的只能是这段运动过程中运动物体的平均速度 $\bar{v} = \frac{s}{t}$ .
 
-![bo_d7fr7rs91nqc7381ido0_8_180_908_332_191_0.jpg](images/bo_d7fr7rs91nqc7381ido0_8_180_908_332_191_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_8_180_908_332_191_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_8_180_908_332_191_0.jpg)
 
 图 5-1-1
 
@@ -320,13 +320,13 @@ $$
 
 我们把连接曲线上任意两点的直线称为该曲线的一条割线 (secant line). 如图 5-1-2,给定曲线上的一点 $P$ ,考虑以 $P$ 为端点的一条小曲线段 $\overset{\text{ ⏜ }}{PQ}$ 和割线 ${PQ}$ . 像平均速度趋近于瞬时速度那样,当曲线段 $\overset{\text{ ⏜ }}{PQ}$ 取得越来越短,即点 $Q$ 越来越靠近点 $P$ 时,如果割线 ${PQ}$ 趋近于一条确定的直线,那么我们就将这条直线称为曲线在点 $P$ 处的切线 (tangent line). 就像瞬时速度是物体在给定时刻的运动状态的最好描述一样,在点 $P$ 处的切线是曲线在点 $P$ 附近性质的最好描述.
 
-![bo_d7fr7rs91nqc7381ido0_12_574_1137_897_306_0.jpg](images/bo_d7fr7rs91nqc7381ido0_12_574_1137_897_306_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_12_574_1137_897_306_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_12_574_1137_897_306_0.jpg)
 
 图 5-1-2
 
 切线这个术语我们并不陌生, 在平面几何的学习中已定义过圆的切线, 并讨论过它的性质. 那里所定义的圆的切线是否与上面这个新定义一致呢?
 
-![bo_d7fr7rs91nqc7381ido0_12_175_1707_291_197_0.jpg](images/bo_d7fr7rs91nqc7381ido0_12_175_1707_291_197_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_12_175_1707_291_197_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_12_175_1707_291_197_0.jpg)
 
 图 5-1-3
 
@@ -374,7 +374,7 @@ $$
 {k}_{P{Q}_{n}} = \frac{{y}_{n} - {y}_{P}}{{x}_{n} - {x}_{P}} = \frac{f\left( {{x}_{0} + h}\right)  - f\left( {x}_{0}\right) }{h},
 $$
 
-![bo_d7fr7rs91nqc7381ido0_14_163_574_368_212_0.jpg](images/bo_d7fr7rs91nqc7381ido0_14_163_574_368_212_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_14_163_574_368_212_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_14_163_574_368_212_0.jpg)
 
 图 5-1-4
 
@@ -506,7 +506,7 @@ $$
 
 5. 函数 $y = f\left( x\right)$ 的图像如图所示.
 
-![bo_d7fr7rs91nqc7381ido0_16_1134_1298_368_246_0.jpg](images/bo_d7fr7rs91nqc7381ido0_16_1134_1298_368_246_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_16_1134_1298_368_246_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_16_1134_1298_368_246_0.jpg)
 
 (第 5 题)
 
@@ -544,7 +544,7 @@ $$
 
 4. 如图,已知直线 $l$ 是曲线 $y = f\left( x\right)$ 在 $x = 3$ 处的切线,求 ${f}^{\prime }\left( 3\right)$ .
 
-![bo_d7fr7rs91nqc7381ido0_17_588_525_432_243_0.jpg](images/bo_d7fr7rs91nqc7381ido0_17_588_525_432_243_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_17_588_525_432_243_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_17_588_525_432_243_0.jpg)
 
 (第 4 题)
 
@@ -1054,7 +1054,7 @@ $x = 2$ . 此函数只有一个驻点.
 
 例 5 已知在区间 $\left( {0,1}\right)$ 上 ${f}^{\prime }\left( x\right)  > 1$ . 在图 5-3-1 所示的图像中,哪些有可能表示函数 $y = f\left( x\right)$ ? 为什么?
 
-![bo_d7fr7rs91nqc7381ido0_29_154_823_952_256_0.jpg](images/bo_d7fr7rs91nqc7381ido0_29_154_823_952_256_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_29_154_823_952_256_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_29_154_823_952_256_0.jpg)
 
 图 5-3-1
 
@@ -1086,7 +1086,7 @@ $x = 2$ . 此函数只有一个驻点.
 
 观察图 5-3-2 中函数 $y = f\left( x\right)$ 的图像,其中有一些特殊的点, 在这些特殊点的左右两侧附近, 函数的单调性发生了改变. 例如,函数在点 $\left( {{x}_{1}, f\left( {x}_{1}\right) }\right)$ 的左侧附近严格增,右侧附近严格减，此处出现了一个“山峰”；又如，函数在点 $\left( {{x}_{2}, f\left( {x}_{2}\right) }\right)$ 的左侧附近严格减，右侧附近严格增，此处出现了一个“山谷”.
 
-![bo_d7fr7rs91nqc7381ido0_30_624_756_795_317_0.jpg](images/bo_d7fr7rs91nqc7381ido0_30_624_756_795_317_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_30_624_756_795_317_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_30_624_756_795_317_0.jpg)
 
 图 5-3-2
 
@@ -1162,7 +1162,7 @@ $x = 2$ . 此函数只有一个驻点.
 
 区间 $I$ 上图像为一条连绵不断的曲线的函数. 更精确及普适的连续函数的定义, 要用到严格的极限语言, 在高等数学中才能给出.
 
-![bo_d7fr7rs91nqc7381ido0_33_1168_231_264_428_0.jpg](images/bo_d7fr7rs91nqc7381ido0_33_1168_231_264_428_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_33_1168_231_264_428_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_33_1168_231_264_428_0.jpg)
 
 图 5-3-3
 
@@ -1282,7 +1282,7 @@ $$
 
 例 11 图 5-3-4 是一张边长为 3 的正方形硬纸板, 先在它的四个角上裁去边长为 $x$ 的四个小正方形,再折叠成无盖纸盒. 当裁去的小正方形边长 $x$ 发生变化时,纸盒的容积 $V$ 会随之发生变化. 当 $x$ 在什么范围内变化时,容积 $V$ 随着 $x$ 的增大而增大? 当 $x$ 在什么范围内变化时,容积 $V$ 随着 $x$ 的增大而减小? 当 $x$ 取何值时,容积 $V$ 最大? 最大值是多少? (纸板厚度忽略不计)
 
-![bo_d7fr7rs91nqc7381ido0_36_685_1044_677_282_0.jpg](images/bo_d7fr7rs91nqc7381ido0_36_685_1044_677_282_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_36_685_1044_677_282_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_36_685_1044_677_282_0.jpg)
 
 图 5-3-4
 
@@ -1328,7 +1328,7 @@ ${C}^{\prime }\left( {10}\right)  = 5$ 代表当产量为 $q = {10}$ 时,增加�
 
 当 $0 < q < {20}$ 时, ${\bar{C}}^{\prime }\left( q\right)  < 0$ ,函数 $\bar{C} = \bar{C}\left( q\right)$ 严格减; 而当 $q >$ 20 时, ${\bar{C}}^{\prime }\left( q\right)  > 0$ ,函数 $\bar{C} = \bar{C}\left( q\right)$ 严格增. 因此,当产量 $q = {20}$ 时, 平均成本最少.
 
-![bo_d7fr7rs91nqc7381ido0_37_1172_1515_256_258_0.jpg](images/bo_d7fr7rs91nqc7381ido0_37_1172_1515_256_258_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_37_1172_1515_256_258_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_37_1172_1515_256_258_0.jpg)
 
 图 5-3-5
 
@@ -1360,7 +1360,7 @@ $$
 
 ## 练习 5.3(4)
 
-![bo_d7fr7rs91nqc7381ido0_38_1277_1622_228_281_0.jpg](images/bo_d7fr7rs91nqc7381ido0_38_1277_1622_228_281_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_38_1277_1622_228_281_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_38_1277_1622_228_281_0.jpg)
 
 (第 2 题)
 
@@ -1382,7 +1382,7 @@ $$
 
 3. 某函数图像如图所示,它在 $\left\lbrack  {a, b}\right\rbrack$ 上哪一点处取得最大值? 它是极大值点吗? 在哪一点处取得最小值? 它是极小值点吗?
 
-![bo_d7fr7rs91nqc7381ido0_39_517_975_579_233_0.jpg](images/bo_d7fr7rs91nqc7381ido0_39_517_975_579_233_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_39_517_975_579_233_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_39_517_975_579_233_0.jpg)
 
 (第 3 题)
 
@@ -1418,7 +1418,7 @@ $$
 
 3. 用长为 ${18}\mathrm{\;m}$ 的钢条制作一个如图所示的长方体框架. 已知长方体的长宽比为2÷1，间:该长方体的长、宽、高各为多少时，其体积最大? 最大体积是多少?
 
-![bo_d7fr7rs91nqc7381ido0_40_1249_236_252_166_0.jpg](images/bo_d7fr7rs91nqc7381ido0_40_1249_236_252_166_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_40_1249_236_252_166_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_40_1249_236_252_166_0.jpg)
 
 (第 3 题)
 
@@ -1506,7 +1506,7 @@ $$
 
 1. 请根据图中的函数图像，将下列数值按从小到大的顺序排列:___.
 
-![bo_d7fr7rs91nqc7381ido0_43_1128_858_340_212_0.jpg](images/bo_d7fr7rs91nqc7381ido0_43_1128_858_340_212_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_43_1128_858_340_212_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_43_1128_858_340_212_0.jpg)
 
 (第 1 题)
 
@@ -1568,7 +1568,7 @@ $$
 
 ## B 组
 
-![bo_d7fr7rs91nqc7381ido0_44_1175_825_324_191_0.jpg](images/bo_d7fr7rs91nqc7381ido0_44_1175_825_324_191_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_44_1175_825_324_191_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_44_1175_825_324_191_0.jpg)
 
 (第 1 题)
 
@@ -1602,7 +1602,7 @@ $$
 
 先看下面的问题:
 
-![bo_d7fr7rs91nqc7381ido0_46_180_848_355_140_0.jpg](images/bo_d7fr7rs91nqc7381ido0_46_180_848_355_140_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_46_180_848_355_140_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_46_180_848_355_140_0.jpg)
 
 图 6-1-1
 
@@ -1756,7 +1756,7 @@ $$
 
 根据加法原理, 十位数字大于个位数字的两位数共有 4+3 $+ 2 + 1 = {10}$ 个.
 
-![bo_d7fr7rs91nqc7381ido0_49_1131_515_309_312_0.jpg](images/bo_d7fr7rs91nqc7381ido0_49_1131_515_309_312_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_49_1131_515_309_312_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_49_1131_515_309_312_0.jpg)
 
 图 6-1-2
 
@@ -1864,7 +1864,7 @@ $$
 
 2. 如图,要接通从 $A$ 到 $B$ 的电路,不同的接通方法有多少种?
 
-![bo_d7fr7rs91nqc7381ido0_51_647_762_323_167_0.jpg](images/bo_d7fr7rs91nqc7381ido0_51_647_762_323_167_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_51_647_762_323_167_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_51_647_762_323_167_0.jpg)
 
 (第 2 题)
 
@@ -1922,7 +1922,7 @@ $$
 
 种. 具体方法如图 6-2-1 所示( ☐☐ ☐ 中的数字从左至右依次为 ${x}^{2}$ 的系数、 $x$ 的系数和常数项).
 
-![bo_d7fr7rs91nqc7381ido0_53_241_709_771_658_0.jpg](images/bo_d7fr7rs91nqc7381ido0_53_241_709_771_658_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_53_241_709_771_658_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_53_241_709_771_658_0.jpg)
 
 图 6-2-1
 
@@ -1938,7 +1938,7 @@ $$
 
 解 先画出下面的树形图 (图 6-2-2):
 
-![bo_d7fr7rs91nqc7381ido0_54_608_440_832_133_0.jpg](images/bo_d7fr7rs91nqc7381ido0_54_608_440_832_133_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_54_608_440_832_133_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_54_608_440_832_133_0.jpg)
 
 图 6-2-2
 
@@ -1948,7 +1948,7 @@ $$
 
 解 考虑一排的 6 个位子 (图 6-2-3). 将 6 本书排成一排, 相当于将这 6 本书分别放到这 6 个位子中, 这是将全部 6 个元素进行排列的问题.
 
-![bo_d7fr7rs91nqc7381ido0_54_182_1040_329_69_0.jpg](images/bo_d7fr7rs91nqc7381ido0_54_182_1040_329_69_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_54_182_1040_329_69_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_54_182_1040_329_69_0.jpg)
 
 图 6-2-3
 
@@ -2022,7 +2022,7 @@ P 是英文 permutation 的第一个字母. 在有些资料中也用符号 ${\ma
 
 求排列数 ${\mathrm{P}}_{n}^{3}$ ,可以这样考虑: 假定有排好顺序的 3 个位子 (图 6-2-4),从 $n$ 个互不相同的元素 ${a}_{1}\text{ 、 }{a}_{2}\text{ 、 }\cdots \text{ 、 }{a}_{n}$ 中任取 3 个填空, 一个位子填一个元素, 每一种填法就得到一个排列; 反过来, 任何一个排列都可以由这样的一种填法得到. 因此, 所有不同填法的总数就是排列数 ${\mathrm{P}}_{n}^{3}$ .
 
-![bo_d7fr7rs91nqc7381ido0_55_367_1922_515_186_0.jpg](images/bo_d7fr7rs91nqc7381ido0_55_367_1922_515_186_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_55_367_1922_515_186_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_55_367_1922_515_186_0.jpg)
 
 图 6-2-4
 
@@ -2046,7 +2046,7 @@ $$
 
 同样,求 ${\mathrm{P}}_{n}^{m}$ ,可以这样考虑: 假定有排好顺序的 $m$ 个位子 (图 6-2-5),从 $n$ 个互不相同的元素 ${a}_{1}\text{ 、 }{a}_{2}\text{ 、 }\cdots \text{ 、 }{a}_{n}$ 中任取 $m$ 个填空, 一个位子填一个元素, 每一种填法就得到一个排列; 反过来, 任何一个排列都可以由这样的一种填法得到. 因此, 所有不同填法的总数就是排列数 ${\mathrm{P}}_{n}^{m}$ .
 
-![bo_d7fr7rs91nqc7381ido0_56_601_1034_844_194_0.jpg](images/bo_d7fr7rs91nqc7381ido0_56_601_1034_844_194_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_56_601_1034_844_194_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_56_601_1034_844_194_0.jpg)
 
 图 6-2-5
 
@@ -2820,7 +2820,7 @@ $$
 
 3. 如图,在 $\angle {AOB}$ 的两边 ${OA}\text{ 、 }{OB}$ 上分别有 5 个点和 6 个点 (都不同于点 $O$ ),这连同点 $O$ 在内的 12 个点可以确定多少个不同的三角形?
 
-![bo_d7fr7rs91nqc7381ido0_71_606_466_406_300_0.jpg](images/bo_d7fr7rs91nqc7381ido0_71_606_466_406_300_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_71_606_466_406_300_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_71_606_466_406_300_0.jpg)
 
 (第 3 题)
 
@@ -2978,7 +2978,7 @@ $$
 {\left( a + b\right) }^{5}
 $$
 
-![bo_d7fr7rs91nqc7381ido0_75_609_1322_293_290_0.jpg](images/bo_d7fr7rs91nqc7381ido0_75_609_1322_293_290_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_75_609_1322_293_290_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_75_609_1322_293_290_0.jpg)
 
 这个数阵的特点是:①每一行的第一个数和最后一个数都是 1 . ②每一行中，除了第一个数和最后一个数外，每个数等于它“肩上”的两个数之和. ③当 $n$ 为偶数时，最大的系数是中间一项; 当 $n$ 为奇数时,最大的系数是中间两项.
 
@@ -2994,7 +2994,7 @@ $$
 
 
 
-![bo_d7fr7rs91nqc7381ido0_76_776_247_494_552_0.jpg](images/bo_d7fr7rs91nqc7381ido0_76_776_247_494_552_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_76_776_247_494_552_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_76_776_247_494_552_0.jpg)
 
 图 6-5-1
 
@@ -3384,7 +3384,7 @@ $$
 
 ## 
 
-![bo_d7fr7rs91nqc7381ido0_83_671_227_276_102_0.jpg](images/bo_d7fr7rs91nqc7381ido0_83_671_227_276_102_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_83_671_227_276_102_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_83_671_227_276_102_0.jpg)
 
 (第 1 题)
 
@@ -3934,7 +3934,7 @@ $$
 
 分布通常可用更直观的形式来表示，如下面的条形图 (图 7-2-1)所示.
 
-![bo_d7fr7rs91nqc7381ido0_98_664_749_717_365_0.jpg](images/bo_d7fr7rs91nqc7381ido0_98_664_749_717_365_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_98_664_749_717_365_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_98_664_749_717_365_0.jpg)
 
 图 7-2-1
 
@@ -4562,7 +4562,7 @@ $k$ 取遍它的取值范围. 此式的直接计算比较困难.
 
 
 
-![bo_d7fr7rs91nqc7381ido0_112_579_244_885_433_0.jpg](images/bo_d7fr7rs91nqc7381ido0_112_579_244_885_433_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_112_579_244_885_433_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_112_579_244_885_433_0.jpg)
 
 图 7-3-1
 
@@ -4580,7 +4580,7 @@ $$
 
 这个函数的图像如同钟形, 如图 7-3-2 所示. 该函数在数学上称为正态密度函数, 也称为钟形曲线.
 
-![bo_d7fr7rs91nqc7381ido0_112_638_1324_778_399_0.jpg](images/bo_d7fr7rs91nqc7381ido0_112_638_1324_778_399_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_112_638_1324_778_399_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_112_638_1324_778_399_0.jpg)
 
 图 7-3-2
 
@@ -4596,7 +4596,7 @@ $$
 X \sim  N\left( {\mu ,{\sigma }^{2}}\right) .
 $$
 
-![bo_d7fr7rs91nqc7381ido0_113_375_541_502_319_0.jpg](images/bo_d7fr7rs91nqc7381ido0_113_375_541_502_319_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_113_375_541_502_319_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_113_375_541_502_319_0.jpg)
 
 图 7-3-3
 
@@ -4610,7 +4610,7 @@ $$
 
 用 $\Phi \left( x\right)$ 表示标准正态分布的密度函数 $y = \varphi \left( x\right)$ 从 $- \infty$ 到 $x$ 的累计面积, 如图 7-3-4 所示, 称为标准正态分布函数.
 
-![bo_d7fr7rs91nqc7381ido0_113_357_1594_534_255_0.jpg](images/bo_d7fr7rs91nqc7381ido0_113_357_1594_534_255_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_113_357_1594_534_255_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_113_357_1594_534_255_0.jpg)
 
 图 7-3-4
 
@@ -4630,7 +4630,7 @@ $$
 \Phi \left( {-x}\right)  = 1 - \Phi \left( x\right) .
 $$
 
-![bo_d7fr7rs91nqc7381ido0_114_754_640_534_256_0.jpg](images/bo_d7fr7rs91nqc7381ido0_114_754_640_534_256_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_114_754_640_534_256_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_114_754_640_534_256_0.jpg)
 
 图 7-3-5
 
@@ -4718,7 +4718,7 @@ $$
 
 图 7-3-6 所示. 这称为正态分布的 ${3\sigma }$ (sigma)原则.
 
-![bo_d7fr7rs91nqc7381ido0_116_665_288_711_356_0.jpg](images/bo_d7fr7rs91nqc7381ido0_116_665_288_711_356_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_116_665_288_711_356_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_116_665_288_711_356_0.jpg)
 
 图 7-3-6
 
@@ -4904,7 +4904,7 @@ $$
 
 ## 第 8 章 成对数据的 统计分析
 
-![bo_d7fr7rs91nqc7381ido0_121_1_0_1653_1028_0.jpg](images/bo_d7fr7rs91nqc7381ido0_121_1_0_1653_1028_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_121_1_0_1653_1028_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_121_1_0_1653_1028_0.jpg)
 
 在必修课程第 13 章“统计”中，我们主要研究了来自单一变量数据的一些统计特征, 如集中趋势、离散程度、分布等. 但现实世界中许多事物和现象之间都是有联系的. 在本章中, 我们将主要学习来自两个变量的成对数据的相关分析和回归分析, 掌握它们之间的统计规律.
 
@@ -4936,7 +4936,7 @@ $$
 
 ## 
 
-![bo_d7fr7rs91nqc7381ido0_123_177_225_890_461_0.jpg](images/bo_d7fr7rs91nqc7381ido0_123_177_225_890_461_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_123_177_225_890_461_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_123_177_225_890_461_0.jpg)
 
 图 8-1-1 消费者年需求量与商品每千克价格的散点图
 
@@ -5034,7 +5034,7 @@ Q
 
 ---
 
-![bo_d7fr7rs91nqc7381ido0_126_548_411_950_463_0.jpg](images/bo_d7fr7rs91nqc7381ido0_126_548_411_950_463_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_126_548_411_950_463_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_126_548_411_950_463_0.jpg)
 
 图 8-1-2 10 名高中男生身高与体重的散点图
 
@@ -5146,7 +5146,7 @@ $$
 
 我们在散点图上把这两个线性方程所定义的直线绘制出来, 如图 8-2-1 所示, 其中红色直线是甲的方程所定义的, 蓝色直线是乙的方程所定义的.
 
-![bo_d7fr7rs91nqc7381ido0_131_182_1436_890_461_0.jpg](images/bo_d7fr7rs91nqc7381ido0_131_182_1436_890_461_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_131_182_1436_890_461_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_131_182_1436_890_461_0.jpg)
 
 图 8-2-1
 
@@ -5270,13 +5270,13 @@ C. $\mathop{\sum }\limits_{{i = 1}}^{n}\left( {{y}_{i} - {\widehat{y}}_{i}}\righ
 
 
 
-![bo_d7fr7rs91nqc7381ido0_135_158_252_937_464_0.jpg](images/bo_d7fr7rs91nqc7381ido0_135_158_252_937_464_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_135_158_252_937_464_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_135_158_252_937_464_0.jpg)
 
 图 8-2-2
 
 在数据点上单击右键, 选择“添加趋势线”- “线型”, 并在 “趋势线选项”标签中要求给出公式，可以得到回归直线(图 8-2-3).
 
-![bo_d7fr7rs91nqc7381ido0_135_156_947_939_461_0.jpg](images/bo_d7fr7rs91nqc7381ido0_135_156_947_939_461_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_135_156_947_939_461_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_135_156_947_939_461_0.jpg)
 
 图 8-2-3
 
@@ -5320,7 +5320,7 @@ C. $\mathop{\sum }\limits_{{i = 1}}^{n}\left( {{y}_{i} - {\widehat{y}}_{i}}\righ
 
 ## 
 
-![bo_d7fr7rs91nqc7381ido0_137_227_257_789_316_0.jpg](images/bo_d7fr7rs91nqc7381ido0_137_227_257_789_316_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_137_227_257_789_316_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_137_227_257_789_316_0.jpg)
 
 图 8-2-4
 
@@ -5332,7 +5332,7 @@ C. $\mathop{\sum }\limits_{{i = 1}}^{n}\left( {{y}_{i} - {\widehat{y}}_{i}}\righ
 
 对表 8-6 中的变量 $Y$ (年份) 和 $\ln N$ 绘制散点图 (图 8-2-5).
 
-![bo_d7fr7rs91nqc7381ido0_137_339_1464_567_295_0.jpg](images/bo_d7fr7rs91nqc7381ido0_137_339_1464_567_295_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_137_339_1464_567_295_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_137_339_1464_567_295_0.jpg)
 
 图 8-2-5
 
@@ -5378,7 +5378,7 @@ $$
 
 3. 某生物学家对白鲸游泳速度与其摆尾频率之间的关系进行了研究. 研究的样本为 19 头白鲸, 测量其游泳速度和摆尾频率. 白鲸游泳速度的测量单位为每秒向前移动的身长数 (1.0 代表每秒向前移动一个身长), 而摆尾频率的测量单位是赫兹(1.0 代表每秒摆尾 1 个来回). 测量数据如下表所示.
 
-![bo_d7fr7rs91nqc7381ido0_139_1026_1144_441_298_0.jpg](images/bo_d7fr7rs91nqc7381ido0_139_1026_1144_441_298_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_139_1026_1144_441_298_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_139_1026_1144_441_298_0.jpg)
 
 (第 3 题)
 
@@ -5870,11 +5870,11 @@ B 组
 
 ## 
 
-![bo_d7fr7rs91nqc7381ido0_157_1303_25_295_170_0.jpg](images/bo_d7fr7rs91nqc7381ido0_157_1303_25_295_170_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_157_1303_25_295_170_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_157_1303_25_295_170_0.jpg)
 
 2. 下图是某地区 2000 年至 2016 年环境基础设施投资额 y (单位:亿元) 的折线图.
 
-![bo_d7fr7rs91nqc7381ido0_157_179_299_1270_503_0.jpg](images/bo_d7fr7rs91nqc7381ido0_157_179_299_1270_503_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_157_179_299_1270_503_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_157_179_299_1270_503_0.jpg)
 
 (第 2 题)
 
@@ -6140,7 +6140,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fr7rs91nqc7381ido0_167_1323_722_140_147_0.jpg](images/bo_d7fr7rs91nqc7381ido0_167_1323_722_140_147_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_167_1323_722_140_147_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_167_1323_722_140_147_0.jpg)
 
 11. (多选题) 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -6182,7 +6182,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fr7rs91nqc7381ido0_167_687_1911_167_163_0.jpg](images/bo_d7fr7rs91nqc7381ido0_167_687_1911_167_163_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_167_687_1911_167_163_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_167_687_1911_167_163_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -6274,7 +6274,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fr7rs91nqc7381ido0_168_1325_737_141_148_0.jpg](images/bo_d7fr7rs91nqc7381ido0_168_1325_737_141_148_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_168_1325_737_141_148_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_168_1325_737_141_148_0.jpg)
 
 11. 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -6290,7 +6290,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fr7rs91nqc7381ido0_168_1314_1236_166_164_0.jpg](images/bo_d7fr7rs91nqc7381ido0_168_1314_1236_166_164_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_168_1314_1236_166_164_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_168_1314_1236_166_164_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -6594,7 +6594,7 @@ A. 160 B. 163 C. 166 D. 170
 
 两个相关变量满足如下关系:
 
-![bo_d7fr7rs91nqc7381ido0_170_1110_1993_163_67_0.jpg](images/bo_d7fr7rs91nqc7381ido0_170_1110_1993_163_67_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_170_1110_1993_163_67_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_170_1110_1993_163_67_0.jpg)
 
 ## 校本教材
 
@@ -6688,7 +6688,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一)探究新知，回顾背景
 
-![bo_d7fr7rs91nqc7381ido0_172_215_416_1222_492_0.jpg](images/bo_d7fr7rs91nqc7381ido0_172_215_416_1222_492_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_172_215_416_1222_492_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_172_215_416_1222_492_0.jpg)
 
 觅宁参考 §6.3.1 平面向量基本定理 3 / 11
 
@@ -6696,7 +6696,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一) 探究新知, 回顾背景
 
-![bo_d7fr7rs91nqc7381ido0_172_210_1109_1233_560_0.jpg](images/bo_d7fr7rs91nqc7381ido0_172_210_1109_1233_560_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_172_210_1109_1233_560_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_172_210_1109_1233_560_0.jpg)
 
 1. IATEX 本身都可以画出高清矢量图, 同时图中的元素也可以轻松实现逐步显示;
 
@@ -6708,9 +6708,9 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (二) 探究新知, 动手操作
 
-![bo_d7fr7rs91nqc7381ido0_173_402_367_379_221_0.jpg](images/bo_d7fr7rs91nqc7381ido0_173_402_367_379_221_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_173_402_367_379_221_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_173_402_367_379_221_0.jpg)
 
-![bo_d7fr7rs91nqc7381ido0_173_845_333_394_256_0.jpg](images/bo_d7fr7rs91nqc7381ido0_173_845_333_394_256_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_173_845_333_394_256_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_173_845_333_394_256_0.jpg)
 
 $$
 \overrightarrow{OC} = \overrightarrow{OM} + \overrightarrow{ON}
@@ -6756,21 +6756,21 @@ $= \frac{2n}{{2n} + 1}$ 化简
 
 - 函数图象
 
-![bo_d7fr7rs91nqc7381ido0_174_238_382_1281_1625_0.jpg](images/bo_d7fr7rs91nqc7381ido0_174_238_382_1281_1625_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_174_238_382_1281_1625_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_174_238_382_1281_1625_0.jpg)
 
 + 立体几何
 
-![bo_d7fr7rs91nqc7381ido0_175_237_357_1328_1169_0.jpg](images/bo_d7fr7rs91nqc7381ido0_175_237_357_1328_1169_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_175_237_357_1328_1169_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_175_237_357_1328_1169_0.jpg)
 
 统计图
 
-![bo_d7fr7rs91nqc7381ido0_175_242_1643_1243_433_0.jpg](images/bo_d7fr7rs91nqc7381ido0_175_242_1643_1243_433_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_175_242_1643_1243_433_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_175_242_1643_1243_433_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载软件、教程, 添加微信与作者交流第 13 页 共 20 页
 
-![bo_d7fr7rs91nqc7381ido0_176_222_295_642_483_0.jpg](images/bo_d7fr7rs91nqc7381ido0_176_222_295_642_483_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_176_222_295_642_483_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_176_222_295_642_483_0.jpg)
 
-![bo_d7fr7rs91nqc7381ido0_176_879_333_589_371_0.jpg](images/bo_d7fr7rs91nqc7381ido0_176_879_333_589_371_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_176_879_333_589_371_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_176_879_333_589_371_0.jpg)
 
 建设后经济收入构成比例
 
@@ -6780,19 +6780,19 @@ $y$
 
 -0
 
-![bo_d7fr7rs91nqc7381ido0_176_225_1222_398_301_0.jpg](images/bo_d7fr7rs91nqc7381ido0_176_225_1222_398_301_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_176_225_1222_398_301_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_176_225_1222_398_301_0.jpg)
 
 ## 4 其他平面图形
 
-![bo_d7fr7rs91nqc7381ido0_177_203_347_1154_604_0.jpg](images/bo_d7fr7rs91nqc7381ido0_177_203_347_1154_604_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_177_203_347_1154_604_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_177_203_347_1154_604_0.jpg)
 
 + 其它图形
 
-![bo_d7fr7rs91nqc7381ido0_177_201_1085_1132_528_0.jpg](images/bo_d7fr7rs91nqc7381ido0_177_201_1085_1132_528_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_177_201_1085_1132_528_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_177_201_1085_1132_528_0.jpg)
 
 + 三视图
 
-![bo_d7fr7rs91nqc7381ido0_177_198_1728_1150_428_0.jpg](images/bo_d7fr7rs91nqc7381ido0_177_198_1728_1150_428_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_177_198_1728_1150_428_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_177_198_1728_1150_428_0.jpg)
 
 ## 与文档浑然一体
 
@@ -6802,19 +6802,19 @@ $y$
 
 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fr7rs91nqc7381ido0_178_321_371_104_110_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_321_371_104_110_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_321_371_104_110_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_321_371_104_110_0.jpg)
 
 A
 
-![bo_d7fr7rs91nqc7381ido0_178_453_372_101_110_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_453_372_101_110_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_453_372_101_110_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_453_372_101_110_0.jpg)
 
 B
 
-![bo_d7fr7rs91nqc7381ido0_178_582_372_103_110_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_582_372_103_110_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_582_372_103_110_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_582_372_103_110_0.jpg)
 
 C
 
-![bo_d7fr7rs91nqc7381ido0_178_709_373_103_109_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_709_373_103_109_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_709_373_103_109_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_709_373_103_109_0.jpg)
 
 D
 
@@ -6822,19 +6822,19 @@ D
 
 已知 $0 < m < n < 1$ ，则指数函数 $\text{ ① }y = {m}^{x}$ ， $\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fr7rs91nqc7381ido0_178_330_574_88_93_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_330_574_88_93_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_330_574_88_93_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_330_574_88_93_0.jpg)
 
 A
 
-![bo_d7fr7rs91nqc7381ido0_178_461_574_85_93_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_461_574_85_93_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_461_574_85_93_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_461_574_85_93_0.jpg)
 
 B
 
-![bo_d7fr7rs91nqc7381ido0_178_591_574_85_93_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_591_574_85_93_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_591_574_85_93_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_591_574_85_93_0.jpg)
 
 C
 
-![bo_d7fr7rs91nqc7381ido0_178_718_575_87_92_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_718_575_87_92_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_718_575_87_92_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_718_575_87_92_0.jpg)
 
 D
 
@@ -6842,7 +6842,7 @@ D
 
 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象, 则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fr7rs91nqc7381ido0_178_432_789_290_135_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_432_789_290_135_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_432_789_290_135_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_432_789_290_135_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$
 
@@ -6854,19 +6854,19 @@ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 同一坐标系中的图象可能是 ( )
 
-![bo_d7fr7rs91nqc7381ido0_178_918_273_98_100_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_918_273_98_100_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_918_273_98_100_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_918_273_98_100_0.jpg)
 
 A
 
-![bo_d7fr7rs91nqc7381ido0_178_1051_272_98_101_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1051_272_98_101_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1051_272_98_101_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1051_272_98_101_0.jpg)
 
 B
 
-![bo_d7fr7rs91nqc7381ido0_178_1180_271_100_102_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1180_271_100_102_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1180_271_100_102_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1180_271_100_102_0.jpg)
 
 C
 
-![bo_d7fr7rs91nqc7381ido0_178_1308_271_99_102_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1308_271_99_102_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1308_271_99_102_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1308_271_99_102_0.jpg)
 
 D
 
@@ -6874,7 +6874,7 @@ D
 
 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
-![bo_d7fr7rs91nqc7381ido0_178_1106_491_132_135_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1106_491_132_135_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1106_491_132_135_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1106_491_132_135_0.jpg)
 
 A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c$
 
@@ -6882,7 +6882,7 @@ A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c
 
 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
-![bo_d7fr7rs91nqc7381ido0_178_1083_784_177_180_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1083_784_177_180_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1083_784_177_180_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1083_784_177_180_0.jpg)
 
 A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
@@ -6896,27 +6896,27 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fr7rs91nqc7381ido0_178_334_1250_137_122_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_334_1250_137_122_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_334_1250_137_122_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_334_1250_137_122_0.jpg)
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_178_517_1250_127_122_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_517_1250_127_122_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_517_1250_127_122_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_517_1250_127_122_0.jpg)
 
 (3)
 
-![bo_d7fr7rs91nqc7381ido0_178_693_1250_132_121_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_693_1250_132_121_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_693_1250_132_121_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_693_1250_132_121_0.jpg)
 
 (4)
 
-![bo_d7fr7rs91nqc7381ido0_178_335_1377_130_124_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_335_1377_130_124_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_335_1377_130_124_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_335_1377_130_124_0.jpg)
 
 (5)
 
-![bo_d7fr7rs91nqc7381ido0_178_516_1376_129_126_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_516_1376_129_126_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_516_1376_129_126_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_516_1376_129_126_0.jpg)
 
 (6)
 
-![bo_d7fr7rs91nqc7381ido0_178_693_1378_131_124_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_693_1378_131_124_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_693_1378_131_124_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_693_1378_131_124_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -6934,25 +6934,25 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 【答案】
 
-![bo_d7fr7rs91nqc7381ido0_178_333_1598_125_121_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_333_1598_125_121_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_333_1598_125_121_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_333_1598_125_121_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_178_516_1594_120_123_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_516_1594_120_123_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_516_1594_120_123_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_516_1594_120_123_0.jpg)
 
 (3)
 
-![bo_d7fr7rs91nqc7381ido0_178_694_1594_121_123_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_694_1594_121_123_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_694_1594_121_123_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_694_1594_121_123_0.jpg)
 
 (4)
 
-![bo_d7fr7rs91nqc7381ido0_178_334_1721_169_169_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_334_1721_169_169_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_334_1721_169_169_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_334_1721_169_169_0.jpg)
 
-![bo_d7fr7rs91nqc7381ido0_178_514_1720_164_169_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_514_1720_164_169_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_514_1720_164_169_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_514_1720_164_169_0.jpg)
 
-![bo_d7fr7rs91nqc7381ido0_178_691_1751_166_141_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_691_1751_166_141_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_691_1751_166_141_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_691_1751_166_141_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -6960,37 +6960,37 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fr7rs91nqc7381ido0_178_923_1196_177_184_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_923_1196_177_184_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_923_1196_177_184_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_923_1196_177_184_0.jpg)
 
 (2) $f\left( x\right)  = x + \ln x$ ;
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_178_1208_1227_104_154_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1208_1227_104_154_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1208_1227_104_154_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1208_1227_104_154_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fr7rs91nqc7381ido0_178_964_1462_276_106_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_964_1462_276_106_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_964_1462_276_106_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_964_1462_276_106_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fr7rs91nqc7381ido0_178_1291_1620_116_177_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1291_1620_116_177_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1291_1620_116_177_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1291_1620_116_177_0.jpg)
 
 (1) $y = x\ln x$
 
 (2) $y = \frac{\ln x}{x}$
 
-![bo_d7fr7rs91nqc7381ido0_178_1116_1636_154_163_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_1116_1636_154_163_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_1116_1636_154_163_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_1116_1636_154_163_0.jpg)
 
 (3)
 
 (3)
 
-![bo_d7fr7rs91nqc7381ido0_178_905_1648_180_135_0.jpg](images/bo_d7fr7rs91nqc7381ido0_178_905_1648_180_135_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_178_905_1648_180_135_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_178_905_1648_180_135_0.jpg)
 
 $f\left( x\right)  = x\ln x$
 
@@ -7032,7 +7032,7 @@ $f\left( x\right)  = x\ln x$
 
 集合
 
-![bo_d7fr7rs91nqc7381ido0_180_1068_1473_178_444_0.jpg](images/bo_d7fr7rs91nqc7381ido0_180_1068_1473_178_444_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_180_1068_1473_178_444_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_180_1068_1473_178_444_0.jpg)
 
 <table><tr><td></td><td>序号</td><td>符号</td></tr><tr><td></td><td>1.</td><td>$\sqrt{2},\sqrt[3]{3},\sqrt{\frac{1}{2}}$</td></tr><tr><td></td><td>2.</td><td>$\frac{2}{3},\frac{\sqrt{3}}{2}$</td></tr><tr><td></td><td>3.</td><td>$\overrightarrow{AB},\mathbf{a}$</td></tr><tr><td></td><td>4.</td><td>$\bar{a},\widehat{a},\overline{1234}$</td></tr><tr><td></td><td>5.</td><td>${a}_{m},{a}^{n},{a}_{n + 1}^{n + 2}$</td></tr><tr><td></td><td>6.</td><td>\{\}</td></tr><tr><td></td><td>7.</td><td>%</td></tr><tr><td></td><td>8.</td><td>$+ \infty , - \infty$</td></tr><tr><td></td><td>9.</td><td>$\because \therefore$</td></tr><tr><td></td><td>10.</td><td>$\langle \mathbf{a},\mathbf{b}\rangle$</td></tr><tr><td></td><td>11.</td><td>$\int$</td></tr><tr><td></td><td>12.</td><td>✘</td></tr><tr><td></td><td>13.</td><td>÷</td></tr><tr><td></td><td>14.</td><td>+</td></tr><tr><td></td><td>15.</td><td><</td></tr><tr><td></td><td>16.</td><td>之</td></tr><tr><td></td><td>17.</td><td>$\neq$</td></tr><tr><td></td><td>18.</td><td>$\approx$</td></tr><tr><td></td><td>19.</td><td>...</td></tr><tr><td></td><td>20.</td><td>十</td></tr><tr><td></td><td>21.</td><td>(mod $m$ )</td></tr><tr><td></td><td>22.</td><td>着重号</td></tr><tr><td></td><td>23.</td><td>公式中中文</td></tr><tr><td></td><td>24.</td><td><img src="https://cdn.noedgeai.com/bo_d7fr7rs91nqc7381ido0_180.jpg?x=383&y=2030&w=60&h=97&r=0"/></td></tr></table>
 
@@ -7106,23 +7106,23 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 ## 一、函数图象
 
-![bo_d7fr7rs91nqc7381ido0_183_129_129_1417_2097_0.jpg](images/bo_d7fr7rs91nqc7381ido0_183_129_129_1417_2097_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_183_129_129_1417_2097_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_183_129_129_1417_2097_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 1 页 共 4 页
 
 ## 二、立体几何
 
-![bo_d7fr7rs91nqc7381ido0_184_161_157_1441_1269_0.jpg](images/bo_d7fr7rs91nqc7381ido0_184_161_157_1441_1269_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_184_161_157_1441_1269_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_184_161_157_1441_1269_0.jpg)
 
 ## 三、统计图
 
-![bo_d7fr7rs91nqc7381ido0_184_160_1539_1372_478_0.jpg](images/bo_d7fr7rs91nqc7381ido0_184_160_1539_1372_478_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_184_160_1539_1372_478_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_184_160_1539_1372_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题
 
 第 2 页 共 4 页
 
-![bo_d7fr7rs91nqc7381ido0_185_168_103_677_501_0.jpg](images/bo_d7fr7rs91nqc7381ido0_185_168_103_677_501_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_185_168_103_677_501_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_185_168_103_677_501_0.jpg)
 
 第三产业收入
 
@@ -7138,25 +7138,25 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 四、圆锥曲线等平面图
 
-![bo_d7fr7rs91nqc7381ido0_185_157_735_1481_754_0.jpg](images/bo_d7fr7rs91nqc7381ido0_185_157_735_1481_754_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_185_157_735_1481_754_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_185_157_735_1481_754_0.jpg)
 
 ## 五、 其他平面图形
 
-![bo_d7fr7rs91nqc7381ido0_185_158_1612_1057_478_0.jpg](images/bo_d7fr7rs91nqc7381ido0_185_158_1612_1057_478_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_185_158_1612_1057_478_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_185_158_1612_1057_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 3 页 共 4 页
 
 ## 六、其它图形
 
-![bo_d7fr7rs91nqc7381ido0_186_144_153_1206_565_0.jpg](images/bo_d7fr7rs91nqc7381ido0_186_144_153_1206_565_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_186_144_153_1206_565_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_186_144_153_1206_565_0.jpg)
 
 七、三视图
 
-![bo_d7fr7rs91nqc7381ido0_186_148_826_1214_455_0.jpg](images/bo_d7fr7rs91nqc7381ido0_186_148_826_1214_455_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_186_148_826_1214_455_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_186_148_826_1214_455_0.jpg)
 
 ## 八、流程图
 
-![bo_d7fr7rs91nqc7381ido0_186_153_1388_841_844_0.jpg](images/bo_d7fr7rs91nqc7381ido0_186_153_1388_841_844_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_186_153_1388_841_844_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_186_153_1388_841_844_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 4 页 共 4 页
 
@@ -7166,65 +7166,65 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 例 1 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fr7rs91nqc7381ido0_187_186_296_187_201_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_186_296_187_201_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_186_296_187_201_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_186_296_187_201_0.jpg)
 
 A
 
-![bo_d7fr7rs91nqc7381ido0_187_449_298_187_199_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_449_298_187_199_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_449_298_187_199_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_449_298_187_199_0.jpg)
 
 B
 
-![bo_d7fr7rs91nqc7381ido0_187_712_298_187_199_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_712_298_187_199_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_712_298_187_199_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_712_298_187_199_0.jpg)
 
 C
 
-![bo_d7fr7rs91nqc7381ido0_187_974_299_187_199_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_974_299_187_199_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_974_299_187_199_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_974_299_187_199_0.jpg)
 
 D
 
 练 1 已知 $0 < m < n < 1$ ,则指数函数 $\text{ ① }y = {m}^{x},\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fr7rs91nqc7381ido0_187_202_688_155_169_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_202_688_155_169_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_202_688_155_169_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_202_688_155_169_0.jpg)
 
 A
 
-![bo_d7fr7rs91nqc7381ido0_187_464_689_155_168_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_464_689_155_168_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_464_689_155_168_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_464_689_155_168_0.jpg)
 
 B
 
-![bo_d7fr7rs91nqc7381ido0_187_728_689_154_168_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_728_689_154_168_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_728_689_154_168_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_728_689_154_168_0.jpg)
 
 C
 
-![bo_d7fr7rs91nqc7381ido0_187_990_689_155_168_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_990_689_155_168_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_990_689_155_168_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_990_689_155_168_0.jpg)
 
 D
 
 例 2 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象,则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fr7rs91nqc7381ido0_187_377_1093_524_243_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_377_1093_524_243_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_377_1093_524_243_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_377_1093_524_243_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 练 2 已知 $a > 0, b > 0$ ,且 ${ab} = 1, a \neq  1$ ,则函数 $f\left( x\right)  = {a}^{x}$ 与函数 $g\left( x\right)  =  - {\log }_{b}x$ 在同一坐标系中的图象可能是 ( )
 
-![bo_d7fr7rs91nqc7381ido0_187_1300_176_182_176_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_1300_176_182_176_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_1300_176_182_176_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_1300_176_182_176_0.jpg)
 
 A
 
-![bo_d7fr7rs91nqc7381ido0_187_1566_175_177_178_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_1566_175_177_178_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_1566_175_177_178_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_1566_175_177_178_0.jpg)
 
 B
 
-![bo_d7fr7rs91nqc7381ido0_187_1827_174_179_178_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_1827_174_179_178_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_1827_174_179_178_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_1827_174_179_178_0.jpg)
 
 C
 
-![bo_d7fr7rs91nqc7381ido0_187_2089_177_179_176_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_2089_177_179_176_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_2089_177_179_176_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_2089_177_179_176_0.jpg)
 
 D
 
-![bo_d7fr7rs91nqc7381ido0_187_2001_545_241_248_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_2001_545_241_248_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_2001_545_241_248_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_2001_545_241_248_0.jpg)
 
 例 3 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
@@ -7232,7 +7232,7 @@ A. $a < b < c < d$ B. $a < b < d < c$
 
 C. $b < a < c < d$ D. $b < a < d < c$
 
-![bo_d7fr7rs91nqc7381ido0_187_1995_909_250_238_0.jpg](images/bo_d7fr7rs91nqc7381ido0_187_1995_909_250_238_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_187_1995_909_250_238_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_187_1995_909_250_238_0.jpg)
 
 练 3 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
@@ -7250,29 +7250,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fr7rs91nqc7381ido0_188_198_279_253_219_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_198_279_253_219_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_198_279_253_219_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_198_279_253_219_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_188_531_279_241_220_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_531_279_241_220_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_531_279_241_220_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_531_279_241_220_0.jpg)
 
 (3)
 
-![bo_d7fr7rs91nqc7381ido0_188_859_278_242_220_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_859_278_242_220_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_859_278_242_220_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_859_278_242_220_0.jpg)
 
 (4)
 
-![bo_d7fr7rs91nqc7381ido0_188_198_511_241_226_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_198_511_241_226_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_198_511_241_226_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_198_511_241_226_0.jpg)
 
 (5)
 
-![bo_d7fr7rs91nqc7381ido0_188_531_510_240_229_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_531_510_240_229_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_531_510_240_229_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_531_510_240_229_0.jpg)
 
 (6)
 
-![bo_d7fr7rs91nqc7381ido0_188_859_510_242_231_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_859_510_242_231_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_859_510_242_231_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_859_510_242_231_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -7282,29 +7282,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fr7rs91nqc7381ido0_188_200_922_223_215_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_200_922_223_215_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_200_922_223_215_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_200_922_223_215_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_188_529_913_224_222_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_529_913_224_222_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_529_913_224_222_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_529_913_224_222_0.jpg)
 
 (3)
 
-![bo_d7fr7rs91nqc7381ido0_188_859_909_225_222_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_859_909_225_222_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_859_909_225_222_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_859_909_225_222_0.jpg)
 
 (4)
 
-![bo_d7fr7rs91nqc7381ido0_188_198_1150_301_306_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_198_1150_301_306_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_198_1150_301_306_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_198_1150_301_306_0.jpg)
 
 (5)
 
-![bo_d7fr7rs91nqc7381ido0_188_531_1142_303_312_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_531_1142_303_312_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_531_1142_303_312_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_531_1142_303_312_0.jpg)
 
 (6)
 
-![bo_d7fr7rs91nqc7381ido0_188_861_1203_303_253_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_861_1203_303_253_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_861_1203_303_253_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_861_1203_303_253_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -7314,7 +7314,7 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fr7rs91nqc7381ido0_188_1316_229_298_295_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_1316_229_298_295_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_1316_229_298_295_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_1316_229_298_295_0.jpg)
 
 (1)
 
@@ -7322,29 +7322,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_188_1816_232_193_290_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_1816_232_193_290_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_1816_232_193_290_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_1816_232_193_290_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fr7rs91nqc7381ido0_188_1362_670_512_195_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_1362_670_512_195_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_1362_670_512_195_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_1362_670_512_195_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fr7rs91nqc7381ido0_188_1984_972_196_313_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_1984_972_196_313_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_1984_972_196_313_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_1984_972_196_313_0.jpg)
 
 (1) $y = x\ln x$ (2) $y = \frac{\ln x}{x}$ (3) $y = \frac{x}{\ln x}$
 
 (1)
 
-![bo_d7fr7rs91nqc7381ido0_188_1321_1014_266_258_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_1321_1014_266_258_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_1321_1014_266_258_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_1321_1014_266_258_0.jpg)
 
 (2)
 
-![bo_d7fr7rs91nqc7381ido0_188_1650_1018_275_267_0.jpg](images/bo_d7fr7rs91nqc7381ido0_188_1650_1018_275_267_0.jpg)
+![bo_d7fr7rs91nqc7381ido0_188_1650_1018_275_267_0.jpg](attachments/bo_d7fr7rs91nqc7381ido0_188_1650_1018_275_267_0.jpg)
 
 (3)
 

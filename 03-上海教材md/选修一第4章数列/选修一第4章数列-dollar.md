@@ -4,7 +4,7 @@ title: 选修一第4章数列-dollar
 ---
 # 数列
 
-![bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg](images/bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg)
+![bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg](attachments/bo_d4slnm77aajc73fspka0_0_2_2_1652_1119_0.jpg)
 
 对数列的研究是基于现实生产、生活的需要. 例如, 在若干离散的时间节点, 记录某种数量的变化, 并按时间先后顺序排列起来就得到一个数列. 数列是一个重要的数学概念, 上至一个国家每年的国内生产总值 (GDP)，下至一个人每年的身高或体重，都可以用数列表示. 数列也是学习微积分的一个必要的基础. 本章采用从特殊到一般、从具体到抽象的方法, 先研究两类特殊的数列——等差数列和等比数列, 再在此基础上研究一般的数列. 同时, 介绍数学归纳法这一与数列有关的重要方法, 并通过给出一个利用迭代序列求平方根的方法, 揭示算法在求近似解中的重要作用.
 
@@ -32,11 +32,11 @@ $$
 
 ①
 
-![bo_d4slnm77aajc73fspka0_1_567_1360_356_335_0.jpg](images/bo_d4slnm77aajc73fspka0_1_567_1360_356_335_0.jpg)
+![bo_d4slnm77aajc73fspka0_1_567_1360_356_335_0.jpg](attachments/bo_d4slnm77aajc73fspka0_1_567_1360_356_335_0.jpg)
 
 图 4-1-1
 
-![bo_d4slnm77aajc73fspka0_1_957_1369_513_326_0.jpg](images/bo_d4slnm77aajc73fspka0_1_957_1369_513_326_0.jpg)
+![bo_d4slnm77aajc73fspka0_1_957_1369_513_326_0.jpg](attachments/bo_d4slnm77aajc73fspka0_1_957_1369_513_326_0.jpg)
 
 图 4-1-2
 
@@ -206,7 +206,7 @@ C. $1,\sqrt{2},\sqrt{3},2,\sqrt{5}$ ; D. $1,\frac{1}{3}, - \frac{1}{3}, - 1, - \
 
 ---
 
-![bo_d4slnm77aajc73fspka0_4_1165_893_247_324_0.jpg](images/bo_d4slnm77aajc73fspka0_4_1165_893_247_324_0.jpg)
+![bo_d4slnm77aajc73fspka0_4_1165_893_247_324_0.jpg](attachments/bo_d4slnm77aajc73fspka0_4_1165_893_247_324_0.jpg)
 
 高斯 (C. F. Gauss, 1777—1855) 德国数学家. 研究的内容涉及数学的诸多领域, 并对天文学和大地测量学的研究有突出贡献. 他在世界上享有崇高的声望，被誉为 “数学王子”.
 
@@ -234,7 +234,7 @@ $$
 
 事实上, 古代的中国人和希腊人也是这么求等差数列之和的. 例如, 宋朝数学家杨辉提出了一个问题: “今有圭垛草一堆, 顶上一束，底阔八束. 问共几束？答:36 束. ”他的计算方法可以用图 4-1-3 表示.
 
-![bo_d4slnm77aajc73fspka0_4_324_1653_624_348_0.jpg](images/bo_d4slnm77aajc73fspka0_4_324_1653_624_348_0.jpg)
+![bo_d4slnm77aajc73fspka0_4_324_1653_624_348_0.jpg](attachments/bo_d4slnm77aajc73fspka0_4_324_1653_624_348_0.jpg)
 
 图 4-1-3
 
@@ -500,7 +500,7 @@ $$
 
 ②
 
-![bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg](images/bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg)
+![bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg](attachments/bo_d4slnm77aajc73fspka0_9_579_1169_891_216_0.jpg)
 
 图 4-2-1
 
@@ -632,7 +632,7 @@ C. $1,\frac{\sqrt{2}}{2},\frac{1}{2},\frac{\sqrt{2}}{4}$ ; D. $\frac{1}{2},2,\fr
 
 国际象棋起源于古代印度. 发明者将棋盘划分为 8 行 8 列, 构成 64 个方格. 相传国王要奖励该发明者, 问他有什么要求. 发明者说: “请在棋盘的第 1 个格子里放上 1 颗麦粒, 在第 2 个格子里放上 2 颗麦粒, 在第 3 个格子里放上 4 颗麦粒, 依次类推, 每个格子里放的麦粒数都是前一个格子里放的麦粒数的 2 倍, 直到放完 64 个格子为止. 请给我足够的麦粒以实现上述要求. ”这位发明者要了多少颗麦粒？国王能实现他的要求吗?
 
-![bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg](images/bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg)
+![bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg](attachments/bo_d4slnm77aajc73fspka0_12_1132_251_322_324_0.jpg)
 
 这实际上是求以 1 为首项、以 2 为公比的等比数列的前 64 项的和:
 
@@ -864,7 +864,7 @@ $$
 {0.4}\dot{3}\dot{1} = {0.4} + \frac{0.031}{1 - {0.01}} = \frac{4}{10} + \frac{31}{990} = \frac{427}{990}.
 $$
 
-![bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg](images/bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg)
+![bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg](attachments/bo_d4slnm77aajc73fspka0_15_198_1748_284_290_0.jpg)
 
 图 4-2-2
 
@@ -910,7 +910,7 @@ $$
 
 (1) $0.\dot{13}$ ;
 
-![bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg](images/bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg)
+![bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg](attachments/bo_d4slnm77aajc73fspka0_16_1165_1785_287_275_0.jpg)
 
 (第 3 题)
 
@@ -982,7 +982,7 @@ $$
 
 5. 如图,已知直角三角形 ${AOB}$ 的两条直角边 ${AO}$ 和 ${BO}$ 的长分别为 5 和 12,点 ${O}_{1}\text{ 、 }{O}_{2}\text{ 、 }\cdots \text{ 、 }{O}_{n}\text{ 、 }\cdots$ 在边 ${OB}$ 上,半圆 ${O}_{1}$ 与 ${AO}$ 和 ${AB}$ 所在直线均相切,半圆 ${O}_{2}\text{ 、 }{O}_{3}\text{ 、 }\cdots \text{ 、 }{O}_{n}\text{ 、 }\cdots$ 与 ${AB}$ 所在直线相切,且与半圆 ${O}_{1}\text{ 、 }{O}_{2}\text{ 、 }\cdots \text{ 、 }{O}_{n - 1}\text{ 、 }\cdots$ 分别外切. 设这些半圆的半径分别为 ${r}_{1}\text{ 、 }{r}_{2}\text{ 、 }\cdots \text{ 、 }{r}_{n}\text{ 、 }\cdots$ .
 
-![bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg](images/bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg)
+![bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg](attachments/bo_d4slnm77aajc73fspka0_18_1121_1084_326_190_0.jpg)
 
 (第 5 题)
 
@@ -1006,7 +1006,7 @@ $$
 
 ①
 
-![bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg](images/bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg)
+![bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg](attachments/bo_d4slnm77aajc73fspka0_19_757_927_534_118_0.jpg)
 
 图 4-3-1
 
@@ -1018,7 +1018,7 @@ $$
 
 ②
 
-![bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg](images/bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg)
+![bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg](attachments/bo_d4slnm77aajc73fspka0_19_754_1266_536_149_0.jpg)
 
 图 4-3-2
 
@@ -1148,7 +1148,7 @@ $$
 
 2. 图中的三角形图案称为谢宾斯基三角形. 在下图四个三角形图案中, 着色的小三角形的个数依次排列成一个数列的前四项, 请写出其前四项, 并给出这个数列的一个通项公式.
 
-![bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg](images/bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg)
+![bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg](attachments/bo_d4slnm77aajc73fspka0_22_309_737_1010_211_0.jpg)
 
 (第 2 题)
 
@@ -1178,7 +1178,7 @@ $$
 
 解 (1) 我们先通过观察 $n = 1$ 、 2、3 时的图形来探究 ${a}_{n}$ 的情况.
 
-![bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg](images/bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg)
+![bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg](attachments/bo_d4slnm77aajc73fspka0_23_613_531_785_222_0.jpg)
 
 图 4-3-3
 
@@ -1322,7 +1322,7 @@ $$
 
 人们在研究斐波那契数列的过程中，发现该数列在自然界竟是如此普遍. 例如，考虑树木枝条的数量. 某种树木第 1 年长出幼枝，第 2 年幼枝长成粗干，第 3 年粗干可生出幼枝. 如图 4-3-4, 每条树枝都按照这个规律成长, 则每年的分枝数正好构成斐波那契数列.
 
-![bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg](images/bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg)
+![bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg](attachments/bo_d4slnm77aajc73fspka0_26_594_424_439_285_0.jpg)
 
 图 4-3-4
 
@@ -1368,7 +1368,7 @@ $$
 
 (2)求每次挖掉的正方形个数所构成的数列的一个递推公式.
 
-![bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg](images/bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg)
+![bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg](attachments/bo_d4slnm77aajc73fspka0_27_465_767_752_298_0.jpg)
 
 (第 7 题)
 
@@ -2048,13 +2048,13 @@ $$
 
 试推测: 把 $n$ 个金属片从 1 号直杆移到 3 号直杆,最少需要移动多少次?
 
-![bo_d4slnm77aajc73fspka0_41_609_1720_445_264_0.jpg](images/bo_d4slnm77aajc73fspka0_41_609_1720_445_264_0.jpg)
+![bo_d4slnm77aajc73fspka0_41_609_1720_445_264_0.jpg](attachments/bo_d4slnm77aajc73fspka0_41_609_1720_445_264_0.jpg)
 
 (第 1 题)
 
 2. 如图, 将一个边长为 1 的正三角形的每条边三等分, 以中间一段为边向外作正三角形, 并擦去中间这一段, 如此继续下去得到的曲线称为科克雪花曲线. 将下面的图形依次记作 ${M}_{1}\text{ 、 }{M}_{2}\text{ 、 }{M}_{3}\text{ 、 }\cdots \text{ 、 }{M}_{n}\text{ 、 }\cdots$ .
 
-![bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg](images/bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg)
+![bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg](attachments/bo_d4slnm77aajc73fspka0_42_454_410_722_283_0.jpg)
 
 (第 2 题)
 

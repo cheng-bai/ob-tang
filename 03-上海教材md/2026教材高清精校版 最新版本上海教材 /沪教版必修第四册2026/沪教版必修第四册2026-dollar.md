@@ -4,13 +4,13 @@ title: 沪教版必修第四册2026-dollar
 ---
 普通高中教科书
 
-![bo_d7fqov491nqc7381i69g_0_1_278_1653_2061_0.jpg](images/bo_d7fqov491nqc7381i69g_0_1_278_1653_2061_0.jpg)
+![bo_d7fqov491nqc7381i69g_0_1_278_1653_2061_0.jpg](attachments/bo_d7fqov491nqc7381i69g_0_1_278_1653_2061_0.jpg)
 
 普通高中教科书
 
 SHUXUE
 
-![bo_d7fqov491nqc7381i69g_1_0_428_1667_1908_0.jpg](images/bo_d7fqov491nqc7381i69g_1_0_428_1667_1908_0.jpg)
+![bo_d7fqov491nqc7381i69g_1_0_428_1667_1908_0.jpg](attachments/bo_d7fqov491nqc7381i69g_1_0_428_1667_1908_0.jpg)
 
 主 编 李大潜 王建磐
 
@@ -150,7 +150,7 @@ SHUXUE
 
 一般来说, 数学建模 (mathematical modeling) 是对某个现实问题经过必要的简化、合理的假设得到一个数学问题, 称为数学模型 (mathematical model), 再求解所得到的数学问题, 然后根据实际情况验证该数学答案是否合理; 在合理性得不到保证时, 还要进行反复迭代和修正模型.
 
-![bo_d7fqov491nqc7381i69g_8_1061_1366_376_458_0.jpg](images/bo_d7fqov491nqc7381i69g_8_1061_1366_376_458_0.jpg)
+![bo_d7fqov491nqc7381i69g_8_1061_1366_376_458_0.jpg](attachments/bo_d7fqov491nqc7381i69g_8_1061_1366_376_458_0.jpg)
 
 图 0-1 数学建模活动过程图示
 
@@ -198,7 +198,7 @@ SHUXUE
 
 第 1 部分数学建模活动案例
 
-![bo_d7fqov491nqc7381i69g_11_1_0_1653_1050_0.jpg](images/bo_d7fqov491nqc7381i69g_11_1_0_1653_1050_0.jpg)
+![bo_d7fqov491nqc7381i69g_11_1_0_1653_1050_0.jpg](attachments/bo_d7fqov491nqc7381i69g_11_1_0_1653_1050_0.jpg)
 
 本部分共有 4 个案例, 与日常生活、科学技术或生态环境息息相关. 由于每个案例的实际情境丰富多样, 教材上无法列举所有相关的问题. 因此, 在每个案例的展开过程中, 留出了空间 (以空白框形式呈现), 请同学们结合经验、发挥想象、共同思考，提出你们认为合理的问题、设想和建议, 并在数学建模活动中找到答案.
 
@@ -210,7 +210,7 @@ SHUXUE
 
 随着经济的快速发展、人口的大量增加和交通工具的广泛使用，世界各国都面临交通问题, 如何科学地进行交通管理为人们所广泛关注. 红绿灯管理是对交叉路口实施交通管理的最常见方法. 作为城市交通指挥棒的红绿灯如果设置不合理, 就可能会造成不必要的城市交通堵塞. 如何合理地设置交通路口的红绿灯呢?
 
-![bo_d7fqov491nqc7381i69g_12_399_771_880_324_0.jpg](images/bo_d7fqov491nqc7381i69g_12_399_771_880_324_0.jpg)
+![bo_d7fqov491nqc7381i69g_12_399_771_880_324_0.jpg](attachments/bo_d7fqov491nqc7381i69g_12_399_771_880_324_0.jpg)
 
 ## 提出问题
 
@@ -218,7 +218,7 @@ SHUXUE
 
 同学们也许会提出其他问题. 这里我们只针对“所有车辆在交叉路口的等待时间的总和最短”建立模型. 针对其他问题, 同学们可以建立自己的模型.
 
-![bo_d7fqov491nqc7381i69g_12_1172_1779_332_332_0.jpg](images/bo_d7fqov491nqc7381i69g_12_1172_1779_332_332_0.jpg)
+![bo_d7fqov491nqc7381i69g_12_1172_1779_332_332_0.jpg](attachments/bo_d7fqov491nqc7381i69g_12_1172_1779_332_332_0.jpg)
 
 图 1-1
 
@@ -348,7 +348,7 @@ $$
 
 近年来，“双十一”演变成为一年一度的购物狂欢节. 从 2009 年开始，“双十一”购物规则的复杂度不断增大, 而面对商家复杂的优惠规则, 消费者都尝试用足优惠. 最近, 某商家推出三种优惠券, 分别是满 199 元减 20 元、满 299 元减 50 元、满 499 元减 110 元. 这些优惠券之间不可叠加使用, 但它们可以与满 400 元减 50 元的购物津贴同时使用(图2-1). 此外，这两类优惠券有使用顺序，必须先使用商家优惠券，再使用购物津贴.
 
-![bo_d7fqov491nqc7381i69g_16_290_889_1093_358_0.jpg](images/bo_d7fqov491nqc7381i69g_16_290_889_1093_358_0.jpg)
+![bo_d7fqov491nqc7381i69g_16_290_889_1093_358_0.jpg](attachments/bo_d7fqov491nqc7381i69g_16_290_889_1093_358_0.jpg)
 
 图 2-1
 
@@ -396,7 +396,7 @@ $$
 
 根据上述函数关系①，作出该分段函数的图像，如图 2-2 所示.
 
-![bo_d7fqov491nqc7381i69g_18_406_549_863_527_0.jpg](images/bo_d7fqov491nqc7381i69g_18_406_549_863_527_0.jpg)
+![bo_d7fqov491nqc7381i69g_18_406_549_863_527_0.jpg](attachments/bo_d7fqov491nqc7381i69g_18_406_549_863_527_0.jpg)
 
 图 2-2 购买金额与优惠率之间的函数关系
 
@@ -442,7 +442,7 @@ $$
 
 同学们如果时常阅读报纸或浏览新闻网站, 可能看到过关于大型车辆右转时引发交通事故的报道. 有时事故较大，危及了人的生命. 为什么大型车辆转弯时容易引发事故？细读一些报道和查阅相关资料后发现, 这些事故中很大一部分与“内轮差”有关.
 
-![bo_d7fqov491nqc7381i69g_21_385_716_854_477_0.jpg](images/bo_d7fqov491nqc7381i69g_21_385_716_854_477_0.jpg)
+![bo_d7fqov491nqc7381i69g_21_385_716_854_477_0.jpg](attachments/bo_d7fqov491nqc7381i69g_21_385_716_854_477_0.jpg)
 
 车辆在转弯时, 后轮并不是沿着前轮的轨迹行驶的, 会产生偏差, 转弯形成的偏差叫 “轮差”. 内轮差是车辆转弯时前内轮转弯半径与后内轮转弯半径之差. 由于内轮差的存在, 车辆转弯时, 前、后车轮的运动轨迹不重合.
 
@@ -454,7 +454,7 @@ $$
 
 查阅资料，我们发现车辆转弯大都遵循阿克曼(Ackermann)转向几何原理. 依据阿克曼转向几何原理设计的车辆,沿着弯道转弯时,内侧轮的转向角比外侧轮要大 ${2}^{ \circ  } \sim  {4}^{ \circ  }$ , 四个轮子转弯路径的圆心大致交会于后轴延长线上的瞬时转向中心，让车辆可以顺畅地转弯 (图 3-1).
 
-![bo_d7fqov491nqc7381i69g_22_547_342_578_271_0.jpg](images/bo_d7fqov491nqc7381i69g_22_547_342_578_271_0.jpg)
+![bo_d7fqov491nqc7381i69g_22_547_342_578_271_0.jpg](attachments/bo_d7fqov491nqc7381i69g_22_547_342_578_271_0.jpg)
 
 图 3-1 阿克曼转向几何原理
 
@@ -474,7 +474,7 @@ $$
 
 让我们先来看车辆分析图,如图 3-2 所示. 记车辆的转向中心为 $O$ . 设 $O$ 到两后轮中点的距离为 $R$ ,此即车辆的转弯半径. 又设两前轮之间距离 (称为轮距) 为 $w$ ,同侧前后两轮距离 (称为轴距) 为 $l$ ,车辆转弯时前内轮转角为 $\delta$ . 把 $O$ 到后内轮和前内轮的距离分别记为 ${R}_{1}$ 和 ${R}_{2}$ ,它们分别是后内轮和前内轮的转弯半径. 于是,我们要求的车辆转弯时的内轮差为 ${R}_{2} - {R}_{1}$ .
 
-![bo_d7fqov491nqc7381i69g_22_470_1478_738_478_0.jpg](images/bo_d7fqov491nqc7381i69g_22_470_1478_738_478_0.jpg)
+![bo_d7fqov491nqc7381i69g_22_470_1478_738_478_0.jpg](attachments/bo_d7fqov491nqc7381i69g_22_470_1478_738_478_0.jpg)
 
 图 3-2 车辆分析图
 
@@ -482,7 +482,7 @@ $$
 
 ## 
 
-![bo_d7fqov491nqc7381i69g_23_443_229_737_463_0.jpg](images/bo_d7fqov491nqc7381i69g_23_443_229_737_463_0.jpg)
+![bo_d7fqov491nqc7381i69g_23_443_229_737_463_0.jpg](attachments/bo_d7fqov491nqc7381i69g_23_443_229_737_463_0.jpg)
 
 图 3-3 车辆内部图
 
@@ -540,41 +540,41 @@ $$
 
 为了研究的方便, 我们忽略了前轮轮胎到车头、后轮轮胎到车尾的部分. 将车辆近似看成一个矩形, 车轮安装在车头和车尾两侧部分 (图 3-4 至图 3-7).
 
-![bo_d7fqov491nqc7381i69g_24_276_1217_490_372_0.jpg](images/bo_d7fqov491nqc7381i69g_24_276_1217_490_372_0.jpg)
+![bo_d7fqov491nqc7381i69g_24_276_1217_490_372_0.jpg](attachments/bo_d7fqov491nqc7381i69g_24_276_1217_490_372_0.jpg)
 
 图 3-4
 
-![bo_d7fqov491nqc7381i69g_24_915_1217_489_371_0.jpg](images/bo_d7fqov491nqc7381i69g_24_915_1217_489_371_0.jpg)
+![bo_d7fqov491nqc7381i69g_24_915_1217_489_371_0.jpg](attachments/bo_d7fqov491nqc7381i69g_24_915_1217_489_371_0.jpg)
 
 图 3-5
 
-![bo_d7fqov491nqc7381i69g_24_274_1689_494_371_0.jpg](images/bo_d7fqov491nqc7381i69g_24_274_1689_494_371_0.jpg)
+![bo_d7fqov491nqc7381i69g_24_274_1689_494_371_0.jpg](attachments/bo_d7fqov491nqc7381i69g_24_274_1689_494_371_0.jpg)
 
 图 3-6
 
-![bo_d7fqov491nqc7381i69g_24_914_1689_492_371_0.jpg](images/bo_d7fqov491nqc7381i69g_24_914_1689_492_371_0.jpg)
+![bo_d7fqov491nqc7381i69g_24_914_1689_492_371_0.jpg](attachments/bo_d7fqov491nqc7381i69g_24_914_1689_492_371_0.jpg)
 
 图 3-7
 
 设置动态演示, 我们得到了四个车轮的行驶轨迹 (图 3-8 至图 3-12).
 
-![bo_d7fqov491nqc7381i69g_25_245_319_489_372_0.jpg](images/bo_d7fqov491nqc7381i69g_25_245_319_489_372_0.jpg)
+![bo_d7fqov491nqc7381i69g_25_245_319_489_372_0.jpg](attachments/bo_d7fqov491nqc7381i69g_25_245_319_489_372_0.jpg)
 
 图 3-8
 
-![bo_d7fqov491nqc7381i69g_25_879_318_497_372_0.jpg](images/bo_d7fqov491nqc7381i69g_25_879_318_497_372_0.jpg)
+![bo_d7fqov491nqc7381i69g_25_879_318_497_372_0.jpg](attachments/bo_d7fqov491nqc7381i69g_25_879_318_497_372_0.jpg)
 
 图 3-9
 
-![bo_d7fqov491nqc7381i69g_25_245_801_503_371_0.jpg](images/bo_d7fqov491nqc7381i69g_25_245_801_503_371_0.jpg)
+![bo_d7fqov491nqc7381i69g_25_245_801_503_371_0.jpg](attachments/bo_d7fqov491nqc7381i69g_25_245_801_503_371_0.jpg)
 
 图 3-10
 
-![bo_d7fqov491nqc7381i69g_25_878_801_498_367_0.jpg](images/bo_d7fqov491nqc7381i69g_25_878_801_498_367_0.jpg)
+![bo_d7fqov491nqc7381i69g_25_878_801_498_367_0.jpg](attachments/bo_d7fqov491nqc7381i69g_25_878_801_498_367_0.jpg)
 
 图 3-11
 
-![bo_d7fqov491nqc7381i69g_25_567_1281_486_372_0.jpg](images/bo_d7fqov491nqc7381i69g_25_567_1281_486_372_0.jpg)
+![bo_d7fqov491nqc7381i69g_25_567_1281_486_372_0.jpg](attachments/bo_d7fqov491nqc7381i69g_25_567_1281_486_372_0.jpg)
 
 图 3-12
 
@@ -586,15 +586,15 @@ $$
 
 (3)轴距(与车身长度有关)越大，内轮差越大(比较图 3-14、图 3-16).
 
-![bo_d7fqov491nqc7381i69g_26_276_259_491_374_0.jpg](images/bo_d7fqov491nqc7381i69g_26_276_259_491_374_0.jpg)
+![bo_d7fqov491nqc7381i69g_26_276_259_491_374_0.jpg](attachments/bo_d7fqov491nqc7381i69g_26_276_259_491_374_0.jpg)
 
-![bo_d7fqov491nqc7381i69g_26_915_260_489_372_0.jpg](images/bo_d7fqov491nqc7381i69g_26_915_260_489_372_0.jpg)
+![bo_d7fqov491nqc7381i69g_26_915_260_489_372_0.jpg](attachments/bo_d7fqov491nqc7381i69g_26_915_260_489_372_0.jpg)
 
 图 3-13 图 3-14
 
-![bo_d7fqov491nqc7381i69g_26_276_724_490_375_0.jpg](images/bo_d7fqov491nqc7381i69g_26_276_724_490_375_0.jpg)
+![bo_d7fqov491nqc7381i69g_26_276_724_490_375_0.jpg](attachments/bo_d7fqov491nqc7381i69g_26_276_724_490_375_0.jpg)
 
-![bo_d7fqov491nqc7381i69g_26_913_728_492_371_0.jpg](images/bo_d7fqov491nqc7381i69g_26_913_728_492_371_0.jpg)
+![bo_d7fqov491nqc7381i69g_26_913_728_492_371_0.jpg](attachments/bo_d7fqov491nqc7381i69g_26_913_728_492_371_0.jpg)
 
 图 3-15 图 3-16
 
@@ -646,7 +646,7 @@ $$
 
 一个简单的策略是:尽可能快地跑到目的地，以减少被雨淋的时间. 这真的是一个最好的策略吗？除了减少被雨淋的时间，还有没有其他选择呢？
 
-![bo_d7fqov491nqc7381i69g_28_524_938_630_405_0.jpg](images/bo_d7fqov491nqc7381i69g_28_524_938_630_405_0.jpg)
+![bo_d7fqov491nqc7381i69g_28_524_938_630_405_0.jpg](attachments/bo_d7fqov491nqc7381i69g_28_524_938_630_405_0.jpg)
 
 请将你认为可以选择的最优目标填入下框.
 
@@ -688,11 +688,11 @@ $$
 
 ①
 
-![bo_d7fqov491nqc7381i69g_30_555_226_159_369_0.jpg](images/bo_d7fqov491nqc7381i69g_30_555_226_159_369_0.jpg)
+![bo_d7fqov491nqc7381i69g_30_555_226_159_369_0.jpg](attachments/bo_d7fqov491nqc7381i69g_30_555_226_159_369_0.jpg)
 
 图 4-1
 
-![bo_d7fqov491nqc7381i69g_30_993_243_121_360_0.jpg](images/bo_d7fqov491nqc7381i69g_30_993_243_121_360_0.jpg)
+![bo_d7fqov491nqc7381i69g_30_993_243_121_360_0.jpg](attachments/bo_d7fqov491nqc7381i69g_30_993_243_121_360_0.jpg)
 
 图 4-2
 
@@ -714,11 +714,11 @@ $$
 
 这与无风情形下得到的单位时间淋雨量②式完全相同.
 
-![bo_d7fqov491nqc7381i69g_30_451_1326_215_357_0.jpg](images/bo_d7fqov491nqc7381i69g_30_451_1326_215_357_0.jpg)
+![bo_d7fqov491nqc7381i69g_30_451_1326_215_357_0.jpg](attachments/bo_d7fqov491nqc7381i69g_30_451_1326_215_357_0.jpg)
 
 图 4-3
 
-![bo_d7fqov491nqc7381i69g_30_947_1326_281_357_0.jpg](images/bo_d7fqov491nqc7381i69g_30_947_1326_281_357_0.jpg)
+![bo_d7fqov491nqc7381i69g_30_947_1326_281_357_0.jpg](attachments/bo_d7fqov491nqc7381i69g_30_947_1326_281_357_0.jpg)
 
 图 4-4
 
@@ -746,7 +746,7 @@ $$
 
 基于上述判断, 你能对初步模型作出适当的改进吗? 请将你的改进模型填入下框.
 
-![bo_d7fqov491nqc7381i69g_31_1246_1311_222_377_0.jpg](images/bo_d7fqov491nqc7381i69g_31_1246_1311_222_377_0.jpg)
+![bo_d7fqov491nqc7381i69g_31_1246_1311_222_377_0.jpg](attachments/bo_d7fqov491nqc7381i69g_31_1246_1311_222_377_0.jpg)
 
 图 4-5
 
@@ -868,7 +868,7 @@ $$
 
 数学建模活动 A
 
-![bo_d7fqov491nqc7381i69g_35_1_0_1653_1059_0.jpg](images/bo_d7fqov491nqc7381i69g_35_1_0_1653_1059_0.jpg)
+![bo_d7fqov491nqc7381i69g_35_1_0_1653_1059_0.jpg](attachments/bo_d7fqov491nqc7381i69g_35_1_0_1653_1059_0.jpg)
 
 相信同学们在教师指导下, 通过第 1 部分案例的学习, 已经体验了数学建模活动的基本流程, 积累了一定的数学建模活动经验. 这里提供另外 3 个建模活动，供大家选择. 尽管没有提供详细的建模过程, 但仍给出了相应的活动提示, 可供大家参考. 请同学们有选择地分组开展活动, 相信你们能够应对这些活动的挑战.
 
@@ -884,7 +884,7 @@ $$
 
 根据市域出租汽车运价调整实施方案，起租价由13元/3千米调整为14元/3千米， 超起租里程运价由2.40元/千米调整为2.50元/千米.
 
-![bo_d7fqov491nqc7381i69g_36_261_1284_1153_273_0.jpg](images/bo_d7fqov491nqc7381i69g_36_261_1284_1153_273_0.jpg)
+![bo_d7fqov491nqc7381i69g_36_261_1284_1153_273_0.jpg](attachments/bo_d7fqov491nqc7381i69g_36_261_1284_1153_273_0.jpg)
 
 你会仿效那位市民的做法吗？为什么？
 
@@ -924,7 +924,7 @@ $$
 
 ## 6 家具搬运
 
-![bo_d7fqov491nqc7381i69g_38_182_537_615_418_0.jpg](images/bo_d7fqov491nqc7381i69g_38_182_537_615_418_0.jpg)
+![bo_d7fqov491nqc7381i69g_38_182_537_615_418_0.jpg](attachments/bo_d7fqov491nqc7381i69g_38_182_537_615_418_0.jpg)
 
 随着生活水平的逐步提高, 越来越多的人开始改善居住条件, 搬家成了生活中经常谈及的话题. 在搬运大型家具的过程中，经常需要考虑家具能否通过狭长的转角过道.
 
@@ -964,7 +964,7 @@ $$
 
 ## 7 登山行程设计
 
-![bo_d7fqov491nqc7381i69g_40_181_532_660_451_0.jpg](images/bo_d7fqov491nqc7381i69g_40_181_532_660_451_0.jpg)
+![bo_d7fqov491nqc7381i69g_40_181_532_660_451_0.jpg](attachments/bo_d7fqov491nqc7381i69g_40_181_532_660_451_0.jpg)
 
 在本册教材的引论部分, 我们以登山线路规划为例, 阐述了应用题和数学建模问题的区别. 下面, 请同学们合作完成这样的数学建模活动.
 
@@ -1018,7 +1018,7 @@ $$
 
 数学建模活动 B
 
-![bo_d7fqov491nqc7381i69g_43_0_0_1654_1047_0.jpg](images/bo_d7fqov491nqc7381i69g_43_0_0_1654_1047_0.jpg)
+![bo_d7fqov491nqc7381i69g_43_0_0_1654_1047_0.jpg](attachments/bo_d7fqov491nqc7381i69g_43_0_0_1654_1047_0.jpg)
 
 经历了一些数学建模活动, 大家是欣喜还是苦恼? 这都没有关系. 通过继续合作开展数学建模活动, 同学们一定能更深入地感受到数学建模的特点和价值. 这里再提供 4 个数学建模活动, 供大家选择. 相信大家已经拥有一定的数学建模能力，这次没有再作任何提示，请大胆尝试吧！
 
@@ -1028,13 +1028,13 @@ $$
 
 按照中国的传统习俗, 走亲访友会带上一些朋友喜欢的礼物, 可能是一盒点心、一本书或一个玩具等. 一般来说, 我们不仅会用包装纸把礼物包好, 还会用彩带捆扎包装好的礼物，有时还会扎出一个花结. 其实，这些精美的包装彩带也不便宜，我们在捆扎时不仅要考虑美观、结实, 也要考虑尽量地节省包装彩带. 生活中, 你见到过哪些用彩带捆扎包装礼物的方法? 请推荐一种比较节省彩带的方法, 并说明你的理由.
 
-![bo_d7fqov491nqc7381i69g_44_398_834_882_598_0.jpg](images/bo_d7fqov491nqc7381i69g_44_398_834_882_598_0.jpg)
+![bo_d7fqov491nqc7381i69g_44_398_834_882_598_0.jpg](attachments/bo_d7fqov491nqc7381i69g_44_398_834_882_598_0.jpg)
 
 
 
 ## 9 削菠萝
 
-![bo_d7fqov491nqc7381i69g_45_1061_532_409_415_0.jpg](images/bo_d7fqov491nqc7381i69g_45_1061_532_409_415_0.jpg)
+![bo_d7fqov491nqc7381i69g_45_1061_532_409_415_0.jpg](attachments/bo_d7fqov491nqc7381i69g_45_1061_532_409_415_0.jpg)
 
 在菠萝上市的季节, 为方便消费者品尝到新鲜的菠萝, 水果店通常有专人帮助大家削皮去籽, 方法多样. 其中一种刨削方法很有艺术味，削完后，菠萝上留下的是一条条螺线形的凹槽.
 
@@ -1044,7 +1044,7 @@ $$
 
 上海浦东陆家嘴地区高楼林立，尤其是东方明珠周边的建筑物似乎一幢比一幢高. 当你从不同角度观察, 建筑物的相对高度似乎有变化, 这说明, 仅靠目测可能会对建筑物高度产生误判. 同学们也许在思考, 如何去测量这样“高不可攀”的建筑物的高度? 让我们回到自己的校园，面对高度各异的教学楼，你一定希望了解:哪幢楼最高？如何知道它的高度?
 
-![bo_d7fqov491nqc7381i69g_46_267_836_1140_618_0.jpg](images/bo_d7fqov491nqc7381i69g_46_267_836_1140_618_0.jpg)
+![bo_d7fqov491nqc7381i69g_46_267_836_1140_618_0.jpg](attachments/bo_d7fqov491nqc7381i69g_46_267_836_1140_618_0.jpg)
 
 请同学们行动起来，完成如下测量任务:
 
@@ -1162,7 +1162,7 @@ $$
 
 根据上述函数关系①，作出该分段函数的图像，如图 1 所示.
 
-![bo_d7fqov491nqc7381i69g_51_374_1158_861_525_0.jpg](images/bo_d7fqov491nqc7381i69g_51_374_1158_861_525_0.jpg)
+![bo_d7fqov491nqc7381i69g_51_374_1158_861_525_0.jpg](attachments/bo_d7fqov491nqc7381i69g_51_374_1158_861_525_0.jpg)
 
 图 1 购买金额与优惠率之间的函数关系
 
@@ -1214,7 +1214,7 @@ $$
 
 第 四 册
 
-![bo_d7fqov491nqc7381i69g_55_490_1028_664_425_0.jpg](images/bo_d7fqov491nqc7381i69g_55_490_1028_664_425_0.jpg)
+![bo_d7fqov491nqc7381i69g_55_490_1028_664_425_0.jpg](attachments/bo_d7fqov491nqc7381i69g_55_490_1028_664_425_0.jpg)
 
 2024 蛰伏
 
@@ -1426,7 +1426,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fqov491nqc7381i69g_61_1323_722_140_147_0.jpg](images/bo_d7fqov491nqc7381i69g_61_1323_722_140_147_0.jpg)
+![bo_d7fqov491nqc7381i69g_61_1323_722_140_147_0.jpg](attachments/bo_d7fqov491nqc7381i69g_61_1323_722_140_147_0.jpg)
 
 11. (多选题) 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -1468,7 +1468,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fqov491nqc7381i69g_61_687_1911_167_163_0.jpg](images/bo_d7fqov491nqc7381i69g_61_687_1911_167_163_0.jpg)
+![bo_d7fqov491nqc7381i69g_61_687_1911_167_163_0.jpg](attachments/bo_d7fqov491nqc7381i69g_61_687_1911_167_163_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -1560,7 +1560,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fqov491nqc7381i69g_62_1325_737_141_148_0.jpg](images/bo_d7fqov491nqc7381i69g_62_1325_737_141_148_0.jpg)
+![bo_d7fqov491nqc7381i69g_62_1325_737_141_148_0.jpg](attachments/bo_d7fqov491nqc7381i69g_62_1325_737_141_148_0.jpg)
 
 11. 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -1576,7 +1576,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fqov491nqc7381i69g_62_1314_1236_166_164_0.jpg](images/bo_d7fqov491nqc7381i69g_62_1314_1236_166_164_0.jpg)
+![bo_d7fqov491nqc7381i69g_62_1314_1236_166_164_0.jpg](attachments/bo_d7fqov491nqc7381i69g_62_1314_1236_166_164_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -1880,7 +1880,7 @@ A. 160 B. 163 C. 166 D. 170
 
 两个相关变量满足如下关系:
 
-![bo_d7fqov491nqc7381i69g_64_1110_1993_163_67_0.jpg](images/bo_d7fqov491nqc7381i69g_64_1110_1993_163_67_0.jpg)
+![bo_d7fqov491nqc7381i69g_64_1110_1993_163_67_0.jpg](attachments/bo_d7fqov491nqc7381i69g_64_1110_1993_163_67_0.jpg)
 
 ## 校本教材
 
@@ -1974,7 +1974,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一)探究新知，回顾背景
 
-![bo_d7fqov491nqc7381i69g_66_215_416_1222_492_0.jpg](images/bo_d7fqov491nqc7381i69g_66_215_416_1222_492_0.jpg)
+![bo_d7fqov491nqc7381i69g_66_215_416_1222_492_0.jpg](attachments/bo_d7fqov491nqc7381i69g_66_215_416_1222_492_0.jpg)
 
 觅宁参考 §6.3.1 平面向量基本定理 3 / 11
 
@@ -1982,7 +1982,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一)探究新知，回顾背景
 
-![bo_d7fqov491nqc7381i69g_66_210_1109_1233_560_0.jpg](images/bo_d7fqov491nqc7381i69g_66_210_1109_1233_560_0.jpg)
+![bo_d7fqov491nqc7381i69g_66_210_1109_1233_560_0.jpg](attachments/bo_d7fqov491nqc7381i69g_66_210_1109_1233_560_0.jpg)
 
 1. IATEX 本身都可以画出高清矢量图，同时图中的元素也可以轻松实现逐步显示;
 
@@ -1994,9 +1994,9 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (二) 探究新知, 动手操作
 
-![bo_d7fqov491nqc7381i69g_67_402_367_379_221_0.jpg](images/bo_d7fqov491nqc7381i69g_67_402_367_379_221_0.jpg)
+![bo_d7fqov491nqc7381i69g_67_402_367_379_221_0.jpg](attachments/bo_d7fqov491nqc7381i69g_67_402_367_379_221_0.jpg)
 
-![bo_d7fqov491nqc7381i69g_67_845_333_394_256_0.jpg](images/bo_d7fqov491nqc7381i69g_67_845_333_394_256_0.jpg)
+![bo_d7fqov491nqc7381i69g_67_845_333_394_256_0.jpg](attachments/bo_d7fqov491nqc7381i69g_67_845_333_394_256_0.jpg)
 
 $$
 \overrightarrow{OC} = \overrightarrow{OM} + \overrightarrow{ON}
@@ -2042,21 +2042,21 @@ $= \frac{2n}{{2n} + 1}$ 化简
 
 - 函数图象
 
-![bo_d7fqov491nqc7381i69g_68_238_382_1281_1625_0.jpg](images/bo_d7fqov491nqc7381i69g_68_238_382_1281_1625_0.jpg)
+![bo_d7fqov491nqc7381i69g_68_238_382_1281_1625_0.jpg](attachments/bo_d7fqov491nqc7381i69g_68_238_382_1281_1625_0.jpg)
 
 + 立体几何
 
-![bo_d7fqov491nqc7381i69g_69_237_357_1328_1169_0.jpg](images/bo_d7fqov491nqc7381i69g_69_237_357_1328_1169_0.jpg)
+![bo_d7fqov491nqc7381i69g_69_237_357_1328_1169_0.jpg](attachments/bo_d7fqov491nqc7381i69g_69_237_357_1328_1169_0.jpg)
 
 统计图
 
-![bo_d7fqov491nqc7381i69g_69_242_1643_1243_433_0.jpg](images/bo_d7fqov491nqc7381i69g_69_242_1643_1243_433_0.jpg)
+![bo_d7fqov491nqc7381i69g_69_242_1643_1243_433_0.jpg](attachments/bo_d7fqov491nqc7381i69g_69_242_1643_1243_433_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载软件、教程, 添加微信与作者交流第 13 页 共 20 页
 
-![bo_d7fqov491nqc7381i69g_70_222_295_642_483_0.jpg](images/bo_d7fqov491nqc7381i69g_70_222_295_642_483_0.jpg)
+![bo_d7fqov491nqc7381i69g_70_222_295_642_483_0.jpg](attachments/bo_d7fqov491nqc7381i69g_70_222_295_642_483_0.jpg)
 
-![bo_d7fqov491nqc7381i69g_70_879_333_589_371_0.jpg](images/bo_d7fqov491nqc7381i69g_70_879_333_589_371_0.jpg)
+![bo_d7fqov491nqc7381i69g_70_879_333_589_371_0.jpg](attachments/bo_d7fqov491nqc7381i69g_70_879_333_589_371_0.jpg)
 
 建设后经济收入构成比例
 
@@ -2066,19 +2066,19 @@ $y$
 
 -0
 
-![bo_d7fqov491nqc7381i69g_70_225_1222_398_301_0.jpg](images/bo_d7fqov491nqc7381i69g_70_225_1222_398_301_0.jpg)
+![bo_d7fqov491nqc7381i69g_70_225_1222_398_301_0.jpg](attachments/bo_d7fqov491nqc7381i69g_70_225_1222_398_301_0.jpg)
 
 ## 4 其他平面图形
 
-![bo_d7fqov491nqc7381i69g_71_203_347_1154_604_0.jpg](images/bo_d7fqov491nqc7381i69g_71_203_347_1154_604_0.jpg)
+![bo_d7fqov491nqc7381i69g_71_203_347_1154_604_0.jpg](attachments/bo_d7fqov491nqc7381i69g_71_203_347_1154_604_0.jpg)
 
 + 其它图形
 
-![bo_d7fqov491nqc7381i69g_71_201_1085_1132_528_0.jpg](images/bo_d7fqov491nqc7381i69g_71_201_1085_1132_528_0.jpg)
+![bo_d7fqov491nqc7381i69g_71_201_1085_1132_528_0.jpg](attachments/bo_d7fqov491nqc7381i69g_71_201_1085_1132_528_0.jpg)
 
 + 三视图
 
-![bo_d7fqov491nqc7381i69g_71_198_1728_1150_428_0.jpg](images/bo_d7fqov491nqc7381i69g_71_198_1728_1150_428_0.jpg)
+![bo_d7fqov491nqc7381i69g_71_198_1728_1150_428_0.jpg](attachments/bo_d7fqov491nqc7381i69g_71_198_1728_1150_428_0.jpg)
 
 ## 与文档浑然一体
 
@@ -2088,19 +2088,19 @@ $y$
 
 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fqov491nqc7381i69g_72_321_371_104_110_0.jpg](images/bo_d7fqov491nqc7381i69g_72_321_371_104_110_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_321_371_104_110_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_321_371_104_110_0.jpg)
 
 A
 
-![bo_d7fqov491nqc7381i69g_72_453_372_101_110_0.jpg](images/bo_d7fqov491nqc7381i69g_72_453_372_101_110_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_453_372_101_110_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_453_372_101_110_0.jpg)
 
 B
 
-![bo_d7fqov491nqc7381i69g_72_582_372_103_110_0.jpg](images/bo_d7fqov491nqc7381i69g_72_582_372_103_110_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_582_372_103_110_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_582_372_103_110_0.jpg)
 
 C
 
-![bo_d7fqov491nqc7381i69g_72_709_373_103_109_0.jpg](images/bo_d7fqov491nqc7381i69g_72_709_373_103_109_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_709_373_103_109_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_709_373_103_109_0.jpg)
 
 D
 
@@ -2108,19 +2108,19 @@ D
 
 已知 $0 < m < n < 1$ ，则指数函数 $\text{ ① }y = {m}^{x}$ ， $\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fqov491nqc7381i69g_72_330_574_88_93_0.jpg](images/bo_d7fqov491nqc7381i69g_72_330_574_88_93_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_330_574_88_93_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_330_574_88_93_0.jpg)
 
 A
 
-![bo_d7fqov491nqc7381i69g_72_461_574_85_93_0.jpg](images/bo_d7fqov491nqc7381i69g_72_461_574_85_93_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_461_574_85_93_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_461_574_85_93_0.jpg)
 
 B
 
-![bo_d7fqov491nqc7381i69g_72_591_574_85_93_0.jpg](images/bo_d7fqov491nqc7381i69g_72_591_574_85_93_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_591_574_85_93_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_591_574_85_93_0.jpg)
 
 C
 
-![bo_d7fqov491nqc7381i69g_72_718_575_87_92_0.jpg](images/bo_d7fqov491nqc7381i69g_72_718_575_87_92_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_718_575_87_92_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_718_575_87_92_0.jpg)
 
 D
 
@@ -2128,7 +2128,7 @@ D
 
 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象, 则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fqov491nqc7381i69g_72_432_789_290_135_0.jpg](images/bo_d7fqov491nqc7381i69g_72_432_789_290_135_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_432_789_290_135_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_432_789_290_135_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$
 
@@ -2140,19 +2140,19 @@ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 同一坐标系中的图象可能是 ( )
 
-![bo_d7fqov491nqc7381i69g_72_918_273_98_100_0.jpg](images/bo_d7fqov491nqc7381i69g_72_918_273_98_100_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_918_273_98_100_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_918_273_98_100_0.jpg)
 
 A
 
-![bo_d7fqov491nqc7381i69g_72_1051_272_98_101_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1051_272_98_101_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1051_272_98_101_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1051_272_98_101_0.jpg)
 
 B
 
-![bo_d7fqov491nqc7381i69g_72_1180_271_100_102_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1180_271_100_102_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1180_271_100_102_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1180_271_100_102_0.jpg)
 
 C
 
-![bo_d7fqov491nqc7381i69g_72_1308_271_99_102_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1308_271_99_102_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1308_271_99_102_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1308_271_99_102_0.jpg)
 
 D
 
@@ -2160,7 +2160,7 @@ D
 
 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
-![bo_d7fqov491nqc7381i69g_72_1106_491_132_135_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1106_491_132_135_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1106_491_132_135_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1106_491_132_135_0.jpg)
 
 A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c$
 
@@ -2168,7 +2168,7 @@ A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c
 
 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
-![bo_d7fqov491nqc7381i69g_72_1083_784_177_180_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1083_784_177_180_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1083_784_177_180_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1083_784_177_180_0.jpg)
 
 A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
@@ -2182,27 +2182,27 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fqov491nqc7381i69g_72_334_1250_137_122_0.jpg](images/bo_d7fqov491nqc7381i69g_72_334_1250_137_122_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_334_1250_137_122_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_334_1250_137_122_0.jpg)
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_72_517_1250_127_122_0.jpg](images/bo_d7fqov491nqc7381i69g_72_517_1250_127_122_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_517_1250_127_122_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_517_1250_127_122_0.jpg)
 
 (3)
 
-![bo_d7fqov491nqc7381i69g_72_693_1250_132_121_0.jpg](images/bo_d7fqov491nqc7381i69g_72_693_1250_132_121_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_693_1250_132_121_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_693_1250_132_121_0.jpg)
 
 (4)
 
-![bo_d7fqov491nqc7381i69g_72_335_1377_130_124_0.jpg](images/bo_d7fqov491nqc7381i69g_72_335_1377_130_124_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_335_1377_130_124_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_335_1377_130_124_0.jpg)
 
 (5)
 
-![bo_d7fqov491nqc7381i69g_72_516_1376_129_126_0.jpg](images/bo_d7fqov491nqc7381i69g_72_516_1376_129_126_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_516_1376_129_126_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_516_1376_129_126_0.jpg)
 
 (6)
 
-![bo_d7fqov491nqc7381i69g_72_693_1378_131_124_0.jpg](images/bo_d7fqov491nqc7381i69g_72_693_1378_131_124_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_693_1378_131_124_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_693_1378_131_124_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -2220,25 +2220,25 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 【答案】
 
-![bo_d7fqov491nqc7381i69g_72_333_1598_125_121_0.jpg](images/bo_d7fqov491nqc7381i69g_72_333_1598_125_121_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_333_1598_125_121_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_333_1598_125_121_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_72_515_1595_122_121_0.jpg](images/bo_d7fqov491nqc7381i69g_72_515_1595_122_121_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_515_1595_122_121_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_515_1595_122_121_0.jpg)
 
 (3)
 
-![bo_d7fqov491nqc7381i69g_72_694_1594_121_123_0.jpg](images/bo_d7fqov491nqc7381i69g_72_694_1594_121_123_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_694_1594_121_123_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_694_1594_121_123_0.jpg)
 
 (4)
 
-![bo_d7fqov491nqc7381i69g_72_334_1721_169_169_0.jpg](images/bo_d7fqov491nqc7381i69g_72_334_1721_169_169_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_334_1721_169_169_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_334_1721_169_169_0.jpg)
 
-![bo_d7fqov491nqc7381i69g_72_514_1720_164_169_0.jpg](images/bo_d7fqov491nqc7381i69g_72_514_1720_164_169_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_514_1720_164_169_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_514_1720_164_169_0.jpg)
 
-![bo_d7fqov491nqc7381i69g_72_691_1751_166_141_0.jpg](images/bo_d7fqov491nqc7381i69g_72_691_1751_166_141_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_691_1751_166_141_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_691_1751_166_141_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -2246,37 +2246,37 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fqov491nqc7381i69g_72_923_1196_177_184_0.jpg](images/bo_d7fqov491nqc7381i69g_72_923_1196_177_184_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_923_1196_177_184_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_923_1196_177_184_0.jpg)
 
 (2) $f\left( x\right)  = x + \ln x$ ;
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_72_1208_1227_104_154_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1208_1227_104_154_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1208_1227_104_154_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1208_1227_104_154_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fqov491nqc7381i69g_72_964_1462_276_106_0.jpg](images/bo_d7fqov491nqc7381i69g_72_964_1462_276_106_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_964_1462_276_106_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_964_1462_276_106_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fqov491nqc7381i69g_72_1291_1620_116_177_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1291_1620_116_177_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1291_1620_116_177_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1291_1620_116_177_0.jpg)
 
 (1) $y = x\ln x$
 
 (2) $y = \frac{\ln x}{x}$
 
-![bo_d7fqov491nqc7381i69g_72_1116_1636_154_163_0.jpg](images/bo_d7fqov491nqc7381i69g_72_1116_1636_154_163_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_1116_1636_154_163_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_1116_1636_154_163_0.jpg)
 
 (3)
 
 (3)
 
-![bo_d7fqov491nqc7381i69g_72_905_1648_180_135_0.jpg](images/bo_d7fqov491nqc7381i69g_72_905_1648_180_135_0.jpg)
+![bo_d7fqov491nqc7381i69g_72_905_1648_180_135_0.jpg](attachments/bo_d7fqov491nqc7381i69g_72_905_1648_180_135_0.jpg)
 
 $f\left( x\right)  = x\ln x$
 
@@ -2318,7 +2318,7 @@ $f\left( x\right)  = x\ln x$
 
 集合
 
-![bo_d7fqov491nqc7381i69g_74_1068_1473_178_444_0.jpg](images/bo_d7fqov491nqc7381i69g_74_1068_1473_178_444_0.jpg)
+![bo_d7fqov491nqc7381i69g_74_1068_1473_178_444_0.jpg](attachments/bo_d7fqov491nqc7381i69g_74_1068_1473_178_444_0.jpg)
 
 <table><tr><td></td><td>序号</td><td>符号</td></tr><tr><td></td><td>1.</td><td>$\sqrt{2},\sqrt[3]{3},\sqrt{\frac{1}{2}}$</td></tr><tr><td></td><td>2.</td><td>$\frac{2}{3},\frac{\sqrt{3}}{2}$</td></tr><tr><td></td><td>3.</td><td>$\overrightarrow{AB},\mathbf{a}$</td></tr><tr><td></td><td>4.</td><td>$\bar{a},\widehat{a},\overline{1234}$</td></tr><tr><td></td><td>5.</td><td>${a}_{m},{a}^{n},{a}_{n + 1}^{n + 2}$</td></tr><tr><td></td><td>6.</td><td>\{\}</td></tr><tr><td></td><td>7.</td><td>%</td></tr><tr><td></td><td>8.</td><td>$+ \infty , - \infty$</td></tr><tr><td></td><td>9.</td><td>$\because \therefore$</td></tr><tr><td></td><td>10.</td><td>$\langle \mathbf{a},\mathbf{b}\rangle$</td></tr><tr><td></td><td>11.</td><td>$\int$</td></tr><tr><td></td><td>12.</td><td>✘</td></tr><tr><td></td><td>13.</td><td>÷</td></tr><tr><td></td><td>14.</td><td>+</td></tr><tr><td></td><td>15.</td><td><</td></tr><tr><td></td><td>16.</td><td>之</td></tr><tr><td></td><td>17.</td><td>$\neq$</td></tr><tr><td></td><td>18.</td><td>$\approx$</td></tr><tr><td></td><td>19.</td><td>...</td></tr><tr><td></td><td>20.</td><td>十</td></tr><tr><td></td><td>21.</td><td>(mod $m$ )</td></tr><tr><td></td><td>22.</td><td>着重号</td></tr><tr><td></td><td>23.</td><td>公式中中文</td></tr><tr><td></td><td>24.</td><td><img src="https://cdn.noedgeai.com/bo_d7fqov491nqc7381i69g_74.jpg?x=383&y=2030&w=60&h=97&r=0"/></td></tr></table>
 
@@ -2392,23 +2392,23 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 ## 一、函数图象
 
-![bo_d7fqov491nqc7381i69g_77_129_129_1417_2097_0.jpg](images/bo_d7fqov491nqc7381i69g_77_129_129_1417_2097_0.jpg)
+![bo_d7fqov491nqc7381i69g_77_129_129_1417_2097_0.jpg](attachments/bo_d7fqov491nqc7381i69g_77_129_129_1417_2097_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 1 页 共 4 页
 
 ## 二、立体几何
 
-![bo_d7fqov491nqc7381i69g_78_161_157_1441_1269_0.jpg](images/bo_d7fqov491nqc7381i69g_78_161_157_1441_1269_0.jpg)
+![bo_d7fqov491nqc7381i69g_78_161_157_1441_1269_0.jpg](attachments/bo_d7fqov491nqc7381i69g_78_161_157_1441_1269_0.jpg)
 
 ## 三、统计图
 
-![bo_d7fqov491nqc7381i69g_78_160_1539_1372_478_0.jpg](images/bo_d7fqov491nqc7381i69g_78_160_1539_1372_478_0.jpg)
+![bo_d7fqov491nqc7381i69g_78_160_1539_1372_478_0.jpg](attachments/bo_d7fqov491nqc7381i69g_78_160_1539_1372_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题
 
 第 2 页 共 4 页
 
-![bo_d7fqov491nqc7381i69g_79_168_103_677_501_0.jpg](images/bo_d7fqov491nqc7381i69g_79_168_103_677_501_0.jpg)
+![bo_d7fqov491nqc7381i69g_79_168_103_677_501_0.jpg](attachments/bo_d7fqov491nqc7381i69g_79_168_103_677_501_0.jpg)
 
 第三产业收入
 
@@ -2424,25 +2424,25 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 四、圆锥曲线等平面图
 
-![bo_d7fqov491nqc7381i69g_79_157_735_1481_754_0.jpg](images/bo_d7fqov491nqc7381i69g_79_157_735_1481_754_0.jpg)
+![bo_d7fqov491nqc7381i69g_79_157_735_1481_754_0.jpg](attachments/bo_d7fqov491nqc7381i69g_79_157_735_1481_754_0.jpg)
 
 ## 五、 其他平面图形
 
-![bo_d7fqov491nqc7381i69g_79_158_1612_1057_478_0.jpg](images/bo_d7fqov491nqc7381i69g_79_158_1612_1057_478_0.jpg)
+![bo_d7fqov491nqc7381i69g_79_158_1612_1057_478_0.jpg](attachments/bo_d7fqov491nqc7381i69g_79_158_1612_1057_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 3 页 共 4 页
 
 ## 六、其它图形
 
-![bo_d7fqov491nqc7381i69g_80_144_153_1206_565_0.jpg](images/bo_d7fqov491nqc7381i69g_80_144_153_1206_565_0.jpg)
+![bo_d7fqov491nqc7381i69g_80_144_153_1206_565_0.jpg](attachments/bo_d7fqov491nqc7381i69g_80_144_153_1206_565_0.jpg)
 
 七、三视图
 
-![bo_d7fqov491nqc7381i69g_80_148_826_1214_455_0.jpg](images/bo_d7fqov491nqc7381i69g_80_148_826_1214_455_0.jpg)
+![bo_d7fqov491nqc7381i69g_80_148_826_1214_455_0.jpg](attachments/bo_d7fqov491nqc7381i69g_80_148_826_1214_455_0.jpg)
 
 ## 八、流程图
 
-![bo_d7fqov491nqc7381i69g_80_153_1388_841_844_0.jpg](images/bo_d7fqov491nqc7381i69g_80_153_1388_841_844_0.jpg)
+![bo_d7fqov491nqc7381i69g_80_153_1388_841_844_0.jpg](attachments/bo_d7fqov491nqc7381i69g_80_153_1388_841_844_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 4 页 共 4 页
 
@@ -2452,65 +2452,65 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 例 1 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fqov491nqc7381i69g_81_186_296_187_201_0.jpg](images/bo_d7fqov491nqc7381i69g_81_186_296_187_201_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_186_296_187_201_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_186_296_187_201_0.jpg)
 
 A
 
-![bo_d7fqov491nqc7381i69g_81_449_298_187_199_0.jpg](images/bo_d7fqov491nqc7381i69g_81_449_298_187_199_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_449_298_187_199_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_449_298_187_199_0.jpg)
 
 B
 
-![bo_d7fqov491nqc7381i69g_81_712_298_187_199_0.jpg](images/bo_d7fqov491nqc7381i69g_81_712_298_187_199_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_712_298_187_199_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_712_298_187_199_0.jpg)
 
 C
 
-![bo_d7fqov491nqc7381i69g_81_974_299_187_199_0.jpg](images/bo_d7fqov491nqc7381i69g_81_974_299_187_199_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_974_299_187_199_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_974_299_187_199_0.jpg)
 
 D
 
 练 1 已知 $0 < m < n < 1$ ,则指数函数 $\text{ ① }y = {m}^{x},\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fqov491nqc7381i69g_81_202_688_155_169_0.jpg](images/bo_d7fqov491nqc7381i69g_81_202_688_155_169_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_202_688_155_169_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_202_688_155_169_0.jpg)
 
 A
 
-![bo_d7fqov491nqc7381i69g_81_464_689_155_168_0.jpg](images/bo_d7fqov491nqc7381i69g_81_464_689_155_168_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_464_689_155_168_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_464_689_155_168_0.jpg)
 
 B
 
-![bo_d7fqov491nqc7381i69g_81_728_689_154_168_0.jpg](images/bo_d7fqov491nqc7381i69g_81_728_689_154_168_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_728_689_154_168_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_728_689_154_168_0.jpg)
 
 C
 
-![bo_d7fqov491nqc7381i69g_81_990_689_155_168_0.jpg](images/bo_d7fqov491nqc7381i69g_81_990_689_155_168_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_990_689_155_168_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_990_689_155_168_0.jpg)
 
 D
 
 例 2 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象,则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fqov491nqc7381i69g_81_377_1093_524_243_0.jpg](images/bo_d7fqov491nqc7381i69g_81_377_1093_524_243_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_377_1093_524_243_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_377_1093_524_243_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 练 2 已知 $a > 0, b > 0$ ,且 ${ab} = 1, a \neq  1$ ,则函数 $f\left( x\right)  = {a}^{x}$ 与函数 $g\left( x\right)  =  - {\log }_{b}x$ 在同一坐标系中的图象可能是 ( )
 
-![bo_d7fqov491nqc7381i69g_81_1300_176_182_176_0.jpg](images/bo_d7fqov491nqc7381i69g_81_1300_176_182_176_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_1300_176_182_176_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_1300_176_182_176_0.jpg)
 
 A
 
-![bo_d7fqov491nqc7381i69g_81_1566_175_177_178_0.jpg](images/bo_d7fqov491nqc7381i69g_81_1566_175_177_178_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_1566_175_177_178_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_1566_175_177_178_0.jpg)
 
 B
 
-![bo_d7fqov491nqc7381i69g_81_1827_174_179_178_0.jpg](images/bo_d7fqov491nqc7381i69g_81_1827_174_179_178_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_1827_174_179_178_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_1827_174_179_178_0.jpg)
 
 C
 
-![bo_d7fqov491nqc7381i69g_81_2089_177_179_176_0.jpg](images/bo_d7fqov491nqc7381i69g_81_2089_177_179_176_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_2089_177_179_176_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_2089_177_179_176_0.jpg)
 
 D
 
-![bo_d7fqov491nqc7381i69g_81_2001_545_241_248_0.jpg](images/bo_d7fqov491nqc7381i69g_81_2001_545_241_248_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_2001_545_241_248_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_2001_545_241_248_0.jpg)
 
 例 3 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
@@ -2518,7 +2518,7 @@ A. $a < b < c < d$ B. $a < b < d < c$
 
 C. $b < a < c < d$ D. $b < a < d < c$
 
-![bo_d7fqov491nqc7381i69g_81_1995_909_250_238_0.jpg](images/bo_d7fqov491nqc7381i69g_81_1995_909_250_238_0.jpg)
+![bo_d7fqov491nqc7381i69g_81_1995_909_250_238_0.jpg](attachments/bo_d7fqov491nqc7381i69g_81_1995_909_250_238_0.jpg)
 
 练 3 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
@@ -2536,29 +2536,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqov491nqc7381i69g_82_198_279_253_219_0.jpg](images/bo_d7fqov491nqc7381i69g_82_198_279_253_219_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_198_279_253_219_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_198_279_253_219_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_82_531_279_241_220_0.jpg](images/bo_d7fqov491nqc7381i69g_82_531_279_241_220_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_531_279_241_220_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_531_279_241_220_0.jpg)
 
 (3)
 
-![bo_d7fqov491nqc7381i69g_82_859_278_242_220_0.jpg](images/bo_d7fqov491nqc7381i69g_82_859_278_242_220_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_859_278_242_220_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_859_278_242_220_0.jpg)
 
 (4)
 
-![bo_d7fqov491nqc7381i69g_82_198_511_241_226_0.jpg](images/bo_d7fqov491nqc7381i69g_82_198_511_241_226_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_198_511_241_226_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_198_511_241_226_0.jpg)
 
 (5)
 
-![bo_d7fqov491nqc7381i69g_82_531_510_240_229_0.jpg](images/bo_d7fqov491nqc7381i69g_82_531_510_240_229_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_531_510_240_229_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_531_510_240_229_0.jpg)
 
 (6)
 
-![bo_d7fqov491nqc7381i69g_82_859_510_242_231_0.jpg](images/bo_d7fqov491nqc7381i69g_82_859_510_242_231_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_859_510_242_231_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_859_510_242_231_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -2568,29 +2568,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqov491nqc7381i69g_82_200_922_223_215_0.jpg](images/bo_d7fqov491nqc7381i69g_82_200_922_223_215_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_200_922_223_215_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_200_922_223_215_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_82_529_913_224_222_0.jpg](images/bo_d7fqov491nqc7381i69g_82_529_913_224_222_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_529_913_224_222_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_529_913_224_222_0.jpg)
 
 (3)
 
-![bo_d7fqov491nqc7381i69g_82_859_909_225_222_0.jpg](images/bo_d7fqov491nqc7381i69g_82_859_909_225_222_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_859_909_225_222_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_859_909_225_222_0.jpg)
 
 (4)
 
-![bo_d7fqov491nqc7381i69g_82_198_1150_301_306_0.jpg](images/bo_d7fqov491nqc7381i69g_82_198_1150_301_306_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_198_1150_301_306_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_198_1150_301_306_0.jpg)
 
 (5)
 
-![bo_d7fqov491nqc7381i69g_82_531_1142_303_312_0.jpg](images/bo_d7fqov491nqc7381i69g_82_531_1142_303_312_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_531_1142_303_312_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_531_1142_303_312_0.jpg)
 
 (6)
 
-![bo_d7fqov491nqc7381i69g_82_861_1203_303_253_0.jpg](images/bo_d7fqov491nqc7381i69g_82_861_1203_303_253_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_861_1203_303_253_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_861_1203_303_253_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -2600,7 +2600,7 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqov491nqc7381i69g_82_1316_229_298_295_0.jpg](images/bo_d7fqov491nqc7381i69g_82_1316_229_298_295_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_1316_229_298_295_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_1316_229_298_295_0.jpg)
 
 (1)
 
@@ -2608,29 +2608,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_82_1816_232_193_290_0.jpg](images/bo_d7fqov491nqc7381i69g_82_1816_232_193_290_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_1816_232_193_290_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_1816_232_193_290_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fqov491nqc7381i69g_82_1362_670_512_195_0.jpg](images/bo_d7fqov491nqc7381i69g_82_1362_670_512_195_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_1362_670_512_195_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_1362_670_512_195_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fqov491nqc7381i69g_82_1984_972_196_313_0.jpg](images/bo_d7fqov491nqc7381i69g_82_1984_972_196_313_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_1984_972_196_313_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_1984_972_196_313_0.jpg)
 
 (1) $y = x\ln x$ (2) $y = \frac{\ln x}{x}$ (3) $y = \frac{x}{\ln x}$
 
 (1)
 
-![bo_d7fqov491nqc7381i69g_82_1321_1014_266_258_0.jpg](images/bo_d7fqov491nqc7381i69g_82_1321_1014_266_258_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_1321_1014_266_258_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_1321_1014_266_258_0.jpg)
 
 (2)
 
-![bo_d7fqov491nqc7381i69g_82_1650_1018_275_267_0.jpg](images/bo_d7fqov491nqc7381i69g_82_1650_1018_275_267_0.jpg)
+![bo_d7fqov491nqc7381i69g_82_1650_1018_275_267_0.jpg](attachments/bo_d7fqov491nqc7381i69g_82_1650_1018_275_267_0.jpg)
 
 (3)
 

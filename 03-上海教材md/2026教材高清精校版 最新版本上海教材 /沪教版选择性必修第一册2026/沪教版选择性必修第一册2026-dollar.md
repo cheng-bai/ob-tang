@@ -140,7 +140,7 @@ SHUXUE 数字选择性必修第一册
 
 复习题 173
 
-![bo_d7fqvdc91nqc7381i9u0_7_0_0_1654_1054_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_7_0_0_1654_1054_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_7_0_0_1654_1054_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_7_0_0_1654_1054_0.jpg)
 
 ## 第 1 章 平面直角坐标 系中的直线
 
@@ -154,7 +154,7 @@ SHUXUE 数字选择性必修第一册
 
 在平面直角坐标系中, 已经有了两条互相垂直的直线, 即两条坐标轴, 我们只要能确定直线 $l$ 与其中一条坐标轴的相对位置, 就能描述出该直线在坐标系中的位置. 不妨先设直线 $l$ 与 $x$ 轴相交于点 $A$ ,如图 1-1-1 所示. 将 $x$ 轴绕点 $A$ 沿逆时针方向旋转到与 $l$ 重合时所转过的最小正角 $\theta$ 叫做直线 $l$ 的倾斜角 (angle of inclination). 显然, $0 < \theta  < \pi$ . 当直线 $l$ 与 $x$ 轴平行或重合时,规定其倾斜角为 0,这样,直线 $l$ 的倾斜角的取值范围就可扩大为 $0 \leq  \theta  < \pi$ , 即 $\theta  \in  \lbrack 0,\pi )$ . 特别地,当倾斜角 $\theta  = \frac{\pi }{2}$ 时,直线 $l$ 与 $x$ 轴垂直.
 
-![bo_d7fqvdc91nqc7381i9u0_8_198_628_298_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_8_198_628_298_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_8_198_628_298_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_8_198_628_298_301_0.jpg)
 
 图 1-1-1
 
@@ -164,15 +164,15 @@ SHUXUE 数字选择性必修第一册
 
 设直线 $l$ 经过不同的两点 $A\left( {{x}_{1},{y}_{1}}\right) \text{ 、 }B\left( {{x}_{2},{y}_{2}}\right)$ . 当 ${x}_{1} = {x}_{2}$ 时,直线 $l$ 与 $x$ 轴垂直 (图 1-1-2),此时,直线 $l$ 的倾斜角 $\theta  = \frac{\pi }{2}$ , 斜率不存在.
 
-![bo_d7fqvdc91nqc7381i9u0_8_554_1796_299_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_8_554_1796_299_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_8_554_1796_299_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_8_554_1796_299_301_0.jpg)
 
 图 1-1-2
 
-![bo_d7fqvdc91nqc7381i9u0_8_872_1790_296_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_8_872_1790_296_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_8_872_1790_296_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_8_872_1790_296_301_0.jpg)
 
 图 1-1-3
 
-![bo_d7fqvdc91nqc7381i9u0_8_1189_1792_298_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_8_1189_1792_298_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_8_1189_1792_298_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_8_1189_1792_298_298_0.jpg)
 
 图 1-1-4
 
@@ -256,7 +256,7 @@ $$
 
 ## A 组
 
-![bo_d7fqvdc91nqc7381i9u0_10_1200_1802_298_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_10_1200_1802_298_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_10_1200_1802_298_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_10_1200_1802_298_298_0.jpg)
 
 (第 1 题)
 
@@ -272,7 +272,7 @@ $$
 
 (1) $\theta  \in  \left\lbrack  {\frac{\pi }{4},\frac{\pi }{3}}\right\rbrack$ ；
 
-![bo_d7fqvdc91nqc7381i9u0_11_1186_444_278_271_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_11_1186_444_278_271_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_11_1186_444_278_271_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_11_1186_444_278_271_0.jpg)
 
 (第 5 题)
 
@@ -300,7 +300,7 @@ $$
 
 如图 1-2-1,在平面直角坐标系中,设 $P\left( {x, y}\right)$ 是过点 $M\left( {{x}_{0},{y}_{0}}\right)$ 、斜率为 $k$ 的直线 $l$ 上的任意一点. 当点 $P\left( {x, y}\right)$ 与点 $M$ 不重合时,由 $k = \frac{y - {y}_{0}}{x - {x}_{0}}$ ,可得
 
-![bo_d7fqvdc91nqc7381i9u0_12_220_1782_253_275_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_12_220_1782_253_275_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_12_220_1782_253_275_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_12_220_1782_253_275_0.jpg)
 
 图 1-2-1
 
@@ -332,7 +332,7 @@ $$
 
 ②
 
-![bo_d7fqvdc91nqc7381i9u0_13_1154_1266_295_287_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_13_1154_1266_295_287_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_13_1154_1266_295_287_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_13_1154_1266_295_287_0.jpg)
 
 图 1-2-2
 
@@ -408,7 +408,7 @@ $$
 
 化简, $l$ 的方程可写为 $y = \frac{3}{2}x - 2$ .
 
-![bo_d7fqvdc91nqc7381i9u0_15_1149_488_298_266_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_15_1149_488_298_266_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_15_1149_488_298_266_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_15_1149_488_298_266_0.jpg)
 
 图 1-2-3
 
@@ -460,7 +460,7 @@ $$
 
 (1) ${l}_{1} : {2y} + 1 = 0$ ;
 
-![bo_d7fqvdc91nqc7381i9u0_16_200_1754_297_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_16_200_1754_297_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_16_200_1754_297_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_16_200_1754_297_301_0.jpg)
 
 图 1-2-4
 
@@ -478,7 +478,7 @@ $$
 
 所以，无论 $a$ 取何值时，直线 $l$ 都经过一个定点，该定点的坐标为 $\left( {-1, - 1}\right)$ .
 
-![bo_d7fqvdc91nqc7381i9u0_17_1152_905_297_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_17_1152_905_297_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_17_1152_905_297_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_17_1152_905_297_298_0.jpg)
 
 图 1-2-5
 
@@ -660,7 +660,7 @@ B 组
 
 5. 若 $2{x}_{1} + 3{y}_{1} = 1,2{x}_{2} + 3{y}_{2} = 1$ ,且 ${x}_{1} \neq  {x}_{2}$ . 求经过两点 $A\left( {x}_{1}\right.$ , $\left. {y}_{1}\right) \text{ 、 }B\left( {{x}_{2},{y}_{2}}\right)$ 的直线 $l$ 的方程.
 
-![bo_d7fqvdc91nqc7381i9u0_21_1269_857_152_152_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_21_1269_857_152_152_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_21_1269_857_152_152_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_21_1269_857_152_152_0.jpg)
 
 (第 6 题)
 
@@ -802,7 +802,7 @@ $$
 
 如何根据方程判定两条直线是否垂直呢?
 
-![bo_d7fqvdc91nqc7381i9u0_25_1149_1200_312_287_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_25_1149_1200_312_287_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_25_1149_1200_312_287_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_25_1149_1200_312_287_0.jpg)
 
 图 1-3-1
 
@@ -872,7 +872,7 @@ $$
 
 如图 1-3-2,设两条直线 (实线所示) 的夹角为 $\alpha$ ,不妨从夹角内部的一点分别作两条直线的一个法向量,法向量夹角为 $\theta$ . 两个法向量所在直线 (虚线所示) 和原来的两条直线围成了一个四边形,其中一组对角均是直角,另外一组对角是 $\alpha$ 与 $\theta$ 或者 $\alpha$ 与 $\pi  - \theta$ . 由此可见 $\alpha  + \theta  = \pi$ 或者 $\alpha  + \left( {\pi  - \theta }\right)  = \pi$ ,推出 $\alpha  = \pi  - \theta$ 或者 $\alpha  = \theta$ . 这样, $\cos \alpha  =  \pm  \cos \theta$ . 因为 $0 < \alpha  \leq  \frac{\pi }{2},\cos \alpha  \geq  0$ ,所以 $\cos \alpha  = \left| {\cos \theta }\right|$ .
 
-![bo_d7fqvdc91nqc7381i9u0_27_323_1107_608_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_27_323_1107_608_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_27_323_1107_608_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_27_323_1107_608_298_0.jpg)
 
 图 1-3-2
 
@@ -988,7 +988,7 @@ $$
 
 我们首先讨论直线 $l : {ax} + {by} + c = 0$ ( $a\text{ 、 }b$ 不同时为零) 外一点 $P\left( {{x}_{0},{y}_{0}}\right)$ 到这条直线的距离. 根据点到直线距离的定义, 如图 1-4-1,过点 $P$ 作直线 $l$ 的垂线,设垂足是 $Q\left( {{x}_{Q},{y}_{Q}}\right)$ ,则线段 ${PQ}$ 的长度就是点 $P$ 到直线 $l$ 的距离 $d$ . 因此,只要求出 ${PQ}$ 所在直线的方程,然后与 $l$ 的方程联立得到一个二元一次方程组,解这个方程组就可以得到点 $Q$ 的坐标,进而利用两点间的距离公式求出 ${PQ}$ 的长度. 这种方法的思路很清晰,但运算量比较大. 为了简便计算, 我们介绍另外一种方法.
 
-![bo_d7fqvdc91nqc7381i9u0_31_1152_516_295_303_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_31_1152_516_295_303_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_31_1152_516_295_303_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_31_1152_516_295_303_0.jpg)
 
 图 1-4-1
 
@@ -1050,7 +1050,7 @@ $$
 d = \frac{\left| {c}_{1} - {c}_{2}\right| }{\sqrt{{a}^{2} + {b}^{2}}}.
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_32_185_1013_323_302_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_32_185_1013_323_302_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_32_185_1013_323_302_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_32_185_1013_323_302_0.jpg)
 
 图 1-4-2
 
@@ -1252,7 +1252,7 @@ $$
 
 4. 点到直线的距离是该点到直线上任意一点距离的最小值. 如果把一个给定点到线段上任意一点的距离的最小值定义为该点到该线段的距离,试求点 $P\left( {1,1}\right)$ 到线段 $l : x - \; y - 3 = 0\left( {3 \leq  x \leq  5}\right)$ 的距离.
 
-![bo_d7fqvdc91nqc7381i9u0_39_5_0_1649_1047_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_39_5_0_1649_1047_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_39_5_0_1649_1047_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_39_5_0_1649_1047_0.jpg)
 
 ## 第 2 章 圆锥曲线
 
@@ -1278,7 +1278,7 @@ $$
 
 显然, 只要圆心的位置及圆的半径确定, 一个圆在平面上的位置就完全确定了. 假设在平面直角坐标系中,已知圆 $C$ 的圆心是 $C\left( {a, b}\right)$ ,半径是 $r\left( {r > 0}\right)$ ,如图 2-1-1 所示. 我们来考察这个圆上的动点 $P\left( {x, y}\right)$ 的坐标所满足的方程.
 
-![bo_d7fqvdc91nqc7381i9u0_41_1154_236_295_303_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_41_1154_236_295_303_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_41_1154_236_295_303_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_41_1154_236_295_303_0.jpg)
 
 图 2-1-1
 
@@ -1322,7 +1322,7 @@ $$
 
 例 2 设平面上有一条长度为 4 的线段 ${AB}$ ,试建立适当的平面直角坐标系,求到线段 ${AB}$ 两端点的距离的平方和为 16 的点的轨迹方程.
 
-![bo_d7fqvdc91nqc7381i9u0_41_1139_1723_322_281_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_41_1139_1723_322_281_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_41_1139_1723_322_281_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_41_1139_1723_322_281_0.jpg)
 
 图 2-1-2
 
@@ -1342,7 +1342,7 @@ $$
 
 因此,所求轨迹方程为 ${x}^{2} + {y}^{2} = 4$ ,其轨迹是以 $O\left( {0,0}\right)$ 为圆心、以 ${AB}$ 为直径的圆.
 
-![bo_d7fqvdc91nqc7381i9u0_42_208_351_275_413_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_42_208_351_275_413_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_42_208_351_275_413_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_42_208_351_275_413_0.jpg)
 
 图 2-1-3
 
@@ -1368,7 +1368,7 @@ $$
 
 例 4 已知一个圆与 $y$ 轴相切,其圆心在直线 $x - {3y} = 0$ 上,且直线 $y = x$ 被该圆截得的弦长为 $2\sqrt{7}$ . 求此圆的方程.
 
-![bo_d7fqvdc91nqc7381i9u0_42_183_1350_331_304_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_42_183_1350_331_304_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_42_183_1350_331_304_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_42_183_1350_331_304_0.jpg)
 
 图 2-1-4
 
@@ -1576,7 +1576,7 @@ $$
 \Delta  = {\left( 4b\right) }^{2} - 4 \times  5\left( {{b}^{2} - 9}\right)  =  - 4\left( {{b}^{2} - {45}}\right) .
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_46_198_570_299_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_46_198_570_299_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_46_198_570_299_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_46_198_570_299_298_0.jpg)
 
 图 2-1-5
 
@@ -1588,7 +1588,7 @@ $$
 
 解 (1) 因为 $M\left( {{x}_{0},{y}_{0}}\right)$ 是 $l$ 与圆 $O$ 的切点,可知 ${x}_{0}^{2} + {y}_{0}^{2} = 4$ ,且过点 $M$ 的半径 ${OM}$ 与 $l$ 垂直,即 $\overrightarrow{OM} = \left( {{x}_{0},{y}_{0}}\right)$ 是 $l$ 的一个法向量,于是可得切线 $l$ 的点法式方程为
 
-![bo_d7fqvdc91nqc7381i9u0_46_200_1104_294_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_46_200_1104_294_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_46_200_1104_294_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_46_200_1104_294_298_0.jpg)
 
 图 2-1-6
 
@@ -1650,7 +1650,7 @@ $$
 
 因此,所求直线的方程为 $x - \sqrt{3}y + 4 = 0$ 或 $x - 2 = 0$ .
 
-![bo_d7fqvdc91nqc7381i9u0_47_1152_589_295_300_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_47_1152_589_295_300_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_47_1152_589_295_300_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_47_1152_589_295_300_0.jpg)
 
 图 2-1-7
 
@@ -1696,7 +1696,7 @@ $$
 
 圆是常见的平面几何图形, 两个或多个圆之间不同位置关系的合理使用, 会对装置的功能或艺术品的美感产生不同的作用. 如图 2-1-8 中的自行车双轮、滚珠轴承、奥运五环、花布图案, 都是圆的位置关系应用的实例.
 
-![bo_d7fqvdc91nqc7381i9u0_48_636_241_728_493_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_48_636_241_728_493_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_48_636_241_728_493_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_48_636_241_728_493_0.jpg)
 
 图 2-1-8
 
@@ -1784,7 +1784,7 @@ $$
 
 例 12 如图 2-1-9(1)，圆 ${O}_{1}$ 与圆 ${O}_{2}$ 的半径都是 1， ${O}_{1}{O}_{2} = 4$ ,过动点 $P$ 分别作圆 ${O}_{1}$ 、圆 ${O}_{2}$ 的切线 ${PM}\text{ 、 }{PN}(M$ 、 $N$ 分别为切点),使得 $\left| {PM}\right|  = \sqrt{2}\left| {PN}\right|$ . 试通过建立适当的平面直角坐标系,求动点 $P$ 的轨迹.
 
-![bo_d7fqvdc91nqc7381i9u0_50_591_929_866_351_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_50_591_929_866_351_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_50_591_929_866_351_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_50_591_929_866_351_0.jpg)
 
 图 2-1-9
 
@@ -1864,7 +1864,7 @@ $$
 
 11. 圆拱桥的一个圆拱如图所示,该圆拱的跨度 ${AB}$ 为 ${20}\mathrm{\;m}$ ,拱高 ${OP}$ 为 $4\mathrm{\;m}$ ,在建造过程中每隔 $4\mathrm{\;m}$ 需用一个支柱支撑. 求支柱 ${A}_{2}{B}_{2}$ 的高度. (结果精确到 ${0.01}\mathrm{\;m}$ )
 
-![bo_d7fqvdc91nqc7381i9u0_52_580_346_515_179_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_52_580_346_515_179_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_52_580_346_515_179_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_52_580_346_515_179_0.jpg)
 
 (第 11 题)
 
@@ -1894,7 +1894,7 @@ $$
 
 (2)建立适当的平面直角坐标系，写出上半部分跑道所对应的函数表达式.
 
-![bo_d7fqvdc91nqc7381i9u0_52_567_1754_544_258_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_52_567_1754_544_258_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_52_567_1754_544_258_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_52_567_1754_544_258_0.jpg)
 
 (第 10 题)
 
@@ -1904,7 +1904,7 @@ $$
 
 如图 2-1-10,设直线 $l$ 为公海与领海的分界线,一巡逻艇在 $A$ 处发现北偏东 ${60}^{ \circ  }$ 海面 $B$ 处有一艘走私船,此走私船正向停泊在公海上接应的走私海轮 $C$ 航行,以便上海轮后逃窜. 已知巡逻艇的航速是走私船航速的 2 倍, $A$ 与公海相距约 12 海里,走私船可能向任一方向逃窜. 请回答下列问题:
 
-![bo_d7fqvdc91nqc7381i9u0_53_549_787_512_306_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_53_549_787_512_306_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_53_549_787_512_306_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_53_549_787_512_306_0.jpg)
 
 图 2-1-10
 
@@ -1922,11 +1922,11 @@ $$
 
 作为一条平面曲线, 椭圆有多种定义方式, 我们这里只给出其中的一种. 为此,先做一个简单的实验: 取一段长为 ${2a}$ 的绳子, 如果把这段绳子的两个端点分别固定在画图板上不同的两点 ${F}_{1}$ 和 ${F}_{2}$ 处,当绳长 ${2a} > \left| {{F}_{1}{F}_{2}}\right|$ 时,将铅笔尖套在绳子里并拉紧绳子,使笔尖 $M$ 顺势移动一周,笔尖 $M$ 画出来的图形就是一个椭圆 (图 2-2-1). 从上面的画图过程可以看出, 椭圆是由到两定点距离之和为定值的点所组成的集合.
 
-![bo_d7fqvdc91nqc7381i9u0_54_164_1155_359_239_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_54_164_1155_359_239_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_54_164_1155_359_239_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_54_164_1155_359_239_0.jpg)
 
 图 2-2-1
 
-![bo_d7fqvdc91nqc7381i9u0_54_586_1038_866_245_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_54_586_1038_866_245_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_54_586_1038_866_245_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_54_586_1038_866_245_0.jpg)
 
 Q
 
@@ -1948,7 +1948,7 @@ $$
 
 以线段 ${F}_{1}{F}_{2}$ 的中点为原点,以 $\overrightarrow{{F}_{1}{F}_{2}}$ 的方向为 $x$ 轴的正方向, 建立如图 2-2-2 所示的平面直角坐标系. 设椭圆的焦距为 ${2c}$ ,则点 ${F}_{1}\text{ 、 }{F}_{2}$ 的坐标分别为 $\left( {-c,0}\right) \text{ 、 }\left( {c,0}\right)$ .
 
-![bo_d7fqvdc91nqc7381i9u0_55_1154_231_293_275_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_55_1154_231_293_275_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_55_1154_231_293_275_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_55_1154_231_293_275_0.jpg)
 
 图 2-2-2
 
@@ -2020,7 +2020,7 @@ $$
 
 方程①和②都叫做椭圆的标准方程.
 
-![bo_d7fqvdc91nqc7381i9u0_55_1172_1754_256_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_55_1172_1754_256_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_55_1172_1754_256_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_55_1172_1754_256_301_0.jpg)
 
 图 2-2-3
 
@@ -2110,13 +2110,13 @@ $$
 
 从椭圆的形状上看, 椭圆有两条相互垂直的对称轴. 这里, 也可以通过方程①讨论椭圆的对称性. 容易验证,如果点 ${M}_{1}\left( {x, y}\right)$ 的坐标满足方程①，那么它关于 $y$ 轴的对称点 ${M}_{2}\left( {-x, y}\right)$ 、关于 $x$ 轴的对称点 ${M}_{3}\left( {x, - y}\right)$ 及关于坐标原点的对称点 ${M}_{4}\left( {-x, - y}\right)$ 的坐标也都满足方程①(图 2-2-4)，所以椭圆关于 $y$ 轴、 $x$ 轴和坐标原点对称. 因此, 椭圆既是轴对称图形, 有两条互相垂直的对称轴; 也是中心对称图形, 其唯一的对称中心叫做椭圆的中心.
 
-![bo_d7fqvdc91nqc7381i9u0_57_1152_912_295_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_57_1152_912_295_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_57_1152_912_295_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_57_1152_912_295_301_0.jpg)
 
 图 2-2-4
 
 ## (2) 顶点
 
-![bo_d7fqvdc91nqc7381i9u0_57_1138_1428_326_275_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_57_1138_1428_326_275_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_57_1138_1428_326_275_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_57_1138_1428_326_275_0.jpg)
 
 图 2-2-5
 
@@ -2136,7 +2136,7 @@ $$
 \frac{{x}^{2}}{{a}^{2}} \leq  1,\frac{{y}^{2}}{{b}^{2}} \leq  1,
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_58_201_404_294_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_58_201_404_294_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_58_201_404_294_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_58_201_404_294_298_0.jpg)
 
 图 2-2-6
 
@@ -2188,7 +2188,7 @@ $$
 
 例 4 我国发射的第一颗人造地球卫星, 它的运行轨道是以地球的中心 ${F}_{2}$ 为一个焦点的椭圆,椭圆长轴的两个端点 $A$ 、 $B$ 分别为近地点和远地点,如图 2-2-7 所示. 卫星在近地点 $A$ 与地球表面的距离约为 ${440}\mathrm{\;{km}}$ ,在远地点 $B$ 与地球表面的距离约为 ${2384}\mathrm{\;{km}}$ ,地球中心与 $A\text{ 、 }B$ 在同一直线上. 已知地球的半径 $R$ 约为 ${6371}\mathrm{\;{km}}$ . 以 $\mathrm{{km}}$ 为单位,建立适当的平面直角坐标系, 求卫星轨道的方程. (结果精确到 $1\mathrm{\;{km}}$ )
 
-![bo_d7fqvdc91nqc7381i9u0_59_1161_479_244_321_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_59_1161_479_244_321_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_59_1161_479_244_321_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_59_1161_479_244_321_0.jpg)
 
 图 2-2-7
 
@@ -2204,7 +2204,7 @@ $$
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_59_1139_1113_324_299_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_59_1139_1113_324_299_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_59_1139_1113_324_299_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_59_1139_1113_324_299_0.jpg)
 
 图 2-2-8
 
@@ -2232,7 +2232,7 @@ $$
 
 因此,所求卫星轨道的方程为 $\frac{{x}^{2}}{{7783}^{2}} + \frac{{y}^{2}}{{7723}^{2}} = 1$ .
 
-![bo_d7fqvdc91nqc7381i9u0_59_1135_1594_324_455_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_59_1135_1594_324_455_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_59_1135_1594_324_455_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_59_1135_1594_324_455_0.jpg)
 
 图 2-2-9
 
@@ -2312,13 +2312,13 @@ B 组
 
 如图 2-3-1,给定两个定点 ${F}_{1}$ 与 ${F}_{2}$ ,将一条拉链先拉开一部分,并将拉开的一支的一端固定在 ${F}_{2}$ 处,在另一支上选择一点固定在 ${F}_{1}$ 处,在拉链头 $M$ 处放上一支铅笔,然后逐渐拉开拉链,让铅笔尖 $M$ 顺势移动,则笔尖 $M$ 画出的图形 (图 2-3-2 中实线所示的曲线在直线 ${F}_{1}{F}_{2}$ 上方的部分) 就是使 $\left| {M{F}_{2}}\right|  - \left| {M{F}_{1}}\right|$ 为常数 $\left| {P{F}_{1}}\right|$ 的点 $M$ 的轨迹的一部分.
 
-![bo_d7fqvdc91nqc7381i9u0_62_198_752_298_265_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_62_198_752_298_265_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_62_198_752_298_265_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_62_198_752_298_265_0.jpg)
 
 图 2-3-1
 
 我们知道平面上到两个定点的距离之和等于常数 (此常数大于两定点之间的距离) 的点的轨迹是椭圆, 那么平面上到两个定点的距离之差等于常数的点的轨迹是怎样的曲线呢?
 
-![bo_d7fqvdc91nqc7381i9u0_62_198_1201_299_248_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_62_198_1201_299_248_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_62_198_1201_299_248_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_62_198_1201_299_248_0.jpg)
 
 图 2-3-2
 
@@ -2340,7 +2340,7 @@ $$
 
 定点 ${F}_{1}\text{ 、 }{F}_{2}$ 叫做双曲线的焦点,两个焦点之间的距离 $\left| {{F}_{1}{F}_{2}}\right|$ 叫做双曲线的焦距.
 
-![bo_d7fqvdc91nqc7381i9u0_62_185_1835_327_259_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_62_185_1835_327_259_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_62_185_1835_327_259_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_62_185_1835_327_259_0.jpg)
 
 图 2-3-3
 
@@ -2398,7 +2398,7 @@ $$
 
 ②
 
-![bo_d7fqvdc91nqc7381i9u0_63_1177_1468_248_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_63_1177_1468_248_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_63_1177_1468_248_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_63_1177_1468_248_298_0.jpg)
 
 图 2-3-4
 
@@ -2442,7 +2442,7 @@ $$
 
 (2)当 $m = 6$ 时， $\left| {M{F}_{1}}\right|  - \left| {M{F}_{2}}\right|  = \left| {{F}_{1}{F}_{2}}\right|$ ，此时点 $M$ 的轨迹是以 ${F}_{2}$ 为端点在 $x$ 轴上向正方向的射线,轨迹方程为 $y = 0\left( {x \geq  3}\right)$ .
 
-![bo_d7fqvdc91nqc7381i9u0_64_197_1276_302_281_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_64_197_1276_302_281_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_64_197_1276_302_281_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_64_197_1276_302_281_0.jpg)
 
 图 2-3-5
 
@@ -2516,7 +2516,7 @@ $$
 
 ## (2) 顶点
 
-![bo_d7fqvdc91nqc7381i9u0_65_1168_1668_264_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_65_1168_1668_264_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_65_1168_1668_264_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_65_1168_1668_264_298_0.jpg)
 
 图 2-3-6
 
@@ -2532,7 +2532,7 @@ $$
 
 由方程①可知 $\frac{{x}^{2}}{{a}^{2}} - 1 = \frac{{y}^{2}}{{b}^{2}} \geq  0$ ,所以 $\frac{{x}^{2}}{{a}^{2}} \geq  1$ ,也即 $\left| x\right|  \geq  a$ , 且随着 $\left| x\right|$ 不断增大, $\left| y\right|$ 也相应地不断增大. 因此,双曲线 $\frac{{x}^{2}}{{a}^{2}} - \frac{{y}^{2}}{{b}^{2}} = 1$ 在不等式 $x \geq  a$ 和 $x \leq   - a$ 所表示的区域内 (图 2-3-7), 且由两支组成: 一支双曲线在直线 $x =  - a$ 的左侧,向左上、左下两方无限延伸; 另一支双曲线在直线 $x = a$ 的右侧,向右上、 右下两方无限延伸.
 
-![bo_d7fqvdc91nqc7381i9u0_66_198_687_298_268_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_66_198_687_298_268_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_66_198_687_298_268_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_66_198_687_298_268_0.jpg)
 
 图 2-3-7
 
@@ -2544,7 +2544,7 @@ $$
 y = \frac{b}{a}\sqrt{{x}^{2} - {a}^{2}}\left( {x > a}\right) .
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_66_199_1338_292_275_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_66_199_1338_292_275_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_66_199_1338_292_275_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_66_199_1338_292_275_0.jpg)
 
 图 2-3-8
 
@@ -2580,7 +2580,7 @@ $$
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_67_1155_707_292_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_67_1155_707_292_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_67_1155_707_292_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_67_1155_707_292_298_0.jpg)
 
 图 2-3-9
 
@@ -2632,7 +2632,7 @@ A. $\frac{{x}^{2}}{16} - \frac{{y}^{2}}{4} = 1$ ; B. $\frac{{x}^{2}}{4} - \frac{
 
 例 5 已知双曲线过点 $P\left( {4,3}\right)$ ,它的一条渐近线的方程为 $y = \frac{1}{2}x$ . 求双曲线的标准方程.
 
-![bo_d7fqvdc91nqc7381i9u0_68_160_1091_369_261_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_68_160_1091_369_261_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_68_160_1091_369_261_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_68_160_1091_369_261_0.jpg)
 
 图 2-3-10
 
@@ -2674,7 +2674,7 @@ $$
 
 当 $1 - {k}^{2} > 0$ ,即 $\left| k\right|  < 1$ 时,方程①有两个不同的实根 $x = \; \pm  \sqrt{\frac{1}{1 - {k}^{2}}}$ ,从而直线与双曲线有两个公共点; 当 $1 - {k}^{2} \leq  0$ ,即 $\left| k\right|  \geq  1$ 时,方程①无实根,从而直线与双曲线没有公共点; 直线与双曲线只有一个公共点的情况不存在.
 
-![bo_d7fqvdc91nqc7381i9u0_69_1170_340_262_287_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_69_1170_340_262_287_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_69_1170_340_262_287_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_69_1170_340_262_287_0.jpg)
 
 图 2-3-11
 
@@ -2682,13 +2682,13 @@ $$
 
 例 7 双曲线型自然冷却通风塔的外形是由双曲线的一部分绕其虚轴所在的直线旋转一周所形成的曲面, 如图 2-3-12 所示. 已知它的最小半径为 ${12}\mathrm{\;m}$ ,上口半径为 ${13}\mathrm{\;m}$ ,下口半径为 ${25}\mathrm{\;m}$ ,高为 ${55}\mathrm{\;m}$ . 建立适当的平面直角坐标系,求此双曲线的方程. (结果精确到 ${0.1}\mathrm{\;m}$ )
 
-![bo_d7fqvdc91nqc7381i9u0_69_1139_755_325_228_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_69_1139_755_325_228_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_69_1139_755_325_228_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_69_1139_755_325_228_0.jpg)
 
-![bo_d7fqvdc91nqc7381i9u0_69_324_1090_216_286_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_69_324_1090_216_286_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_69_324_1090_216_286_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_69_324_1090_216_286_0.jpg)
 
 图 2-3-12
 
-![bo_d7fqvdc91nqc7381i9u0_69_715_1083_229_307_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_69_715_1083_229_307_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_69_715_1083_229_307_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_69_715_1083_229_307_0.jpg)
 
 图 2-3-13
 
@@ -2768,11 +2768,11 @@ $$
 
 抛物线是一种常见的曲线, 例如喷泉中喷出的水珠、投出的篮球所经过的轨迹都是抛物线. 抛物线的用途很广泛, 在太阳灶、探照灯、雷达天线、卫星天线、射电望远镜、工程建筑等工程技术中都有它的身影, 体现了抛物线在光学、力学等方面的独有特性.
 
-![bo_d7fqvdc91nqc7381i9u0_72_610_1057_826_328_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_72_610_1057_826_328_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_72_610_1057_826_328_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_72_610_1057_826_328_0.jpg)
 
 与椭圆、双曲线一样, 我们也通过操作先画出一段抛物线, 然后建立平面直角坐标系推导抛物线方程. 如图 2-4-1, 将一把直尺在一个平面上固定不动. 另取一块三角板，设直角顶点为 $C$ ，并在它的一条直角边上取定点 $A$ . 再取一条细线使它的长度正好等于 ${AC}$ 的长. 将这条细线的一端固定在三角板的点 $A$ ,另一端固定在同一平面上的点 $F$ . 用一支铅笔靠着细线将它绷紧，当三角板的另一条直角边靠着直尺滑动时,铅笔尖 $P$ 画出了一段曲线. 观察这段曲线的生成过程可以发现,如果把直尺看作一条定直线 $l$ ,那么动点 $P$ 到直线 $l$ 的距离始终等于它到定点 $F$ 的距离.
 
-![bo_d7fqvdc91nqc7381i9u0_72_218_1418_254_303_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_72_218_1418_254_303_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_72_218_1418_254_303_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_72_218_1418_254_303_0.jpg)
 
 图 2-4-1
 
@@ -2786,7 +2786,7 @@ $$
 
 下面根据抛物线的定义来求它的方程.
 
-![bo_d7fqvdc91nqc7381i9u0_73_1178_400_239_291_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_73_1178_400_239_291_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_73_1178_400_239_291_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_73_1178_400_239_291_0.jpg)
 
 图 2-4-2
 
@@ -2832,7 +2832,7 @@ $$
 
 例 1 求顶点在坐标原点, 焦点在坐标轴上且经过点 $M\left( {-2, - 4}\right)$ 的抛物线的方程.
 
-![bo_d7fqvdc91nqc7381i9u0_74_224_372_245_260_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_74_224_372_245_260_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_74_224_372_245_260_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_74_224_372_245_260_0.jpg)
 
 图 2-4-3
 
@@ -2870,7 +2870,7 @@ $$
 
 例 2 证明: 以抛物线 ${y}^{2} = {2px}$ 的任一过焦点的弦为直径的圆与抛物线的准线相切.
 
-![bo_d7fqvdc91nqc7381i9u0_74_201_1442_297_309_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_74_201_1442_297_309_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_74_201_1442_297_309_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_74_201_1442_297_309_0.jpg)
 
 图 2-4-4
 
@@ -2944,7 +2944,7 @@ $$
 
 例 4 求过定点 $M\left( {0,1}\right)$ 且与抛物线 ${y}^{2} = {2x}$ 只有一个公共点的直线的方程.
 
-![bo_d7fqvdc91nqc7381i9u0_76_226_1069_242_284_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_76_226_1069_242_284_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_76_226_1069_242_284_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_76_226_1069_242_284_0.jpg)
 
 图 2-4-5
 
@@ -2976,7 +2976,7 @@ $$
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_77_1170_238_253_256_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_77_1170_238_253_256_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_77_1170_238_253_256_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_77_1170_238_253_256_0.jpg)
 
 图 2-4-6
 
@@ -2994,11 +2994,11 @@ $$
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_77_351_1068_181_244_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_77_351_1068_181_244_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_77_351_1068_181_244_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_77_351_1068_181_244_0.jpg)
 
 图 2-4-7
 
-![bo_d7fqvdc91nqc7381i9u0_77_668_1057_230_258_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_77_668_1057_230_258_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_77_668_1057_230_258_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_77_668_1057_230_258_0.jpg)
 
 图 2-4-8
 
@@ -3076,7 +3076,7 @@ A. 1 条; B. 2 条; C. 3 条; D. 4 条.
 
 (3)当 $0 \leq  \theta  < \alpha$ ，且这个平面不经过圆锥的顶点时，所截得的是一条双曲线，如图 2-4-9(3)所示.
 
-![bo_d7fqvdc91nqc7381i9u0_79_402_950_784_473_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_79_402_950_784_473_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_79_402_950_784_473_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_79_402_950_784_473_0.jpg)
 
 图 2-4-9
 
@@ -3124,7 +3124,7 @@ A. 1 条; B. 2 条; C. 3 条; D. 4 条.
 
 解 如图 2-5-1,以直线 ${AB}$ 为 $x$ 轴,线段 ${AB}$ 的垂直平分线为 $y$ 轴,建立平面直角坐标系,则两定点为 $A\left( {-2,0}\right) \text{ 、 }B\left( {2,0}\right)$ .
 
-![bo_d7fqvdc91nqc7381i9u0_81_1155_1191_292_283_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_81_1155_1191_292_283_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_81_1155_1191_292_283_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_81_1155_1191_292_283_0.jpg)
 
 图 2-5-1
 
@@ -3206,7 +3206,7 @@ $$
 \left\{  {\begin{array}{l} x = {v}_{0}t\cos \alpha , \\  y = {v}_{0}t\sin \alpha  - \frac{1}{2}g{t}^{2} \end{array}\left( {0 \leq  t \leq  {t}_{1}}\right) ,}\right.
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_83_1116_400_368_213_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_83_1116_400_368_213_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_83_1116_400_368_213_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_83_1116_400_368_213_0.jpg)
 
 图 2-5-2
 
@@ -3244,7 +3244,7 @@ $$
 
 由此可见, 用参数方程表示一个曲线, 不仅可能有具体的物理或几何意义, 也更具有一般性, 应用起来有时也更为简便.
 
-![bo_d7fqvdc91nqc7381i9u0_84_186_1366_325_261_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_84_186_1366_325_261_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_84_186_1366_325_261_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_84_186_1366_325_261_0.jpg)
 
 图 2-5-3
 
@@ -3320,17 +3320,17 @@ $$
 
 通过前面的学习，我们知道，在平面直角坐标系下，可以用一对有序实数表示平面上点的位置，进而建立曲线的直角坐标方程, 从而用代数方法研究这些曲线的性质. 但是, 有些简单的曲线, 在用上述方法求它的方程时, 却会遇到比较大的困难. 例如,设想平面上有一个动点 $M$ 在一条从点 $O$ 出发的射线 ${OA}$ 上做匀速运动逐渐远离点 $O$ ，而射线 ${OA}$ 本身又绕点 $O$ 以固定的角速度旋转. 此时，动点 $M$ 在平面上的运动轨迹称为等速螺线 (图 2-5-4)，它在数学内部以及机械、工程等领域有广泛的应用. 如图 2-5-5 所示的由两条对称的等速螺线拼成的心形转轮 (红线所示)就会把转轮的旋转运动转化为横杆(蓝线所示)的往复水平运动.
 
-![bo_d7fqvdc91nqc7381i9u0_86_186_1052_322_287_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_86_186_1052_322_287_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_86_186_1052_322_287_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_86_186_1052_322_287_0.jpg)
 
 图 2-5-4
 
-![bo_d7fqvdc91nqc7381i9u0_86_171_1414_346_264_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_86_171_1414_346_264_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_86_171_1414_346_264_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_86_171_1414_346_264_0.jpg)
 
 图 2-5-5
 
 事实上, 确定平面上点的位置, 采用平面直角坐标系并不是唯一的方法. 现实生活中, 人们也常用方向 (实际上是角) 和距离来确定平面上点的位置. 例如, 图 2-5-6 所示的是雷达上发现北
 
-![bo_d7fqvdc91nqc7381i9u0_86_194_1789_307_304_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_86_194_1789_307_304_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_86_194_1789_307_304_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_86_194_1789_307_304_0.jpg)
 
 图 2-5-6
 
@@ -3338,7 +3338,7 @@ $$
 
 如图 2-5-7,在平面上取一定点 $O$ ,以 $O$ 为端点引射线 ${Ox}$ , 再选定一个单位长度和旋转角的正方向 (一般规定逆时针方向为正方向). 这时对于平面上异于点 $O$ 的任意一点 $M$ ,设 $\rho  = \; \left| {OM}\right| ,\theta$ 表示以射线 ${Ox}$ 为始边、射线 ${OM}$ 为终边的角,则点 $M$ 的位置可以用有序数对 $\left( {\rho ,\theta }\right)$ 表示. 我们把这样的坐标系叫做极坐标系(polar coordinate system).
 
-![bo_d7fqvdc91nqc7381i9u0_87_1159_421_290_221_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_87_1159_421_290_221_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_87_1159_421_290_221_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_87_1159_421_290_221_0.jpg)
 
 图 2-5-7
 
@@ -3350,7 +3350,7 @@ $$
 
 尽管在极坐标系中点的坐标不唯一, 但是在极坐标系中, 除了极点外，平面上的所有点所成的集合和实数对集合 $\{ \left( {\rho ,\theta }\right)  \mid  \rho  > 0,0 \leq  \theta  < {2\pi }\}$ 是一一对应的. 也就是说,如果规定极径 $\rho$ 取正值,极角 $\theta$ 取小于 ${2\pi }$ 的非负值,那么极点以外的任何点的极坐标也就唯一确定了.
 
-![bo_d7fqvdc91nqc7381i9u0_87_1131_1582_349_385_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_87_1131_1582_349_385_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_87_1131_1582_349_385_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_87_1131_1582_349_385_0.jpg)
 
 图 2-5-8
 
@@ -3360,7 +3360,7 @@ $$
 
 ## 练习 2.5(3)
 
-![bo_d7fqvdc91nqc7381i9u0_88_1151_309_346_388_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_88_1151_309_346_388_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_88_1151_309_346_388_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_88_1151_309_346_388_0.jpg)
 
 (第 1 题)
 
@@ -3388,7 +3388,7 @@ $$
 
 例 7 求圆心是 $C\left( {a,0}\right)$ 、半径是 $a$ 的圆的极坐标方程.
 
-![bo_d7fqvdc91nqc7381i9u0_88_196_1565_305_231_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_88_196_1565_305_231_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_88_196_1565_305_231_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_88_196_1565_305_231_0.jpg)
 
 图 2-5-9
 
@@ -3408,7 +3408,7 @@ $$
 \rho  = {2a}\cos \theta \left( {-\frac{\pi }{2} < \theta  \leq  \frac{\pi }{2}}\right) .
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_89_1158_277_287_222_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_89_1158_277_287_222_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_89_1158_277_287_222_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_89_1158_277_287_222_0.jpg)
 
 图 2-5-10
 
@@ -3448,7 +3448,7 @@ $$
 
 我们不仅可以建立圆、直线的极坐标方程, 也可以建立圆锥曲线的极坐标方程(见课后阅读). 下面，我们尝试建立上一小节开头时给出的等速螺线的极坐标方程.
 
-![bo_d7fqvdc91nqc7381i9u0_89_1137_1056_329_239_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_89_1137_1056_329_239_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_89_1137_1056_329_239_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_89_1137_1056_329_239_0.jpg)
 
 图 2-5-11
 
@@ -3514,7 +3514,7 @@ $$
 
 ## 4 极坐标与直角坐标的互化
 
-![bo_d7fqvdc91nqc7381i9u0_90_218_1166_279_281_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_90_218_1166_279_281_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_90_218_1166_279_281_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_90_218_1166_279_281_0.jpg)
 
 图 2-5-12
 
@@ -3532,7 +3532,7 @@ $$
 
 当 $\rho  = 0$ 时,①式仍然成立.
 
-![bo_d7fqvdc91nqc7381i9u0_90_197_1619_296_253_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_90_197_1619_296_253_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_90_197_1619_296_253_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_90_197_1619_296_253_0.jpg)
 
 图 2-5-13
 
@@ -3664,7 +3664,7 @@ $$
 
 设定点 $F$ 到定直线 $l$ 的距离为 $p\left( {p > 0}\right)$ ,过定点 $F$ 作定直线 $l$ 的垂线,垂足为 $K$ . 如图 2-5-14,以定点 $F$ 为极点 $O$ ,以 ${FK}$ 的反向延长线 ${Fx}$ 为极轴, 建立极坐标系.
 
-![bo_d7fqvdc91nqc7381i9u0_93_1173_232_293_198_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_93_1173_232_293_198_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_93_1173_232_293_198_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_93_1173_232_293_198_0.jpg)
 
 图 2-5-14
 
@@ -3682,7 +3682,7 @@ $$
 
 这就是圆锥曲线的统一极坐标方程. 如图 2-5-15,当 $0 < e < 1$ 时, 方程表示左焦点在极点的椭圆; 当 $e = 1$ 时,方程表示焦点在极点,开口向右的抛物线; 当 $e > 1$ 时,方程表示右焦点在极点的双曲线的右支.
 
-![bo_d7fqvdc91nqc7381i9u0_93_1135_729_335_257_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_93_1135_729_335_257_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_93_1135_729_335_257_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_93_1135_729_335_257_0.jpg)
 
 图 2-5-15
 
@@ -3900,7 +3900,7 @@ $$
 
 有了加法结合律, 我们可以求空间向量的连加, 而不必顾及式中的括号, 而且向量加法的 “首尾规则” 对空间向量依然成立:若干个起点、终点依次相接的向量的和是以第一个向量的起点为起点, 以最后一个向量的终点为终点的向量. 结合律的证明过程略加推广就证明了 “首尾规则”.
 
-![bo_d7fqvdc91nqc7381i9u0_103_1134_756_318_313_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_103_1134_756_318_313_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_103_1134_756_318_313_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_103_1134_756_318_313_0.jpg)
 
 图 3-1-1
 
@@ -3928,7 +3928,7 @@ $$
 \overrightarrow{BE} = \overrightarrow{B{B}_{1}} + \overrightarrow{{B}_{1}{A}_{1}} + \overrightarrow{{A}_{1}{D}_{1}} + \overrightarrow{{D}_{1}{C}_{1}} + \overrightarrow{{C}_{1}E}\text{ . }
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_103_1145_1745_309_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_103_1145_1745_309_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_103_1145_1745_309_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_103_1145_1745_309_298_0.jpg)
 
 图 3-1-2
 
@@ -3946,7 +3946,7 @@ $$
 
 ## 练习 3.1(1)
 
-![bo_d7fqvdc91nqc7381i9u0_104_1130_626_367_258_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_104_1130_626_367_258_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_104_1130_626_367_258_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_104_1130_626_367_258_0.jpg)
 
 (第 2 题)
 
@@ -3962,7 +3962,7 @@ $$
 
 向量的数量积对向量加法的分配律也涉及三个向量, 它们可能不共面，但是可以仿照平面向量中分配律的证明(见必修课程 8.2 节)给出空间向量情形的证明，见练习 3.1(2)第 2 题.
 
-![bo_d7fqvdc91nqc7381i9u0_104_190_1180_304_314_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_104_190_1180_304_314_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_104_190_1180_304_314_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_104_190_1180_304_314_0.jpg)
 
 图 3-1-3
 
@@ -4076,7 +4076,7 @@ $$
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_106_177_240_358_393_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_106_177_240_358_393_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_106_177_240_358_393_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_106_177_240_358_393_0.jpg)
 
 图 3-1-4
 
@@ -4120,7 +4120,7 @@ $$
 
 ## 练习 3.1(2)
 
-![bo_d7fqvdc91nqc7381i9u0_106_1168_1705_330_314_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_106_1168_1705_330_314_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_106_1168_1705_330_314_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_106_1168_1705_330_314_0.jpg)
 
 (第 1 题)
 
@@ -4142,11 +4142,11 @@ $$
 
 2. 如图，在直三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 中， $\overrightarrow{CA} = \overrightarrow{a},\overrightarrow{CB} = \overrightarrow{b},\overrightarrow{C{C}_{1}} = \overrightarrow{c}$ . 将向量 $\overrightarrow{{A}_{1}B}$ 表示为 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}\text{ 、 }\overrightarrow{c}$ 的线性组合.
 
-![bo_d7fqvdc91nqc7381i9u0_107_402_915_290_311_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_107_402_915_290_311_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_107_402_915_290_311_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_107_402_915_290_311_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqvdc91nqc7381i9u0_107_876_912_320_312_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_107_876_912_320_312_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_107_876_912_320_312_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_107_876_912_320_312_0.jpg)
 
 (第 3 题)
 
@@ -4160,7 +4160,7 @@ $$
 
 5. 已知空间四边形 ${ABCD}$ 中, ${AB} \bot  {CD},{AC} \bot  {BD}$ . 求证: ${AD} \bot  {BC}$ .
 
-![bo_d7fqvdc91nqc7381i9u0_107_1134_1737_334_315_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_107_1134_1737_334_315_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_107_1134_1737_334_315_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_107_1134_1737_334_315_0.jpg)
 
 (第 6 题)
 
@@ -4172,7 +4172,7 @@ $$
 
 ## B 组
 
-![bo_d7fqvdc91nqc7381i9u0_108_1176_293_321_279_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_108_1176_293_321_279_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_108_1176_293_321_279_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_108_1176_293_321_279_0.jpg)
 
 (第 1 题)
 
@@ -4184,11 +4184,11 @@ $$
 
 (2)判断点 $D$ 在平面 ${ABC}$ 上的射影是否可能在直线 ${BC}$ 上，给出你的结论并加以证明.
 
-![bo_d7fqvdc91nqc7381i9u0_108_353_837_361_279_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_108_353_837_361_279_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_108_353_837_361_279_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_108_353_837_361_279_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqvdc91nqc7381i9u0_108_827_870_495_233_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_108_827_870_495_233_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_108_827_870_495_233_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_108_827_870_495_233_0.jpg)
 
 (第 3 题)
 
@@ -4200,7 +4200,7 @@ $$
 
 我们在上一节中定义过的共面向量也可以用向量平行于平面的语言来刻画:如果一个向量所在的直线平行于一个平面， 那么称这个向量平行于这个平面. 一组向量共面是指它们平行于同一个平面, 也就是说, 它们通过平行移动可以放到同一平面上.
 
-![bo_d7fqvdc91nqc7381i9u0_109_1131_739_366_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_109_1131_739_366_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_109_1131_739_366_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_109_1131_739_366_298_0.jpg)
 
 图 3-2-1
 
@@ -4220,7 +4220,7 @@ $$
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_109_1137_1865_322_228_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_109_1137_1865_322_228_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_109_1137_1865_322_228_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_109_1137_1865_322_228_0.jpg)
 
 图 3-2-2
 
@@ -4258,7 +4258,7 @@ Q
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_110_182_975_305_177_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_110_182_975_305_177_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_110_182_975_305_177_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_110_182_975_305_177_0.jpg)
 
 图 3-2-3
 
@@ -4298,7 +4298,7 @@ $$
 
 如图 3-2-4,在空间任取一点 $O$ ,作 $\overrightarrow{OA} = \overrightarrow{{e}_{1}},\overrightarrow{OB} = \overrightarrow{{e}_{2}}$ , $\overrightarrow{OC} = \overrightarrow{{e}_{3}},\overrightarrow{OP} = \overrightarrow{a}$ . ${OA}$ 与 ${OB}$ 是不重合的相交直线,它们确定了一个平面 $\alpha ;{OC}$ 与 ${OP}$ 是不重合的相交直线,它们也确定一个平面 $\beta$ . 平面 $\alpha$ 与 $\beta$ 不重合 (否则 $\overrightarrow{{e}_{1}}\text{ 、 }\overrightarrow{{e}_{2}}$ 与 $\overrightarrow{{e}_{3}}$ 共面),但有公共点 $O$ ,所以它们有唯一的交线 $l$ . 在 $l$ 上任取一个非零向量 $\overrightarrow{b}$ ,则 $\overrightarrow{b}$ 与 $\overrightarrow{{e}_{3}}$ 不共线.
 
-![bo_d7fqvdc91nqc7381i9u0_111_1137_822_309_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_111_1137_822_309_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_111_1137_822_309_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_111_1137_822_309_301_0.jpg)
 
 图 3-2-4
 
@@ -4318,7 +4318,7 @@ $$
 \overrightarrow{{e}_{1}} =  - \frac{\mu  - {\mu }^{\prime }}{\lambda  - {\lambda }^{\prime }}\overrightarrow{{e}_{2}} - \frac{\nu  - {\nu }^{\prime }}{\lambda  - {\lambda }^{\prime }}\overrightarrow{{e}_{3}},
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_111_1137_1698_329_303_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_111_1137_1698_329_303_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_111_1137_1698_329_303_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_111_1137_1698_329_303_0.jpg)
 
 图 3-2-5
 
@@ -4370,7 +4370,7 @@ $$
 
 (3)如果 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ 是平面 $\alpha$ 上的互不平行的向量，点 $C$ 在平面 $\alpha$ 上，点 $D$ 不在平面 $\alpha$ 上， 那么向量 $\overrightarrow{CD}$ 与向量 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ 不共面.
 
-![bo_d7fqvdc91nqc7381i9u0_112_1138_1594_363_253_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_112_1138_1594_363_253_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_112_1138_1594_363_253_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_112_1138_1594_363_253_0.jpg)
 
 (第 2 题)
 
@@ -4386,7 +4386,7 @@ $$
 
 ## A 组
 
-![bo_d7fqvdc91nqc7381i9u0_113_1149_565_314_241_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_113_1149_565_314_241_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_113_1149_565_314_241_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_113_1149_565_314_241_0.jpg)
 
 (第 1 题)
 
@@ -4398,7 +4398,7 @@ $$
 
 (1) $\overrightarrow{B{D}^{\prime }} = \lambda \overrightarrow{AD} + \mu \overrightarrow{AB} + \nu \overrightarrow{A{A}^{\prime }}$ ；
 
-![bo_d7fqvdc91nqc7381i9u0_113_1156_995_304_310_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_113_1156_995_304_310_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_113_1156_995_304_310_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_113_1156_995_304_310_0.jpg)
 
 (第 4 题)
 
@@ -4414,7 +4414,7 @@ $$
 
 1. 在平面上有如下命题: “若 $O$ 为直线 ${AB}$ 外的一点,则点 $P$ 在直线 ${AB}$ 上的充要条件是:存在实数 $\lambda$ 、 $\mu$ ，满足 $\overrightarrow{OP} = \lambda \overrightarrow{OA} + \mu \overrightarrow{OB}$ ，且 $\lambda  + \mu  = 1$ . ”类比此命题，给出空间某点在某一平面上的充要条件并加以证明.
 
-![bo_d7fqvdc91nqc7381i9u0_113_1154_1658_300_315_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_113_1154_1658_300_315_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_113_1154_1658_300_315_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_113_1154_1658_300_315_0.jpg)
 
 (第 2 题)
 
@@ -4436,27 +4436,27 @@ $$
 
 如图 3-3-1, 在正方体中, 总可以找到从一个顶点出发的三条两两互相垂直的棱,如 ${AB}\text{ 、 }{AD}$ 与 $A{A}_{1}$ . 受此启示,从空间一点 $O$ 出发，可以作三条两两互相垂直的坐标轴，建立空间直角坐标系 $O - {xyz}$ (图 3-3-2).
 
-![bo_d7fqvdc91nqc7381i9u0_114_647_1199_319_307_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_114_647_1199_319_307_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_114_647_1199_319_307_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_114_647_1199_319_307_0.jpg)
 
 图 3-3-1
 
-![bo_d7fqvdc91nqc7381i9u0_114_1095_1208_298_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_114_1095_1208_298_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_114_1095_1208_298_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_114_1095_1208_298_298_0.jpg)
 
 图 3-3-2
 
 点 $O$ 叫做坐标原点,三条坐标轴分别是横轴 (即 $x$ 轴)、纵轴 (即 $y$ 轴) 与竖轴 (即 $z$ 轴). 我们约定坐标系采用右手制,即右手翘起拇指、其他四指握拳做“点赞”状，当四指所指的方向是 $x$ 轴正方向到 $y$ 轴正方向的旋转方向时,拇指所指为 $z$ 轴正方向 (图 3-3-3). 通过每两个坐标轴的平面叫坐标平面, 分别称为 ${xOy}$ 平面, ${yOz}$ 平面与 ${zOx}$ 平面. 三个坐标平面把空间划分成八个部分，每个部分称为一个卦限(octant)(图 3-3-4).
 
-![bo_d7fqvdc91nqc7381i9u0_115_303_238_226_264_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_115_303_238_226_264_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_115_303_238_226_264_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_115_303_238_226_264_0.jpg)
 
 图 3-3-3
 
-![bo_d7fqvdc91nqc7381i9u0_115_706_237_261_261_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_115_706_237_261_261_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_115_706_237_261_261_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_115_706_237_261_261_0.jpg)
 
 图 3-3-4
 
 给定空间一点 $P$ ,如图 3-3-5,过点 $P$ 分别作与坐标平面 ${yOz}\text{ 、 }{zOx}$ 与 ${xOy}$ 平行的平面,与坐标平面一起围出一个长方体，所作的三个平面与 $x$ 轴、 $y$ 轴、 $z$ 轴的交点 $A\text{ 、 }B\text{ 、 }C$ (它们都是上述长方体的顶点)在轴上的坐标,给出了点 $P$ 的坐标 $(x, y$ , $z)$ ,其中 $x\text{ 、 }y$ 与 $z$ 分别称为点 $P$ 的横坐标、纵坐标与竖坐标.
 
-![bo_d7fqvdc91nqc7381i9u0_115_479_886_320_317_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_115_479_886_320_317_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_115_479_886_320_317_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_115_479_886_320_317_0.jpg)
 
 图 3-3-5
 
@@ -4466,7 +4466,7 @@ $$
 
 解 如图 3-3-6,过点 $P$ 分别作与三个坐标平面平行的平面,与坐标平面一起围成了长方体 ${OADB} - {CEPF}$ ,根据点 $P$ 的坐标知道 $A\text{ 、 }B\text{ 、 }C$ 三点在轴上的坐标分别是 $7\text{ 、 }6\text{ 、 }4$ .
 
-![bo_d7fqvdc91nqc7381i9u0_115_468_1740_315_365_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_115_468_1740_315_365_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_115_468_1740_315_365_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_115_468_1740_315_365_0.jpg)
 
 图 3-3-6
 
@@ -4570,7 +4570,7 @@ $\overrightarrow{a}//\overrightarrow{b} \Leftrightarrow$ 存在 $\lambda  \in  \
 
 解(1)以点 $A$ 为坐标原点，分别以射线 ${AB}$ 、 ${AD}$ 、 $A{A}_{1}$ 为 $x$ 轴、 $y$ 轴、 $z$ 轴的正半轴,建立空间直角坐标系. 设正方体的棱长为 $a$ ,可得有关点的坐标分别为 $B\left( {a,0,0}\right) \text{ 、 }D\left( {0, a,0}\right)$ 、 $C\left( {a, a,0}\right) \text{ 、 }{A}_{1}\left( {0,0, a}\right)$ ,从而 $\overrightarrow{CA} = \left( {-a, - a,0}\right) ,\overrightarrow{C{A}_{1}} = \; \left( {-a, - a, a}\right)$ . 于是
 
-![bo_d7fqvdc91nqc7381i9u0_118_187_743_316_343_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_118_187_743_316_343_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_118_187_743_316_343_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_118_187_743_316_343_0.jpg)
 
 图 3-3-7
 
@@ -4632,7 +4632,7 @@ $$
 
 (2)若向量 $\overrightarrow{a}$ 与向量 $\overrightarrow{AB}$ 、 $\overrightarrow{AC}$ 都垂直，且 $\left| \overrightarrow{a}\right|  = \sqrt{3}$ ，求向量 $\overrightarrow{a}$ 的坐标.
 
-![bo_d7fqvdc91nqc7381i9u0_119_1186_1675_284_422_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_119_1186_1675_284_422_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_119_1186_1675_284_422_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_119_1186_1675_284_422_0.jpg)
 
 (第 3 题)
 
@@ -4664,7 +4664,7 @@ $$
 
 这样, 就把直线间的平行或垂直关系化为向量的平行或垂直关系. 我们给出一个“简单”的例子——三垂线定理的向量证明， 它的关键就是把直线垂直问题化为向量垂直问题.
 
-![bo_d7fqvdc91nqc7381i9u0_120_182_1743_312_306_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_120_182_1743_312_306_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_120_182_1743_312_306_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_120_182_1743_312_306_0.jpg)
 
 图 3-4-1
 
@@ -4698,7 +4698,7 @@ $$
 
 这个结论的证明留作练习题.
 
-![bo_d7fqvdc91nqc7381i9u0_121_1152_1637_304_343_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_121_1152_1637_304_343_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_121_1152_1637_304_343_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_121_1152_1637_304_343_0.jpg)
 
 图 3-4-2
 
@@ -4756,11 +4756,11 @@ $$
 
 2. 如图，在平面 $\alpha$ 与平面 $\beta$ 上分别有不共线的三点 $A$ 、 $B$ 、 $C$ 与 ${A}_{1}$ 、 ${B}_{1}$ 、 ${C}_{1}$ ，假设 $A{A}_{1}\text{ 、 }B{B}_{1}$ 与 $C{C}_{1}$ 交于一点 $O$ ,且 $\left| {AO}\right|  = \left| {O{A}_{1}}\right| ,\left| {BO}\right|  = \left| {O{B}_{1}}\right| ,\left| {CO}\right|  = \left| {O{C}_{1}}\right|$ . 求证: 平面 $\alpha //$ 平面 $\beta$ .
 
-![bo_d7fqvdc91nqc7381i9u0_122_425_1290_431_332_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_122_425_1290_431_332_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_122_425_1290_431_332_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_122_425_1290_431_332_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqvdc91nqc7381i9u0_122_998_1326_247_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_122_998_1326_247_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_122_998_1326_247_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_122_998_1326_247_298_0.jpg)
 
 (第 3 题)
 
@@ -4772,7 +4772,7 @@ $$
 
 我们先证明点到平面距离的一般公式.
 
-![bo_d7fqvdc91nqc7381i9u0_123_1137_513_310_295_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_123_1137_513_310_295_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_123_1137_513_310_295_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_123_1137_513_310_295_0.jpg)
 
 图 3-4-3
 
@@ -4788,7 +4788,7 @@ $$
 d = \left| {\overrightarrow{{n}_{0}} \cdot  \overrightarrow{AB}}\right|  = \frac{\left| \overrightarrow{n} \cdot  \overrightarrow{AB}\right| }{\left| \overrightarrow{n}\right| }.
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_123_1144_1080_292_234_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_123_1144_1080_292_234_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_123_1144_1080_292_234_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_123_1144_1080_292_234_0.jpg)
 
 图 3-4-4
 
@@ -4832,7 +4832,7 @@ $$
 
 例 4 设正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱长为 $a$ ,求平行平面 ${A}_{1}{BD}$ 与 $C{D}_{1}{B}_{1}$ 之间的距离.
 
-![bo_d7fqvdc91nqc7381i9u0_124_198_843_305_343_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_124_198_843_305_343_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_124_198_843_305_343_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_124_198_843_305_343_0.jpg)
 
 图 3-4-5
 
@@ -4876,7 +4876,7 @@ $$
 
 ## 3 求角的大小
 
-![bo_d7fqvdc91nqc7381i9u0_125_1141_461_315_338_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_125_1141_461_315_338_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_125_1141_461_315_338_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_125_1141_461_315_338_0.jpg)
 
 图 3-4-6
 
@@ -4910,11 +4910,11 @@ $$
 \sin \theta  = \cos \left( {\frac{\pi }{2} - \theta }\right)  = \frac{\left| \overrightarrow{r} \cdot  \overrightarrow{n}\right| }{\left| \overrightarrow{r}\right| \left| \overrightarrow{n}\right| }.
 $$
 
-![bo_d7fqvdc91nqc7381i9u0_126_180_352_307_224_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_126_180_352_307_224_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_126_180_352_307_224_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_126_180_352_307_224_0.jpg)
 
 图 3-4-7
 
-![bo_d7fqvdc91nqc7381i9u0_126_179_910_310_239_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_126_179_910_310_239_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_126_179_910_310_239_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_126_179_910_310_239_0.jpg)
 
 图 3-4-8
 
@@ -4936,11 +4936,11 @@ $$
 
 1. 如图,四边形 ${ABCD}$ 是矩形, ${PA} \bot$ 平面 ${ABCD}, E$ 是线段 ${PA}$ 的中点. 已知 $\left| {PA}\right|  = 2,\left| {AB}\right|  = \sqrt{3},\left| {BC}\right|  = 1$ . 求异面直线 ${BE}$ 与 ${PC}$ 所成角的大小.
 
-![bo_d7fqvdc91nqc7381i9u0_127_383_492_303_295_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_127_383_492_303_295_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_127_383_492_303_295_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_127_383_492_303_295_0.jpg)
 
 (第 1 题)
 
-![bo_d7fqvdc91nqc7381i9u0_127_909_475_319_314_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_127_909_475_319_314_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_127_909_475_319_314_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_127_909_475_319_314_0.jpg)
 
 (第 2 题)
 
@@ -4952,7 +4952,7 @@ $$
 
 现在考虑二面角的平面角和它的两个半平面所在平面的法向量夹角大小的关系. 如图 3-4-9, 一个平面的法向量垂直于该平面上的所有直线，所以法向量夹角的两条边垂直于二面角的平面角相应的边. 从平面几何知道, 这样两个角或者相等, 或者互补.
 
-![bo_d7fqvdc91nqc7381i9u0_127_222_1351_804_349_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_127_222_1351_804_349_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_127_222_1351_804_349_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_127_222_1351_804_349_0.jpg)
 
 图 3-4-9
 
@@ -4964,7 +4964,7 @@ $$
 
 例 7 如图 3-4-10(1),在正四棱锥 $P - {ABCD}$ 中, $\left| {PA}\right|  = \; \left| {AB}\right|  = 2\sqrt{2}, E\text{ 、 }F$ 分别为 ${PB}\text{ 、 }{PD}$ 的中点. 若平面 ${AEF}$ 与棱 ${PC}$ 交于点 $G$ ,求平面 ${AEGF}$ 与平面 ${ABCD}$ 所成二面角的大小.
 
-![bo_d7fqvdc91nqc7381i9u0_128_611_437_821_380_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_128_611_437_821_380_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_128_611_437_821_380_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_128_611_437_821_380_0.jpg)
 
 图 3-4-10
 
@@ -4988,11 +4988,11 @@ $$
 
 2. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,求平面 $D{A}_{1}B$ 与平面 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 所成二面角的正弦值.
 
-![bo_d7fqvdc91nqc7381i9u0_129_439_607_303_321_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_129_439_607_303_321_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_129_439_607_303_321_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_129_439_607_303_321_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqvdc91nqc7381i9u0_129_882_592_296_332_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_129_882_592_296_332_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_129_882_592_296_332_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_129_882_592_296_332_0.jpg)
 
 (第 4 题)
 
@@ -5008,7 +5008,7 @@ $$
 
 3. 在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,求 $B{B}_{1}$ 与平面 ${AC}{D}_{1}$ 所成角的大小.
 
-![bo_d7fqvdc91nqc7381i9u0_129_1196_1762_268_321_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_129_1196_1762_268_321_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_129_1196_1762_268_321_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_129_1196_1762_268_321_0.jpg)
 
 (第 4 题)
 
@@ -5016,11 +5016,11 @@ $$
 
 5. 如图,已知 $P$ 为平面 ${ABC}$ 外一点, ${AP}\text{ 、 }{AB}\text{ 、 }{AC}$ 两两互相垂直,过 ${AC}$ 的中点 $D$ 作 ${ED} \bot$ 平面 ${ABC}$ ,且 $\left| {ED}\right|  = 1,\left| {PA}\right|  = 2$ , $\left| {AC}\right|  = 2$ ,多面体 $B - {PADE}$ 的体积是 $\frac{\sqrt{3}}{3}$ . 求平面 ${PBE}$ 与平面 ${ABC}$ 所成二面角的大小.
 
-![bo_d7fqvdc91nqc7381i9u0_130_406_288_273_277_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_130_406_288_273_277_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_130_406_288_273_277_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_130_406_288_273_277_0.jpg)
 
 (第 5 题)
 
-![bo_d7fqvdc91nqc7381i9u0_130_982_229_284_336_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_130_982_229_284_336_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_130_982_229_284_336_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_130_982_229_284_336_0.jpg)
 
 (第 6 题)
 
@@ -5034,11 +5034,11 @@ $$
 
 1. 如图,在空间四边形 ${ABCD}$ 中, $\left| {AC}\right|  = \left| {AD}\right| ,\angle {BAC} = \angle {BAD}$ . 求证: ${CD} \bot  {AB}$ .
 
-![bo_d7fqvdc91nqc7381i9u0_130_399_1125_348_317_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_130_399_1125_348_317_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_130_399_1125_348_317_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_130_399_1125_348_317_0.jpg)
 
 (第 1 题)
 
-![bo_d7fqvdc91nqc7381i9u0_130_918_1086_373_357_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_130_918_1086_373_357_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_130_918_1086_373_357_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_130_918_1086_373_357_0.jpg)
 
 (第 2 题)
 
@@ -5046,7 +5046,7 @@ $$
 
 (1)求证: ${CM}\bot {SN}$ ；
 
-![bo_d7fqvdc91nqc7381i9u0_130_1175_1743_319_314_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_130_1175_1743_319_314_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_130_1175_1743_319_314_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_130_1175_1743_319_314_0.jpg)
 
 (第 5 题)
 
@@ -5158,7 +5158,7 @@ $$
 
 (2)求点 $D$ 到平面 ${ABC}$ 的距离.
 
-![bo_d7fqvdc91nqc7381i9u0_133_1159_460_300_298_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_133_1159_460_300_298_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_133_1159_460_300_298_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_133_1159_460_300_298_0.jpg)
 
 (第 4 题)
 
@@ -5176,11 +5176,11 @@ $$
 
 (2)若点 $C$ 到平面 $A{B}_{1}{D}_{1}$ 的距离为 $\frac{4}{3}$ ，求此正四棱柱的高.
 
-![bo_d7fqvdc91nqc7381i9u0_133_373_1163_312_388_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_133_373_1163_312_388_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_133_373_1163_312_388_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_133_373_1163_312_388_0.jpg)
 
 (第 6 题)
 
-![bo_d7fqvdc91nqc7381i9u0_133_867_1199_358_337_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_133_867_1199_358_337_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_133_867_1199_358_337_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_133_867_1199_358_337_0.jpg)
 
 (第 7 题)
 
@@ -5196,11 +5196,11 @@ $$
 
 (2)求四棱锥 $P - {ABCD}$ 的体积.
 
-![bo_d7fqvdc91nqc7381i9u0_134_355_316_520_261_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_134_355_316_520_261_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_134_355_316_520_261_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_134_355_316_520_261_0.jpg)
 
 (第 8 题)
 
-![bo_d7fqvdc91nqc7381i9u0_134_1059_214_270_367_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_134_1059_214_270_367_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_134_1059_214_270_367_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_134_1059_214_270_367_0.jpg)
 
 (第 9 题)
 
@@ -5220,11 +5220,11 @@ B 组
 
 (2)若 $\overrightarrow{EF} = \lambda \overrightarrow{AB} + \mu \overrightarrow{AD} + \nu \overrightarrow{A{A}_{1}}$ ，求 $\lambda  + \mu  + \nu$ 的值.
 
-![bo_d7fqvdc91nqc7381i9u0_134_435_1516_301_329_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_134_435_1516_301_329_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_134_435_1516_301_329_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_134_435_1516_301_329_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqvdc91nqc7381i9u0_134_923_1523_313_321_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_134_923_1523_313_321_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_134_923_1523_313_321_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_134_923_1523_313_321_0.jpg)
 
 (第 3 题)
 
@@ -5250,11 +5250,11 @@ B 组
 
 (3)当 $\angle {APC}$ 为钝角时,求λ的取值范围.
 
-![bo_d7fqvdc91nqc7381i9u0_135_324_783_321_312_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_135_324_783_321_312_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_135_324_783_321_312_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_135_324_783_321_312_0.jpg)
 
 (第 1 题)
 
-![bo_d7fqvdc91nqc7381i9u0_135_854_801_419_286_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_135_854_801_419_286_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_135_854_801_419_286_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_135_854_801_419_286_0.jpg)
 
 (第 2 题)
 
@@ -5266,7 +5266,7 @@ B 组
 
 第 4 章数列
 
-![bo_d7fqvdc91nqc7381i9u0_137_2_0_1652_982_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_137_2_0_1652_982_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_137_2_0_1652_982_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_137_2_0_1652_982_0.jpg)
 
 对数列的研究是基于现实生产、生活的需要. 例如, 在若干离散的时间节点, 记录某种数量的变化, 并按时间先后顺序排列起来就得到一个数列. 数列是一个重要的数学概念, 上至一个国家每年的国内生产总值 (GDP), 下至一个人每年的身高或体重，都可以用数列表示. 数列也是学习微积分的一个必要的基础. 本章采用从特殊到一般、从具体到抽象的方法, 先研究两类特殊的数列——等差数列和等比数列, 再在此基础上研究一般的数列. 同时, 介绍数学归纳法这一与数列有关的重要方法, 并通过给出一个利用迭代序列求平方根的方法, 揭示算法在求近似解中的重要作用.
 
@@ -5290,11 +5290,11 @@ $$
 
 3, 10, 17, 24, 31.①
 
-![bo_d7fqvdc91nqc7381i9u0_138_560_1445_366_342_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_138_560_1445_366_342_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_138_560_1445_366_342_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_138_560_1445_366_342_0.jpg)
 
 图 4-1-1
 
-![bo_d7fqvdc91nqc7381i9u0_138_960_1459_525_328_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_138_960_1459_525_328_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_138_960_1459_525_328_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_138_960_1459_525_328_0.jpg)
 
 图 4-1-2
 
@@ -5464,7 +5464,7 @@ D. $1,\frac{1}{3}, - \frac{1}{3}, - 1, - \frac{5}{3}$ .
 
 ---
 
-![bo_d7fqvdc91nqc7381i9u0_141_1173_1311_256_329_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_141_1173_1311_256_329_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_141_1173_1311_256_329_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_141_1173_1311_256_329_0.jpg)
 
 高斯 (C. F. Gauss, 1777—1855) 德国数学家. 研究的内容涉及数学的诸多领域, 并对天文学和大地测量学的研究有突出贡献. 他在世界上享有崇高的声望，被誉为 “数学王子”.
 
@@ -5492,7 +5492,7 @@ $$
 
 事实上, 古代的中国人和希腊人也是这么求等差数列之和的. 例如, 宋朝数学家杨辉提出了一个问题: “今有圭垛草一堆, 顶上一束，底阔八束. 问共几束？答:36 束. ”他的计算方法可以用图 4-1-3 表示.
 
-![bo_d7fqvdc91nqc7381i9u0_142_708_245_641_358_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_142_708_245_641_358_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_142_708_245_641_358_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_142_708_245_641_358_0.jpg)
 
 图 4-1-3
 
@@ -5744,7 +5744,7 @@ $$
 
 ②
 
-![bo_d7fqvdc91nqc7381i9u0_146_571_1175_917_222_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_146_571_1175_917_222_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_146_571_1175_917_222_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_146_571_1175_917_222_0.jpg)
 
 图 4-2-1
 
@@ -5870,7 +5870,7 @@ C. $1,\frac{\sqrt{2}}{2},\frac{1}{2},\frac{\sqrt{2}}{4}$ ; D. $\frac{1}{2},2,\fr
 
 国际象棋起源于古代印度. 发明者将棋盘划分为 8 行 8 列, 构成 64 个方格. 相传国王要奖励该发明者, 问他有什么要求. 发明者说: “请在棋盘的第 1 个格子里放上 1 颗麦粒, 在第 2 个格子里放上 2 颗麦粒, 在第 3 个格子里放上 4 颗麦粒，依次类推，每个格子里放的麦粒数都是前一个格子里放的麦粒数的 2 倍, 直到放完 64 个格子为止. 请给我足够的麦粒以实现上述要求. ”这位发明者要了多少颗麦粒？国王能实现他的要求吗?
 
-![bo_d7fqvdc91nqc7381i9u0_149_1144_560_329_331_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_149_1144_560_329_331_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_149_1144_560_329_331_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_149_1144_560_329_331_0.jpg)
 
 这实际上是求以 1 为首项、以 2 为公比的等比数列的前 64 项的和:
 
@@ -6098,7 +6098,7 @@ $$
 
 例 8 如图 4-2-2,正方形 ${ABCD}$ 的边长等于 1,连接这个正方形各边的中点得到一个小正方形 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ ; 又连接正方形 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 各边的中点得到一个更小的正方形 ${A}_{2}{B}_{2}{C}_{2}{D}_{2}$ ; 如此无限继续下去. 求所有这些正方形的周长的和与面积的和.
 
-![bo_d7fqvdc91nqc7381i9u0_153_1135_723_288_296_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_153_1135_723_288_296_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_153_1135_723_288_296_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_153_1135_723_288_296_0.jpg)
 
 图 4-2-2
 
@@ -6148,7 +6148,7 @@ $$
 
 (1)0.13 ；
 
-![bo_d7fqvdc91nqc7381i9u0_154_1204_781_295_284_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_154_1204_781_295_284_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_154_1204_781_295_284_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_154_1204_781_295_284_0.jpg)
 
 (第 3 题)
 
@@ -6220,7 +6220,7 @@ B 组
 
 5. 如图,已知直角三角形 ${AOB}$ 的两条直角边 ${AO}$ 和 ${BO}$ 的长分别为 5 和 12,点 ${O}_{1}\text{ 、 }{O}_{2}\text{ 、 }\cdots \text{ 、 }{O}_{n}\text{ 、 }\cdots$ 在边 ${OB}$ 上,半圆 ${O}_{1}$ 与 ${AO}$ 和 ${AB}$ 所在直线均相切,半圆 ${O}_{2}\text{ 、 }{O}_{3}\text{ 、 }\cdots \text{ 、 }{O}_{n}\text{ 、 }\cdots$ 与 ${AB}$ 所在直线相切,且与半圆 ${O}_{1}\text{ 、 }{O}_{2}\text{ 、 }\cdots \text{ 、 }{O}_{n - 1}\text{ 、 }\cdots$ 分别外切. 设这些半圆的半径分别为 ${r}_{1}\text{ 、 }{r}_{2}\text{ 、 }\cdots \text{ 、 }{r}_{n}\text{ 、 }\cdots$ .
 
-![bo_d7fqvdc91nqc7381i9u0_156_1159_228_338_191_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_156_1159_228_338_191_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_156_1159_228_338_191_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_156_1159_228_338_191_0.jpg)
 
 (第 5 题)
 
@@ -6244,7 +6244,7 @@ $$
 
 ①
 
-![bo_d7fqvdc91nqc7381i9u0_157_357_985_548_121_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_157_357_985_548_121_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_157_357_985_548_121_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_157_357_985_548_121_0.jpg)
 
 图 4-3-1
 
@@ -6256,7 +6256,7 @@ $$
 
 ②
 
-![bo_d7fqvdc91nqc7381i9u0_157_354_1364_551_152_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_157_354_1364_551_152_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_157_354_1364_551_152_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_157_354_1364_551_152_0.jpg)
 
 图 4-3-2
 
@@ -6294,7 +6294,7 @@ $\sqrt{2}$ 的不足近似值: 按照所需要的精确度截取指定数位后,
 
 给定一个数列 $\left\{  {a}_{n}\right\}$ ,当项的序数 $n$ 确定时,相应的项 ${a}_{n}$ 也就确定了. 于是,项 ${a}_{n}$ 与项的序数 $n$ 之间存在着对应关系,这种对应关系可描述如下
 
-![bo_d7fqvdc91nqc7381i9u0_158_723_715_613_166_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_158_723_715_613_166_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_158_723_715_613_166_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_158_723_715_613_166_0.jpg)
 
 项数有限的数列叫做有穷数列 (finite sequence); 项数无限的数列叫做无穷数列 (infinite sequence). 从第 2 项起, 每一项都不小于其前一项的数列 $\left\{  {a}_{n}\right\}$ 叫做增数列,此时 ${a}_{n + 1} \geq  {a}_{n}$ ( $n$ 为正整数)成立. 特别地，从第 2 项起,每一项都大于其前一项的数列 $\left\{  {a}_{n}\right\}$ 叫做严格增数列,此时 ${a}_{n + 1} > {a}_{n}$ ( $n$ 为正整数) 成立. 相应地,从第 2 项起,每一项都不大于其前一项的数列 $\left\{  {a}_{n}\right\}$ 叫做减数列,此时 ${a}_{n + 1} \leq  {a}_{n}$ ( $n$ 为正整数) 成立. 特别地,从第 2 项起,每一项都小于其前一项的数列 $\left\{  {a}_{n}\right\}$ 叫做严格减数列,此时 ${a}_{n + 1} < {a}_{n}$ ( $n$ 为正整数) 成立. 增数列和减数列统称为单调数列. 各项均相等的数列叫做常数列.
 
@@ -6380,7 +6380,7 @@ $$
 
 2. 图中的三角形图案称为谢宾斯基三角形. 在下图四个三角形图案中, 着色的小三角形的个数依次排列成一个数列的前四项, 请写出其前四项, 并给出这个数列的一个通项公式.
 
-![bo_d7fqvdc91nqc7381i9u0_160_324_1235_1040_215_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_160_324_1235_1040_215_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_160_324_1235_1040_215_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_160_324_1235_1040_215_0.jpg)
 
 (第 2 题)
 
@@ -6414,7 +6414,7 @@ $$
 
 解 (1) 我们先通过观察 $n = 1,2,3$ 时的图形来探究 ${a}_{n}$ 的情况.
 
-![bo_d7fqvdc91nqc7381i9u0_161_211_992_804_230_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_161_211_992_804_230_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_161_211_992_804_230_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_161_211_992_804_230_0.jpg)
 
 图 4-3-3
 
@@ -6552,7 +6552,7 @@ $$
 
 人们在研究斐波那契数列的过程中，发现该数列在自然界竟是如此普遍. 例如，考虑树木枝条的数量. 某种树木第 1 年长出幼枝，第 2 年幼枝长成粗干，第 3 年粗干可生出幼枝. 如图 4-3-4, 每条树枝都按照这个规律成长, 则每年的分枝数正好构成斐波那契数列.
 
-![bo_d7fqvdc91nqc7381i9u0_164_619_768_450_294_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_164_619_768_450_294_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_164_619_768_450_294_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_164_619_768_450_294_0.jpg)
 
 图 4-3-4
 
@@ -6598,7 +6598,7 @@ $$
 
 (2)每张图中挖掉的正方形的总数依次组成一个数列，求该数列的一个递推公式.
 
-![bo_d7fqvdc91nqc7381i9u0_165_425_1220_773_309_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_165_425_1220_773_309_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_165_425_1220_773_309_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_165_425_1220_773_309_0.jpg)
 
 (第 7 题)
 
@@ -7274,13 +7274,13 @@ $$
 
 试推测: 把 $n$ 个金属片从 1 号直杆移到 3 号直杆,最少需要移动多少次?
 
-![bo_d7fqvdc91nqc7381i9u0_181_572_1827_455_264_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_181_572_1827_455_264_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_181_572_1827_455_264_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_181_572_1827_455_264_0.jpg)
 
 (第 1 题)
 
 2. 如图, 将一个边长为 1 的正三角形的每条边三等分, 以中间一段为边向外作正三角形, 并擦去中间这一段, 如此继续下去得到的曲线称为科克雪花曲线. 将下面的图形依次记作 ${M}_{1}\text{ 、 }{M}_{2}\text{ 、 }{M}_{3}\text{ 、 }\cdots \text{ 、 }{M}_{n}\text{ 、 }\cdots$ .
 
-![bo_d7fqvdc91nqc7381i9u0_182_474_401_741_294_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_182_474_401_741_294_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_182_474_401_741_294_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_182_474_401_741_294_0.jpg)
 
 (第 2 题)
 
@@ -7318,7 +7318,7 @@ SHUXUE 普通高中教科书数学
 
 第 一 册
 
-![bo_d7fqvdc91nqc7381i9u0_184_602_1010_445_444_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_184_602_1010_445_444_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_184_602_1010_445_444_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_184_602_1010_445_444_0.jpg)
 
 2024 蛰伏
 
@@ -7530,7 +7530,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fqvdc91nqc7381i9u0_190_1323_722_140_147_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_190_1323_722_140_147_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_190_1323_722_140_147_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_190_1323_722_140_147_0.jpg)
 
 11. (多选题) 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -7572,7 +7572,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fqvdc91nqc7381i9u0_190_687_1911_167_163_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_190_687_1911_167_163_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_190_687_1911_167_163_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_190_687_1911_167_163_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -7664,7 +7664,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fqvdc91nqc7381i9u0_191_1325_737_141_148_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_191_1325_737_141_148_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_191_1325_737_141_148_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_191_1325_737_141_148_0.jpg)
 
 11. 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -7680,7 +7680,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fqvdc91nqc7381i9u0_191_1314_1236_166_164_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_191_1314_1236_166_164_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_191_1314_1236_166_164_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_191_1314_1236_166_164_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -7984,7 +7984,7 @@ A. 160 B. 163 C. 166 D. 170
 
 两个相关变量满足如下关系:
 
-![bo_d7fqvdc91nqc7381i9u0_193_1110_1993_163_67_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_193_1110_1993_163_67_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_193_1110_1993_163_67_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_193_1110_1993_163_67_0.jpg)
 
 ## 校本教材
 
@@ -8078,7 +8078,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一)探究新知，回顾背景
 
-![bo_d7fqvdc91nqc7381i9u0_195_215_416_1222_492_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_195_215_416_1222_492_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_195_215_416_1222_492_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_195_215_416_1222_492_0.jpg)
 
 觅宁参考 §6.3.1 平面向量基本定理 3 / 11
 
@@ -8086,7 +8086,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一) 探究新知, 回顾背景
 
-![bo_d7fqvdc91nqc7381i9u0_195_210_1109_1233_560_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_195_210_1109_1233_560_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_195_210_1109_1233_560_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_195_210_1109_1233_560_0.jpg)
 
 1. IATEX 本身都可以画出高清矢量图, 同时图中的元素也可以轻松实现逐步显示;
 
@@ -8098,9 +8098,9 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (二) 探究新知, 动手操作
 
-![bo_d7fqvdc91nqc7381i9u0_196_402_367_379_221_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_196_402_367_379_221_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_196_402_367_379_221_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_196_402_367_379_221_0.jpg)
 
-![bo_d7fqvdc91nqc7381i9u0_196_845_333_394_256_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_196_845_333_394_256_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_196_845_333_394_256_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_196_845_333_394_256_0.jpg)
 
 $$
 \overrightarrow{OC} = \overrightarrow{OM} + \overrightarrow{ON}
@@ -8146,21 +8146,21 @@ $= \frac{2n}{{2n} + 1}$ 化简
 
 - 函数图象
 
-![bo_d7fqvdc91nqc7381i9u0_197_238_382_1281_1625_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_197_238_382_1281_1625_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_197_238_382_1281_1625_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_197_238_382_1281_1625_0.jpg)
 
 + 立体几何
 
-![bo_d7fqvdc91nqc7381i9u0_198_237_357_1328_1169_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_198_237_357_1328_1169_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_198_237_357_1328_1169_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_198_237_357_1328_1169_0.jpg)
 
 统计图
 
-![bo_d7fqvdc91nqc7381i9u0_198_242_1643_1243_433_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_198_242_1643_1243_433_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_198_242_1643_1243_433_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_198_242_1643_1243_433_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载软件、教程, 添加微信与作者交流第 13 页 共 20 页
 
-![bo_d7fqvdc91nqc7381i9u0_199_222_295_642_483_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_199_222_295_642_483_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_199_222_295_642_483_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_199_222_295_642_483_0.jpg)
 
-![bo_d7fqvdc91nqc7381i9u0_199_879_333_589_371_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_199_879_333_589_371_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_199_879_333_589_371_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_199_879_333_589_371_0.jpg)
 
 建设后经济收入构成比例
 
@@ -8170,19 +8170,19 @@ $y$
 
 -6
 
-![bo_d7fqvdc91nqc7381i9u0_199_225_1222_398_301_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_199_225_1222_398_301_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_199_225_1222_398_301_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_199_225_1222_398_301_0.jpg)
 
 ## 4 其他平面图形
 
-![bo_d7fqvdc91nqc7381i9u0_200_203_347_1154_604_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_200_203_347_1154_604_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_200_203_347_1154_604_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_200_203_347_1154_604_0.jpg)
 
 + 其它图形
 
-![bo_d7fqvdc91nqc7381i9u0_200_201_1085_1132_528_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_200_201_1085_1132_528_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_200_201_1085_1132_528_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_200_201_1085_1132_528_0.jpg)
 
 + 三视图
 
-![bo_d7fqvdc91nqc7381i9u0_200_198_1728_1150_428_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_200_198_1728_1150_428_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_200_198_1728_1150_428_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_200_198_1728_1150_428_0.jpg)
 
 ## 与文档浑然一体
 
@@ -8192,19 +8192,19 @@ $y$
 
 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_201_321_371_104_110_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_321_371_104_110_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_321_371_104_110_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_321_371_104_110_0.jpg)
 
 A
 
-![bo_d7fqvdc91nqc7381i9u0_201_453_372_101_110_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_453_372_101_110_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_453_372_101_110_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_453_372_101_110_0.jpg)
 
 B
 
-![bo_d7fqvdc91nqc7381i9u0_201_582_372_103_110_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_582_372_103_110_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_582_372_103_110_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_582_372_103_110_0.jpg)
 
 C
 
-![bo_d7fqvdc91nqc7381i9u0_201_709_373_103_109_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_709_373_103_109_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_709_373_103_109_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_709_373_103_109_0.jpg)
 
 D
 
@@ -8212,19 +8212,19 @@ D
 
 已知 $0 < m < n < 1$ ，则指数函数 $\text{ ① }y = {m}^{x}$ ， $\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_201_330_574_88_93_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_330_574_88_93_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_330_574_88_93_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_330_574_88_93_0.jpg)
 
 A
 
-![bo_d7fqvdc91nqc7381i9u0_201_461_574_85_93_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_461_574_85_93_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_461_574_85_93_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_461_574_85_93_0.jpg)
 
 B
 
-![bo_d7fqvdc91nqc7381i9u0_201_591_574_85_93_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_591_574_85_93_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_591_574_85_93_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_591_574_85_93_0.jpg)
 
 C
 
-![bo_d7fqvdc91nqc7381i9u0_201_718_575_87_92_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_718_575_87_92_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_718_575_87_92_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_718_575_87_92_0.jpg)
 
 D
 
@@ -8232,7 +8232,7 @@ D
 
 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象, 则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_201_432_789_290_135_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_432_789_290_135_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_432_789_290_135_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_432_789_290_135_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$
 
@@ -8244,19 +8244,19 @@ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 同一坐标系中的图象可能是 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_201_918_273_98_100_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_918_273_98_100_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_918_273_98_100_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_918_273_98_100_0.jpg)
 
 A
 
-![bo_d7fqvdc91nqc7381i9u0_201_1051_272_98_101_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1051_272_98_101_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1051_272_98_101_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1051_272_98_101_0.jpg)
 
 B
 
-![bo_d7fqvdc91nqc7381i9u0_201_1180_271_100_102_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1180_271_100_102_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1180_271_100_102_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1180_271_100_102_0.jpg)
 
 C
 
-![bo_d7fqvdc91nqc7381i9u0_201_1308_271_99_102_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1308_271_99_102_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1308_271_99_102_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1308_271_99_102_0.jpg)
 
 D
 
@@ -8264,7 +8264,7 @@ D
 
 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_201_1106_491_132_135_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1106_491_132_135_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1106_491_132_135_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1106_491_132_135_0.jpg)
 
 A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c$
 
@@ -8272,7 +8272,7 @@ A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c
 
 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_201_1083_784_177_180_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1083_784_177_180_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1083_784_177_180_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1083_784_177_180_0.jpg)
 
 A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
@@ -8286,27 +8286,27 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fqvdc91nqc7381i9u0_201_334_1250_137_122_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_334_1250_137_122_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_334_1250_137_122_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_334_1250_137_122_0.jpg)
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_201_517_1250_127_122_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_517_1250_127_122_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_517_1250_127_122_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_517_1250_127_122_0.jpg)
 
 (3)
 
-![bo_d7fqvdc91nqc7381i9u0_201_693_1250_132_121_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_693_1250_132_121_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_693_1250_132_121_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_693_1250_132_121_0.jpg)
 
 (4)
 
-![bo_d7fqvdc91nqc7381i9u0_201_335_1377_130_124_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_335_1377_130_124_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_335_1377_130_124_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_335_1377_130_124_0.jpg)
 
 (5)
 
-![bo_d7fqvdc91nqc7381i9u0_201_516_1376_129_126_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_516_1376_129_126_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_516_1376_129_126_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_516_1376_129_126_0.jpg)
 
 (6)
 
-![bo_d7fqvdc91nqc7381i9u0_201_693_1378_131_124_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_693_1378_131_124_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_693_1378_131_124_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_693_1378_131_124_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -8324,25 +8324,25 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 【答案】
 
-![bo_d7fqvdc91nqc7381i9u0_201_333_1598_125_121_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_333_1598_125_121_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_333_1598_125_121_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_333_1598_125_121_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_201_516_1594_120_123_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_516_1594_120_123_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_516_1594_120_123_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_516_1594_120_123_0.jpg)
 
 (3)
 
-![bo_d7fqvdc91nqc7381i9u0_201_694_1594_121_123_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_694_1594_121_123_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_694_1594_121_123_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_694_1594_121_123_0.jpg)
 
 (4)
 
-![bo_d7fqvdc91nqc7381i9u0_201_334_1721_169_169_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_334_1721_169_169_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_334_1721_169_169_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_334_1721_169_169_0.jpg)
 
-![bo_d7fqvdc91nqc7381i9u0_201_514_1720_164_169_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_514_1720_164_169_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_514_1720_164_169_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_514_1720_164_169_0.jpg)
 
-![bo_d7fqvdc91nqc7381i9u0_201_691_1751_166_141_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_691_1751_166_141_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_691_1751_166_141_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_691_1751_166_141_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -8350,37 +8350,37 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fqvdc91nqc7381i9u0_201_923_1196_177_184_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_923_1196_177_184_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_923_1196_177_184_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_923_1196_177_184_0.jpg)
 
 (2) $f\left( x\right)  = x + \ln x$ ;
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_201_1208_1227_104_154_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1208_1227_104_154_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1208_1227_104_154_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1208_1227_104_154_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fqvdc91nqc7381i9u0_201_964_1462_276_106_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_964_1462_276_106_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_964_1462_276_106_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_964_1462_276_106_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fqvdc91nqc7381i9u0_201_1291_1620_116_177_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1291_1620_116_177_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1291_1620_116_177_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1291_1620_116_177_0.jpg)
 
 (1) $y = x\ln x$
 
 (2) $y = \frac{\ln x}{x}$
 
-![bo_d7fqvdc91nqc7381i9u0_201_1116_1636_154_163_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_1116_1636_154_163_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_1116_1636_154_163_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_1116_1636_154_163_0.jpg)
 
 (3)
 
 (3)
 
-![bo_d7fqvdc91nqc7381i9u0_201_905_1648_180_135_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_201_905_1648_180_135_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_201_905_1648_180_135_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_201_905_1648_180_135_0.jpg)
 
 $f\left( x\right)  = x\ln x$
 
@@ -8422,7 +8422,7 @@ $f\left( x\right)  = x\ln x$
 
 集合
 
-![bo_d7fqvdc91nqc7381i9u0_203_1068_1473_178_444_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_203_1068_1473_178_444_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_203_1068_1473_178_444_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_203_1068_1473_178_444_0.jpg)
 
 <table><tr><td></td><td>序号</td><td>符号</td></tr><tr><td></td><td>1.</td><td>$\sqrt{2},\sqrt[3]{3},\sqrt{\frac{1}{2}}$</td></tr><tr><td></td><td>2.</td><td>$\frac{2}{3},\frac{\sqrt{3}}{2}$</td></tr><tr><td></td><td>3.</td><td>$\overrightarrow{AB},\mathbf{a}$</td></tr><tr><td></td><td>4.</td><td>$\bar{a},\widehat{a},\overline{1234}$</td></tr><tr><td></td><td>5.</td><td>${a}_{m},{a}^{n},{a}_{n + 1}^{n + 2}$</td></tr><tr><td></td><td>6.</td><td>\{\}</td></tr><tr><td></td><td>7.</td><td>%</td></tr><tr><td></td><td>8.</td><td>$+ \infty , - \infty$</td></tr><tr><td></td><td>9.</td><td>$\because \therefore$</td></tr><tr><td></td><td>10.</td><td>$\langle \mathbf{a},\mathbf{b}\rangle$</td></tr><tr><td></td><td>11.</td><td>$\int$</td></tr><tr><td></td><td>12.</td><td>✘</td></tr><tr><td></td><td>13.</td><td>÷</td></tr><tr><td></td><td>14.</td><td>+</td></tr><tr><td></td><td>15.</td><td><</td></tr><tr><td></td><td>16.</td><td>之</td></tr><tr><td></td><td>17.</td><td>$\neq$</td></tr><tr><td></td><td>18.</td><td>$\approx$</td></tr><tr><td></td><td>19.</td><td>...</td></tr><tr><td></td><td>20.</td><td>十</td></tr><tr><td></td><td>21.</td><td>(mod $m$ )</td></tr><tr><td></td><td>22.</td><td>着重号</td></tr><tr><td></td><td>23.</td><td>公式中中文</td></tr><tr><td></td><td>24.</td><td><img src="https://cdn.noedgeai.com/bo_d7fqvdc91nqc7381i9u0_203.jpg?x=383&y=2030&w=60&h=97&r=0"/></td></tr></table>
 
@@ -8496,23 +8496,23 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 ## 一、函数图象
 
-![bo_d7fqvdc91nqc7381i9u0_206_129_129_1417_2097_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_206_129_129_1417_2097_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_206_129_129_1417_2097_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_206_129_129_1417_2097_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 1 页 共 4 页
 
 ## 二、立体几何
 
-![bo_d7fqvdc91nqc7381i9u0_207_161_157_1441_1269_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_207_161_157_1441_1269_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_207_161_157_1441_1269_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_207_161_157_1441_1269_0.jpg)
 
 ## 三、统计图
 
-![bo_d7fqvdc91nqc7381i9u0_207_160_1539_1372_478_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_207_160_1539_1372_478_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_207_160_1539_1372_478_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_207_160_1539_1372_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题
 
 第 2 页 共 4 页
 
-![bo_d7fqvdc91nqc7381i9u0_208_168_103_677_501_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_208_168_103_677_501_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_208_168_103_677_501_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_208_168_103_677_501_0.jpg)
 
 第三产业收入
 
@@ -8528,25 +8528,25 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 四、圆锥曲线等平面图
 
-![bo_d7fqvdc91nqc7381i9u0_208_157_735_1481_754_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_208_157_735_1481_754_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_208_157_735_1481_754_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_208_157_735_1481_754_0.jpg)
 
 ## 五、 其他平面图形
 
-![bo_d7fqvdc91nqc7381i9u0_208_158_1612_1057_478_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_208_158_1612_1057_478_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_208_158_1612_1057_478_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_208_158_1612_1057_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 3 页 共 4 页
 
 ## 六、其它图形
 
-![bo_d7fqvdc91nqc7381i9u0_209_144_153_1206_565_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_209_144_153_1206_565_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_209_144_153_1206_565_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_209_144_153_1206_565_0.jpg)
 
 七、三视图
 
-![bo_d7fqvdc91nqc7381i9u0_209_148_826_1214_455_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_209_148_826_1214_455_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_209_148_826_1214_455_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_209_148_826_1214_455_0.jpg)
 
 ## 八、流程图
 
-![bo_d7fqvdc91nqc7381i9u0_209_153_1388_841_844_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_209_153_1388_841_844_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_209_153_1388_841_844_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_209_153_1388_841_844_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 4 页 共 4 页
 
@@ -8556,65 +8556,65 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 例 1 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_210_186_296_187_201_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_186_296_187_201_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_186_296_187_201_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_186_296_187_201_0.jpg)
 
 A
 
-![bo_d7fqvdc91nqc7381i9u0_210_449_298_187_199_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_449_298_187_199_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_449_298_187_199_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_449_298_187_199_0.jpg)
 
 B
 
-![bo_d7fqvdc91nqc7381i9u0_210_712_298_187_199_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_712_298_187_199_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_712_298_187_199_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_712_298_187_199_0.jpg)
 
 C
 
-![bo_d7fqvdc91nqc7381i9u0_210_974_299_187_199_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_974_299_187_199_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_974_299_187_199_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_974_299_187_199_0.jpg)
 
 D
 
 练 1 已知 $0 < m < n < 1$ ,则指数函数 $\text{ ① }y = {m}^{x},\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_210_202_688_155_169_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_202_688_155_169_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_202_688_155_169_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_202_688_155_169_0.jpg)
 
 A
 
-![bo_d7fqvdc91nqc7381i9u0_210_464_689_155_168_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_464_689_155_168_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_464_689_155_168_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_464_689_155_168_0.jpg)
 
 B
 
-![bo_d7fqvdc91nqc7381i9u0_210_728_689_154_168_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_728_689_154_168_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_728_689_154_168_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_728_689_154_168_0.jpg)
 
 C
 
-![bo_d7fqvdc91nqc7381i9u0_210_990_689_155_168_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_990_689_155_168_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_990_689_155_168_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_990_689_155_168_0.jpg)
 
 D
 
 例 2 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象,则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_210_377_1093_524_243_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_377_1093_524_243_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_377_1093_524_243_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_377_1093_524_243_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 练 2 已知 $a > 0, b > 0$ ,且 ${ab} = 1, a \neq  1$ ,则函数 $f\left( x\right)  = {a}^{x}$ 与函数 $g\left( x\right)  =  - {\log }_{b}x$ 在同一坐标系中的图象可能是 ( )
 
-![bo_d7fqvdc91nqc7381i9u0_210_1300_176_182_176_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_1300_176_182_176_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_1300_176_182_176_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_1300_176_182_176_0.jpg)
 
 A
 
-![bo_d7fqvdc91nqc7381i9u0_210_1566_175_177_178_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_1566_175_177_178_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_1566_175_177_178_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_1566_175_177_178_0.jpg)
 
 B
 
-![bo_d7fqvdc91nqc7381i9u0_210_1827_174_179_178_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_1827_174_179_178_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_1827_174_179_178_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_1827_174_179_178_0.jpg)
 
 C
 
-![bo_d7fqvdc91nqc7381i9u0_210_2089_177_179_176_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_2089_177_179_176_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_2089_177_179_176_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_2089_177_179_176_0.jpg)
 
 D
 
-![bo_d7fqvdc91nqc7381i9u0_210_2001_545_241_248_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_2001_545_241_248_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_2001_545_241_248_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_2001_545_241_248_0.jpg)
 
 例 3 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
@@ -8622,7 +8622,7 @@ A. $a < b < c < d$ B. $a < b < d < c$
 
 C. $b < a < c < d$ D. $b < a < d < c$
 
-![bo_d7fqvdc91nqc7381i9u0_210_1995_909_250_238_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_210_1995_909_250_238_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_210_1995_909_250_238_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_210_1995_909_250_238_0.jpg)
 
 练 3 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
@@ -8640,29 +8640,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqvdc91nqc7381i9u0_211_198_279_253_219_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_198_279_253_219_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_198_279_253_219_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_198_279_253_219_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_211_531_279_241_220_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_531_279_241_220_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_531_279_241_220_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_531_279_241_220_0.jpg)
 
 (3)
 
-![bo_d7fqvdc91nqc7381i9u0_211_859_278_242_220_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_859_278_242_220_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_859_278_242_220_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_859_278_242_220_0.jpg)
 
 (4)
 
-![bo_d7fqvdc91nqc7381i9u0_211_198_511_241_226_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_198_511_241_226_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_198_511_241_226_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_198_511_241_226_0.jpg)
 
 (5)
 
-![bo_d7fqvdc91nqc7381i9u0_211_531_510_240_229_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_531_510_240_229_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_531_510_240_229_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_531_510_240_229_0.jpg)
 
 (6)
 
-![bo_d7fqvdc91nqc7381i9u0_211_859_510_242_231_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_859_510_242_231_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_859_510_242_231_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_859_510_242_231_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -8672,27 +8672,27 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqvdc91nqc7381i9u0_211_200_922_223_215_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_200_922_223_215_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_200_922_223_215_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_200_922_223_215_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_211_529_913_224_222_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_529_913_224_222_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_529_913_224_222_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_529_913_224_222_0.jpg)
 
 (3)
 
-![bo_d7fqvdc91nqc7381i9u0_211_859_909_225_222_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_859_909_225_222_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_859_909_225_222_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_859_909_225_222_0.jpg)
 
 (4)
 
-![bo_d7fqvdc91nqc7381i9u0_211_198_1150_301_306_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_198_1150_301_306_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_198_1150_301_306_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_198_1150_301_306_0.jpg)
 
 (5)
 
-![bo_d7fqvdc91nqc7381i9u0_211_531_1143_303_314_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_531_1143_303_314_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_531_1143_303_314_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_531_1143_303_314_0.jpg)
 
-![bo_d7fqvdc91nqc7381i9u0_211_861_1203_303_253_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_861_1203_303_253_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_861_1203_303_253_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_861_1203_303_253_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -8702,7 +8702,7 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqvdc91nqc7381i9u0_211_1316_229_298_295_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_1316_229_298_295_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_1316_229_298_295_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_1316_229_298_295_0.jpg)
 
 (1)
 
@@ -8710,29 +8710,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_211_1816_232_193_290_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_1816_232_193_290_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_1816_232_193_290_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_1816_232_193_290_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fqvdc91nqc7381i9u0_211_1362_670_512_195_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_1362_670_512_195_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_1362_670_512_195_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_1362_670_512_195_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fqvdc91nqc7381i9u0_211_1984_972_196_313_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_1984_972_196_313_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_1984_972_196_313_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_1984_972_196_313_0.jpg)
 
 (1) $y = x\ln x$ (2) $y = \frac{\ln x}{x}$ (3) $y = \frac{x}{\ln x}$
 
 (1)
 
-![bo_d7fqvdc91nqc7381i9u0_211_1321_1014_266_258_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_1321_1014_266_258_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_1321_1014_266_258_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_1321_1014_266_258_0.jpg)
 
 (2)
 
-![bo_d7fqvdc91nqc7381i9u0_211_1650_1018_275_267_0.jpg](images/bo_d7fqvdc91nqc7381i9u0_211_1650_1018_275_267_0.jpg)
+![bo_d7fqvdc91nqc7381i9u0_211_1650_1018_275_267_0.jpg](attachments/bo_d7fqvdc91nqc7381i9u0_211_1650_1018_275_267_0.jpg)
 
 (3)
 

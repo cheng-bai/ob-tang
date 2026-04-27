@@ -4,7 +4,7 @@ title: 选修一第3章空间向量及其应用-dollar
 ---
 我们已学习了平面上的向量，讨论了平面
 
-![bo_d4slnd3ef24c73be0pi0_0_5_5_1648_1179_0.jpg](images/bo_d4slnd3ef24c73be0pi0_0_5_5_1648_1179_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_0_5_5_1648_1179_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_0_5_5_1648_1179_0.jpg)
 
 ## 空间向量 及其应用
 
@@ -34,7 +34,7 @@ $$
 
 有了加法结合律, 我们可以求空间向量的连加, 而不必顾及式中的括号，而且向量加法的 “首尾规则” 对空间向量依然成立:若干个起点、终点依次相接的向量的和是以第一个向量的起点为起点, 以最后一个向量的终点为终点的向量. 结合律的证明过程略加推广就证明了 “首尾规则”.
 
-![bo_d4slnd3ef24c73be0pi0_2_1124_573_309_306_0.jpg](images/bo_d4slnd3ef24c73be0pi0_2_1124_573_309_306_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_2_1124_573_309_306_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_2_1124_573_309_306_0.jpg)
 
 图 3-1-1
 
@@ -62,7 +62,7 @@ $$
 \overrightarrow{BE} = \overrightarrow{B{B}_{1}} + \overrightarrow{{B}_{1}{A}_{1}} + \overrightarrow{{A}_{1}{D}_{1}} + \overrightarrow{{D}_{1}{C}_{1}} + \overrightarrow{{C}_{1}E}\text{ . }
 $$
 
-![bo_d4slnd3ef24c73be0pi0_2_1135_1534_301_290_0.jpg](images/bo_d4slnd3ef24c73be0pi0_2_1135_1534_301_290_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_2_1135_1534_301_290_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_2_1135_1534_301_290_0.jpg)
 
 图 3-1-2
 
@@ -80,7 +80,7 @@ $$
 
 ## 练习 3.1(1)
 
-![bo_d4slnd3ef24c73be0pi0_3_1123_341_357_251_0.jpg](images/bo_d4slnd3ef24c73be0pi0_3_1123_341_357_251_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_3_1123_341_357_251_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_3_1123_341_357_251_0.jpg)
 
 (第 2 题)
 
@@ -96,7 +96,7 @@ $$
 
 向量的数量积对向量加法的分配律也涉及三个向量, 它们可能不共面，但是可以仿照平面向量中分配律的证明(见必修课程 8.2 节)给出空间向量情形的证明, 见练习 3.1(2)第 1 题.
 
-![bo_d4slnd3ef24c73be0pi0_3_206_838_297_304_0.jpg](images/bo_d4slnd3ef24c73be0pi0_3_206_838_297_304_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_3_206_838_297_304_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_3_206_838_297_304_0.jpg)
 
 图 3-1-3
 
@@ -214,7 +214,7 @@ $$
 
 平行向量也称为共线向量.
 
-![bo_d4slnd3ef24c73be0pi0_4_1123_1474_354_382_0.jpg](images/bo_d4slnd3ef24c73be0pi0_4_1123_1474_354_382_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_4_1123_1474_354_382_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_4_1123_1474_354_382_0.jpg)
 
 图 3-1-4
 
@@ -256,7 +256,7 @@ $$
 
 ## 练习 3.1(2)
 
-![bo_d4slnd3ef24c73be0pi0_5_1161_805_317_306_0.jpg](images/bo_d4slnd3ef24c73be0pi0_5_1161_805_317_306_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_5_1161_805_317_306_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_5_1161_805_317_306_0.jpg)
 
 (第 1 题)
 
@@ -278,11 +278,11 @@ $$
 
 2. 如图,在直三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 中, $\overrightarrow{CA} = \overrightarrow{a},\overrightarrow{CB} = \overrightarrow{b},\overrightarrow{C{C}_{1}} = \overrightarrow{c}$ . 将向量 $\overrightarrow{{A}_{1}B}$ 表示为 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}\text{ 、 }\overrightarrow{c}$ 的线性组合.
 
-![bo_d4slnd3ef24c73be0pi0_5_443_1747_281_301_0.jpg](images/bo_d4slnd3ef24c73be0pi0_5_443_1747_281_301_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_5_443_1747_281_301_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_5_443_1747_281_301_0.jpg)
 
 (第 2 题)
 
-![bo_d4slnd3ef24c73be0pi0_5_903_1744_315_301_0.jpg](images/bo_d4slnd3ef24c73be0pi0_5_903_1744_315_301_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_5_903_1744_315_301_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_5_903_1744_315_301_0.jpg)
 
 (第 3 题)
 
@@ -296,7 +296,7 @@ $$
 
 5. 已知空间四边形 ${ABCD}$ 中, ${AB} \bot  {CD},{AC} \bot  {BD}$ . 求证: ${AD} \bot  {BC}$ .
 
-![bo_d4slnd3ef24c73be0pi0_6_1125_636_325_305_0.jpg](images/bo_d4slnd3ef24c73be0pi0_6_1125_636_325_305_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_6_1125_636_325_305_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_6_1125_636_325_305_0.jpg)
 
 (第 6 题)
 
@@ -308,7 +308,7 @@ $$
 
 B 组
 
-![bo_d4slnd3ef24c73be0pi0_6_1135_1038_312_272_0.jpg](images/bo_d4slnd3ef24c73be0pi0_6_1135_1038_312_272_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_6_1135_1038_312_272_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_6_1135_1038_312_272_0.jpg)
 
 (第 1 题)
 
@@ -320,11 +320,11 @@ B 组
 
 (2)若 ${AC}\bot {BC}$ ，判断点 $D$ 在平面 ${ABC}$ 上的射影是否可能在直线 ${BC}$ 上，给出你的结论并加以证明.
 
-![bo_d4slnd3ef24c73be0pi0_6_338_1512_351_270_0.jpg](images/bo_d4slnd3ef24c73be0pi0_6_338_1512_351_270_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_6_338_1512_351_270_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_6_338_1512_351_270_0.jpg)
 
 (第 2 题)
 
-![bo_d4slnd3ef24c73be0pi0_6_799_1543_481_228_0.jpg](images/bo_d4slnd3ef24c73be0pi0_6_799_1543_481_228_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_6_799_1543_481_228_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_6_799_1543_481_228_0.jpg)
 
 (第 3 题)
 
@@ -336,7 +336,7 @@ B 组
 
 我们说过空间的任意两个向量总是共面的. 但是, 空间中的三个向量却不一定共面. 例如，图 3-2-1 所示的平行六面体中， 相交于一个顶点 $A$ 的三条棱 ${AB}\text{ 、 }{AD}$ 与 $A{A}_{1}$ 所对应的向量 $\overrightarrow{AB}$ 、 $\overrightarrow{AD}$ 与 $\overrightarrow{A{A}_{1}}$ 就是不共面的.
 
-![bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg](images/bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_7_194_713_354_292_0.jpg)
 
 图 3-2-1
 
@@ -356,7 +356,7 @@ $$
 
 ---
 
-![bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg](images/bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_7_201_1772_304_222_0.jpg)
 
 图 3-2-2
 
@@ -392,7 +392,7 @@ $$
 
 ---
 
-![bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg](images/bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_8_1124_728_298_177_0.jpg)
 
 图 3-2-3
 
@@ -432,7 +432,7 @@ $$
 
 如图 3-2-4,在空间任取一点 $O$ ,作 $\overrightarrow{OA} = {\overrightarrow{e}}_{1},\overrightarrow{OB} = {\overrightarrow{e}}_{2}$ , $\overrightarrow{OC} = \overrightarrow{{e}_{3}},\overrightarrow{OP} = \overrightarrow{a}$ . OA 与 ${OB}$ 是不重合的相交直线,它们确定了一个平面 $\alpha ;{OC}$ 与 ${OP}$ 是不重合的相交直线,它们也确定一个平面 $\beta$ . 平面 $\alpha$ 与 $\beta$ 不重合 (否则 $\overrightarrow{{e}_{1}}\text{ 、 }\overrightarrow{{e}_{2}}$ 与 $\overrightarrow{{e}_{3}}$ 共面),但有公共点 $O$ ,所以它们有唯一的交线 $l$ . 在 $l$ 上任取一个非零向量 $\overrightarrow{b}$ ,则 $\overrightarrow{b}$ 与 $\overrightarrow{{e}_{3}}$ 不共线.
 
-![bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg](images/bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_9_198_414_305_291_0.jpg)
 
 图 3-2-4
 
@@ -456,7 +456,7 @@ $$
 
 (1)在此四面体的棱所对应的向量中找出两组各三个不共面的向量, 并把其他棱对应的向量分别表示成这两组向量的线性组合 (互为负向量的不必另行表示), 要求第一组三个向量所在的棱有公共点, 第二组三个向量所在的棱没有公共点 (答案不唯一);
 
-![bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg](images/bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_9_199_1380_322_295_0.jpg)
 
 图 3-2-5
 
@@ -506,7 +506,7 @@ $$
 
 (3)如果 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ 是平面 $\alpha$ 上的互不平行的向量，点 $C$ 在平面 $\alpha$ 上，点 $D$ 不在平面 $\alpha$ 上， 那么向量 $\overrightarrow{CD}$ 与向量 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ 不共面.
 
-![bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg](images/bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_10_1097_1040_356_243_0.jpg)
 
 (第 2 题)
 
@@ -522,7 +522,7 @@ $$
 
 ## A 组
 
-![bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg](images/bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_10_1134_1682_306_233_0.jpg)
 
 (第 1 题)
 
@@ -536,7 +536,7 @@ $$
 
 (2) $\overrightarrow{AE} = \lambda \overrightarrow{AD} + \mu \overrightarrow{AB} + \nu \overrightarrow{A{A}^{\prime }}$ .
 
-![bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg](images/bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_11_1175_265_300_304_0.jpg)
 
 (第 4 题)
 
@@ -550,7 +550,7 @@ $$
 
 1. 在平面上有如下命题: “若 $O$ 为直线 ${AB}$ 外的一点,则点 $P$ 在直线 ${AB}$ 上的充要条件是:存在实数 $\lambda$ 、 $\mu$ ，满足 $\overrightarrow{OP} = \lambda \overrightarrow{OA} + \mu \overrightarrow{OB}$ ，且 $\lambda  + \mu  = 1.$ ”类比此命题，给出空间某点在某一平面上的充要条件并加以证明.
 
-![bo_d4slnd3ef24c73be0pi0_11_1175_867_296_307_0.jpg](images/bo_d4slnd3ef24c73be0pi0_11_1175_867_296_307_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_11_1175_867_296_307_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_11_1175_867_296_307_0.jpg)
 
 (第 4 题)
 
@@ -572,27 +572,27 @@ $$
 
 如图 3-3-1, 在正方体中, 总可以找到从一个顶点出发的三条两两互相垂直的棱,如 ${AB}\text{ 、 }{AD}$ 与 $A{A}_{1}$ . 受此启示,从空间一点 $O$ 出发,可以作三条两两互相垂直的坐标轴,建立空间直角坐标系 $O - {xyz}$ (图 3-3-2).
 
-![bo_d4slnd3ef24c73be0pi0_12_265_1066_309_301_0.jpg](images/bo_d4slnd3ef24c73be0pi0_12_265_1066_309_301_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_12_265_1066_309_301_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_12_265_1066_309_301_0.jpg)
 
 图 3-3-1
 
-![bo_d4slnd3ef24c73be0pi0_12_698_1075_292_292_0.jpg](images/bo_d4slnd3ef24c73be0pi0_12_698_1075_292_292_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_12_698_1075_292_292_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_12_698_1075_292_292_0.jpg)
 
 图 3-3-2
 
 点 $O$ 叫做坐标原点,三条坐标轴分别是横轴 (即 $x$ 轴)、纵轴 (即 $y$ 轴) 与竖轴 (即 $z$ 轴). 我们约定坐标系采用右手制,即右手翘起拇指、其他四指握拳做“点赞”状，当四指所指的方向是 $x$ 轴正方向到 $y$ 轴正方向的旋转方向时,拇指所指为 $z$ 轴正方向 (图 3-3-3). 通过每两个坐标轴的平面叫坐标平面, 分别称为 ${xOy}$ 平面, ${yOz}$ 平面与 ${zOx}$ 平面. 三个坐标平面把空间划分成八个部分，每个部分称为一个卦限(octant)(图 3-3-4).
 
-![bo_d4slnd3ef24c73be0pi0_12_318_1802_221_258_0.jpg](images/bo_d4slnd3ef24c73be0pi0_12_318_1802_221_258_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_12_318_1802_221_258_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_12_318_1802_221_258_0.jpg)
 
 图 3-3-3
 
-![bo_d4slnd3ef24c73be0pi0_12_708_1802_254_253_0.jpg](images/bo_d4slnd3ef24c73be0pi0_12_708_1802_254_253_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_12_708_1802_254_253_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_12_708_1802_254_253_0.jpg)
 
 图 3-3-4
 
 给定空间一点 $P$ ,如图 3-3-5,过点 $P$ 分别作与坐标平面 ${yOz}\text{ 、 }{zOx}$ 与 ${xOy}$ 平行的平面,与坐标平面一起围出一个长方体,所作的三个平面与 $x$ 轴、 $y$ 轴、 $z$ 轴的交点 $A\text{ 、 }B\text{ 、 }C$ (它们都是上述长方体的顶点) 在轴上的坐标,给出了点 $P$ 的坐标 $(x, y$ , $z)$ ,其中 $x\text{ 、 }y$ 与 $z$ 分别称为点 $P$ 的横坐标、纵坐标与竖坐标.
 
-![bo_d4slnd3ef24c73be0pi0_13_875_551_314_309_0.jpg](images/bo_d4slnd3ef24c73be0pi0_13_875_551_314_309_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_13_875_551_314_309_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_13_875_551_314_309_0.jpg)
 
 图 3-3-5
 
@@ -602,7 +602,7 @@ $$
 
 解 如图 3-3-6,过点 $P$ 分别作与三个坐标平面平行的平面,与坐标平面一起围成了长方体 ${OADB} - {CEPF}$ ,根据点 $P$ 的坐标知道 $A\text{ 、 }B\text{ 、 }C$ 三点在轴上的坐标分别是 $7\text{ 、 }6\text{ 、 }4$ .
 
-![bo_d4slnd3ef24c73be0pi0_13_866_1364_304_357_0.jpg](images/bo_d4slnd3ef24c73be0pi0_13_866_1364_304_357_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_13_866_1364_304_357_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_13_866_1364_304_357_0.jpg)
 
 图 3-3-6
 
@@ -698,7 +698,7 @@ $$
 \cos \langle \overrightarrow{a},\overrightarrow{b}\rangle  = \frac{{x}_{1}{x}_{2} + {y}_{1}{y}_{2} + {z}_{1}{z}_{2}}{\sqrt{{x}_{1}^{2} + {y}_{1}^{2} + {z}_{1}^{2}}\sqrt{{x}_{2}^{2} + {y}_{2}^{2} + {z}_{2}^{2}}}.
 $$
 
-![bo_d4slnd3ef24c73be0pi0_15_203_1706_310_332_0.jpg](images/bo_d4slnd3ef24c73be0pi0_15_203_1706_310_332_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_15_203_1706_310_332_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_15_203_1706_310_332_0.jpg)
 
 图 3-3-7
 
@@ -764,7 +764,7 @@ $$
 
 (2)若向量 $\overrightarrow{a}$ 与向量 $\overrightarrow{AB}$ 、 $\overrightarrow{AC}$ 都垂直，且 $\left| \overrightarrow{a}\right|  = \sqrt{3}$ ，求向量 $\overrightarrow{a}$ 的坐标.
 
-![bo_d4slnd3ef24c73be0pi0_17_1204_584_280_410_0.jpg](images/bo_d4slnd3ef24c73be0pi0_17_1204_584_280_410_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_17_1204_584_280_410_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_17_1204_584_280_410_0.jpg)
 
 (第 3 题)
 
@@ -796,7 +796,7 @@ $$
 
 这样, 就把直线间的平行或垂直关系化为向量的平行或垂直关系. 我们给出一个“简单”的例子——三垂线定理的向量证明， 它的关键就是把直线垂直问题化为向量垂直问题.
 
-![bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg](images/bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_18_1127_1664_302_301_0.jpg)
 
 图 3-4-1
 
@@ -830,7 +830,7 @@ $$
 
 证明(1)设正方体的棱长为 $a$ . 以点 $D$ 为原点，分别以 $\overrightarrow{DA}\text{ 、 }\overrightarrow{DC}$ 与 $\overrightarrow{D{D}_{1}}$ 的方向为 $x\text{ 、 }y$ 与 $z$ 轴的正方向，建立空间直角坐标系, 则得到正方体各顶点的坐标如下:
 
-![bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg](images/bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_19_214_1406_298_331_0.jpg)
 
 图 3-4-2
 
@@ -886,11 +886,11 @@ $$
 
 2. 如图，在平面 $\alpha$ 与平面 $\beta$ 上分别有不共线的三点 $A$ 、 $B$ 、 $C$ 与 ${A}_{1}$ 、 ${B}_{1}$ 、 ${C}_{1}$ ，假设 $A{A}_{1}\text{ 、 }B{B}_{1}$ 与 $C{C}_{1}$ 交于一点 $O$ ,且 $\left| {AO}\right|  = \left| {O{A}_{1}}\right| ,\left| {BO}\right|  = \left| {O{B}_{1}}\right| ,\left| {CO}\right|  = \left| {O{C}_{1}}\right|$ . 求证: 平面 $\alpha //$ 平面 $\beta$ .
 
-![bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg](images/bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_20_407_1007_419_324_0.jpg)
 
 (第 2 题)
 
-![bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg](images/bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_20_962_1044_242_288_0.jpg)
 
 (第 3 题)
 
@@ -900,7 +900,7 @@ $$
 
 (2) ${AC} \bot$ 平面 ${EBC}$ .
 
-![bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg](images/bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_20_1128_1740_301_286_0.jpg)
 
 图 3-4-3
 
@@ -920,7 +920,7 @@ $$
 d = \left| {\overrightarrow{{n}_{0}} \cdot  \overrightarrow{AB}}\right|  = \frac{\left| \overrightarrow{n} \cdot  \overrightarrow{AB}\right| }{\left| \overrightarrow{n}\right| }.
 $$
 
-![bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg](images/bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_21_206_604_288_226_0.jpg)
 
 图 3-4-4
 
@@ -962,7 +962,7 @@ $$
 
 解 求平行平面 ${A}_{1}{BD}$ 与 $C{D}_{1}{B}_{1}$ 之间的距离,只要求平面
 
-![bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg](images/bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_22_1142_260_298_334_0.jpg)
 
 图 3-4-5
 
@@ -1006,7 +1006,7 @@ $$
 
 ## 3 求角的大小
 
-![bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg](images/bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_22_1132_1608_310_331_0.jpg)
 
 图 3-4-6
 
@@ -1036,7 +1036,7 @@ $$
 
 先考虑直线与平面所成的角. 从图 3-4-7 可以看出, 直线与平面垂线(法向量所在直线)所成的角和直线与平面所成的角的关系: 如果直线与平面所成的角为 $\theta$ ,那么直线与平面垂线 (法向量所在直线) 所成的角为 $\frac{\pi }{2} - \theta$ . 因此,如果直线的一个方向向量为 $\overrightarrow{r}$ ,平面的一个法向量为 $\overrightarrow{n}$ ,那么直线与平面所成的角 $\theta$ 由如下公式确定:
 
-![bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg](images/bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_23_198_1398_300_219_0.jpg)
 
 图 3-4-7
 
@@ -1046,7 +1046,7 @@ $$
 \sin \theta  = \cos \left( {\frac{\pi }{2} - \theta }\right)  = \frac{\left| \overrightarrow{r} \cdot  \overrightarrow{n}\right| }{\left| \overrightarrow{r}\right| \left| \overrightarrow{n}\right| }.
 $$
 
-![bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg](images/bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_23_197_1807_302_231_0.jpg)
 
 图 3-4-8
 
@@ -1066,11 +1066,11 @@ $$
 
 1. 如图,四边形 ${ABCD}$ 是矩形, ${PA} \bot$ 平面 ${ABCD}, E$ 是线段 ${PA}$ 的中点. 已知 $\left| {PA}\right|  = 2,\left| {AB}\right|  = \sqrt{3},\left| {BC}\right|  = 1$ . 求异面直线 ${BE}$ 与 ${PC}$ 所成角的大小.
 
-![bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg](images/bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_24_394_1341_299_292_0.jpg)
 
 (第 1 题)
 
-![bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg](images/bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_24_906_1325_312_306_0.jpg)
 
 (第 2 题)
 
@@ -1082,7 +1082,7 @@ $$
 
 现在考虑二面角的平面角和它的两个半平面所在平面的法向量夹角大小的关系. 如图 3-4-9, 一个平面的法向量垂直于该平面上的所有直线, 所以法向量夹角的两条边垂直于二面角的平面角相应的边. 从平面几何知道, 这样两个角或者相等, 或者互补.
 
-![bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg](images/bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_25_624_264_780_338_0.jpg)
 
 图 3-4-9
 
@@ -1094,7 +1094,7 @@ $$
 
 例 7 如图 3-4-10(1),在正四棱锥 $P - {ABCD}$ 中, $\left| {PA}\right|  = \; \left| {AB}\right|  = 2\sqrt{2}, E\text{ 、 }F$ 分别为 ${PB}\text{ 、 }{PD}$ 的中点. 若平面 ${AEF}$ 与棱 ${PC}$ 交于点 $G$ ,求平面 ${AEGF}$ 与平面 ${ABCD}$ 所成二面角的大小.
 
-![bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg](images/bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_25_616_1186_799_365_0.jpg)
 
 图 3-4-10
 
@@ -1118,11 +1118,11 @@ $$
 
 2. 如图，在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中，求平面 $D{A}_{1}B$ 与平面 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 所成二面角的正弦值.
 
-![bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg](images/bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_26_449_1085_295_312_0.jpg)
 
 (第 2 题)
 
-![bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg](images/bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_26_879_1072_290_323_0.jpg)
 
 (第 3 题)
 
@@ -1140,15 +1140,15 @@ A 组
 
 4. 如图,已知正三棱柱 ${ABC} - {A}_{1}{B}_{1}{C}_{1}$ 的各条棱长均为 $a, D$ 是棱 $C{C}_{1}$ 的中点. 求证: 平面 $A{B}_{1}D \bot$ 平面 ${AB}{B}_{1}{A}_{1}$ .
 
-![bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg](images/bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_27_429_364_265_305_0.jpg)
 
 (第 4 题)
 
-![bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg](images/bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_27_976_401_265_270_0.jpg)
 
 (第 5 题)
 
-![bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg](images/bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_27_1196_756_278_329_0.jpg)
 
 (第 6 题)
 
@@ -1164,11 +1164,11 @@ A 组
 
 1. 如图，在空间四边形 ${ABCD}$ 中， $\left| {AC}\right|  = \left| {AD}\right|$ ， $\angle {BAC} = \angle {BAD}$ . 求证: ${CD} \bot  {AB}$ .
 
-![bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg](images/bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_27_409_1409_340_310_0.jpg)
 
 (第 1 题)
 
-![bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg](images/bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_27_916_1371_363_349_0.jpg)
 
 (第 2 题)
 
@@ -1180,7 +1180,7 @@ A 组
 
 3. 在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,设 ${AB}\text{ 、 }D{D}_{1}$ 的中点分别为 $M\text{ 、 }N$ . 求直线 ${B}_{1}M$ 与 ${CN}$ 所成角的大小.
 
-![bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg](images/bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_28_1135_262_311_309_0.jpg)
 
 (第 5 题)
 
@@ -1280,7 +1280,7 @@ $$
 
 1. 求连接点 $A\left( {x, y, z}\right)$ 与点 $B\left( {{x}^{\prime },{y}^{\prime },{z}^{\prime }}\right)$ 的线段 ${AB}$ 的中点 $M$ 的坐标.
 
-![bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg](images/bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_30_1151_1797_291_281_0.jpg)
 
 (第 4 题)
 
@@ -1306,11 +1306,11 @@ $$
 
 (2)若点 $C$ 到平面 $A{B}_{1}{D}_{1}$ 的距离为 $\frac{4}{3}$ ，求此正四棱柱的高.
 
-![bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg](images/bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_31_417_760_301_377_0.jpg)
 
 (第 6 题)
 
-![bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg](images/bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_31_897_792_347_326_0.jpg)
 
 (第 7 题)
 
@@ -1326,11 +1326,11 @@ $$
 
 (2)求四棱锥 $P - {ABCD}$ 的体积.
 
-![bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg](images/bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_31_370_1658_504_253_0.jpg)
 
 (第 8 题)
 
-![bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg](images/bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_31_1054_1560_261_354_0.jpg)
 
 (第 9 题)
 
@@ -1350,11 +1350,11 @@ B 组
 
 (2)若 $\overrightarrow{EF} = \lambda \overrightarrow{AB} + \mu \overrightarrow{AD} + \nu \overrightarrow{A{A}_{1}}$ ，求 $\lambda  + \mu  + \nu$ 的值.
 
-![bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg](images/bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_32_417_899_294_321_0.jpg)
 
 (第 2 题)
 
-![bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg](images/bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_32_891_908_303_309_0.jpg)
 
 (第 3 题)
 
@@ -1372,7 +1372,7 @@ B 组
 
 ## 拓展与思考
 
-![bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg](images/bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_32_1134_1745_311_310_0.jpg)
 
 (第 1 题)
 
@@ -1384,7 +1384,7 @@ B 组
 
 (3)当 $\angle {APC}$ 为钝角时,求 $\lambda$ 的取值范围.
 
-![bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg](images/bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg)
+![bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg](attachments/bo_d4slnd3ef24c73be0pi0_33_1057_259_410_282_0.jpg)
 
 (第 2 题)
 

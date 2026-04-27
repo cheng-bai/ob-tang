@@ -4,7 +4,7 @@ title: 选修一第1章平面直角坐标系中的直线-dollar
 ---
 # 平面直角坐标系中的直线
 
-![bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg](images/bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg)
+![bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg](attachments/bo_d4slnhbef24c73be0pog_0_1_2_1653_1182_0.jpg)
 
 在本册教材的这一章和下一章中, 我们将学习解析几何的初步知识与方法. 解析几何的研究思路是通过引进坐标系, 建立“点”与“数” 之间的一一对应, 从而用代数的观点与方法解决几何问题.
 
@@ -16,7 +16,7 @@ title: 选修一第1章平面直角坐标系中的直线-dollar
 
 在平面直角坐标系中, 已经有了两条互相垂直的直线, 即两条坐标轴,我们只要能确定直线 $l$ 与其中一条坐标轴的相对位置,就能描述出该直线在坐标系中的位置. 不妨先设直线 $l$ 与 $x$ 轴相交于点 $A$ ,如图 1-1-1 所示. 将 $x$ 轴绕点 $A$ 沿逆时针方向旋转到与 $l$ 重合时所转过的最小正角 $\theta$ 叫做直线 $l$ 的倾斜角 (angle of inclination). 显然, $0 < \theta  < \pi$ . 当直线 $l$ 与 $x$ 轴平行或重合时, 规定倾斜角为 0,这样,直线 $l$ 的倾斜角的取值范围就可扩大为 $0 \leq  \theta  < \pi$ ,即 $\theta  \in  \lbrack 0,\pi )$ . 特别地,当倾斜角 $\theta  = \frac{\pi }{2}$ 时,直线 $l$ 与 $x$ 轴垂直.
 
-![bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg](images/bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg)
+![bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg](attachments/bo_d4slnhbef24c73be0pog_1_215_617_290_293_0.jpg)
 
 图 1-1-1
 
@@ -26,15 +26,15 @@ title: 选修一第1章平面直角坐标系中的直线-dollar
 
 设直线 $l$ 经过不同的两点 $A\left( {{x}_{1},{y}_{1}}\right) \text{ 、 }B\left( {{x}_{2},{y}_{2}}\right)$ . 当 ${x}_{1} = {x}_{2}$ 时,直线 $l$ 与 $x$ 轴垂直 (图 1-1-2),此时,直线 $l$ 的倾斜角 $\theta  = \frac{\pi }{2}$ , 斜率不存在.
 
-![bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg](images/bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg)
+![bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg](attachments/bo_d4slnhbef24c73be0pog_1_563_1754_290_292_0.jpg)
 
 图 1-1-2
 
-![bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg](images/bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg)
+![bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg](attachments/bo_d4slnhbef24c73be0pog_1_872_1748_284_293_0.jpg)
 
 图 1-1-3
 
-![bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg](images/bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg)
+![bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg](attachments/bo_d4slnhbef24c73be0pog_1_1176_1748_292_293_0.jpg)
 
 图 1-1-4
 
@@ -118,7 +118,7 @@ $$
 
 #### A 组
 
-![bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg](images/bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg)
+![bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg](attachments/bo_d4slnhbef24c73be0pog_3_1191_1616_287_295_0.jpg)
 
 (第 1 题)
 
@@ -134,7 +134,7 @@ $$
 
 (1) $\theta  \in  \left\lbrack  {\frac{\pi }{4},\frac{\pi }{3}}\right\rbrack$ ；
 
-![bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg](images/bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg)
+![bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg](attachments/bo_d4slnhbef24c73be0pog_4_1175_351_272_261_0.jpg)
 
 (第 5 题)
 
@@ -162,7 +162,7 @@ $$
 
 现在我们讨论, 在平面直角坐标系中, 当直线的斜率存在时,如何通过直线上的一个点 $M$ 和直线的斜率 $k$ 来求直线的方程.
 
-![bo_d4slnhbef24c73be0pog_5_238_1773_244_268_0.jpg](images/bo_d4slnhbef24c73be0pog_5_238_1773_244_268_0.jpg)
+![bo_d4slnhbef24c73be0pog_5_238_1773_244_268_0.jpg](attachments/bo_d4slnhbef24c73be0pog_5_238_1773_244_268_0.jpg)
 
 图 1-2-1
 
@@ -194,7 +194,7 @@ $$
 
 ②
 
-![bo_d4slnhbef24c73be0pog_6_1142_1054_288_278_0.jpg](images/bo_d4slnhbef24c73be0pog_6_1142_1054_288_278_0.jpg)
+![bo_d4slnhbef24c73be0pog_6_1142_1054_288_278_0.jpg](attachments/bo_d4slnhbef24c73be0pog_6_1142_1054_288_278_0.jpg)
 
 图 1-2-2
 
@@ -260,7 +260,7 @@ $\left( {{x}_{2} - {x}_{1}}\right) \left( {y - {y}_{1}}\right)  = \; \left( {{y}
 
 例 3 已知直线 $l$ 经过点 $A\left( {2,1}\right) \text{ 、 }B\left( {4,4}\right)$ ,求 $l$ 的方程.
 
-![bo_d4slnhbef24c73be0pog_7_215_1776_290_259_0.jpg](images/bo_d4slnhbef24c73be0pog_7_215_1776_290_259_0.jpg)
+![bo_d4slnhbef24c73be0pog_7_215_1776_290_259_0.jpg](attachments/bo_d4slnhbef24c73be0pog_7_215_1776_290_259_0.jpg)
 
 图 1-2-3
 
@@ -322,7 +322,7 @@ $$
 
 (2) ${l}_{2} : x + {2y} + 1 = 0$ .
 
-![bo_d4slnhbef24c73be0pog_9_217_1405_289_293_0.jpg](images/bo_d4slnhbef24c73be0pog_9_217_1405_289_293_0.jpg)
+![bo_d4slnhbef24c73be0pog_9_217_1405_289_293_0.jpg](attachments/bo_d4slnhbef24c73be0pog_9_217_1405_289_293_0.jpg)
 
 图 1-2-4
 
@@ -338,7 +338,7 @@ $$
 
 所以，无论 $a$ 取何值时，直线 $l$ 都经过一个定点，该定点的坐标为 $\left( {-1, - 1}\right)$ .
 
-![bo_d4slnhbef24c73be0pog_10_1144_506_286_291_0.jpg](images/bo_d4slnhbef24c73be0pog_10_1144_506_286_291_0.jpg)
+![bo_d4slnhbef24c73be0pog_10_1144_506_286_291_0.jpg](attachments/bo_d4slnhbef24c73be0pog_10_1144_506_286_291_0.jpg)
 
 图 1-2-5
 
@@ -520,7 +520,7 @@ $$
 
 5. 若 $2{x}_{1} + 3{y}_{1} = 1,2{x}_{2} + 3{y}_{2} = 1$ ,且 ${x}_{1} \neq  {x}_{2}$ . 求经过两点 $A\left( {x}_{1}\right.$ , $\left. {y}_{1}\right) \text{ 、 }B\left( {{x}_{2},{y}_{2}}\right)$ 的直线 $l$ 的方程.
 
-![bo_d4slnhbef24c73be0pog_13_1286_1640_149_146_0.jpg](images/bo_d4slnhbef24c73be0pog_13_1286_1640_149_146_0.jpg)
+![bo_d4slnhbef24c73be0pog_13_1286_1640_149_146_0.jpg](attachments/bo_d4slnhbef24c73be0pog_13_1286_1640_149_146_0.jpg)
 
 (第 6 题)
 
@@ -672,7 +672,7 @@ $$
 
 如何根据方程判定两条直线是否垂直呢?
 
-![bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg](images/bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg)
+![bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg](attachments/bo_d4slnhbef24c73be0pog_18_1141_847_304_280_0.jpg)
 
 图 1-3-1
 
@@ -742,7 +742,7 @@ $$
 
 如图 1-3-2,设两条直线 (实线所示) 的夹角为 $\alpha$ ,不妨从夹角内部的一点分别作两条直线的一个法向量,法向量夹角为 $\theta$ . 两个法向量所在直线 (虚线所示) 和原来的两条直线围成了一个四边形,其中一组对角均是直角,另外一组对角是 $\alpha$ 与 $\theta$ 或者 $\alpha$ 与 $\pi  - \theta$ . 由此可见 $\alpha  + \theta  = \pi$ 或者 $\alpha  + \left( {\pi  - \theta }\right)  = \pi$ ,推出 $\alpha  = \pi  - \theta$ 或者 $\alpha  = \theta$ . 这样, $\cos \alpha  =  \pm  \cos \theta$ . 因为 $0 < \alpha  \leq  \frac{\pi }{2},\cos \alpha  \geq  0$ ,所以 $\cos \alpha  = \left| {\cos \theta }\right|$ .
 
-![bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg](images/bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg)
+![bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg](attachments/bo_d4slnhbef24c73be0pog_20_334_645_597_292_0.jpg)
 
 图 1-3-2
 
@@ -858,7 +858,7 @@ $$
 
 我们首先讨论直线 $l : {ax} + {by} + c = 0$ ( $a\text{ 、 }b$ 不同时为零) 外一点 $P\left( {{x}_{0},{y}_{0}}\right)$ 到这条直线的距离. 根据点到直线距离的定义, 如图 1-4-1,过点 $P$ 作直线 $l$ 的垂线,设垂足是 $Q\left( {{x}_{Q},{y}_{Q}}\right)$ ,则线段 ${PQ}$ 的长度就是点 $P$ 到直线 $l$ 的距离 $d$ . 因此,只要求出 ${PQ}$ 所在直线的方程,然后与 $l$ 的方程联立得到一个二元一次方程组,解这个方程组就可以得到点 $Q$ 的坐标,进而利用两点间的距离公式求出 ${PQ}$ 的长度. 这种方法的思路很清晰,但运算量比较大. 为了简便计算, 我们介绍另外一种方法.
 
-![bo_d4slnhbef24c73be0pog_23_216_514_290_294_0.jpg](images/bo_d4slnhbef24c73be0pog_23_216_514_290_294_0.jpg)
+![bo_d4slnhbef24c73be0pog_23_216_514_290_294_0.jpg](attachments/bo_d4slnhbef24c73be0pog_23_216_514_290_294_0.jpg)
 
 图 1-4-1
 
@@ -920,7 +920,7 @@ $$
 d = \frac{\left| {c}_{1} - {c}_{2}\right| }{\sqrt{{a}^{2} + {b}^{2}}}.
 $$
 
-![bo_d4slnhbef24c73be0pog_24_1131_964_312_296_0.jpg](images/bo_d4slnhbef24c73be0pog_24_1131_964_312_296_0.jpg)
+![bo_d4slnhbef24c73be0pog_24_1131_964_312_296_0.jpg](attachments/bo_d4slnhbef24c73be0pog_24_1131_964_312_296_0.jpg)
 
 图 1-4-2
 

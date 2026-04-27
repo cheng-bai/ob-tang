@@ -4,7 +4,7 @@ title: 必修三第10章空间直线与平面-dollar
 ---
 # 空间直线与平面
 
-![bo_d4slm1v7aajc73fspjsg_0_0_1_1654_1190_0.jpg](images/bo_d4slm1v7aajc73fspjsg_0_0_1_1654_1190_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_0_0_1_1654_1190_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_0_0_1_1654_1190_0.jpg)
 
 初中学习的平面几何, 研究的是平面上一些简单图形及其几何性质. 从本章开始，我们将把视野从二维的平面拓展到三维的空间. 在三维空间中的图形统称为空间图形或立体图形. 立体几何所研究的就是一些简单的空间图形及其几何性质.
 
@@ -18,17 +18,17 @@ title: 必修三第10章空间直线与平面-dollar
 
 与平面几何中的点 (point) 与直线 (straight line) 一样, 平面 (plane)也是一个从实际生活中抽象出来的数学概念. 如图 10-1-1, 平静的水面、平整的墙面、太阳能反射板等都给了我们平面的形象.
 
-![bo_d4slm1v7aajc73fspjsg_1_553_867_939_191_0.jpg](images/bo_d4slm1v7aajc73fspjsg_1_553_867_939_191_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_1_553_867_939_191_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_1_553_867_939_191_0.jpg)
 
 图 10-1-1
 
-![bo_d4slm1v7aajc73fspjsg_1_665_1130_716_216_0.jpg](images/bo_d4slm1v7aajc73fspjsg_1_665_1130_716_216_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_1_665_1130_716_216_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_1_665_1130_716_216_0.jpg)
 
 图 10-1-2
 
 平面通常用一个小写希腊字母表示，如图 10-1-2 中的平面 $\alpha \text{ 、 }\beta \text{ 、 }\gamma \text{ 、 }\delta$ 等,有时也可以用一个或多个大写英文字母表示, 如平面 $M$ 、平面 ${ABCD}$ 等. 在平面几何中我们已经知道,点是没有大小的, 直线是没有粗细并且可以无限延伸的; 类似地, 我们说, 平面是没有厚薄并且可以无限延展的.
 
-![bo_d4slm1v7aajc73fspjsg_1_196_1838_298_225_0.jpg](images/bo_d4slm1v7aajc73fspjsg_1_196_1838_298_225_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_1_196_1838_298_225_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_1_196_1838_298_225_0.jpg)
 
 图 10-1-3
 
@@ -50,7 +50,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 这时, 我们说这条直线在这个平面上, 或者说此平面经过该直线. 如图 10-1-4, 公理 1 可用符号语言表述为:
 
-![bo_d4slm1v7aajc73fspjsg_2_1158_1849_285_99_0.jpg](images/bo_d4slm1v7aajc73fspjsg_2_1158_1849_285_99_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_2_1158_1849_285_99_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_2_1158_1849_285_99_0.jpg)
 
 图 10-1-4
 
@@ -66,17 +66,17 @@ title: 必修三第10章空间直线与平面-dollar
 
 ---
 
-![bo_d4slm1v7aajc73fspjsg_3_708_399_630_240_0.jpg](images/bo_d4slm1v7aajc73fspjsg_3_708_399_630_240_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_3_708_399_630_240_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_3_708_399_630_240_0.jpg)
 
 图 10-1-5
 
 画图时,若直线 $l$ 在平面 $\alpha$ 上时,应将直线 $l$ 画在表示平面 $\alpha$ 的平行四边形的内部,如图 10-1-6 所示.
 
-![bo_d4slm1v7aajc73fspjsg_3_880_832_287_98_0.jpg](images/bo_d4slm1v7aajc73fspjsg_3_880_832_287_98_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_3_880_832_287_98_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_3_880_832_287_98_0.jpg)
 
 图 10-1-6
 
-![bo_d4slm1v7aajc73fspjsg_3_143_1007_407_134_0.jpg](images/bo_d4slm1v7aajc73fspjsg_3_143_1007_407_134_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_3_143_1007_407_134_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_3_143_1007_407_134_0.jpg)
 
 图 10-1-7
 
@@ -90,7 +90,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 1. 如图, 用集合语言描述下列图形中的点、直线、平面之间的位置关系.
 
-![bo_d4slm1v7aajc73fspjsg_3_531_1520_616_248_0.jpg](images/bo_d4slm1v7aajc73fspjsg_3_531_1520_616_248_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_3_531_1520_616_248_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_3_531_1520_616_248_0.jpg)
 
 (第 1 题)
 
@@ -104,7 +104,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 这里，“确定一个平面”意指“(经过这三个点)有且只有一个平面”或“存在唯一的平面”，如图 10-1-8 所示. 公理 2 可以具体表述为: 若 $A\text{ 、 }B\text{ 、 }C$ 三点不在同一直线上,则存在唯一的平面 $\alpha$ ,使得 $A\text{ 、 }B\text{ 、 }C$ 三点均在此平面上.
 
-![bo_d4slm1v7aajc73fspjsg_4_418_795_412_127_0.jpg](images/bo_d4slm1v7aajc73fspjsg_4_418_795_412_127_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_4_418_795_412_127_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_4_418_795_412_127_0.jpg)
 
 图 10-1-8
 
@@ -118,7 +118,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 图 10-1-9 给出了上述三个推论的直观表示. 这些推论也可以用符号语言来表述，如推论 1 可以表述为:若 $A \notin  l$ ，则存在唯一的平面 $\alpha$ ,使得 $A \in  \alpha , l \subset  \alpha$ .
 
-![bo_d4slm1v7aajc73fspjsg_4_142_1461_965_169_0.jpg](images/bo_d4slm1v7aajc73fspjsg_4_142_1461_965_169_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_4_142_1461_965_169_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_4_142_1461_965_169_0.jpg)
 
 图 10-1-9
 
@@ -132,7 +132,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 证明 因为直线 ${l}_{1}\text{ 、 }{l}_{2}$ 和 ${l}_{3}$ 两两相交,设 ${l}_{1} \cap  {l}_{2} = A$ , ${l}_{2} \cap  {l}_{3} = B,{l}_{3} \cap  {l}_{1} = C$ ,如图 10-1-10 所示.
 
-![bo_d4slm1v7aajc73fspjsg_5_816_651_411_127_0.jpg](images/bo_d4slm1v7aajc73fspjsg_5_816_651_411_127_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_5_816_651_411_127_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_5_816_651_411_127_0.jpg)
 
 图 10-1-10
 
@@ -140,7 +140,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 #### 练习 10.1(2)
 
-![bo_d4slm1v7aajc73fspjsg_5_1135_1162_362_294_0.jpg](images/bo_d4slm1v7aajc73fspjsg_5_1135_1162_362_294_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_5_1135_1162_362_294_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_5_1135_1162_362_294_0.jpg)
 
 (第 2 题)
 
@@ -156,7 +156,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 公理 3 可具体表述为: 若两平面 $\alpha$ 及 $\beta$ 有一个公共点 $A$ ,则它们有唯一的公共直线 $l$ ,且公共点 $A$ 在 $l$ 上,如图 10-1-11 所示.
 
-![bo_d4slm1v7aajc73fspjsg_5_202_1804_291_265_0.jpg](images/bo_d4slm1v7aajc73fspjsg_5_202_1804_291_265_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_5_202_1804_291_265_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_5_202_1804_291_265_0.jpg)
 
 图 10-1-11
 
@@ -166,11 +166,11 @@ title: 必修三第10章空间直线与平面-dollar
 
 画两个相交平面时, 通常要画出它们的交线, 如图 10-1-11 所示; 画两个平行平面时, 要使表示这两个平面的相应平行四边形的对应边平行, 如图 10-1-12 所示. 注意, 在画图时, 凡被一个平面遮住的所有线条要画成虚线.
 
-![bo_d4slm1v7aajc73fspjsg_6_469_562_313_153_0.jpg](images/bo_d4slm1v7aajc73fspjsg_6_469_562_313_153_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_6_469_562_313_153_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_6_469_562_313_153_0.jpg)
 
 图 10-1-12
 
-![bo_d4slm1v7aajc73fspjsg_6_1117_795_365_295_0.jpg](images/bo_d4slm1v7aajc73fspjsg_6_1117_795_365_295_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_6_1117_795_365_295_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_6_1117_795_365_295_0.jpg)
 
 图 10-1-13
 
@@ -190,7 +190,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 (3)如图 10-1-14，连接 ${AC}$ 与 ${BD}$ ，其交点为 $O$ ，连接 ${A}_{1}{C}_{1}$ 与 ${B}_{1}{D}_{1}$ ,其交点为 ${O}_{1}$ . 因为点 $A$ 及 $C$ 都在平面 ${AC}{C}_{1}{A}_{1}$ 上,所以直线 ${AC}$ 在平面 ${AC}{C}_{1}{A}_{1}$ 上. 又 $O \in  {AC}$ ,所以 $O$ 在平面 ${AC}{C}_{1}{A}_{1}$ 上. 同理可得, $O$ 在平面 ${BD}{D}_{1}{B}_{1}$ 上. 于是,点 $O$ 是平面 ${AC}{C}_{1}{A}_{1}$ 与平面 ${BD}{D}_{1}{B}_{1}$ 的公共点. 同理可知,点 ${O}_{1}$ 也是平面 ${AC}{C}_{1}{A}_{1}$ 与平面 ${BD}{D}_{1}{B}_{1}$ 的公共点. 这样,由公理 $3, O{O}_{1}$ 所在的直线是平面 ${AC}{C}_{1}{A}_{1}$ 与平面 ${BD}{D}_{1}{B}_{1}$ 的交线.
 
-![bo_d4slm1v7aajc73fspjsg_6_1117_1348_365_298_0.jpg](images/bo_d4slm1v7aajc73fspjsg_6_1117_1348_365_298_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_6_1117_1348_365_298_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_6_1117_1348_365_298_0.jpg)
 
 图 10-1-14
 
@@ -202,7 +202,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 2. 用硬纸板作为平面的模型, 摆出三个平面两两相交各种不同的情况.
 
-![bo_d4slm1v7aajc73fspjsg_7_1134_211_364_291_0.jpg](images/bo_d4slm1v7aajc73fspjsg_7_1134_211_364_291_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_7_1134_211_364_291_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_7_1134_211_364_291_0.jpg)
 
 (第 3 题)
 
@@ -214,7 +214,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 #### 3 空间图形的平面直观图的画法
 
-![bo_d4slm1v7aajc73fspjsg_7_179_707_334_240_0.jpg](images/bo_d4slm1v7aajc73fspjsg_7_179_707_334_240_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_7_179_707_334_240_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_7_179_707_334_240_0.jpg)
 
 我们知道, 立体几何的研究对象是空间图形. 要将空间图形在一个平面上体现出来, 就需要在平面内画出具有立体感的空间图形的直观图.
 
@@ -230,7 +230,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 (3)顺次连接 ${A}^{\prime }\text{ 、 }{B}^{\prime }\text{ 、 }{C}^{\prime }\text{ 、 }{D}^{\prime }\text{ 、 }{E}^{\prime }\text{ 、 }{F}^{\prime }\text{ 、 }{A}^{\prime }$ ，所得到的六边形 ${A}^{\prime }{B}^{\prime }{C}^{\prime }{D}^{\prime }{E}^{\prime }{F}^{\prime }$ 就是水平放置的正六边形 ${ABCDEF}$ 的直观图. 画好图后, 要擦去辅助线, 如图 10-1-15(3) 所示.
 
-![bo_d4slm1v7aajc73fspjsg_7_531_1816_989_326_0.jpg](images/bo_d4slm1v7aajc73fspjsg_7_531_1816_989_326_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_7_531_1816_989_326_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_7_531_1816_989_326_0.jpg)
 
 图 10-1-15
 
@@ -242,13 +242,13 @@ title: 必修三第10章空间直线与平面-dollar
 
 (3)成图:顺次连接 ${O}^{\prime }\text{ 、 }{A}^{\prime }\text{ 、 }{B}^{\prime }\text{ 、 }{C}^{\prime }$ ，并擦去辅助线，将被遮挡的部分改为虚线, 得长方体的直观图, 如图 10-1-16(3) 所示.
 
-![bo_d4slm1v7aajc73fspjsg_8_191_825_864_233_0.jpg](images/bo_d4slm1v7aajc73fspjsg_8_191_825_864_233_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_8_191_825_864_233_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_8_191_825_864_233_0.jpg)
 
 图 10-1-16
 
 #### 练习 10.1(4)
 
-![bo_d4slm1v7aajc73fspjsg_8_1170_1199_298_240_0.jpg](images/bo_d4slm1v7aajc73fspjsg_8_1170_1199_298_240_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_8_1170_1199_298_240_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_8_1170_1199_298_240_0.jpg)
 
 (第 2 题)
 
@@ -260,7 +260,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 ##### A 组
 
-![bo_d4slm1v7aajc73fspjsg_8_1141_1741_329_256_0.jpg](images/bo_d4slm1v7aajc73fspjsg_8_1141_1741_329_256_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_8_1141_1741_329_256_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_8_1141_1741_329_256_0.jpg)
 
 (第 1 题)
 
@@ -280,7 +280,7 @@ title: 必修三第10章空间直线与平面-dollar
 
 (7)直线 ${B}_{1}{C}_{1}$ ___平面 $B{B}_{1}{C}_{1}C$ .
 
-![bo_d4slm1v7aajc73fspjsg_9_1172_277_329_222_0.jpg](images/bo_d4slm1v7aajc73fspjsg_9_1172_277_329_222_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_9_1172_277_329_222_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_9_1172_277_329_222_0.jpg)
 
 (第 2 题)
 
@@ -316,11 +316,11 @@ A. 直线 ${AC}$ ; B. 直线 ${BC}$ ;
 
 C. 直线 ${CR}$ ; D. 以上均不正确.
 
-![bo_d4slm1v7aajc73fspjsg_9_394_1290_318_273_0.jpg](images/bo_d4slm1v7aajc73fspjsg_9_394_1290_318_273_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_9_394_1290_318_273_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_9_394_1290_318_273_0.jpg)
 
 (第 6 题)
 
-![bo_d4slm1v7aajc73fspjsg_9_926_1298_357_265_0.jpg](images/bo_d4slm1v7aajc73fspjsg_9_926_1298_357_265_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_9_926_1298_357_265_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_9_926_1298_357_265_0.jpg)
 
 (第 7 题)
 
@@ -340,11 +340,11 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 3. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,已知 $O$ 是 ${DB}$ 的中点,且直线 ${A}_{1}C$ 交平面 ${C}_{1}{BD}$ 于点 $M$ ，点 ${C}_{1}\text{ 、 }M\text{ 、 }O$ 的位置关系是___.
 
-![bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg](images/bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_10_375_347_348_345_0.jpg)
 
 (第 3 题)
 
-![bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg](images/bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_10_934_493_306_206_0.jpg)
 
 (第 4 题)
 
@@ -352,11 +352,11 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 5. 如图,已知 $D$ 及 $E$ 是 $\bigtriangleup {ABC}$ 的边 ${AC}$ 及 ${BC}$ 上的点,平面 $\alpha$ 经过 $D\text{ 、 }E$ 两点,直线 ${AB}$ 与平面 $\alpha$ 交于点 $P$ . 求证: 点 $P$ 在直线 ${DE}$ 上.
 
-![bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg](images/bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_10_309_960_341_334_0.jpg)
 
 (第 5 题)
 
-![bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg](images/bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_10_862_948_447_349_0.jpg)
 
 (第 6 题)
 
@@ -370,11 +370,11 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 仔细观察下面的两种实际情景:当打开一本书时，每一页的外边界看上去都是相互平行的 (图 10-2-1); 而围栏的每一根竖条, 从不同的角度看, 也都是相互平行的(图 10-2-2).
 
-![bo_d4slm1v7aajc73fspjsg_11_626_1009_797_334_0.jpg](images/bo_d4slm1v7aajc73fspjsg_11_626_1009_797_334_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_11_626_1009_797_334_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_11_626_1009_797_334_0.jpg)
 
 图 10-2-1
 
-![bo_d4slm1v7aajc73fspjsg_11_673_1402_710_408_0.jpg](images/bo_d4slm1v7aajc73fspjsg_11_673_1402_710_408_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_11_673_1402_710_408_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_11_673_1402_710_408_0.jpg)
 
 图 10-2-2
 
@@ -394,7 +394,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 ---
 
-![bo_d4slm1v7aajc73fspjsg_12_1163_468_270_252_0.jpg](images/bo_d4slm1v7aajc73fspjsg_12_1163_468_270_252_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_12_1163_468_270_252_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_12_1163_468_270_252_0.jpg)
 
 图 10-2-3
 
@@ -414,7 +414,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 例 1 中 $\angle {BAC}$ 与 $\angle {B}_{1}{A}_{1}{C}_{1}$ 的位置关系比较特殊,它们的两边分别平行且方向相同. 空间中具有这种位置关系的两个角是否一定相等呢? 我们可以证明以下定理.
 
-![bo_d4slm1v7aajc73fspjsg_12_1155_1429_290_295_0.jpg](images/bo_d4slm1v7aajc73fspjsg_12_1155_1429_290_295_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_12_1155_1429_290_295_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_12_1155_1429_290_295_0.jpg)
 
 图 10-2-4
 
@@ -442,7 +442,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 求证: ${EFGH}$ 是平行四边形.
 
-![bo_d4slm1v7aajc73fspjsg_13_641_931_759_270_0.jpg](images/bo_d4slm1v7aajc73fspjsg_13_641_931_759_270_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_13_641_931_759_270_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_13_641_931_759_270_0.jpg)
 
 图 10-2-5
 
@@ -460,15 +460,15 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 1. 如图,在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,直线 ${A}_{1}C$ 与 $B{D}_{1}$ 相交吗? 为什么?
 
-![bo_d4slm1v7aajc73fspjsg_13_396_1762_368_270_0.jpg](images/bo_d4slm1v7aajc73fspjsg_13_396_1762_368_270_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_13_396_1762_368_270_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_13_396_1762_368_270_0.jpg)
 
 (第 1 题)
 
-![bo_d4slm1v7aajc73fspjsg_13_913_1762_368_270_0.jpg](images/bo_d4slm1v7aajc73fspjsg_13_913_1762_368_270_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_13_913_1762_368_270_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_13_913_1762_368_270_0.jpg)
 
 (第 2 题)
 
-![bo_d4slm1v7aajc73fspjsg_14_1199_224_271_271_0.jpg](images/bo_d4slm1v7aajc73fspjsg_14_1199_224_271_271_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_14_1199_224_271_271_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_14_1199_224_271_271_0.jpg)
 
 (第 3 题)
 
@@ -480,11 +480,11 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 我们知道, 在同一平面上的两条直线只有平行或相交两种位置关系. 空间的两条直线, 除了平行和相交这两种位置关系, 是否还有其他的位置关系呢? 观察下面的两幅实景图. 在图 10-2-6(1)中，如果把远方的高楼看作是一条直线，将马路看作是另外一条直线, 这两条直线看起来既不平行, 也不相交. 类似地，在图 10-2-6(2) 中，如果把高铁轨道和其下的高速公路分别看作是两条直线, 那么它们看起来不会在同一个平面上. 我们用图10-2-7 直观地分别表示这两种实际的情景.
 
-![bo_d4slm1v7aajc73fspjsg_14_182_1243_886_318_0.jpg](images/bo_d4slm1v7aajc73fspjsg_14_182_1243_886_318_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_14_182_1243_886_318_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_14_182_1243_886_318_0.jpg)
 
 图 10-2-6
 
-![bo_d4slm1v7aajc73fspjsg_14_250_1647_750_289_0.jpg](images/bo_d4slm1v7aajc73fspjsg_14_250_1647_750_289_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_14_250_1647_750_289_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_14_250_1647_750_289_0.jpg)
 
 图 10-2-7
 
@@ -494,7 +494,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 这里, “不同在任何一个平面上的两条直线”是指不存在一个平面, 使得这两条直线都在这个平面上. 例如, 观察图 10-2-8 中长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱所在的直线,可以发现,直线 $A{A}_{1}$ 与 $C{C}_{1}$ 虽然不在这个长方体的同一个表面上,但是可以找到一个平面 (即平面 ${A}_{1}{AC}{C}_{1}$ ),使得它们都在这个平面上,所以 $A{A}_{1}$ 与 $C{C}_{1}$ 不是异面直线. 但直线 ${AB}$ 与 $C{C}_{1}$ 则不是这种情况. 假设存在一个平面 $\alpha$ 同时包含直线 ${AB}$ 与 $C{C}_{1}$ ,那么不共线的三点 $A\text{ 、 }B\text{ 、 }C$ 就在这个平面上,从而由公理 2 可知,平面 $\alpha$ 就应是长方体的下底面 ${ABCD}$ ,从而直线 $C{C}_{1}$ 就应在长方体的下底面上,但这是不可能的,所以这样的平面 $\alpha$ 是不存在的. 也就是说,直线 ${AB}$ 与 $C{C}_{1}$ 是异面直线.
 
-![bo_d4slm1v7aajc73fspjsg_15_190_334_313_232_0.jpg](images/bo_d4slm1v7aajc73fspjsg_15_190_334_313_232_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_15_190_334_313_232_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_15_190_334_313_232_0.jpg)
 
 图 10-2-8
 
@@ -504,7 +504,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 画两条异面直线时, 通常需要用一个或两个平面来衬托, 如图 10-2-9 所示.
 
-![bo_d4slm1v7aajc73fspjsg_15_549_1426_945_274_0.jpg](images/bo_d4slm1v7aajc73fspjsg_15_549_1426_945_274_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_15_549_1426_945_274_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_15_549_1426_945_274_0.jpg)
 
 图 10-2-9
 
@@ -512,7 +512,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 异面直线判定定理 过平面外一点与平面上一点的直线, 和此平面上不经过该点的任何一条直线都是异面直线.
 
-![bo_d4slm1v7aajc73fspjsg_16_1159_224_281_211_0.jpg](images/bo_d4slm1v7aajc73fspjsg_16_1159_224_281_211_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_16_1159_224_281_211_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_16_1159_224_281_211_0.jpg)
 
 图 10-2-10
 
@@ -522,7 +522,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 证明 假设存在一个平面 $\beta$ ,使得直线 ${AB}$ 与 $a$ 均在平面 $\beta$ 上,那么平面 $\beta$ 一定经过点 $A\text{ 、 }B$ 和直线 $a$ . 因为 $B \notin  a$ ,由公理 2 推论 1,经过点 $B$ 与直线 $a$ 只能有一个平面,它就是 $\alpha$ ,从而平面 $\alpha$ 与 $\beta$ 是同一个平面. 这样,点 $A$ 就应在平面 $\alpha$ 上,与假设 $A \notin  \alpha$ 矛盾. 所以,直线 ${AB}$ 和 $a$ 必为异面直线.
 
-![bo_d4slm1v7aajc73fspjsg_16_1139_719_315_232_0.jpg](images/bo_d4slm1v7aajc73fspjsg_16_1139_719_315_232_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_16_1139_719_315_232_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_16_1139_719_315_232_0.jpg)
 
 图 10-2-11
 
@@ -534,7 +534,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 例 4 给定不共面的 4 点，作过其中 3 个点的平面，所有 4 个这样的平面围成的几何体称为四面体 (图 10-2-12). 预先给定的 4 个点称为四面体的顶点, 2 个顶点的连线称为四面体的棱, 3 个顶点所确定的三角形称为四面体的面. 求证: 四面体中任何一对不共顶点的棱所在的直线一定是异面直线.
 
-![bo_d4slm1v7aajc73fspjsg_16_1176_1113_246_239_0.jpg](images/bo_d4slm1v7aajc73fspjsg_16_1176_1113_246_239_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_16_1176_1113_246_239_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_16_1176_1113_246_239_0.jpg)
 
 图 10-2-12
 
@@ -554,7 +554,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 3. 下页左图是一个正方体的平面展开图, 请在下页右图的正方体中画出对应的线段， 并指出正方体中的线段 ${CN}\text{ 、 }{AF}\text{ 、 }{BM}\text{ 、 }{ME}$ 中，哪些线段所在的直线与 ${DN}$ 所在的直线是异面直线.
 
-![bo_d4slm1v7aajc73fspjsg_17_423_211_833_316_0.jpg](images/bo_d4slm1v7aajc73fspjsg_17_423_211_833_316_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_17_423_211_833_316_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_17_423_211_833_316_0.jpg)
 
 (第 3 题)
 
@@ -564,7 +564,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 生活中经常可以看到图 10-2-13(1)所示的道路指示牌. 这些指示牌看上去形成了不同的角度, 指明了不同的方向. 我们把左边的实景图抽象为 10-2-13(2)中的示意图，用 $a$ 、 $b$ 等分别表示道路指示牌. 依据异面直线判定定理可知, 它们两两都是异面直线. 现在的问题是: 我们是否可以定义并确定这些异面直线之间的角度呢?
 
-![bo_d4slm1v7aajc73fspjsg_17_578_1427_896_355_0.jpg](images/bo_d4slm1v7aajc73fspjsg_17_578_1427_896_355_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_17_578_1427_896_355_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_17_578_1427_896_355_0.jpg)
 
 图 10-2-13
 
@@ -572,7 +572,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 如图 10-2-14,设 $a\text{ 、 }b$ 是两条异面直线,在空间任取一点 $P$ ,过点 $P$ 分别作 $a\text{ 、 }b$ 的平行线 ${a}^{\prime }\text{ 、 }{b}^{\prime }$ ,那么相交直线 ${a}^{\prime }\text{ 、 }{b}^{\prime }$ 所成锐角(或直角)的大小是唯一确定的.
 
-![bo_d4slm1v7aajc73fspjsg_18_413_663_425_152_0.jpg](images/bo_d4slm1v7aajc73fspjsg_18_413_663_425_152_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_18_413_663_425_152_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_18_413_663_425_152_0.jpg)
 
 图 10-2-14
 
@@ -592,7 +592,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 (3)求证: $D{D}_{1}\bot {AB}$ .
 
-![bo_d4slm1v7aajc73fspjsg_18_282_1610_684_377_0.jpg](images/bo_d4slm1v7aajc73fspjsg_18_282_1610_684_377_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_18_282_1610_684_377_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_18_282_1610_684_377_0.jpg)
 
 图 10-2-15
 
@@ -612,7 +612,7 @@ C. 1 条或 3 条; D. 1 条或 2 条或 3 条.
 
 #### 练习 10.2(3)
 
-![bo_d4slm1v7aajc73fspjsg_19_1184_813_314_311_0.jpg](images/bo_d4slm1v7aajc73fspjsg_19_1184_813_314_311_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_19_1184_813_314_311_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_19_1184_813_314_311_0.jpg)
 
 (第 2 题)
 
@@ -648,15 +648,15 @@ D. 在同一平面上且没有公共点的两条直线.
 
 ④ 直线 ${CN}$ 与直线 ${BM}$ 成 ${60}^{ \circ  }$ 角.
 
-![bo_d4slm1v7aajc73fspjsg_20_191_258_317_311_0.jpg](images/bo_d4slm1v7aajc73fspjsg_20_191_258_317_311_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_20_191_258_317_311_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_20_191_258_317_311_0.jpg)
 
 (第 3 题)
 
-![bo_d4slm1v7aajc73fspjsg_20_624_244_410_325_0.jpg](images/bo_d4slm1v7aajc73fspjsg_20_624_244_410_325_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_20_624_244_410_325_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_20_624_244_410_325_0.jpg)
 
 (第 4 题)
 
-![bo_d4slm1v7aajc73fspjsg_20_1144_302_277_267_0.jpg](images/bo_d4slm1v7aajc73fspjsg_20_1144_302_277_267_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_20_1144_302_277_267_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_20_1144_302_277_267_0.jpg)
 
 (第 5 题)
 
@@ -664,7 +664,7 @@ D. 在同一平面上且没有公共点的两条直线.
 
 (1)直线 ${AM}$ 与 $C{C}_{1}$ 是相交直线;
 
-![bo_d4slm1v7aajc73fspjsg_20_1134_824_337_285_0.jpg](images/bo_d4slm1v7aajc73fspjsg_20_1134_824_337_285_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_20_1134_824_337_285_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_20_1134_824_337_285_0.jpg)
 
 (第 7 题)
 
@@ -686,11 +686,11 @@ C. 相似但不全等; D. 不相似.
 
 2. 如图,在正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E\text{ 、 }F\text{ 、 }G$ 分别是 ${AB}\text{ 、 }B{B}_{1}\text{ 、 }{BC}$ 的中点. 求证: $\bigtriangleup {EFG} \backsim  \bigtriangleup {C}_{1}D{A}_{1}$ .
 
-![bo_d4slm1v7aajc73fspjsg_20_401_1543_274_264_0.jpg](images/bo_d4slm1v7aajc73fspjsg_20_401_1543_274_264_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_20_401_1543_274_264_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_20_401_1543_274_264_0.jpg)
 
 (第 2 题)
 
-![bo_d4slm1v7aajc73fspjsg_20_889_1557_318_253_0.jpg](images/bo_d4slm1v7aajc73fspjsg_20_889_1557_318_253_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_20_889_1557_318_253_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_20_889_1557_318_253_0.jpg)
 
 (第 3 题)
 
@@ -708,15 +708,15 @@ C. 相似但不全等; D. 不相似.
 
 5. 如图,在四面体 ${ABCD}$ 中, ${AC} = 8,{BD} = 6, M\text{ 、 }N$ 分别为 ${AB}\text{ 、 }{CD}$ 的中点,并且异面直线 ${AC}$ 与 ${BD}$ 所成的角为 ${90}^{ \circ  }$ . 求 ${MN}$ 的长.
 
-![bo_d4slm1v7aajc73fspjsg_21_193_595_330_214_0.jpg](images/bo_d4slm1v7aajc73fspjsg_21_193_595_330_214_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_21_193_595_330_214_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_21_193_595_330_214_0.jpg)
 
 (第 4 题)
 
-![bo_d4slm1v7aajc73fspjsg_21_671_463_335_341_0.jpg](images/bo_d4slm1v7aajc73fspjsg_21_671_463_335_341_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_21_671_463_335_341_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_21_671_463_335_341_0.jpg)
 
 (第 5 题)
 
-![bo_d4slm1v7aajc73fspjsg_21_1152_513_335_292_0.jpg](images/bo_d4slm1v7aajc73fspjsg_21_1152_513_335_292_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_21_1152_513_335_292_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_21_1152_513_335_292_0.jpg)
 
 (第 6 题)
 
@@ -744,7 +744,7 @@ C. 相似但不全等; D. 不相似.
 
 已知: 如图 10-3-1,直线 $a$ 不在平面 $\alpha$ 上,直线 $b$ 在平面 $\alpha$ 上,且 $a//b$ .
 
-![bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg](images/bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_22_1127_1908_346_163_0.jpg)
 
 图 10-3-1
 
@@ -756,13 +756,13 @@ C. 相似但不全等; D. 不相似.
 
 证明 如图 10-3-2,因为棱 $B{B}_{1}$ 平行且等于棱 $D{D}_{1}$ ,所以 $B{B}_{1}{D}_{1}D$ 是平行四边形,从而 ${BD}//{B}_{1}{D}_{1}$ . 因为直线 ${B}_{1}{D}_{1}$ 在平面 $A{B}_{1}{D}_{1}$ 上,而直线 ${BD}$ 不在平面 $A{B}_{1}{D}_{1}$ 上,由上述判定定理,得到直线 ${BD}//$ 平面 $A{B}_{1}{D}_{1}$ .
 
-![bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg](images/bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_23_162_388_366_273_0.jpg)
 
 图 10-3-2
 
 例 1 在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,证明直线 ${BD}$ 平行于平面 $A{B}_{1}{D}_{1}$ .
 
-![bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg](images/bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_23_187_766_319_205_0.jpg)
 
 图 10-3-3
 
@@ -778,7 +778,7 @@ C. 相似但不全等; D. 不相似.
 
 #### 练习 10.3(1)
 
-![bo_d4slm1v7aajc73fspjsg_23_1131_1287_367_298_0.jpg](images/bo_d4slm1v7aajc73fspjsg_23_1131_1287_367_298_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_23_1131_1287_367_298_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_23_1131_1287_367_298_0.jpg)
 
 (第 1 题)
 
@@ -812,7 +812,7 @@ C. 相似但不全等; D. 不相似.
 
 直线与平面平行的性质定理 如果一条直线与一个平面平行, 过这条直线的一个平面与此平面相交, 那么其交线必与该直线平行.
 
-![bo_d4slm1v7aajc73fspjsg_24_1142_567_315_162_0.jpg](images/bo_d4slm1v7aajc73fspjsg_24_1142_567_315_162_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_24_1142_567_315_162_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_24_1142_567_315_162_0.jpg)
 
 图 10-3-4
 
@@ -826,7 +826,7 @@ C. 相似但不全等; D. 不相似.
 
 因为 $a$ 和 $b$ 同在平面 $\beta$ 上,且没有公共点,所以 $a//b$ .
 
-![bo_d4slm1v7aajc73fspjsg_24_1111_885_378_276_0.jpg](images/bo_d4slm1v7aajc73fspjsg_24_1111_885_378_276_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_24_1111_885_378_276_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_24_1111_885_378_276_0.jpg)
 
 图 10-3-5
 
@@ -838,7 +838,7 @@ C. 相似但不全等; D. 不相似.
 
 解(1)因为 ${BC}$ 平行于平面 ${A}^{\prime }{B}^{\prime }{C}^{\prime }{D}^{\prime }$ ,平面 ${BC}{C}^{\prime }{B}^{\prime }$ 经过 ${BC}$ 并与平面 ${A}^{\prime }{B}^{\prime }{C}^{\prime }{D}^{\prime }$ 交于 ${B}^{\prime }{C}^{\prime }$ ,由上述定理,得 ${BC}//{B}^{\prime }{C}^{\prime }$ .
 
-![bo_d4slm1v7aajc73fspjsg_24_1113_1265_374_272_0.jpg](images/bo_d4slm1v7aajc73fspjsg_24_1113_1265_374_272_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_24_1113_1265_374_272_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_24_1113_1265_374_272_0.jpg)
 
 图 10-3-6
 
@@ -866,7 +866,7 @@ C. 相似但不全等; D. 不相似.
 
 如图 10-3-7,将书打开直立在桌面上,观察书的书脊 ${AB}$ 和各页与桌面的交线的位置关系,可以发现: 书脊 ${AB}$ 所在的直线,和每一页与桌面的交线都是垂直的. 这时,我们说书脊 ${AB}$ 所在的直线垂直于桌面所在的平面.
 
-![bo_d4slm1v7aajc73fspjsg_25_182_439_331_219_0.jpg](images/bo_d4slm1v7aajc73fspjsg_25_182_439_331_219_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_25_182_439_331_219_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_25_182_439_331_219_0.jpg)
 
 图 10-3-7
 
@@ -874,7 +874,7 @@ C. 相似但不全等; D. 不相似.
 
 定义 如果一条直线与平面上的任意一条直线都垂直, 就说这条直线与这个平面互相垂直.
 
-![bo_d4slm1v7aajc73fspjsg_25_196_866_303_197_0.jpg](images/bo_d4slm1v7aajc73fspjsg_25_196_866_303_197_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_25_196_866_303_197_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_25_196_866_303_197_0.jpg)
 
 图 10-3-8
 
@@ -890,11 +890,11 @@ C. 相似但不全等; D. 不相似.
 
 通过实验会发现,当且仅当折痕 ${AD}$ 是边 ${BC}$ 上的高时, ${AD}$ 所在直线与桌面所在平面才垂直(图 10-3-9).
 
-![bo_d4slm1v7aajc73fspjsg_25_281_1568_130_419_0.jpg](images/bo_d4slm1v7aajc73fspjsg_25_281_1568_130_419_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_25_281_1568_130_419_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_25_281_1568_130_419_0.jpg)
 
 图 10-3-10
 
-![bo_d4slm1v7aajc73fspjsg_25_545_1585_957_259_0.jpg](images/bo_d4slm1v7aajc73fspjsg_25_545_1585_957_259_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_25_545_1585_957_259_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_25_545_1585_957_259_0.jpg)
 
 图 10-3-9
 
@@ -914,7 +914,7 @@ C. 相似但不全等; D. 不相似.
 
 例 4 证明: 如果两条平行直线 $a\text{ 、 }b$ 中的一条 $a$ 垂直于一个平面 $\alpha$ ,那么另一条 $b$ 也垂直于这个平面 $\alpha$ .
 
-![bo_d4slm1v7aajc73fspjsg_26_1128_630_342_169_0.jpg](images/bo_d4slm1v7aajc73fspjsg_26_1128_630_342_169_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_26_1128_630_342_169_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_26_1128_630_342_169_0.jpg)
 
 图 10-3-11
 
@@ -926,7 +926,7 @@ C. 相似但不全等; D. 不相似.
 
 直线与平面垂直的性质定理 垂直于同一个平面的两条直线互相平行.
 
-![bo_d4slm1v7aajc73fspjsg_26_1128_1385_343_223_0.jpg](images/bo_d4slm1v7aajc73fspjsg_26_1128_1385_343_223_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_26_1128_1385_343_223_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_26_1128_1385_343_223_0.jpg)
 
 图 10-3-12
 
@@ -944,11 +944,11 @@ C. 相似但不全等; D. 不相似.
 
 由推论 2,如图 10-3-13 (1),过平面 $\alpha$ 外任意给定的一点 $M$ ,有且只有一条直线与平面 $\alpha$ 垂直,从而把点 $M$ 与垂足 $N$ 之间的距离叫做点 $M$ 到平面 $\alpha$ 的距离. 利用线面平行和线面垂直的性质定理可以证明,如果一条直线 $l$ 平行于一个平面 $\alpha$ ,那么直线 $l$ 上任意两点到平面 $\alpha$ 的距离都相等 (证明过程留作习题),从而就可以把直线 $l$ 上一点 $M$ 到平面 $\alpha$ 的距离定义为直线 $l$ 到与它平行的平面 $\alpha$ 的距离 (图10-3-13(2)).
 
-![bo_d4slm1v7aajc73fspjsg_27_737_498_571_237_0.jpg](images/bo_d4slm1v7aajc73fspjsg_27_737_498_571_237_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_27_737_498_571_237_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_27_737_498_571_237_0.jpg)
 
 图 10-3-13
 
-![bo_d4slm1v7aajc73fspjsg_27_197_795_298_298_0.jpg](images/bo_d4slm1v7aajc73fspjsg_27_197_795_298_298_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_27_197_795_298_298_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_27_197_795_298_298_0.jpg)
 
 图 10-3-14
 
@@ -968,11 +968,11 @@ C. 相似但不全等; D. 不相似.
 
 1. 加工六角螺母, 只要螺母的六个侧面都是矩形, 那么六条侧棱一定都垂直于螺母的上下两面. 请说明理由.
 
-![bo_d4slm1v7aajc73fspjsg_28_439_301_196_149_0.jpg](images/bo_d4slm1v7aajc73fspjsg_28_439_301_196_149_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_28_439_301_196_149_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_28_439_301_196_149_0.jpg)
 
 (第 1 题)
 
-![bo_d4slm1v7aajc73fspjsg_28_953_244_328_208_0.jpg](images/bo_d4slm1v7aajc73fspjsg_28_953_244_328_208_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_28_953_244_328_208_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_28_953_244_328_208_0.jpg)
 
 (第 3 题)
 
@@ -984,7 +984,7 @@ C. 相似但不全等; D. 不相似.
 
 不在平面上的一条直线与这个平面的位置关系, 除了平行和垂直, 还有一种更一般的位置关系, 即此直线与平面虽然相交, 但不垂直,称之为斜交. 如图 10-3-15(1),此时直线 $l$ 称为平面 $\alpha$ 的斜线,直线 $l$ 与平面 $\alpha$ 的交点 $A$ 称为斜足.
 
-![bo_d4slm1v7aajc73fspjsg_28_300_1246_648_270_0.jpg](images/bo_d4slm1v7aajc73fspjsg_28_300_1246_648_270_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_28_300_1246_648_270_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_28_300_1246_648_270_0.jpg)
 
 图 10-3-15
 
@@ -1008,7 +1008,7 @@ C. 相似但不全等; D. 不相似.
 
 (1)因为 ${PO} \bot  \alpha$ ，由直线与平面垂直的定义，有 ${PO} \bot  {OA}$ . 由直角三角形中斜边与直角边的关系,知 ${PO} < {PA}$ ,所以垂线段比任何给定的一条斜线段都短.
 
-![bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg](images/bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_29_198_567_299_205_0.jpg)
 
 图 10-3-16
 
@@ -1016,7 +1016,7 @@ C. 相似但不全等; D. 不相似.
 
 (2)先证充分性. 设 ${OA} = {OB}$ ，则直角三角形 ${PAO}$ 与直角三角形 ${PBO}$ 全等，所以 ${PA} = {PB}$ . 再证必要性. 如果 ${PA} = {PB}$ , 那么同样有 $\bigtriangleup {PAO} \cong  \bigtriangleup {PBO}$ ,所以 ${OA} = {OB}$ .
 
-![bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg](images/bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_29_175_1003_344_236_0.jpg)
 
 图 10-3-17
 
@@ -1061,7 +1061,7 @@ $$
 
 ---
 
-![bo_d4slm1v7aajc73fspjsg_30_1151_971_298_199_0.jpg](images/bo_d4slm1v7aajc73fspjsg_30_1151_971_298_199_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_30_1151_971_298_199_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_30_1151_971_298_199_0.jpg)
 
 图 10-3-18
 
@@ -1081,7 +1081,7 @@ $$
 
 求证: ${AC} \bot  B{D}_{1}$ .
 
-![bo_d4slm1v7aajc73fspjsg_30_466_1799_315_303_0.jpg](images/bo_d4slm1v7aajc73fspjsg_30_466_1799_315_303_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_30_466_1799_315_303_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_30_466_1799_315_303_0.jpg)
 
 图 10-3-19
 
@@ -1097,7 +1097,7 @@ $$
 
 例 9 如图 10-3-20,小河的一侧有一条笔直的道路 $l$ , 对岸有电塔 ${AB}$ ,已知其高为 $h$ . 现只有小平板仪 (可用于测量水平的角度) 和皮尺作为测量工具, 请说明还需测量的数据, 然后运用三垂线定理给出求电塔顶 $A$ 与道路 $l$ 的距离 $d$ 的公式.
 
-![bo_d4slm1v7aajc73fspjsg_31_211_397_272_221_0.jpg](images/bo_d4slm1v7aajc73fspjsg_31_211_397_272_221_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_31_211_397_272_221_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_31_211_397_272_221_0.jpg)
 
 图 10-3-20
 
@@ -1129,7 +1129,7 @@ $$
 
 (3)若 ${PA}\bot {PB},{PB}\bot {PC},{PC}\bot {PA}$ ，则点 $O$ 是 $\bigtriangleup  {ABC}$ 的___，心.
 
-![bo_d4slm1v7aajc73fspjsg_31_1211_1737_290_259_0.jpg](images/bo_d4slm1v7aajc73fspjsg_31_1211_1737_290_259_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_31_1211_1737_290_259_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_31_1211_1737_290_259_0.jpg)
 
 (第 3 题)
 
@@ -1147,11 +1147,11 @@ $$
 
 1. 如图,在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, $E$ 是棱 $D{D}_{1}$ 的中点,试判断 $B{D}_{1}$ 与平面 ${AEC}$ 的位置关系,并说明理由.
 
-![bo_d4slm1v7aajc73fspjsg_32_391_678_341_210_0.jpg](images/bo_d4slm1v7aajc73fspjsg_32_391_678_341_210_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_32_391_678_341_210_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_32_391_678_341_210_0.jpg)
 
 (第 1 题)
 
-![bo_d4slm1v7aajc73fspjsg_32_953_649_273_237_0.jpg](images/bo_d4slm1v7aajc73fspjsg_32_953_649_273_237_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_32_953_649_273_237_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_32_953_649_273_237_0.jpg)
 
 (第 3 题)
 
@@ -1175,7 +1175,7 @@ $$
 
 ##### B 组
 
-![bo_d4slm1v7aajc73fspjsg_32_1203_1869_267_245_0.jpg](images/bo_d4slm1v7aajc73fspjsg_32_1203_1869_267_245_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_32_1203_1869_267_245_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_32_1203_1869_267_245_0.jpg)
 
 (第 1 题)
 
@@ -1183,11 +1183,11 @@ $$
 
 2. 如图,已知 ${BD}$ 是 $\odot  O$ 的直径,点 $C$ 是 $\odot  O$ 上的动点. 设过动点 $C$ 的直线 ${AC}$ 垂直于 $\odot  O$ 所在的平面,且 $E\text{ 、 }F$ 分别是边 ${AC}\text{ 、 }{AD}$ 的中点. 求证: ${EF} \bot$ 平面 ${ABC}$ .
 
-![bo_d4slm1v7aajc73fspjsg_33_423_254_302_281_0.jpg](images/bo_d4slm1v7aajc73fspjsg_33_423_254_302_281_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_33_423_254_302_281_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_33_423_254_302_281_0.jpg)
 
 (第 2 题)
 
-![bo_d4slm1v7aajc73fspjsg_33_934_227_318_309_0.jpg](images/bo_d4slm1v7aajc73fspjsg_33_934_227_318_309_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_33_934_227_318_309_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_33_934_227_318_309_0.jpg)
 
 (第 3 题)
 
@@ -1199,7 +1199,7 @@ $$
 
 4. 经过一个角的顶点引这个角所在平面的斜线. 如果此斜线和这个角两边的夹角相等, 求证: 该斜线在平面上的投影是这个角的角平分线所在的直线.
 
-![bo_d4slm1v7aajc73fspjsg_33_1162_950_339_199_0.jpg](images/bo_d4slm1v7aajc73fspjsg_33_1162_950_339_199_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_33_1162_950_339_199_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_33_1162_950_339_199_0.jpg)
 
 (第 5 题)
 
@@ -1223,7 +1223,7 @@ $$
 
 问题(1)的回答是否定的. 事实上，长方体的上、下两个底面平行,但这两个底面上的直线间有不同的位置关系,如 ${AB}$ 平行于 ${A}_{1}{B}_{1}$ ,而 ${AB}$ 与 ${A}_{1}{D}_{1}$ 异面且垂直,如图 10-4-1 所示.
 
-![bo_d4slm1v7aajc73fspjsg_34_1125_1288_349_211_0.jpg](images/bo_d4slm1v7aajc73fspjsg_34_1125_1288_349_211_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_34_1125_1288_349_211_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_34_1125_1288_349_211_0.jpg)
 
 图 10-4-1
 
@@ -1231,7 +1231,7 @@ $$
 
 至于问题(3)，其答案应是肯定的，因为两条相交的直线完全确定了这个平面. 我们可以用反证法来严格地加以证明: 如图 10-4-2,假设 $\alpha$ 不平行于 $\beta$ ,那么 $\alpha$ 与 $\beta$ 相交于直线 $l$ . 由直线与平面平行的性质定理知,直线 $a$ 及 $b$ 均平行于 $l$ ,从而 $a//b$ . 这与已知 $a\text{ 、 }b$ 是相交直线矛盾. 故假设不成立,即 $\alpha //\beta$ .
 
-![bo_d4slm1v7aajc73fspjsg_34_1156_1605_287_194_0.jpg](images/bo_d4slm1v7aajc73fspjsg_34_1156_1605_287_194_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_34_1156_1605_287_194_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_34_1156_1605_287_194_0.jpg)
 
 图 10-4-2
 
@@ -1241,13 +1241,13 @@ $$
 
 上述定理可以帮助我们方便地判断两个平面是否平行. 例如, 在测量时, 为判断一个平面与水平面是否平行, 可将水平仪 (图 10-4-3)置放在这个平面上, 并变换方向测试两次, 如果水平仪的水泡两次都居中, 就可以断定这个平面和水平面是平行的.
 
-![bo_d4slm1v7aajc73fspjsg_35_182_229_332_199_0.jpg](images/bo_d4slm1v7aajc73fspjsg_35_182_229_332_199_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_35_182_229_332_199_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_35_182_229_332_199_0.jpg)
 
 图 10-4-3
 
 例 1 证明: 长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的平面 $A{B}_{1}{D}_{1}$ 平行于平面 ${C}_{1}{DB}$ .
 
-![bo_d4slm1v7aajc73fspjsg_35_178_561_330_238_0.jpg](images/bo_d4slm1v7aajc73fspjsg_35_178_561_330_238_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_35_178_561_330_238_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_35_178_561_330_238_0.jpg)
 
 图 10-4-4
 
@@ -1255,7 +1255,7 @@ $$
 
 由上面的讨论可知, 如果两个平面平行, 一个平面上的直线与另一个平面上的直线可能是平行的, 也有可能是异面的. 那么, 如何在两个平行平面上找到相互平行的直线呢? 为此, 我们来考察两个平行平面与第三个平面相交的情况, 得出下面的定理.
 
-![bo_d4slm1v7aajc73fspjsg_35_206_1091_283_313_0.jpg](images/bo_d4slm1v7aajc73fspjsg_35_206_1091_283_313_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_35_206_1091_283_313_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_35_206_1091_283_313_0.jpg)
 
 图 10-4-5
 
@@ -1265,7 +1265,7 @@ $$
 
 例 2 若一条直线 $l$ 垂直于两个平行平面 $\alpha \text{ 、 }\beta$ 中的一个平面 $\alpha$ ,则它必垂直于另一个平面 $\beta$ .
 
-![bo_d4slm1v7aajc73fspjsg_35_220_1518_256_295_0.jpg](images/bo_d4slm1v7aajc73fspjsg_35_220_1518_256_295_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_35_220_1518_256_295_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_35_220_1518_256_295_0.jpg)
 
 图 10-4-6
 
@@ -1275,7 +1275,7 @@ $$
 
 在 10.3 节我们已经定义过点到平面的距离以及一条直线到与它平行的平面的距离, 现在可以进一步定义两个平行平面之间的距离. 为此,先注意到,如果平面 $\alpha //$ 平面 $\beta$ ,在平面 $\alpha$ 上任取两点 $M$ 与 $N$ ,那么平面 $\alpha$ 上的直线 ${MN}$ 与平面 $\beta$ 没有交点, 所以 ${MN}//$ 平面 $\beta$ (图 10-4-7). 由此可见,点 $M$ 与点 $N$ 到平面 $\beta$ 的距离是相等的. 这说明了平面 $\alpha$ 上的任意点到平面 $\beta$ 的距离都相等. 这个距离也等于平面 $\beta$ 上任意一点到平面 $\alpha$ 的距离: 如图10-4-7,过平面 $\alpha$ 上的点 $M$ 作平面 $\beta$ 的垂线,交平面 $\beta$ 于 ${M}^{\prime }$ , 则 $M{M}^{\prime }$ 既是点 $M$ 到平面 $\beta$ 的距离,也是点 ${M}^{\prime }$ 到平面 $\alpha$ 的距离.
 
-![bo_d4slm1v7aajc73fspjsg_36_1139_223_321_224_0.jpg](images/bo_d4slm1v7aajc73fspjsg_36_1139_223_321_224_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_36_1139_223_321_224_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_36_1139_223_321_224_0.jpg)
 
 图 10-4-7
 
@@ -1295,7 +1295,7 @@ $$
 
 (5)若一个平面内的任何一条直线都平行于另一个平面, 则这两个平面平行.
 
-![bo_d4slm1v7aajc73fspjsg_36_1201_981_270_272_0.jpg](images/bo_d4slm1v7aajc73fspjsg_36_1201_981_270_272_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_36_1201_981_270_272_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_36_1201_981_270_272_0.jpg)
 
 (第 2 题)
 
@@ -1315,11 +1315,11 @@ $$
 
 在开门时，有时开得大些，有时开得小些，这里的“大”或 “小”，可用门所在平面和门框所在平面之间的夹角来度量. 现在, 我们来定义两个平面之间的夹角.
 
-![bo_d4slm1v7aajc73fspjsg_36_1107_1518_394_208_0.jpg](images/bo_d4slm1v7aajc73fspjsg_36_1107_1518_394_208_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_36_1107_1518_394_208_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_36_1107_1518_394_208_0.jpg)
 
 图 10-4-8
 
-![bo_d4slm1v7aajc73fspjsg_36_1104_1889_397_180_0.jpg](images/bo_d4slm1v7aajc73fspjsg_36_1104_1889_397_180_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_36_1104_1889_397_180_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_36_1104_1889_397_180_0.jpg)
 
 图 10-4-9
 
@@ -1333,7 +1333,7 @@ $$
 
 两个互相垂直的平面, 一般画成图 10-4-10 的样子: 将直立平面的竖边画成和水平平面的横边垂直. 平面 $\alpha$ 与平面 $\beta$ 垂直， 记作 $\alpha  \bot  \beta$ .
 
-![bo_d4slm1v7aajc73fspjsg_37_699_722_650_205_0.jpg](images/bo_d4slm1v7aajc73fspjsg_37_699_722_650_205_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_37_699_722_650_205_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_37_699_722_650_205_0.jpg)
 
 图 10-4-10
 
@@ -1343,7 +1343,7 @@ $$
 
 证明 设平面 $\beta$ 过另一平面 $\alpha$ 的垂线 ${OA}$ ,点 $O$ 在平面 $\alpha$ 上, 则平面 $\beta$ 与平面 $\alpha$ 交于过点 $O$ 的直线 $l$ ，且 ${OA} \bot  l$ . 如图 10-4-11， 在平面 $\alpha$ 上过点 $O$ 作 ${OB} \bot  l$ ，则 $\angle {AOB}$ 是二面角 $\alpha  - l - \beta$ 的平面角. 由 ${OA} \bot  \alpha$ 与 ${OB} \subset  \alpha$ ,推出 ${OA} \bot  {OB}$ ,即 $\angle {AOB}$ 是直角,从而二面角 $\alpha  - l - \beta$ 是直二面角,所以 $\beta  \bot  \alpha$ .
 
-![bo_d4slm1v7aajc73fspjsg_37_196_1260_302_206_0.jpg](images/bo_d4slm1v7aajc73fspjsg_37_196_1260_302_206_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_37_196_1260_302_206_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_37_196_1260_302_206_0.jpg)
 
 图 10-4-11
 
@@ -1353,7 +1353,7 @@ $$
 
 证明 仍参看图 10-4-11,平面 $\alpha  \bot$ 平面 $\beta$ ,它们的交线是 $l$ . 直线 ${OA} \subset  \beta$ ,且 ${OA} \bot  l$ ,垂足是 $O$ . 过点 $O$ 在平面 $\alpha$ 上作 ${OB} \bot  l$ , 则 $\angle {AOB}$ 是二面角 $\alpha  - l - \beta$ 的平面角. 由于 $\beta  \bot  \alpha ,\angle {AOB}$ 是直角, 即 ${OA} \bot  {OB}$ ,这个条件连同条件 ${OA} \bot  l$ 立即推出 ${OA} \bot$ 平面 $\alpha$ .
 
-![bo_d4slm1v7aajc73fspjsg_38_1141_226_315_311_0.jpg](images/bo_d4slm1v7aajc73fspjsg_38_1141_226_315_311_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_38_1141_226_315_311_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_38_1141_226_315_311_0.jpg)
 
 图 10-4-12
 
@@ -1375,7 +1375,7 @@ $$
 
 (2)平面 $\alpha$ 上的任意一条直线都垂直于平面 $\beta$ 上的无数条直线；
 
-![bo_d4slm1v7aajc73fspjsg_38_1147_1006_323_267_0.jpg](images/bo_d4slm1v7aajc73fspjsg_38_1147_1006_323_267_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_38_1147_1006_323_267_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_38_1147_1006_323_267_0.jpg)
 
 (第 2 题)
 
@@ -1405,21 +1405,21 @@ $$
 
 3. 如图, $A\text{ 、 }B\text{ 、 }C$ 为不共线的三点, $A{A}_{1}//B{B}_{1}//C{C}_{1}$ ,且 $A{A}_{1} = B{B}_{1} = C{C}_{1}$ . 求证: 平面 ${ABC}//$ 平面 ${A}_{1}{B}_{1}{C}_{1}$ .
 
-![bo_d4slm1v7aajc73fspjsg_39_434_248_305_293_0.jpg](images/bo_d4slm1v7aajc73fspjsg_39_434_248_305_293_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_39_434_248_305_293_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_39_434_248_305_293_0.jpg)
 
 (第 2 题)
 
-![bo_d4slm1v7aajc73fspjsg_39_957_227_284_313_0.jpg](images/bo_d4slm1v7aajc73fspjsg_39_957_227_284_313_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_39_957_227_284_313_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_39_957_227_284_313_0.jpg)
 
 (第 3 题)
 
 4. 如图,直线 $a$ 及直线 $b$ 是异面直线,直线 $a\text{ 、 }b$ 分别在两个平行平面 $\alpha$ 和 $\beta$ 上. 又设直线 $l\bot a, l\bot b$ . 求证: $l\bot \alpha , l\bot \beta$ .
 
-![bo_d4slm1v7aajc73fspjsg_39_489_829_291_242_0.jpg](images/bo_d4slm1v7aajc73fspjsg_39_489_829_291_242_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_39_489_829_291_242_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_39_489_829_291_242_0.jpg)
 
 (第 4 题)
 
-![bo_d4slm1v7aajc73fspjsg_39_929_726_258_343_0.jpg](images/bo_d4slm1v7aajc73fspjsg_39_929_726_258_343_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_39_929_726_258_343_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_39_929_726_258_343_0.jpg)
 
 (第 5 题)
 
@@ -1431,11 +1431,11 @@ $$
 
 8. 如图，在四面体 ${ABCD}$ 中，已知 ${AB} = {AC} = {BD} = {CD} = 2,{BC} = 2\sqrt{3},$ 且 ${AD} = 1$ . 试作出二面角 $A - {BC} - D$ 的平面角,并求它的度数.
 
-![bo_d4slm1v7aajc73fspjsg_39_361_1669_290_248_0.jpg](images/bo_d4slm1v7aajc73fspjsg_39_361_1669_290_248_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_39_361_1669_290_248_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_39_361_1669_290_248_0.jpg)
 
 (第 8 题)
 
-![bo_d4slm1v7aajc73fspjsg_39_863_1658_453_264_0.jpg](images/bo_d4slm1v7aajc73fspjsg_39_863_1658_453_264_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_39_863_1658_453_264_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_39_863_1658_453_264_0.jpg)
 
 (第 10 题)
 
@@ -1453,7 +1453,7 @@ $$
 
 1. 假设 $m\text{ 、 }n$ 是两条相交直线, ${l}_{1}\text{ 、 }{l}_{2}$ 是与 $m\text{ 、 }n$ 都垂直的两条直线,但直线 $l$ 至少与 $m\text{ 、 }n$ 中的一条不垂直. 求证: 直线 $l$ 与 ${l}_{1}\text{ 、 }{l}_{2}$ 所成的角相等.
 
-![bo_d4slm1v7aajc73fspjsg_40_1183_596_288_269_0.jpg](images/bo_d4slm1v7aajc73fspjsg_40_1183_596_288_269_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_40_1183_596_288_269_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_40_1183_596_288_269_0.jpg)
 
 (第 2 题)
 
@@ -1469,7 +1469,7 @@ $$
 
 前面已经定义了两条异面直线所成的角, 但这显然还不足以完全确定两条异面直线的相互位置. 例如, 在图 10-5-1 中, $\alpha  - l - \beta$ 为一个二面角,在平面 $\alpha$ 上作一直线 $a$ 垂直于棱 $l$ ,垂足为 $A$ ; 而在平面 $\beta$ 上分别作两条直线 $b$ 及 $c$ 垂直于棱 $l$ ,垂足分别为 $B\text{ 、 }C$ . 由 $b//c$ ,异面直线 $a\text{ 、 }b$ 所成的角与 $a\text{ 、 }c$ 所成的角是相等的,但 $b$ 及 $c$ 离 $a$ 的距离却不一样. 该如何定义两条异面直线的距离呢?
 
-![bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg](images/bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_41_191_487_311_175_0.jpg)
 
 图 10-5-1
 
@@ -1479,7 +1479,7 @@ $$
 
 证明 先证明存在性. 如图 10-5-2,在直线 $a$ 上任取一点 $P$ ,过 $P$ 作直线 ${b}_{1}$ ,使得 ${b}_{1}//b$ . 设 $a$ 及 ${b}_{1}$ 所确定的平面为 $\alpha$ , 则 $b//\alpha$ . 过直线 $b$ 作平面 $\beta$ 垂直于平面 $\alpha$ ,并相交于直线 ${b}_{2}$ . 由 $b// \; \alpha$ ,有 $b//{b}_{2}$ . 又因 $b//{b}_{1}$ ,故 ${b}_{1}//{b}_{2}$ . 设 $a$ 与 ${b}_{2}$ 的交点为 $A$ ,在平面 $\beta$ 上过 $A$ 作直线 ${AB}$ 垂直于 ${b}_{2}$ . 因为平面 $\beta$ 垂直于平面 $\alpha$ , 所以直线 ${AB}$ 垂直于平面 $\alpha$ ,从而直线 ${AB} \bot  a$ . 这样,直线 ${AB}$ 与异面直线 $a\text{ 、 }b$ 都垂直且相交.
 
-![bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg](images/bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_41_182_1300_331_204_0.jpg)
 
 图 10-5-2
 
@@ -1493,7 +1493,7 @@ $$
 
 ---
 
-![bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg](images/bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_41_182_1856_331_211_0.jpg)
 
 图 10-5-3
 
@@ -1503,7 +1503,7 @@ $$
 
 求两条异面直线之间的距离是立体几何中比较困难的问题, 其难点主要在于要找两条异面直线的公垂线段. 回顾上述定理的证明过程,如图 10-5-2,因为 $b//\alpha$ ,异面直线 $a$ 与 $b$ 之间的距离等于公垂线段 ${AB}$ 的长,也等于直线 $b$ 到平面 $\alpha$ 的距离,所以在求两条异面直线的距离时, 可以先过其中一条直线作一个平面平行于另一条直线, 从而把线线间的距离转化为线面间的距离.
 
-![bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg](images/bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_42_1141_768_315_310_0.jpg)
 
 图 10-5-4
 
@@ -1519,7 +1519,7 @@ $$
 
 例 2 如图 10-5-5,在空间四边形 ${ABCD}$ 中, ${AB} = \; {AD} = 2\sqrt{13},{BC} = {CD} = {BD} = 4$ ,二面角 $A - {BD} - C$ 的平面角等于 ${120}^{ \circ  }$ . 求直线 ${AC}$ 与 ${BD}$ 之间的距离.
 
-![bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg](images/bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_42_1152_1367_297_253_0.jpg)
 
 图 10-5-5
 
@@ -1527,7 +1527,7 @@ $$
 
 ## 练习 10.5
 
-![bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg](images/bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_43_1200_332_301_305_0.jpg)
 
 (第 1 题)
 
@@ -1557,7 +1557,7 @@ C. 斜交; D. 不能确定.
 
 (2) ${AC}$ 与 ${D}_{1}{B}_{1}$ 之间的距离.
 
-![bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg](images/bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_43_1177_1571_325_245_0.jpg)
 
 (第 3 题)
 
@@ -1579,11 +1579,11 @@ C. 3; D. 4.
 
 2. 如图，在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中， ${AB} = a,{BC} = b,{A{A}_{1}} = c$ . 求异面直线 ${B}_{1}B$ 与 $A{C}_{1}$ 之间的距离.
 
-![bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg](images/bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_44_398_543_367_310_0.jpg)
 
 (第 2 题)
 
-![bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg](images/bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_44_944_575_273_276_0.jpg)
 
 (第 3 题)
 
@@ -1665,7 +1665,7 @@ C. 3; D. 4.
 
 ### A 组
 
-![bo_d4slm1v7aajc73fspjsg_46_1114_1560_357_360_0.jpg](images/bo_d4slm1v7aajc73fspjsg_46_1114_1560_357_360_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_46_1114_1560_357_360_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_46_1114_1560_357_360_0.jpg)
 
 (第 1 题)
 
@@ -1683,11 +1683,11 @@ C. 3; D. 4.
 
 (5) OM // 平面 ${PBC}$ .
 
-![bo_d4slm1v7aajc73fspjsg_47_371_228_343_332_0.jpg](images/bo_d4slm1v7aajc73fspjsg_47_371_228_343_332_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_47_371_228_343_332_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_47_371_228_343_332_0.jpg)
 
 (第 2 题)
 
-![bo_d4slm1v7aajc73fspjsg_47_995_257_312_302_0.jpg](images/bo_d4slm1v7aajc73fspjsg_47_995_257_312_302_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_47_995_257_312_302_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_47_995_257_312_302_0.jpg)
 
 (第 3 题)
 
@@ -1711,11 +1711,11 @@ C. 3; D. 4.
 
 6. 如图,直线 $A{A}^{\prime }\text{ 、 }B{B}^{\prime }\text{ 、 }C{C}^{\prime }$ 相交于点 $O$ ,且 ${AO} = {A}^{\prime }O,{BO} = {B}^{\prime }O,{CO} = {C}^{\prime }O$ . 求证: 平面 ${ABC}//$ 平面 ${A}^{\prime }{B}^{\prime }{C}^{\prime }$ .
 
-![bo_d4slm1v7aajc73fspjsg_47_376_1305_272_281_0.jpg](images/bo_d4slm1v7aajc73fspjsg_47_376_1305_272_281_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_47_376_1305_272_281_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_47_376_1305_272_281_0.jpg)
 
 (第 6 题)
 
-![bo_d4slm1v7aajc73fspjsg_47_965_1308_338_278_0.jpg](images/bo_d4slm1v7aajc73fspjsg_47_965_1308_338_278_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_47_965_1308_338_278_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_47_965_1308_338_278_0.jpg)
 
 (第 8 题)
 
@@ -1753,11 +1753,11 @@ C. 3; D. 4.
 
 (2)求证: ${AF}\bot$ 平面 ${EDB}$ .
 
-![bo_d4slm1v7aajc73fspjsg_48_423_931_255_307_0.jpg](images/bo_d4slm1v7aajc73fspjsg_48_423_931_255_307_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_48_423_931_255_307_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_48_423_931_255_307_0.jpg)
 
 (第 4 题)
 
-![bo_d4slm1v7aajc73fspjsg_48_927_929_267_309_0.jpg](images/bo_d4slm1v7aajc73fspjsg_48_927_929_267_309_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_48_927_929_267_309_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_48_927_929_267_309_0.jpg)
 
 (第 6 题)
 
@@ -1769,11 +1769,11 @@ C. 3; D. 4.
 
 8. 如图, $P$ 是平面 $\alpha$ 外一点,直线 ${PA}$ 与平面 $\alpha$ 斜交于点 $A$ ,从点 $P$ 作平面 $\alpha$ 上的一条直线 ${OA}$ 的垂线 ${PO}$ ,垂足为 $O$ . 又设 $a$ 是平面 $\alpha$ 上的一条直线,且 $a \bot  {OA}, a \bot  {PA}$ . 求证: ${PO} \bot$ 平面 $\alpha$ ,从而 ${OA}$ 是 ${PA}$ 在平面 $\alpha$ 上的投影.
 
-![bo_d4slm1v7aajc73fspjsg_48_438_1776_299_200_0.jpg](images/bo_d4slm1v7aajc73fspjsg_48_438_1776_299_200_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_48_438_1776_299_200_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_48_438_1776_299_200_0.jpg)
 
 (第 8 题)
 
-![bo_d4slm1v7aajc73fspjsg_48_886_1793_291_186_0.jpg](images/bo_d4slm1v7aajc73fspjsg_48_886_1793_291_186_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_48_886_1793_291_186_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_48_886_1793_291_186_0.jpg)
 
 (第 9 题)
 
@@ -1785,7 +1785,7 @@ C. 3; D. 4.
 
 2. 在长方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中,如果对角线 $A{C}_{1}$ 与过点 $A$ 的相邻三个面所成的角分别为 $\alpha \text{ 、 }\beta \text{ 、 }\gamma$ ，那么 ${\cos }^{2}\alpha  + {\cos }^{2}\beta  + {\cos }^{2}\gamma  =$ ___.
 
-![bo_d4slm1v7aajc73fspjsg_49_662_565_354_246_0.jpg](images/bo_d4slm1v7aajc73fspjsg_49_662_565_354_246_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_49_662_565_354_246_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_49_662_565_354_246_0.jpg)
 
 (第 2 题)
 
@@ -1805,17 +1805,17 @@ C. 3; D. 4.
 
 三角形正方形矩形
 
-![bo_d4slm1v7aajc73fspjsg_49_394_1776_198_191_0.jpg](images/bo_d4slm1v7aajc73fspjsg_49_394_1776_198_191_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_49_394_1776_198_191_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_49_394_1776_198_191_0.jpg)
 
-![bo_d4slm1v7aajc73fspjsg_49_740_1779_200_188_0.jpg](images/bo_d4slm1v7aajc73fspjsg_49_740_1779_200_188_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_49_740_1779_200_188_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_49_740_1779_200_188_0.jpg)
 
-![bo_d4slm1v7aajc73fspjsg_49_1086_1779_197_188_0.jpg](images/bo_d4slm1v7aajc73fspjsg_49_1086_1779_197_188_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_49_1086_1779_197_188_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_49_1086_1779_197_188_0.jpg)
 
 梯形五边形六边形
 
 利用空间线面关系的有关性质, 我们可以准确地作出平面截正方体所得到的截面图形.
 
-![bo_d4slm1v7aajc73fspjsg_50_1158_227_312_308_0.jpg](images/bo_d4slm1v7aajc73fspjsg_50_1158_227_312_308_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_50_1158_227_312_308_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_50_1158_227_312_308_0.jpg)
 
 问题: 已知 $P\text{ 、 }Q\text{ 、 }R$ 分别是正方体 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的棱 ${AB}\text{ 、 }{BC}$ 和 ${D}_{1}{C}_{1}$ 的中点,如何作出过 $P\text{ 、 }Q\text{ 、 }R$ 三点的平面 $\alpha$ 截正方体所得到的截面呢?
 
@@ -1835,9 +1835,9 @@ C. 3; D. 4.
 
 (4)连接线段 ${ST}$ 及 ${RW}$ ,得六边形 ${PQWRST}$ . 由于六边形 ${PQWRST}$ 各边的端点都在正方体的表面上, 因此六边形 PQWRST 的各条边也在正方体的表面上. 所以, 六边形 PQWRST 就是平面 $\alpha$ 截正方体所得的截面.
 
-![bo_d4slm1v7aajc73fspjsg_50_383_1074_416_253_0.jpg](images/bo_d4slm1v7aajc73fspjsg_50_383_1074_416_253_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_50_383_1074_416_253_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_50_383_1074_416_253_0.jpg)
 
-![bo_d4slm1v7aajc73fspjsg_50_915_1027_320_304_0.jpg](images/bo_d4slm1v7aajc73fspjsg_50_915_1027_320_304_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_50_915_1027_320_304_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_50_915_1027_320_304_0.jpg)
 
 由上可知,作平面 $\alpha$ 截正方体的截面的关键,是确定截面多边形的各个顶点:
 
@@ -1861,7 +1861,7 @@ C. 3; D. 4.
 
 苏步青(1902—2003)，著名数学家、教育家，中国微分几何学派的创始人，曾被誉为 “东方第一几何学家”. 1955 年当选为中国科学院学部委员(即后来的中国科学院院士). 苏步青主要从事微分几何学和计算几何学等方面的研究, 在仿射微分几何学和射影微分几何学等领域中取得杰出的研究成果, 在几何外型设计、计算机辅助几何设计等领域做出了开创性的成就. 他还是一位数学教育的大师.
 
-![bo_d4slm1v7aajc73fspjsg_51_184_247_320_438_0.jpg](images/bo_d4slm1v7aajc73fspjsg_51_184_247_320_438_0.jpg)
+![bo_d4slm1v7aajc73fspjsg_51_184_247_320_438_0.jpg](attachments/bo_d4slm1v7aajc73fspjsg_51_184_247_320_438_0.jpg)
 
 苏步青于 1902 年出生在浙江省平阳县的一个小山村. 童年时代的他曾是牛背上的野孩子，小时候的求学路经历了从“背榜”到第一名的过程, 13 岁时苏步青考入在温州的浙江省立第十中学读书. 1919 年 7 月, 他在校长洪彦远先生的资助下到日本留学. 经过一个月的日语补习，1920 年 2 月参加东京高等工业学校招考，以优秀的成绩被录取到该校电机系学习. 后又报考日本东北帝国大学理学院数学系，以两门课均满分的成绩被录取. 在就读期间，苏步青在仿射微分几何领域就已取得了出色的研究成果，数学界称他为 “东方国度上升起的灿烂的数学明星”，并于 1931 年获得理学博士学位. 1931 年秋, 因与早于他留学日本的陈建功先生有约在先, 苏步青回到阔别 12 年的故土, 到浙江大学数学系任教. 经过多年的努力, 包括在抗战期间随浙江大学西迁贵州这一段颠沛流离的艰辛岁月中, 他们获得了一系列重要研究成果, 在国际上享有崇高的声誉, 以苏步青为首的浙江大学微分几何学派也开始形成. 两位先生创导的数学讨论班活动, 在培养学生上居功至伟. 浙江大学因而被英国科技史专家李约瑟(Joseph Needham)誉为“东方的剑桥”. 1952 年，全国高等院校院系调整，苏步青被调到复旦大学，从此创立于浙江大学的微分几何学派在复旦大学得到发扬和光大. 在 70 多岁高龄时，苏步青还结合解决船体数学放样的实际课题, 创建和开始了计算几何这一新的研究方向.
 

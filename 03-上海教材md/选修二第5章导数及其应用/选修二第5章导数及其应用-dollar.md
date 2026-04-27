@@ -4,7 +4,7 @@ title: 选修二第5章导数及其应用-dollar
 ---
 # 导数及其应用
 
-![bo_d4slovref24c73be0r3g_0_0_4_1654_1172_0.jpg](images/bo_d4slovref24c73be0r3g_0_0_4_1654_1172_0.jpg)
+![bo_d4slovref24c73be0r3g_0_0_4_1654_1172_0.jpg](attachments/bo_d4slovref24c73be0r3g_0_0_4_1654_1172_0.jpg)
 
 初等数学可以帮助我们对匀速运动进行描述和分析, 也能够顺利解决一些具有规则形状的物体的度量问题. 然而, 人类在实际生活中所面临的问题往往更为复杂. 例如, 运动中速度可以不断变化, 图形的边界不再具有规则的形状，等等. 要处理这一类问题，本质上要有处理变化和变化中的瞬时状态的数学工具, 这就需要用到高等数学, 特别是微积分的知识.
 
@@ -20,7 +20,7 @@ title: 选修二第5章导数及其应用-dollar
 
 当物体作匀速运动时,运动的速度 $v$ 等于距离 $s$ 除以运动时间 $t$ ,即 $v = \frac{s}{t}$ . 但是,如果一个作变速运动的物体在时间段 $t$ 内的运动距离是 $s$ ,上面的公式所给出的只能是这段运动过程中运动物体的平均速度 $\bar{v} = \frac{s}{t}$ .
 
-![bo_d4slovref24c73be0r3g_1_197_867_325_188_0.jpg](images/bo_d4slovref24c73be0r3g_1_197_867_325_188_0.jpg)
+![bo_d4slovref24c73be0r3g_1_197_867_325_188_0.jpg](attachments/bo_d4slovref24c73be0r3g_1_197_867_325_188_0.jpg)
 
 图 5-1-1
 
@@ -142,13 +142,13 @@ $$
 
 我们把连接曲线上任意两点的直线称为该曲线的一条割线 (secant line). 如图 5-1-2,给定曲线上的一点 $P$ ,考虑以 $P$ 为端点的一条小曲线段 $\overset{\text{ ⏜ }}{PQ}$ 和割线 ${PQ}$ . 像平均速度趋近于瞬时速度那样,当曲线段 $\overset{\text{ ⏜ }}{PQ}$ 取得越来越短,即点 $Q$ 越来越靠近点 $P$ 时,如果割线 ${PQ}$ 趋近于一条确定的直线,那么我们就将这条直线称为曲线在点 $P$ 处的切线 (tangent line). 就像瞬时速度是物体在给定时刻的运动状态的最好描述一样,在点 $P$ 处的切线是曲线在点 $P$ 附近性质的最好描述.
 
-![bo_d4slovref24c73be0r3g_5_580_662_874_298_0.jpg](images/bo_d4slovref24c73be0r3g_5_580_662_874_298_0.jpg)
+![bo_d4slovref24c73be0r3g_5_580_662_874_298_0.jpg](attachments/bo_d4slovref24c73be0r3g_5_580_662_874_298_0.jpg)
 
 图 5-1-2
 
 切线这个术语我们并不陌生, 在平面几何的学习中已定义过圆的切线, 并讨论过它的性质. 那里所定义的圆的切线是否与上面这个新定义一致呢?
 
-![bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg](images/bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg)
+![bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg](attachments/bo_d4slovref24c73be0r3g_5_192_1195_285_190_0.jpg)
 
 图 5-1-3
 
@@ -188,7 +188,7 @@ $$
 {k}_{P{Q}_{n}} = \frac{{y}_{n} - {y}_{P}}{{x}_{n} - {x}_{P}} = \frac{f\left( {{x}_{0} + h}\right)  - f\left( {x}_{0}\right) }{h},
 $$
 
-![bo_d4slovref24c73be0r3g_6_1110_1835_357_208_0.jpg](images/bo_d4slovref24c73be0r3g_6_1110_1835_357_208_0.jpg)
+![bo_d4slovref24c73be0r3g_6_1110_1835_357_208_0.jpg](attachments/bo_d4slovref24c73be0r3g_6_1110_1835_357_208_0.jpg)
 
 图 5-1-4
 
@@ -316,7 +316,7 @@ $$
 
 5. 函数 $y = f\left( x\right)$ 的图像如图所示.
 
-![bo_d4slovref24c73be0r3g_9_1125_311_357_242_0.jpg](images/bo_d4slovref24c73be0r3g_9_1125_311_357_242_0.jpg)
+![bo_d4slovref24c73be0r3g_9_1125_311_357_242_0.jpg](attachments/bo_d4slovref24c73be0r3g_9_1125_311_357_242_0.jpg)
 
 (第 5 题)
 
@@ -350,7 +350,7 @@ $$
 
 4. 如图,已知直线 $l$ 是曲线 $y = f\left( x\right)$ 在 $x = 3$ 处的切线,求 ${f}^{\prime }\left( 3\right)$ .
 
-![bo_d4slovref24c73be0r3g_9_626_1380_422_239_0.jpg](images/bo_d4slovref24c73be0r3g_9_626_1380_422_239_0.jpg)
+![bo_d4slovref24c73be0r3g_9_626_1380_422_239_0.jpg](attachments/bo_d4slovref24c73be0r3g_9_626_1380_422_239_0.jpg)
 
 (第 4 题)
 
@@ -814,7 +814,7 @@ $$
 
 例 5 已知在区间 $\left( {0,1}\right)$ 上 ${f}^{\prime }\left( x\right)  > 1$ . 在图 5-3-1 所示的图像中,哪些有可能表示函数 $y = f\left( x\right)$ ? 为什么?
 
-![bo_d4slovref24c73be0r3g_20_172_430_925_249_0.jpg](images/bo_d4slovref24c73be0r3g_20_172_430_925_249_0.jpg)
+![bo_d4slovref24c73be0r3g_20_172_430_925_249_0.jpg](attachments/bo_d4slovref24c73be0r3g_20_172_430_925_249_0.jpg)
 
 图 5-3-1
 
@@ -846,7 +846,7 @@ $$
 
 观察图 5-3-2 中函数 $y = f\left( x\right)$ 的图像,其中有一些特殊的点, 在这些特殊点的左右两侧附近, 函数的单调性发生了改变. 例如,函数在点 $\left( {{x}_{1}, f\left( {x}_{1}\right) }\right)$ 的左侧附近严格增,右侧附近严格减，此处出现了一个“山峰”；又如，函数在点 $\left( {{x}_{2}, f\left( {x}_{2}\right) }\right)$ 的左侧附近严格减，右侧附近严格增，此处出现了一个“山谷”.
 
-![bo_d4slovref24c73be0r3g_21_629_257_776_309_0.jpg](images/bo_d4slovref24c73be0r3g_21_629_257_776_309_0.jpg)
+![bo_d4slovref24c73be0r3g_21_629_257_776_309_0.jpg](attachments/bo_d4slovref24c73be0r3g_21_629_257_776_309_0.jpg)
 
 图 5-3-2
 
@@ -912,7 +912,7 @@ $$
 
 在许多理论和现实的问题中, 常常需要求函数的最大值或者最小值(统称为最值). 最值反映了函数在定义域上整体的情况， 而极值则仅考虑函数在某点附近的局部特征. 有时最值和极值是一致的,如函数 $y = \sin x$ ; 但有时却不一致,如图 5-3-2 所示的函数. 当然, 一个函数的极值与最值可能都不存在, 如函数 $y = {x}^{3}$ . 但是,如果考虑一个在闭区间上的连续函数,函数的最大值与最小值一定存在.
 
-![bo_d4slovref24c73be0r3g_23_232_1114_256_419_0.jpg](images/bo_d4slovref24c73be0r3g_23_232_1114_256_419_0.jpg)
+![bo_d4slovref24c73be0r3g_23_232_1114_256_419_0.jpg](attachments/bo_d4slovref24c73be0r3g_23_232_1114_256_419_0.jpg)
 
 图 5-3-3
 
@@ -1018,7 +1018,7 @@ $$
 
 例 11 图 5-3-4 是一张边长为 3 的正方形硬纸板, 现把它的四个角上裁去边长为 $x$ 的四个小正方形,再折叠成无盖纸盒. 当裁去的小正方形边长 $x$ 发生变化时,纸盒的容积 $V$ 会随之发生变化. 当 $x$ 在什么范围内变化时,容积 $V$ 随着 $x$ 的增大而增大? $x$ 在什么范围内变化时,容积 $V$ 随着 $x$ 的增大而减小? 当 $x$ 取何值时,容积 $V$ 最大? 最大值是多少? (纸板厚度忽略不计)
 
-![bo_d4slovref24c73be0r3g_26_303_1540_657_276_0.jpg](images/bo_d4slovref24c73be0r3g_26_303_1540_657_276_0.jpg)
+![bo_d4slovref24c73be0r3g_26_303_1540_657_276_0.jpg](attachments/bo_d4slovref24c73be0r3g_26_303_1540_657_276_0.jpg)
 
 图 5-3-4
 
@@ -1062,7 +1062,7 @@ ${C}^{\prime }\left( {10}\right)  = 5$ 代表当产量为 $q = {10}$ 时,增加�
 
 解 根据题意,可知 ${h}^{2} = {d}^{2} - {b}^{2}$ ,所以 $W\left( b\right)  = \frac{1}{6}b\left( {{d}^{2} - {b}^{2}}\right)$ , $0 < b < d$ .
 
-![bo_d4slovref24c73be0r3g_27_235_1821_252_253_0.jpg](images/bo_d4slovref24c73be0r3g_27_235_1821_252_253_0.jpg)
+![bo_d4slovref24c73be0r3g_27_235_1821_252_253_0.jpg](attachments/bo_d4slovref24c73be0r3g_27_235_1821_252_253_0.jpg)
 
 图 5-3-5
 
@@ -1092,7 +1092,7 @@ $$
 
 1. 某商品的成本 $C$ 和产量 $q$ 满足函数关系 $C = {50000} + {200q}$ ,该商品的销售单价 $p$ 和产量 $q$ 满足函数关系 $p = {24200} - \frac{1}{5}{q}^{2}$ . 问: 要使利润最大, 应如何确定产量?
 
-![bo_d4slovref24c73be0r3g_28_1236_1793_220_248_0.jpg](images/bo_d4slovref24c73be0r3g_28_1236_1793_220_248_0.jpg)
+![bo_d4slovref24c73be0r3g_28_1236_1793_220_248_0.jpg](attachments/bo_d4slovref24c73be0r3g_28_1236_1793_220_248_0.jpg)
 
 (第 2 题)
 
@@ -1110,7 +1110,7 @@ $$
 
 3. 某函数图像如图所示,它在 $\left\lbrack  {a, b}\right\rbrack$ 上哪一点取得最大值? 它是极大值点吗? 在哪一点取得最小值? 它是极小值点吗?
 
-![bo_d4slovref24c73be0r3g_29_556_893_564_228_0.jpg](images/bo_d4slovref24c73be0r3g_29_556_893_564_228_0.jpg)
+![bo_d4slovref24c73be0r3g_29_556_893_564_228_0.jpg](attachments/bo_d4slovref24c73be0r3g_29_556_893_564_228_0.jpg)
 
 (第 3 题)
 
@@ -1138,7 +1138,7 @@ $$
 
 3. 用长为 ${18}\mathrm{\;m}$ 的钢条制作一个如图所示的长方体框架. 已知长方体的长宽比为 $2 : 1$ ，间:该长方体的长、宽、高各为多少时，其体积最大? 最大体积是多少?
 
-![bo_d4slovref24c73be0r3g_29_1238_1869_246_157_0.jpg](images/bo_d4slovref24c73be0r3g_29_1238_1869_246_157_0.jpg)
+![bo_d4slovref24c73be0r3g_29_1238_1869_246_157_0.jpg](attachments/bo_d4slovref24c73be0r3g_29_1238_1869_246_157_0.jpg)
 
 (第 3 题)
 
@@ -1216,7 +1216,7 @@ $$
 
 1. 请根据图中的函数图像，将下列数值按从小到大的顺序排列:___.
 
-![bo_d4slovref24c73be0r3g_33_1151_617_330_206_0.jpg](images/bo_d4slovref24c73be0r3g_33_1151_617_330_206_0.jpg)
+![bo_d4slovref24c73be0r3g_33_1151_617_330_206_0.jpg](attachments/bo_d4slovref24c73be0r3g_33_1151_617_330_206_0.jpg)
 
 (第 1 题)
 
@@ -1276,7 +1276,7 @@ $$
 
 ### B 组
 
-![bo_d4slovref24c73be0r3g_34_1135_460_318_188_0.jpg](images/bo_d4slovref24c73be0r3g_34_1135_460_318_188_0.jpg)
+![bo_d4slovref24c73be0r3g_34_1135_460_318_188_0.jpg](attachments/bo_d4slovref24c73be0r3g_34_1135_460_318_188_0.jpg)
 
 (第 1 题)
 

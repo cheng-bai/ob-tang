@@ -102,11 +102,11 @@ $$
 
 再使用计算器多采集一些点, 可以粗略地作出其图像, 如图 4-1-1(2)所示.
 
-![bo_d4slocn7aajc73fspklg_2_1141_1793_320_304_0.jpg](images/bo_d4slocn7aajc73fspklg_2_1141_1793_320_304_0.jpg)
+![bo_d4slocn7aajc73fspklg_2_1141_1793_320_304_0.jpg](attachments/bo_d4slocn7aajc73fspklg_2_1141_1793_320_304_0.jpg)
 
 图 4-1-2
 
-![bo_d4slocn7aajc73fspklg_2_227_1622_797_343_0.jpg](images/bo_d4slocn7aajc73fspklg_2_227_1622_797_343_0.jpg)
+![bo_d4slocn7aajc73fspklg_2_227_1622_797_343_0.jpg](attachments/bo_d4slocn7aajc73fspklg_2_227_1622_797_343_0.jpg)
 
 图 4-1-1
 
@@ -122,13 +122,13 @@ $$
 
 再使用计算器多采集一些点, 可以粗略作出此幂函数的图像, 如图 4-1-3 所示.
 
-![bo_d4slocn7aajc73fspklg_3_801_915_440_262_0.jpg](images/bo_d4slocn7aajc73fspklg_3_801_915_440_262_0.jpg)
+![bo_d4slocn7aajc73fspklg_3_801_915_440_262_0.jpg](attachments/bo_d4slocn7aajc73fspklg_3_801_915_440_262_0.jpg)
 
 图 4-1-3
 
 由例 1,可知幂函数 $y = {x}^{-\frac{2}{3}}$ 的定义域为不等于 0 的一切实数. 若点 $\left( {{x}_{0},{y}_{0}}\right)$ 在幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像上,则有 ${y}_{0} = {x}_{0}^{-\frac{2}{3}}$ . 而点 $\left( {{x}_{0},{y}_{0}}\right)$ 关于 $y$ 轴的对称点易知是 $\left( {-{x}_{0},{y}_{0}}\right)$ ,如图 4-1-4 所示. 由 ${y}_{0} = {x}_{0}^{-\frac{2}{3}}$ ,且 ${\left( -{x}_{0}\right) }^{-\frac{2}{3}} = \frac{1}{\sqrt[3]{{\left( -{x}_{0}\right) }^{2}}} = \frac{1}{\sqrt[3]{{x}_{0}^{2}}} = {x}_{0}^{-\frac{2}{3}}$ ,易知同时有 ${y}_{0} = {\left( -{x}_{0}\right) }^{-\frac{2}{3}}$ ,从而点 $\left( {-{x}_{0},{y}_{0}}\right)$ 也落在幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像上. 这说明幂函数 $y = {x}^{-\frac{2}{3}}$ 的图像关于 $y$ 轴成轴对称.
 
-![bo_d4slocn7aajc73fspklg_3_191_1390_320_170_0.jpg](images/bo_d4slocn7aajc73fspklg_3_191_1390_320_170_0.jpg)
+![bo_d4slocn7aajc73fspklg_3_191_1390_320_170_0.jpg](attachments/bo_d4slocn7aajc73fspklg_3_191_1390_320_170_0.jpg)
 
 图 4-1-4
 
@@ -160,7 +160,7 @@ $$
 
 ---
 
-![bo_d4slocn7aajc73fspklg_4_1131_969_340_329_0.jpg](images/bo_d4slocn7aajc73fspklg_4_1131_969_340_329_0.jpg)
+![bo_d4slocn7aajc73fspklg_4_1131_969_340_329_0.jpg](attachments/bo_d4slocn7aajc73fspklg_4_1131_969_340_329_0.jpg)
 
 图 4-1-5
 
@@ -208,7 +208,7 @@ $$
 
 解 在幂函数 $y = \frac{1}{x}$ 的图像上任取一点 $P\left( {a,\frac{1}{a}}\right)$ ,易得点 ${P}^{\prime }\left( {a + 2,\frac{1}{a}}\right)$ 一定在函数 $y = \frac{1}{x - 2}$ 的图像上,而将点 $P$ 向右平移 2 个单位就与点 ${P}^{\prime }$ 重合. 反之亦然. 因此,将函数 $y = \frac{1}{x}$ 的图像向右平移 2 个单位就得到函数 $y = \frac{1}{x - 2}$ 的图像. 反之,将函数 $y = \frac{1}{x - 2}$ 的图像向左平移 2 个单位就得到函数 $y = \frac{1}{x}$ 的图像,如图 4-1-6 所示.
 
-![bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg](images/bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg)
+![bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg](attachments/bo_d4slocn7aajc73fspklg_5_174_564_348_344_0.jpg)
 
 图 4-1-6
 
@@ -216,7 +216,7 @@ $$
 
 解 将 $y = \frac{x - 1}{x - 2}$ 整理变形,得 $y = 1 + \frac{1}{x - 2}$ . 若点 $Q\left( {a,\frac{1}{a - 2}}\right)$ 在函数 $y = \frac{1}{x - 2}$ 的图像上,则点 ${Q}^{\prime }\left( {a,1 + \frac{1}{a - 2}}\right)$ 就一定在函数 $y = 1 + \frac{1}{x - 2}$ 的图像上,即将点 $Q$ 向上平移 1 个单位就与点 ${Q}^{\prime }$ 重合. 反之亦然. 因此,将函数 $y = \frac{1}{x - 2}$ 的图像向上平移 1 个单位就得到函数 $y = \frac{x - 1}{x - 2}$ 的图像. 反之,将函数 $y = \frac{x - 1}{x - 2}$ 的图像向下平移 1 个单位就得到函数 $y = \frac{1}{x - 2}$ 的图像,如图 4-1-7 所示.
 
-![bo_d4slocn7aajc73fspklg_5_169_1211_368_339_0.jpg](images/bo_d4slocn7aajc73fspklg_5_169_1211_368_339_0.jpg)
+![bo_d4slocn7aajc73fspklg_5_169_1211_368_339_0.jpg](attachments/bo_d4slocn7aajc73fspklg_5_169_1211_368_339_0.jpg)
 
 图 4-1-7
 
@@ -328,7 +328,7 @@ $$
 
 再使用计算器多采集一些点, 可以粗略地作出其图像.
 
-![bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg](images/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg)
+![bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg](attachments/bo_d4slocn7aajc73fspklg_8_1154_439_298_304_0.jpg)
 
 图 4-2-1
 
@@ -344,7 +344,7 @@ $$
 
 例 3 作出指数函数 $y = {\left( \frac{1}{2}\right) }^{x}$ 的大致图像.
 
-![bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg](images/bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg)
+![bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg](attachments/bo_d4slocn7aajc73fspklg_8_1118_898_363_306_0.jpg)
 
 图 4-2-2
 
@@ -388,7 +388,7 @@ $$
 
 (2) $0 < a < 1$ 的情况. 此时指数函数 $y = {a}^{x}$ 的图像类似图 4-2-2中 $y = {\left( \frac{1}{2}\right) }^{x}$ 的图像,当 $x > 0$ 时,函数值小于 1 且大于 0, 其图像在直线 $y = 1$ 的下方,且位于 $x$ 轴的上方; 而当 $x < 0$ 时, 函数值大于 1,其图像在直线 $y = 1$ 的上方.
 
-![bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg](images/bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg)
+![bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg](attachments/bo_d4slocn7aajc73fspklg_9_170_978_362_298_0.jpg)
 
 图 4-2-3
 
@@ -560,11 +560,11 @@ $$
 
 1. 在同一平面直角坐标系中,指数函数 $y = {a}^{x}\left( {a > 0\text{ 且 }a \neq  1}\right)$ 和一次函数 $y = a\left( {x + 1}\right)$ 的图像关系可能是 ( )
 
-![bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg](images/bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg)
+![bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg](attachments/bo_d4slocn7aajc73fspklg_13_312_815_1054_264_0.jpg)
 
 (第 1 题)
 
-![bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg](images/bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg)
+![bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg](attachments/bo_d4slocn7aajc73fspklg_13_1232_1138_267_387_0.jpg)
 
 (第 2 题)
 
@@ -654,7 +654,7 @@ $$
 
 再使用计算器多采集一些点, 就可以粗略地作出其图像.
 
-![bo_d4slocn7aajc73fspklg_15_172_1013_348_270_0.jpg](images/bo_d4slocn7aajc73fspklg_15_172_1013_348_270_0.jpg)
+![bo_d4slocn7aajc73fspklg_15_172_1013_348_270_0.jpg](attachments/bo_d4slocn7aajc73fspklg_15_172_1013_348_270_0.jpg)
 
 图 4-3-1
 
@@ -668,7 +668,7 @@ $$
 
 我们把这两个图像放在同一个图上以便观察比较, 如图 4-3-1 所示.
 
-![bo_d4slocn7aajc73fspklg_15_176_1437_343_275_0.jpg](images/bo_d4slocn7aajc73fspklg_15_176_1437_343_275_0.jpg)
+![bo_d4slocn7aajc73fspklg_15_176_1437_343_275_0.jpg](attachments/bo_d4slocn7aajc73fspklg_15_176_1437_343_275_0.jpg)
 
 图 4-3-2
 
@@ -708,7 +708,7 @@ $$
 
 可得,在 $0 < a < 1$ 时,底 $a$ 小于 1 的对数函数 $y = {\log }_{a}x$ 与底 ${a}^{-1}$ 大于 1 的对数函数 $y = {\log }_{{a}^{-1}}x$ 恰相差一个符号,它们的图像关于 $x$ 轴对称.
 
-![bo_d4slocn7aajc73fspklg_16_438_1294_373_267_0.jpg](images/bo_d4slocn7aajc73fspklg_16_438_1294_373_267_0.jpg)
+![bo_d4slocn7aajc73fspklg_16_438_1294_373_267_0.jpg](attachments/bo_d4slocn7aajc73fspklg_16_438_1294_373_267_0.jpg)
 
 图 4-3-3
 
@@ -730,7 +730,7 @@ $$
 
 图像与指数函数 $y = {a}^{x}$ 的图像关于直线 $y = x$ 是对称的. 这就是说,对数函数 $y = {\log }_{a}x$ 的图像关于直线 $y = x$ 对称的图像就是指数函数 $y = {a}^{x}$ 的图像. 事实上,若点 $\left( {{x}_{0},{y}_{0}}\right)$ 在对数函数 $y = {\log }_{a}x$ 的图像上,就有 ${y}_{0} = {\log }_{a}{x}_{0}$ ,即 ${x}_{0} = {a}^{{y}_{0}}$ . 而点 $\left( {{x}_{0},{y}_{0}}\right)$ 关于直线 $y = x$ 的对称点就是 $\left( {{y}_{0},{x}_{0}}\right)$ ,由于 ${x}_{0} = {a}^{{y}_{0}}$ , 因此 $\left( {{y}_{0},{x}_{0}}\right)$ 必落在指数函数 $y = {a}^{x}$ 的图像上. 反之亦然. 如图 4-3-4所示.
 
-![bo_d4slocn7aajc73fspklg_17_631_616_780_344_0.jpg](images/bo_d4slocn7aajc73fspklg_17_631_616_780_344_0.jpg)
+![bo_d4slocn7aajc73fspklg_17_631_616_780_344_0.jpg](attachments/bo_d4slocn7aajc73fspklg_17_631_616_780_344_0.jpg)
 
 图 4-3-4
 
@@ -844,7 +844,7 @@ $$
 
 从这个例子可以看出估算对数的更多位精确小数的困难程度.
 
-![bo_d4slocn7aajc73fspklg_19_187_1577_319_472_0.jpg](images/bo_d4slocn7aajc73fspklg_19_187_1577_319_472_0.jpg)
+![bo_d4slocn7aajc73fspklg_19_187_1577_319_472_0.jpg](attachments/bo_d4slocn7aajc73fspklg_19_187_1577_319_472_0.jpg)
 
 例 7 如果不考虑空气阻力,火箭的最大速度 $v$ (单位: $\mathrm{{km}}/\mathrm{s}$ )和燃料的质量 $M$ (单位: $\mathrm{{kg}}$ )、火箭 (除燃料外) 的质量 ${m}_{0}$ (单位: $\mathrm{{kg}}$ )之间的关系是
 
@@ -896,7 +896,7 @@ $$
 {\log }_{b}x = \frac{1}{{\log }_{a}b}{\log }_{a}x, x > 0,
 $$
 
-![bo_d4slocn7aajc73fspklg_20_1128_1412_343_250_0.jpg](images/bo_d4slocn7aajc73fspklg_20_1128_1412_343_250_0.jpg)
+![bo_d4slocn7aajc73fspklg_20_1128_1412_343_250_0.jpg](attachments/bo_d4slocn7aajc73fspklg_20_1128_1412_343_250_0.jpg)
 
 图 4-3-5
 
@@ -1032,7 +1032,7 @@ C. $a\left( {a - 1}\right)  < 0$ ; D. $a\left( {a - 1}\right)  > 0$ .
 
 (2)在同一平面直角坐标系中,一次函数 $y = x + a$ 与对数函数 $y = {\log }_{a}x$ ( $a > 0$ 且 $a \neq  1)$ 的图像关系可能是 ( )
 
-![bo_d4slocn7aajc73fspklg_24_254_350_1102_294_0.jpg](images/bo_d4slocn7aajc73fspklg_24_254_350_1102_294_0.jpg)
+![bo_d4slocn7aajc73fspklg_24_254_350_1102_294_0.jpg](attachments/bo_d4slocn7aajc73fspklg_24_254_350_1102_294_0.jpg)
 
 (第 2(2)题)
 
@@ -1074,7 +1074,7 @@ C. ${\log }_{x}m > {\log }_{x}n$ ; D. ${\log }_{m}x < {\log }_{n}x$ .
 
 (2)在同一平面直角坐标系中,二次函数 $y = a{x}^{2} + {bx}$ 与指数函数 $y = {\left( \frac{b}{a}\right) }^{x}$ 的图像关系可能为 ( )
 
-![bo_d4slocn7aajc73fspklg_25_295_390_1083_288_0.jpg](images/bo_d4slocn7aajc73fspklg_25_295_390_1083_288_0.jpg)
+![bo_d4slocn7aajc73fspklg_25_295_390_1083_288_0.jpg](attachments/bo_d4slocn7aajc73fspklg_25_295_390_1083_288_0.jpg)
 
 (第 2(2)题)
 

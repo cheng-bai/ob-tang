@@ -81,7 +81,7 @@ title: 沪教版必修第二册2026-dollar
 
 ## 1 锐角的正弦、余弦、正切、余切
 
-![bo_d7fqtok91nqc7381i920_8_206_735_284_199_0.jpg](images/bo_d7fqtok91nqc7381i920_8_206_735_284_199_0.jpg)
+![bo_d7fqtok91nqc7381i920_8_206_735_284_199_0.jpg](attachments/bo_d7fqtok91nqc7381i920_8_206_735_284_199_0.jpg)
 
 图 6-1-1
 
@@ -119,7 +119,7 @@ $$
 
 在小学和初中我们已经知道, 角是具有公共端点的两条射线所组成的图形, 角还可以看作是平面上由一条射线绕着其端点从初始位置(始边)旋转到终止位置(终边)所形成的图形(图 6-1-2). 我们以前学习过的锐角、直角、钝角、平角和周角, 其大小都在 ${0}^{ \circ  }$ 到 ${360}^{ \circ  }$ 之间. 不过在体操、跳水等体育运动中,会听到转体 720°、转体1 080°等术语；当手表比标准时间慢或者快 10 分钟的时候,只需要将分针旋转 ${60}^{ \circ  }$ 就可以调节准确,但也有按顺时针和逆时针方向旋转的差异. 因此, 要准确地刻画这些现象, 对于角而言, 不但要考察旋转量, 而且要考察旋转方向, 这就需要适当推广角的概念.
 
-![bo_d7fqtok91nqc7381i920_9_1172_735_256_222_0.jpg](images/bo_d7fqtok91nqc7381i920_9_1172_735_256_222_0.jpg)
+![bo_d7fqtok91nqc7381i920_9_1172_735_256_222_0.jpg](attachments/bo_d7fqtok91nqc7381i920_9_1172_735_256_222_0.jpg)
 
 图 6-1-2
 
@@ -131,7 +131,7 @@ $$
 
 为了便于研究角及与其相关的问题,可将角置于平面直角坐标系中,使得角的顶点与坐标原点重合,角的始边与 $x$ 轴的正半轴重合. 此时角的终边在第几象限, 就说这个角是第几象限的角,或者说这个角属于第几象限. 如图 6-1-3, ${60}^{ \circ  }$ 和 ${420}^{ \circ  }$ 都是第一象限的角， ${135}^{ \circ  }$ 和 $- {225}^{ \circ  }$ 都是第二象限的角. 当角的终边在坐标轴上时, 就不说这些角属于哪一象限.
 
-![bo_d7fqtok91nqc7381i920_9_233_1475_780_282_0.jpg](images/bo_d7fqtok91nqc7381i920_9_233_1475_780_282_0.jpg)
+![bo_d7fqtok91nqc7381i920_9_233_1475_780_282_0.jpg](attachments/bo_d7fqtok91nqc7381i920_9_233_1475_780_282_0.jpg)
 
 图 6-1-3
 
@@ -185,7 +185,7 @@ $$
 
 表示角的方法, 用角度制虽很直观, 但很多情况下并不一定方便. 下面我们引入一种度量角的新方法, 为了叙述方便, 先讨论角度在 ${0}^{ \circ  }$ 到 ${360}^{ \circ  }$ 之间的情形. 观察不难发现: 在半径为 $r$ 的圆中,当圆心角为 ${360}^{ \circ  }$ 时,圆的周长为 ${2\pi r}$ ; 当圆心角为 ${180}^{ \circ  }$ 时, 半圆的弧长为 ${\pi r}$ ; 而当圆心角为 ${90}^{ \circ  }$ 时,四分之一圆的弧长为 $\frac{\pi r}{2}$ . 由初中所学习的计算扇形弧长公式可知,在给定半径的圆中, 弧的长度与相应圆心角的大小成正比例关系, 因此我们不仅可以用角度来度量弧的长度, 而且可以用弧长来度量角的大小. 具体来说,在半径为 $r$ 的圆周上,如果弧长 $l$ 所对应圆心角 $\alpha$ 的度数为 $n$ ,那么 $l$ 与 $n$ 之间的关系式为 $l = {2\pi r} \cdot  \frac{n}{360}$ ,即 $\frac{l}{r} = \; \frac{\pi }{180} \cdot  n$ ,这说明比值 $\frac{l}{r}$ 仅由角 $\alpha$ 的大小决定. 这样我们就可以用圆弧的长与圆半径的比值来表示这个圆弧所对的圆心角的大小. 相应地, 把弧长等于半径的弧所对的圆心角叫做 1 弧度 (radian) 的角(图 6-1-4). 用“弧度”作为单位来度量角的单位制叫做弧度制.
 
-![bo_d7fqtok91nqc7381i920_11_1158_788_284_259_0.jpg](images/bo_d7fqtok91nqc7381i920_11_1158_788_284_259_0.jpg)
+![bo_d7fqtok91nqc7381i920_11_1158_788_284_259_0.jpg](attachments/bo_d7fqtok91nqc7381i920_11_1158_788_284_259_0.jpg)
 
 图 6-1-4
 
@@ -235,7 +235,7 @@ ${1}^{ \circ  } = \frac{\pi }{180}$ 弧度,1 弧度 $= \frac{{180}^{ \circ  }}{\
 
 引入弧度制使得扇形的弧长和面积公式变得简洁漂亮, 更使微积分中的许多公式变得格外简明. 例如，如图 6-1-5，当扇形的圆心角为 ${n}^{ \circ  }$ ,而半径为 $r$ 时,扇形的弧长 $l$ 和面积 $S$ 的公式分别为 $l = \frac{n}{180} \times  {\pi r} = \frac{n\pi r}{180}$ 及 $S = \frac{n}{360} \times  \pi {r}^{2} = \frac{{n\pi }{r}^{2}}{360}$ . 在使用弧度制后,圆心角相应的弧度为 $\alpha  = \frac{\pi }{180} \times  n = \frac{n\pi }{180}$ ,因此上述公式可分别简化为
 
-![bo_d7fqtok91nqc7381i920_12_205_1549_284_253_0.jpg](images/bo_d7fqtok91nqc7381i920_12_205_1549_284_253_0.jpg)
+![bo_d7fqtok91nqc7381i920_12_205_1549_284_253_0.jpg](attachments/bo_d7fqtok91nqc7381i920_12_205_1549_284_253_0.jpg)
 
 图 6-1-5
 
@@ -307,7 +307,7 @@ $$
 \tan \alpha  = \frac{\left| MP\right| }{\left| OM\right| } = \frac{y}{x},\cot \alpha  = \frac{\left| OM\right| }{\left| MP\right| } = \frac{x}{y}.
 $$
 
-![bo_d7fqtok91nqc7381i920_14_201_459_292_233_0.jpg](images/bo_d7fqtok91nqc7381i920_14_201_459_292_233_0.jpg)
+![bo_d7fqtok91nqc7381i920_14_201_459_292_233_0.jpg](attachments/bo_d7fqtok91nqc7381i920_14_201_459_292_233_0.jpg)
 
 图 6-1-6
 
@@ -321,7 +321,7 @@ Q
 
 这说明锐角 $\alpha$ 的正弦、余弦、正切及余切可以用角 $\alpha$ 的终边上点的坐标来定义. 这样,就可以对任意给定的角 $\alpha$ ,定义其相应的正弦、余弦、正切及余切.
 
-![bo_d7fqtok91nqc7381i920_14_692_1182_660_461_0.jpg](images/bo_d7fqtok91nqc7381i920_14_692_1182_660_461_0.jpg)
+![bo_d7fqtok91nqc7381i920_14_692_1182_660_461_0.jpg](attachments/bo_d7fqtok91nqc7381i920_14_692_1182_660_461_0.jpg)
 
 图 6-1-7
 
@@ -375,7 +375,7 @@ $$
 
 上表的结果可用图 6-1-8 直观表示.
 
-![bo_d7fqtok91nqc7381i920_16_789_232_467_536_0.jpg](images/bo_d7fqtok91nqc7381i920_16_789_232_467_536_0.jpg)
+![bo_d7fqtok91nqc7381i920_16_789_232_467_536_0.jpg](attachments/bo_d7fqtok91nqc7381i920_16_789_232_467_536_0.jpg)
 
 图 6-1-8
 
@@ -405,7 +405,7 @@ C. $\tan \alpha$ ; D. $\cot \alpha$ .
 
 将角 $\alpha$ 的顶点置于坐标原点 $O$ ,始边与 $x$ 轴的正半轴重合, 则角 $\alpha$ 的终边与以原点为圆心的单位圆交于唯一的一点 $P\left( {x, y}\right)$ , 如图 6-1-9 所示. 这样,任意一个角 $\alpha$ 对应于单位圆上一点 $P$ ; 反之,单位圆上一点 $P$ 可对应无穷多个角,但这些角的弧度数之差必为 ${2\pi }$ 的整数倍. 由定义可知, $x = \cos \alpha , y = \sin \alpha$ . 因此, 单位圆上点 $P$ 的坐标必可以写为 $\left( {\cos \alpha ,\sin \alpha }\right)$ .
 
-![bo_d7fqtok91nqc7381i920_17_1130_230_343_292_0.jpg](images/bo_d7fqtok91nqc7381i920_17_1130_230_343_292_0.jpg)
+![bo_d7fqtok91nqc7381i920_17_1130_230_343_292_0.jpg](attachments/bo_d7fqtok91nqc7381i920_17_1130_230_343_292_0.jpg)
 
 图 6-1-9
 
@@ -413,7 +413,7 @@ C. $\tan \alpha$ ; D. $\cot \alpha$ .
 
 解 设角 $\frac{5\pi }{4}$ 的终边交以原点为圆心的单位圆于点 $P$ ,过点 $P$ 作 $x$ 轴的垂线,其垂足为 $M$ ,如图 6-1-10 所示. 在直角三角形 ${OMP}$ 中, $\angle {MOP} = \frac{\pi }{4}$ ,由此可得 $\left| {OM}\right|  = \frac{\sqrt{2}}{2},\left| {MP}\right|  = \frac{\sqrt{2}}{2}$ ,所以点 $P$ 的坐标为 $\left( {-\frac{\sqrt{2}}{2}, - \frac{\sqrt{2}}{2}}\right)$ . 于是, $\sin \frac{5\pi }{4} =  - \frac{\sqrt{2}}{2},\cos \frac{5\pi }{4} = \; - \frac{\sqrt{2}}{2}$ ,而 $\tan \frac{5\pi }{4} = 1$ .
 
-![bo_d7fqtok91nqc7381i920_17_1159_651_277_274_0.jpg](images/bo_d7fqtok91nqc7381i920_17_1159_651_277_274_0.jpg)
+![bo_d7fqtok91nqc7381i920_17_1159_651_277_274_0.jpg](attachments/bo_d7fqtok91nqc7381i920_17_1159_651_277_274_0.jpg)
 
 图 6-1-10
 
@@ -625,7 +625,7 @@ ${2k\pi } + \alpha \left( {k \in  \mathbf{Z}}\right) , - \alpha ,\pi  \pm  \alph
 
 由于角 ${2k\pi } + \alpha \left( {k \in  \mathbf{Z}}\right)$ 的终边与角 $\alpha$ 的终边重合,因此由定义有如下诱导公式:
 
-![bo_d7fqtok91nqc7381i920_21_1161_974_278_273_0.jpg](images/bo_d7fqtok91nqc7381i920_21_1161_974_278_273_0.jpg)
+![bo_d7fqtok91nqc7381i920_21_1161_974_278_273_0.jpg](attachments/bo_d7fqtok91nqc7381i920_21_1161_974_278_273_0.jpg)
 
 图 6-1-11
 
@@ -653,13 +653,13 @@ $$
 \tan \left( {\pi  + \alpha }\right)  = \tan \alpha ,\;\cot \left( {\pi  + \alpha }\right)  = \cot \alpha .
 $$
 
-![bo_d7fqtok91nqc7381i920_21_1159_1605_278_272_0.jpg](images/bo_d7fqtok91nqc7381i920_21_1159_1605_278_272_0.jpg)
+![bo_d7fqtok91nqc7381i920_21_1159_1605_278_272_0.jpg](attachments/bo_d7fqtok91nqc7381i920_21_1159_1605_278_272_0.jpg)
 
 图 6-1-12
 
 由这组诱导公式,求 $\lbrack 0,{2\pi })$ 范围内的角的正弦、余弦、正切及余切值可以转化到 $\lbrack 0,\pi )$ 范围内一个角的相应值.
 
-![bo_d7fqtok91nqc7381i920_22_209_347_274_271_0.jpg](images/bo_d7fqtok91nqc7381i920_22_209_347_274_271_0.jpg)
+![bo_d7fqtok91nqc7381i920_22_209_347_274_271_0.jpg](attachments/bo_d7fqtok91nqc7381i920_22_209_347_274_271_0.jpg)
 
 图 6-1-13
 
@@ -757,7 +757,7 @@ $$
 \tan \left( {\frac{\pi }{2} - \alpha }\right)  = \cot \alpha ,\;\cot \left( {\frac{\pi }{2} - \alpha }\right)  = \tan \alpha .
 $$
 
-![bo_d7fqtok91nqc7381i920_23_1154_1787_282_276_0.jpg](images/bo_d7fqtok91nqc7381i920_23_1154_1787_282_276_0.jpg)
+![bo_d7fqtok91nqc7381i920_23_1154_1787_282_276_0.jpg](attachments/bo_d7fqtok91nqc7381i920_23_1154_1787_282_276_0.jpg)
 
 图 6-1-14
 
@@ -831,7 +831,7 @@ $$
 
 例 19 已知点 $A$ 的坐标为 $\left( {-\frac{3}{5},\frac{4}{5}}\right)$ ,将 ${OA}$ 绕坐标原点 $O$ 逆时针旋转 $\frac{\pi }{2}$ 至 $O{A}^{\prime }$ . 求点 ${A}^{\prime }$ 的坐标.
 
-![bo_d7fqtok91nqc7381i920_26_165_332_364_280_0.jpg](images/bo_d7fqtok91nqc7381i920_26_165_332_364_280_0.jpg)
+![bo_d7fqtok91nqc7381i920_26_165_332_364_280_0.jpg](attachments/bo_d7fqtok91nqc7381i920_26_165_332_364_280_0.jpg)
 
 图 6-1-15
 
@@ -865,7 +865,7 @@ $$
 
 如果 $\alpha$ 是锐角,且满足 $\sin \alpha  = \frac{1}{2}$ ,那么 $\alpha  = \frac{\pi }{6}$ . 如果不限定 $\alpha$ 是锐角,那么由诱导公式 $\sin \left( {\pi  - \alpha }\right)  = \sin \alpha  = \frac{1}{2}$ 可知, $\alpha  = \frac{5\pi }{6}$ 也满足 $\sin \alpha  = \frac{1}{2}$ . 再由诱导公式 $\sin \left( {{2k\pi } + \alpha }\right)  = \sin \alpha \left( {k \in  \mathbf{Z}}\right)$ 可知, $\alpha  = {2k\pi } + \frac{\pi }{6}$ 或 $\alpha  = {2k\pi } + \frac{5\pi }{6}\left( {k \in  \mathbf{Z}}\right)$ 都满足 $\sin \alpha  = \frac{1}{2}$ . 那么,是否还有其他的角 $\alpha$ 满足 $\sin \alpha  = \frac{1}{2}$ 呢? 下面我们就来研究这个问题.
 
-![bo_d7fqtok91nqc7381i920_27_144_349_964_341_0.jpg](images/bo_d7fqtok91nqc7381i920_27_144_349_964_341_0.jpg)
+![bo_d7fqtok91nqc7381i920_27_144_349_964_341_0.jpg](attachments/bo_d7fqtok91nqc7381i920_27_144_349_964_341_0.jpg)
 
 图 6-1-16
 
@@ -1089,11 +1089,11 @@ C. 小于 ${180}^{ \circ  }$ 的正角; D. 钝角.
 
 设 $\alpha \text{ 、 }\beta$ 为任意给定的两个角,把它们的顶点置于平面直角坐标系的原点 $O$ ,始边都与 $x$ 轴的正半轴重合,而它们的终边分别与单位圆相交于 $A\text{ 、 }B$ 两点 (图 6-2-1). 点 $A\text{ 、 }B$ 的坐标分别为 $A\left( {\cos \alpha ,\sin \alpha }\right) \text{ 、 }B\left( {\cos \beta ,\sin \beta }\right)$ .
 
-![bo_d7fqtok91nqc7381i920_33_141_1520_472_276_0.jpg](images/bo_d7fqtok91nqc7381i920_33_141_1520_472_276_0.jpg)
+![bo_d7fqtok91nqc7381i920_33_141_1520_472_276_0.jpg](attachments/bo_d7fqtok91nqc7381i920_33_141_1520_472_276_0.jpg)
 
 图 6-2-1
 
-![bo_d7fqtok91nqc7381i920_33_663_1523_447_270_0.jpg](images/bo_d7fqtok91nqc7381i920_33_663_1523_447_270_0.jpg)
+![bo_d7fqtok91nqc7381i920_33_663_1523_447_270_0.jpg](attachments/bo_d7fqtok91nqc7381i920_33_663_1523_447_270_0.jpg)
 
 图 6-2-2
 
@@ -1407,7 +1407,7 @@ $$
 = \tan A\tan B\tan C\text{ . }
 $$
 
-![bo_d7fqtok91nqc7381i920_38_205_1865_282_194_0.jpg](images/bo_d7fqtok91nqc7381i920_38_205_1865_282_194_0.jpg)
+![bo_d7fqtok91nqc7381i920_38_205_1865_282_194_0.jpg](attachments/bo_d7fqtok91nqc7381i920_38_205_1865_282_194_0.jpg)
 
 图 6-2-3
 
@@ -1817,7 +1817,7 @@ $$
 
 如图 6-2-4, ${AB}$ 是圆心为 $O$ 且半径为 1 的圆的一条直径,点 $C$ 为圆上一点. 连接 ${CO}$ ,并过点 $C$ 作 ${CD} \bot  {AB}$ ,记其垂足为 $D$ . 设 $\angle {CAB} = \theta$ ,则 $\angle {COB} = {2\theta }$ . 因为 ${AB}$ 为圆 $O$ 的一条直径,所以 $\angle {ACB} = {90}^{ \circ  }$ .
 
-![bo_d7fqtok91nqc7381i920_47_1144_1773_329_287_0.jpg](images/bo_d7fqtok91nqc7381i920_47_1144_1773_329_287_0.jpg)
+![bo_d7fqtok91nqc7381i920_47_1144_1773_329_287_0.jpg](attachments/bo_d7fqtok91nqc7381i920_47_1144_1773_329_287_0.jpg)
 
 图 6-2-4
 
@@ -1837,7 +1837,7 @@ $$
 
 例如,某林场为了及时发现火情,设立了两个观测点 $A$ 和 $B$ . 某日两个观测点的林场人员都观测到 $C$ 处出现火情. 在 $A$ 处观测到火情发生在北偏西 ${40}^{ \circ  }$ 方向,而在 $B$ 处观测到火情在北偏西 ${60}^{ \circ  }$ 方向. 已知 $B$ 在 $A$ 的正东方向 ${10}\mathrm{\;{km}}$ 处 (图 6-3-1),要确定火场 $C$ 分别距 $A$ 及 $B$ 多远. 将此问题转化为数学问题: 在 $\bigtriangleup {ABC}$ 中,已知 $\angle {CAB} = {130}^{ \circ  },\angle {CBA} = {30}^{ \circ  },{AB} = {10}\mathrm{\;{km}}$ . 求 ${AC}$ 与 ${BC}$ 的长.
 
-![bo_d7fqtok91nqc7381i920_49_1173_1073_257_212_0.jpg](images/bo_d7fqtok91nqc7381i920_49_1173_1073_257_212_0.jpg)
+![bo_d7fqtok91nqc7381i920_49_1173_1073_257_212_0.jpg](attachments/bo_d7fqtok91nqc7381i920_49_1173_1073_257_212_0.jpg)
 
 图 6-3-1
 
@@ -1845,7 +1845,7 @@ $$
 
 在 $\bigtriangleup {ABC}$ 中,无论 $A$ 为锐角、直角还是钝角,对边 ${AB}$ 上的高 $h$ ,都有 $h = b\sin A$ ,其中 $b$ 为边 ${AC}$ 的长. 为了避免分类讨论, 我们借助平面直角坐标系来统一处理.
 
-![bo_d7fqtok91nqc7381i920_49_1139_1599_321_208_0.jpg](images/bo_d7fqtok91nqc7381i920_49_1139_1599_321_208_0.jpg)
+![bo_d7fqtok91nqc7381i920_49_1139_1599_321_208_0.jpg](attachments/bo_d7fqtok91nqc7381i920_49_1139_1599_321_208_0.jpg)
 
 图 6-3-2
 
@@ -1915,7 +1915,7 @@ $$
 
 ---
 
-![bo_d7fqtok91nqc7381i920_51_1152_227_295_249_0.jpg](images/bo_d7fqtok91nqc7381i920_51_1152_227_295_249_0.jpg)
+![bo_d7fqtok91nqc7381i920_51_1152_227_295_249_0.jpg](attachments/bo_d7fqtok91nqc7381i920_51_1152_227_295_249_0.jpg)
 
 图 6-3-3
 
@@ -2217,9 +2217,9 @@ ${c}^{2} = {a}^{2} + {b}^{2} - {2ab}\cos C = {25} + {16} - 2 \times  5 \times  4
 
 (3) $\tan x =  - 2, x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ ； (4) $\sin x =  - \frac{2}{3}, x \in  \mathbf{R}$ .
 
-![bo_d7fqtok91nqc7381i920_56_178_1357_338_495_0.jpg](images/bo_d7fqtok91nqc7381i920_56_178_1357_338_495_0.jpg)
+![bo_d7fqtok91nqc7381i920_56_178_1357_338_495_0.jpg](attachments/bo_d7fqtok91nqc7381i920_56_178_1357_338_495_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_56_188_1910_319_143_0.jpg](images/bo_d7fqtok91nqc7381i920_56_188_1910_319_143_0.jpg)
+![bo_d7fqtok91nqc7381i920_56_188_1910_319_143_0.jpg](attachments/bo_d7fqtok91nqc7381i920_56_188_1910_319_143_0.jpg)
 
 图 6-3-4
 
@@ -2243,7 +2243,7 @@ $$
 
 例 11 甲船在距离 $A$ 港口 24 海里并在南偏西 ${20}^{ \circ  }$ 方向的 $C$ 处驻留等候进港,乙船在 $A$ 港口南偏东 ${40}^{ \circ  }$ 方向的 $B$ 处沿直线行驶入港，甲、乙两船距离为 31 海里. 当乙船行驶 20 海里到达 $D$ 处时,接到港口指令,前往救援忽然发生火灾的甲船. 求此时甲、乙两船之间的距离.
 
-![bo_d7fqtok91nqc7381i920_57_1148_778_306_270_0.jpg](images/bo_d7fqtok91nqc7381i920_57_1148_778_306_270_0.jpg)
+![bo_d7fqtok91nqc7381i920_57_1148_778_306_270_0.jpg](attachments/bo_d7fqtok91nqc7381i920_57_1148_778_306_270_0.jpg)
 
 图 6-3-5
 
@@ -2285,7 +2285,7 @@ $$
 
 3. 修建铁路时要在一个山体上开挖一隧道,需要测量隧道口 $D$ 、 $E$ 之间的距离. 测量人员在山的一侧选取点 $C$ ,因有障碍物,无法直接测得 ${CE}$ 及 ${DE}$ 的距离. 现测得 ${CA} = {482.80}\mathrm{\;m},{CB} = {631.50}\mathrm{\;m}$ , $\angle {ACB} = {56.3}^{ \circ  }$ ; 又测得 $A$ 及 $B$ 两点到隧道口的距离分别是 ${80.13}\mathrm{\;m}$ 及 ${40.24}\mathrm{\;m}\left( {A\text{ 、 }D\text{ 、 }E\text{ 、 }B}\right.$ 在同一直线上). 求隧道 ${DE}$ 的长. (结果精确到 $1\mathrm{\;m}$ )
 
-![bo_d7fqtok91nqc7381i920_58_1214_227_292_275_0.jpg](images/bo_d7fqtok91nqc7381i920_58_1214_227_292_275_0.jpg)
+![bo_d7fqtok91nqc7381i920_58_1214_227_292_275_0.jpg](attachments/bo_d7fqtok91nqc7381i920_58_1214_227_292_275_0.jpg)
 
 (第 3 题)
 
@@ -2317,7 +2317,7 @@ $$
 
 10. 如图,自动卸货汽车采用液压机构,设计时需要计算油泵顶杆 ${BC}$ 的长度. 已知车厢的最大仰角为 ${60}^{ \circ  }$ ,油泵顶点 $B$ 与车厢支点 $A$ 之间的距离为 ${1.95}\mathrm{\;m},{AB}$ 与水平线之间的夹角为 ${6}^{ \circ  }{20}^{\prime },{AC}$ 的长为 ${1.4}\mathrm{\;m}$ . 计算 ${BC}$ 的长. (结果精确到 ${0.01}\mathrm{\;m}$ )
 
-![bo_d7fqtok91nqc7381i920_58_431_1810_818_354_0.jpg](images/bo_d7fqtok91nqc7381i920_58_431_1810_818_354_0.jpg)
+![bo_d7fqtok91nqc7381i920_58_431_1810_818_354_0.jpg](attachments/bo_d7fqtok91nqc7381i920_58_431_1810_818_354_0.jpg)
 
 (第 10 题)
 
@@ -2345,7 +2345,7 @@ B 组
 
 7. 某船在海面 $A$ 处测得灯塔 $C$ 在北偏东 ${30}^{ \circ  }$ 方向，与 $A$ 相距 ${10}\sqrt{3}$ 海里，且测得灯塔 $B$ 在北偏西 ${75}^{ \circ  }$ 方向,与 $A$ 相距 ${15}\sqrt{6}$ 海里. 船由 $A$ 向正北方向航行到 $D$ 处,测得灯塔 $B$ 在南偏西 ${60}^{ \circ  }$ 方向. 这时灯塔 $C$ 与 $D$ 相距多少海里? $C$ 在 $D$ 的什么方向?
 
-![bo_d7fqtok91nqc7381i920_59_1109_1296_359_275_0.jpg](images/bo_d7fqtok91nqc7381i920_59_1109_1296_359_275_0.jpg)
+![bo_d7fqtok91nqc7381i920_59_1109_1296_359_275_0.jpg](attachments/bo_d7fqtok91nqc7381i920_59_1109_1296_359_275_0.jpg)
 
 (第 8 题)
 
@@ -2377,7 +2377,7 @@ B 组
 
 1450 年前的三角学主要是球面三角, 而大地上的测量学还是采用几何方法. 最早将三角学从天文学中独立出来的代表人物是德国数学家约翰·穆勒(J. Müller), 其笔名雷格蒙塔努斯(J. Regiomontanus)更广为人知. 他在 1464 年完成了 5 卷本《论各种三角形》. 这部著作首次对三角学作出了系统性阐述，将平面三角、球面几何和球面三角中有关的知识综合起来, 建立了现代三角学的雏形. 法国数学家韦达将平面和球面三角进一步系统化并加以发展. 正是由于众多数学家的努力, 16 世纪三角学从天文学中分离出来, 成为数学的一个独立分支.
 
-![bo_d7fqtok91nqc7381i920_61_148_410_466_361_0.jpg](images/bo_d7fqtok91nqc7381i920_61_148_410_466_361_0.jpg)
+![bo_d7fqtok91nqc7381i920_61_148_410_466_361_0.jpg](attachments/bo_d7fqtok91nqc7381i920_61_148_410_466_361_0.jpg)
 
 徐光启(1562-1633)，明末科学家，字子先，上海人. 曾译拉丁文 sinus 为 “正弦”，这是现在我们所用 “正弦”这一术语的由来. 徐光启等人还编写了《测量法义》和 《测量异同》. 在这些著作中, 不仅有我们熟悉的正弦定理, 还比较系统地给出了直角三角形和斜三角形的解法. 徐光启将西方的三角知识传播到了中国，并与意大利人利玛窦(M. Ricci)合作翻译了《几何原本》的前 6 卷，被称为中国近代科学的先驱.
 
@@ -2557,11 +2557,11 @@ D. $\tan x =  - \sqrt{3}$ 的解集为 $\left\{  {x\left| {\;x = {k\pi } - \frac
 
 4. 如图,要在 $A$ 和 $D$ 两地之间修建一条笔直的隧道,现在从 $B$ 地和 $C$ 地测量得到: $\angle {DBC} = {24.2}^{ \circ  },\angle {DCB} = {35.4}^{ \circ  },\angle {DBA} = {31.6}^{ \circ  }$ , $\angle {DCA} = {17.5}^{ \circ  }$ . 试求 $\angle {DAB}$ 以确定隧道 ${AD}$ 的方向. (结果精确到 $\left. {0.1}^{ \circ  }\right)$
 
-![bo_d7fqtok91nqc7381i920_65_1179_1793_292_298_0.jpg](images/bo_d7fqtok91nqc7381i920_65_1179_1793_292_298_0.jpg)
+![bo_d7fqtok91nqc7381i920_65_1179_1793_292_298_0.jpg](attachments/bo_d7fqtok91nqc7381i920_65_1179_1793_292_298_0.jpg)
 
 (第 4 题)
 
-![bo_d7fqtok91nqc7381i920_67_0_0_1654_1028_0.jpg](images/bo_d7fqtok91nqc7381i920_67_0_0_1654_1028_0.jpg)
+![bo_d7fqtok91nqc7381i920_67_0_0_1654_1028_0.jpg](attachments/bo_d7fqtok91nqc7381i920_67_0_0_1654_1028_0.jpg)
 
 ## 第 7 章 三角函数
 
@@ -2581,7 +2581,7 @@ D. $\tan x =  - \sqrt{3}$ 的解集为 $\left\{  {x\left| {\;x = {k\pi } - \frac
 
 为了描出 $y = \sin x$ 图像上的某个点 $M\left( {\alpha ,\sin \alpha }\right)$ ,先在平面直角坐标系的 $x$ 轴上任取一点 ${O}_{1}$ ,以点 ${O}_{1}$ 为圆心的单位圆与 $x$ 轴有两个交点,其中右边的一个交点记作 $A$ (图 7-1-1). 设 $P$ 是此单位圆上一点, $\angle A{O}_{1}P = \alpha$ ,作 ${PQ}$ 垂直于 $x$ 轴,其垂足为 Q. 对比以坐标原点 $O$ 为圆心的单位圆中角 $\alpha$ 的终边与单位圆的交点,可知点 $P$ 的纵坐标为 $\sin \alpha$ ,而 ${QP}$ 的长是 $\left| {\sin \alpha }\right|$ . 在 $x$ 轴上取点 $N\left( {\alpha ,0}\right)$ ,将线段 ${QP}$ 平移至 ${NM}$ 的位置使点 $Q$ 与点 $N$ 重合,从而点 $M$ 的坐标为 $\left( {\alpha ,\sin \alpha }\right)$ ,这样就得到了函数 $y = \sin x$ 图像上的一点 $M$ .
 
-![bo_d7fqtok91nqc7381i920_68_774_1802_500_258_0.jpg](images/bo_d7fqtok91nqc7381i920_68_774_1802_500_258_0.jpg)
+![bo_d7fqtok91nqc7381i920_68_774_1802_500_258_0.jpg](attachments/bo_d7fqtok91nqc7381i920_68_774_1802_500_258_0.jpg)
 
 图 7-1-1
 
@@ -2597,19 +2597,19 @@ D. $\tan x =  - \sqrt{3}$ 的解集为 $\left\{  {x\left| {\;x = {k\pi } - \frac
 
 方便起见,我们先将单位圆 ${O}_{1}$ 分为 12 等份 (等份数越多, 作出的图像越精确),使得角 $\alpha$ 的弧度数依次取 $0\text{ 、 }\frac{\pi }{6}\text{ 、 }\frac{\pi }{3}\text{ 、 }\frac{\pi }{2}\text{ 、 }\cdots$ . ${2\pi }$ ,再借助圆 ${O}_{1}$ 得到对应的纵坐标,依次作出函数 $y = \; \sin x$ 图像上的点 $\left( {0,\sin 0}\right) \text{ 、 }\left( {\frac{\pi }{6},\sin \frac{\pi }{6}}\right) \text{ 、 }\left( {\frac{\pi }{3},\sin \frac{\pi }{3}}\right)$ 、 $\left( {\frac{\pi }{2},\sin \frac{\pi }{2}}\right) \text{ 、 }\cdots \text{ 、 }\left( {{2\pi },\sin {2\pi }}\right)$ ,用光滑的曲线将这些点连接起来,就得到正弦函数 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的大致图像 (图 7-1-2).
 
-![bo_d7fqtok91nqc7381i920_69_228_757_792_314_0.jpg](images/bo_d7fqtok91nqc7381i920_69_228_757_792_314_0.jpg)
+![bo_d7fqtok91nqc7381i920_69_228_757_792_314_0.jpg](attachments/bo_d7fqtok91nqc7381i920_69_228_757_792_314_0.jpg)
 
 图 7-1-2
 
 因为 $\sin \left( {x + {2k\pi }}\right)  = \sin x, k \in  \mathbf{Z}$ ,所以函数 $y = \sin x$ 当 $x \in  \left\lbrack  {{2\pi },{4\pi }}\right\rbrack  , x \in  \left\lbrack  {{4\pi },{6\pi }}\right\rbrack  ,\cdots$ 时的图像与 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的图像形状完全一样,只需将后者向右平移 ${2\pi }\text{ 、 }{4\pi }\text{ 、 }\cdots$ 就可得到. 同样,函数 $y = \sin x$ 当 $x \in  \left\lbrack  {-{2\pi },0}\right\rbrack  , x \in  \left\lbrack  {-{4\pi }, - {2\pi }}\right\rbrack  ,\cdots$ 时的图像与 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的图像形状也完全一样,只需将后者向左平移 ${2\pi }\text{ 、 }{4\pi }\text{ 、 }\cdots$ 就可得到. 这样,就可以得到函数 $y = \sin x$ 的图像 (图 7-1-3). 正弦函数 $y = \sin x$ 的图像通常称为正弦曲线.
 
-![bo_d7fqtok91nqc7381i920_69_173_1619_903_219_0.jpg](images/bo_d7fqtok91nqc7381i920_69_173_1619_903_219_0.jpg)
+![bo_d7fqtok91nqc7381i920_69_173_1619_903_219_0.jpg](attachments/bo_d7fqtok91nqc7381i920_69_173_1619_903_219_0.jpg)
 
 图 7-1-3
 
 从图 7-1-2 可知， $\left( {0,0}\right) \text{ 、 }\left( {\frac{\pi }{2},1}\right) \text{ 、 }\left( {\pi ,0}\right) \text{ 、 }\left( {\frac{3\pi }{2}, - 1}\right)$ 和 $\left( {{2\pi },0}\right)$ 是函数 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 图像的五个关键点. 我们描出这五个点, 并用光滑的曲线将它们连接起来, 就得到函数 $y = \sin x, x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的大致图像 (图 7-1-4).
 
-![bo_d7fqtok91nqc7381i920_70_749_290_544_249_0.jpg](images/bo_d7fqtok91nqc7381i920_70_749_290_544_249_0.jpg)
+![bo_d7fqtok91nqc7381i920_70_749_290_544_249_0.jpg](attachments/bo_d7fqtok91nqc7381i920_70_749_290_544_249_0.jpg)
 
 图 7-1-4
 
@@ -2625,7 +2625,7 @@ D. $\tan x =  - \sqrt{3}$ 的解集为 $\left\{  {x\left| {\;x = {k\pi } - \frac
 
 描点并用光滑曲线把它们连接起来,就得到 $y = 1 - \sin x$ , $x \in  \left\lbrack  {0,{2\pi }}\right\rbrack$ 的大致图像 (图 7-1-5).
 
-![bo_d7fqtok91nqc7381i920_70_787_1380_472_278_0.jpg](images/bo_d7fqtok91nqc7381i920_70_787_1380_472_278_0.jpg)
+![bo_d7fqtok91nqc7381i920_70_787_1380_472_278_0.jpg](attachments/bo_d7fqtok91nqc7381i920_70_787_1380_472_278_0.jpg)
 
 图 7-1-5
 
@@ -2759,7 +2759,7 @@ $\sin \frac{7\pi }{6} =  - \sin \frac{\pi }{6} =  - \frac{1}{2}.$
 
 3. 现实生活中常碰到类似于周期的现象. 根据图中标出的尺度估算下列心电图的周期. (其中横轴的单位是 $2\mathrm{\;{ms}},1\mathrm{\;s} = {1000}\mathrm{{ms}}$ ; 纵轴的单位是 $\mathrm{{mV}}$ )
 
-![bo_d7fqtok91nqc7381i920_74_444_1040_786_169_0.jpg](images/bo_d7fqtok91nqc7381i920_74_444_1040_786_169_0.jpg)
+![bo_d7fqtok91nqc7381i920_74_444_1040_786_169_0.jpg](attachments/bo_d7fqtok91nqc7381i920_74_444_1040_786_169_0.jpg)
 
 (第 3 题)
 
@@ -2769,7 +2769,7 @@ $\sin \frac{7\pi }{6} =  - \sin \frac{\pi }{6} =  - \frac{1}{2}.$
 
 设角 $x$ 的终边与以原点为圆心的单位圆交于点 $P$ (图7-1-6), 点 $P$ 的坐标为 $\left( {u, v}\right)$ . 由正弦的定义, $\sin x = v$ ,于是有 $\left| {\sin x}\right| \; = \left| v\right|  \leq  1$ .
 
-![bo_d7fqtok91nqc7381i920_74_863_1762_320_281_0.jpg](images/bo_d7fqtok91nqc7381i920_74_863_1762_320_281_0.jpg)
+![bo_d7fqtok91nqc7381i920_74_863_1762_320_281_0.jpg](attachments/bo_d7fqtok91nqc7381i920_74_863_1762_320_281_0.jpg)
 
 图 7-1-6
 
@@ -2873,7 +2873,7 @@ $$
 
 例 6 如图 7-1-7,在一个半径为 $r$ 的半圆形铁板中,截取一块矩形 ${ABCD}$ ,使得矩形的顶点 $A\text{ 、 }B$ 在半圆的直径上, $C\text{ 、 }D$ 在半圆弧上. 问: 如何截取矩形 ${ABCD}$ ,使其面积达到最大值? 并求出这个最大值.
 
-![bo_d7fqtok91nqc7381i920_77_1163_511_273_175_0.jpg](images/bo_d7fqtok91nqc7381i920_77_1163_511_273_175_0.jpg)
+![bo_d7fqtok91nqc7381i920_77_1163_511_273_175_0.jpg](attachments/bo_d7fqtok91nqc7381i920_77_1163_511_273_175_0.jpg)
 
 图 7-1-7
 
@@ -2901,7 +2901,7 @@ $$
 
 2. 求下列函数的最大值与最小值:
 
-![bo_d7fqtok91nqc7381i920_77_1110_1714_361_315_0.jpg](images/bo_d7fqtok91nqc7381i920_77_1110_1714_361_315_0.jpg)
+![bo_d7fqtok91nqc7381i920_77_1110_1714_361_315_0.jpg](attachments/bo_d7fqtok91nqc7381i920_77_1110_1714_361_315_0.jpg)
 
 (第 3 题)
 
@@ -2961,7 +2961,7 @@ $$
 
 由于正弦函数是以 ${2\pi }$ 为最小正周期的周期函数,因此在研究它的单调区间时,只需选择一个长度为 ${2\pi }$ 的合适的区间进行考察. 方便起见,我们可以在 $\left\lbrack  {-\frac{\pi }{2},\frac{3\pi }{2}}\right\rbrack$ 上研究正弦函数 $y = \sin x$ 的单调性.
 
-![bo_d7fqtok91nqc7381i920_79_329_455_590_259_0.jpg](images/bo_d7fqtok91nqc7381i920_79_329_455_590_259_0.jpg)
+![bo_d7fqtok91nqc7381i920_79_329_455_590_259_0.jpg](attachments/bo_d7fqtok91nqc7381i920_79_329_455_590_259_0.jpg)
 
 图 7-1-8
 
@@ -3047,13 +3047,13 @@ $$
 
 一个质量为 $m$ 的质点绕点 $O$ 按逆时针方向做匀速圆周运动. 设圆的半径为 $r$ ,而质点运动的角速度为 $\omega$ . 以圆心 $O$ 为坐标原点,圆心 $O$ 与质点的初始位置 $B$ 的连线为 $x$ 轴,建立如图 7-1-9 所示的平面直角坐标系. 经过一段时间 $t$ ,该质点沿圆周从点 $B$ 运动到点 $P\left( {x, y}\right)$ . 由于 ${OP}$ 为角 ${\omega t}$ 的终边,由正弦和余弦的定义,有 $\left\{  \begin{array}{l} x = r\cos {\omega t}, \\  y = r\sin {\omega t}. \end{array}\right.$ 这说明匀速圆周运动在水平方向和竖直方向的投影分别按余弦规律和正弦规律随时间 $t$ 而变化.
 
-![bo_d7fqtok91nqc7381i920_81_1183_1332_285_264_0.jpg](images/bo_d7fqtok91nqc7381i920_81_1183_1332_285_264_0.jpg)
+![bo_d7fqtok91nqc7381i920_81_1183_1332_285_264_0.jpg](attachments/bo_d7fqtok91nqc7381i920_81_1183_1332_285_264_0.jpg)
 
 图 7-1-9
 
 从物理学知识知道,质点做匀速圆周运动所需要的向心力的大小是 $m{\omega }^{2}r$ ,方向指向圆心. 向心力的竖直分力为 ${F}_{y} =  - m{\omega }^{2}r\sin {\omega t} =  - m{\omega }^{2}y$ . 记常数 $k = m{\omega }^{2}$ ,就有 ${F}_{y} =  - {ky}$ ,从而质点所受合力的竖直分力与竖直位移成正比且方向相反,这正和简谐运动中质点 (如图 7-1-10 中连接在弹簧上的小球) 的受力情况相仿. 由此类比, 我们知道匀速圆周运动在竖直方向上的投影就是一个简谐运动,它的位移随时间的变化关系为 $y = A\sin {\omega t}$ . 更一般地,如果不要求 $t = 0$ 时 $y = 0$ ,就有 $y = A\sin \left( {{\omega t} + \varphi }\right)$ .
 
-![bo_d7fqtok91nqc7381i920_81_1128_1959_343_96_0.jpg](images/bo_d7fqtok91nqc7381i920_81_1128_1959_343_96_0.jpg)
+![bo_d7fqtok91nqc7381i920_81_1128_1959_343_96_0.jpg](attachments/bo_d7fqtok91nqc7381i920_81_1128_1959_343_96_0.jpg)
 
 图 7-1-10
 
@@ -3109,11 +3109,11 @@ $$
 
 6. 设半圆 $O$ 的直径为 2,而 $A$ 为直径延长线上的一点,且 ${OA} = 2$ . 对半圆上任意给定的一点 $B$ ,以 ${AB}$ 为一边作等边三角形 ${ABC}$ ,使 $\bigtriangleup {ABC}$ 和 $\bigtriangleup {ABO}$ 在 ${AB}$ 的两侧 (如图所示). 求四边形 ${OACB}$ 面积的最大值,并求使四边形 ${OACB}$ 面积取得最大值时的 $\angle {AOB}$ 的大小.
 
-![bo_d7fqtok91nqc7381i920_83_222_806_322_208_0.jpg](images/bo_d7fqtok91nqc7381i920_83_222_806_322_208_0.jpg)
+![bo_d7fqtok91nqc7381i920_83_222_806_322_208_0.jpg](attachments/bo_d7fqtok91nqc7381i920_83_222_806_322_208_0.jpg)
 
 (第 6 题)
 
-![bo_d7fqtok91nqc7381i920_83_757_740_635_279_0.jpg](images/bo_d7fqtok91nqc7381i920_83_757_740_635_279_0.jpg)
+![bo_d7fqtok91nqc7381i920_83_757_740_635_279_0.jpg](attachments/bo_d7fqtok91nqc7381i920_83_757_740_635_279_0.jpg)
 
 (第 7 题)
 
@@ -3135,7 +3135,7 @@ $$
 
 但是,由于已经知道了正弦函数 $y = \sin x$ 的图像,我们可以简便地利用余弦函数与正弦函数的关系来作出余弦函数的图像. 事实上,由于 $\cos x = \sin \left( {x + \frac{\pi }{2}}\right)$ 对任意的 $x \in  \mathbf{R}$ 都成立,因此余弦函数 $y = \cos x$ 与函数 $y = \sin \left( {x + \frac{\pi }{2}}\right)$ 是同一个函数,从而它们的图像相同. 由于将正弦函数 $y = \sin x$ 的图像向左平移 $\frac{\pi }{2}$ 就得到函数 $y = \sin \left( {x + \frac{\pi }{2}}\right)$ 的图像,即 $y = \cos x$ 的图像 (图 7-2-1). 余弦函数的图像通常称为余弦曲线.
 
-![bo_d7fqtok91nqc7381i920_84_551_1714_944_220_0.jpg](images/bo_d7fqtok91nqc7381i920_84_551_1714_944_220_0.jpg)
+![bo_d7fqtok91nqc7381i920_84_551_1714_944_220_0.jpg](attachments/bo_d7fqtok91nqc7381i920_84_551_1714_944_220_0.jpg)
 
 图 7-2-1
 
@@ -3143,7 +3143,7 @@ $$
 
 ---
 
-![bo_d7fqtok91nqc7381i920_84_221_1773_254_192_0.jpg](images/bo_d7fqtok91nqc7381i920_84_221_1773_254_192_0.jpg)
+![bo_d7fqtok91nqc7381i920_84_221_1773_254_192_0.jpg](attachments/bo_d7fqtok91nqc7381i920_84_221_1773_254_192_0.jpg)
 
 如图, 拨动弹簧片后，弹簧片端点离开平衡位置的位移 $s$ 随时间 $t$ 呈余弦曲线的变化规律.
 
@@ -3281,7 +3281,7 @@ C. 最小正周期为 $\frac{\pi }{2}$ 的奇函数; D. 最小正周期为 $\fra
 
 以分针的旋转中心为坐标原点,建立如图 7-3-1 所示的平面直角坐标系. 设指向点 $P$ 的针尖末端对应的点的纵坐标为 $y$ ,因为分针每分钟旋转 $\frac{\pi }{30}$ 弧度,所以针尖末端对应的点在角 $- \frac{\pi }{30}t + \frac{\pi }{6}$ (弧度)的终边上,从而其纵坐标 $y$ 关于时间 $t$ 变化的函数关系为 $y = A\sin \left( {-\frac{\pi }{30}t + \frac{\pi }{6}}\right) , t \in  \lbrack 0, + \infty ).$
 
-![bo_d7fqtok91nqc7381i920_88_196_631_303_303_0.jpg](images/bo_d7fqtok91nqc7381i920_88_196_631_303_303_0.jpg)
+![bo_d7fqtok91nqc7381i920_88_196_631_303_303_0.jpg](attachments/bo_d7fqtok91nqc7381i920_88_196_631_303_303_0.jpg)
 
 图 7-3-1
 
@@ -3303,7 +3303,7 @@ $$
 
 单摆或弹簧往复振动一次所需的时间 $T = \frac{2\pi }{\omega }$ 称为该振动的周期 (即前面所说的最小正周期). $\omega$ 越大,振动的周期越小.
 
-![bo_d7fqtok91nqc7381i920_88_176_1551_340_90_0.jpg](images/bo_d7fqtok91nqc7381i920_88_176_1551_340_90_0.jpg)
+![bo_d7fqtok91nqc7381i920_88_176_1551_340_90_0.jpg](attachments/bo_d7fqtok91nqc7381i920_88_176_1551_340_90_0.jpg)
 
 图 7-3-2
 
@@ -3333,7 +3333,7 @@ $y = A\sin \left( {{\omega x} + \varphi }\right)$ 中 $A < 0$ 或 $\omega  < 0$ 
 
 解 用计算器(机)可作出相应的图像,如图 7-3-3 所示:
 
-![bo_d7fqtok91nqc7381i920_89_184_711_882_347_0.jpg](images/bo_d7fqtok91nqc7381i920_89_184_711_882_347_0.jpg)
+![bo_d7fqtok91nqc7381i920_89_184_711_882_347_0.jpg](attachments/bo_d7fqtok91nqc7381i920_89_184_711_882_347_0.jpg)
 
 图 7-3-3
 
@@ -3361,13 +3361,13 @@ Q
 
 这个函数的振幅为 3,频率为 $f = \frac{\omega }{2\pi } = \frac{1}{\pi }$ ,初始相位为 $\frac{\pi }{4}$ .
 
-![bo_d7fqtok91nqc7381i920_90_794_1252_455_327_0.jpg](images/bo_d7fqtok91nqc7381i920_90_794_1252_455_327_0.jpg)
+![bo_d7fqtok91nqc7381i920_90_794_1252_455_327_0.jpg](attachments/bo_d7fqtok91nqc7381i920_90_794_1252_455_327_0.jpg)
 
 图 7-3-4
 
 例 3 已知交流电的电流强度 $I$ 关于时间 $t$ 的函数为 $I = \; {I}_{0}\sin \left( {{\omega t} + \varphi }\right)$ ,其中 ${I}_{0} > 0,\omega  > 0,0 \leq  \varphi  < {2\pi }$ . 根据图像求出它的周期、频率和电流的最大值,并写出 ${I}_{0}\text{ 、 }\omega$ 和 $\varphi$ 的值.
 
-![bo_d7fqtok91nqc7381i920_90_711_1880_620_231_0.jpg](images/bo_d7fqtok91nqc7381i920_90_711_1880_620_231_0.jpg)
+![bo_d7fqtok91nqc7381i920_90_711_1880_620_231_0.jpg](attachments/bo_d7fqtok91nqc7381i920_90_711_1880_620_231_0.jpg)
 
 图 7-3-5
 
@@ -3401,7 +3401,7 @@ C. $y = 5\sin 2\left( {x + \frac{\pi }{4}}\right)$ ; D. $y = 5\sin 3\left( {x + 
 
 3. 下图是函数 $y = A\sin \left( {{\omega x} + \varphi }\right)$ 的图像，请根据图中的信息，写出该图像的一个函数表达式.
 
-![bo_d7fqtok91nqc7381i920_91_582_1365_451_293_0.jpg](images/bo_d7fqtok91nqc7381i920_91_582_1365_451_293_0.jpg)
+![bo_d7fqtok91nqc7381i920_91_582_1365_451_293_0.jpg](attachments/bo_d7fqtok91nqc7381i920_91_582_1365_451_293_0.jpg)
 
 (第 3 题)
 
@@ -3415,7 +3415,7 @@ C. $y = 5\sin 2\left( {x + \frac{\pi }{4}}\right)$ ; D. $y = 5\sin 3\left( {x + 
 
 <table><tr><td>时间/h</td><td>$1\frac{13}{20}$</td><td>$8\frac{19}{30}$</td><td>13 $\frac{53}{60}$</td><td>20 $\frac{7}{10}$</td></tr><tr><td>潮汐高度/cm</td><td>478</td><td>112</td><td>461</td><td>116</td></tr></table>
 
-![bo_d7fqtok91nqc7381i920_92_443_544_792_424_0.jpg](images/bo_d7fqtok91nqc7381i920_92_443_544_792_424_0.jpg)
+![bo_d7fqtok91nqc7381i920_92_443_544_792_424_0.jpg](attachments/bo_d7fqtok91nqc7381i920_92_443_544_792_424_0.jpg)
 
 图 7-3-6
 
@@ -3449,7 +3449,7 @@ $$
 
 当两者的频率很接近,即 ${\omega }_{1}$ 和 ${\omega }_{2}$ 很接近时, $\cos \left( {\frac{{\omega }_{1} - {\omega }_{2}}{2}t + \frac{{\varphi }_{1} - {\varphi }_{2}}{2}}\right)$ 的频率很低, 会产生如下合成后的振动图像(图 7-3-7):
 
-![bo_d7fqtok91nqc7381i920_93_406_956_808_153_0.jpg](images/bo_d7fqtok91nqc7381i920_93_406_956_808_153_0.jpg)
+![bo_d7fqtok91nqc7381i920_93_406_956_808_153_0.jpg](attachments/bo_d7fqtok91nqc7381i920_93_406_956_808_153_0.jpg)
 
 图 7-3-7
 
@@ -3473,7 +3473,7 @@ $$
 
 5. 如图, 弹簧挂着的小球上下振动. 设小球相对于平衡位置(即静止时的位置) 的距离 $h\left( \mathrm{\;{cm}}\right)$ 与时间 $t\left( \mathrm{\;s}\right)$ 之间的函数表达式是 $h = 2\sin \left( {{\pi t} + \frac{\pi }{4}}\right) , t \geq  0$ ,作出这个函数的大致图像,并回答下列问题:
 
-![bo_d7fqtok91nqc7381i920_94_1207_376_295_274_0.jpg](images/bo_d7fqtok91nqc7381i920_94_1207_376_295_274_0.jpg)
+![bo_d7fqtok91nqc7381i920_94_1207_376_295_274_0.jpg](attachments/bo_d7fqtok91nqc7381i920_94_1207_376_295_274_0.jpg)
 
 (第 5 题)
 
@@ -3487,7 +3487,7 @@ $$
 
 ## B 组
 
-![bo_d7fqtok91nqc7381i920_94_1062_998_439_241_0.jpg](images/bo_d7fqtok91nqc7381i920_94_1062_998_439_241_0.jpg)
+![bo_d7fqtok91nqc7381i920_94_1062_998_439_241_0.jpg](attachments/bo_d7fqtok91nqc7381i920_94_1062_998_439_241_0.jpg)
 
 (第 2 题)
 
@@ -3511,7 +3511,7 @@ $$
 
 ## 1 正切函数的图像
 
-![bo_d7fqtok91nqc7381i920_95_1182_1110_236_343_0.jpg](images/bo_d7fqtok91nqc7381i920_95_1182_1110_236_343_0.jpg)
+![bo_d7fqtok91nqc7381i920_95_1182_1110_236_343_0.jpg](attachments/bo_d7fqtok91nqc7381i920_95_1182_1110_236_343_0.jpg)
 
 图 7-4-1
 
@@ -3519,13 +3519,13 @@ $$
 
 类似于作正弦函数图像的方法, 利用单位圆并结合描点法我们可以作出 $y = \tan x, x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ 的大致图像 (图 7-4-2).
 
-![bo_d7fqtok91nqc7381i920_95_404_1398_444_498_0.jpg](images/bo_d7fqtok91nqc7381i920_95_404_1398_444_498_0.jpg)
+![bo_d7fqtok91nqc7381i920_95_404_1398_444_498_0.jpg](attachments/bo_d7fqtok91nqc7381i920_95_404_1398_444_498_0.jpg)
 
 图 7-4-2
 
 因为 $\tan \left( {x + {k\pi }}\right)  = \tan x, k \in  \mathbf{Z}$ ,所以函数 $y = \tan x$ 当 $x \in  \left( {\frac{\pi }{2},\frac{3\pi }{2}}\right) , x \in  \left( {\frac{3\pi }{2},\frac{5\pi }{2}}\right) ,\cdots$ 时的图像与 $y = \tan x$ , $x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ 的图像形状一样,只需将后者图像的位置向右平移 $\pi \text{ 、 }{2\pi }\text{ 、 }\cdots$ 就可得到; 同理,函数 $y = \tan x$ 当 $x \in  \left( {-\frac{3\pi }{2}, - \frac{\pi }{2}}\right)$ , $x \in  \left( {-\frac{5\pi }{2}, - \frac{3\pi }{2}}\right) ,\cdots$ 时的图像与 $y = \tan x, x \in  \left( {-\frac{\pi }{2},\frac{\pi }{2}}\right)$ 的图像形状也一样,只需将后者图像的位置向左平移 $\pi \text{ 、 }{2\pi }\text{ 、 }\cdots$ 就可得到. 这样,就可以得到函数 $y = \tan x$ 的整个图像 (图 7-4-3).
 
-![bo_d7fqtok91nqc7381i920_96_759_659_528_301_0.jpg](images/bo_d7fqtok91nqc7381i920_96_759_659_528_301_0.jpg)
+![bo_d7fqtok91nqc7381i920_96_759_659_528_301_0.jpg](attachments/bo_d7fqtok91nqc7381i920_96_759_659_528_301_0.jpg)
 
 图 7-4-3
 
@@ -3615,9 +3615,9 @@ $$
 
 某国际标准足球场长 ${105}\mathrm{\;m}$ 、宽 ${68}\mathrm{\;m}$ ,球门宽 ${7.32}\mathrm{\;m}$ . 当足球运动员沿边路带球突破时, 距底线多远处射门, 对球门所张的角最大?
 
-![bo_d7fqtok91nqc7381i920_99_408_242_338_235_0.jpg](images/bo_d7fqtok91nqc7381i920_99_408_242_338_235_0.jpg)
+![bo_d7fqtok91nqc7381i920_99_408_242_338_235_0.jpg](attachments/bo_d7fqtok91nqc7381i920_99_408_242_338_235_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_99_893_262_319_216_0.jpg](images/bo_d7fqtok91nqc7381i920_99_893_262_319_216_0.jpg)
+![bo_d7fqtok91nqc7381i920_99_893_262_319_216_0.jpg](attachments/bo_d7fqtok91nqc7381i920_99_893_262_319_216_0.jpg)
 
 ## 习题 7.4
 
@@ -3713,7 +3713,7 @@ B 组
 
 5. 如图，摩天轮上一点 $P$ 距离地面的高度 $y$ 关于时间 $t$ 的函数表达式为 $y = A\sin \left( {{\omega t} + \varphi }\right)  + b,\varphi  \in  \left\lbrack  {-\pi ,\pi }\right\rbrack$ . 已知摩天轮的半径为 ${50}\mathrm{\;m}$ ,其中心点 $O$ 距地面 ${60}\mathrm{\;m}$ ,摩天轮以每 30 分钟转一圈的方式做匀速转动,而点 $P$ 的起始位置在摩天轮的最低点处.
 
-![bo_d7fqtok91nqc7381i920_101_1116_1827_354_253_0.jpg](images/bo_d7fqtok91nqc7381i920_101_1116_1827_354_253_0.jpg)
+![bo_d7fqtok91nqc7381i920_101_1116_1827_354_253_0.jpg](attachments/bo_d7fqtok91nqc7381i920_101_1116_1827_354_253_0.jpg)
 
 (第 5 题)
 
@@ -3759,7 +3759,7 @@ $$
 
 (2)若函数 $y = {kx}, x \in  \mathbf{R}$ 与函数 $y = f\left( x\right)$ 的图像恰有 7 个不同的交点，求 $k$ 的值.
 
-![bo_d7fqtok91nqc7381i920_102_1161_1745_343_335_0.jpg](images/bo_d7fqtok91nqc7381i920_102_1161_1745_343_335_0.jpg)
+![bo_d7fqtok91nqc7381i920_102_1161_1745_343_335_0.jpg](attachments/bo_d7fqtok91nqc7381i920_102_1161_1745_343_335_0.jpg)
 
 (第 3 题)
 
@@ -3779,7 +3779,7 @@ $$
 
 ## 1 向量的概念
 
-![bo_d7fqtok91nqc7381i920_104_549_760_952_229_0.jpg](images/bo_d7fqtok91nqc7381i920_104_549_760_952_229_0.jpg)
+![bo_d7fqtok91nqc7381i920_104_549_760_952_229_0.jpg](attachments/bo_d7fqtok91nqc7381i920_104_549_760_952_229_0.jpg)
 
 图 8-1-1
 
@@ -3807,7 +3807,7 @@ Q
 
 图 8-1-2 是由若干个单位正方形组成的网格, $\overrightarrow{GH}$ 表示大小为 2 个单位、方向由 $G$ 到 $H$ 的向量; $\overrightarrow{MN}$ 表示大小为 $\sqrt{5}$ 个单位、 方向由 $M$ 到 $N$ 的向量.
 
-![bo_d7fqtok91nqc7381i920_105_432_465_388_256_0.jpg](images/bo_d7fqtok91nqc7381i920_105_432_465_388_256_0.jpg)
+![bo_d7fqtok91nqc7381i920_105_432_465_388_256_0.jpg](attachments/bo_d7fqtok91nqc7381i920_105_432_465_388_256_0.jpg)
 
 图 8-1-2
 
@@ -3825,13 +3825,13 @@ Q
 
 如果两个向量同方向且具有相同的模, 根据向量的定义, 它们就是同一个向量, 不过我们常常只说它们是相等的向量. 特别地, 一个向量平移后得到的向量与原来的向量相等. 例如, 图 8-1-3 中,向量 $\overrightarrow{MN}$ 是向量 $\overrightarrow{AB}$ 经过平移后得到的,所以 $\overrightarrow{MN} = \overrightarrow{AB}$ .
 
-![bo_d7fqtok91nqc7381i920_105_1131_1142_343_166_0.jpg](images/bo_d7fqtok91nqc7381i920_105_1131_1142_343_166_0.jpg)
+![bo_d7fqtok91nqc7381i920_105_1131_1142_343_166_0.jpg](attachments/bo_d7fqtok91nqc7381i920_105_1131_1142_343_166_0.jpg)
 
 图 8-1-3
 
 由于约定了零向量具有任意方向, 因此它平行于任意向量. 这样, 根据向量相等的定义, 零向量都是相等的.
 
-![bo_d7fqtok91nqc7381i920_105_1142_1487_319_286_0.jpg](images/bo_d7fqtok91nqc7381i920_105_1142_1487_319_286_0.jpg)
+![bo_d7fqtok91nqc7381i920_105_1142_1487_319_286_0.jpg](attachments/bo_d7fqtok91nqc7381i920_105_1142_1487_319_286_0.jpg)
 
 图 8-1-4
 
@@ -3865,11 +3865,11 @@ Q
 
 2. 中国象棋中的“马”走“日”。如图是一个棋盘，当“马”自点 $A$ 走“一步”后的落点可以为点 ${A}_{1}\text{ 、 }{A}_{2}$ 或 ${A}_{3}$ ,表示该“马”走“一步”的向量为 $\overrightarrow{A{A}_{1}}\text{ 、 }\overrightarrow{A{A}_{2}}$ 或 $\overrightarrow{A{A}_{3}}$ ,它们是相等的向量吗? 在图中分别用向量表示当“马”在点 $B$ 处各走“一步”的情形.
 
-![bo_d7fqtok91nqc7381i920_106_452_929_278_314_0.jpg](images/bo_d7fqtok91nqc7381i920_106_452_929_278_314_0.jpg)
+![bo_d7fqtok91nqc7381i920_106_452_929_278_314_0.jpg](attachments/bo_d7fqtok91nqc7381i920_106_452_929_278_314_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqtok91nqc7381i920_106_947_983_278_262_0.jpg](images/bo_d7fqtok91nqc7381i920_106_947_983_278_262_0.jpg)
+![bo_d7fqtok91nqc7381i920_106_947_983_278_262_0.jpg](attachments/bo_d7fqtok91nqc7381i920_106_947_983_278_262_0.jpg)
 
 (第 3 题)
 
@@ -3883,17 +3883,17 @@ Q
 
 在物理学习中, 我们已经知道了当不在同一方向上的两个力 $\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}$ 同时作用于一个物体时,它们的合力是以 $\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}$ 为相邻两边的平行四边形 ${OACB}$ 对角线 $\overrightarrow{OC}$ 所表示的力 (图 8-1-5).
 
-![bo_d7fqtok91nqc7381i920_106_721_1917_612_180_0.jpg](images/bo_d7fqtok91nqc7381i920_106_721_1917_612_180_0.jpg)
+![bo_d7fqtok91nqc7381i920_106_721_1917_612_180_0.jpg](attachments/bo_d7fqtok91nqc7381i920_106_721_1917_612_180_0.jpg)
 
 图 8-1-5
 
 一般向量的加法也采用上述求合力的方法. 设给定两个不平行的向量 $\overrightarrow{a}$ 、 $\overrightarrow{b}$ ，如图 8-1-6，如果以点 $O$ 为起点，分别作 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}$ ,那么以 $\overrightarrow{OA}\text{ 、 }\overrightarrow{OB}$ 为邻边的平行四边形 ${OACB}$ 的对角线所表示的向量 $\overrightarrow{OC} = \overrightarrow{c}$ 就定义为向量 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 的和，记作 $\overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}$ . 求向量和的运算,叫做向量的加法 (addition of vectors). 我们把这种作向量和的方法叫做向量加法的平行四边形法则 (parallelogram law).
 
-![bo_d7fqtok91nqc7381i920_107_216_631_301_194_0.jpg](images/bo_d7fqtok91nqc7381i920_107_216_631_301_194_0.jpg)
+![bo_d7fqtok91nqc7381i920_107_216_631_301_194_0.jpg](attachments/bo_d7fqtok91nqc7381i920_107_216_631_301_194_0.jpg)
 
 图 8-1-6
 
-![bo_d7fqtok91nqc7381i920_107_737_687_298_136_0.jpg](images/bo_d7fqtok91nqc7381i920_107_737_687_298_136_0.jpg)
+![bo_d7fqtok91nqc7381i920_107_737_687_298_136_0.jpg](attachments/bo_d7fqtok91nqc7381i920_107_737_687_298_136_0.jpg)
 
 图 8-1-7
 
@@ -3901,7 +3901,7 @@ Q
 
 向量 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 满足 $\overrightarrow{a}//\overrightarrow{b}$ 时 (包括 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 中出现零向量的情况), 无法使用平行四边形法则, 但上述三角形法则的步骤 (即若从一点 $O$ 出发作向量 $\overrightarrow{OA} = \overrightarrow{a}$ ，再以 $A$ 为起点作向量 $\overrightarrow{AC} = \overrightarrow{b}$ ，则向量 $\overrightarrow{OC} = \overrightarrow{a} + \overrightarrow{b}$ )仍然可以用于作出点 $C$ ,使得 $\overrightarrow{OC} = \overrightarrow{c} = \overrightarrow{a} + \overrightarrow{b}$ ,只不过此时 $\bigtriangleup {OAC}$ 不存在,只剩下一条直线上三条首尾相接、互相重叠的线段了. 图 8-1-8 的三幅图分别给出了 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 方向相同、 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 方向相反且 $\left| \overrightarrow{a}\right|  \geq  \left| \overrightarrow{b}\right|$ 和 $\overrightarrow{a}$ 与 $\overrightarrow{b}$ 方向相反且 $\left| \overrightarrow{a}\right|  \leq  \left| \overrightarrow{b}\right|$ 三种情况的图示(后两种情况当 $\left| \overrightarrow{a}\right|  = \left| \overrightarrow{b}\right|$ 时是一致的，此时 $O\text{ 、 }C$ 两点重合,从而 $\overrightarrow{c} = \overrightarrow{0}$ ).
 
-![bo_d7fqtok91nqc7381i920_107_210_1782_831_191_0.jpg](images/bo_d7fqtok91nqc7381i920_107_210_1782_831_191_0.jpg)
+![bo_d7fqtok91nqc7381i920_107_210_1782_831_191_0.jpg](attachments/bo_d7fqtok91nqc7381i920_107_210_1782_831_191_0.jpg)
 
 图 8-1-8
 
@@ -3945,7 +3945,7 @@ $$
 
 例 4 一物体受水平方向 6 N 和铅垂方向 8 N 的两个力的作用，求合力的大小以及合力与铅垂方向偏离的角度. (结果精确到 $\left. {0.01}^{ \circ  }\right)$
 
-![bo_d7fqtok91nqc7381i920_108_221_1751_255_281_0.jpg](images/bo_d7fqtok91nqc7381i920_108_221_1751_255_281_0.jpg)
+![bo_d7fqtok91nqc7381i920_108_221_1751_255_281_0.jpg](attachments/bo_d7fqtok91nqc7381i920_108_221_1751_255_281_0.jpg)
 
 图 8-1-9
 
@@ -3979,7 +3979,7 @@ $$
 
 ---
 
-![bo_d7fqtok91nqc7381i920_109_1161_805_277_256_0.jpg](images/bo_d7fqtok91nqc7381i920_109_1161_805_277_256_0.jpg)
+![bo_d7fqtok91nqc7381i920_109_1161_805_277_256_0.jpg](attachments/bo_d7fqtok91nqc7381i920_109_1161_805_277_256_0.jpg)
 
 图 8-1-10
 
@@ -4003,7 +4003,7 @@ $$
 
 解 如图 8-1-11,作以 ${CB}\text{ 、 }{CA}$ 为邻边的平行四边形 ${CADB}$ ,连接 ${CD}\text{ 、 }{OB}$ . 根据向量减法的定义,可得 $\overrightarrow{OA} - \overrightarrow{OC} = \; \overrightarrow{CA},\overrightarrow{OB} - \overrightarrow{OC} = \overrightarrow{CB}$ ,故 $\left( {\overrightarrow{OA} - \overrightarrow{OC}}\right)  + \left( {\overrightarrow{OB} - \overrightarrow{OC}}\right)  = \overrightarrow{CA} + \overrightarrow{CB} = \overrightarrow{CD}$ .
 
-![bo_d7fqtok91nqc7381i920_109_1114_1478_377_203_0.jpg](images/bo_d7fqtok91nqc7381i920_109_1114_1478_377_203_0.jpg)
+![bo_d7fqtok91nqc7381i920_109_1114_1478_377_203_0.jpg](attachments/bo_d7fqtok91nqc7381i920_109_1114_1478_377_203_0.jpg)
 
 图 8-1-11
 
@@ -4023,7 +4023,7 @@ $$
 
 如图 8-1-12，某科考船以 12 海里/时的速度匀速沿东北方向航行,中午 12 时船的位置在点 $A$ 处. 请描述下午 3 时和下午 4 时 30 分该船与点 $A$ 的相对位置.
 
-![bo_d7fqtok91nqc7381i920_110_844_797_357_264_0.jpg](images/bo_d7fqtok91nqc7381i920_110_844_797_357_264_0.jpg)
+![bo_d7fqtok91nqc7381i920_110_844_797_357_264_0.jpg](attachments/bo_d7fqtok91nqc7381i920_110_844_797_357_264_0.jpg)
 
 图 8-1-12
 
@@ -4097,7 +4097,7 @@ $$
 
 解 将原式变形为 $\frac{1}{2}\overrightarrow{a} - \frac{3}{2}\overrightarrow{c} + 4\overrightarrow{a} - 6\overrightarrow{b} = \overrightarrow{0}$ ,即 $\frac{3}{2}\overrightarrow{c} = \frac{9}{2}\overrightarrow{a} - \; 6\overrightarrow{b}$ . 所以 $\overrightarrow{c} = 3\overrightarrow{a} - 4\overrightarrow{b}$ .
 
-![bo_d7fqtok91nqc7381i920_112_196_1534_301_214_0.jpg](images/bo_d7fqtok91nqc7381i920_112_196_1534_301_214_0.jpg)
+![bo_d7fqtok91nqc7381i920_112_196_1534_301_214_0.jpg](attachments/bo_d7fqtok91nqc7381i920_112_196_1534_301_214_0.jpg)
 
 图 8-1-13
 
@@ -4123,7 +4123,7 @@ $$
 
 (1) $2\overrightarrow{x} + 3\left( {\overrightarrow{b} + \overrightarrow{x}}\right)  = \overrightarrow{0}$ ； (2) $2\overrightarrow{a} + 5\left( {\overrightarrow{b} - \overrightarrow{x}}\right)  = \overrightarrow{0}$ ；
 
-![bo_d7fqtok91nqc7381i920_113_1159_667_311_267_0.jpg](images/bo_d7fqtok91nqc7381i920_113_1159_667_311_267_0.jpg)
+![bo_d7fqtok91nqc7381i920_113_1159_667_311_267_0.jpg](attachments/bo_d7fqtok91nqc7381i920_113_1159_667_311_267_0.jpg)
 
 (第 3 题)
 
@@ -4163,11 +4163,11 @@ $$
 
 (3)与向量 $\overrightarrow{EF}$ 平行的向量.
 
-![bo_d7fqtok91nqc7381i920_114_305_285_373_247_0.jpg](images/bo_d7fqtok91nqc7381i920_114_305_285_373_247_0.jpg)
+![bo_d7fqtok91nqc7381i920_114_305_285_373_247_0.jpg](attachments/bo_d7fqtok91nqc7381i920_114_305_285_373_247_0.jpg)
 
 (第 4 题)
 
-![bo_d7fqtok91nqc7381i920_114_890_426_491_115_0.jpg](images/bo_d7fqtok91nqc7381i920_114_890_426_491_115_0.jpg)
+![bo_d7fqtok91nqc7381i920_114_890_426_491_115_0.jpg](attachments/bo_d7fqtok91nqc7381i920_114_890_426_491_115_0.jpg)
 
 (第 5 题)
 
@@ -4215,7 +4215,7 @@ B 组
 
 (3)(2)中向量 $\overrightarrow{BF}$ 的负向量.
 
-![bo_d7fqtok91nqc7381i920_115_610_281_396_297_0.jpg](images/bo_d7fqtok91nqc7381i920_115_610_281_396_297_0.jpg)
+![bo_d7fqtok91nqc7381i920_115_610_281_396_297_0.jpg](attachments/bo_d7fqtok91nqc7381i920_115_610_281_396_297_0.jpg)
 
 (第 1 题)
 
@@ -4231,7 +4231,7 @@ B 组
 
 (1) $\overrightarrow{a} + \overrightarrow{c} - \overrightarrow{b}$ 和 $\overrightarrow{a} + \left( {\overrightarrow{c} - \overrightarrow{b}}\right)$ ； (2) $\overrightarrow{a} - \left( {\overrightarrow{b} + \overrightarrow{c}}\right)$ 和 $\overrightarrow{a} - \overrightarrow{c} - \overrightarrow{b}$ .
 
-![bo_d7fqtok91nqc7381i920_115_571_1031_473_145_0.jpg](images/bo_d7fqtok91nqc7381i920_115_571_1031_473_145_0.jpg)
+![bo_d7fqtok91nqc7381i920_115_571_1031_473_145_0.jpg](attachments/bo_d7fqtok91nqc7381i920_115_571_1031_473_145_0.jpg)
 
 (第 3 题)
 
@@ -4261,7 +4261,7 @@ Q
 
 在物理课中，我们学过“功”的概念. 一个物体在外力作用下产生位移, 外力所做的功是这个力在位移方向上的分力大小与位移量的乘积. 如果力 $\overrightarrow{f}$ 和位移 $\overrightarrow{s}$ 如图 8-2-1 所示,那么力 $\overrightarrow{f}$ 所做的功是 $W = \left| \overrightarrow{f}\right| \left| \overrightarrow{s}\right| \cos \theta$ ,其中 $\theta$ 表示力 $\overrightarrow{f}$ 的方向与物体位移 $\overrightarrow{s}$ 的方向之间的夹角， $\left| \overrightarrow{f}\right| \cos \theta$ 是 $\overrightarrow{f}$ 在位移方向上的分力的大小.
 
-![bo_d7fqtok91nqc7381i920_116_632_801_776_146_0.jpg](images/bo_d7fqtok91nqc7381i920_116_632_801_776_146_0.jpg)
+![bo_d7fqtok91nqc7381i920_116_632_801_776_146_0.jpg](attachments/bo_d7fqtok91nqc7381i920_116_632_801_776_146_0.jpg)
 
 图 8-2-1
 
@@ -4273,7 +4273,7 @@ Q
 
 功并不是把力的大小和位移向量的大小直接相乘而得到, 而是把作用力在位移方向上的分力大小乘物体位移量. “在位移方向上的分力”是作用力 $\overrightarrow{f}$ 在位移向量 $\overrightarrow{s}$ 方向上的投影 $\overrightarrow{{f}_{1}}$ (图 8-2-2). 这就引出了向量在一条直线或另一个向量方向上的投影的概念.
 
-![bo_d7fqtok91nqc7381i920_116_633_1762_779_146_0.jpg](images/bo_d7fqtok91nqc7381i920_116_633_1762_779_146_0.jpg)
+![bo_d7fqtok91nqc7381i920_116_633_1762_779_146_0.jpg](attachments/bo_d7fqtok91nqc7381i920_116_633_1762_779_146_0.jpg)
 
 图 8-2-2
 
@@ -4287,7 +4287,7 @@ Q
 
 ---
 
-![bo_d7fqtok91nqc7381i920_117_1164_219_271_257_0.jpg](images/bo_d7fqtok91nqc7381i920_117_1164_219_271_257_0.jpg)
+![bo_d7fqtok91nqc7381i920_117_1164_219_271_257_0.jpg](attachments/bo_d7fqtok91nqc7381i920_117_1164_219_271_257_0.jpg)
 
 图 8-2-3
 
@@ -4301,7 +4301,7 @@ Q
 
 ---
 
-![bo_d7fqtok91nqc7381i920_117_203_951_844_222_0.jpg](images/bo_d7fqtok91nqc7381i920_117_203_951_844_222_0.jpg)
+![bo_d7fqtok91nqc7381i920_117_203_951_844_222_0.jpg](attachments/bo_d7fqtok91nqc7381i920_117_203_951_844_222_0.jpg)
 
 图 8-2-4
 
@@ -4327,7 +4327,7 @@ Q
 
 这个结论与练习 8.2(1)的第 1 题的结论一般合称为“投影的线性性质”.
 
-![bo_d7fqtok91nqc7381i920_118_164_891_367_329_0.jpg](images/bo_d7fqtok91nqc7381i920_118_164_891_367_329_0.jpg)
+![bo_d7fqtok91nqc7381i920_118_164_891_367_329_0.jpg](attachments/bo_d7fqtok91nqc7381i920_118_164_891_367_329_0.jpg)
 
 图 8-2-5
 
@@ -4371,7 +4371,7 @@ $$
 
 有了这个定义,物理中的功 $W$ 就是力向量 $\overrightarrow{f}$ 与位移向量 $\overrightarrow{s}$ 的数量积 $\overrightarrow{f} \cdot  \overrightarrow{s}$ .
 
-![bo_d7fqtok91nqc7381i920_119_1158_687_285_281_0.jpg](images/bo_d7fqtok91nqc7381i920_119_1158_687_285_281_0.jpg)
+![bo_d7fqtok91nqc7381i920_119_1158_687_285_281_0.jpg](attachments/bo_d7fqtok91nqc7381i920_119_1158_687_285_281_0.jpg)
 
 图 8-2-6
 
@@ -4593,7 +4593,7 @@ B 组
 
 如图 8-3-1,把向量 $\overrightarrow{a}$ 的起点放在坐标原点 $O$ 上,设其终点是 $A\left( {x, y}\right)$ . 如前所述,就可以把向量 $\overrightarrow{a}$ 与一个有序实数对 $\left( {x, y}\right)$ 相对应. 这个实数对对于向量 $\overrightarrow{a}$ 的实际意义是什么呢?
 
-![bo_d7fqtok91nqc7381i920_123_1154_1485_291_242_0.jpg](images/bo_d7fqtok91nqc7381i920_123_1154_1485_291_242_0.jpg)
+![bo_d7fqtok91nqc7381i920_123_1154_1485_291_242_0.jpg](attachments/bo_d7fqtok91nqc7381i920_123_1154_1485_291_242_0.jpg)
 
 图 8-3-1
 
@@ -4617,7 +4617,7 @@ $$
 
 证明 本证明是前面关于把 $\overrightarrow{a}$ 写成 $\overrightarrow{a} = x\overrightarrow{i} + y\overrightarrow{j}$ 的证明的推广. 不过,由于所给的 $\overrightarrow{{e}_{1}}$ 与 $\overrightarrow{{e}_{2}}$ 不一定互相垂直,因此必须用构建平行四边形的方法来代替做投影.
 
-![bo_d7fqtok91nqc7381i920_124_579_1227_888_334_0.jpg](images/bo_d7fqtok91nqc7381i920_124_579_1227_888_334_0.jpg)
+![bo_d7fqtok91nqc7381i920_124_579_1227_888_334_0.jpg](attachments/bo_d7fqtok91nqc7381i920_124_579_1227_888_334_0.jpg)
 
 图 8-3-2
 
@@ -4635,7 +4635,7 @@ $$
 
 例 1 如图 8-3-3, 在平行四边形 ABCD 中, 两条对角线的交点是 $M$ ,设 $\overrightarrow{AB} = \overrightarrow{a},\overrightarrow{AD} = \overrightarrow{b}$ . 试用 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 的线性组合分别表示 $\overrightarrow{MA}\text{ 、 }\overrightarrow{MB}\text{ 、 }\overrightarrow{MC}$ 与 $\overrightarrow{MD}$ .
 
-![bo_d7fqtok91nqc7381i920_125_1141_625_318_179_0.jpg](images/bo_d7fqtok91nqc7381i920_125_1141_625_318_179_0.jpg)
+![bo_d7fqtok91nqc7381i920_125_1141_625_318_179_0.jpg](attachments/bo_d7fqtok91nqc7381i920_125_1141_625_318_179_0.jpg)
 
 图 8-3-3
 
@@ -4667,7 +4667,7 @@ $$
 
 按提示的步骤探索用向量形式表达三点共线的充要条件, 并导出直线的向量参数方程:
 
-![bo_d7fqtok91nqc7381i920_125_1176_1719_294_236_0.jpg](images/bo_d7fqtok91nqc7381i920_125_1176_1719_294_236_0.jpg)
+![bo_d7fqtok91nqc7381i920_125_1176_1719_294_236_0.jpg](attachments/bo_d7fqtok91nqc7381i920_125_1176_1719_294_236_0.jpg)
 
 图 8-3-4
 
@@ -4685,7 +4685,7 @@ $$
 
 ## 练习 8.3(1)
 
-![bo_d7fqtok91nqc7381i920_126_1207_400_295_298_0.jpg](images/bo_d7fqtok91nqc7381i920_126_1207_400_295_298_0.jpg)
+![bo_d7fqtok91nqc7381i920_126_1207_400_295_298_0.jpg](attachments/bo_d7fqtok91nqc7381i920_126_1207_400_295_298_0.jpg)
 
 (第 1 题)
 
@@ -4699,7 +4699,7 @@ $$
 
 把向量 $\overrightarrow{a}$ 写成所在平面上两个不平行向量 $\overrightarrow{{e}_{1}}$ 与 $\overrightarrow{{e}_{2}}$ 的线性组合的过程称为 $\overrightarrow{a}$ 关于 $\overrightarrow{{e}_{1}}$ 与 $\overrightarrow{{e}_{2}}$ 的分解 (decomposition). 我们特别关注向量关于两个互相垂直的向量的分解这一特殊而实用的情况， 即在 $\overrightarrow{{e}_{1}} \bot  \overrightarrow{{e}_{2}}$ 情况下进行向量的分解. 这种分解称为向量的正交分解(orthogonal decomposition).
 
-![bo_d7fqtok91nqc7381i920_126_180_1366_335_163_0.jpg](images/bo_d7fqtok91nqc7381i920_126_180_1366_335_163_0.jpg)
+![bo_d7fqtok91nqc7381i920_126_180_1366_335_163_0.jpg](attachments/bo_d7fqtok91nqc7381i920_126_180_1366_335_163_0.jpg)
 
 图 8-3-5
 
@@ -4715,7 +4715,7 @@ $$
 
 必须注意,在向量 $\overrightarrow{a}$ 的坐标表示中,我们先要作出从坐标原点 $O$ 出发的向量 $\overrightarrow{OA} = \overrightarrow{a}$ ,才能用点 $A$ 的坐标 $\left( {x, y}\right)$ 表示向量 $\overrightarrow{a}$ 的坐标. 为此,我们把向量 $\overrightarrow{OA}$ 称为 $\overrightarrow{a}$ 的位置向量 (position vector). 位置向量终点的坐标才是所给向量的坐标.
 
-![bo_d7fqtok91nqc7381i920_127_1151_230_298_299_0.jpg](images/bo_d7fqtok91nqc7381i920_127_1151_230_298_299_0.jpg)
+![bo_d7fqtok91nqc7381i920_127_1151_230_298_299_0.jpg](attachments/bo_d7fqtok91nqc7381i920_127_1151_230_298_299_0.jpg)
 
 图 8-3-6
 
@@ -4969,7 +4969,7 @@ $$
 
 1. 如图, ${OADB}$ 是以向量 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b}$ 为邻边的平行四边形, $C$ 是对角线的交点,且 ${BM} = \frac{1}{3}{BC},{CN} = \frac{1}{3}{CD}$ . 试用 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 表示 $\overrightarrow{OM}\text{ 、 }\overrightarrow{ON}\text{ 、 }\overrightarrow{MN}$ .
 
-![bo_d7fqtok91nqc7381i920_131_1144_1181_326_157_0.jpg](images/bo_d7fqtok91nqc7381i920_131_1144_1181_326_157_0.jpg)
+![bo_d7fqtok91nqc7381i920_131_1144_1181_326_157_0.jpg](attachments/bo_d7fqtok91nqc7381i920_131_1144_1181_326_157_0.jpg)
 
 (第 1 题)
 
@@ -5043,7 +5043,7 @@ Q
 
 解 如图 8-4-1,由于点 $G$ 是 $\bigtriangleup {ABC}$ 的重心,因此 ${CG}$ 与 ${AB}$ 的交点 $D$ 是 ${AB}$ 的中点,于是点 $D$ 的坐标为 $\left( \frac{{x}_{1} + {x}_{2}}{2}\right.$ , $\left. \frac{{y}_{1} + {y}_{2}}{2}\right)$ .
 
-![bo_d7fqtok91nqc7381i920_133_1121_1785_360_236_0.jpg](images/bo_d7fqtok91nqc7381i920_133_1121_1785_360_236_0.jpg)
+![bo_d7fqtok91nqc7381i920_133_1121_1785_360_236_0.jpg](attachments/bo_d7fqtok91nqc7381i920_133_1121_1785_360_236_0.jpg)
 
 图 8-4-1
 
@@ -5061,7 +5061,7 @@ $$
 
 这就是 $\bigtriangleup {ABC}$ 重心 $G$ 的坐标.
 
-![bo_d7fqtok91nqc7381i920_134_188_832_318_163_0.jpg](images/bo_d7fqtok91nqc7381i920_134_188_832_318_163_0.jpg)
+![bo_d7fqtok91nqc7381i920_134_188_832_318_163_0.jpg](attachments/bo_d7fqtok91nqc7381i920_134_188_832_318_163_0.jpg)
 
 图 8-4-2
 
@@ -5085,7 +5085,7 @@ $$
 
 (2)设 $\overrightarrow{a} = \left( {{x}_{1},{y}_{1}}\right) ,\overrightarrow{b} = \left( {{x}_{2},{y}_{2}}\right)$ . 求证: $S = \; \frac{1}{2}\left| {{x}_{1}{y}_{2} - {x}_{2}{y}_{1}}\right| .$
 
-![bo_d7fqtok91nqc7381i920_134_160_1803_375_214_0.jpg](images/bo_d7fqtok91nqc7381i920_134_160_1803_375_214_0.jpg)
+![bo_d7fqtok91nqc7381i920_134_160_1803_375_214_0.jpg](attachments/bo_d7fqtok91nqc7381i920_134_160_1803_375_214_0.jpg)
 
 图 8-4-3
 
@@ -5127,7 +5127,7 @@ $$
 
 ## 练习 8.4(1)
 
-![bo_d7fqtok91nqc7381i920_135_1194_973_279_274_0.jpg](images/bo_d7fqtok91nqc7381i920_135_1194_973_279_274_0.jpg)
+![bo_d7fqtok91nqc7381i920_135_1194_973_279_274_0.jpg](attachments/bo_d7fqtok91nqc7381i920_135_1194_973_279_274_0.jpg)
 
 (第 2 题)
 
@@ -5137,7 +5137,7 @@ $$
 
 3. 已知平面上 $A\text{ 、 }B$ 两点的坐标分别是 $\left( {2,5}\right) \text{ 、 }\left( {3,0}\right) , P$ 是直线 ${AB}$ 上的一点,且 $\overrightarrow{AP} =  - \frac{2}{3}\overrightarrow{PB}$ . 求点 $P$ 的坐标.
 
-![bo_d7fqtok91nqc7381i920_135_1160_1397_277_275_0.jpg](images/bo_d7fqtok91nqc7381i920_135_1160_1397_277_275_0.jpg)
+![bo_d7fqtok91nqc7381i920_135_1160_1397_277_275_0.jpg](attachments/bo_d7fqtok91nqc7381i920_135_1160_1397_277_275_0.jpg)
 
 图 8-4-4
 
@@ -5181,7 +5181,7 @@ $$
 \cos \left( {\alpha  - \beta }\right)  = \cos \alpha \cos \beta  + \sin \alpha \sin \beta .
 $$
 
-![bo_d7fqtok91nqc7381i920_136_156_881_379_282_0.jpg](images/bo_d7fqtok91nqc7381i920_136_156_881_379_282_0.jpg)
+![bo_d7fqtok91nqc7381i920_136_156_881_379_282_0.jpg](attachments/bo_d7fqtok91nqc7381i920_136_156_881_379_282_0.jpg)
 
 图 8-4-5
 
@@ -5219,7 +5219,7 @@ $$
 
 解 设两根绳子的拉力分别是 ${\overrightarrow{f}}_{1}$ 与 ${\overrightarrow{f}}_{2}$ ,则它们的合力 ${\overrightarrow{f}}_{1} + {\overrightarrow{f}}_{2}$ 与物体的重力大小相等、方向相反,即 ${\overrightarrow{f}}_{1} + {\overrightarrow{f}}_{2}$ 是垂直向上、模为 ${20g}\left( \mathrm{\;N}\right)$ 的向量,这里 $g \approx  {9.8}\left( {\mathrm{\;m}/{\mathrm{s}}^{2}}\right)$ 是重力加速度.
 
-![bo_d7fqtok91nqc7381i920_137_267_232_714_389_0.jpg](images/bo_d7fqtok91nqc7381i920_137_267_232_714_389_0.jpg)
+![bo_d7fqtok91nqc7381i920_137_267_232_714_389_0.jpg](attachments/bo_d7fqtok91nqc7381i920_137_267_232_714_389_0.jpg)
 
 图 8-4-6
 
@@ -5265,7 +5265,7 @@ $$
 
 3. 用向量方法证明三角形的余弦定理.
 
-![bo_d7fqtok91nqc7381i920_138_1142_902_357_177_0.jpg](images/bo_d7fqtok91nqc7381i920_138_1142_902_357_177_0.jpg)
+![bo_d7fqtok91nqc7381i920_138_1142_902_357_177_0.jpg](attachments/bo_d7fqtok91nqc7381i920_138_1142_902_357_177_0.jpg)
 
 (第 5 题)
 
@@ -5291,7 +5291,7 @@ $$
 
 地球的重力加速度与月球以及其他星球的重力加速度是不同的. 为了使宇航员适应不同的重力环境，宇航训练部建造了训练装置:如图 8-4-7，一个可滑动的连杆与人的腰部联结, 人在一个固定的斜面上行走, 连杆与斜面始终保持平行, 适当调整这个斜面的位置, 可使人对斜面的作用力相当于人在某个星体上的重力.
 
-![bo_d7fqtok91nqc7381i920_139_1147_238_303_505_0.jpg](images/bo_d7fqtok91nqc7381i920_139_1147_238_303_505_0.jpg)
+![bo_d7fqtok91nqc7381i920_139_1147_238_303_505_0.jpg](attachments/bo_d7fqtok91nqc7381i920_139_1147_238_303_505_0.jpg)
 
 图 8-4-7
 
@@ -5395,7 +5395,7 @@ $$
 
 ## A 组
 
-![bo_d7fqtok91nqc7381i920_141_1158_1557_313_239_0.jpg](images/bo_d7fqtok91nqc7381i920_141_1158_1557_313_239_0.jpg)
+![bo_d7fqtok91nqc7381i920_141_1158_1557_313_239_0.jpg](attachments/bo_d7fqtok91nqc7381i920_141_1158_1557_313_239_0.jpg)
 
 (第 1 题)
 
@@ -5431,7 +5431,7 @@ $$
 
 10. 在等腰三角形 ${ABC}$ 中,已知 $D$ 为底边 ${BC}$ 的中点. 求证: ${AD} \bot  {BC}$ .
 
-![bo_d7fqtok91nqc7381i920_142_1165_837_339_267_0.jpg](images/bo_d7fqtok91nqc7381i920_142_1165_837_339_267_0.jpg)
+![bo_d7fqtok91nqc7381i920_142_1165_837_339_267_0.jpg](attachments/bo_d7fqtok91nqc7381i920_142_1165_837_339_267_0.jpg)
 
 (第 11 题)
 
@@ -5445,11 +5445,11 @@ $$
 
 2. 如图,点 $A\text{ 、 }M\text{ 、 }B$ 在同一条直线上,点 $O$ 不在该直线上,且 $\overrightarrow{AM} = \frac{1}{3}\overrightarrow{AB}$ . 设 $\overrightarrow{OA} = \overrightarrow{a},\overrightarrow{OB} = \overrightarrow{b},\overrightarrow{OM} = \overrightarrow{c}$ ,试用向量 $\overrightarrow{a}\text{ 、 }\overrightarrow{b}$ 表示 $\overrightarrow{c}$ .
 
-![bo_d7fqtok91nqc7381i920_142_435_1669_324_194_0.jpg](images/bo_d7fqtok91nqc7381i920_142_435_1669_324_194_0.jpg)
+![bo_d7fqtok91nqc7381i920_142_435_1669_324_194_0.jpg](attachments/bo_d7fqtok91nqc7381i920_142_435_1669_324_194_0.jpg)
 
 (第 2 题)
 
-![bo_d7fqtok91nqc7381i920_142_971_1518_278_348_0.jpg](images/bo_d7fqtok91nqc7381i920_142_971_1518_278_348_0.jpg)
+![bo_d7fqtok91nqc7381i920_142_971_1518_278_348_0.jpg](attachments/bo_d7fqtok91nqc7381i920_142_971_1518_278_348_0.jpg)
 
 (第 4 题)
 
@@ -5469,11 +5469,11 @@ $$
 
 8. 如图,在正方形 ${ABCD}$ 中, $P$ 是对角线 ${AC}$ 上一点, ${PE}$ 垂直 ${AB}$ 于点 $E,{PF}$ 垂直 ${BC}$ 于点 $F$ . 求证: ${PD} \bot  {EF}$ .
 
-![bo_d7fqtok91nqc7381i920_143_410_812_315_295_0.jpg](images/bo_d7fqtok91nqc7381i920_143_410_812_315_295_0.jpg)
+![bo_d7fqtok91nqc7381i920_143_410_812_315_295_0.jpg](attachments/bo_d7fqtok91nqc7381i920_143_410_812_315_295_0.jpg)
 
 (第 8 题)
 
-![bo_d7fqtok91nqc7381i920_143_872_841_335_267_0.jpg](images/bo_d7fqtok91nqc7381i920_143_872_841_335_267_0.jpg)
+![bo_d7fqtok91nqc7381i920_143_872_841_335_267_0.jpg](attachments/bo_d7fqtok91nqc7381i920_143_872_841_335_267_0.jpg)
 
 (第 10 题)
 
@@ -5487,7 +5487,7 @@ $$
 
 2. 在 $\bigtriangleup {ABC}$ 中,已知点 $O\text{ 、 }G\text{ 、 }H$ 分别是三角形的外心、重心和垂心. 求证: $O$ 、 $G\text{ 、 }H$ 三点共线. (此直线称为欧拉线)
 
-![bo_d7fqtok91nqc7381i920_145_0_0_1654_1015_0.jpg](images/bo_d7fqtok91nqc7381i920_145_0_0_1654_1015_0.jpg)
+![bo_d7fqtok91nqc7381i920_145_0_0_1654_1015_0.jpg](attachments/bo_d7fqtok91nqc7381i920_145_0_0_1654_1015_0.jpg)
 
 ## 第 9 章 复数
 
@@ -5909,7 +5909,7 @@ C. $a \neq  1$ 且 $a \neq   - 1$ ; D. $a$ 可以是任意实数.
 
 复数 $a + b\mathrm{i}\left( {a\text{ 、 }b \in  \mathbf{R}}\right)$ 一一对应于有序实数对 $\left( {a, b}\right)$ ,而有序实数对 $\left( {a, b}\right)$ 与平面直角坐标系中的点 $Z\left( {a, b}\right)$ 又是一一对应的. 因此,可以用平面直角坐标系中的点 $Z\left( {a, b}\right)$ 表示复数 $z = \; a + b\mathrm{i}$ .
 
-![bo_d7fqtok91nqc7381i920_156_230_981_234_256_0.jpg](images/bo_d7fqtok91nqc7381i920_156_230_981_234_256_0.jpg)
+![bo_d7fqtok91nqc7381i920_156_230_981_234_256_0.jpg](attachments/bo_d7fqtok91nqc7381i920_156_230_981_234_256_0.jpg)
 
 图 9-2-1
 
@@ -5919,7 +5919,7 @@ C. $a \neq  1$ 且 $a \neq   - 1$ ; D. $a$ 可以是任意实数.
 
 例 1 在复平面上有点 $A\left( {2,0}\right) \text{ 、 }B\left( {0, - 1}\right) \text{ 、 }C\left( {-2,3}\right)$ 、 $D\left( {4, - 3}\right)$ ,分别写出这四个点所对应的复数 ${z}_{A}\text{ 、 }{z}_{B}\text{ 、 }{z}_{C}\text{ 、 }{z}_{D}$ , 并求这些复数的共轭复数在复平面上所对应的点的坐标.
 
-![bo_d7fqtok91nqc7381i920_156_229_1447_239_408_0.jpg](images/bo_d7fqtok91nqc7381i920_156_229_1447_239_408_0.jpg)
+![bo_d7fqtok91nqc7381i920_156_229_1447_239_408_0.jpg](attachments/bo_d7fqtok91nqc7381i920_156_229_1447_239_408_0.jpg)
 
 图 9-2-2
 
@@ -5933,11 +5933,11 @@ C. $a \neq  1$ 且 $a \neq   - 1$ ; D. $a$ 可以是任意实数.
 
 上一章我们学过平面向量的坐标表示, 知道通过平面直角坐标系, 可在平面向量与平面上的点之间建立一一对应. 现在, 我们以平面直角坐标系为媒介, 又可以通过复数与平面上的点的一一对应, 在复数与平面向量之间建立一一对应. 如图 9-2-3, 复数 $z = a + b\mathrm{i}\left( {a\text{ 、 }b \in  \mathbf{R}}\right)$ 在复平面上对应坐标为 $\left( {a, b}\right)$ 的点 $Z$ ,而点 $Z$ 又对应于平面向量 $\overrightarrow{OZ} = \left( {a, b}\right)$ ,从而复数 $z = a + b\mathrm{i}$ 对应于平面向量 $\overrightarrow{OZ} = \left( {a, b}\right)$ . 有了这些对应,我们可以把复数 $z = a + b\mathrm{i}$ 方便地看作是复平面上的点 $Z\left( {a, b}\right)$ 或向量 $\overrightarrow{OZ}$ .
 
-![bo_d7fqtok91nqc7381i920_157_1182_459_234_255_0.jpg](images/bo_d7fqtok91nqc7381i920_157_1182_459_234_255_0.jpg)
+![bo_d7fqtok91nqc7381i920_157_1182_459_234_255_0.jpg](attachments/bo_d7fqtok91nqc7381i920_157_1182_459_234_255_0.jpg)
 
 图 9-2-3
 
-![bo_d7fqtok91nqc7381i920_157_1111_920_352_308_0.jpg](images/bo_d7fqtok91nqc7381i920_157_1111_920_352_308_0.jpg)
+![bo_d7fqtok91nqc7381i920_157_1111_920_352_308_0.jpg](attachments/bo_d7fqtok91nqc7381i920_157_1111_920_352_308_0.jpg)
 
 图 9-2-4
 
@@ -5963,7 +5963,7 @@ $$
 
 我们已经知道向量的加法适用平行四边形法则, 在将复数与平面向量建立一一对应后, 两个复数的和是否与对应的向量的和一致呢? 也就是说, 在复平面上是否也可以用平行四边形法则表述复数的加法呢?
 
-![bo_d7fqtok91nqc7381i920_158_151_679_389_277_0.jpg](images/bo_d7fqtok91nqc7381i920_158_151_679_389_277_0.jpg)
+![bo_d7fqtok91nqc7381i920_158_151_679_389_277_0.jpg](attachments/bo_d7fqtok91nqc7381i920_158_151_679_389_277_0.jpg)
 
 图 9-2-5
 
@@ -5975,7 +5975,7 @@ $$
 
 这说明, 两个复数的和所对应的向量就是原来两个复数所对应向量的和,即以 $\overrightarrow{O{Z}_{1}}$ 与 $\overrightarrow{O{Z}_{2}}$ 为邻边的平行四边形的对角线所表示的向量. 这就是复数加法的平行四边形法则. 同样, 两个复数的差 ${z}_{1} - {z}_{2}$ 所对应向量是两个向量 $\overrightarrow{O{Z}_{1}}\text{ 、 }\overrightarrow{O{Z}_{2}}$ 的差 $\overrightarrow{O{Z}_{1}} - \overrightarrow{O{Z}_{2}}$ .
 
-![bo_d7fqtok91nqc7381i920_158_186_1109_322_244_0.jpg](images/bo_d7fqtok91nqc7381i920_158_186_1109_322_244_0.jpg)
+![bo_d7fqtok91nqc7381i920_158_186_1109_322_244_0.jpg](attachments/bo_d7fqtok91nqc7381i920_158_186_1109_322_244_0.jpg)
 
 图 9-2-6
 
@@ -6133,7 +6133,7 @@ $$
 = \left| {{z}_{1} + {z}_{2}}\right| \text{ . }
 $$
 
-![bo_d7fqtok91nqc7381i920_161_1141_230_316_232_0.jpg](images/bo_d7fqtok91nqc7381i920_161_1141_230_316_232_0.jpg)
+![bo_d7fqtok91nqc7381i920_161_1141_230_316_232_0.jpg](attachments/bo_d7fqtok91nqc7381i920_161_1141_230_316_232_0.jpg)
 
 图 9-2-7
 
@@ -6397,7 +6397,7 @@ $$
 
 如图 9-4-1,复数 $z = a + b\mathrm{i}\left( {a\text{ 、 }b \in  \mathbf{R}}\right)$ 对应着复平面上的一个点 $Z\left( {a, b}\right)$ . 我们把以原点 $O$ 为顶点、 $x$ 轴的正半轴为始边、 射线 ${OZ}$ 为终边的角 $\theta$ ,叫做复数 $z$ 的辐角 (argument),记作 Arg $z$ . 这里的角是 6.1 节意义下的任意角,即它是从原点出发的一条射线从始边位置旋转到终边位置所形成的角, 逆时针旋转时其度量取正值, 顺时针旋转时其度量取负值, 不旋转时其度量为 0 .
 
-![bo_d7fqtok91nqc7381i920_168_217_1087_261_256_0.jpg](images/bo_d7fqtok91nqc7381i920_168_217_1087_261_256_0.jpg)
+![bo_d7fqtok91nqc7381i920_168_217_1087_261_256_0.jpg](attachments/bo_d7fqtok91nqc7381i920_168_217_1087_261_256_0.jpg)
 
 图 9-4-1
 
@@ -6509,7 +6509,7 @@ $$
 
 ---
 
-![bo_d7fqtok91nqc7381i920_170_250_1830_193_216_0.jpg](images/bo_d7fqtok91nqc7381i920_170_250_1830_193_216_0.jpg)
+![bo_d7fqtok91nqc7381i920_170_250_1830_193_216_0.jpg](attachments/bo_d7fqtok91nqc7381i920_170_250_1830_193_216_0.jpg)
 
 棣莫弗 (A. De Moivre, 1667—1754), 法国数学家.
 
@@ -6593,7 +6593,7 @@ $$
 
 把 ${z}_{1}$ 乘一个非负实数 $s$ ,就是把向量 $\overrightarrow{O{Z}_{1}}$ 伸缩为原来的 $s$ 倍,成为向量 $\overrightarrow{O{Z}_{1}^{7}} = s\overrightarrow{O{Z}_{1}}$ (向量与实数的乘积),使它的模 $\left| \overrightarrow{O{Z}_{1}^{7}}\right|  = {sr}$ ,而其辐角不变 (图 9-4-2(1)).
 
-![bo_d7fqtok91nqc7381i920_172_580_833_886_312_0.jpg](images/bo_d7fqtok91nqc7381i920_172_580_833_886_312_0.jpg)
+![bo_d7fqtok91nqc7381i920_172_580_833_886_312_0.jpg](attachments/bo_d7fqtok91nqc7381i920_172_580_833_886_312_0.jpg)
 
 图 9-4-2
 
@@ -6605,7 +6605,7 @@ $$
 
 把 ${z}_{1}$ 乘一个模为 1 的复数 $\cos \beta  + \mathrm{i}\sin \beta$ ,就是把 ${z}_{1}$ 的辐角从 $\alpha$ 变成了 $\alpha  + \beta$ ,将向量 $\overrightarrow{O{Z}_{1}}$ 变成为向量 $\overrightarrow{O{Z}_{1}}$ ，而其模 $\left| \overrightarrow{O{Z}_{1}}\right|  = \; r$ 不变 (图 9-4-2(2)). 也就是说,这个乘法就是让向量 $\overrightarrow{O{Z}_{1}}$ 绕坐标原点旋转 $\beta$ 角成为向量 $\overrightarrow{O{Z}_{1}}$ ，使得以 $x$ 轴正半轴为始边、以 $\overrightarrow{O{Z}_{1}}$ 为终边的角是 $\alpha  + \beta$ . 这样，“旋转”这一重要的几何变换可以用复数乘法得到准确的表达. 例如,由于 $\mathrm{i}$ 的辐角主值是 $\frac{\pi }{2}$ ,因此把 ${z}_{1}$ 乘 $\mathrm{i}$ 就是让向量 $\overrightarrow{O{Z}_{1}}$ 绕坐标原点逆时针旋转 $\frac{\pi }{2}$ .
 
-![bo_d7fqtok91nqc7381i920_172_222_1748_253_309_0.jpg](images/bo_d7fqtok91nqc7381i920_172_222_1748_253_309_0.jpg)
+![bo_d7fqtok91nqc7381i920_172_222_1748_253_309_0.jpg](attachments/bo_d7fqtok91nqc7381i920_172_222_1748_253_309_0.jpg)
 
 图 9-4-3
 
@@ -7165,7 +7165,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fqtok91nqc7381i920_191_1323_722_140_147_0.jpg](images/bo_d7fqtok91nqc7381i920_191_1323_722_140_147_0.jpg)
+![bo_d7fqtok91nqc7381i920_191_1323_722_140_147_0.jpg](attachments/bo_d7fqtok91nqc7381i920_191_1323_722_140_147_0.jpg)
 
 11. (多选题) 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -7207,7 +7207,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fqtok91nqc7381i920_191_687_1911_167_163_0.jpg](images/bo_d7fqtok91nqc7381i920_191_687_1911_167_163_0.jpg)
+![bo_d7fqtok91nqc7381i920_191_687_1911_167_163_0.jpg](attachments/bo_d7fqtok91nqc7381i920_191_687_1911_167_163_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -7299,7 +7299,7 @@ A. $x = 3$ 是 $f\left( x\right)$ 的极小值点 B. 当 $0 < x < 1$ 时, $f\lef
 
 C. 当 $1 < x < 2$ 时, $- 4 < f\left( {{2x} - 1}\right)  < 0$ D. 当 $- 1 < x < 0$ 时, $f\left( {2 - x}\right)  > f\left( x\right)$
 
-![bo_d7fqtok91nqc7381i920_192_1325_737_141_148_0.jpg](images/bo_d7fqtok91nqc7381i920_192_1325_737_141_148_0.jpg)
+![bo_d7fqtok91nqc7381i920_192_1325_737_141_148_0.jpg](attachments/bo_d7fqtok91nqc7381i920_192_1325_737_141_148_0.jpg)
 
 11. 设计一条美丽的丝带,其造型 $\smallsetminus   \text{ ○ }$ 可以看作图中的曲线 $C$ 的一部分,已知 $C$ 过坐标原点 $O$ ,且 $C$ 上的点满足横坐标大于 -2,到点 $F\left( {2,0}\right)$ 的距离与到定直线 $x = a\left( {a < 0}\right)$ 的距离之积为 4 , 则 ( )
 
@@ -7315,7 +7315,7 @@ D. 当点 $\left( {{x}_{0},{y}_{0}}\right)$ 在 $C$ 上时, ${y}_{0} \leq  \frac
 
 ( 2 ) 若 ${AD} \bot  {DC}$ ,且二面角 $A - {CP} - D$ 的正弦值为 $\frac{\sqrt{42}}{7}$ ,求 ${AD}$ .
 
-![bo_d7fqtok91nqc7381i920_192_1314_1236_166_164_0.jpg](images/bo_d7fqtok91nqc7381i920_192_1314_1236_166_164_0.jpg)
+![bo_d7fqtok91nqc7381i920_192_1314_1236_166_164_0.jpg](attachments/bo_d7fqtok91nqc7381i920_192_1314_1236_166_164_0.jpg)
 
 18. 已知函数 $f\left( x\right)  = \ln \frac{x}{2 - x} + {ax} + b{\left( x - 1\right) }^{3}$
 
@@ -7619,7 +7619,7 @@ A. 160 B. 163 C. 166 D. 170
 
 两个相关变量满足如下关系:
 
-![bo_d7fqtok91nqc7381i920_194_1110_1993_163_67_0.jpg](images/bo_d7fqtok91nqc7381i920_194_1110_1993_163_67_0.jpg)
+![bo_d7fqtok91nqc7381i920_194_1110_1993_163_67_0.jpg](attachments/bo_d7fqtok91nqc7381i920_194_1110_1993_163_67_0.jpg)
 
 ## 校本教材
 
@@ -7713,7 +7713,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一)探究新知，回顾背景
 
-![bo_d7fqtok91nqc7381i920_196_215_416_1222_492_0.jpg](images/bo_d7fqtok91nqc7381i920_196_215_416_1222_492_0.jpg)
+![bo_d7fqtok91nqc7381i920_196_215_416_1222_492_0.jpg](attachments/bo_d7fqtok91nqc7381i920_196_215_416_1222_492_0.jpg)
 
 觅宁参考 §6.3.1 平面向量基本定理 3 / 11
 
@@ -7721,7 +7721,7 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (一) 探究新知, 回顾背景
 
-![bo_d7fqtok91nqc7381i920_196_210_1109_1233_560_0.jpg](images/bo_d7fqtok91nqc7381i920_196_210_1109_1233_560_0.jpg)
+![bo_d7fqtok91nqc7381i920_196_210_1109_1233_560_0.jpg](attachments/bo_d7fqtok91nqc7381i920_196_210_1109_1233_560_0.jpg)
 
 1. IATEX 本身都可以画出高清矢量图, 同时图中的元素也可以轻松实现逐步显示;
 
@@ -7733,9 +7733,9 @@ ${y}^{2} = {2px}$ 与 $y = {kx} + b$ 交于 $A, B$ 两点,记 ${AB}$ 中点为 $
 
 (二) 探究新知, 动手操作
 
-![bo_d7fqtok91nqc7381i920_197_402_367_379_221_0.jpg](images/bo_d7fqtok91nqc7381i920_197_402_367_379_221_0.jpg)
+![bo_d7fqtok91nqc7381i920_197_402_367_379_221_0.jpg](attachments/bo_d7fqtok91nqc7381i920_197_402_367_379_221_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_197_845_333_394_256_0.jpg](images/bo_d7fqtok91nqc7381i920_197_845_333_394_256_0.jpg)
+![bo_d7fqtok91nqc7381i920_197_845_333_394_256_0.jpg](attachments/bo_d7fqtok91nqc7381i920_197_845_333_394_256_0.jpg)
 
 $$
 \overrightarrow{OC} = \overrightarrow{OM} + \overrightarrow{ON}
@@ -7781,21 +7781,21 @@ $= \frac{2n}{{2n} + 1}$ 化简
 
 - 函数图象
 
-![bo_d7fqtok91nqc7381i920_198_238_382_1281_1625_0.jpg](images/bo_d7fqtok91nqc7381i920_198_238_382_1281_1625_0.jpg)
+![bo_d7fqtok91nqc7381i920_198_238_382_1281_1625_0.jpg](attachments/bo_d7fqtok91nqc7381i920_198_238_382_1281_1625_0.jpg)
 
 + 立体几何
 
-![bo_d7fqtok91nqc7381i920_199_237_357_1328_1169_0.jpg](images/bo_d7fqtok91nqc7381i920_199_237_357_1328_1169_0.jpg)
+![bo_d7fqtok91nqc7381i920_199_237_357_1328_1169_0.jpg](attachments/bo_d7fqtok91nqc7381i920_199_237_357_1328_1169_0.jpg)
 
 统计图
 
-![bo_d7fqtok91nqc7381i920_199_242_1643_1243_433_0.jpg](images/bo_d7fqtok91nqc7381i920_199_242_1643_1243_433_0.jpg)
+![bo_d7fqtok91nqc7381i920_199_242_1643_1243_433_0.jpg](attachments/bo_d7fqtok91nqc7381i920_199_242_1643_1243_433_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载软件、教程, 添加微信与作者交流第 13 页 共 20 页
 
-![bo_d7fqtok91nqc7381i920_200_222_295_642_483_0.jpg](images/bo_d7fqtok91nqc7381i920_200_222_295_642_483_0.jpg)
+![bo_d7fqtok91nqc7381i920_200_222_295_642_483_0.jpg](attachments/bo_d7fqtok91nqc7381i920_200_222_295_642_483_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_200_879_333_589_371_0.jpg](images/bo_d7fqtok91nqc7381i920_200_879_333_589_371_0.jpg)
+![bo_d7fqtok91nqc7381i920_200_879_333_589_371_0.jpg](attachments/bo_d7fqtok91nqc7381i920_200_879_333_589_371_0.jpg)
 
 建设后经济收入构成比例
 
@@ -7805,19 +7805,19 @@ $y$
 
 -0
 
-![bo_d7fqtok91nqc7381i920_200_225_1222_398_301_0.jpg](images/bo_d7fqtok91nqc7381i920_200_225_1222_398_301_0.jpg)
+![bo_d7fqtok91nqc7381i920_200_225_1222_398_301_0.jpg](attachments/bo_d7fqtok91nqc7381i920_200_225_1222_398_301_0.jpg)
 
 ## 4 其他平面图形
 
-![bo_d7fqtok91nqc7381i920_201_203_347_1154_604_0.jpg](images/bo_d7fqtok91nqc7381i920_201_203_347_1154_604_0.jpg)
+![bo_d7fqtok91nqc7381i920_201_203_347_1154_604_0.jpg](attachments/bo_d7fqtok91nqc7381i920_201_203_347_1154_604_0.jpg)
 
 + 其它图形
 
-![bo_d7fqtok91nqc7381i920_201_201_1085_1132_528_0.jpg](images/bo_d7fqtok91nqc7381i920_201_201_1085_1132_528_0.jpg)
+![bo_d7fqtok91nqc7381i920_201_201_1085_1132_528_0.jpg](attachments/bo_d7fqtok91nqc7381i920_201_201_1085_1132_528_0.jpg)
 
 + 三视图
 
-![bo_d7fqtok91nqc7381i920_201_198_1728_1150_428_0.jpg](images/bo_d7fqtok91nqc7381i920_201_198_1728_1150_428_0.jpg)
+![bo_d7fqtok91nqc7381i920_201_198_1728_1150_428_0.jpg](attachments/bo_d7fqtok91nqc7381i920_201_198_1728_1150_428_0.jpg)
 
 ## 与文档浑然一体
 
@@ -7827,19 +7827,19 @@ $y$
 
 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fqtok91nqc7381i920_202_321_371_104_110_0.jpg](images/bo_d7fqtok91nqc7381i920_202_321_371_104_110_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_321_371_104_110_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_321_371_104_110_0.jpg)
 
 A
 
-![bo_d7fqtok91nqc7381i920_202_453_372_101_110_0.jpg](images/bo_d7fqtok91nqc7381i920_202_453_372_101_110_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_453_372_101_110_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_453_372_101_110_0.jpg)
 
 B
 
-![bo_d7fqtok91nqc7381i920_202_582_372_103_110_0.jpg](images/bo_d7fqtok91nqc7381i920_202_582_372_103_110_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_582_372_103_110_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_582_372_103_110_0.jpg)
 
 C
 
-![bo_d7fqtok91nqc7381i920_202_709_373_103_109_0.jpg](images/bo_d7fqtok91nqc7381i920_202_709_373_103_109_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_709_373_103_109_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_709_373_103_109_0.jpg)
 
 D
 
@@ -7847,19 +7847,19 @@ D
 
 已知 $0 < m < n < 1$ ，则指数函数 $\text{ ① }y = {m}^{x}$ ， $\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fqtok91nqc7381i920_202_330_574_88_93_0.jpg](images/bo_d7fqtok91nqc7381i920_202_330_574_88_93_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_330_574_88_93_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_330_574_88_93_0.jpg)
 
 A
 
-![bo_d7fqtok91nqc7381i920_202_461_574_85_93_0.jpg](images/bo_d7fqtok91nqc7381i920_202_461_574_85_93_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_461_574_85_93_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_461_574_85_93_0.jpg)
 
 B
 
-![bo_d7fqtok91nqc7381i920_202_591_574_85_93_0.jpg](images/bo_d7fqtok91nqc7381i920_202_591_574_85_93_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_591_574_85_93_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_591_574_85_93_0.jpg)
 
 C
 
-![bo_d7fqtok91nqc7381i920_202_718_575_87_92_0.jpg](images/bo_d7fqtok91nqc7381i920_202_718_575_87_92_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_718_575_87_92_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_718_575_87_92_0.jpg)
 
 D
 
@@ -7867,7 +7867,7 @@ D
 
 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象, 则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fqtok91nqc7381i920_202_432_789_290_135_0.jpg](images/bo_d7fqtok91nqc7381i920_202_432_789_290_135_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_432_789_290_135_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_432_789_290_135_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$
 
@@ -7879,19 +7879,19 @@ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 同一坐标系中的图象可能是 ( )
 
-![bo_d7fqtok91nqc7381i920_202_918_273_98_100_0.jpg](images/bo_d7fqtok91nqc7381i920_202_918_273_98_100_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_918_273_98_100_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_918_273_98_100_0.jpg)
 
 A
 
-![bo_d7fqtok91nqc7381i920_202_1051_272_98_101_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1051_272_98_101_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1051_272_98_101_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1051_272_98_101_0.jpg)
 
 B
 
-![bo_d7fqtok91nqc7381i920_202_1180_271_100_102_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1180_271_100_102_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1180_271_100_102_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1180_271_100_102_0.jpg)
 
 C
 
-![bo_d7fqtok91nqc7381i920_202_1308_271_99_102_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1308_271_99_102_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1308_271_99_102_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1308_271_99_102_0.jpg)
 
 D
 
@@ -7899,7 +7899,7 @@ D
 
 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
-![bo_d7fqtok91nqc7381i920_202_1106_491_132_135_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1106_491_132_135_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1106_491_132_135_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1106_491_132_135_0.jpg)
 
 A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c$
 
@@ -7907,7 +7907,7 @@ A. $a < b < c < d\;$ B. $a < b < d < c\;$ C. $b < a < c < d\;$ D. $b < a < d < c
 
 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
-![bo_d7fqtok91nqc7381i920_202_1083_784_177_180_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1083_784_177_180_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1083_784_177_180_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1083_784_177_180_0.jpg)
 
 A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
@@ -7921,27 +7921,27 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fqtok91nqc7381i920_202_334_1250_137_122_0.jpg](images/bo_d7fqtok91nqc7381i920_202_334_1250_137_122_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_334_1250_137_122_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_334_1250_137_122_0.jpg)
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_202_517_1250_127_122_0.jpg](images/bo_d7fqtok91nqc7381i920_202_517_1250_127_122_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_517_1250_127_122_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_517_1250_127_122_0.jpg)
 
 (3)
 
-![bo_d7fqtok91nqc7381i920_202_693_1250_132_121_0.jpg](images/bo_d7fqtok91nqc7381i920_202_693_1250_132_121_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_693_1250_132_121_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_693_1250_132_121_0.jpg)
 
 (4)
 
-![bo_d7fqtok91nqc7381i920_202_335_1377_130_124_0.jpg](images/bo_d7fqtok91nqc7381i920_202_335_1377_130_124_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_335_1377_130_124_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_335_1377_130_124_0.jpg)
 
 (5)
 
-![bo_d7fqtok91nqc7381i920_202_516_1376_129_126_0.jpg](images/bo_d7fqtok91nqc7381i920_202_516_1376_129_126_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_516_1376_129_126_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_516_1376_129_126_0.jpg)
 
 (6)
 
-![bo_d7fqtok91nqc7381i920_202_693_1378_131_124_0.jpg](images/bo_d7fqtok91nqc7381i920_202_693_1378_131_124_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_693_1378_131_124_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_693_1378_131_124_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -7959,25 +7959,25 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 【答案】
 
-![bo_d7fqtok91nqc7381i920_202_333_1598_125_121_0.jpg](images/bo_d7fqtok91nqc7381i920_202_333_1598_125_121_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_333_1598_125_121_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_333_1598_125_121_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_202_516_1594_120_123_0.jpg](images/bo_d7fqtok91nqc7381i920_202_516_1594_120_123_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_516_1594_120_123_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_516_1594_120_123_0.jpg)
 
 (3)
 
-![bo_d7fqtok91nqc7381i920_202_694_1594_121_123_0.jpg](images/bo_d7fqtok91nqc7381i920_202_694_1594_121_123_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_694_1594_121_123_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_694_1594_121_123_0.jpg)
 
 (4)
 
-![bo_d7fqtok91nqc7381i920_202_334_1721_169_169_0.jpg](images/bo_d7fqtok91nqc7381i920_202_334_1721_169_169_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_334_1721_169_169_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_334_1721_169_169_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_202_514_1720_164_169_0.jpg](images/bo_d7fqtok91nqc7381i920_202_514_1720_164_169_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_514_1720_164_169_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_514_1720_164_169_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_202_691_1751_166_141_0.jpg](images/bo_d7fqtok91nqc7381i920_202_691_1751_166_141_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_691_1751_166_141_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_691_1751_166_141_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -7985,37 +7985,37 @@ A. $y = {x}^{2}$ B. $y = \frac{1}{\sqrt{x}}$ C. $y = {x}^{\frac{1}{2}}$ D. $y = 
 
 (1)
 
-![bo_d7fqtok91nqc7381i920_202_923_1196_177_184_0.jpg](images/bo_d7fqtok91nqc7381i920_202_923_1196_177_184_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_923_1196_177_184_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_923_1196_177_184_0.jpg)
 
 (2) $f\left( x\right)  = x + \ln x$ ;
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_202_1208_1227_104_154_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1208_1227_104_154_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1208_1227_104_154_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1208_1227_104_154_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fqtok91nqc7381i920_202_964_1462_276_106_0.jpg](images/bo_d7fqtok91nqc7381i920_202_964_1462_276_106_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_964_1462_276_106_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_964_1462_276_106_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fqtok91nqc7381i920_202_1291_1620_116_177_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1291_1620_116_177_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1291_1620_116_177_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1291_1620_116_177_0.jpg)
 
 (1) $y = x\ln x$
 
 (2) $y = \frac{\ln x}{x}$
 
-![bo_d7fqtok91nqc7381i920_202_1116_1636_154_163_0.jpg](images/bo_d7fqtok91nqc7381i920_202_1116_1636_154_163_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_1116_1636_154_163_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_1116_1636_154_163_0.jpg)
 
 (3)
 
 (3)
 
-![bo_d7fqtok91nqc7381i920_202_905_1648_180_135_0.jpg](images/bo_d7fqtok91nqc7381i920_202_905_1648_180_135_0.jpg)
+![bo_d7fqtok91nqc7381i920_202_905_1648_180_135_0.jpg](attachments/bo_d7fqtok91nqc7381i920_202_905_1648_180_135_0.jpg)
 
 $f\left( x\right)  = x\ln x$
 
@@ -8057,7 +8057,7 @@ $f\left( x\right)  = x\ln x$
 
 集合
 
-![bo_d7fqtok91nqc7381i920_204_1068_1473_178_444_0.jpg](images/bo_d7fqtok91nqc7381i920_204_1068_1473_178_444_0.jpg)
+![bo_d7fqtok91nqc7381i920_204_1068_1473_178_444_0.jpg](attachments/bo_d7fqtok91nqc7381i920_204_1068_1473_178_444_0.jpg)
 
 <table><tr><td></td><td>序号</td><td>符号</td></tr><tr><td></td><td>1.</td><td>$\sqrt{2},\sqrt[3]{3},\sqrt{\frac{1}{2}}$</td></tr><tr><td></td><td>2.</td><td>$\frac{2}{3},\frac{\sqrt{3}}{2}$</td></tr><tr><td></td><td>3.</td><td>$\overrightarrow{AB},\mathbf{a}$</td></tr><tr><td></td><td>4.</td><td>$\bar{a},\widehat{a},\overline{1234}$</td></tr><tr><td></td><td>5.</td><td>${a}_{m},{a}^{n},{a}_{n + 1}^{n + 2}$</td></tr><tr><td></td><td>6.</td><td>\{\}</td></tr><tr><td></td><td>7.</td><td>%</td></tr><tr><td></td><td>8.</td><td>$+ \infty , - \infty$</td></tr><tr><td></td><td>9.</td><td>$\because \therefore$</td></tr><tr><td></td><td>10.</td><td>$\langle \mathbf{a},\mathbf{b}\rangle$</td></tr><tr><td></td><td>11.</td><td>$\int$</td></tr><tr><td></td><td>12.</td><td>✘</td></tr><tr><td></td><td>13.</td><td>÷</td></tr><tr><td></td><td>14.</td><td>+</td></tr><tr><td></td><td>15.</td><td><</td></tr><tr><td></td><td>16.</td><td>之</td></tr><tr><td></td><td>17.</td><td>$\neq$</td></tr><tr><td></td><td>18.</td><td>$\approx$</td></tr><tr><td></td><td>19.</td><td>...</td></tr><tr><td></td><td>20.</td><td>十</td></tr><tr><td></td><td>21.</td><td>(mod $m$ )</td></tr><tr><td></td><td>22.</td><td>着重号</td></tr><tr><td></td><td>23.</td><td>公式中中文</td></tr><tr><td></td><td>24.</td><td><img src="https://cdn.noedgeai.com/bo_d7fqtok91nqc7381i920_204.jpg?x=383&y=2030&w=60&h=97&r=0"/></td></tr></table>
 
@@ -8131,23 +8131,23 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 ## 一、函数图象
 
-![bo_d7fqtok91nqc7381i920_207_129_129_1417_2097_0.jpg](images/bo_d7fqtok91nqc7381i920_207_129_129_1417_2097_0.jpg)
+![bo_d7fqtok91nqc7381i920_207_129_129_1417_2097_0.jpg](attachments/bo_d7fqtok91nqc7381i920_207_129_129_1417_2097_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 1 页 共 4 页
 
 ## 二、立体几何
 
-![bo_d7fqtok91nqc7381i920_208_161_157_1441_1269_0.jpg](images/bo_d7fqtok91nqc7381i920_208_161_157_1441_1269_0.jpg)
+![bo_d7fqtok91nqc7381i920_208_161_157_1441_1269_0.jpg](attachments/bo_d7fqtok91nqc7381i920_208_161_157_1441_1269_0.jpg)
 
 ## 三、统计图
 
-![bo_d7fqtok91nqc7381i920_208_160_1539_1372_478_0.jpg](images/bo_d7fqtok91nqc7381i920_208_160_1539_1372_478_0.jpg)
+![bo_d7fqtok91nqc7381i920_208_160_1539_1372_478_0.jpg](attachments/bo_d7fqtok91nqc7381i920_208_160_1539_1372_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题
 
 第 2 页 共 4 页
 
-![bo_d7fqtok91nqc7381i920_209_168_103_677_501_0.jpg](images/bo_d7fqtok91nqc7381i920_209_168_103_677_501_0.jpg)
+![bo_d7fqtok91nqc7381i920_209_168_103_677_501_0.jpg](attachments/bo_d7fqtok91nqc7381i920_209_168_103_677_501_0.jpg)
 
 第三产业收入
 
@@ -8163,25 +8163,25 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 四、圆锥曲线等平面图
 
-![bo_d7fqtok91nqc7381i920_209_157_735_1481_754_0.jpg](images/bo_d7fqtok91nqc7381i920_209_157_735_1481_754_0.jpg)
+![bo_d7fqtok91nqc7381i920_209_157_735_1481_754_0.jpg](attachments/bo_d7fqtok91nqc7381i920_209_157_735_1481_754_0.jpg)
 
 ## 五、 其他平面图形
 
-![bo_d7fqtok91nqc7381i920_209_158_1612_1057_478_0.jpg](images/bo_d7fqtok91nqc7381i920_209_158_1612_1057_478_0.jpg)
+![bo_d7fqtok91nqc7381i920_209_158_1612_1057_478_0.jpg](attachments/bo_d7fqtok91nqc7381i920_209_158_1612_1057_478_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 3 页 共 4 页
 
 ## 六、其它图形
 
-![bo_d7fqtok91nqc7381i920_210_144_153_1206_565_0.jpg](images/bo_d7fqtok91nqc7381i920_210_144_153_1206_565_0.jpg)
+![bo_d7fqtok91nqc7381i920_210_144_153_1206_565_0.jpg](attachments/bo_d7fqtok91nqc7381i920_210_144_153_1206_565_0.jpg)
 
 七、三视图
 
-![bo_d7fqtok91nqc7381i920_210_148_826_1214_455_0.jpg](images/bo_d7fqtok91nqc7381i920_210_148_826_1214_455_0.jpg)
+![bo_d7fqtok91nqc7381i920_210_148_826_1214_455_0.jpg](attachments/bo_d7fqtok91nqc7381i920_210_148_826_1214_455_0.jpg)
 
 ## 八、流程图
 
-![bo_d7fqtok91nqc7381i920_210_153_1388_841_844_0.jpg](images/bo_d7fqtok91nqc7381i920_210_153_1388_841_844_0.jpg)
+![bo_d7fqtok91nqc7381i920_210_153_1388_841_844_0.jpg](attachments/bo_d7fqtok91nqc7381i920_210_153_1388_841_844_0.jpg)
 
 关注微信公众号《觅宁参考》免费下载上述画图软件，添加小编微信，学习公式编辑、画图、下载高中数学专题第 4 页 共 4 页
 
@@ -8191,65 +8191,65 @@ ${10} = 1 + 1 + 1 + 7 \; {10} = 1 + 1 + 1 + 7$
 
 例 1 已知 ${y}_{1} = {\left( \frac{1}{3}\right) }^{x},{y}_{2} = {3}^{x},{y}_{3} = {10}^{-x},{y}_{4} = {10}^{x}$ ,则在同一直角坐标系内,他们的图象为 ( )
 
-![bo_d7fqtok91nqc7381i920_211_186_296_187_201_0.jpg](images/bo_d7fqtok91nqc7381i920_211_186_296_187_201_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_186_296_187_201_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_186_296_187_201_0.jpg)
 
 A
 
-![bo_d7fqtok91nqc7381i920_211_449_298_187_199_0.jpg](images/bo_d7fqtok91nqc7381i920_211_449_298_187_199_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_449_298_187_199_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_449_298_187_199_0.jpg)
 
 B
 
-![bo_d7fqtok91nqc7381i920_211_712_298_187_199_0.jpg](images/bo_d7fqtok91nqc7381i920_211_712_298_187_199_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_712_298_187_199_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_712_298_187_199_0.jpg)
 
 C
 
-![bo_d7fqtok91nqc7381i920_211_974_299_187_199_0.jpg](images/bo_d7fqtok91nqc7381i920_211_974_299_187_199_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_974_299_187_199_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_974_299_187_199_0.jpg)
 
 D
 
 练 1 已知 $0 < m < n < 1$ ,则指数函数 $\text{ ① }y = {m}^{x},\text{ ② }y = {n}^{x}$ 的图象是 ( )
 
-![bo_d7fqtok91nqc7381i920_211_202_688_155_169_0.jpg](images/bo_d7fqtok91nqc7381i920_211_202_688_155_169_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_202_688_155_169_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_202_688_155_169_0.jpg)
 
 A
 
-![bo_d7fqtok91nqc7381i920_211_464_689_155_168_0.jpg](images/bo_d7fqtok91nqc7381i920_211_464_689_155_168_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_464_689_155_168_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_464_689_155_168_0.jpg)
 
 B
 
-![bo_d7fqtok91nqc7381i920_211_728_689_154_168_0.jpg](images/bo_d7fqtok91nqc7381i920_211_728_689_154_168_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_728_689_154_168_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_728_689_154_168_0.jpg)
 
 C
 
-![bo_d7fqtok91nqc7381i920_211_990_689_155_168_0.jpg](images/bo_d7fqtok91nqc7381i920_211_990_689_155_168_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_990_689_155_168_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_990_689_155_168_0.jpg)
 
 D
 
 例 2 如图所示的曲线是对数函数 $y = {\log }_{a}x, y = {\log }_{b}x, y = {\log }_{c}x, y = {\log }_{d}x$ 的图象,则 $a, b, c, d$ 与 1 的大小关系为 ( )
 
-![bo_d7fqtok91nqc7381i920_211_377_1093_524_243_0.jpg](images/bo_d7fqtok91nqc7381i920_211_377_1093_524_243_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_377_1093_524_243_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_377_1093_524_243_0.jpg)
 
 A. $1 < d < c < a < b$ B. $c < d < 1 < a < b$ C. $c < d < 1 < b < a$ D. $d < c < 1 < a < b$
 
 练 2 已知 $a > 0, b > 0$ ,且 ${ab} = 1, a \neq  1$ ,则函数 $f\left( x\right)  = {a}^{x}$ 与函数 $g\left( x\right)  =  - {\log }_{b}x$ 在同一坐标系中的图象可能是 ( )
 
-![bo_d7fqtok91nqc7381i920_211_1300_176_182_176_0.jpg](images/bo_d7fqtok91nqc7381i920_211_1300_176_182_176_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_1300_176_182_176_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_1300_176_182_176_0.jpg)
 
 A
 
-![bo_d7fqtok91nqc7381i920_211_1566_175_177_178_0.jpg](images/bo_d7fqtok91nqc7381i920_211_1566_175_177_178_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_1566_175_177_178_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_1566_175_177_178_0.jpg)
 
 B
 
-![bo_d7fqtok91nqc7381i920_211_1827_174_179_178_0.jpg](images/bo_d7fqtok91nqc7381i920_211_1827_174_179_178_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_1827_174_179_178_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_1827_174_179_178_0.jpg)
 
 C
 
-![bo_d7fqtok91nqc7381i920_211_2089_177_179_176_0.jpg](images/bo_d7fqtok91nqc7381i920_211_2089_177_179_176_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_2089_177_179_176_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_2089_177_179_176_0.jpg)
 
 D
 
-![bo_d7fqtok91nqc7381i920_211_2001_545_241_248_0.jpg](images/bo_d7fqtok91nqc7381i920_211_2001_545_241_248_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_2001_545_241_248_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_2001_545_241_248_0.jpg)
 
 例 3 如图,幂函数 $y = {x}^{a}, y = {x}^{b}, y = {x}^{c}, y = {x}^{d}$ 在第一象限内的图象,则 $a, b, c, d$ 的大小关系为 ( )
 
@@ -8257,7 +8257,7 @@ A. $a < b < c < d$ B. $a < b < d < c$
 
 C. $b < a < c < d$ D. $b < a < d < c$
 
-![bo_d7fqtok91nqc7381i920_211_1995_909_250_238_0.jpg](images/bo_d7fqtok91nqc7381i920_211_1995_909_250_238_0.jpg)
+![bo_d7fqtok91nqc7381i920_211_1995_909_250_238_0.jpg](attachments/bo_d7fqtok91nqc7381i920_211_1995_909_250_238_0.jpg)
 
 练 3 函数 $y = \frac{1}{x}, y = x, y = 1$ 的图象和直线 $x = 1$ 将平面直角坐标系的第一象限分为 8 个部分:①②③④⑤⑥⑦⑧，若幂函数 $f\left( x\right)$ 的图象经过的部分是④⑧，则 $f\left( x\right)$ 可能是 ( )
 
@@ -8275,29 +8275,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqtok91nqc7381i920_212_198_279_253_219_0.jpg](images/bo_d7fqtok91nqc7381i920_212_198_279_253_219_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_198_279_253_219_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_198_279_253_219_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_212_531_279_241_220_0.jpg](images/bo_d7fqtok91nqc7381i920_212_531_279_241_220_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_531_279_241_220_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_531_279_241_220_0.jpg)
 
 (3)
 
-![bo_d7fqtok91nqc7381i920_212_859_278_242_220_0.jpg](images/bo_d7fqtok91nqc7381i920_212_859_278_242_220_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_859_278_242_220_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_859_278_242_220_0.jpg)
 
 (4)
 
-![bo_d7fqtok91nqc7381i920_212_198_511_241_226_0.jpg](images/bo_d7fqtok91nqc7381i920_212_198_511_241_226_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_198_511_241_226_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_198_511_241_226_0.jpg)
 
 (5)
 
-![bo_d7fqtok91nqc7381i920_212_531_510_240_229_0.jpg](images/bo_d7fqtok91nqc7381i920_212_531_510_240_229_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_531_510_240_229_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_531_510_240_229_0.jpg)
 
 (6)
 
-![bo_d7fqtok91nqc7381i920_212_859_510_242_231_0.jpg](images/bo_d7fqtok91nqc7381i920_212_859_510_242_231_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_859_510_242_231_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_859_510_242_231_0.jpg)
 
 练 1 画出下列函数的图象
 
@@ -8307,27 +8307,27 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqtok91nqc7381i920_212_200_922_223_215_0.jpg](images/bo_d7fqtok91nqc7381i920_212_200_922_223_215_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_200_922_223_215_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_200_922_223_215_0.jpg)
 
 (1)
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_212_529_913_224_222_0.jpg](images/bo_d7fqtok91nqc7381i920_212_529_913_224_222_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_529_913_224_222_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_529_913_224_222_0.jpg)
 
 (3)
 
-![bo_d7fqtok91nqc7381i920_212_859_909_225_222_0.jpg](images/bo_d7fqtok91nqc7381i920_212_859_909_225_222_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_859_909_225_222_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_859_909_225_222_0.jpg)
 
 (4)
 
-![bo_d7fqtok91nqc7381i920_212_198_1150_301_306_0.jpg](images/bo_d7fqtok91nqc7381i920_212_198_1150_301_306_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_198_1150_301_306_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_198_1150_301_306_0.jpg)
 
 (5)
 
-![bo_d7fqtok91nqc7381i920_212_531_1143_303_314_0.jpg](images/bo_d7fqtok91nqc7381i920_212_531_1143_303_314_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_531_1143_303_314_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_531_1143_303_314_0.jpg)
 
-![bo_d7fqtok91nqc7381i920_212_861_1203_303_253_0.jpg](images/bo_d7fqtok91nqc7381i920_212_861_1203_303_253_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_861_1203_303_253_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_861_1203_303_253_0.jpg)
 
 ## 2、根据函数的性质画图
 
@@ -8337,7 +8337,7 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 【答案】
 
-![bo_d7fqtok91nqc7381i920_212_1316_229_298_295_0.jpg](images/bo_d7fqtok91nqc7381i920_212_1316_229_298_295_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_1316_229_298_295_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_1316_229_298_295_0.jpg)
 
 (1)
 
@@ -8345,29 +8345,29 @@ C. $y = {x}^{\frac{1}{2}}$ D. $y = {x}^{-2}$
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_212_1816_232_193_290_0.jpg](images/bo_d7fqtok91nqc7381i920_212_1816_232_193_290_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_1816_232_193_290_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_1816_232_193_290_0.jpg)
 
 练 2 已知奇函数 $f\left( x\right)$ 定义域为 $\mathbf{R}$ ,当 $x \in  \left\lbrack  {0,1}\right\rbrack$ 时, $f\left( x\right)  = x$ ,且 $f\left( x\right)$ 的图象关于 $x = 1$ 对称,画出 $f\left( x\right)$ 在 $\left\lbrack  {-5,5}\right\rbrack$ 的函数图象.
 
 【答案】
 
-![bo_d7fqtok91nqc7381i920_212_1362_670_512_195_0.jpg](images/bo_d7fqtok91nqc7381i920_212_1362_670_512_195_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_1362_670_512_195_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_1362_670_512_195_0.jpg)
 
 ## 3、复杂函数运用导数画图
 
 例 3 画出下列函数的图象
 
-![bo_d7fqtok91nqc7381i920_212_1984_972_196_313_0.jpg](images/bo_d7fqtok91nqc7381i920_212_1984_972_196_313_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_1984_972_196_313_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_1984_972_196_313_0.jpg)
 
 (1) $y = x\ln x$ (2) $y = \frac{\ln x}{x}$ (3) $y = \frac{x}{\ln x}$
 
 (1)
 
-![bo_d7fqtok91nqc7381i920_212_1322_1014_264_258_0.jpg](images/bo_d7fqtok91nqc7381i920_212_1322_1014_264_258_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_1322_1014_264_258_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_1322_1014_264_258_0.jpg)
 
 (2)
 
-![bo_d7fqtok91nqc7381i920_212_1650_1018_275_267_0.jpg](images/bo_d7fqtok91nqc7381i920_212_1650_1018_275_267_0.jpg)
+![bo_d7fqtok91nqc7381i920_212_1650_1018_275_267_0.jpg](attachments/bo_d7fqtok91nqc7381i920_212_1650_1018_275_267_0.jpg)
 
 (3)
 
