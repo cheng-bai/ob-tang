@@ -10,6 +10,30 @@ tags: [系统/日志, AI助手]
 
 ---
 
+## 2026-04-30
+
+### latex-maki-math 合并进 ob-tang
+
+- 将 `ob-tang` 确认为主库，`latex-maki-math` 合并为 Maki 风格 LaTeX 讲义与试卷导出子系统。
+- 新增 `20-Product/Maki核心讲义/`，迁入 `main.tex`、`maki-math.sty`、`chapters/` 与子系统说明。
+- 新增 `04-试卷汇总/2026届虹口区高三下二模数学试卷-Huashu/`，迁入虹口二模拆分版 Markdown、LaTeX、脚本与必要题图。
+- 新增 `00-System/Context/latex-maki-math/`，迁入跨 AI 记忆导入、复盘机制和已清洗上下文包。
+- 新增 `Skills/exam-md-clean-export/`，保留试卷 Markdown 清洗校验技能。
+- 更新 `.gitignore`，忽略 `mini-数学资料库/`、本地 Agent 配置、Copilot 会话、LaTeX 中间文件、依赖目录和缓存；对虹口二模必要题图设置小范围例外。
+- 更新根 `AGENTS.md`，明确合并后的库边界：`ob-tang` 是主库，Maki 讲义和 LaTeX 输出是子系统。
+
+**验证：**
+
+- `xelatex -interaction=nonstopmode -halt-on-error main.tex`：通过，生成 `main.pdf` 38 页。
+- `python3 Skills/exam-md-clean-export/scripts/quick_validate.py 04-试卷汇总/2026届虹口区高三下二模数学试卷-Huashu`：通过，`front_heading_hits=0`、`tex_kp_hits=0`。
+
+**后续：**
+
+- 暂不提交 `.obsidian/plugins/` 旧插件删除与 Obsidian 缓存变化。
+- 原 `/Users/tangchengbaiair/Downloads/latex-maki-math` 先保留，待 Git 提交、推送、Mac Air 克隆验证后再考虑归档或删除。
+
+---
+
 ## 2026-03-13（第二轮）
 
 ### 1. 库空间优化与 Git 同步

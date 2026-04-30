@@ -1,0 +1,162 @@
+\chapter{导数及其应用}
+
+\section{导数的概念}
+
+\begin{definition}[导数]
+设函数 $y = f(x)$ 在点 $x_0$ 的某个邻域内有定义，当自变量 $x$ 在 $x_0$ 处有增量 $\Delta x$ 时，函数有相应的增量 $\Delta y = f(x_0 + \Delta x) - f(x_0)$. 如果当 $\Delta x \to 0$ 时，比值 $\dfrac{\Delta y}{\Delta x}$ 的极限存在，则称函数 $f(x)$ 在点 $x_0$ 处\textbf{可导}，并称此极限为函数 $f(x)$ 在点 $x_0$ 处的\textbf{导数}，记作 $f'(x_0)$ 或 $\left.\dfrac{dy}{dx}\right|_{x=x_0}$：
+\[ f'(x_0) = \lim_{\Delta x \to 0} \frac{f(x_0 + \Delta x) - f(x_0)}{\Delta x} \]
+\end{definition}
+
+\begin{note}
+导数的几何意义：函数 $y = f(x)$ 在点 $x_0$ 处的导数 $f'(x_0)$ 就是曲线 $y = f(x)$ 在点 $(x_0, f(x_0))$ 处的切线斜率。
+\end{note}
+
+\begin{example}
+用导数定义求函数 $f(x) = x^2$ 在 $x = 1$ 处的导数。
+\end{example}
+
+\textbf{解.}
+\begin{align*}
+f'(1) &= \lim_{\Delta x \to 0} \frac{(1 + \Delta x)^2 - 1^2}{\Delta x} \\
+&= \lim_{\Delta x \to 0} \frac{1 + 2\Delta x + (\Delta x)^2 - 1}{\Delta x} \\
+&= \lim_{\Delta x \to 0} (2 + \Delta x) = 2
+\end{align*}
+
+因此，$f'(1) = 2$. \hfill $\square$
+
+\section{基本初等函数的导数公式}
+
+\begin{theorem}[基本求导公式]
+\begin{enumerate}
+    \item $(C)' = 0$ \quad （$C$ 为常数）
+    \item $(x^n)' = nx^{n-1}$ \quad （$n \in \mathbb{Q}$）
+    \item $(\sin x)' = \cos x$
+    \item $(\cos x)' = -\sin x$
+    \item $(e^x)' = e^x$
+    \item $(\ln x)' = \dfrac{1}{x}$ \quad （$x > 0$）
+\end{enumerate}
+\end{theorem}
+
+\begin{exercise}
+求下列函数的导数：
+\begin{enumerate}
+    \item $y = x^5$
+    \item $y = \dfrac{1}{x^2}$
+    \item $y = \sqrt{x}$
+\end{enumerate}
+\end{exercise}
+
+\textbf{解析：}
+\begin{enumerate}
+    \item $y' = 5x^4$
+    \item $y = x^{-2}$，故 $y' = -2x^{-3} = -\dfrac{2}{x^3}$
+    \item $y = x^{1/2}$，故 $y' = \dfrac{1}{2}x^{-1/2} = \dfrac{1}{2\sqrt{x}}$
+\end{enumerate}
+
+\section{导数的运算法则}
+
+\begin{theorem}[导数的四则运算法则]
+设函数 $u(x)$ 和 $v(x)$ 都可导，则：
+\begin{enumerate}
+    \item $(u \pm v)' = u' \pm v'$
+    \item $(uv)' = u'v + uv'$ \quad （乘法法则）
+    \item $\left(\dfrac{u}{v}\right)' = \dfrac{u'v - uv'}{v^2}$ \quad （$v \neq 0$，除法法则）
+\end{enumerate}
+\end{theorem}
+
+\begin{example}
+求函数 $y = x^3 \cdot \ln x$ 的导数。
+\end{example}
+
+\textbf{解.} 令 $u = x^3$，$v = \ln x$，则 $u' = 3x^2$，$v' = \dfrac{1}{x}$.
+
+由乘法法则：
+\[ y' = 3x^2 \cdot \ln x + x^3 \cdot \frac{1}{x} = 3x^2\ln x + x^2 = x^2(3\ln x + 1) \]
+\hfill $\square$
+
+\section{利用导数研究函数的单调性}
+
+\begin{theorem}[单调性判定]
+设函数 $y = f(x)$ 在区间 $(a, b)$ 内可导：
+\begin{enumerate}
+    \item 若 $f'(x) > 0$ 对任意 $x \in (a, b)$ 成立，则 $f(x)$ 在 $(a, b)$ 上单调递增；
+    \item 若 $f'(x) < 0$ 对任意 $x \in (a, b)$ 成立，则 $f(x)$ 在 $(a, b)$ 上单调递减。
+\end{enumerate}
+\end{theorem}
+
+\begin{note}
+记忆口诀：\textbf{正增负减}——导数为正则函数增，导数为负则函数减。
+\end{note}
+
+\begin{longexample}
+求函数 $f(x) = x^3 - 3x^2$ 的单调区间。
+\end{longexample}
+
+\textbf{解.} 
+
+\textbf{第一步：求导数}
+\[ f'(x) = 3x^2 - 6x = 3x(x - 2) \]
+
+\textbf{第二步：求临界点}
+令 $f'(x) = 0$，得 $x = 0$ 或 $x = 2$.
+
+\textbf{第三步：列表分析}
+
+\begin{center}
+\begin{tabular}{c|ccccc}
+\toprule
+$x$ & $(-\infty, 0)$ & $0$ & $(0, 2)$ & $2$ & $(2, +\infty)$ \\
+\midrule
+$f'(x)$ & $+$ & $0$ & $-$ & $0$ & $+$ \\
+$f(x)$ & $\nearrow$ & 极大值 & $\searrow$ & 极小值 & $\nearrow$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{第四步：得出结论}
+
+函数 $f(x)$ 在 $(-\infty, 0)$ 和 $(2, +\infty)$ 上单调递增，在 $(0, 2)$ 上单调递减。\hfill $\square$
+
+\section{函数的极值与最值}
+
+\begin{definition}[极值]
+设函数 $f(x)$ 在点 $x_0$ 的某个邻域内有定义：
+\begin{enumerate}
+    \item 若对邻域内任意 $x \neq x_0$，都有 $f(x) < f(x_0)$，则称 $f(x_0)$ 为函数的\textbf{极大值}，$x_0$ 为\textbf{极大值点}；
+    \item 若对邻域内任意 $x \neq x_0$，都有 $f(x) > f(x_0)$，则称 $f(x_0)$ 为函数的\textbf{极小值}，$x_0$ 为\textbf{极小值点}。
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[极值的必要条件]
+若函数 $f(x)$ 在点 $x_0$ 处可导且取得极值，则 $f'(x_0) = 0$.
+\end{theorem}
+
+\begin{note}
+使 $f'(x) = 0$ 的点称为函数的\textbf{驻点}（或稳定点）。驻点不一定是极值点，需要进一步判断。
+\end{note}
+
+\begin{example}
+求函数 $f(x) = x^3 - 3x$ 的极值。
+\end{example}
+
+\textbf{解.}
+
+求导：$f'(x) = 3x^2 - 3 = 3(x+1)(x-1)$
+
+令 $f'(x) = 0$，得 $x = -1$ 或 $x = 1$.
+
+列表分析：
+\begin{center}
+\begin{tabular}{c|ccccc}
+\toprule
+$x$ & $(-\infty, -1)$ & $-1$ & $(-1, 1)$ & $1$ & $(1, +\infty)$ \\
+\midrule
+$f'(x)$ & $+$ & $0$ & $-$ & $0$ & $+$ \\
+$f(x)$ & $\nearrow$ & 极大值 & $\searrow$ & 极小值 & $\nearrow$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+计算：$f(-1) = (-1)^3 - 3(-1) = 2$，$f(1) = 1 - 3 = -2$.
+
+因此，函数在 $x = -1$ 处取得极大值 $2$，在 $x = 1$ 处取得极小值 $-2$。\hfill $\square$

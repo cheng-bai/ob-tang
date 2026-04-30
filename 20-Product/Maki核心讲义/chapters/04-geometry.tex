@@ -1,0 +1,165 @@
+\chapter{立体几何}
+
+\section{空间几何体的结构}
+
+\begin{definition}[棱柱]
+有两个面互相平行，其余各面都是四边形，并且每相邻两个四边形的公共边都互相平行，由这些面所围成的多面体叫做\textbf{棱柱}。
+\end{definition}
+
+\begin{definition}[棱锥]
+有一个面是多边形，其余各面都是有一个公共顶点的三角形，由这些面所围成的多面体叫做\textbf{棱锥}。
+\end{definition}
+
+\begin{definition}[圆柱、圆锥、圆台]
+\begin{enumerate}
+    \item 以矩形的一边所在直线为旋转轴，其余三边旋转形成的面所围成的旋转体叫做\textbf{圆柱}；
+    \item 以直角三角形的一条直角边所在直线为旋转轴，其余两边旋转形成的面所围成的旋转体叫做\textbf{圆锥}；
+    \item 用平行于圆锥底面的平面去截圆锥，底面与截面之间的部分叫做\textbf{圆台}。
+\end{enumerate}
+\end{definition}
+
+\begin{note}
+记忆口诀：\textbf{柱平锥尖台球圆}——柱体上下底面平行，锥体有尖点，台体是截锥所得，球体是圆的。
+\end{note}
+
+\section{空间几何体的表面积与体积}
+
+\begin{theorem}[柱体的体积]
+柱体（棱柱、圆柱）的体积公式为：
+\[ V = Sh \]
+其中 $S$ 为底面积，$h$ 为高。
+\end{theorem}
+
+\begin{theorem}[锥体的体积]
+锥体（棱锥、圆锥）的体积公式为：
+\[ V = \frac{1}{3}Sh \]
+其中 $S$ 为底面积，$h$ 为高。
+\end{theorem}
+
+\begin{theorem}[球的表面积与体积]
+设球的半径为 $R$，则：
+\begin{enumerate}
+    \item 表面积：$S = 4\pi R^2$
+    \item 体积：$V = \dfrac{4}{3}\pi R^3$
+\end{enumerate}
+\end{theorem}
+
+\begin{example}
+已知圆锥的底面半径为 $3$，母线长为 $5$，求圆锥的表面积和体积。
+\end{example}
+
+\textbf{解.}
+
+\textbf{第一步：求高}
+由勾股定理，$h = \sqrt{5^2 - 3^2} = \sqrt{25 - 9} = \sqrt{16} = 4$.
+
+\textbf{第二步：求表面积}
+\[ S_{\text{表}} = \pi r^2 + \pi rl = \pi \cdot 3^2 + \pi \cdot 3 \cdot 5 = 9\pi + 15\pi = 24\pi \]
+
+\textbf{第三步：求体积}
+\[ V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \cdot 9 \cdot 4 = 12\pi \]
+
+答：圆锥的表面积为 $24\pi$，体积为 $12\pi$。\hfill $\square$
+
+\section{点、直线、平面之间的位置关系}
+
+\begin{definition}[平面的基本性质]
+\begin{enumerate}
+    \item \textbf{公理1}：如果一条直线上的两点在一个平面内，那么这条直线在此平面内；
+    \item \textbf{公理2}：过不在一条直线上的三点，有且只有一个平面；
+    \item \textbf{公理3}：如果两个不重合的平面有一个公共点，那么它们有且只有一条过该点的公共直线。
+\end{enumerate}
+\end{definition}
+
+\begin{theorem}[直线与平面的位置关系]
+设直线 $l$ 与平面 $\alpha$，则位置关系有三种：
+\begin{enumerate}
+    \item $l \subset \alpha$：直线在平面内，有无数公共点；
+    \item $l \cap \alpha = A$：直线与平面相交，有且只有一个公共点；
+    \item $l \parallel \alpha$：直线与平面平行，没有公共点。
+\end{enumerate}
+\end{theorem}
+
+\section{直线与平面平行的判定与性质}
+
+\begin{theorem}[线面平行的判定定理]
+平面外一条直线与此平面内的一条直线平行，则该直线与此平面平行。
+
+符号表示：若 $l \not\subset \alpha$，$m \subset \alpha$，且 $l \parallel m$，则 $l \parallel \alpha$。
+\end{theorem}
+
+\begin{theorem}[线面平行的性质定理]
+一条直线与一个平面平行，则过这条直线的任一平面与此平面的交线与该直线平行。
+
+符号表示：若 $l \parallel \alpha$，$l \subset \beta$，$\alpha \cap \beta = m$，则 $l \parallel m$。
+\end{theorem}
+
+\begin{note}
+记忆口诀：\textbf{线线平行则线面平行，线面平行则线线平行}——注意方向：判定是由线线到线面，性质是由线面到线线。
+\end{note}
+
+\section{直线与平面垂直的判定与性质}
+
+\begin{definition}[线面垂直]
+如果直线 $l$ 与平面 $\alpha$ 内的任意一条直线都垂直，我们就说直线 $l$ 与平面 $\alpha$ 互相垂直，记作 $l \perp \alpha$。
+\end{definition}
+
+\begin{theorem}[线面垂直的判定定理]
+一条直线与一个平面内的两条相交直线都垂直，则该直线与此平面垂直。
+\end{theorem}
+
+\begin{theorem}[线面垂直的性质定理]
+垂直于同一个平面的两条直线平行。
+\end{theorem}
+
+\begin{example}
+如图，在正方体 $ABCD-A_1B_1C_1D_1$ 中，求证：$A_1C \perp$ 平面 $BDC_1$。
+\end{example}
+
+\textbf{证明.}
+
+连接 $AC$、$BD$，设交点为 $O$.
+
+\textbf{第一步：证明 $A_1C \perp BD$}
+
+在正方体中，$BD \perp AC$（正方形对角线互相垂直）
+
+又 $AA_1 \perp$ 平面 $ABCD$，所以 $AA_1 \perp BD$
+
+由于 $BD \perp AC$ 且 $BD \perp AA_1$，$AC$ 与 $AA_1$ 相交
+
+所以 $BD \perp$ 平面 $A_1AC$，故 $BD \perp A_1C$.
+
+\textbf{第二步：证明 $A_1C \perp BC_1$}
+
+同理可证 $BC_1 \perp A_1C$（利用 $B_1C \perp BC_1$ 和 $A_1B_1 \perp$ 平面 $B_1C_1CB$）
+
+\textbf{第三步：得出结论}
+
+由于 $A_1C \perp BD$ 且 $A_1C \perp BC_1$，$BD$ 与 $BC_1$ 相交
+
+所以 $A_1C \perp$ 平面 $BDC_1$。\hfill $\square$
+
+\section{空间向量及其运算}
+
+\begin{definition}[空间向量]
+在空间中有大小和方向的量叫做\textbf{空间向量}。空间向量的加法、减法、数乘运算与平面向量类似。
+\end{definition}
+
+\begin{theorem}[空间向量的坐标运算]
+设 $\vec{a} = (a_1, a_2, a_3)$，$\vec{b} = (b_1, b_2, b_3)$，则：
+\begin{enumerate}
+    \item $\vec{a} + \vec{b} = (a_1 + b_1, a_2 + b_2, a_3 + b_3)$
+    \item $\vec{a} - \vec{b} = (a_1 - b_1, a_2 - b_2, a_3 - b_3)$
+    \item $\lambda\vec{a} = (\lambda a_1, \lambda a_2, \lambda a_3)$
+    \item $\vec{a} \cdot \vec{b} = a_1b_1 + a_2b_2 + a_3b_3$
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}[空间向量的模与夹角]
+设 $\vec{a} = (a_1, a_2, a_3)$，$\vec{b} = (b_1, b_2, b_3)$，则：
+\begin{enumerate}
+    \item $|\vec{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}$
+    \item $\cos\langle\vec{a}, \vec{b}\rangle = \dfrac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|} = \dfrac{a_1b_1 + a_2b_2 + a_3b_3}{\sqrt{a_1^2 + a_2^2 + a_3^2}\sqrt{b_1^2 + b_2^2 + b_3^2}}$
+\end{enumerate}
+\end{theorem}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Exam MD Clean Export"
+  short_description: "清理试卷 Markdown 样式并重新导出 PDF"
+  default_prompt: "Use $exam-md-clean-export to remove unwanted exam Markdown headings, regenerate LaTeX/PDF, and verify no stale labels remain."
+
+policy:
+  allow_implicit_invocation: true

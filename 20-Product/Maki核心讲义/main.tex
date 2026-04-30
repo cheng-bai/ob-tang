@@ -1,0 +1,71 @@
+% !TEX program = xelatex
+\documentclass[a4paper,12pt,oneside,fontset=none]{ctexbook}
+
+% 引入我们刚刚抽离出的自定义排版样式
+\usepackage{maki-math}
+
+% 将图片存放目录指定为 figures/ 文件夹
+\graphicspath{{figures/}}
+
+% ========================================
+%  ↓↓↓ 讲义信息设置（修改讲义时只需改这里） ↓↓↓
+% ========================================
+
+\renewcommand{\LectureNotesTitle}{高中数学核心讲义}
+\renewcommand{\AuthorInfo}{B站@Maki的完美算术教室}
+
+% ========================================
+
+\begin{document}
+
+\frontmatter
+
+% 生成讲义专属封面
+\MakeTitlePage
+
+% ====================
+%  ↓↓↓ 前言 ↓↓↓
+% ====================
+\chapter*{前言}
+
+数学是宇宙的语言。本讲义专为高中学子打造，力求概念清晰，逻辑严密，通过经典例题与详细解答，帮助大家攻克高中数学难关。
+
+本讲义分为多个独立章节，按高中数学核心模块分专题呈现，方便按需学习和复习。此版本基于 Maki 提供的精美 LaTeX 模板构建，愿你在此收获数学的美与力量！
+
+\vspace{3cm}
+\hfill
+\begin{minipage}{5cm}
+    \centering
+    Maki \\
+    二〇二六年三月\\
+    于多伦多
+\end{minipage}
+
+% 目录
+\tableofcontents
+
+\mainmatter
+
+% ===================================
+%  ↓↓↓ 引入各章节主体 ↓↓↓
+% ===================================
+
+% ===================================
+%  ↓↓↓ 引入各章节主体 ↓↓↓
+% ===================================
+
+% 必修一
+\include{chapters/01-sets_and_logic}
+\include{chapters/02-functions}
+
+% 必修二
+\include{chapters/06-sequences}
+\include{chapters/07-trigonometry}
+
+% 选择性必修
+\include{chapters/03-derivatives}
+\include{chapters/04-geometry}
+\include{chapters/05-conic_sections}
+\include{chapters/08-inequalities}
+
+\end{document}

@@ -1,0 +1,186 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{ctex}
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage[mathbf=sym]{unicode-math}
+\setmainfont{STIX Two Text}
+\setmathfont{STIX Two Math}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\setCJKmainfont[BoldFont=Noto Serif CJK SC Bold]{Noto Serif CJK SC}
+\setCJKsansfont[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+\newCJKfontfamily\examkaishu{FandolKai-Regular}
+\usepackage{graphicx}
+\usepackage{booktabs,array,multirow,tabularx}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+\usepackage{parskip}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0em}
+\usepackage{xcolor}
+
+% 数学符号
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+
+% 知识点标签
+\newcommand{\kp}[1]{%
+    \par\vspace{0.3em}\noindent%
+    {\small\textcolor{gray}{#1}}%
+    \par\vspace{0.2em}%
+}
+
+% 答案解析区域
+\newenvironment{solutionblock}{%
+    \par\vspace{0.5em}%
+    \noindent\rule{\textwidth}{0.4pt}%
+    \vspace{0.5em}%
+    \noindent\textbf{【参考答案与解析】}%
+    \par\vspace{0.3em}%
+    {\small%
+}{%
+    \par}%
+}
+
+% 答案标签
+\newcommand{\anslabel}[1]{%
+    \par\vspace{0.2em}\noindent%
+    \textbf{#1}%
+    \ignorespaces%
+}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\examkaishu 虹口区高三二模·选择题}
+\fancyhead[R]{\small\examkaishu 第 \thepage 页}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+{\centering\Large\bfseries 二、选择题\par}
+\vspace{0.3em}
+\hrule
+\vspace{0.5em}
+
+# 2025-2026学年虹口区高三二模数学试卷
+## 二、选择题
+(本大题共有 4 题, 满分 18 分)
+
+
+\textbf{考试时间：120分钟  满分：150分}
+
+
+13. 双曲线 ${y}^{2} - 2{x}^{2} = 1$ 的渐近线是( ).
+
+A. $y =  \pm  \sqrt{2}x$ B. $x =  \pm  \sqrt{2}y$ C. $y =  \pm  {2x}$ D. $x =  \pm  {2y}$
+
+
+
+---
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 双曲线的渐近线}
+{\small \anslabel{【答案】} A}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【详解】} 双曲线 ${y}^{2} - 2{x}^{2} = 1$ 的标准形式为 ${y}^{2} - \frac{{x}^{2}}{\frac{1}{2}} = 1$ ,}
+{\small 显然该双曲线焦点在 $y$ 轴上,其中 ${a}^{2} = 1,{b}^{2} = \frac{1}{2}$ ,即 $a = 1, b = \frac{\sqrt{2}}{2}$ ,}
+{\small 因为焦点在 $y$ 轴上的双曲线的渐近线公式是 $y =  \pm  \frac{a}{b}x$ ,且 $\frac{a}{b} = \frac{1}{\frac{\sqrt{2}}{2}} = \sqrt{2}$ ,}
+{\small 所以双曲线 ${y}^{2} - 2{x}^{2} = 1$ 的渐近线是 $y =  \pm  \sqrt{2}x$ .}
+{\small 14. 已知 $P\left( A\right)$ 和 $P\left( B\right)$ 分别表示事件 $A$ 和事件 $B$ 发生的概率,且 $0 < P\left( B\right)  < 1$ ,则在下列各项中，“ $A$ 和 $B$ 独立” 的充分条件是( ).}
+{\small A. $P\left( A\right)  = 1 - P\left( B\right)$ B. $P\left( {A \mid  B}\right)  = P\left( {A \mid  \bar{B}}\right)$}
+{\small C. $P\left( {A \cup  B}\right)  = P\left( A\right)  + P\left( B\right)$ D. $P\left( {A \mid  B}\right)  = P\left( {\bar{A} \mid  B}\right)$}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 事件独立性、条件概率}
+{\small \anslabel{【答案】} B}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 事件 $A$ 和 $B$ 独立的定义是 $P\left( {AB}\right)  = P\left( A\right) P\left( B\right)$ ,根据每个选项的条件,结合条件概率公式 $P\left( {A \mid  B}\right)  = \frac{P\left( {AB}\right) }{P\left( B\right) }$ 以及概率的基本性质,判断是否能推出 $P\left( {AB}\right)  = P\left( A\right) P\left( B\right)$ .}
+{\small \anslabel{【详解】} 选项 $\mathrm{A}, P\left( A\right)  = 1 - P\left( B\right)$ ,则 $P\left( A\right)  + P\left( B\right)  = 1$ ,并不能推出 $P\left( {AB}\right)  = P\left( A\right) P\left( B\right)$ , 所以事件 $A$ 和 $B$ 不一定独立, $\mathrm{A}$ 错误.}
+{\small 选项 B, $P\left( {A \mid  B}\right)  = \frac{P\left( {AB}\right) }{P\left( B\right) }, P\left( {A \mid  \bar{B}}\right)  = \frac{P\left( {A\bar{B}}\right) }{P\left( \bar{B}\right) },\because P\left( {A \mid  B}\right)  = P\left( {A \mid  \bar{B}}\right)$ , $\therefore \frac{P\left( {AB}\right) }{P\left( B\right) } = \frac{P\left( {A\bar{B}}\right) }{P\left( \bar{B}\right) }$ .}
+{\small $\because P\left( {A\bar{B}}\right)  = P\left( A\right)  - P\left( {AB}\right) , P\left( \bar{B}\right)  = 1 - P\left( B\right) ,\;\therefore \frac{P\left( {AB}\right) }{P\left( B\right) } = \frac{P\left( A\right)  - P\left( {AB}\right) }{1 - P\left( B\right) }$ .}
+{\small $\therefore P\left( {AB}\right)  - P\left( {AB}\right) P\left( B\right)  = P\left( B\right) P\left( A\right)  - P\left( B\right) P\left( {AB}\right)$ .}
+{\small $\therefore P\left( {AB}\right)  = P\left( A\right) P\left( B\right)$ ,即 $A$ 和 $B$ 独立, $\mathrm{B}$ 选项正确.}
+{\small 选项 C, $P\left( {A \cup  B}\right)  = P\left( A\right)  + P\left( B\right)  - P\left( {AB}\right)$ ,又 $P\left( {A \cup  B}\right)  = P\left( A\right)  + P\left( B\right) , P\left( {AB}\right)  = 0$ ,}
+{\small $\therefore A$ 和 $B$ 不一定独立, $\mathrm{C}$ 错误.}
+{\small 选项 D, $P\left( {A \mid  B}\right)  = \frac{P\left( {AB}\right) }{P\left( B\right) }, P\left( {\bar{A} \mid  B}\right)  = \frac{P\left( {\bar{A}B}\right) }{P\left( B\right) }, P\left( {A \mid  B}\right)  = P\left( {\bar{A} \mid  B}\right) ,\therefore P\left( {AB}\right)  = P\left( {\bar{A}B}\right)$ . 又 $P\left( {\bar{A}B}\right)  = P\left( B\right)  - P\left( {AB}\right) ,\therefore P\left( {AB}\right)  = P\left( B\right)  - P\left( {AB}\right)$ ,可得 $P\left( {AB}\right)  = \frac{1}{2}P\left( B\right)$ ,也不能推出 $A$ 和 $B$ 独立, $\mathrm{D}$ 错误.}
+{\small 15. 一定存在各项均为正数且不为常数列的无穷等差数列 $\left\{  {a}_{n}\right\}$ ,使得 ( ).}
+{\small A. $\left\{  {\sin {a}_{n}}\right\}$ 为严格增数列 B. $\left\{  {\cos {a}_{n}}\right\}$ 为公差不为零的等差数}
+{\small 列.}
+{\small C. $\left\{  {\cos {S}_{n}}\right\}$ 为等比数列 (其中, ${S}_{n} = \mathop{\sum }\limits_{{i = 1}}^{n}{a}_{i}$ ) D. $\left\{  {\sin \frac{1}{{a}_{n}}}\right\}$ 为周期数列}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 等差数列、三角函数性质、数列综合}
+{\small \anslabel{【答案】} C}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 利用等差数列、等比数列及三角函数性质对各选项逐一分析是否存在符合条件的无穷等差数列.}
+{\small \anslabel{【详解】} 在 $\mathrm{A}$ 选项中，假设 $\left\{  {\sin {a}_{n}}\right\}$ 是严格递增的无穷数列,}
+{\small 但 $\sin {a}_{n} \in  \left\lbrack  {-1,1}\right\rbrack$ ,且是周期函数,在一个周期内有增有减,}
+{\small 对无穷等差数列 $\left\{  {a}_{n}\right\}$ ,当 $n \rightarrow   + \infty$ ,则 ${a}_{n} \rightarrow   + \infty$ ,}
+{\small 所以 $\sin {a}_{n}$ 会周期性波动,不可能一直严格递增, A 错误,}
+{\small 在 $\mathrm{B}$ 选项中，设等差数列 $\left\{  {a}_{n}\right\}$ 的首项为 ${a}_{1}$ ，公差为 $d\left( {d \neq  0}\right)$ ，}
+{\small 则 ${a}_{n} = {a}_{1} + \left( {n - 1}\right) d$ ,所以}
+{\small $\cos {a}_{n + 1} - \cos {a}_{n} =  - 2\sin \frac{{a}_{n + 1} + {a}_{n}}{2}\sin \frac{{a}_{n + 1} - {a}_{n}}{2} =  - 2\sin \frac{2{a}_{1} + \left( {{2n} - 1}\right) d}{2}\sin \frac{d}{2}$ ,}
+{\small 由于 $\sin \frac{2{a}_{1} + \left( {{2n} - 1}\right) d}{2}$ 是关于 $n$ 的周期变化的函数,}
+{\small 所以 $\cos {a}_{n + 1} - \cos {a}_{n}$ 不是常数,}
+{\small 即 $\left\{  {\cos {a}_{n}}\right\}$ 不是公差不为零的等差数列, B 错误,}
+{\small 在 $\mathrm{C}$ 选项中,设等差数列 $\left\{  {a}_{n}\right\}$ 的首项为 ${a}_{1}$ ,公差为 $d\left( {d \neq  0}\right)$ ,}
+{\small 则 ${S}_{n} = n{a}_{1} + \frac{n\left( {n - 1}\right) d}{2}$ ,}
+{\small 若 $\left\{  {\cos {S}_{n}}\right\}$ 为等比数列,则 ${\left( \cos {S}_{2}\right) }^{2} = \cos {S}_{1}\cos {S}_{3}$ ,}
+{\small ${S}_{1} = {a}_{1},\;{S}_{2} = 2{a}_{1} + \frac{2 \times  1}{2}d = 2{a}_{1} + d,\;{S}_{3} = 3{a}_{1} + \frac{3 \times  2}{2}d = 3{a}_{1} + {3d},$}
+{\small ${\cos }^{2}\left( {2{a}_{1} + d}\right)  = \cos {a}_{1}\cos \left( {3{a}_{1} + {3d}}\right) ,$}
+{\small 当 ${a}_{1} = \pi , d = {2\pi }$ 时,则 ${a}_{n} = \pi  + \left( {\mathrm{n} - 1}\right) {2\pi } = \left( {2\mathrm{n} - 1}\right) \pi$ ,}
+{\small 该数列各项均为正数，且不为常数列，其 $n$ 项和为}
+{\small ${S}_{n} = \frac{n\left( {{a}_{1} + {a}_{n}}\right) }{2} = \frac{n\left\lbrack  {\pi  + \left( {2\mathrm{n} - 1}\right) \pi }\right\rbrack  }{2} = {n}^{2}\pi$ ,此时数列 $\cos {S}_{n} = \cos \left( {{n}^{2}\pi }\right)$ ,}
+{\small 当 $n$ 为奇数时, ${n}^{2}$ 为奇数, $\cos \left( {{n}^{2}\pi }\right)  =  - 1$ ,}
+{\small 当 $n$ 为偶数时, ${n}^{2}$ 为偶数, $\cos \left( {{n}^{2}\pi }\right)  = 1$ ,}
+{\small 故 $\left\{  {\cos {S}_{n}}\right\}$ 为数列 $\{  - 1,1, - 1,1,\cdots \}$ ，是公比为 -1 的等比数列，}
+{\small 所以存在这样的无穷等差数列 $\left\{  {a}_{n}\right\}$ 使得 $\left\{  {\cos {S}_{n}}\right\}$ 为等比数列, C 正确,}
+{\small 在 $\mathrm{D}$ 选项中，因为 $\left\{  {a}_{n}\right\}$ 是各项为正数且不为常数列的无穷等差数列,}
+{\small 所以 $\mathop{\lim }\limits_{{n \rightarrow  \infty }}{a}_{n} =  + \infty$ ,即 $\mathop{\lim }\limits_{{n \rightarrow  \infty }}\frac{1}{{a}_{n}} = 0$ ,}
+{\small 所以 $\sin \frac{1}{{a}_{n}}$ 会趋近于 $\sin 0 = 0$ ,}
+{\small 而周期数列是指经过一定的项数后会重复出现相同的项,}
+{\small 所以 $\left\{  {\sin \frac{1}{{a}_{n}}}\right\}$ 不可能是周期数列, D 错误.}
+{\small 16. 设 $y = f\left( x\right)$ 和 $y = g\left( x\right)$ 是两个不同的函数,且定义域和值域均为 $\mathbf{R}$ ,设 $M = \left\{  {\left( {a, b}\right)  \mid  f\left( a\right) \rangle g\left( b\right) , a, b \in  \mathbf{R}}\right\}$ ,则对于以下两个结论,说法正确的是 ( )}
+{\small 结论①:若当 $\left( {a, b}\right)  \in  M$ ，恒有 $\left( {-a, b}\right)  \in  M$ ，则函数 $y = f\left( x\right)$ 一定是偶函数；}
+{\small 结论②:若当 $\left( {a, b}\right)  \in  M$ ，恒有 $\left( {-a, - b}\right)  \in  M$ ，则函数 $y = g\left( x\right)$ 可以不是偶函数.}
+{\small A. ①和②都正确 B. ①正确，②错误 C. ①错误，②正确 D. ①和② 都错误}
+{\small ## 三、解答题}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 函数性质、集合、逻辑推理}
+{\small \anslabel{【答案】} B}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 对于结论①,利用反证法假设存在 $f\left( a\right)  > f\left( {-a}\right)$ ,找到 $g\left( b\right)$ 满足 $f\left( a\right)  > g\left( b\right)  > f\left( {-a}\right)$ ,引出矛盾即可证明正确; 对于结论②,采用类似的分析找到 $f\left( a\right)$ 满足 $g\left( b\right)  > f\left( a\right)  > g\left( {-b}\right)$ ,利用 $f\left( a\right)  > g\left( {-b}\right)$ 推出 $f\left( {-a}\right)  > g\left( b\right)  > g\left( {-b}\right)$ ,再利用 $f\left( {-a}\right)  > g\left( {-b}\right)$ 推出 $f\left( a\right)  > g\left( b\right)$ ,引出矛盾即可证明错误.}
+{\small \anslabel{【详解】} 对于结论①,若函数 $y = f\left( x\right)$ 不是偶函数,则存在 $f\left( a\right)  \neq  f\left( {-a}\right)$ ,}
+{\small 不妨设 $f\left( a\right)  > f\left( {-a}\right)$ (否则用 $- a$ 取代 $a$ ),因为 $y = f\left( x\right)$ 和 $y = g\left( x\right)$ 值域均为 $\mathbf{R}$ ,}
+{\small 则存在 $b \in  \mathbf{R}$ 使得 $g\left( b\right)  = \frac{f\left( a\right)  + f\left( {-a}\right) }{2}$ ,此时有 $f\left( a\right)  > g\left( b\right)  > f\left( {-a}\right)$ ,}
+{\small 根据 $f\left( a\right)  > g\left( b\right)$ ,依题意有 $f\left( {-a}\right)  > g\left( b\right)$ ,这与 $g\left( b\right)  > f\left( {-a}\right)$ 矛盾,}
+{\small 故函数 $y = f\left( x\right)$ 一定是偶函数，结论①正确；}
+{\small 对于结论②，若函数 $y = g\left( x\right)$ 不是偶函数，则存在 $g\left( b\right)  \neq  g\left( {-b}\right)$ ，}
+{\small 不妨设 $g\left( b\right)  > g\left( {-b}\right)$ (否则用 $- b$ 取代 $b$ ),因为 $y = f\left( x\right)$ 和 $y = g\left( x\right)$ 值域均为 $\mathbf{R}$ ,}
+{\small 则存在 $a \in  \mathbf{R}$ 使得 $f\left( a\right)  = \frac{g\left( b\right)  + g\left( {-b}\right) }{2}$ ,此时 $g\left( b\right)  > f\left( a\right)  > g\left( {-b}\right)$ ,}
+{\small 依题意,由 $f\left( a\right)  > g\left( {-b}\right)$ 有 $f\left( {-a}\right)  > g\left( {-\left( {-b}\right) }\right)$ ,即 $f\left( {-a}\right)  > g\left( b\right)$ ,所以}
+{\small $f\left( {-a}\right)  > g\left( {-b}\right) ,$}
+{\small 而 $f\left( {-a}\right)  > g\left( {-b}\right)$ 可推出 $f\left( {-\left( {-a}\right) }\right)  > g\left( {-\left( {-b}\right) }\right)$ 即 $f\left( a\right)  > g\left( b\right)$ ,与 $g\left( b\right)  > f\left( a\right)$ 矛盾,}
+{\small 故函数 $y = g\left( x\right)$ 一定是偶函数,结论②错误.}
+{\small \anslabel{【点睛】} 本题采用了反证法证明奇偶性, 通过灵活利用已知条件得到矛盾的结果, 并利用了两个实数之间总能找到一个实数这一结论.}
+\end{solutionblock}
+\end{document}

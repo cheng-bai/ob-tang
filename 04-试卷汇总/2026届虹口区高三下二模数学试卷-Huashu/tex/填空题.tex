@@ -1,0 +1,303 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{ctex}
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage[mathbf=sym]{unicode-math}
+\setmainfont{STIX Two Text}
+\setmathfont{STIX Two Math}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\setCJKmainfont[BoldFont=Noto Serif CJK SC Bold]{Noto Serif CJK SC}
+\setCJKsansfont[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+\newCJKfontfamily\examkaishu{FandolKai-Regular}
+\usepackage{graphicx}
+\usepackage{booktabs,array,multirow,tabularx}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+\usepackage{parskip}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0em}
+\usepackage{xcolor}
+
+% 数学符号
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+
+% 知识点标签
+\newcommand{\kp}[1]{%
+    \par\vspace{0.3em}\noindent%
+    {\small\textcolor{gray}{#1}}%
+    \par\vspace{0.2em}%
+}
+
+% 答案解析区域
+\newenvironment{solutionblock}{%
+    \par\vspace{0.5em}%
+    \noindent\rule{\textwidth}{0.4pt}%
+    \vspace{0.5em}%
+    \noindent\textbf{【参考答案与解析】}%
+    \par\vspace{0.3em}%
+    {\small%
+}{%
+    \par}%
+}
+
+% 答案标签
+\newcommand{\anslabel}[1]{%
+    \par\vspace{0.2em}\noindent%
+    \textbf{#1}%
+    \ignorespaces%
+}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\examkaishu 虹口区高三二模·填空题}
+\fancyhead[R]{\small\examkaishu 第 \thepage 页}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+{\centering\Large\bfseries 一、填空题\par}
+\vspace{0.3em}
+\hrule
+\vspace{0.5em}
+
+# 2025-2026学年虹口区高三二模数学试卷
+## 一、填空题
+(本大题共有 12 题，满分 54 分)
+
+
+\textbf{考试时间：120分钟  满分：150分}
+
+
+---
+### 考生注意:
+
+1. 本试卷共 4 页, 21 道试题, 满分 150 分, 考试时间 120 分钟.
+
+2. 作答必须写在答题纸上的相应位置.
+---
+
+
+1. 设全集为 $U = \{  - 2, - 1,0,1,2,3\}$ ，集合 $A = \left\{  {x\left| {\;\frac{x}{x - 2} \geq  0}\right. , x \in  U}\right\}$ ，则 $\bar{A} =$ ___.
+
+
+
+---
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 集合运算、分式不等式}
+{\small \anslabel{【答案】} $\{ 1,2\}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 根据分式不等式的解法,可求得集合 $A$ ,即可得答案.}
+{\small \anslabel{【详解】} 由 $\frac{x}{x - 2} \geq  0$ ,得 $\left\{  \begin{array}{l} x\left( {x - 2}\right)  \geq  0 \\  x - 2 \neq  0 \end{array}\right.$ ,解得 $x > 2$ 或 $x \leq  0$ ,}
+{\small 又 $x \in  U$ ,所以 $A = \{  - 2, - 1,0,3\}$ ,则 $\bar{A} = \{ 1,2\}$ .}
+{\small 2. 已知一个直三棱柱的侧棱长为 2，底面面积为 2，则该三棱柱的体积为___.}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 棱柱体积公式}
+{\small \anslabel{【答案】} 4}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 根据三棱柱的体积公式计算求解.}
+{\small \anslabel{【详解】} 设一个直三棱柱的侧棱长为 $h = 2$ ,底面面积为 $S = 2$ ,则该三棱柱的体积为 $V = {Sh} = 2 \times  2 = 4$ .}
+{\small 3. 已知离散型随机变量 $X$ 服从二项分布 $B\left( {8,\frac{1}{2}}\right)$ ，则 $D\left( X\right)  =$ ___.}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 二项分布的方差}
+{\small \anslabel{【答案】} 2}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 利用二项分布的方差公式直接计算.}
+{\small \anslabel{【详解】} 因为随机变量 $X$ 服从二项分布 $B\left( {8,\frac{1}{2}}\right)$ ,}
+{\small 所以 $D\left( X\right)  = 8 \times  \frac{1}{2} \times  \left( {1 - \frac{1}{2}}\right)  = 2$ .}
+{\small 故答案为:2.}
+{\small 4. 设 $a : x \leq  m$ ， $\beta  : \left| {x - 2}\right|  \leq  1$ ，若 $a$ 是 $\beta$ 的必要条件，则实数 $m$ 的取值范围是___.}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 充分必要条件、绝对值不等式}
+{\small \anslabel{【答案】} $\{ m \mid  m \geq  3\}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【详解】} 由 $\left| {x - 2}\right|  \leq  1$ 得 $- 1 \leq  x - 2 \leq  1$ ,得 $1 \leq  x \leq  3$ ,}
+{\small 因为 $a$ 是 $\beta$ 的必要条件,所以 $\{ x \mid  1 \leq  x \leq  3\}  \subseteq  \{ x \mid  x \leq  m\}$ ,得 $m \geq  3$ ,}
+{\small 故实数 $m$ 的取值范围是 $\{ m \mid  m \geq  3\}$ .}
+{\small 5. 某工厂为判断两种不同的操作方法是否对生产某种零件的合格个数有影响，收集了相关数据，绘制了 $2 \times  2$ 列联表，设原假设 ${H}_{0}$ :两种不同的操作方法对生产该种零件的合格个数没有影响,计算出统计量 ${\chi }^{2} = {5.284}$ ,已知 $P\left( {{\chi }^{2} \geq  {3.841}}\right)  \approx  {0.05}$ ,则在显著性水平 $a = {0.05}$ 下，推断的结论为___ ${H}_{0}$ . (用“拒绝”或“接受”填空)}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 独立性检验、假设检验}
+{\small \anslabel{【答案】} 拒绝}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【详解】} 在独立性检验中,当计算出的统计量 ${\chi }^{2}$ 大于给定显著性水平 $a$ 对应的临界值时, 样本数据出现的概率小于 $a$ ,}
+{\small 属于小概率事件,根据小概率原理,我们拒绝原假设 ${H}_{0}$ ,认为两个变量之间存在显著关联, 本题中 ${\chi }^{2} = {5.284} > {3.841}$ ,所以拒绝 ${H}_{0}$ ,即认为两种操作方法对合格个数有影响.}
+{\small 6. 在 ${ABC}$ 中， ${AB} = 1,{BC} = 2$ ， $\overrightarrow{BA} \cdot  \overrightarrow{CA} = \frac{7}{5}$ ，则 $\cos \angle {ABC} =$ ___.}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 向量数量积、余弦定理}
+{\small \anslabel{【答案】} $- \frac{1}{5}\# \#  - {0.2}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 根据数量积公式,可得 $\cos A$ 的值,根据余弦定理,可得 ${b}^{2}$ ,代入余弦定理,即可得答案.}
+{\small \anslabel{【详解】} 设 ${AB} = c = 1,{BC} = a = 2,{AC} = b$ ,}
+{\small 由题意 $\overrightarrow{BA} \cdot  \overrightarrow{CA} = \left| \overrightarrow{BA}\right|  \cdot  \left| \overrightarrow{CA}\right| \cos A = b\cos A = \frac{7}{5}$ ，所以 $\cos A = \frac{7}{5b}$ ，}
+{\small 又 $\cos A = \frac{{b}^{2} + {c}^{2} - {a}^{2}}{2bc} = \frac{{b}^{2} + 1 - 4}{2b} = \frac{7}{5b}$ ，得 ${b}^{2} = \frac{29}{5}$ ，}
+{\small 所以 $\cos \angle {ABC} = \frac{{a}^{2} + {c}^{2} - {b}^{2}}{2ac} = \frac{4 + 1 - \frac{29}{5}}{2 \times  2 \times  1} =  - \frac{1}{5}$ .}
+{\small 7. 将 ${\left( 2 - x\right) }^{4}$ 二项展开式中的各项等可能地随机重新排列,观察排列中是否存在系数为负数的项相邻,若存在,则记随机变量 $X = 1$ ,否则记 $X = 0$ ,则 $E\left\lbrack  X\right\rbrack   =$ ___.}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 二项式定理、排列组合、随机变量期望}
+{\small \anslabel{【答案】} $\frac{2}{5}\# \# {0.4}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【详解】} 二项式 ${\left( 2 - x\right) }^{4}$ 的通项公式为 ${T}_{r + 1} = {\mathrm{C}}_{4}^{r} \cdot  {2}^{4 - r} \cdot  {\left( -x\right) }^{r}$ ,}
+{\small 显然该二项式展开共有 5 项，}
+{\small 当 $r = 1,3$ 时，即第2,4项系数为负数，}
+{\small 因为各项等可能地随机重新排列,}
+{\small 所以排列数为 ${\mathrm{A}}_{5}^{5}$ ,}
+{\small 系数为负数的项相邻的排列数为 ${\mathrm{A}}_{2}^{2}{\mathrm{\;A}}_{4}^{4}$ ,}
+{\small 所以 $P\left( {X = 1}\right)  = \frac{{\mathrm{A}}_{2}^{2}{\mathrm{\;A}}_{4}^{4}}{{\mathrm{\;A}}_{5}^{5}} = \frac{2}{5}$ ,}
+{\small 因此 $E\left\lbrack  X\right\rbrack   = 1 \times  \frac{2}{5} + 0 \times  P\left( {X = 0}\right)  = \frac{2}{5}$ .}
+{\small 8. 在正四棱台 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中， ${AB} = 2,{A}_{1}{B}_{1} = 4$ ，异面直线 ${C}_{1}{D}_{1}$ 与 $A{A}_{1}$ 所成角为 $\frac{\pi }{3}$ ， 设二面角 $A - {A}_{1}{B}_{1} - {D}_{1}$ 的大小为 $\theta$ ，则 $\tan \theta  =$ ___.}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 正四棱台、异面直线所成角、二面角}
+{\small \anslabel{【答案】} $\sqrt{2}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 法一在正四棱台中,由异面直线所成角可得 $\angle A{A}_{1}{B}_{1} = {60}$ ,再根据面面角定义计算求解即可, 法二建立空间直角坐标系, 求出关键点的坐标和关键平面的法向量, 进而利用二面角的向量求法并结合同角三角函数的基本关系求解即可.}
+{\small \anslabel{【详解】} 法一: 在正四棱台 ${ABCD} - {A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 中, ${C}_{1}{D}_{1}//{A}_{1}{B}_{1}$ ,}
+{\small 因为 ${AB} = 2$ ， ${A}_{1}{B}_{1} = 4$ ，所以 $\angle {A{A}_{1}{B}_{1}}$ 为异面直线 ${C}_{1}{D}_{1}$ 与 $A{A}_{1}$ 所成的角，}
+{\small 即 $\angle A{A}_{1}{B}_{1} = {60}$ ,过点 $A$ 作平面 ${A}_{1}{B}_{1}{C}_{1}{D}_{1}$ 的垂线,垂足为 $G$ ,}
+{\small 作直线 ${A}_{1}{B}_{1}$ 的垂线,垂足为 $H$ ,连接 ${GH}$ ,如图所示:}
+{\small ![bo_d7obids91nqc738536r0_8_240_189_372_274_0.jpg](images/bo_d7obids91nqc738536r0_8_240_189_372_274_0.jpg)}
+{\small 由正四棱台性质可知,点 $G$ 在线段 ${A}_{1}{C}_{1}$ 上, ${A}_{1}H = 1$ ,}
+{\small 所以 ${AH} = \sqrt{3},{A}_{1}G = \frac{1}{2}\left( {{A}_{1}{C}_{1} - {AC}}\right)  = \sqrt{2},{GH} = \sqrt{{A}_{1}{G}^{2} - {A}_{1}{H}^{2}} = 1$ ，}
+{\small 由二面角定义可知 $\angle {AHG}$ 即为二面角 $A - {A}_{1}{B}_{1} - {D}_{1}$ 的平面角,}
+{\small 而 $\tan \angle {AHG} = \frac{AG}{GH} = \sqrt{2}$ ,故 $\tan \theta  = \sqrt{2}$ .}
+{\small 法二: 如图,作出符合题意的图形,作下底面中心 ${O}_{1}$ ,上底面中心 $O$ , 以 ${O}_{1}$ 为原点,建立空间直角坐标系,设正四棱台的高为 $h$ ,}
+{\small ![bo_d7obids91nqc738536r0_8_241_982_375_337_0.jpg](images/bo_d7obids91nqc738536r0_8_241_982_375_337_0.jpg)}
+{\small 由题意得 ${AB} = 2,{A}_{1}{B}_{1} = 4$ ,则 ${C}_{1}\left( {-2,2,0}\right) ,{D}_{1}\left( {-2, - 2,0}\right) ,{B}_{1}\left( {2,2,0}\right) \; {A}_{1}\left( {2, - 2,0}\right) ,\;A\left( {1, - 1, h}\right)$ ,则 $\overrightarrow{{C}_{1}{D}_{1}} = \left( {0, - 4,0}\right) ,\;\overrightarrow{A{A}_{1}} = \left( {1, - 1, - h}\right)$ ,}
+{\small 因为异面直线 ${C}_{1}{D}_{1}$ 与 $A{A}_{1}$ 所成角为 $\frac{\pi }{3}$ ,}
+{\small 所以 $\frac{4}{4 \times  \sqrt{{1}^{2} + {\left( -1\right) }^{2} + {\left( -h\right) }^{2}}} = \frac{1}{2}$ ,解得 $h = \sqrt{2}$ ,}
+{\small 由题意得面 ${A}_{1}{B}_{1}{D}_{1}$ 的法向量为 $\overrightarrow{n} = \left( {0,0,1}\right)$ ,}
+{\small 则 $A\left( {1, - 1,\sqrt{2}}\right) ,\overrightarrow{A{A}_{1}} = \left( {1, - 1, - \sqrt{2}}\right) ,\overrightarrow{{A}_{1}{B}_{1}} = \left( {0,4,0}\right)$ ,}
+{\small 设面 $A{A}_{1}{B}_{1}$ 的法向量为 $\overrightarrow{m} = \left( {x, y, z}\right)$ ,}
+{\small 则 $\left\{  \begin{array}{l} \overrightarrow{A{A}_{1}} \cdot  \overrightarrow{m} = x - y - \sqrt{2}z = 0 \\  \overrightarrow{{A}_{1}{B}_{1}} \cdot  \overrightarrow{m} = {4y} = 0 \end{array}\right.$ ,令 $x = \sqrt{2}$ ,解得 $y = 0, z = 1$ ,}
+{\small 得到 $\overrightarrow{m} = \left( {\sqrt{2},0,1}\right)$ ,由图可知, $\theta$ 是锐角,则 $\cos \theta  = \frac{\left| \overrightarrow{m} \cdot  \overrightarrow{n}\right| }{\left| \overrightarrow{m}\right|  \cdot  \left| \overrightarrow{n}\right| } = \frac{1}{1 \times  \sqrt{3}} = \frac{\sqrt{3}}{3}$ ,}
+{\small 由已知得 $\sin \theta  > 0$ ，由同角三角函数的基本关系得 $\sin \theta  = \frac{\sqrt{6}}{3}$ ，}
+{\small 故 $\tan \theta  = \frac{\sin \theta }{\cos \theta } = \frac{\frac{\sqrt{6}}{3}}{\frac{\sqrt{3}}{3}} = \sqrt{2}$ .}
+{\small 9. 已知复数 $z$ 满足 $z + \frac{1}{z}$ 是实数，则 $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|$ 的最小值为___.}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 复数运算、复数模的几何意义}
+{\small \anslabel{【答案】} $\frac{1}{2}\# \# {0.5}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 设 $z = a + b\mathrm{i}$ ,代入 $z + \frac{1}{z}$ 中化简,由 $z + \frac{1}{z}$ 是实数,得 $b = 0$ 或 ${a}^{2} + {b}^{2} = 1$ ,利用复数模的几何意义求 $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|$ 的最小值}
+{\small \anslabel{【详解】} 设 $z = a + b\mathrm{i}$ ,则 $z + \frac{1}{z} = a + b\mathrm{i} + \frac{1}{a + b\mathrm{i}} = a + b\mathrm{i} + \frac{a - b\mathrm{i}}{\left( {a + b\mathrm{i}}\right) \left( {a - b\mathrm{i}}\right) } \; = a + \frac{a}{{a}^{2} + {b}^{2}} + \left( {b - \frac{b}{{a}^{2} + {b}^{2}}}\right) \mathrm{i},$}
+{\small 因为 $z + \frac{1}{z}$ 是实数,所以 $b - \frac{b}{{a}^{2} + {b}^{2}} = \frac{b\left( {{a}^{2} + {b}^{2} - 1}\right) }{{a}^{2} + {b}^{2}} = 0$ ,}
+{\small 所以 $b = 0$ 或 ${a}^{2} + {b}^{2} = 1$ ,}
+{\small 当 $b = 0$ 时, $z$ 的轨迹是 $x$ 轴 (除原点外),}
+{\small 此时 $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|$ 的几何意义表示 $x$ 轴上的点 (除原点) 和 $\left( {2,\frac{1}{2}}\right)$ 的距离,此时 $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|  \geq  \frac{1}{2}$ ,}
+{\small 当 ${a}^{2} + {b}^{2} = 1$ 时,复数 $z$ 的轨迹是以原点为圆心,1为半径的圆,如图,}
+{\small ![bo_d7obids91nqc738536r0_10_238_209_337_322_0.jpg](images/bo_d7obids91nqc738536r0_10_238_209_337_322_0.jpg)}
+{\small 根据复数模的几何意义可知, $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|$ 的几何意义是圆上的点到 $\left( {2,\frac{1}{2}}\right)$ 的距离,}
+{\small 由图可知, $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|$ 的最小值为 $\left| {OA}\right|  - 1 = \sqrt{{2}^{2} + {\left( \frac{1}{2}\right) }^{2}} - 1 = \frac{\sqrt{17}}{2} - 1$ .}
+{\small 因为 $= \frac{\sqrt{17}}{2} - 1 > \frac{1}{2}$ ,所以 $\left| {z - 2 - \frac{\mathrm{i}}{2}}\right|$ 的最小值为 $\frac{1}{2}$ .}
+{\small 10. 已知焦点为 $F$ 的抛物线 $C : {y}^{2} = {4x}$ 上有两点 $A$ 和 $B$ ，且 $\angle {AFB} = {150}^{ \circ  }$ ， $E$ 为 $A$ 和 $B$ 的中点，过点 $E$ 作 $C$ 的准线的垂线，垂足为 $H$ ，则 $\frac{{\left| AB\right| }^{2}}{{\left| EH\right| }^{2}}$ 的最小值为___.}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 抛物线定义、余弦定理、基本不等式}
+{\small \anslabel{【答案】} $2 + \sqrt{3}$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 设 $\left| {AF}\right|  = a,\left| {BF}\right|  = b$ ,根据中位线定理以及抛物线定义可得 $\left| {EH}\right|  = \frac{1}{2}\left( {a + b}\right)$ , 在 $\bigtriangleup {AFB}$ 中,由余弦定理以及基本不等式可得 $\left| {AB}\right|  \geq  \frac{2 - \sqrt{3}}{4}\left( {a + b}\right)$ ,即可求得 $\frac{{\left| AB\right| }^{2}}{{\left| EH\right| }^{2}}$ 的最小值.}
+{\small \anslabel{【详解】} 设 $\left| {AF}\right|  = a,\left| {BF}\right|  = b$ ,作 ${AQ}$ 垂直抛物线的准线于点 $Q,{BP}$ 垂直抛物线的准线于点 $P$ .}
+{\small ![bo_d7obids91nqc738536r0_10_240_1728_295_363_0.jpg](images/bo_d7obids91nqc738536r0_10_240_1728_295_363_0.jpg)}
+{\small 由抛物线的定义,知 $\left| {AF}\right|  = \left| {AQ}\right| ,\left| {BF}\right|  = \left| {BP}\right|$ ,根据中位线定理以及抛物线定义可得 $\left| {EH}\right|  = \frac{1}{2}\left( {a + b}\right) ,$}
+{\small 由余弦定理得 ${\left| AB\right| }^{2} = {a}^{2} + {b}^{2} - {2ab}\cos {150}^{ \circ  } = {a}^{2} + {b}^{2} + \sqrt{3}{ab} = {\left( a + b\right) }^{2} - \left( {2 - \sqrt{3}}\right) {ab}$ ,又 ${ab} \leq  {\left( \frac{a + b}{2}\right) }^{2}$}
+{\small $\therefore {\left( a + b\right) }^{2} - \left( {2 - \sqrt{3}}\right) {ab} \geq  {\left( a + b\right) }^{2} - \frac{2 - \sqrt{3}}{4}{\left( a + b\right) }^{2} = \frac{2 + \sqrt{3}}{4}{\left( a + b\right) }^{2}$ ,当且仅当 $a = b$ 时, 等号成立,}
+{\small $\therefore {\left| AB\right| }^{2} \geq  \frac{2 + \sqrt{3}}{4}{\left( a + b\right) }^{2}$ ,}
+{\small $\therefore \frac{{\left| AB\right| }^{2}}{{\left| EH\right| }^{2}} \geq  \frac{\frac{2 + \sqrt{3}}{4}{\left( a + b\right) }^{2}}{{\left\lbrack  \frac{1}{2}\left( a + b\right) \right\rbrack  }^{2}} = 2 + \sqrt{3}$ ,即 $\frac{{\left| AB\right| }^{2}}{{\left| EH\right| }^{2}}$ 的最小值为 $2 + \sqrt{3}$ .}
+{\small 11. 某种健身拉力器的手臂固定支架为 ${BE}$ ,需运动者将肩关节放置于点 $B$ 处,手肘放置于}
+{\small 点 $D$ 处,手掌放置于点 $E$ 处握拳握住弹力绳的一端,弹力绳的另一端连接于点 $C$ 处; 保持 $B\text{ 、 }D\text{ 、 }E\text{ 、 }C$ 四点共线. 将小臂视为线段 ${DE}$ ,长度为 $r$ ,大臂视为线段 ${BD}$ ,长度为 ${1.3r}$ . 在锻炼时要求保持肩关节 $B$ 和手肘 $D$ 不动，运用大臂力量将小臂 ${DE}$ 绕着手肘 $D$ 作圆周运动， 始终与 ${BC}$ 处于同一平面，弹力绳随之以紧绷状态从 ${CE}$ 拉伸至 ${CA}$ . 已知某位运动者健身时 ${CE} = {0.1r}$ ，当弹力绳拉至最长时， $\angle {ABC} = 3\angle {ACB}$ ，则此时 $\angle {ACB} =$ ___度.(结果精确到 0.1 度)}
+{\small ![bo_d7obids91nqc738536r0_1_241_879_372_197_0.jpg](images/bo_d7obids91nqc738536r0_1_241_879_372_197_0.jpg)}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 解三角形、正弦定理、余弦定理、近似计算}
+{\small \anslabel{【答案】} 16.7}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 先由题意得出 ${BC} = {2.4r},{CD} = {1.1r}$ ,且 ${AD} = r$ . 再设 $\angle {ACB} = x$ ,则 $\angle {ABC} = {3x}$ ,利用正弦定理表示出 ${AC}$ 的长度,最后在 $\vartriangle  {ACD}$ 中由余弦定理列方程求得 $x$ 的值.}
+{\small \anslabel{【详解】} 由题意可得 $\mathrm{B},\mathrm{D},\mathrm{E},\mathrm{C}$ 四点共线, ${BD} = {1.3r},{DE} = r,{CE} = {0.1r}$ ,且点 $\mathrm{A}$ 为点 $\mathrm{E}$ 绕点 $\mathrm{D}$ 旋转后的位置,所以 ${AD} = {DE} = r$ .}
+{\small 因此 ${BC} = {BD} + {DE} + {CE} = {1.3r} + r + {0.1r} = {2.4r},{CD} = {DE} + {CE} = r + {0.1r} = {1.1r}$ .}
+{\small 设 $\angle {ACB} = x$ ,则 $\angle {ABC} = {3x}$ ,所以 $\angle {BAC} = {180}^{ \circ  } - {4x}$ .}
+{\small 在 $\bigtriangleup  {ABC}$ 中，由正弦定理可得 $\frac{AC}{\sin {3x}} = \frac{BC}{\sin {4x}}$ ，所以 ${AC} = \frac{{2.4r}\sin {3x}}{\sin {4x}}$ .}
+{\small 在 $\bigtriangleup  {ACD}$ 中，由余弦定理可得 $A{D}^{2} = A{C}^{2} + C{D}^{2} - {2AC} \cdot  {CD}\cos x$ .}
+{\small 将 ${AD} = r$ ， ${CD} = {1.1r}$ ， ${AC} = \frac{{2.4r}\sin {3x}}{\sin {4x}}$ 代入，得 ${r}^{2} = {\left( \frac{{2.4r}\sin {3x}}{\sin {4x}}\right) }^{2} + {\left( {1.1}r\right) }^{2} - 2 \cdot  \frac{{2.4r}\sin {3x}}{\sin {4x}} \cdot  {1.1r}\cos x.$}
+{\small 两边同除以 ${r}^{2}$ ,得 $1 = {\left( \frac{{2.4}\sin {3x}}{\sin {4x}}\right) }^{2} + {1.21} - {5.28} \cdot  \frac{\sin {3x}\cos x}{\sin {4x}}$ .}
+{\small 化简可得 ${12}{\tan }^{6}x - {97}{\tan }^{4}x + {198}{\tan }^{2}x - {17} = 0$ .}
+{\small 令 $t = {\tan }^{2}x$ ,则 ${12}{t}^{3} - {97}{t}^{2} + {198t} - {17} = 0$ .}
+{\small 解得 $t \approx  {0.0898}$ ,或 $t \approx  {3.5588}$ ,或 $t \approx  {4.4348}$ .}
+{\small 因为 $0 < x < {45}^{ \circ  }$ ,所以 $0 < {\tan }^{2}x < 1$ ,故 ${\tan }^{2}x \approx  {0.0898}$ .}
+{\small 于是 $x \approx  {16.678}^{ \circ  }$ . 故此时 $\angle {ACB} \approx  {16.7}^{ \circ  }$ .}
+{\small 12. 在以 $O$ 为原点的空间直角坐标系中,设 $\overrightarrow{i} = \left( {1,0,0}\right) ,\overrightarrow{j} = \left( {0,1,0}\right) , A$ 和 $B$ 是两个点集, 设 $A = \left\{  {P\left| {\;\overrightarrow{OP} \cdot  \overrightarrow{j} = 1}\right. ,\left\langle  {\overrightarrow{OP},\overrightarrow{j}}\right\rangle   = \frac{\pi }{4}}\right\}$ ,对任意的 $Q \in  B$ ,总存在 $P \in  A$ ,使得 $\overrightarrow{OP} \cdot  \overrightarrow{OQ} = 2$ . 若 $T \in  B,\overrightarrow{OT} = x\overrightarrow{i} + y\overrightarrow{j}\left( {x\text{ 、 }y \in  \mathbf{R}}\right)$ 且 $\left| {\overrightarrow{OT} - \overrightarrow{j}}\right|  = 2$ ,则 $\overrightarrow{OT} \cdot  \overrightarrow{i}$ 的取值范围是___.}
+{\small ## 二、选择题 (本大题共有 4 题, 满分 18 分, 第 13-14 题每题 4 分, 第 15-16 题 每题 5 分) 每题有且只有一个正确答案, 考生应在答题纸的相应位置上, 将所选 答案的代号涂黑>}
+{\small <br><br><br><br><br>}
+\end{solutionblock}
+
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 空间向量、直线与圆的位置关系}
+{\small \anslabel{【答案】} $\left\lbrack  {-2,\frac{-1 - \sqrt{7}}{2}}\right\rbrack   \cup  \left\lbrack  {\frac{-1 + \sqrt{7}}{2},2}\right\rbrack$}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} 根据空间向量数量积的坐标表示公式, 结合直线与圆的位置关系进行求解即可.}
+{\small \anslabel{【详解】} 设 $P\left( {{x}_{1},{y}_{1},{z}_{1}}\right)$ ,因为 $\overrightarrow{OP} \cdot  \overrightarrow{j} = 1,\overrightarrow{OP},\overrightarrow{j} = \frac{\pi }{4}$ ,}
+{\small 所以 ${y}_{1} = 1$ ,且 $\sqrt{{x}_{1}^{2} + 1 + {z}_{1}^{2}} \cdot  1 \cdot  \frac{\sqrt{2}}{2} = 1 \Rightarrow  {x}_{1}^{2} + 1 + {z}_{1}^{2} = 2 \Rightarrow  {x}_{1}^{2} + {z}_{1}^{2} = 1$ ,}
+{\small 即 $P\left( {{x}_{1},1,{z}_{1}}\right)$ ,且 ${x}_{1}^{2} + {z}_{1}^{2} = 1$ ,显然 $- 1 \leq  {x}_{1} \leq  1$ ,}
+{\small 设 $Q\left( {a, b, c}\right)$ ,因为 $\overrightarrow{OP} \cdot  \overrightarrow{OQ} = 2$ ,所以 $a{x}_{1} + b + c{z}_{1} = 2$ ,}
+{\small 因为 $\overrightarrow{OT} = x\overrightarrow{i} + y\overrightarrow{j}\left( {x\text{ 、 }y \in  \mathbf{R}}\right)$ ,}
+{\small 所以 $\overrightarrow{OT} = \left( {x, y,0}\right)$ ,}
+{\small 因为 $\left| {\overrightarrow{OT} - \overrightarrow{j}}\right|  = 2$ ,}
+{\small 所以 $\sqrt{{x}^{2} + {\left( y - 1\right) }^{2}} = 2 \Rightarrow  {x}^{2} + {\left( y - 1\right) }^{2} = 4$ ,}
+{\small 因为 $T \in  B$ ,所以 $x{x}_{1} + y = 2 \Rightarrow  y = 2 - x{x}_{1}$ ,代入 ${x}^{2} + {\left( y - 1\right) }^{2} = 4$ 中,}
+{\small 得 ${x}^{2} + {\left( 2 - x{x}_{1} - 1\right) }^{2} = 4 \Rightarrow  \left( {1 + {x}_{1}^{2}}\right) {x}^{2} - 2{x}_{1}x - 3 = 0$ ,}
+{\small $\Delta  = 4{x}_{1}^{2} + {12}\left( {1 + {x}_{1}^{2}}\right)  = {12} + {16}{x}_{1}^{2} > 0,$}
+{\small 因此直线 $x{x}_{1} + y - 2 = 0$ 与圆 ${x}^{2} + {\left( y - 1\right) }^{2} = 4$ 有两个不同的交点,}
+{\small 因为 $- 1 \leq  {x}_{1} \leq  1$ ,所以直线 $y = 2 - x{x}_{1}$ 的斜率 $- {x}_{1}$ 的取值范围为 $- 1 \leq   - {x}_{1} \leq  1$ , 如下图所示:}
+{\small ![bo_d7obids91nqc738536r0_13_239_1348_349_342_0.jpg](images/bo_d7obids91nqc738536r0_13_239_1348_349_342_0.jpg)}
+{\small 由 $\left\{  {\begin{array}{l} {x}^{2} + {\left( y - 1\right) }^{2} = 4 \\  y = x + 2 \end{array} \Rightarrow  2{x}^{2} + {2x} - 3 = 0 \Rightarrow  x = \frac{-1 \pm  \sqrt{7}}{2}}\right.$}
+{\small 直线 $y = x + 2$ 与圆 ${x}^{2} + {\left( y - 1\right) }^{2} = 4$ 的交点坐标为 $A\left( {\frac{-1 - \sqrt{7}}{2},0}\right) , B\left( {\frac{-1 + \sqrt{7}}{2},0}\right)$ , 又因为直线 $y = x + 2$ 、直线 $y =  - x + 2$ 斜率互为相反数,且过同一点 $\left( {0,2}\right)$ ,与圆 ${x}^{2} + {\left( y - 1\right) }^{2} = 4$ 都是关于纵轴对称,}
+{\small 所以当 $- 1 \leq   - {x}_{1} \leq  1$ 时, $x \in  \left\lbrack  {-2,\frac{-1 - \sqrt{7}}{2}}\right\rbrack   \cup  \left\lbrack  {\frac{-1 + \sqrt{7}}{2},2}\right\rbrack$}
+{\small 因为 $\overrightarrow{OT} \cdot  \overrightarrow{i} = x$ ,}
+{\small 所以 $\overrightarrow{OT} \cdot  \overrightarrow{i}$ 的取值范围是 $\left\lbrack  {-2,\frac{-1 - \sqrt{7}}{2}}\right\rbrack   \cup  \left\lbrack  {\frac{-1 + \sqrt{7}}{2},2}\right\rbrack$ .}
+\end{solutionblock}
+\end{document}

@@ -1,0 +1,152 @@
+\chapter{不等式}
+
+\section{不等式的基本性质}
+
+\begin{theorem}[不等式的基本性质]
+\begin{enumerate}
+    \item 对称性：$a > b \Leftrightarrow b < a$
+    \item 传递性：$a > b$，$b > c$ $\Rightarrow$ $a > c$
+    \item 加法单调性：$a > b$ $\Rightarrow$ $a + c > b + c$
+    \item 乘法单调性：
+    \begin{itemize}
+        \item $a > b$，$c > 0$ $\Rightarrow$ $ac > bc$
+        \item $a > b$，$c < 0$ $\Rightarrow$ $ac < bc$（不等号方向改变）
+    \end{itemize}
+\end{enumerate}
+\end{theorem}
+
+\begin{note}
+特别注意：不等式两边同乘（或同除）一个负数时，不等号方向必须改变！
+\end{note}
+
+\section{一元二次不等式}
+
+\begin{theorem}[一元二次不等式的解法]
+设一元二次方程 $ax^2 + bx + c = 0$（$a > 0$）的两根为 $x_1, x_2$（$x_1 < x_2$），则：
+
+\begin{center}
+\begin{tabular}{c|c|c}
+\toprule
+判别式 & 不等式 & 解集 \\
+\midrule
+\multirow{3}{*}{$\Delta > 0$} & $ax^2 + bx + c > 0$ & $(-\infty, x_1) \cup (x_2, +\infty)$ \\
+& $ax^2 + bx + c < 0$ & $(x_1, x_2)$ \\
+& $ax^2 + bx + c \geq 0$ & $(-\infty, x_1] \cup [x_2, +\infty)$ \\
+\midrule
+$\Delta = 0$ & $ax^2 + bx + c > 0$ & $\{x | x \neq -\dfrac{b}{2a}\}$ \\
+\midrule
+$\Delta < 0$ & $ax^2 + bx + c > 0$ & $\mathbb{R}$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{theorem}
+
+\begin{note}
+记忆口诀：\textbf{大于取两边，小于取中间}——适用于二次项系数为正的情况。
+\end{note}
+
+\begin{example}
+解不等式 $x^2 - 5x + 6 > 0$。
+\end{example}
+
+\textbf{解.}
+
+\textbf{第一步：因式分解}
+\[ x^2 - 5x + 6 = (x - 2)(x - 3) \]
+
+\textbf{第二步：求根}
+方程 $(x-2)(x-3) = 0$ 的根为 $x_1 = 2$，$x_2 = 3$.
+
+\textbf{第三步：确定解集}
+由于二次项系数为正，且不等号为 ">"，根据"大于取两边"：
+
+解集为 $(-\infty, 2) \cup (3, +\infty)$. \hfill $\square$
+
+\section{基本不等式}
+
+\begin{theorem}[基本不等式]
+设 $a > 0$，$b > 0$，则：
+\[ \frac{a + b}{2} \geq \sqrt{ab} \]
+当且仅当 $a = b$ 时，等号成立。
+
+即：两个正数的算术平均数不小于它们的几何平均数。
+\end{theorem}
+
+\begin{theorem}[基本不等式的变形]
+\begin{enumerate}
+    \item $a + b \geq 2\sqrt{ab}$（$a > 0$，$b > 0$）
+    \item $ab \leq \left(\dfrac{a + b}{2}\right)^2$（$a > 0$，$b > 0$）
+    \item $a^2 + b^2 \geq 2ab$（$a, b \in \mathbb{R}$）
+    \item $\dfrac{a^2 + b^2}{2} \geq \left(\dfrac{a + b}{2}\right)^2$（$a, b \in \mathbb{R}$）
+\end{enumerate}
+\end{theorem}
+
+\begin{note}
+使用基本不等式求最值的三个条件：\textbf{一正、二定、三相等}——
+\begin{itemize}
+    \item 一正：各项必须为正数；
+    \item 二定：和或积为定值；
+    \item 三相等：等号能够取到。
+\end{itemize}
+\end{note}
+
+\begin{example}
+已知 $x > 0$，求 $y = x + \dfrac{4}{x}$ 的最小值。
+\end{example}
+
+\textbf{解.}
+
+因为 $x > 0$，所以 $\dfrac{4}{x} > 0$.
+
+由基本不等式：
+\[ y = x + \frac{4}{x} \geq 2\sqrt{x \cdot \frac{4}{x}} = 2\sqrt{4} = 4 \]
+
+当且仅当 $x = \dfrac{4}{x}$，即 $x^2 = 4$，$x = 2$ 时，等号成立。
+
+因此，$y$ 的最小值为 $4$。\hfill $\square$
+
+\section{绝对值不等式}
+
+\begin{theorem}[绝对值不等式的解法]
+\begin{enumerate}
+    \item $|x| < a$（$a > 0$）的解集为 $(-a, a)$；
+    \item $|x| > a$（$a > 0$）的解集为 $(-\infty, -a) \cup (a, +\infty)$；
+    \item $|x - x_0| < a$（$a > 0$）的解集为 $(x_0 - a, x_0 + a)$。
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}[绝对值三角不等式]
+\[ |a| - |b| \leq |a \pm b| \leq |a| + |b| \]
+\end{theorem}
+
+\section{柯西不等式}
+
+\begin{theorem}[柯西不等式]
+设 $a_1, a_2, \ldots, a_n$ 和 $b_1, b_2, \ldots, b_n$ 是两组实数，则：
+\[ (a_1^2 + a_2^2 + \cdots + a_n^2)(b_1^2 + b_2^2 + \cdots + b_n^2) \geq (a_1b_1 + a_2b_2 + \cdots + a_nb_n)^2 \]
+当且仅当 $\dfrac{a_1}{b_1} = \dfrac{a_2}{b_2} = \cdots = \dfrac{a_n}{b_n}$（约定 $b_i = 0$ 时 $a_i = 0$）时，等号成立。
+\end{theorem}
+
+\begin{note}
+二维形式的柯西不等式：$(a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2$
+
+向量形式：$|\vec{a} \cdot \vec{b}| \leq |\vec{a}| \cdot |\vec{b}|$
+\end{note}
+
+\begin{example}
+已知 $a^2 + b^2 = 5$，$ma + nb = 5$，求 $m^2 + n^2$ 的最小值。
+\end{example}
+
+\textbf{解.}
+
+由柯西不等式：
+\[ (a^2 + b^2)(m^2 + n^2) \geq (am + bn)^2 \]
+
+代入已知条件：
+\[ 5(m^2 + n^2) \geq 25 \]
+
+\[ m^2 + n^2 \geq 5 \]
+
+当且仅当 $\dfrac{a}{m} = \dfrac{b}{n}$ 时取等号。
+
+因此，$m^2 + n^2$ 的最小值为 $5$。\hfill $\square$

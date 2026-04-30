@@ -1,0 +1,149 @@
+\chapter{圆锥曲线}
+
+\section{椭圆}
+
+\begin{definition}[椭圆]
+平面内与两个定点 $F_1$、$F_2$ 的距离之和等于常数（大于 $|F_1F_2|$）的点的轨迹叫做\textbf{椭圆}。这两个定点叫做椭圆的\textbf{焦点}，两焦点间的距离叫做椭圆的\textbf{焦距}。
+\end{definition}
+
+\begin{theorem}[椭圆的标准方程]
+\begin{enumerate}
+    \item 焦点在 $x$ 轴上：$\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1$ \quad ($a > b > 0$)
+    \item 焦点在 $y$ 轴上：$\dfrac{y^2}{a^2} + \dfrac{x^2}{b^2} = 1$ \quad ($a > b > 0$)
+\end{enumerate}
+其中 $a$ 为半长轴，$b$ 为半短轴，$c = \sqrt{a^2 - b^2}$ 为半焦距。
+\end{theorem}
+
+\begin{note}
+记忆口诀：\textbf{大分母定轴向}——看 $x^2$ 和 $y^2$ 下面哪个分母大，焦点就在哪条轴上。
+\end{note}
+
+\begin{example}
+求椭圆 $9x^2 + 4y^2 = 36$ 的长轴、短轴、焦点坐标和离心率。
+\end{example}
+
+\textbf{解.}
+
+\textbf{第一步：化为标准方程}
+\[ \frac{x^2}{4} + \frac{y^2}{9} = 1 \]
+
+\textbf{第二步：确定参数}
+由于 $9 > 4$，所以 $a^2 = 9$，$b^2 = 4$，焦点在 $y$ 轴上。
+
+$a = 3$，$b = 2$，$c = \sqrt{a^2 - b^2} = \sqrt{9 - 4} = \sqrt{5}$.
+
+\textbf{第三步：得出结论}
+\begin{itemize}
+    \item 长轴：$2a = 6$
+    \item 短轴：$2b = 4$
+    \item 焦点坐标：$(0, \pm\sqrt{5})$
+    \item 离心率：$e = \dfrac{c}{a} = \dfrac{\sqrt{5}}{3}$
+\end{itemize}
+\hfill $\square$
+
+\section{双曲线}
+
+\begin{definition}[双曲线]
+平面内与两个定点 $F_1$、$F_2$ 的距离之差的绝对值等于常数（小于 $|F_1F_2|$）的点的轨迹叫做\textbf{双曲线}。这两个定点叫做双曲线的\textbf{焦点}。
+\end{definition}
+
+\begin{theorem}[双曲线的标准方程]
+\begin{enumerate}
+    \item 焦点在 $x$ 轴上：$\dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1$ \quad ($a > 0, b > 0$)
+    \item 焦点在 $y$ 轴上：$\dfrac{y^2}{a^2} - \dfrac{x^2}{b^2} = 1$ \quad ($a > 0, b > 0$)
+\end{enumerate}
+其中 $c = \sqrt{a^2 + b^2}$ 为半焦距。
+\end{theorem}
+
+\begin{theorem}[双曲线的渐近线]
+\begin{enumerate}
+    \item 双曲线 $\dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1$ 的渐近线方程为 $y = \pm\dfrac{b}{a}x$；
+    \item 双曲线 $\dfrac{y^2}{a^2} - \dfrac{x^2}{b^2} = 1$ 的渐近线方程为 $y = \pm\dfrac{a}{b}x$。
+\end{enumerate}
+\end{theorem}
+
+\begin{note}
+椭圆与双曲线对比记忆：
+\begin{itemize}
+    \item 椭圆：和为常数，$a^2 = b^2 + c^2$，$e < 1$
+    \item 双曲线：差为常数，$c^2 = a^2 + b^2$，$e > 1$
+\end{itemize}
+\end{note}
+
+\section{抛物线}
+
+\begin{definition}[抛物线]
+平面内与一个定点 $F$ 和一条定直线 $l$（$F \notin l$）距离相等的点的轨迹叫做\textbf{抛物线}。定点 $F$ 叫做抛物线的\textbf{焦点}，定直线 $l$ 叫做抛物线的\textbf{准线}。
+\end{definition}
+
+\begin{theorem}[抛物线的标准方程]
+\begin{center}
+\begin{tabular}{c|c|c|c}
+\toprule
+方程 & 焦点坐标 & 准线方程 & 开口方向 \\
+\midrule
+$y^2 = 2px$ ($p > 0$) & $\left(\dfrac{p}{2}, 0\right)$ & $x = -\dfrac{p}{2}$ & 向右 \\
+$y^2 = -2px$ ($p > 0$) & $\left(-\dfrac{p}{2}, 0\right)$ & $x = \dfrac{p}{2}$ & 向左 \\
+$x^2 = 2py$ ($p > 0$) & $\left(0, \dfrac{p}{2}\right)$ & $y = -\dfrac{p}{2}$ & 向上 \\
+$x^2 = -2py$ ($p > 0$) & $\left(0, -\dfrac{p}{2}\right)$ & $y = \dfrac{p}{2}$ & 向下 \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{theorem}
+
+\begin{note}
+记忆口诀：\textbf{一次项定轴，系数定方向}——看哪个变量是一次项，焦点就在哪条轴上；系数为正则向正方向开口。
+\end{note}
+
+\section{直线与圆锥曲线的位置关系}
+
+\begin{theorem}[位置关系的判定]
+设直线 $l: y = kx + m$ 与圆锥曲线联立，消去 $y$ 得到关于 $x$ 的一元二次方程 $ax^2 + bx + c = 0$，判别式 $\Delta = b^2 - 4ac$：
+\begin{enumerate}
+    \item $\Delta > 0$：直线与曲线相交于两点；
+    \item $\Delta = 0$：直线与曲线相切；
+    \item $\Delta < 0$：直线与曲线相离。
+\end{enumerate}
+\end{theorem}
+
+\begin{example}
+已知直线 $y = x + 1$ 与椭圆 $\dfrac{x^2}{4} + \dfrac{y^2}{3} = 1$，判断它们的位置关系。
+\end{example}
+
+\textbf{解.}
+
+联立方程：
+\[ \begin{cases} y = x + 1 \\ \dfrac{x^2}{4} + \dfrac{y^2}{3} = 1 \end{cases} \]
+
+将 $y = x + 1$ 代入椭圆方程：
+\[ \frac{x^2}{4} + \frac{(x+1)^2}{3} = 1 \]
+
+两边同乘 $12$：
+\[ 3x^2 + 4(x+1)^2 = 12 \]
+\[ 3x^2 + 4(x^2 + 2x + 1) = 12 \]
+\[ 7x^2 + 8x - 8 = 0 \]
+
+判别式：$\Delta = 64 + 224 = 288 > 0$
+
+因此，直线与椭圆相交于两点。\hfill $\square$
+
+\section{圆锥曲线的统一定义}
+
+\begin{definition}[圆锥曲线的统一定义]
+平面内到一个定点 $F$ 和到一条定直线 $l$（$F \notin l$）的距离之比等于常数 $e$ 的点的轨迹：
+\begin{enumerate}
+    \item 当 $0 < e < 1$ 时，轨迹是\textbf{椭圆}；
+    \item 当 $e = 1$ 时，轨迹是\textbf{抛物线}；
+    \item 当 $e > 1$ 时，轨迹是\textbf{双曲线}。
+\end{enumerate}
+这个常数 $e$ 叫做圆锥曲线的\textbf{离心率}。
+\end{definition}
+
+\begin{note}
+统一性理解：
+\begin{itemize}
+    \item 椭圆：到焦点距离 $<$ 到准线距离（"偏心"程度小）
+    \item 抛物线：到焦点距离 $=$ 到准线距离（"不偏不倚"）
+    \item 双曲线：到焦点距离 $>$ 到准线距离（"偏心"程度大）
+\end{itemize}
+\end{note}

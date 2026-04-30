@@ -1,0 +1,135 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=2.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{ctex}
+\usepackage{amsmath,amssymb,amsfonts,mathtools}
+\usepackage[mathbf=sym]{unicode-math}
+\setmainfont{STIX Two Text}
+\setmathfont{STIX Two Math}
+\setsansfont{Arial}
+\setmonofont{Courier New}
+\setCJKmainfont[BoldFont=Noto Serif CJK SC Bold]{Noto Serif CJK SC}
+\setCJKsansfont[BoldFont=Noto Sans CJK SC Bold]{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans CJK SC}
+\newCJKfontfamily\examkaishu{FandolKai-Regular}
+\usepackage{graphicx}
+\usepackage{booktabs,array,multirow,tabularx}
+\usepackage{fancyhdr}
+\usepackage{needspace}
+\usepackage{tikz}
+\usepackage{hyperref}
+\hypersetup{colorlinks=false}
+\usepackage{parskip}
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0em}
+\usepackage{xcolor}
+
+% 数学符号
+\renewcommand{\ge}{\geqslant}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\leq}{\leqslant}
+
+% 知识点标签
+\newcommand{\kp}[1]{%
+    \par\vspace{0.3em}\noindent%
+    {\small\textcolor{gray}{#1}}%
+    \par\vspace{0.2em}%
+}
+
+% 答案解析区域
+\newenvironment{solutionblock}{%
+    \par\vspace{0.5em}%
+    \noindent\rule{\textwidth}{0.4pt}%
+    \vspace{0.5em}%
+    \noindent\textbf{【参考答案与解析】}%
+    \par\vspace{0.3em}%
+    {\small%
+}{%
+    \par}%
+}
+
+% 答案标签
+\newcommand{\anslabel}[1]{%
+    \par\vspace{0.2em}\noindent%
+    \textbf{#1}%
+    \ignorespaces%
+}
+
+% 页眉页脚
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\examkaishu 虹口区高三二模·压轴新定义}
+\fancyhead[R]{\small\examkaishu 第 \thepage 页}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\begin{document}
+
+{\centering\Large\bfseries 五、压轴新定义\par}
+\vspace{0.3em}
+\hrule
+\vspace{0.5em}
+
+# 2025-2026学年虹口区高三二模数学试卷
+## 五、压轴新定义
+(函数性质综合)
+
+
+\textbf{考试时间：120分钟  满分：150分}
+
+
+21. 若对于定义在 $\mathbf{R}$ 上的函数 $y = f\left( x\right)$ ,设 $I$ 是 $\mathbf{R}$ 的一个子集， ${X}_{1}$ 和 ${x}_{2}$ 是 $I$ 上任意给定的两个实数,当 ${x}_{1} \neq  {x}_{2}$ 时,恒有 $f\left( {x}_{1}\right)  \neq  f\left( {x}_{2}\right)$ ,则称函数 $y = f\left( x\right)$ 在 $I$ 上具有 “性质 $P$ ”
+
+(1)分别判断函数 $y = {\mathrm{e}}^{x}$ 和 $y = {x}^{\frac{2}{3}}$ 是否在 $\mathbf{R}$ 上具有 “性质 $P$ ” ; (无需说明理由)
+
+(2) 设 $I = \left\lbrack  {-2, - 1}\right\rbrack   \cup  \left\lbrack  {2,3}\right\rbrack$ ,记 $f\left( x\right)  = \left\{  \begin{array}{l}  - x + k, x \leq  k, \\  {\left( x - k\right) }^{2}, x > k \end{array}\right.$ ,若函数 $y = f\left( x\right)$ 在 $I$ 上具有 “性质 $P$ ”,求实数 $k$ 的取值范围;
+
+
+
+
+<br><br><br><br><br><br><br><br>
+
+
+---
+
+\begin{solutionblock}
+{\small \anslabel{【考点】：} 新定义函数、单射性质、分类讨论、函数方程}
+{\small \anslabel{【答案】} (1) $y = {\mathrm{e}}^{x}$ 在 $\mathrm{R}$ 上具有 “性质 $P$ ”; $y = {x}^{\frac{2}{3}}$ 在 $\mathrm{R}$ 上不具有 “性质 $P$ ”.}
+{\small (2) $\left( {-\infty , - 2\rbrack \cup \lbrack  - 1,\frac{5 - \sqrt{17}}{2}}\right)  \cup  \left( {\frac{7 - \sqrt{17}}{2},2\rbrack \cup \lbrack 3, + \infty }\right)$}
+{\small (3)见解析}
+{\small \anslabel{【解析】}}
+{\small \anslabel{【分析】} (1) 根据 “性质 $P$ ” 的定义,判断函数 $y = {\mathrm{e}}^{x}$ 和 $y = {x}^{\frac{2}{3}}$ 在 $\mathrm{R}$ 上是否满足 “性质 $P$ ”.}
+{\small (2)分情况讨论函数 $f\left( x\right)$ 在不同区间上的单调性，结合 “性质 $P$ ” 的定义确定 $k$ 的取值范围.}
+{\small (3)先证明集合 $M$ 非空，再通过反证法证明集合 $M$ 是无限集或单元素集.}
+{\small \textbf{【小问 1 详解】}}
+{\small 因为 $y = {\mathrm{e}}^{x}$ 是严格增函数,则根据 “性质 $P$ ” 的定义可知,函数 $y = {\mathrm{e}}^{x}$ 在 $\mathrm{R}$ 上具有 “性质 $P$ ”;}
+{\small 因为 ${\left( -1\right) }^{\frac{2}{3}} = {1}^{\frac{2}{3}}$ ,则函数 $y = {x}^{\frac{2}{3}}$ 在 $\mathbf{R}$ 上不具有 “性质 $P$ ”.}
+{\small \textbf{【小问 2 详解】}}
+{\small 当 $k \leq   - 2$ 时,此时 $f\left( x\right)  = {\left( x - k\right) }^{2}$ 在 $\left\lbrack  {-2, - 1}\right\rbrack$ 和 $\left\lbrack  {2,3}\right\rbrack$ 上单调递增,函数 $y = f\left( x\right)$ 在 $I$ 上具有“性质 $P$ ”.}
+{\small 当 $k \geq  3$ 时,此时 $f\left( x\right)  =  - x + k$ 在 $\left\lbrack  {-2, - 1}\right\rbrack$ 和 $\left\lbrack  {2,3}\right\rbrack$ 上单调递减,函数 $y = f\left( x\right)$ 在 $I$ 上具有 “性质 $P$ ”.}
+{\small 当 $- 2 < k <  - 1$ 时,函数 $f\left( x\right)$ 在区间 $\left\lbrack  {-2, - 1}\right\rbrack$ 不单调, $\therefore y = f\left( x\right)$ 在 $I$ 不具有 “性质 $P$ ”. 当 $- 1 \leq  k \leq  2$ 时,此时 $f\left( x\right)$ 在 $\left\lbrack  {-2, - 1}\right\rbrack$ 上单调递减,在 $\left\lbrack  {2,3}\right\rbrack$ 上单调递增,}
+{\small 要使函数 $y = f\left( x\right)$ 在 $I$ 上具有 “性质 $P$ ”,}
+{\small 则需满足 $f\left( {-1}\right)  > f\left( 3\right)$ 或 $f\left( {-2}\right)  < f\left( 2\right)$ ,即 $1 + k > {\left( 3 - k\right) }^{2}$ 或 $2 + k < {\left( 2 - k\right) }^{2}$ ,}
+{\small 整理得 ${k}^{2} - {7k} + 8 < 0$ 或 ${k}^{2} - {5k} + 2 > 0$ ,解得 $\frac{7 - \sqrt{17}}{2} < k < \frac{7 + \sqrt{17}}{2}$ 或 $k < \frac{5 - \sqrt{17}}{2}$ 或 $k > \frac{5 + \sqrt{17}}{2}$}
+{\small 又 $- 1 \leq  k \leq  2$ ,得 $- 1 \leq  k < \frac{5 - \sqrt{17}}{2}$ 或 $\frac{7 - \sqrt{17}}{2} < k \leq  2$ .}
+{\small 当 $2 < k < 3$ 时，函数 $f\left( x\right)$ 在区间 $\left\lbrack  {2,3}\right\rbrack$ 不单调， $\therefore f\left( x\right)$ 在 $I$ 上不具有“性质 $P$ ”.}
+{\small 综上,实数 $k$ 的取值范围是 $\left( {-\infty , - 2\rbrack \cup \lbrack  - 1,\frac{5 - \sqrt{17}}{2}}\right)  \cup  \left( {\frac{7 - \sqrt{17}}{2},2\rbrack \cup \lbrack 3, + \infty }\right)$ .}
+{\small \textbf{【小问 3 详解】}}
+{\small 证明: 因为函数 $y = f\left( x\right)$ 在 $\mathbf{R}$ 上具有 “性质 $P$ ”,其图像是连续曲线, $\therefore f\left( x\right)$ 在 $\mathrm{R}$ 上单调.}
+{\small 若 $f\left( x\right)$ 单调递减,假设 $M$ 中至少有 2 个元素 $a < b$ ,则 $f\left( a\right)  = a, f\left( b\right)  = b,\because f\left( x\right)$ 单调递减,}
+{\small $\therefore a\langle b \Rightarrow  f\left( a\right) \rangle f\left( b\right)  \Rightarrow  a > b$ ,矛盾,因此 $M$ 最多一个元素.}
+{\small 若 $f\left( x\right)$ 单调递增,假设 $M$ 中至少有 2 个元素 $a < b$ ,则 $f\left( a\right)  = a, f\left( b\right)  = b$ .}
+{\small 对 $\forall x \in  \left( {a, b}\right)$ ,若 $f\left( x\right)  > x$ ,由于 $f\left( x\right)$ 单调递增, $f\left( {f\left( x\right) }\right)  > f\left( x\right)  \Rightarrow  x > f\left( x\right)$ ,矛盾若 $f\left( x\right)  < x$ ,由于 $f\left( x\right)$ 单调递增, $f\left( {f\left( x\right) }\right)  < f\left( x\right)  \Rightarrow  x < f\left( x\right)$ ,矛盾.}
+{\small 因此对 $\forall x \in  \left( {a, b}\right)$ ,必有 $f\left( x\right)  = x$ ,即 $\left( {a, b}\right)  \subseteq  M, M$ 是无限集.}
+{\small 令 $g\left( x\right)  = f\left( x\right)  - x, g\left( x\right)$ 是连续函数,若 $f\left( x\right)$ 单调递增:}
+{\small 若 $f\left( x\right)  > x$ 对所有 $x$ 都成立,则 $f\left( {f\left( x\right) }\right)  > f\left( x\right)  > x$ ,与 $f\left( {f\left( x\right) }\right)  = x$ 矛盾.}
+{\small 若 $f\left( x\right)  < x$ 对所有 $x$ 都成立,则 $f\left( {f\left( x\right) }\right)  < f\left( x\right)  < x$ ,与 $f\left( {f\left( x\right) }\right)  = x$ 矛盾.}
+{\small 故存在 ${x}_{1} < {x}_{2}$ ,使 $\mathrm{g}\left( {x}_{1}\right)  > 0,\mathrm{\;g}\left( {x}_{2}\right)  < 0$ ,由零点存在定理, $\exists c \in  \left( {{x}_{1},{x}_{2}}\right)$ ,使 $g\left( c\right)  = 0$ ,即 $f\left( c\right)  = c, M$ 非空.}
+{\small 若 $f\left( x\right)$ 单调递减:}
+{\small 当 $x \rightarrow   + \infty , f\left( x\right)  \rightarrow   - \infty , x \rightarrow   - \infty , f\left( x\right)  \rightarrow   + \infty$ ,}
+{\small $\therefore x \rightarrow   + \infty , g\left( x\right)  \rightarrow   - \infty , x \rightarrow   - \infty , g\left( x\right)  \rightarrow   + \infty$ ,}
+{\small 由零点存在定理, $\exists c$ 使 $g\left( c\right)  = 0, M$ 非空.}
+{\small 综上, $M$ 要么是单元素集,要么是无限集,命题得证.}
+\end{solutionblock}
+\end{document}

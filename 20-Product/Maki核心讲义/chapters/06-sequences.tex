@@ -1,0 +1,136 @@
+\chapter{数列}
+
+\section{数列的概念}
+
+\begin{definition}[数列]
+按照一定顺序排列的一列数叫做\textbf{数列}。数列中的每一个数叫做这个数列的\textbf{项}，第 $n$ 项记作 $a_n$。
+\end{definition}
+
+\begin{definition}[数列的通项公式]
+如果数列 $\{a_n\}$ 的第 $n$ 项 $a_n$ 与序号 $n$ 之间的关系可以用一个公式表示，那么这个公式就叫做这个数列的\textbf{通项公式}。
+\end{definition}
+
+\begin{definition}[数列的前 $n$ 项和]
+数列 $\{a_n\}$ 的前 $n$ 项和记作 $S_n$，即：
+\[ S_n = a_1 + a_2 + \cdots + a_n = \sum_{k=1}^{n} a_k \]
+\end{definition}
+
+\begin{theorem}[通项与前 $n$ 项和的关系]
+\[ a_n = \begin{cases} S_1, & n = 1 \\ S_n - S_{n-1}, & n \geq 2 \end{cases} \]
+\end{theorem}
+
+\section{等差数列}
+
+\begin{definition}[等差数列]
+如果一个数列从第二项起，每一项与它的前一项的差都等于同一个常数，这个数列就叫做\textbf{等差数列}。这个常数叫做等差数列的\textbf{公差}，通常用字母 $d$ 表示。
+\end{definition}
+
+\begin{theorem}[等差数列的通项公式]
+设等差数列 $\{a_n\}$ 的首项为 $a_1$，公差为 $d$，则：
+\[ a_n = a_1 + (n-1)d \]
+\end{theorem}
+
+\begin{theorem}[等差数列的前 $n$ 项和公式]
+\[ S_n = \frac{n(a_1 + a_n)}{2} = na_1 + \frac{n(n-1)}{2}d \]
+\end{theorem}
+
+\begin{note}
+记忆口诀：\textbf{首末相加乘项数，除以二}——等差数列求和公式的形象记忆。
+\end{note}
+
+\begin{property}[等差数列的性质]
+\begin{enumerate}
+    \item 若 $m + n = p + q$，则 $a_m + a_n = a_p + a_q$；
+    \item 等差中项：$2a_n = a_{n-1} + a_{n+1}$（$n \geq 2$）；
+    \item 数列 $\{a_n\}$ 是等差数列 $\Leftrightarrow$ $a_n = An + B$（$A, B$ 为常数）。
+\end{enumerate}
+\end{property}
+
+\begin{example}
+已知等差数列 $\{a_n\}$ 中，$a_3 = 5$，$a_7 = 13$，求 $a_{10}$ 和 $S_{10}$。
+\end{example}
+
+\textbf{解.}
+
+\textbf{第一步：求公差}
+由 $a_7 = a_3 + 4d$，得 $13 = 5 + 4d$，所以 $d = 2$.
+
+\textbf{第二步：求首项}
+$a_1 = a_3 - 2d = 5 - 4 = 1$.
+
+\textbf{第三步：求 $a_{10}$}
+$a_{10} = a_1 + 9d = 1 + 18 = 19$.
+
+\textbf{第四步：求 $S_{10}$}
+\[ S_{10} = \frac{10(a_1 + a_{10})}{2} = \frac{10(1 + 19)}{2} = 100 \]
+\hfill $\square$
+
+\section{等比数列}
+
+\begin{definition}[等比数列]
+如果一个数列从第二项起，每一项与它的前一项的比都等于同一个常数，这个数列就叫做\textbf{等比数列}。这个常数叫做等比数列的\textbf{公比}，通常用字母 $q$ 表示（$q \neq 0$）。
+\end{definition}
+
+\begin{theorem}[等比数列的通项公式]
+设等比数列 $\{a_n\}$ 的首项为 $a_1$，公比为 $q$，则：
+\[ a_n = a_1 \cdot q^{n-1} \]
+\end{theorem}
+
+\begin{theorem}[等比数列的前 $n$ 项和公式]
+\[ S_n = \begin{cases} na_1, & q = 1 \\ \dfrac{a_1(1-q^n)}{1-q} = \dfrac{a_1 - a_nq}{1-q}, & q \neq 1 \end{cases} \]
+\end{theorem}
+
+\begin{note}
+注意：使用等比数列求和公式时，必须先判断公比 $q$ 是否为 $1$！
+\end{note}
+
+\begin{property}[等比数列的性质]
+\begin{enumerate}
+    \item 若 $m + n = p + q$，则 $a_m \cdot a_n = a_p \cdot a_q$；
+    \item 等比中项：$a_n^2 = a_{n-1} \cdot a_{n+1}$（$n \geq 2$，各项同号时）；
+    \item 等比数列中不能有 $0$ 项。
+\end{enumerate}
+\end{property}
+
+\begin{example}
+已知等比数列 $\{a_n\}$ 中，$a_1 = 2$，$q = 3$，求 $a_5$ 和 $S_5$。
+\end{example}
+
+\textbf{解.}
+
+\[ a_5 = a_1 \cdot q^4 = 2 \cdot 3^4 = 2 \cdot 81 = 162 \]
+
+\[ S_5 = \frac{a_1(1-q^5)}{1-q} = \frac{2(1-243)}{1-3} = \frac{2(-242)}{-2} = 242 \]
+\hfill $\square$
+
+\section{数列求和方法}
+
+\begin{theorem}[裂项相消法]
+常见裂项公式：
+\begin{enumerate}
+    \item $\dfrac{1}{n(n+1)} = \dfrac{1}{n} - \dfrac{1}{n+1}$
+    \item $\dfrac{1}{n(n+2)} = \dfrac{1}{2}\left(\dfrac{1}{n} - \dfrac{1}{n+2}\right)$
+    \item $\dfrac{1}{(2n-1)(2n+1)} = \dfrac{1}{2}\left(\dfrac{1}{2n-1} - \dfrac{1}{2n+1}\right)$
+\end{enumerate}
+\end{theorem}
+
+\begin{theorem}[错位相减法]
+适用于等差数列与等比数列对应项相乘构成的数列求和。
+
+设 $S_n = a_1b_1 + a_2b_2 + \cdots + a_nb_n$，其中 $\{a_n\}$ 为等差数列，$\{b_n\}$ 为等比数列。
+\end{theorem}
+
+\begin{example}
+求数列 $\left\{\dfrac{1}{n(n+1)}\right\}$ 的前 $n$ 项和 $S_n$。
+\end{example}
+
+\textbf{解.}
+
+\[ \frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1} \]
+
+所以：
+\begin{align*}
+S_n &= \left(1 - \frac{1}{2}\right) + \left(\frac{1}{2} - \frac{1}{3}\right) + \left(\frac{1}{3} - \frac{1}{4}\right) + \cdots + \left(\frac{1}{n} - \frac{1}{n+1}\right) \\
+&= 1 - \frac{1}{n+1} = \frac{n}{n+1}
+\end{align*}
+\hfill $\square$

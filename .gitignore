@@ -17,11 +17,23 @@ Icon?
 .claudian/
 .claude/
 .trash/
+.agent/
+.agents/
+.trae/
+copilot/copilot-conversations/
+mini-数学资料库/
 
 # === 构建产物 ===
 *.pdf
 *.html
 build/
+node_modules/
+venv/
+*.aux
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
 
 # === 日志/临时文件 ===
 *.log
@@ -32,6 +44,8 @@ build/
 # === 图片附件（试卷扫描件等，体积大）===
 04-试卷汇总/**/images/
 03-上海教材md/**/images/
+!04-试卷汇总/2026届虹口区高三下二模数学试卷-Huashu/images/
+!04-试卷汇总/2026届虹口区高三下二模数学试卷-Huashu/images/**
 
 # === 节点模块（如果有）===
 node_modules/
